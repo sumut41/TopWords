@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorTextTabBarSelected" format="color"/>
+    <attr name="colorTextTabBarDefault" format="color"/>
+    <attr name="colorSurface" format="color"/>
+    <attr name="colorBottomSheetModalBackground" format="color"/>
+</resources>

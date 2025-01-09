@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main_graph"
+    app:startDestination="@id/startScreenFragment">
+
+    <fragment
+        android:id="@+id/exampleFragment"
+        android:name="com.skyvo.mobile.top.words.example.ExampleFragment"
+        android:label="ExampleFragment" />
+
+    <fragment
+        android:id="@+id/startScreenFragment"
+        android:name="com.skyvo.mobile.top.words.onboarding.StartScreenFragment"
+        android:label="StartScreenFragment" />
+</navigation>

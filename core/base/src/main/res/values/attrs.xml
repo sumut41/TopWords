@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="splashFragment" type="id"/>
+    <item name="dashboardFragment" type="id"/>
+    <item name="loginFragment" type="id"/>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundPrimaryColor">#03A9F4</color>
+    <color name="backgroundWindowLightColor">#FFFFFF</color>
+    <color name="backgroundWindowDarkColor">#090909</color>
+    <color name="tabBarTextSelectedLightColor">#090909</color>
+    <color name="tabBarTextSelectedDarkColor">#FFFFFF</color>
+    <color name="tabBarTextDefaultLightColor">#9E9E9E</color>
+    <color name="tabBarTextDefaultDarkColor">#5F5F5F</color>
+    <color name="surfaceLightColor">#FFFFFF</color>
+    <color name="surfaceDarkColor">#090909</color>
+    <color name="bottomSheetModelBackgroundLightColor">#FFFFFF</color>
+    <color name="bottomSheetModelBackgroundDarkColor">#262626</color>
+</resources>

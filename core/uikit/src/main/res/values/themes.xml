@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.App.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/backgroundPrimaryColor</item>
+        <item name="android:windowBackground">@color/backgroundWindowLightColor</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/backgroundWindowLightColor</item>
+        <item name="colorTextTabBarSelected">@color/tabBarTextSelectedLightColor</item>
+        <item name="colorTextTabBarDefault">@color/tabBarTextDefaultLightColor</item>
+        <item name="colorSurface">@color/surfaceLightColor</item>
+        <item name="colorBottomSheetModalBackground">@color/bottomSheetModelBackgroundLightColor</item>
+    </style>
+</resources>

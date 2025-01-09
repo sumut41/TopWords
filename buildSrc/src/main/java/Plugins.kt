@@ -1,0 +1,17 @@
+object Plugins {
+    const val androidApplication = "com.android.application"
+    const val kotlinAndroid = "org.jetbrains.kotlin.android"
+    const val artifactory = "com.jfrog.artifactory"
+    const val androidLibrary = "com.android.library"
+    const val composeCompiler = "org.jetbrains.kotlin.plugin.compose"
+    const val kotlinKapt = "kotlin-kapt"
+    const val parcelize = "kotlin-parcelize"
+    const val serialization = "kotlinx-serialization"
+    const val pluginSerialization = "org.jetbrains.kotlin.plugin.serialization"
+    const val navigationSafeargs = "androidx.navigation.safeargs"
+    const val googleService = "com.google.gms.google-services"
+    const val kotlinClassPath = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlinVersion}"
+    const val hilt = "com.google.dagger.hilt.android"
+    const val firebaseCrashlytics = "com.google.firebase.crashlytics"
+    const val firebaseCrashlyticsClassPath = "com.google.firebase:firebase-crashlytics-gradle:${Versions.firebaseCrashlytics}"
+}

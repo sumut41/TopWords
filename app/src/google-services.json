@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "816789403447",
+    "project_id": "topwords-90b70",
+    "storage_bucket": "topwords-90b70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816789403447:android:5fab12b469076da85d0cb2",
+        "android_client_info": {
+          "package_name": "com.skyvo.mobile.top.words"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVKnFFFfQN84D5ooKCUfr7hdWnIv3Qu2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

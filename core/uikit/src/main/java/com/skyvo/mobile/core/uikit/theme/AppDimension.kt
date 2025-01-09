@@ -1,0 +1,68 @@
+package com.skyvo.mobile.core.uikit.theme
+
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+
+data class AppDimension(
+    val buttonLargeRadius: Dp,
+    val buttonLargeHeight: Dp,
+    val buttonSmallRadius: Dp,
+    val buttonSmallHeight: Dp,
+    val dp0: Dp,
+    val dp1: Dp,
+    val dp2: Dp,
+    val dp3: Dp,
+    val dp4: Dp,
+    val dp5: Dp,
+    val dp6: Dp,
+    val dp8: Dp,
+    val dp12: Dp,
+    val dp16: Dp,
+    val dp20: Dp,
+    val dp22: Dp,
+    val dp24: Dp,
+    val dp30: Dp,
+    val dp32: Dp,
+    val dp34: Dp,
+    val dp40: Dp,
+    val dp42: Dp,
+    val dp48: Dp,
+    val dp52: Dp,
+    val dp56: Dp,
+    val dp64: Dp,
+    val dp100: Dp,
+    val dp128: Dp,
+) {
+    companion object {
+        val default = AppDimension(
+            buttonLargeRadius = 12.dp,
+            buttonLargeHeight = 48.dp,
+            buttonSmallRadius = 8.dp,
+            buttonSmallHeight = 34.dp,
+            dp0 = 0.dp,
+            dp1 = 1.dp,
+            dp2 = 2.dp,
+            dp3 = 3.dp,
+            dp4 = 4.dp,
+            dp5 = 5.dp,
+            dp6 = 6.dp,
+            dp8 = 8.dp,
+            dp12 = 12.dp,
+            dp16 = 16.dp,
+            dp20 = 20.dp,
+            dp22 = 22.dp,
+            dp24 = 24.dp,
+            dp30 = 30.dp,
+            dp32 = 32.dp,
+            dp34 = 34.dp,
+            dp40 = 40.dp,
+            dp42 = 42.dp,
+            dp48 = 48.dp,
+            dp52 = 52.dp,
+            dp56 = 56.dp,
+            dp64 = 64.dp,
+            dp100 = 100.dp,
+            dp128 = 128.dp,
+        )
+    }
+}
