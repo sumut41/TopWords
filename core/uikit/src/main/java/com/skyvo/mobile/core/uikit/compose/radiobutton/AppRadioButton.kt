@@ -24,7 +24,7 @@ fun AppRadioButton(
     appRadioButtonDirection: AppRadioButtonDirection = AppRadioButtonDirection.LEFT,
     selectedColor: Color = LocalAppColor.current.colorRadioButtonChecked,
     unSelectedColor: Color = LocalAppColor.current.colorRadioButtonUnChecked,
-    textColor: Color = LocalAppColor.current.colorTextSubtle,
+    textColor: Color = LocalAppColor.current.colorTextSubtler,
     onClick: (() -> Unit)?
 ) {
     Row(

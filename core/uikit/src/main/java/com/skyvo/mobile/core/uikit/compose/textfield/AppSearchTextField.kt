@@ -126,7 +126,7 @@ fun AppSearchTextField(
                         AppText(
                             text = placeholder,
                             style = AppTypography.default.body,
-                            color = LocalAppColor.current.colorTextSubtle
+                            color = LocalAppColor.current.colorTextSubtler
                         )
                     }
                     innerTextField()

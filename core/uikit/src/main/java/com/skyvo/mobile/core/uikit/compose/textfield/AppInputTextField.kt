@@ -43,7 +43,7 @@ fun AppInputTextField(
     borderColor: Color = LocalAppColor.current.colorBorderInputsDefault,
     focusedBorderColor: Color = LocalAppColor.current.colorBorderInputsSelected,
     errorBorderColor: Color = LocalAppColor.current.colorTextInformationWarningBold,
-    placeholderTextColor: Color = LocalAppColor.current.colorTextSubtle,
+    placeholderTextColor: Color = LocalAppColor.current.colorTextSubtler,
     onPreChangeValue: ((String) -> Unit)? = null
 ) {
     AppBasicTextField(

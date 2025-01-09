@@ -73,7 +73,7 @@ fun AppBasicTextField(
     borderColor: Color = LocalAppColor.current.colorBorderInputsDefault,
     focusedBorderColor: Color = LocalAppColor.current.colorBorderInputsSelected,
     errorBorderColor: Color = LocalAppColor.current.colorTextInformationWarningBold,
-    placeholderTextColor: Color = LocalAppColor.current.colorTextSubtle,
+    placeholderTextColor: Color = LocalAppColor.current.colorTextSubtler,
     onPreChangeValue: ((String) -> Unit)? = null
 ) {
     val focusManager = LocalFocusManager.current
@@ -195,7 +195,7 @@ fun AppBasicTextField(
                                         text = labelText,
                                         maxLines = if (singleLine) 1 else maxLines,
                                         style = AppTypography.default.bodySmallBold,
-                                        color = LocalAppColor.current.colorTextSubtle
+                                        color = LocalAppColor.current.colorTextSubtler
                                     )
                                 } else {
                                     if (!placeholder.isNullOrEmpty()) {
@@ -203,7 +203,7 @@ fun AppBasicTextField(
                                             text = placeholder,
                                             maxLines = if (singleLine) 1 else maxLines,
                                             style = AppTypography.default.body,
-                                            color = LocalAppColor.current.colorTextSubtle
+                                            color = LocalAppColor.current.colorTextSubtler
                                         )
                                     }
                                 }
@@ -219,8 +219,8 @@ fun AppBasicTextField(
                                 focusedIndicatorColor = Color.Transparent,
                                 unfocusedIndicatorColor = Color.Transparent,
                                 disabledIndicatorColor = Color.Transparent,
-                                focusedLabelColor = LocalAppColor.current.colorTextSubtle,
-                                placeholderColor = LocalAppColor.current.colorTextSubtle
+                                focusedLabelColor = LocalAppColor.current.colorTextSubtler,
+                                placeholderColor = LocalAppColor.current.colorTextSubtler
                             )
                         )
                     }
@@ -286,7 +286,7 @@ fun AppBasicTextField(
     borderColor: Color = LocalAppColor.current.colorBorderInputsDefault,
     focusedBorderColor: Color = LocalAppColor.current.colorBorderInputsSelected,
     errorBorderColor: Color = LocalAppColor.current.colorTextInformationWarningBold,
-    placeholderTextColor: Color = LocalAppColor.current.colorTextSubtle,
+    placeholderTextColor: Color = LocalAppColor.current.colorTextSubtler,
     onPreChangeValue: ((String) -> Unit)? = null
 ) {
     val focusManager = LocalFocusManager.current
@@ -396,14 +396,14 @@ fun AppBasicTextField(
                                         text = labelText.orEmpty(),
                                         maxLines = if (singleLine) 1 else maxLines,
                                         style = AppTypography.default.bodySmallBold,
-                                        color = LocalAppColor.current.colorTextSubtle
+                                        color = LocalAppColor.current.colorTextSubtler
                                     )
                                 } else {
                                     Text(
                                         text = placeholder.orEmpty(),
                                         maxLines = if (singleLine) 1 else maxLines,
                                         style = AppTypography.default.body,
-                                        color = LocalAppColor.current.colorTextSubtle
+                                        color = LocalAppColor.current.colorTextSubtler
                                     )
                                 }
                             },
@@ -418,8 +418,8 @@ fun AppBasicTextField(
                                 focusedIndicatorColor = Color.Transparent,
                                 unfocusedIndicatorColor = Color.Transparent,
                                 disabledIndicatorColor = Color.Transparent,
-                                focusedLabelColor = LocalAppColor.current.colorTextSubtle,
-                                placeholderColor = LocalAppColor.current.colorTextSubtle
+                                focusedLabelColor = LocalAppColor.current.colorTextSubtler,
+                                placeholderColor = LocalAppColor.current.colorTextSubtler
                             )
                         )
                     }

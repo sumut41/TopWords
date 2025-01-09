@@ -56,7 +56,7 @@ class StartScreenFragment : BaseComposeFragment<StartScreenViewModel>() {
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(paddingValues)
-                        .padding(horizontal = 16.dp),
+                        .padding(horizontal = AppDimension.default.dp16),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Image(
@@ -68,7 +68,7 @@ class StartScreenFragment : BaseComposeFragment<StartScreenViewModel>() {
                             .fillMaxHeight(0.5f)
                     )
 
-                    Spacer(modifier = Modifier.height(32.dp))
+                    Spacer(modifier = Modifier.height(AppDimension.default.dp32))
 
                     AppText(
                         text = "Learn a language easily with cards",
@@ -76,12 +76,13 @@ class StartScreenFragment : BaseComposeFragment<StartScreenViewModel>() {
                         textAlign = TextAlign.Center,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(bottom = 16.dp)
+                            .padding(bottom = AppDimension.default.dp16)
                     )
 
                     AppText(
                         text = "Learn words using cards, choosing levels that are convenient for you",
                         textAlign = TextAlign.Center,
+                        color = LocalAppColor.current.colorTextSubtler,
                         modifier = Modifier.fillMaxWidth()
                     )
                 }

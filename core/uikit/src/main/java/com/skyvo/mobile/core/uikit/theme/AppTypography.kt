@@ -10,6 +10,7 @@ import androidx.compose.ui.unit.sp
 data class AppTypography(
     val bigLargeTitleBold: TextStyle,
     val brandMedium: TextStyle,
+    val headerBold: TextStyle,
     val brandTitle: TextStyle,
     val bodyXXlargeSemiBold: TextStyle,
     val bodyExtraLarge: TextStyle,
@@ -47,6 +48,13 @@ data class AppTypography(
                 fontWeight = FontWeight.Bold,
                 fontSize = 24.sp,
                 lineHeight = 28.sp,
+                letterSpacing = 0.2.sp,
+            ),
+            headerBold = TextStyle(
+                fontFamily = AppFonts.Inter,
+                fontWeight = FontWeight.Bold,
+                fontSize = 24.sp,
+                lineHeight = 26.sp,
                 letterSpacing = 0.2.sp,
             ),
             bodyXXlargeSemiBold = TextStyle(

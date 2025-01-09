@@ -32,7 +32,7 @@ fun AppClickableText(
     text: String,
     clickableTextList: List<AppClickableTextArea> = emptyList(),
     spanColor: Color = LocalAppColor.current.colorTextSubtler,
-    defaultColor: Color = LocalAppColor.current.colorTextSubtle
+    defaultColor: Color = LocalAppColor.current.colorTextSubtler
 ) {
     val appClickableTextData = mutableListOf<AppClickableTextData>()
     if (clickableTextList.isEmpty()) {
