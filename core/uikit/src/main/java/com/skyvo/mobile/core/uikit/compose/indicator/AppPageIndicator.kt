@@ -20,9 +20,9 @@ fun AppPageIndicator(
     currentPosition: Int,
     pageCount: Int,
     indicatorActiveSize: Dp = AppDimension.default.dp16,
-    indicatorInActiveSize: Dp = AppDimension.default.dp6,
+    indicatorInActiveSize: Dp = AppDimension.default.dp8,
     activeColor: Color = LocalAppColor.current.primary,
-    inActiveColor: Color = LocalAppColor.current.secondary
+    inActiveColor: Color = LocalAppColor.current.colorIndicatorDefault
 ) {
     Row(
         modifier = modifier
@@ -31,10 +31,10 @@ fun AppPageIndicator(
             Box(
                 modifier = Modifier
                     .width(if (index == currentPosition) indicatorActiveSize else indicatorInActiveSize)
-                    .height(AppDimension.default.dp6)
+                    .height(AppDimension.default.dp8)
                     .background(
                         color = if (index == currentPosition) activeColor else inActiveColor,
-                        shape = RoundedCornerShape(AppDimension.default.dp6)
+                        shape = RoundedCornerShape(AppDimension.default.dp8)
                     )
             )
             AppSpacer(width = AppDimension.default.dp5)

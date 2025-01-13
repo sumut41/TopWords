@@ -2,15 +2,30 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_main_graph"
-    app:startDestination="@id/startScreenFragment">
-
-    <fragment
-        android:id="@+id/exampleFragment"
-        android:name="com.skyvo.mobile.top.words.example.ExampleFragment"
-        android:label="ExampleFragment" />
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/startScreenFragment"
-        android:name="com.skyvo.mobile.top.words.onboarding.StartScreenFragment"
-        android:label="StartScreenFragment" />
+        android:name="com.skyvo.mobile.top.words.onboarding.intro.StartScreenFragment"
+        android:label="StartScreenFragment" >
+        <action
+            android:id="@+id/action_startScreenFragment_to_chooseLanguageFragment"
+            app:destination="@id/chooseLanguageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.skyvo.mobile.top.words.onboarding.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_startScreenFragment"
+            app:destination="@id/startScreenFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chooseLanguageFragment"
+        android:name="com.skyvo.mobile.top.words.language.ChooseLanguageFragment"
+        android:label="ChooseLanguageFragment" />
+
 </navigation>

@@ -53,6 +53,8 @@ android {
 dependencies {
     implementation(project(BuildModules.CORE.BASE))
     implementation(project(BuildModules.CORE.UIKIT))
+    implementation(project(BuildModules.FEATURE.BOOKS))
+    implementation(project(BuildModules.FEATURE.WORDS))
 
     implementation(Dependencies.androidXCore)
     implementation(Dependencies.appcompat)

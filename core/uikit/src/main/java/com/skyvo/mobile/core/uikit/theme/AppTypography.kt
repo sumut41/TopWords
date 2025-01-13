@@ -8,6 +8,7 @@ import androidx.compose.ui.unit.sp
 
 @Immutable
 data class AppTypography(
+    val logoTextStyle: TextStyle,
     val bigLargeTitleBold: TextStyle,
     val brandMedium: TextStyle,
     val headerBold: TextStyle,
@@ -29,6 +30,13 @@ data class AppTypography(
 ) {
     companion object {
         val default = AppTypography(
+            logoTextStyle = TextStyle(
+                fontFamily = AppFonts.Goldman,
+                fontWeight = FontWeight.Normal,
+                fontSize = 30.sp,
+                lineHeight = 36.sp,
+                letterSpacing = 0.2.sp,
+            ),
             bigLargeTitleBold = TextStyle(
                 fontFamily = AppFonts.Inter,
                 fontWeight = FontWeight.Black,

@@ -27,48 +27,51 @@ import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 
 @Composable
-fun AppTopHeader(
+fun AppTopLongHeader(
     title: String,
     backgroundColor: Color = LocalAppColor.current.colorSurfaceBase,
     onBackClickListener: (() -> Unit)? = null
 ) {
-    Row (
+    Row(
         modifier = Modifier
-            .height(AppDimension.default.headerHeight)
+            .height(AppDimension.default.longHeaderHeight)
             .background(color = backgroundColor),
-        verticalAlignment = Alignment.CenterVertically
+        verticalAlignment = Alignment.Top
     ) {
-        Box {
-            onBackClickListener?.let {
-                Box(
-                    modifier = Modifier
-                        .padding(start = AppDimension.default.dp24)
-                        .size(AppDimension.default.dp32)
-                        .background(
-                            color = LocalAppColor.current.colorIconBackground,
-                            shape = RoundedCornerShape(AppDimension.default.dp10)
-                        )
-                        .clickable {
-                            onBackClickListener.invoke()
-                        },
-                    contentAlignment = Alignment.Center
-                ) {
-                    AppIcon(
-                        modifier = Modifier.size(AppDimension.default.dp20),
-                        imageVector = ImageVector.vectorResource(R.drawable.ic_back),
-                        tint = LocalAppColor.current.colorIcon,
-                        contentDescription = "Theme"
+        onBackClickListener?.let {
+            Box(
+                modifier = Modifier
+                    .padding(
+                        top = AppDimension.default.dp24,
+                        start = AppDimension.default.dp24
                     )
-                }
+                    .size(AppDimension.default.dp32)
+                    .background(
+                        color = LocalAppColor.current.colorIconBackground,
+                        shape = RoundedCornerShape(AppDimension.default.dp10)
+                    )
+                    .clickable {
+                        onBackClickListener.invoke()
+                    },
+                contentAlignment = Alignment.Center
+            ) {
+                AppIcon(
+                    modifier = Modifier.size(AppDimension.default.dp20),
+                    imageVector = ImageVector.vectorResource(R.drawable.ic_back),
+                    tint = LocalAppColor.current.colorIcon,
+                    contentDescription = "Theme"
+                )
             }
-
-            AppText(
-                modifier = Modifier.fillMaxWidth(),
-                text = title,
-                style = AppTypography.default.headerBold,
-                textAlign = TextAlign.Center
-            )
         }
+
+        AppText(
+            modifier = Modifier
+                .padding(top = AppDimension.default.dp24)
+                .fillMaxWidth(),
+            text = title,
+            style = AppTypography.default.headerBold,
+            textAlign = TextAlign.Center
+        )
     }
 }
 
@@ -76,10 +79,10 @@ fun AppTopHeader(
     uiMode = Configuration.UI_MODE_NIGHT_NO
 )
 @Composable
-fun PreviewHeader() {
+fun PreviewAppTopLongHeader() {
     AppPrimaryTheme {
-        AppTopHeader(
-            title = " Dessadsa"
+        AppTopLongHeader(
+            title = "What language are you want to study?"
         ) {
             // click
         }

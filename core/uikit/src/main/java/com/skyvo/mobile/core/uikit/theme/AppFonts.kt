@@ -2,17 +2,15 @@ package com.skyvo.mobile.core.uikit.theme
 
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import com.skyvo.mobile.core.uikit.R
 
 class AppFonts {
     companion object {
-        val FoundersGrotesk = FontFamily(
-            Font(R.font.grotesk_regular, FontWeight.Normal),
-            Font(R.font.grotesk_medium, FontWeight.Medium),
-            Font(R.font.grotesk_bold, FontWeight.Bold),
+        val Goldman = FontFamily(
+            Font(R.font.goldman_regular, FontWeight.Normal),
         )
+
         val Inter = FontFamily(
             Font(R.font.inter_bold, FontWeight.Bold),
             Font(R.font.inter_semi_bold, FontWeight.SemiBold),

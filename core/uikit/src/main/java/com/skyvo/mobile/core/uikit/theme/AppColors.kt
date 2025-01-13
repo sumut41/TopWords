@@ -39,6 +39,7 @@ data class AppCoreColorScheme(
     val colorIconBrandBoldRed: Color = Color.Unspecified,
     val colorProgressBarForeground: Color = Color.Unspecified,
     val colorProgressBarBackground: Color = Color.Unspecified,
+    val colorIndicatorDefault: Color = Color.Unspecified
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -50,7 +51,7 @@ val AppLightColors = AppCoreColorScheme(
     surface = Color(0xFFFFFFFE),
     onSurface = Color(0xFF14161B),
     colorSurfaceBase = Color(0xFFFFFFFE),
-    colorTextMain = Color(0xFF14161B),
+    colorTextMain = Color(0xFF08162C),
     colorTextOnPrimary = Color(0xFF14161B),
     colorTextOnSecondary = Color(0xFF14161B),
     colorBackgroundButtonPrimaryDefault = Color(0xFFE8C506),
@@ -60,12 +61,12 @@ val AppLightColors = AppCoreColorScheme(
     colorTextDisabled = Color(0xFFFFFFFF),
     colorBorderInputsDefault = Color(0xFF8C8C8C),
     colorBorderSelected = Color(0xFFF1CC06),
-    colorBackgroundSelected = Color(0xFFFFFFFE),
+    colorBackgroundSelected = Color(0xFFF8F8F7),
     colorCheckBoxChecked = Color(0xFFFFEB3B),
     colorCheckBoxUnchecked = Color(0xFFDADACE),
     colorTextSubtler = Color(0xFF8D8DA6),
-    colorIcon = Color(0xFF14161B),
-    colorIconBackground = Color(0xFFD2D2D2),
+    colorIcon = Color(0xFF262E3D),
+    colorIconBackground = Color(0xFFD8DBE4),
     colorBackgroundDecorativeGreySubtler = Color(0xFF919191),
     colorBackgroundInputsToggleBaseOff = Color(0x9E021C5D),
     colorRadioButtonChecked = Color(0xFFE1F620),
@@ -77,6 +78,7 @@ val AppLightColors = AppCoreColorScheme(
     colorIconBrandBoldRed = Color(0xD39D031B),
     colorProgressBarForeground = Color(0xFFFFEB3B),
     colorProgressBarBackground = Color(0x48AFA9A9),
+    colorIndicatorDefault = Color(0xFFD8DBE4),
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -115,6 +117,7 @@ val AppDarkColors = AppCoreColorScheme(
     colorIconBrandBoldRed = Color(0xD39D031B),
     colorProgressBarForeground = Color(0xFFFFEB3B),
     colorProgressBarBackground = Color(0x48AFA9A9),
+    colorIndicatorDefault = Color(0xFF474850)
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

@@ -8,13 +8,8 @@ object BuildModules {
         const val NETWORK = ":core:network"
     }
 
-    object FEATURE {}
-
-    /*
-      Oluşturduğuuz feature modülleri burada tanımlayabiliriz.
-      Bunları kullanmak için bunları eklemek istediğimiz
-      gradle içine
-      implementation(project(BuildModules.BASE))
-      olarak ekleyebiliriz
-     */
+    object FEATURE {
+        const val BOOKS = ":feature:books"
+        const val WORDS = ":feature:words"
+    }
 }

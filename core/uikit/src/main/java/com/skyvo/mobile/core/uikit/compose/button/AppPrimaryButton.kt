@@ -4,6 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -39,6 +40,7 @@ fun AppPrimaryLargeButton(
         onClick = onClick,
         shape = RoundedCornerShape(AppDimension.default.buttonLargeRadius),
         modifier = modifier
+            .fillMaxWidth()
             .height(AppDimension.default.buttonLargeHeight),
         enabled = enabled,
         contentPadding = PaddingValues(

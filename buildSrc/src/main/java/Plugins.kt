@@ -3,7 +3,6 @@ object Plugins {
     const val kotlinAndroid = "org.jetbrains.kotlin.android"
     const val artifactory = "com.jfrog.artifactory"
     const val androidLibrary = "com.android.library"
-    const val composeCompiler = "org.jetbrains.kotlin.plugin.compose"
     const val kotlinKapt = "kotlin-kapt"
     const val parcelize = "kotlin-parcelize"
     const val serialization = "kotlinx-serialization"
