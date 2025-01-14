@@ -1,8 +1,7 @@
 package com.skyvo.mobile.top.words.language
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
@@ -11,13 +10,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.Language
-import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
@@ -30,9 +27,10 @@ import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
+class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() {
 
-    override val viewModel: ChooseLanguageViewModel by viewModels()
+    override val viewModel: NaturalLanguageViewModel by viewModels()
+    override var displayBottomNavigationBarMenu: Boolean = false
 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
@@ -41,7 +39,7 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
     }
 
     @Composable
-    private fun ContentView(viewModel: ChooseLanguageViewModel) {
+    private fun ContentView(viewModel: NaturalLanguageViewModel) {
         createLanguageList(viewModel)
         val state by viewModel.state.collectAsStateWithLifecycle()
 
@@ -49,7 +47,7 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "What language are you want to study?",
+                        title = "Choose Your Native Language",
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -57,12 +55,12 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
                 },
                 bottomView = {
                     AppPrimaryLargeButton(
-                        modifier = Modifier,
                         text = "Continue",
-                        enabled = state.enableButton
-                    ) {
-                        viewModel.next()
-                    }
+                        onClick = { viewModel.next() },
+                        modifier = Modifier
+                            .fillMaxWidth(),
+                        enabled = state.selectedLanguage != null
+                    )
                 }
             ) {
                 LazyColumn {
@@ -74,9 +72,12 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
 
                     items(state.languages) { language ->
                         AppChooseItemComponent(
-                            modifier = Modifier.padding(all = AppDimension.default.dp16),
+                            modifier = Modifier.padding(
+                                horizontal = AppDimension.default.dp16,
+                                vertical = AppDimension.default.dp8
+                            ),
                             text = language.name,
-                            isSelected = state.selectLanguage == language,
+                            isSelected = state.selectedLanguage == language,
                             startContent = {
                                 Image(
                                     modifier = Modifier.size(
@@ -87,9 +88,7 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
                                     contentDescription = language.name
                                 )
                             },
-                            onSelectListener = { isSelect ->
-                                viewModel.updateSelectLanguage(if (isSelect) language else null)
-                            }
+                            onSelectListener = { viewModel.onLanguageSelected(language) }
                         )
                     }
 
@@ -103,7 +102,7 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
         }
     }
 
-    private fun createLanguageList(vm: ChooseLanguageViewModel) {
+    private fun createLanguageList(vm: NaturalLanguageViewModel) {
         val list: ArrayList<Language> = arrayListOf()
         list.add(
             Language(
@@ -112,13 +111,55 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
                 icon = R.drawable.ic_flag_en
             )
         )
+        list.add(
+            Language(
+                code = "es",
+                name = "Española",
+                icon = R.drawable.ic_flag_es
+            )
+        )
+        list.add(
+            Language(
+                code = "fr",
+                name = "Français",
+                icon = R.drawable.ic_flag_fr
+            )
+        )
+        list.add(
+            Language(
+                code = "de",
+                name = "Deutsch",
+                icon = R.drawable.ic_flag_de
+            )
+        )
+        list.add(
+            Language(
+                code = "it",
+                name = "Italiano",
+                icon = R.drawable.ic_flag_it
+            )
+        )
+        list.add(
+            Language(
+                code = "pt",
+                name = "Português",
+                icon = R.drawable.ic_flag_pt
+            )
+        )
+        list.add(
+            Language(
+                code = "tr",
+                name = "Türkçe",
+                icon = R.drawable.ic_flag_tr
+            )
+        )
+        list.add(
+            Language(
+                code = "ru",
+                name = "русский",
+                icon = R.drawable.ic_flag_ru
+            )
+        )
         vm.setLanguageList(list)
     }
-
-    @Preview
-    @Composable
-    private fun Preview() {
-        val vm = ChooseLanguageViewModel(UserMockManager())
-        ContentView(vm)
-    }
-}
+} 

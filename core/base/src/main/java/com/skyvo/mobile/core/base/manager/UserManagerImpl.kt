@@ -61,13 +61,13 @@ class UserManagerImpl @Inject constructor(
             userPrefs.set(KEY_IS_DARK_THEME, value)
         }
 
-    override var learnLanguageCode: String?
+    override var learnLanguage: Language?
         get() = userPrefs.get(KEY_LEARN_LANGUAGE_CODE)
         set(value) {
             userPrefs.set(KEY_LEARN_LANGUAGE_CODE, value)
         }
 
-    override var defaultLanguageCode: String?
+    override var nativeLanguage: Language?
         get() = userPrefs.get(KEY_DEFAULT_LANGUAGE_CODE)
         set(value) {
             userPrefs.set(KEY_DEFAULT_LANGUAGE_CODE, value)

@@ -2,6 +2,14 @@ package com.skyvo.mobile.core.base.manager
 
 class UserMockManager: UserManager {
     override var isDarkTheme: Boolean = true
-    override var learnLanguageCode: String? = "en"
-    override var defaultLanguageCode: String? = "tr"
+    override var learnLanguage: Language? = Language(
+        code = "en",
+        name = "English",
+        icon = -1
+    )
+    override var nativeLanguage: Language? = Language(
+        code = "tr",
+        name = "Turkish",
+        icon = -1
+    )
 }

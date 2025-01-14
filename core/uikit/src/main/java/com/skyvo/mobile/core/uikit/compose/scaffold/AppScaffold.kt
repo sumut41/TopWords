@@ -26,7 +26,7 @@ fun AppScaffold(
     bottomView: @Composable (() -> Unit)? = null,
     backgroundColor: Color = LocalAppColor.current.background,
     headerColor: Color = LocalAppColor.current.colorSurfaceBase,
-    bottomBackgroundColor: Color = Color.Transparent,
+    bottomBackgroundColor: Color = LocalAppColor.current.background,
     paddingValues: PaddingValues = PaddingValues(top = AppDimension.default.dp56),
     content: @Composable (PaddingValues) -> Unit
 ) {

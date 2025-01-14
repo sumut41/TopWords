@@ -43,7 +43,7 @@ data class AppDimension(
             buttonSmallRadius = 8.dp,
             buttonSmallHeight = 34.dp,
             headerHeight = 80.dp,
-            longHeaderHeight = 112.dp,
+            longHeaderHeight = 108.dp,
             dp0 = 0.dp,
             dp1 = 1.dp,
             dp2 = 2.dp,
