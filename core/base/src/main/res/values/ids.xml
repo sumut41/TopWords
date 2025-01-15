@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="booksDashboardFragment" type="id"/>
+    <item name="wordsDashboardFragment" type="id"/>
+    <item name="settingsFragment" type="id"/>
+</resources>

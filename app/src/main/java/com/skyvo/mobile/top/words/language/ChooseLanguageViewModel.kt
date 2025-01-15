@@ -3,6 +3,8 @@ package com.skyvo.mobile.top.words.language
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.Language
 import com.skyvo.mobile.core.base.manager.UserManager
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
+import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
@@ -30,16 +32,18 @@ class ChooseLanguageViewModel @Inject constructor(
         setState {
             copy(
                 selectLanguage = language,
-                enableButton = language?.code.isNullOrEmpty().not()
+                enableButton = language != null
             )
         }
     }
 
     fun next() {
-        userManager.learnLanguage = state.value.selectLanguage
-        viewModelScope.launch {
-            delay(100)
-            // navigate
+        state.value.selectLanguage?.let { language ->
+            userManager.learnLanguage = language
+            viewModelScope.launch {
+                delay(100)
+                navigate(NavDeeplinkDestination.WordsDashboard)
+            }
         }
     }
 }

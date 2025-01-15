@@ -2,6 +2,7 @@ package com.skyvo.mobile.core.uikit.compose.picker
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -39,7 +40,10 @@ fun AppChooseItemComponent(
                 width = 1.dp,
                 color = if (isSelected) LocalAppColor.current.primary else LocalAppColor.current.colorBackgroundSelected,
                 shape = RoundedCornerShape(AppDimension.default.dp16)
-            ),
+            )
+            .clickable {
+                onSelectListener.invoke(isSelected.not())
+            },
         verticalAlignment = Alignment.CenterVertically
     ) {
         Row(

@@ -61,25 +61,6 @@ inline fun <reified T> SharedPreferences.get(key: String, defaultValue: T? = nul
     }
 }
 
-inline fun <reified T> SharedPreferences.put(key: String, value: T) {
-    val editor = this.edit()
-    value?.let {
-        when(T::class) {
-            String::class -> editor.putString(key, value as String)
-            Int::class -> editor.putInt(key, value as Int)
-            Long::class -> editor.putLong(key, value as Long)
-            Float::class -> editor.putFloat(key, value as Float)
-            Boolean::class -> editor.putBoolean(key, value as Boolean)
-            else -> {
-                val json = it.run { Gson().toJson(this) }
-                editor.putString(key, json)
-            }
-        }
-    }
-
-    editor.apply()
-}
-
 fun SharedPreferences.delete(key: String) {
     this.edit().remove(key).apply()
 }

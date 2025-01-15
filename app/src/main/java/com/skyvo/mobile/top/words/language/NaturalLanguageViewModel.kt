@@ -1,13 +1,9 @@
 package com.skyvo.mobile.top.words.language
 
-import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.Language
 import com.skyvo.mobile.core.base.manager.UserManager
-import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
@@ -33,11 +29,9 @@ class NaturalLanguageViewModel @Inject constructor(
         }
     }
 
-
     fun next() {
-        userManager.learnLanguage = state.value.selectedLanguage
-        viewModelScope.launch {
-            delay(100)
+        state.value.selectedLanguage?.let { language ->
+            userManager.nativeLanguage = language
             navigate(NaturalLanguageFragmentDirections.actionNaturalLanguageFragmentToChooseLanguageFragment())
         }
     }

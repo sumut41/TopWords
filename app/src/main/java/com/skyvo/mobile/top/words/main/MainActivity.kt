@@ -2,6 +2,8 @@ package com.skyvo.mobile.top.words.main
 
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
 import androidx.activity.viewModels
 import androidx.core.view.WindowCompat
 import androidx.core.view.isVisible
@@ -11,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.skyvo.mobile.core.base.activity.BaseActivity
 import com.skyvo.mobile.core.base.deeplink.DeeplinkManager
+import com.skyvo.mobile.core.base.navigation.deeplinkNavigate
 import com.skyvo.mobile.top.words.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -42,6 +45,7 @@ class MainActivity : BaseActivity<MainViewModel>() {
         setContentView(R.layout.activity_main)
         bottomNavigationView = findViewById(R.id.bottom_navigation_view)
         navigateSetup()
+        onBackListener()
     }
 
     private fun navigateSetup() {
@@ -50,5 +54,26 @@ class MainActivity : BaseActivity<MainViewModel>() {
         navController = navHostFragment.navController
         bottomNavigationView.setupWithNavController(navController)
         deeplinkManager.setNavController(navController)
+    }
+
+    private fun onBackListener() {
+        val callback = object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                if (navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.wordsDashboardFragment ||
+                    navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.booksDashboardFragment ||
+                    navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.settingsFragment
+                ) {
+                   /* navController.deeplinkNavigate(
+                        navDeeplinkDestination =
+                    ) */
+                    Toast.makeText(applicationContext, "ÇIKIŞ", Toast.LENGTH_LONG).show()
+                } else if (navController.currentDestination?.id == R.id.splashFragment) {
+                    finish()
+                } else {
+                    navController.popBackStack()
+                }
+            }
+        }
+        onBackPressedDispatcher.addCallback(this, callback)
     }
 }

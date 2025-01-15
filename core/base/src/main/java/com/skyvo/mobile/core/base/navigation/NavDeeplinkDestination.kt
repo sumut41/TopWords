@@ -4,7 +4,7 @@ sealed class NavDeeplinkDestination(
     private val _deeplink: String
 ) {
     companion object {
-        val scheme = ""
+        val scheme = "top-words://"
     }
 
     val deeplink
@@ -27,7 +27,11 @@ sealed class NavDeeplinkDestination(
     )
 
     // argument yoksa
-    object HomeFragment: NavDeeplinkDestination(
+    data object HomeFragment: NavDeeplinkDestination(
         _deeplink = "" // xml deeplink
+    )
+
+    data object WordsDashboard: NavDeeplinkDestination(
+        _deeplink = "words/dashboard"
     )
 }

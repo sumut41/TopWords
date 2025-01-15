@@ -4,6 +4,10 @@
     android:id="@+id/nav_main_graph"
     app:startDestination="@id/splashFragment">
 
+    <include app:graph="@navigation/navigation_books"/>
+    <include app:graph="@navigation/navigation_words"/>
+    <include app:graph="@navigation/navigation_settings"/>
+
     <fragment
         android:id="@+id/startScreenFragment"
         android:name="com.skyvo.mobile.top.words.onboarding.intro.StartScreenFragment"
@@ -35,6 +39,17 @@
     <fragment
         android:id="@+id/chooseLanguageFragment"
         android:name="com.skyvo.mobile.top.words.language.ChooseLanguageFragment"
-        android:label="ChooseLanguageFragment" />
+        android:label="ChooseLanguageFragment" >
+        <action
+            android:id="@+id/action_chooseLanguageFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/startScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.skyvo.mobile.top.words.dashboard.DashboardFragment"
+        android:label="DashboardFragment" />
 
 </navigation>
