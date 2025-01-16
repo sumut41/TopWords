@@ -23,7 +23,7 @@
         android:id="@+id/bottom_navigation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?colorSurface"
+        android:background="?colorBottomMenu"
         app:itemIconTint="@drawable/tab_bar_select_icon_color"
         app:itemTextColor="@drawable/tab_bar_select_text_color"
         app:labelVisibilityMode="labeled"

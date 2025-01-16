@@ -2,6 +2,9 @@
 <resources>
     <attr name="colorTextTabBarSelected" format="color"/>
     <attr name="colorTextTabBarDefault" format="color"/>
+    <attr name="colorIconTabBarSelected" format="color"/>
+    <attr name="colorIconTabBarDefault" format="color"/>
     <attr name="colorSurface" format="color"/>
+    <attr name="colorBottomMenu" format="color"/>
     <attr name="colorBottomSheetModalBackground" format="color"/>
 </resources>

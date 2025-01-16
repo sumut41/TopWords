@@ -39,46 +39,48 @@ data class AppCoreColorScheme(
     val colorIconBrandBoldRed: Color = Color.Unspecified,
     val colorProgressBarForeground: Color = Color.Unspecified,
     val colorProgressBarBackground: Color = Color.Unspecified,
-    val colorIndicatorDefault: Color = Color.Unspecified
+    val colorIndicatorDefault: Color = Color.Unspecified,
+    val colorBottomMenu: Color = Color.Unspecified
 )
 
 val AppLightColors = AppCoreColorScheme(
     background = Color(0xFFFFFFFE),
     onBackground = Color(0xFF14161B),
-    primary = Color(0xFFE8C506),
+    primary = Color(0xFFFFB81C),
     secondary = Color(0xFF42226E),
-    onPrimary = Color(0xFFE8C506),
+    onPrimary = Color(0xFFFFB81C),
     surface = Color(0xFFFFFFFE),
     onSurface = Color(0xFF14161B),
     colorSurfaceBase = Color(0xFFFFFFFE),
     colorTextMain = Color(0xFF08162C),
     colorTextOnPrimary = Color(0xFF14161B),
     colorTextOnSecondary = Color(0xFF14161B),
-    colorBackgroundButtonPrimaryDefault = Color(0xFFE8C506),
+    colorBackgroundButtonPrimaryDefault = Color(0xFFFFB81C),
     colorBackgroundButtonSecondaryDefault = Color(0xFFFFFFFE),
-    colorBackgroundButtonPrimaryDisabled = Color(0x73E8C506),
+    colorBackgroundButtonPrimaryDisabled = Color(0x59FFB81C),
     colorBackgroundButtonSecondaryDisabled = Color(0xFFFFFFFE),
     colorTextDisabled = Color(0xFFFFFFFF),
     colorBorderInputsDefault = Color(0xFF8C8C8C),
-    colorBorderSelected = Color(0xFFF1CC06),
+    colorBorderSelected = Color(0xFFFFB81C),
     colorBackgroundSelected = Color(0xFFF8F8F7),
-    colorCheckBoxChecked = Color(0xFFFFEB3B),
+    colorCheckBoxChecked = Color(0xFFFFB81C),
     colorCheckBoxUnchecked = Color(0xFFDADACE),
     colorTextSubtler = Color(0xFF8D8DA6),
     colorIcon = Color(0xFF262E3D),
     colorIconBackground = Color(0xFFD8DBE4),
     colorBackgroundDecorativeGreySubtler = Color(0xFF919191),
     colorBackgroundInputsToggleBaseOff = Color(0x9E021C5D),
-    colorRadioButtonChecked = Color(0xFFE1F620),
+    colorRadioButtonChecked = Color(0xFFFFB81C),
     colorRadioButtonUnChecked = Color(0xFFF1F1DB),
     colorTextInformationWarningBold = Color(0xFFE13B51),
     colorBackgroundInputsTextBox = Color(0xFFFFFFFE),
     colorBorderInputsSelected = Color(0x37092B49),
     colorBackgroundInformationSubtle = Color(0x48AFA9A9),
     colorIconBrandBoldRed = Color(0xD39D031B),
-    colorProgressBarForeground = Color(0xFFFFEB3B),
+    colorProgressBarForeground = Color(0xFFFFB81C),
     colorProgressBarBackground = Color(0x48AFA9A9),
     colorIndicatorDefault = Color(0xFFD8DBE4),
+    colorBottomMenu = Color(0xFFFFFFFE)
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -117,7 +119,8 @@ val AppDarkColors = AppCoreColorScheme(
     colorIconBrandBoldRed = Color(0xD39D031B),
     colorProgressBarForeground = Color(0xFFFFEB3B),
     colorProgressBarBackground = Color(0x48AFA9A9),
-    colorIndicatorDefault = Color(0xFF474850)
+    colorIndicatorDefault = Color(0xFF474850),
+    colorBottomMenu = Color(0xFF1C1F26)
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

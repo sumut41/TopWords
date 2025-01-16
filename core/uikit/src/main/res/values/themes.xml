@@ -9,5 +9,8 @@
         <item name="colorTextTabBarDefault">@color/tabBarTextDefaultLightColor</item>
         <item name="colorSurface">@color/surfaceLightColor</item>
         <item name="colorBottomSheetModalBackground">@color/bottomSheetModelBackgroundLightColor</item>
+        <item name="colorIconTabBarSelected">@color/tabBarIconSelectedLightColor</item>
+        <item name="colorIconTabBarDefault">@color/tabBarIconDefaultLightColor</item>
+        <item name="colorBottomMenu">@color/bottomMenuLightColor</item>
     </style>
 </resources>

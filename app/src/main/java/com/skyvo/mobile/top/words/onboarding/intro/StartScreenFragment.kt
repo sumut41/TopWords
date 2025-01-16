@@ -114,7 +114,6 @@ class StartScreenFragment : BaseComposeFragment<StartScreenViewModel>() {
                             },
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(bottom = AppDimension.default.dp8)
                         )
                     }
                 }

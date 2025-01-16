@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="backgroundPrimaryColor">#03A9F4</color>
-    <color name="backgroundWindowLightColor">#FFFFFF</color>
+    <color name="backgroundWindowLightColor">#FFFFFE</color>
     <color name="backgroundWindowDarkColor">#090909</color>
-    <color name="tabBarTextSelectedLightColor">#090909</color>
-    <color name="tabBarTextSelectedDarkColor">#FFFFFF</color>
-    <color name="tabBarTextDefaultLightColor">#9E9E9E</color>
-    <color name="tabBarTextDefaultDarkColor">#5F5F5F</color>
-    <color name="surfaceLightColor">#FFFFFF</color>
-    <color name="surfaceDarkColor">#090909</color>
-    <color name="bottomSheetModelBackgroundLightColor">#FFFFFF</color>
+    <color name="bottomMenuLightColor">#FFFFFE</color>
+    <color name="bottomMenuDarkColor">#1C1F26</color>
+    <color name="tabBarTextSelectedLightColor">#FFB81C</color>
+    <color name="tabBarTextSelectedDarkColor">#F1CC06</color>
+    <color name="tabBarTextDefaultLightColor">#778193</color>
+    <color name="tabBarTextDefaultDarkColor">#CACACA</color>
+    <color name="surfaceLightColor">#FFFFFE</color>
+    <color name="surfaceDarkColor">#1B1D25</color>
+    <color name="bottomSheetModelBackgroundLightColor">#FFFFFE</color>
     <color name="bottomSheetModelBackgroundDarkColor">#262626</color>
+    <color name="tabBarIconSelectedLightColor">#FFB81C</color>
+    <color name="tabBarIconSelectedDarkColor">#F1CC06</color>
+    <color name="tabBarIconDefaultLightColor">#778193</color>
+    <color name="tabBarIconDefaultDarkColor">#CACACA</color>
 </resources>

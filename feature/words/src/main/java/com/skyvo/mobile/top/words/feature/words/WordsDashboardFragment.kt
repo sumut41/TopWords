@@ -8,6 +8,7 @@ import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
+import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -26,7 +27,9 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
     fun ContentView(
         viewModel: WordsDashboardViewModel
     ) {
-        AppPrimaryTheme {
+        AppPrimaryTheme (
+            navigationBarColor = LocalAppColor.current.colorBottomMenu
+        ) {
             AppScaffold {
                 LazyColumn {
                     item {

@@ -46,5 +46,5 @@
             app:popUpTo="@id/startScreenFragment"
             app:popUpToInclusive="true" />
     </fragment>
-    
+
 </navigation>

@@ -4,10 +4,13 @@
         <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/backgroundPrimaryColor</item>
         <item name="android:windowBackground">@color/backgroundWindowDarkColor</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@color/backgroundWindowDarkColor</item>
+        <item name="android:navigationBarColor">@color/surfaceDarkColor</item>
         <item name="colorTextTabBarSelected">@color/tabBarTextSelectedDarkColor</item>
         <item name="colorTextTabBarDefault">@color/tabBarTextDefaultDarkColor</item>
         <item name="colorSurface">@color/surfaceDarkColor</item>
         <item name="colorBottomSheetModalBackground">@color/bottomSheetModelBackgroundDarkColor</item>
+        <item name="colorIconTabBarSelected">@color/tabBarIconSelectedDarkColor</item>
+        <item name="colorIconTabBarDefault">@color/tabBarIconDefaultDarkColor</item>
+        <item name="colorBottomMenu">@color/bottomMenuDarkColor</item>
     </style>
 </resources>

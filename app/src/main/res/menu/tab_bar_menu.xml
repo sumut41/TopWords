@@ -3,18 +3,20 @@
 
     <item
         android:id="@+id/navigation_words"
-        android:icon="@drawable/common_full_open_on_phone"
+        android:icon="@drawable/words_nav_selector"
         android:title="Words"
         android:checked="true"/>
 
     <item
         android:id="@+id/navigation_books"
-        android:icon="@drawable/common_full_open_on_phone"
-        android:title="Books"/>
+        android:icon="@drawable/books_nav_selector"
+        android:title="Books"
+        android:checked="false"/>
 
 
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/common_full_open_on_phone"
-        android:title="Settings"/>
+        android:icon="@drawable/settings_nav_selector"
+        android:title="Settings"
+        android:checked="false"/>
 </menu>
