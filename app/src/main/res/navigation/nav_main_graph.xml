@@ -46,10 +46,5 @@
             app:popUpTo="@id/startScreenFragment"
             app:popUpToInclusive="true" />
     </fragment>
-
-    <fragment
-        android:id="@+id/dashboardFragment"
-        android:name="com.skyvo.mobile.top.words.dashboard.DashboardFragment"
-        android:label="DashboardFragment" />
-
+    
 </navigation>
