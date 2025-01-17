@@ -4,14 +4,14 @@
     android:id="@+id/nav_main_graph"
     app:startDestination="@id/splashFragment">
 
-    <include app:graph="@navigation/navigation_books"/>
-    <include app:graph="@navigation/navigation_words"/>
-    <include app:graph="@navigation/navigation_settings"/>
+    <include app:graph="@navigation/navigation_books" />
+    <include app:graph="@navigation/navigation_words" />
+    <include app:graph="@navigation/navigation_settings" />
 
     <fragment
         android:id="@+id/startScreenFragment"
         android:name="com.skyvo.mobile.top.words.onboarding.intro.StartScreenFragment"
-        android:label="StartScreenFragment" >
+        android:label="StartScreenFragment">
         <action
             android:id="@+id/action_startScreenFragment_to_naturalLanguageFragment"
             app:destination="@id/naturalLanguageFragment" />
@@ -20,17 +20,16 @@
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.skyvo.mobile.top.words.onboarding.splash.SplashFragment"
-        android:label="SplashFragment" >
+        android:label="SplashFragment">
         <action
             android:id="@+id/action_splashFragment_to_startScreenFragment"
-            app:destination="@id/startScreenFragment"
-            />
+            app:destination="@id/startScreenFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/naturalLanguageFragment"
         android:name="com.skyvo.mobile.top.words.language.NaturalLanguageFragment"
-        android:label="NaturalLanguageFragment" >
+        android:label="NaturalLanguageFragment">
         <action
             android:id="@+id/action_naturalLanguageFragment_to_chooseLanguageFragment"
             app:destination="@id/chooseLanguageFragment" />
@@ -39,12 +38,15 @@
     <fragment
         android:id="@+id/chooseLanguageFragment"
         android:name="com.skyvo.mobile.top.words.language.ChooseLanguageFragment"
-        android:label="ChooseLanguageFragment" >
+        android:label="ChooseLanguageFragment">
         <action
-            android:id="@+id/action_chooseLanguageFragment_to_dashboardFragment"
-            app:destination="@id/dashboardFragment"
-            app:popUpTo="@id/startScreenFragment"
-            app:popUpToInclusive="true" />
+            android:id="@+id/action_chooseLanguageFragment_to_levelFragment"
+            app:destination="@id/levelFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/levelFragment"
+        android:name="com.skyvo.mobile.top.words.level.LevelFragment"
+        android:label="LevelFragment" />
 
 </navigation>

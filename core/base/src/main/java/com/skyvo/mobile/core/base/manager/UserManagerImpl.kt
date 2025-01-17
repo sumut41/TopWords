@@ -73,6 +73,12 @@ class UserManagerImpl @Inject constructor(
             userPrefs.set(KEY_DEFAULT_LANGUAGE_CODE, value)
         }
 
+    override var customerLevelList: CustomerLevelList?
+        get() = userPrefs.get(KEY_LEVEL_CODE)
+        set(value) {
+            userPrefs.set(KEY_LEVEL_CODE, value)
+        }
+
     companion object {
         private const val ROBOLECTRIC = "robolectric"
         private const val USER_PREFS = "encrypted_userh_prefs"
@@ -80,5 +86,6 @@ class UserManagerImpl @Inject constructor(
         private const val KEY_IS_DARK_THEME = "key_is_dark_theme"
         private const val KEY_LEARN_LANGUAGE_CODE = "key_learn_language_code"
         private const val KEY_DEFAULT_LANGUAGE_CODE = "key_default_language_code"
+        private const val KEY_LEVEL_CODE = "key_choose_level_list"
     }
 }

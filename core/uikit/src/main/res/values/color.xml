@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="backgroundPrimaryColor">#03A9F4</color>
+    <color name="backgroundPrimaryColor">#F1CC06</color>
     <color name="backgroundWindowLightColor">#FFFFFE</color>
     <color name="backgroundWindowDarkColor">#090909</color>
     <color name="bottomMenuLightColor">#FFFFFE</color>

@@ -40,7 +40,13 @@ data class AppCoreColorScheme(
     val colorProgressBarForeground: Color = Color.Unspecified,
     val colorProgressBarBackground: Color = Color.Unspecified,
     val colorIndicatorDefault: Color = Color.Unspecified,
-    val colorBottomMenu: Color = Color.Unspecified
+    val colorBottomMenu: Color = Color.Unspecified,
+    val colorA1Level: Color = Color.Unspecified,
+    val colorA2Level: Color = Color.Unspecified,
+    val colorB1Level: Color = Color.Unspecified,
+    val colorB2Level: Color = Color.Unspecified,
+    val colorC1Level: Color = Color.Unspecified,
+    val colorC2Level: Color = Color.Unspecified
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -80,7 +86,13 @@ val AppLightColors = AppCoreColorScheme(
     colorProgressBarForeground = Color(0xFFFFB81C),
     colorProgressBarBackground = Color(0x48AFA9A9),
     colorIndicatorDefault = Color(0xFFD8DBE4),
-    colorBottomMenu = Color(0xFFFFFFFE)
+    colorBottomMenu = Color(0xFFFFFFFE),
+    colorA1Level = Color(0xFF0EA489),
+    colorA2Level = Color(0xFF62A40E),
+    colorB1Level = Color(0xFFA48C0E),
+    colorB2Level = Color(0xFFA44D0E),
+    colorC1Level = Color(0xFFDC401D),
+    colorC2Level = Color(0xFFDC1D62),
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -120,7 +132,13 @@ val AppDarkColors = AppCoreColorScheme(
     colorProgressBarForeground = Color(0xFFFFEB3B),
     colorProgressBarBackground = Color(0x48AFA9A9),
     colorIndicatorDefault = Color(0xFF474850),
-    colorBottomMenu = Color(0xFF1C1F26)
+    colorBottomMenu = Color(0xFF1C1F26),
+    colorA1Level = Color(0xFF0EA489),
+    colorA2Level = Color(0xFF62A40E),
+    colorB1Level = Color(0xFFA48C0E),
+    colorB2Level = Color(0xFFA44D0E),
+    colorC1Level = Color(0xFFDC401D),
+    colorC2Level = Color(0xFFDC1D62),
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }
