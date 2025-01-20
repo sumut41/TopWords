@@ -46,7 +46,9 @@ data class AppCoreColorScheme(
     val colorB1Level: Color = Color.Unspecified,
     val colorB2Level: Color = Color.Unspecified,
     val colorC1Level: Color = Color.Unspecified,
-    val colorC2Level: Color = Color.Unspecified
+    val colorC2Level: Color = Color.Unspecified,
+    val colorBooksLevel: Color = Color.Unspecified,
+    val colorBottomSheetText: Color = Color.Unspecified,
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -93,6 +95,8 @@ val AppLightColors = AppCoreColorScheme(
     colorB2Level = Color(0xFFA44D0E),
     colorC1Level = Color(0xFFDC401D),
     colorC2Level = Color(0xFFDC1D62),
+    colorBooksLevel = Color(0xFFFFFFFE),
+    colorBottomSheetText = Color(0x0FFFFFFF),
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -139,6 +143,8 @@ val AppDarkColors = AppCoreColorScheme(
     colorB2Level = Color(0xFFA44D0E),
     colorC1Level = Color(0xFFDC401D),
     colorC2Level = Color(0xFFDC1D62),
+    colorBooksLevel = Color(0xFFFFFFFE),
+    colorBottomSheetText = Color(0xFFFFFFFF),
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

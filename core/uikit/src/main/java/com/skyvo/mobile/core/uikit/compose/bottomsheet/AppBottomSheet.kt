@@ -17,6 +17,7 @@ import androidx.compose.material3.SheetValue
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
@@ -31,14 +32,16 @@ fun AppBottomSheet(
     isWithTopPadding: Boolean = true,
     isWithBottomPadding: Boolean = false,
     skipPartiallyExpanded: Boolean = false,
-    isOutSideDissmissDisable: Boolean = false,
+    isOutSideDismissDisable: Boolean = false,
+    containerColor: Color = LocalAppColor.current.colorSurfaceBase,
+    contentColor: Color = LocalAppColor.current.colorSurfaceBase,
     content: @Composable () -> Unit
 ) {
 
     val modalBottomSheetState = rememberModalBottomSheetState(
         skipPartiallyExpanded = skipPartiallyExpanded,
         confirmValueChange = {
-            !(it == SheetValue.Hidden && isOutSideDissmissDisable)
+            !(it == SheetValue.Hidden && isOutSideDismissDisable)
         }
     )
 
@@ -50,8 +53,8 @@ fun AppBottomSheet(
             topStart = AppDimension.default.dp12,
             topEnd = AppDimension.default.dp12
         ),
-        containerColor = LocalAppColor.current.colorSurfaceBase,
-        contentColor = LocalAppColor.current.colorSurfaceBase
+        containerColor = containerColor,
+        contentColor = contentColor
     ) {
         Column(
             modifier = Modifier

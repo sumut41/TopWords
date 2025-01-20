@@ -16,8 +16,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.debugInspectorInfo
 import androidx.compose.ui.semantics.Role
+import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 
 @Composable
 fun LazyListState.isScrollingUp(): Boolean {
@@ -73,4 +75,17 @@ fun Modifier.ghostClickable(
         indication = null,
         interactionSource = remember { MutableInteractionSource() }
     )
+}
+
+@Composable
+fun setTextColor(level: String?): Color {
+    return when(level) {
+        "A1" -> LocalAppColor.current.colorA1Level
+        "A2" -> LocalAppColor.current.colorA2Level
+        "B1" -> LocalAppColor.current.colorB1Level
+        "B2" -> LocalAppColor.current.colorB2Level
+        "C1" -> LocalAppColor.current.colorC1Level
+        "C2" -> LocalAppColor.current.colorC2Level
+        else -> LocalAppColor.current.colorTextMain
+    }
 }
