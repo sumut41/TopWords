@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.skyvo.mobile.core.uikit.R
@@ -29,6 +30,7 @@ import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 @Composable
 fun AppTopHeader(
     title: String,
+    titleStyle: TextStyle = AppTypography.default.headerBold,
     backgroundColor: Color = LocalAppColor.current.colorSurfaceBase,
     onBackClickListener: (() -> Unit)? = null
 ) {
@@ -38,7 +40,7 @@ fun AppTopHeader(
             .background(color = backgroundColor),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Box {
+        Row {
             onBackClickListener?.let {
                 Box(
                     modifier = Modifier
@@ -65,7 +67,7 @@ fun AppTopHeader(
             AppText(
                 modifier = Modifier.fillMaxWidth(),
                 text = title,
-                style = AppTypography.default.headerBold,
+                style = titleStyle,
                 textAlign = TextAlign.Center
             )
         }
