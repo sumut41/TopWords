@@ -11,4 +11,12 @@ class WordsDashboardViewModel @Inject constructor() :
     override fun setInitialState(): WordsDashboardUIState {
         return WordsDashboardUIState()
     }
+
+    fun updateTabIndex(index: Int) {
+        setState {
+            copy(
+                selectedTabIndex = index
+            )
+        }
+    }
 }

@@ -33,6 +33,8 @@ import androidx.compose.ui.graphics.drawscope.ContentDrawScope
 import androidx.compose.ui.graphics.nativeCanvas
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
+import com.skyvo.mobile.core.uikit.theme.AppLightColors
+import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 
 @Composable
@@ -45,9 +47,9 @@ fun AppTabRow(
     BoxWithConstraints(
         modifier
             .padding(AppDimension.default.dp8)
-            .height(AppDimension.default.dp56)
+            .height(AppDimension.default.dp48)
             .clip(RoundedCornerShape(AppDimension.default.dp8))
-            .background(LocalAppColor.current.primary)
+            .background(LocalAppColor.current.colorTabBackgroundColor)
             .padding(AppDimension.default.dp8)
     ) {
         if (items.isNotEmpty()) {
@@ -92,7 +94,7 @@ fun AppTabRow(
                             drawRoundRect(
                                 topLeft = Offset(x = indicatorOffset.toPx(), y = 0f),
                                 size = Size(itemWidth, size.height),
-                                color = Color.White,
+                                color = AppLightColors.primary,
                                 cornerRadius = CornerRadius(
                                     x = AppDimension.default.dp8.toPx(),
                                     y = AppDimension.default.dp8.toPx()
@@ -116,7 +118,8 @@ fun AppTabRow(
                     ) {
                         AppText(
                             text = text,
-                            color = LocalAppColor.current.colorTextMain
+                            color = LocalAppColor.current.colorTextSubtler,
+                            style = AppTypography.default.body
                         )
                     }
                 }

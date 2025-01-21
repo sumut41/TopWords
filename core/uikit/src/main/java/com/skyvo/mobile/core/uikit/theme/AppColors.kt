@@ -49,43 +49,44 @@ data class AppCoreColorScheme(
     val colorC2Level: Color = Color.Unspecified,
     val colorBooksLevel: Color = Color.Unspecified,
     val colorBottomSheetText: Color = Color.Unspecified,
+    val colorTabBackgroundColor: Color = Color.Unspecified
 )
 
 val AppLightColors = AppCoreColorScheme(
     background = Color(0xFFFFFFFE),
     onBackground = Color(0xFF14161B),
-    primary = Color(0xFFFFB81C),
+    primary = Color(0xFFFFC222),
     secondary = Color(0xFF42226E),
-    onPrimary = Color(0xFFFFB81C),
+    onPrimary = Color(0xFFFFC222),
     surface = Color(0xFFFFFFFE),
     onSurface = Color(0xFF14161B),
     colorSurfaceBase = Color(0xFFFFFFFE),
     colorTextMain = Color(0xFF08162C),
     colorTextOnPrimary = Color(0xFF14161B),
     colorTextOnSecondary = Color(0xFF14161B),
-    colorBackgroundButtonPrimaryDefault = Color(0xFFFFB81C),
+    colorBackgroundButtonPrimaryDefault = Color(0xFFFFC222),
     colorBackgroundButtonSecondaryDefault = Color(0xFFFFFFFE),
     colorBackgroundButtonPrimaryDisabled = Color(0x59FFB81C),
     colorBackgroundButtonSecondaryDisabled = Color(0xFFFFFFFE),
     colorTextDisabled = Color(0xFFFFFFFF),
     colorBorderInputsDefault = Color(0xFF8C8C8C),
-    colorBorderSelected = Color(0xFFFFB81C),
+    colorBorderSelected = Color(0xFFFFC222),
     colorBackgroundSelected = Color(0xFFF8F8F7),
-    colorCheckBoxChecked = Color(0xFFFFB81C),
+    colorCheckBoxChecked = Color(0xFFFFC222),
     colorCheckBoxUnchecked = Color(0xFFDADACE),
     colorTextSubtler = Color(0xFF8D8DA6),
     colorIcon = Color(0xFF262E3D),
     colorIconBackground = Color(0xFFD8DBE4),
     colorBackgroundDecorativeGreySubtler = Color(0xFF919191),
     colorBackgroundInputsToggleBaseOff = Color(0x9E021C5D),
-    colorRadioButtonChecked = Color(0xFFFFB81C),
+    colorRadioButtonChecked = Color(0xFFFFC222),
     colorRadioButtonUnChecked = Color(0xFFF1F1DB),
     colorTextInformationWarningBold = Color(0xFFE13B51),
     colorBackgroundInputsTextBox = Color(0xFFFFFFFE),
     colorBorderInputsSelected = Color(0x37092B49),
     colorBackgroundInformationSubtle = Color(0x48AFA9A9),
     colorIconBrandBoldRed = Color(0xD39D031B),
-    colorProgressBarForeground = Color(0xFFFFB81C),
+    colorProgressBarForeground = Color(0xFFFFC222),
     colorProgressBarBackground = Color(0x48AFA9A9),
     colorIndicatorDefault = Color(0xFFD8DBE4),
     colorBottomMenu = Color(0xFFFFFFFE),
@@ -97,6 +98,7 @@ val AppLightColors = AppCoreColorScheme(
     colorC2Level = Color(0xFFDC1D62),
     colorBooksLevel = Color(0xFFFFFFFE),
     colorBottomSheetText = Color(0x0FFFFFFF),
+    colorTabBackgroundColor = Color(0xFFF8F8F8)
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -145,6 +147,7 @@ val AppDarkColors = AppCoreColorScheme(
     colorC2Level = Color(0xFFDC1D62),
     colorBooksLevel = Color(0xFFFFFFFE),
     colorBottomSheetText = Color(0xFFFFFFFF),
+    colorTabBackgroundColor = Color(0xFF1C1F26)
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

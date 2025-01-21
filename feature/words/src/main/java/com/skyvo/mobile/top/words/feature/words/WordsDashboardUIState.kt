@@ -1,5 +1,6 @@
 package com.skyvo.mobile.top.words.feature.words
 
 data class WordsDashboardUIState(
-    val wordList: List<String>? = null
+    val wordList: List<String>? = null,
+    val selectedTabIndex: Int = 0
 )

@@ -1,8 +1,11 @@
 package com.skyvo.mobile.top.words.feature.books
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -10,7 +13,10 @@ import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.tabrow.AppTabRow
+import com.skyvo.mobile.core.uikit.compose.text.AppText
+import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
+import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import com.skyvo.mobile.top.words.feature.books.view.AdvancedBooksView
 import com.skyvo.mobile.top.words.feature.books.view.BeginnerBooksView
@@ -47,6 +53,16 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
         ) {
             AppScaffold {
                 Column {
+                    AppText(
+                        text = "BOOKS",
+                        style = AppTypography.default.bodyExtraLargeBold,
+                        modifier = Modifier.fillMaxWidth()
+                            .padding(
+                                vertical = AppDimension.default.dp8,
+                                horizontal = AppDimension.default.dp16
+                            )
+                    )
+
                     AppTabRow(
                         selectedIndex = state.selectedTabIndex,
                         items = tabTitles,
