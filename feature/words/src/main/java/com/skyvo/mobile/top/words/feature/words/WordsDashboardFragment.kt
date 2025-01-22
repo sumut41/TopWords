@@ -7,9 +7,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.uikit.compose.layout.AppWordCard
+import com.skyvo.mobile.core.uikit.compose.layout.AppWordStepType
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.tabrow.AppTabRow
 import com.skyvo.mobile.core.uikit.compose.text.AppText
@@ -65,8 +68,79 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             }
                         )
                     }
+
+                    item {
+                        AppText(
+                            text = "STEP 1",
+                            style = AppTypography.default.bodyBold,
+                            modifier = Modifier.fillMaxWidth()
+                                .padding(
+                                    start = AppDimension.default.dp16,
+                                    top = AppDimension.default.dp8,
+                                    bottom = AppDimension.default.dp8
+                                )
+                        )
+                    }
+
+                    item {
+                        AppWordCard(
+                            stepType = AppWordStepType.STUDY,
+                            title = "New 5 words",
+                            subTitle = "Learn 5 new words with fun",
+                            isActive = true
+                        )
+                        AppWordCard(
+                            stepType = AppWordStepType.QUIZ,
+                            title = "Start Quiz",
+                            subTitle = "Start Quiz with fun",
+                            isActive = true
+                        )
+                        AppWordCard(
+                            stepType = AppWordStepType.HARD,
+                            title = "Start Video",
+                            subTitle = "Start Quiz with fun"
+                        )
+                    }
+
+                    item {
+                        AppText(
+                            text = "STEP 2",
+                            style = AppTypography.default.bodyBold,
+                            modifier = Modifier.fillMaxWidth()
+                                .padding(
+                                    start = AppDimension.default.dp16,
+                                    top = AppDimension.default.dp16,
+                                    bottom = AppDimension.default.dp8
+                                )
+                        )
+                    }
+
+                    item {
+                        AppWordCard(
+                            stepType = AppWordStepType.STUDY,
+                            title = "New 5 words",
+                            subTitle = "Learn 5 new words with fun"
+                        )
+                        AppWordCard(
+                            stepType = AppWordStepType.QUIZ,
+                            title = "Start Quiz",
+                            subTitle = "Start Quiz with fun",
+                        )
+                        AppWordCard(
+                            stepType = AppWordStepType.HARD,
+                            title = "Start Video",
+                            subTitle = "Start Quiz with fun",
+                        )
+                    }
                 }
             }
         }
+    }
+
+    @Preview
+    @Composable
+    private fun Preview() {
+        val vm = WordsDashboardViewModel()
+        ContentView(vm)
     }
 }
