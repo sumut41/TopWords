@@ -11,6 +11,6 @@ object BuildModules {
     object FEATURE {
         const val BOOKS = ":feature:books"
         const val WORDS = ":feature:words"
-        const val SETTINGS = ":feature:settings"
+        const val MENU = ":feature:menu"
     }
 }

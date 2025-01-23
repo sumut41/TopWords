@@ -2,5 +2,5 @@
 <resources>
     <item name="booksDashboardFragment" type="id"/>
     <item name="wordsDashboardFragment" type="id"/>
-    <item name="settingsFragment" type="id"/>
+    <item name="menuFragment" type="id"/>
 </resources>

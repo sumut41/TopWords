@@ -55,7 +55,7 @@ dependencies {
     implementation(project(BuildModules.CORE.UIKIT))
     implementation(project(BuildModules.FEATURE.BOOKS))
     implementation(project(BuildModules.FEATURE.WORDS))
-    implementation(project(BuildModules.FEATURE.SETTINGS))
+    implementation(project(BuildModules.FEATURE.MENU))
 
     implementation(Dependencies.androidXCore)
     implementation(Dependencies.appcompat)

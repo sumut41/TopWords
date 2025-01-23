@@ -61,7 +61,7 @@ class MainActivity : BaseActivity<MainViewModel>() {
             override fun handleOnBackPressed() {
                 if (navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.wordsDashboardFragment ||
                     navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.booksDashboardFragment ||
-                    navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.settingsFragment
+                    navController.currentDestination?.id == com.skyvo.mobile.core.base.R.id.menuFragment
                 ) {
                    /* navController.deeplinkNavigate(
                         navDeeplinkDestination =

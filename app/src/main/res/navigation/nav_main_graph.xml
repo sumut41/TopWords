@@ -6,7 +6,7 @@
 
     <include app:graph="@navigation/navigation_books" />
     <include app:graph="@navigation/navigation_words" />
-    <include app:graph="@navigation/navigation_settings" />
+    <include app:graph="@navigation/navigation_menu" />
 
     <fragment
         android:id="@+id/startScreenFragment"

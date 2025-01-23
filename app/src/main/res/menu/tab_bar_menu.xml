@@ -15,8 +15,8 @@
 
 
     <item
-        android:id="@+id/navigation_settings"
-        android:icon="@drawable/settings_nav_selector"
-        android:title="Settings"
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/menu_nav_selector"
+        android:title="Menu"
         android:checked="false"/>
 </menu>
