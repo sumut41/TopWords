@@ -63,7 +63,7 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                                     horizontal = AppDimension.default.dp16
                                 ),
                             horizontalArrangement = Arrangement.SpaceBetween,
-                            verticalAlignment = Alignment.CenterVertically
+                            verticalAlignment = Alignment.Top
                         ) {
                             AppText(
                                 text = "MENU",
