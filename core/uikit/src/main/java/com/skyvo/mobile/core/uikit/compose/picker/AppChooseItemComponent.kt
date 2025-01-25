@@ -11,6 +11,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.skyvo.mobile.core.uikit.compose.checkbox.AppCheckBox
@@ -41,6 +42,7 @@ fun AppChooseItemComponent(
                 color = if (isSelected) LocalAppColor.current.primary else LocalAppColor.current.colorBackgroundSelected,
                 shape = RoundedCornerShape(AppDimension.default.dp16)
             )
+            .clip(RoundedCornerShape(AppDimension.default.dp16))
             .clickable {
                 onSelectListener.invoke(isSelected.not())
             },

@@ -1,5 +1,6 @@
 package com.skyvo.mobile.top.words.feature.books
 
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -14,7 +15,9 @@ import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.tabrow.AppTabRow
 import com.skyvo.mobile.core.uikit.compose.text.AppText
+import com.skyvo.mobile.core.uikit.theme.AppDarkColors
 import com.skyvo.mobile.core.uikit.theme.AppDimension
+import com.skyvo.mobile.core.uikit.theme.AppLightColors
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
@@ -49,9 +52,15 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
         val tabTitles = listOf("Beginner", "Intermediate", "Advanced")
 
         AppPrimaryTheme (
-            navigationBarColor = LocalAppColor.current.colorBottomMenu
+            navigationBarColor = if (isSystemInDarkTheme().not()) {
+                AppLightColors.colorBottomMenu
+            } else {
+                AppDarkColors.colorBottomMenu
+            }
         ) {
-            AppScaffold {
+            AppScaffold (
+                backgroundColor = LocalAppColor.current.colorSecondarySurface
+            ) {
                 Column {
                     AppText(
                         text = "BOOKS",

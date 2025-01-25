@@ -1,6 +1,7 @@
 package com.skyvo.mobile.top.words.feature.words
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -24,7 +25,9 @@ import com.skyvo.mobile.core.uikit.compose.layout.AppWordCard
 import com.skyvo.mobile.core.uikit.compose.layout.AppWordStepType
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
+import com.skyvo.mobile.core.uikit.theme.AppDarkColors
 import com.skyvo.mobile.core.uikit.theme.AppDimension
+import com.skyvo.mobile.core.uikit.theme.AppLightColors
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
@@ -49,9 +52,15 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
         AppPrimaryTheme(
-            navigationBarColor = LocalAppColor.current.colorBottomMenu
+            navigationBarColor = if (isSystemInDarkTheme().not()) {
+                AppLightColors.colorBottomMenu
+            } else {
+                AppDarkColors.colorBottomMenu
+            }
         ) {
-            AppScaffold {
+            AppScaffold(
+                backgroundColor = LocalAppColor.current.colorSecondarySurface
+            ) {
                 LazyColumn {
                     item {
                         Row(

@@ -2,6 +2,7 @@ package com.skyvo.mobile.top.words.feature.menu
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -25,7 +26,9 @@ import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.menu.AppMenuCard
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
+import com.skyvo.mobile.core.uikit.theme.AppDarkColors
 import com.skyvo.mobile.core.uikit.theme.AppDimension
+import com.skyvo.mobile.core.uikit.theme.AppLightColors
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
@@ -50,9 +53,15 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
         AppPrimaryTheme(
-            navigationBarColor = LocalAppColor.current.colorBottomMenu
+            navigationBarColor = if (isSystemInDarkTheme().not()) {
+                AppLightColors.colorBottomMenu
+            } else {
+                AppDarkColors.colorBottomMenu
+            }
         ) {
-            AppScaffold {
+            AppScaffold (
+                backgroundColor = LocalAppColor.current.colorSecondarySurface
+            ) {
                 LazyColumn {
                     item {
                         Row(
