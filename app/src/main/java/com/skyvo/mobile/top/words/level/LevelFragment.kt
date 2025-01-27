@@ -1,6 +1,5 @@
 package com.skyvo.mobile.top.words.level
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -14,14 +13,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
-import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.skyvo.mobile.core.base.firebase.RemoteConfigMockManager
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.base.manager.FiDataManager
+import com.skyvo.mobile.core.base.manager.FiDataMockManager
 import com.skyvo.mobile.core.base.manager.Level
 import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
@@ -181,7 +181,10 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
     @Preview
     @Composable
     private fun Preview() {
-        val vm = LevelViewModel(UserMockManager())
+        val vm = LevelViewModel(
+            UserMockManager(),
+            FiDataMockManager()
+        )
         ContentView(vm)
     }
 }

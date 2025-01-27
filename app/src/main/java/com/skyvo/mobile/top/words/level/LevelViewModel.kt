@@ -2,6 +2,7 @@ package com.skyvo.mobile.top.words.level
 
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.CustomerLevelList
+import com.skyvo.mobile.core.base.manager.FiDataManager
 import com.skyvo.mobile.core.base.manager.Level
 import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
@@ -13,8 +14,9 @@ import javax.inject.Inject
 
 @HiltViewModel
 class LevelViewModel @Inject constructor(
-    private val userManager: UserManager
-): BaseComposeViewModel<LevelUIState>() {
+    private val userManager: UserManager,
+    private val fiDataManager: FiDataManager
+) : BaseComposeViewModel<LevelUIState>() {
 
     override fun setInitialState(): LevelUIState {
         return LevelUIState()
@@ -67,8 +69,14 @@ class LevelViewModel @Inject constructor(
                 levelList = list.values.toCollection(ArrayList())
             )
             viewModelScope.launch {
-                delay(100)
-                navigate(NavDeeplinkDestination.WordsDashboard)
+                delay(300)
+                fiDataManager.fetch { isComplete ->
+                    if (isComplete) {
+                        navigate(NavDeeplinkDestination.WordsDashboard)
+                    } else {
+                        showErrorMessage()
+                    }
+                }
             }
         }
     }

@@ -5,23 +5,14 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.os.Build
 import com.skyvo.mobile.core.base.application.MobileCoreApplication
-import com.skyvo.mobile.core.base.firebase.RemoteConfigManager
 import dagger.hilt.android.HiltAndroidApp
-import timber.log.Timber
-import javax.inject.Inject
 
 @HiltAndroidApp
 class AppAndroidApplication: MobileCoreApplication() {
 
-    @Inject
-    lateinit var remoteConfigManager: RemoteConfigManager
-
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
-        remoteConfigManager.initRemoteConfig {
-            Timber.tag("RemoteConfig").d("Success fetch")
-        }
     }
 
     @SuppressLint("ObsoleteSdkInt")
