@@ -19,6 +19,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <View
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="?colorBottomMenuBorder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation_view" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation_view"
         android:layout_width="match_parent"
@@ -30,6 +41,7 @@
         app:itemHorizontalTranslationEnabled="false"
         app:elevation="0dp"
         android:visibility="gone"
+        tools:visibility="visible"
         app:itemTextAppearanceInactive="@style/TabBarNavigationTextAppearance"
         app:itemTextAppearanceActive="@style/TabBarNavigationTextAppearance"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -58,9 +58,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 AppDarkColors.colorBottomMenu
             }
         ) {
-            AppScaffold(
-                backgroundColor = LocalAppColor.current.colorSecondarySurface
-            ) {
+            AppScaffold {
                 LazyColumn {
                     item {
                         Row(

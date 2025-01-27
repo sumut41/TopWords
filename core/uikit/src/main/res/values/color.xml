@@ -17,4 +17,6 @@
     <color name="tabBarIconSelectedDarkColor">#F1CC06</color>
     <color name="tabBarIconDefaultLightColor">#778193</color>
     <color name="tabBarIconDefaultDarkColor">#CACACA</color>
+    <color name="bottomMenuBorderLightColor">#EDEDED</color>
+    <color name="bottomMenuBorderDarkColor">#17191F</color>
 </resources>

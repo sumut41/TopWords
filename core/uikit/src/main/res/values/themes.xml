@@ -12,5 +12,6 @@
         <item name="colorIconTabBarSelected">@color/tabBarIconSelectedLightColor</item>
         <item name="colorIconTabBarDefault">@color/tabBarIconDefaultLightColor</item>
         <item name="colorBottomMenu">@color/bottomMenuLightColor</item>
+        <item name="colorBottomMenuBorder">@color/bottomMenuBorderLightColor</item>
     </style>
 </resources>

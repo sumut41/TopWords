@@ -5,6 +5,8 @@ import com.skyvo.mobile.core.base.deeplink.DeeplinkManager
 import com.skyvo.mobile.core.base.deeplink.DeeplinkManagerImpl
 import com.skyvo.mobile.core.base.firebase.RemoteConfigManager
 import com.skyvo.mobile.core.base.firebase.RemoteConfigManagerImpl
+import com.skyvo.mobile.core.base.manager.FiDataManager
+import com.skyvo.mobile.core.base.manager.FiDataManagerImpl
 import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.manager.UserManagerImpl
 import dagger.Module
@@ -35,5 +37,14 @@ class BaseDIModule {
         @ApplicationContext context: Context
     ): UserManager {
         return UserManagerImpl(context)
+    }
+
+    @Singleton
+    @Provides
+    fun provideFiDataManager(
+        remoteConfigManager: RemoteConfigManager,
+        userManager: UserManager
+    ): FiDataManager {
+        return FiDataManagerImpl(remoteConfigManager, userManager)
     }
 }

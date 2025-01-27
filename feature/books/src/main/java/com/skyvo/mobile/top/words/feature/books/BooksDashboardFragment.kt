@@ -58,9 +58,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                 AppDarkColors.colorBottomMenu
             }
         ) {
-            AppScaffold (
-                backgroundColor = LocalAppColor.current.colorSecondarySurface
-            ) {
+            AppScaffold {
                 Column {
                     AppText(
                         text = "BOOKS",

@@ -1,6 +1,7 @@
 package com.skyvo.mobile.top.words.main
 
 import android.os.Bundle
+import android.view.View
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
@@ -25,6 +26,7 @@ class MainActivity : BaseActivity<MainViewModel>() {
 
     private lateinit var navController: NavController
     private lateinit var bottomNavigationView: BottomNavigationView
+    private lateinit var borderView: View
 
     @Inject
     lateinit var deeplinkManager: DeeplinkManager
@@ -32,6 +34,7 @@ class MainActivity : BaseActivity<MainViewModel>() {
     override fun setBottomNavigationVisibility(visibility: Boolean?) {
         if (::bottomNavigationView.isInitialized) {
             bottomNavigationView.isVisible = visibility ?: false
+            borderView.isVisible = visibility ?: false
         }
     }
 
@@ -44,6 +47,7 @@ class MainActivity : BaseActivity<MainViewModel>() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_main)
         bottomNavigationView = findViewById(R.id.bottom_navigation_view)
+        borderView = findViewById(R.id.line)
         navigateSetup()
         onBackListener()
     }
