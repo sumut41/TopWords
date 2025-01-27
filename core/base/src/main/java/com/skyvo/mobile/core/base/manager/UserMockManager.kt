@@ -13,17 +13,9 @@ class UserMockManager: UserManager {
         icon = -1
     )
 
-    override var customerLevelList: CustomerLevelList? = CustomerLevelList(
-        levelList = arrayListOf(
-            Level(
-                "A1",
-                "Beginner"
-            ),
-            Level(
-                "A2",
-                "Elementary"
-            )
-        )
+    override var customerLevel: Level? = Level(
+        "A1",
+        "Beginner"
     )
 
 }

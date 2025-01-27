@@ -18,9 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.skyvo.mobile.core.base.firebase.RemoteConfigMockManager
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
-import com.skyvo.mobile.core.base.manager.FiDataManager
 import com.skyvo.mobile.core.base.manager.FiDataMockManager
 import com.skyvo.mobile.core.base.manager.Level
 import com.skyvo.mobile.core.base.manager.UserMockManager
@@ -57,7 +55,7 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "Select categories for learning language",
+                        title = "Select level for learning language",
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -72,7 +70,7 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                         },
                         modifier = Modifier
                             .fillMaxWidth(),
-                        enabled = state.selectLevelList.isNotEmpty()
+                        enabled = state.buttonEnable
                     )
                 }
             ) {
@@ -90,7 +88,7 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                                 vertical = AppDimension.default.dp8
                             ),
                             text = level.name.orEmpty(),
-                            isSelected = state.selectLevelString.orEmpty().contains(level.type.orEmpty()),
+                            isSelected = level == state.selectLevel,
                             startContent = {
                                 Box(
                                     modifier = Modifier
@@ -111,10 +109,9 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                                     )
                                 }
                             },
-                            onSelectListener = { isSelect ->
+                            onSelectListener = { _ ->
                                 viewModel.selectLevel(
-                                    level,
-                                    isRemove = isSelect.not()
+                                    level
                                 )
                             }
                         )

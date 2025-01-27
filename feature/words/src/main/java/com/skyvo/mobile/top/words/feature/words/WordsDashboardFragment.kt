@@ -2,6 +2,7 @@ package com.skyvo.mobile.top.words.feature.words
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -16,8 +17,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.vectorResource
@@ -27,8 +26,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.UserMockManager
-import com.skyvo.mobile.core.uikit.compose.layout.AppWordCard
-import com.skyvo.mobile.core.uikit.compose.layout.AppWordStepType
+import com.skyvo.mobile.core.uikit.compose.button.AppPrimarySmallButton
 import com.skyvo.mobile.core.uikit.compose.progressbar.AppCircleProgressbar
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
@@ -97,6 +95,30 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                     }
 
                     item {
+                        Row (
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    top = AppDimension.default.dp24,
+                                    start = AppDimension.default.dp16,
+                                    end = AppDimension.default.dp16
+                                ),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            AppText(
+                                text = "Active Level",
+                                style = AppTypography.default.subTitleBold
+                            )
+
+                            AppText(
+                                text = "See Course",
+                                style = AppTypography.default.bodyUnderline,
+                                color = LocalAppColor.current.primary
+                            )
+                        }
+                    }
+
+                    item {
                         Column (
                             modifier = Modifier
                                 .fillMaxWidth()
@@ -105,10 +127,9 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                     color = LocalAppColor.current.background,
                                     shape = RoundedCornerShape(AppDimension.default.dp10)
                                 )
-                                .shadow(
-                                    elevation = AppDimension.default.dp2,
-                                    ambientColor = Color.Red,
-                                    spotColor = Color.Red,
+                                .border(
+                                    width = 1.dp,
+                                    color = LocalAppColor.current.colorBorder,
                                     shape = RoundedCornerShape(AppDimension.default.dp10)
                                 )
                                 .clip(RoundedCornerShape(AppDimension.default.dp10))
@@ -119,103 +140,58 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             ) {
                                 AppCircleProgressbar(
                                     modifier = Modifier
+                                        .weight(1f)
                                         .padding(
-                                            start = AppDimension.default.dp16,
-                                            end = AppDimension.default.dp16,
-                                            top = AppDimension.default.dp16,
-                                            bottom = AppDimension.default.dp16
+                                            end = AppDimension.default.dp8,
+                                            start = AppDimension.default.dp16
                                         ),
-                                    progress = 0.5f
+                                    diameter = 80.dp,
+                                    progress = 0.1f
                                 )
 
-                                Column {
+                                Column (
+                                    modifier = Modifier
+                                        .weight(2.5f)
+                                ) {
                                     AppText(
                                         text = "Chapter 1",
                                         style = AppTypography.default.body,
                                         modifier = Modifier
+                                            .fillMaxWidth()
                                             .padding(
+                                                top = AppDimension.default.dp16,
                                                 start = AppDimension.default.dp16,
+                                                end = AppDimension.default.dp16,
                                                 bottom = AppDimension.default.dp8
-                                            )
+                                            ),
+                                        color = LocalAppColor.current.colorTextSubtler
                                     )
 
                                     AppText(
                                         text = "Discovering English",
-                                        style = AppTypography.default.bodyPrimary,
+                                        style = AppTypography.default.bodyLarge,
                                         modifier = Modifier
+                                            .fillMaxWidth()
                                             .padding(
-                                                start = AppDimension.default.dp16
+                                                start = AppDimension.default.dp16,
+                                                end = AppDimension.default.dp16,
+                                                bottom = AppDimension.default.dp8
                                             )
                                     )
+
+                                    AppPrimarySmallButton(
+                                        text = "Continue",
+                                        modifier = Modifier
+                                            .fillMaxWidth()
+                                            .padding(
+                                                start = AppDimension.default.dp16,
+                                                end = AppDimension.default.dp16,
+                                                bottom = AppDimension.default.dp16
+                                            )
+                                    ) { }
                                 }
                             }
                         }
-                    }
-
-                    item {
-                        AppText(
-                            text = "STEP 1",
-                            style = AppTypography.default.bodyBold,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(
-                                    start = AppDimension.default.dp16,
-                                    top = AppDimension.default.dp8,
-                                    bottom = AppDimension.default.dp8
-                                )
-                        )
-                    }
-
-                    item {
-                        AppWordCard(
-                            stepType = AppWordStepType.STUDY,
-                            title = "New 5 words",
-                            subTitle = "Learn 5 new words with fun",
-                            isActive = true
-                        )
-                        AppWordCard(
-                            stepType = AppWordStepType.QUIZ,
-                            title = "Start Quiz",
-                            subTitle = "Start Quiz with fun",
-                            isActive = true
-                        )
-                        AppWordCard(
-                            stepType = AppWordStepType.HARD,
-                            title = "Start Video",
-                            subTitle = "Start Quiz with fun"
-                        )
-                    }
-
-                    item {
-                        AppText(
-                            text = "STEP 2",
-                            style = AppTypography.default.bodyBold,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(
-                                    start = AppDimension.default.dp16,
-                                    top = AppDimension.default.dp16,
-                                    bottom = AppDimension.default.dp8
-                                )
-                        )
-                    }
-
-                    item {
-                        AppWordCard(
-                            stepType = AppWordStepType.STUDY,
-                            title = "New 5 words",
-                            subTitle = "Learn 5 new words with fun"
-                        )
-                        AppWordCard(
-                            stepType = AppWordStepType.QUIZ,
-                            title = "Start Quiz",
-                            subTitle = "Start Quiz with fun",
-                        )
-                        AppWordCard(
-                            stepType = AppWordStepType.HARD,
-                            title = "Start Video",
-                            subTitle = "Start Quiz with fun",
-                        )
                     }
                 }
             }

@@ -5,6 +5,6 @@ import com.skyvo.mobile.core.base.viewmodel.UIState
 
 data class LevelUIState (
     val levelList: List<Level> = listOf(),
-    val selectLevelList: HashMap<String?, Level> = hashMapOf(),
-    val selectLevelString: String? = null
+    val buttonEnable: Boolean = false,
+    val selectLevel: Level? = null
 ): UIState

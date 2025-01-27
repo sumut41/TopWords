@@ -4,6 +4,7 @@ import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Box
@@ -49,7 +50,15 @@ fun AppTabRow(
             .padding(AppDimension.default.dp8)
             .height(AppDimension.default.dp48)
             .clip(RoundedCornerShape(AppDimension.default.dp8))
-            .background(LocalAppColor.current.colorTabBackgroundColor)
+            .background(
+                color = LocalAppColor.current.colorTabBackgroundColor,
+                shape = RoundedCornerShape(AppDimension.default.dp8)
+            )
+            .border(
+                width = AppDimension.default.dp1,
+                color = LocalAppColor.current.colorBorder,
+                shape = RoundedCornerShape(AppDimension.default.dp8)
+            )
             .padding(AppDimension.default.dp8)
     ) {
         if (items.isNotEmpty()) {

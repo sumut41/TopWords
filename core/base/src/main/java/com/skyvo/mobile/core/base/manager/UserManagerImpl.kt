@@ -73,7 +73,7 @@ class UserManagerImpl @Inject constructor(
             userPrefs.set(KEY_DEFAULT_LANGUAGE_CODE, value)
         }
 
-    override var customerLevelList: CustomerLevelList?
+    override var customerLevel: Level?
         get() = userPrefs.get(KEY_LEVEL_CODE)
         set(value) {
             userPrefs.set(KEY_LEVEL_CODE, value)

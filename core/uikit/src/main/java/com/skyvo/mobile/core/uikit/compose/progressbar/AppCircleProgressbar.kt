@@ -13,6 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -33,11 +34,12 @@ fun AppCircleProgressbar(
     Box(
         content = {
             AppText(
-                text = "${(progress * 100).toInt()}%",
+                text = "%${(progress * 100).toInt()}",
                 modifier = Modifier
                     .align(Alignment.Center),
                 color = color,
-                style = AppTypography.default.bodyBold
+                textAlign = TextAlign.Center,
+                style = AppTypography.default.bodyPrimary
             )
             Canvas(
                 modifier = modifier

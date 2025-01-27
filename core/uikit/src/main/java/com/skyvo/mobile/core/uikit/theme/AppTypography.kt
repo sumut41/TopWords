@@ -21,12 +21,14 @@ data class AppTypography(
     val bodyLarge: TextStyle,
     val bodyBold: TextStyle,
     val body: TextStyle,
+    val bodyUnderline: TextStyle,
     val bodyBoldUnderline: TextStyle,
     val bodySmallBold: TextStyle,
     val bodySmall: TextStyle,
     val bodyTinyBold: TextStyle,
     val bodyTiny: TextStyle,
     val caption: TextStyle,
+    val subTitleBold: TextStyle
 ) {
     companion object {
         val default = AppTypography(
@@ -121,6 +123,14 @@ data class AppTypography(
                 lineHeight = 18.sp,
                 letterSpacing = 0.2.sp
             ),
+            bodyUnderline = TextStyle(
+                fontFamily = AppFonts.Inter,
+                fontWeight = FontWeight.Normal,
+                fontSize = 14.sp,
+                lineHeight = 16.sp,
+                letterSpacing = 0.2.sp,
+                textDecoration = TextDecoration.Underline
+            ),
             bodyBoldUnderline = TextStyle(
                 fontFamily = AppFonts.Inter,
                 fontWeight = FontWeight.Bold,
@@ -160,6 +170,13 @@ data class AppTypography(
             caption = TextStyle(
                 fontFamily = AppFonts.Inter,
                 fontWeight = FontWeight.Bold,
+                fontSize = 14.sp,
+                lineHeight = 16.sp,
+                letterSpacing = 0.2.sp
+            ),
+            subTitleBold = TextStyle(
+                fontFamily = AppFonts.Inter,
+                fontWeight = FontWeight.SemiBold,
                 fontSize = 14.sp,
                 lineHeight = 16.sp,
                 letterSpacing = 0.2.sp
