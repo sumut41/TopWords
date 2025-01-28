@@ -8,4 +8,6 @@
     <attr name="colorBottomMenu" format="color"/>
     <attr name="colorBottomSheetModalBackground" format="color"/>
     <attr name="colorBottomMenuBorder" format="color"/>
+    <attr name="colorInactive" format="color"/>
+    <attr name="colorActive" format="color"/>
 </resources>

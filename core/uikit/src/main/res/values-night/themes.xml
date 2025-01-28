@@ -13,5 +13,7 @@
         <item name="colorIconTabBarDefault">@color/tabBarIconDefaultDarkColor</item>
         <item name="colorBottomMenu">@color/bottomMenuDarkColor</item>
         <item name="colorBottomMenuBorder">@color/bottomMenuBorderDarkColor</item>
+        <item name="colorInactive">@color/inactiveDarkColor</item>
+        <item name="colorActive">@color/activeDarkColor</item>
     </style>
 </resources>

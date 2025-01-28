@@ -1,12 +1,16 @@
 package com.skyvo.mobile.top.words.feature.books.detail
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -18,19 +22,23 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigateBack
+import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.bottomsheet.AppBottomSheet
-import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
@@ -41,6 +49,8 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
+import com.skyvo.mobile.core.uikit.util.GetLevelColor
+import com.skyvo.mobile.core.uikit.util.GetLevelIcon
 import com.skyvo.mobile.core.uikit.util.setTextColor
 
 class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
@@ -67,32 +77,173 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
     ) {
         var showSelectedWordBottomSheet by remember { mutableStateOf(false) }
         AppPrimaryTheme {
-            AppScaffold(
-                header = {
-                    AppTopHeader(
-                        title = state.book?.title.orEmpty(),
-                        titleStyle = AppTypography.default.bodyXXlargeSemiBold,
-                        onBackClickListener = { navigateBack() })
-                }
+            AppScaffold (
+                paddingValues = PaddingValues(top = AppDimension.default.dp0)
             ) {
                 LazyColumn {
                     item {
-                        AsyncImage(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(horizontal = AppDimension.default.dp16)
-                                .height(AppDimension.default.bookHeight),
-                            model = ImageRequest.Builder(LocalContext.current)
-                                .data(state.book?.imageUrl)
-                                .crossfade(true)
-                                .build(),
-                            contentScale = ContentScale.FillBounds,
-                            contentDescription = "Story Image"
-                        )
+                        Box {
+                            AsyncImage(
+                                modifier = Modifier
+                                    .fillMaxWidth(),
+                                model = ImageRequest.Builder(LocalContext.current)
+                                    .data(state.book?.imageUrl)
+                                    .crossfade(true)
+                                    .build(),
+                                contentScale = ContentScale.FillWidth,
+                                contentDescription = "Story Image"
+                            )
+
+                            Row(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(
+                                        top = AppDimension.default.dp48,
+                                        start = AppDimension.default.dp16,
+                                        end = AppDimension.default.dp16
+                                    ),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+
+                                Box(
+                                    modifier = Modifier
+                                        .size(AppDimension.default.dp32)
+                                        .background(
+                                            color = LocalAppColor.current.background,
+                                            shape = RoundedCornerShape(AppDimension.default.dp10)
+                                        )
+                                        .clickable {
+                                            navigateBack()
+                                        },
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    AppIcon(
+                                        modifier = Modifier.size(AppDimension.default.dp20),
+                                        imageVector = ImageVector.vectorResource(R.drawable.ic_back),
+                                        tint = LocalAppColor.current.colorIcon,
+                                        contentDescription = "Theme"
+                                    )
+                                }
+
+                                Row {
+
+                                    Box(
+                                        modifier = Modifier
+                                            .size(AppDimension.default.dp32)
+                                            .background(
+                                                color = LocalAppColor.current.background,
+                                                shape = RoundedCornerShape(AppDimension.default.dp10)
+                                            )
+                                            .clip(RoundedCornerShape(AppDimension.default.dp10))
+                                            .clickable {
+                                                viewModel.showTranslatedText()
+                                            },
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        AppIcon(
+                                            modifier = Modifier.size(AppDimension.default.dp20),
+                                            imageVector = ImageVector.vectorResource(R.drawable.ic_translate),
+                                            tint = LocalAppColor.current.colorIcon,
+                                            contentDescription = "Translate"
+                                        )
+                                    }
+
+                                    AppSpacer(
+                                        width = AppDimension.default.dp8
+                                    )
+
+                                    state.book?.level?.let { level ->
+                                        Row(
+                                            modifier = Modifier
+                                                .heightIn(min = AppDimension.default.dp32)
+                                                .background(
+                                                    color = LocalAppColor.current.background,
+                                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                                ),
+                                            verticalAlignment = Alignment.CenterVertically
+                                        ) {
+                                            Image(
+                                                modifier = Modifier
+                                                    .padding(
+                                                        start = AppDimension.default.dp8,
+                                                        end = AppDimension.default.dp4
+                                                    )
+                                                    .size(AppDimension.default.dp12),
+                                                imageVector = ImageVector.vectorResource(
+                                                    GetLevelIcon(level)
+                                                ),
+                                                contentDescription = level,
+                                            )
+
+                                            AppText(
+                                                modifier = Modifier
+                                                    .padding(
+                                                        top = AppDimension.default.dp4,
+                                                        bottom = AppDimension.default.dp4,
+                                                        end = AppDimension.default.dp8
+                                                    ),
+                                                text = level,
+                                                style = AppTypography.default.bodyBold,
+                                                color = Color.White
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     item {
-                        AppBookInfoBox(state = state)
+                        AppText(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    start = AppDimension.default.dp16,
+                                    end = AppDimension.default.dp16,
+                                    top = AppDimension.default.dp16,
+                                    bottom = AppDimension.default.dp8
+                                ),
+                            text = state.book?.title.orEmpty(),
+                            style = AppTypography.default.headerBold
+                        )
+
+                        Row (
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    start = AppDimension.default.dp16,
+                                    end = AppDimension.default.dp16,
+                                    bottom = AppDimension.default.dp16
+                                ),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            AppText(
+                                modifier = Modifier,
+                                text = state.book?.genre.orEmpty(),
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorTextSubtler
+                            )
+
+                            Row {
+                                AppIcon(
+                                    modifier = Modifier
+                                        .padding(horizontal = AppDimension.default.dp8)
+                                        .size(AppDimension.default.dp16),
+                                    imageVector = ImageVector.vectorResource(R.drawable.ic_clock),
+                                    tint = LocalAppColor.current.colorTextSubtler,
+                                    contentDescription = "Time"
+                                )
+
+                                AppText(
+                                    modifier = Modifier,
+                                    text = state.book?.min.orEmpty(),
+                                    style = AppTypography.default.body,
+                                    color = LocalAppColor.current.colorTextSubtler
+                                )
+                            }
+                        }
                     }
 
                     item {
@@ -154,56 +305,6 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                     }
                 }
             }
-        }
-    }
-
-    @Composable
-    fun AppBookInfoBox(state: BookDetailUIState) {
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(
-                    horizontal = AppDimension.default.dp16,
-                    vertical = AppDimension.default.dp8
-                )
-                .background(
-                    color = LocalAppColor.current.primary,
-                    shape = RoundedCornerShape(AppDimension.default.dp4)
-                ),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Row(
-                modifier = Modifier
-                    .padding(all = AppDimension.default.dp8),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                AppIcon(
-                    modifier = Modifier
-                        .size(AppDimension.default.dp32)
-                        .padding(end = AppDimension.default.dp8),
-                    imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_clock),
-                    contentDescription = "Book Icon",
-                    tint = LocalAppColor.current.colorSurfaceBase
-                )
-
-                AppText(
-                    text = state.book?.min.orEmpty(),
-                    style = AppTypography.default.bodyLarge,
-                    color = LocalAppColor.current.colorSurfaceBase
-                )
-            }
-            AppSpacer()
-
-            AppIcon(
-                modifier = Modifier
-                    .padding(end = AppDimension.default.dp16)
-                    .size(AppDimension.default.dp30)
-                    .clickable { viewModel.showTranslatedText() },
-                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_translate),
-                contentDescription = "Translate Icon",
-                tint = LocalAppColor.current.colorSurfaceBase
-            )
         }
     }
 }

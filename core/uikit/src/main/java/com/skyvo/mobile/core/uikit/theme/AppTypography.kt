@@ -93,7 +93,7 @@ data class AppTypography(
                 fontWeight = FontWeight.Normal,
                 fontSize = 20.sp,
                 lineHeight = 28.sp,
-                letterSpacing = 0.2.sp
+                letterSpacing = 0.4.sp
             ),
             bodyLarge = TextStyle(
                 fontFamily = AppFonts.Inter,
