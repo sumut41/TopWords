@@ -29,4 +29,12 @@ class BookDetailViewModel @Inject constructor() : BaseComposeViewModel<BookDetai
             )
         }
     }
+
+    fun showTranslatedText() {
+        setState {
+            copy(
+                isOriginalText = isOriginalText.not()
+            )
+        }
+    }
 }

@@ -20,7 +20,6 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppLightColors
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
-import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import com.skyvo.mobile.top.words.feature.books.view.AdvancedBooksView
 import com.skyvo.mobile.top.words.feature.books.view.BeginnerBooksView
 import com.skyvo.mobile.top.words.feature.books.view.IntermediateBooksView
