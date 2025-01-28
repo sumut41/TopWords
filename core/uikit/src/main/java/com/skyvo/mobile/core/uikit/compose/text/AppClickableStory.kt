@@ -21,16 +21,33 @@ fun AppClickableStory(
     onWordClick: (KeyValue) -> Unit
 ) {
     val annotatedString = buildAnnotatedString {
+        val matches = mutableListOf<Pair<Int, KeyValue>>()
+
+        // Tüm kelimelerin eşleşmelerini bul ve başlangıç indekslerine göre sıralama için listeye ekle
+        words.forEach { word ->
+            val wordKey = word.key.orEmpty()
+            var startIndex = text.indexOf(wordKey, ignoreCase = true)
+            while (startIndex != -1) {
+                matches.add(startIndex to word)
+                startIndex = text.indexOf(wordKey, startIndex + 1, ignoreCase = true)
+            }
+        }
+
+        // Bulunan tüm eşleşmeleri başlangıç indeksine göre sırala
+        matches.sortBy { it.first }
+
         var lastIndex = 0
         val defaultStyle = SpanStyle(color = LocalAppColor.current.colorTextMain)
 
-        words.forEach { word ->
-            val startIndex = text.indexOf(word.key.orEmpty(), startIndex = lastIndex, ignoreCase = true)
-            if (startIndex != -1) {
-
+        matches.forEach { (startIndex, word) ->
+            // Eğer `startIndex` `lastIndex`'ten küçükse, işleme devam etmeden önce güncelleme yap
+            if (startIndex >= lastIndex) {
+                // Önceki normal metni ekle
                 withStyle(style = defaultStyle) {
                     append(text.substring(lastIndex, startIndex))
                 }
+
+                // Kelimeyi işaretle ve stil uygula
                 pushStringAnnotation(tag = "WORD", annotation = "${word.key}|${word.value}")
                 withStyle(
                     style = SpanStyle(
@@ -38,15 +55,20 @@ fun AppClickableStory(
                         textDecoration = TextDecoration.Underline
                     )
                 ) {
-                    append(word.key)
+                    append(word.key.orEmpty())
                 }
                 pop()
-                lastIndex = startIndex + word.key?.length!!
+
+                // İşlenmiş kısmı güncelle
+                lastIndex = startIndex + (word.key?.length ?: 0)
             }
         }
-        append(text.substring(lastIndex))
-    }
 
+        // Kalan metni ekle
+        if (lastIndex < text.length) {
+            append(text.substring(lastIndex))
+        }
+    }
 
     ClickableText(
         modifier = modifier,

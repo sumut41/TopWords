@@ -5,11 +5,11 @@ data class AppBookParentModel (
 )
 
 data class AppBook (
-    val title: String? = null,
     val content: String? = null,
     val contentTr: String? = null,
+    val title: String? = null,
     val imageUrl: String? = null,
-    val isNew: String? = null,
+    val isNew: Boolean? = false,
     val level: String? = null,
     val min: String? = null,
     val genre: String? = null,

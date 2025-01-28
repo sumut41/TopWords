@@ -8,4 +8,6 @@ data class Book(
     val title: String? = null,
     val level: String? = null,
     val genre: String? = null,
+    val min: String? = null,
+    val isNew: Boolean? = null
 )

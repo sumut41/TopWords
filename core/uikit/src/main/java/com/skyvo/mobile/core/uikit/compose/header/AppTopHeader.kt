@@ -5,7 +5,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -36,15 +35,21 @@ fun AppTopHeader(
 ) {
     Row (
         modifier = Modifier
+            .padding(end = AppDimension.default.dp8)
             .height(AppDimension.default.headerHeight)
             .background(color = backgroundColor),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Row {
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             onBackClickListener?.let {
                 Box(
                     modifier = Modifier
-                        .padding(start = AppDimension.default.dp24)
+                        .padding(
+                            start = AppDimension.default.dp24,
+                            end = AppDimension.default.dp8
+                        )
                         .size(AppDimension.default.dp32)
                         .background(
                             color = LocalAppColor.current.colorIconBackground,
@@ -65,10 +70,10 @@ fun AppTopHeader(
             }
 
             AppText(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier,
                 text = title,
                 style = titleStyle,
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Start
             )
         }
     }
@@ -81,7 +86,7 @@ fun AppTopHeader(
 fun PreviewHeader() {
     AppPrimaryTheme {
         AppTopHeader(
-            title = " Dessadsa"
+            title = " Title"
         ) {
             // click
         }

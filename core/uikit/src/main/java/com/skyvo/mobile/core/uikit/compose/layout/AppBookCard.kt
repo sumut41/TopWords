@@ -2,6 +2,7 @@ package com.skyvo.mobile.core.uikit.compose.layout
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -17,10 +18,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.text.style.TextOverflow
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.skyvo.mobile.core.uikit.R
+import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.compose.widget.Book
 import com.skyvo.mobile.core.uikit.theme.AppDimension
@@ -56,65 +62,118 @@ fun AppBookCard(
                 navigateBookDetail(book)
             }
     ) {
-        Box(
-            modifier = Modifier
-                .clip(RoundedCornerShape(size = AppDimension.default.dp6))
-                .heightIn(max = AppDimension.default.booksCardItemHeight)
+        Row(
+            modifier = Modifier.fillMaxWidth()
         ) {
-            AsyncImage(
-                modifier = Modifier.size(AppDimension.default.dp100),
-                model = ImageRequest.Builder(LocalContext.current)
-                    .data(book.imageUrl)
-                    .error(com.skyvo.mobile.core.uikit.R.drawable.ic_nav_book)
-                    .build(),
-                contentDescription = "Book Image",
-                contentScale = ContentScale.FillHeight
-            )
-        }
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(
-                    start = AppDimension.default.dp12,
-                    top = AppDimension.default.dp10
+            Box(
+                modifier = Modifier
+                    .size(
+                        width = AppDimension.default.dp100,
+                        height = AppDimension.default.booksCardItemHeight
+                    )
+                    .padding(
+                        end = AppDimension.default.dp8
+                    )
+                    .clip(RoundedCornerShape(size = AppDimension.default.dp6))
+                    .heightIn(max = AppDimension.default.booksCardItemHeight)
+            ) {
+                AsyncImage(
+                    model = ImageRequest.Builder(LocalContext.current)
+                        .data(book.imageUrl)
+                        .error(R.drawable.ic_nav_book)
+                        .build(),
+                    contentDescription = "Book Image",
+                    contentScale = ContentScale.FillHeight
                 )
-                .weight(2f)
-        ) {
-            AppText(
-                text = book.title.orEmpty(),
-                style = AppTypography.default.bodyXXlargeSemiBold
-            )
+            }
 
-            AppText(
-                modifier = Modifier.padding(
-                    top = AppDimension.default.dp8
-                ),
-                text = book.genre.orEmpty(),
-                style = AppTypography.default.body,
-                color = LocalAppColor.current.colorTextSubtler,
-            )
-        }
+            Column(
+                modifier = Modifier.padding(top = AppDimension.default.dp8)
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.Top,
+                ) {
+                    AppText(
+                        modifier = Modifier.weight(1f),
+                        text = book.title.orEmpty(),
+                        style = AppTypography.default.bodyBold,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                    AppSpacer()
+                    Box(
+                        modifier = Modifier
+                            .padding(
+                                end = AppDimension.default.dp8
+                            )
+                            .size(AppDimension.default.dp40)
+                            .shadow(AppDimension.default.dp4, shape = CircleShape, clip = false)
+                            .clip(RoundedCornerShape(size = AppDimension.default.dp40))
+                            .background(
+                                color = levelColor,
+                                shape = RoundedCornerShape(size = AppDimension.default.dp40)
+                            )
+                    ) {
+                        AppText(
+                            modifier = Modifier.align(Alignment.Center),
+                            text = book.level.orEmpty(),
+                            style = AppTypography.default.bodyBold,
+                            color = LocalAppColor.current.colorBooksLevel
+                        )
+                    }
+                }
 
-        Box(
-            modifier = Modifier
-                .padding(
-                    end = AppDimension.default.dp16,
-                    top = AppDimension.default.dp8
+                AppText(
+                    modifier = Modifier.padding(
+                        top = AppDimension.default.dp8
+                    ),
+                    text = book.genre.orEmpty(),
+                    style = AppTypography.default.body,
+                    color = LocalAppColor.current.colorTextSubtler,
                 )
-                .size(AppDimension.default.dp40)
-                .shadow(AppDimension.default.dp4, shape = CircleShape, clip = false)
-                .clip(RoundedCornerShape(size = AppDimension.default.dp40))
-                .background(
-                    color = levelColor,
-                    shape = RoundedCornerShape(size = AppDimension.default.dp40)
-                )
-        ) {
-            AppText(
-                modifier = Modifier.align(Alignment.Center),
-                text = book.level.orEmpty(),
-                style = AppTypography.default.bodyBold,
-                color = LocalAppColor.current.colorBooksLevel
-            )
+
+                book.min?.let {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(
+                                top = AppDimension.default.dp16
+                            ),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            AppIcon(
+                                modifier = Modifier
+                                    .padding(end = AppDimension.default.dp6)
+                                    .size(AppDimension.default.dp20),
+                                imageVector = ImageVector.vectorResource(R.drawable.ic_clock),
+                                contentDescription = "Clock Icon",
+                            )
+                            AppText(
+                                text = it,
+                                style = AppTypography.default.body
+                            )
+                        }
+
+                        AppSpacer()
+
+                        if (book.isNew == true) {
+                            AppIcon(
+                                modifier = Modifier
+                                    .padding(end = AppDimension.default.dp8)
+                                    .size(AppDimension.default.dp24),
+                                imageVector = ImageVector.vectorResource(R.drawable.ic_premium),
+                                contentDescription = "Clock Icon",
+                                tint = LocalAppColor.current.primary
+                            )
+                        }
+                    }
+                }
+            }
         }
     }
 }
