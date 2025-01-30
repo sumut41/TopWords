@@ -19,6 +19,7 @@ class BookDetailViewModel @Inject constructor() : BaseComposeViewModel<BookDetai
                     book = args.book
                 )
             }
+            updateSentences()
         }
     }
 
@@ -34,6 +35,46 @@ class BookDetailViewModel @Inject constructor() : BaseComposeViewModel<BookDetai
         setState {
             copy(
                 isOriginalText = isOriginalText.not()
+            )
+        }
+    }
+
+    private fun updateSentences() {
+        setState {
+            val sentences = book?.content?.let {
+                it.split(".").mapNotNull { s ->
+                    s.trim().takeIf { it.isNotEmpty() }?.plus(".")
+                }
+            } ?: emptyList()
+
+            val translations = book?.contentTr?.let {
+                it.split(".").mapNotNull { s ->
+                    s.trim().takeIf { it.isNotEmpty() }?.plus(".")
+                }
+            } ?: emptyList()
+
+            copy(
+                sentences = sentences,
+                translations = translations
+            )
+        }
+    }
+
+
+    fun updateSelectedSentence(sentence: String) {
+        setState {
+            val translation = book?.let { book ->
+                val sentences = book.content.orEmpty().split(".").mapNotNull { s ->
+                    s.trim().takeIf { it.isNotEmpty() }?.plus(".")
+                }
+                val translations = book.contentTr.orEmpty().split(".").mapNotNull { s ->
+                    s.trim().takeIf { it.isNotEmpty() }?.plus(".")
+                }
+                val index = sentences.indexOf(sentence)
+                if (index != -1) translations.getOrNull(index) else null
+            }
+            copy(
+                selectedSentence = sentence to translation,
             )
         }
     }
