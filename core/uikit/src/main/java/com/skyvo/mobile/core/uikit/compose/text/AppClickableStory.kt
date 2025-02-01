@@ -18,36 +18,35 @@ fun AppClickableStory(
     text: String,
     textColor: Color = LocalAppColor.current.colorTextSubtler,
     words: List<KeyValue>,
-    onWordClick: (KeyValue) -> Unit
+    sentences: List<String>,
+    onWordClick: (KeyValue) -> Unit,
+    onSentenceClick: (String) -> Unit
 ) {
     val annotatedString = buildAnnotatedString {
-        val matches = mutableListOf<Pair<Int, KeyValue>>()
+        val wordMatches = mutableListOf<Pair<Int, KeyValue>>()
 
-        // Tüm kelimelerin eşleşmelerini bul ve başlangıç indekslerine göre sıralama için listeye ekle
+        // Kelime eşleşmelerini bul
         words.forEach { word ->
             val wordKey = word.key.orEmpty()
             var startIndex = text.indexOf(wordKey, ignoreCase = true)
             while (startIndex != -1) {
-                matches.add(startIndex to word)
+                wordMatches.add(startIndex to word)
                 startIndex = text.indexOf(wordKey, startIndex + 1, ignoreCase = true)
             }
         }
 
-        // Bulunan tüm eşleşmeleri başlangıç indeksine göre sırala
-        matches.sortBy { it.first }
-
         var lastIndex = 0
         val defaultStyle = SpanStyle(color = LocalAppColor.current.colorTextMain)
 
-        matches.forEach { (startIndex, word) ->
-            // Eğer `startIndex` `lastIndex`'ten küçükse, işleme devam etmeden önce güncelleme yap
+        // Metni işleyerek ekle
+        wordMatches.sortedBy { it.first }.forEach { (startIndex, word) ->
             if (startIndex >= lastIndex) {
-                // Önceki normal metni ekle
+                // Normal metni ekle
                 withStyle(style = defaultStyle) {
                     append(text.substring(lastIndex, startIndex))
                 }
 
-                // Kelimeyi işaretle ve stil uygula
+                // Kelimeyi ekle
                 pushStringAnnotation(tag = "WORD", annotation = "${word.key}|${word.value}")
                 withStyle(
                     style = SpanStyle(
@@ -59,8 +58,7 @@ fun AppClickableStory(
                 }
                 pop()
 
-                // İşlenmiş kısmı güncelle
-                lastIndex = startIndex + (word.key?.length ?: 0)
+                lastIndex = startIndex + word.key?.length!!
             }
         }
 
@@ -75,11 +73,17 @@ fun AppClickableStory(
         text = annotatedString,
         style = AppTypography.default.bodyExtraLarge,
         onClick = { offset ->
-            annotatedString.getStringAnnotations(tag = "WORD", start = offset, end = offset)
-                .firstOrNull()?.let { annotation ->
-                    val (key, value) = annotation.item.split("|", limit = 2)
-                    onWordClick(KeyValue(key, value))
-                }
+            val clickedWord = annotatedString.getStringAnnotations("WORD", offset, offset)
+                .firstOrNull()
+            if (clickedWord != null) {
+                val (key, value) = clickedWord.item.split("|", limit = 2)
+                onWordClick(KeyValue(key, value))
+            } else {
+                // Eğer kelime değilse, cümle bulun ve tetikleyin
+                sentences.find { sentence ->
+                    offset in text.indexOf(sentence) until text.indexOf(sentence) + sentence.length
+                }?.let { onSentenceClick(it) }
+            }
         }
     )
 }
