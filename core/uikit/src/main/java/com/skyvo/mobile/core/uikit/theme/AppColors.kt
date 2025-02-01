@@ -52,7 +52,8 @@ data class AppCoreColorScheme(
     val colorBottomSheetText: Color = Color.Unspecified,
     val colorTabBackgroundColor: Color = Color.Unspecified,
     val colorCircleProgressDefault: Color = Color.Unspecified,
-    val colorBorder: Color = Color.Unspecified
+    val colorBorder: Color = Color.Unspecified,
+    val colorClickWord: Color = Color.Unspecified
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -105,6 +106,7 @@ val AppLightColors = AppCoreColorScheme(
     colorTabBackgroundColor = Color(0xFFF8F8F8),
     colorCircleProgressDefault = Color(0xFFFFEBD3),
     colorBorder = Color(0xFFE8E8E8),
+    colorClickWord = Color(0xFF8D8DA6),
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -157,6 +159,7 @@ val AppDarkColors = AppCoreColorScheme(
     colorTabBackgroundColor = Color(0xFF1C1F26),
     colorCircleProgressDefault = Color(0xFF282D36),
     colorBorder = Color(0xFF282D36),
+    colorClickWord = Color(0xFF5B5B5B),
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

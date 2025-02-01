@@ -2,6 +2,10 @@ package com.skyvo.mobile.core.uikit.compose.text
 
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
@@ -22,15 +26,22 @@ fun AppClickableStory(
     onWordClick: (KeyValue) -> Unit,
     onSentenceClick: (String) -> Unit
 ) {
+    var selectedWord by remember { mutableStateOf<String?>(null) }
+
     val annotatedString = buildAnnotatedString {
         val wordMatches = mutableListOf<Pair<Int, KeyValue>>()
+        val processedWords = mutableSetOf<String>() // Kelimelerin işaretlenip işaretlenmediğini takip et
 
         // Kelime eşleşmelerini bul
         words.forEach { word ->
             val wordKey = word.key.orEmpty()
             var startIndex = text.indexOf(wordKey, ignoreCase = true)
             while (startIndex != -1) {
-                wordMatches.add(startIndex to word)
+                // Eğer kelime daha önce işaretlenmediyse, işaretle
+                if (wordKey !in processedWords) {
+                    wordMatches.add(startIndex to word)
+                    processedWords.add(wordKey) // Kelimeyi işaretlenmiş olarak kaydet
+                }
                 startIndex = text.indexOf(wordKey, startIndex + 1, ignoreCase = true)
             }
         }
@@ -50,8 +61,18 @@ fun AppClickableStory(
                 pushStringAnnotation(tag = "WORD", annotation = "${word.key}|${word.value}")
                 withStyle(
                     style = SpanStyle(
-                        color = textColor,
-                        textDecoration = TextDecoration.Underline
+                        color = if (selectedWord == word.key) {
+                            LocalAppColor.current.colorTextMain
+                        } else textColor,
+                        textDecoration = if (selectedWord == word.key) {
+                            TextDecoration.None
+                        } else
+                        TextDecoration.Underline,
+                        background = if (selectedWord == word.key) {
+                            textColor
+                        } else {
+                            Color.Transparent
+                        }
                     )
                 ) {
                     append(word.key.orEmpty())
@@ -78,11 +99,15 @@ fun AppClickableStory(
             if (clickedWord != null) {
                 val (key, value) = clickedWord.item.split("|", limit = 2)
                 onWordClick(KeyValue(key, value))
+                selectedWord = key
             } else {
                 // Eğer kelime değilse, cümle bulun ve tetikleyin
                 sentences.find { sentence ->
                     offset in text.indexOf(sentence) until text.indexOf(sentence) + sentence.length
-                }?.let { onSentenceClick(it) }
+                }?.let {
+                    onSentenceClick(it)
+                    selectedWord = it
+                }
             }
         }
     )

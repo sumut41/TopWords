@@ -2,6 +2,7 @@ package com.skyvo.mobile.top.words.feature.books.detail
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -129,6 +130,11 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                                             .size(AppDimension.default.dp32)
                                             .background(
                                                 color = LocalAppColor.current.background,
+                                                shape = RoundedCornerShape(AppDimension.default.dp10)
+                                            )
+                                            .border(
+                                                width = AppDimension.default.dp1,
+                                                color =  if (state.isOriginalText) LocalAppColor.current.background else LocalAppColor.current.primary,
                                                 shape = RoundedCornerShape(AppDimension.default.dp10)
                                             )
                                             .clip(RoundedCornerShape(AppDimension.default.dp10))
