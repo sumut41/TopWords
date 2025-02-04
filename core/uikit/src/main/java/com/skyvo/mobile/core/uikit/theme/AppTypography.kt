@@ -28,7 +28,8 @@ data class AppTypography(
     val bodyTinyBold: TextStyle,
     val bodyTiny: TextStyle,
     val caption: TextStyle,
-    val subTitleBold: TextStyle
+    val subTitleBold: TextStyle,
+    val wordBody: TextStyle
 ) {
     companion object {
         val default = AppTypography(
@@ -180,7 +181,14 @@ data class AppTypography(
                 fontSize = 14.sp,
                 lineHeight = 16.sp,
                 letterSpacing = 0.2.sp
-            )
+            ),
+            wordBody = TextStyle(
+                fontFamily = AppFonts.Inter,
+                fontWeight = FontWeight.Bold,
+                fontSize = 30.sp,
+                lineHeight = 32.sp,
+                letterSpacing = 0.2.sp,
+            ),
         )
     }
 }

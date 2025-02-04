@@ -66,8 +66,11 @@ fun AppTopLongHeader(
 
         AppText(
             modifier = Modifier
-                .padding(top = AppDimension.default.dp24)
-                .fillMaxWidth(),
+                .padding(top = AppDimension.default.dp20)
+                .fillMaxWidth()
+                .padding(
+                    horizontal = AppDimension.default.dp16
+                ),
             text = title,
             style = AppTypography.default.headerBold,
             textAlign = TextAlign.Center

@@ -12,6 +12,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigate
+import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.tabrow.AppTabRow
 import com.skyvo.mobile.core.uikit.compose.text.AppText
@@ -75,6 +76,10 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                         onSelectionChange = {
                             viewModel.updateTabIndex(it)
                         }
+                    )
+
+                    AppSpacer(
+                        height = AppDimension.default.dp8
                     )
 
                     when (state.selectedTabIndex) {

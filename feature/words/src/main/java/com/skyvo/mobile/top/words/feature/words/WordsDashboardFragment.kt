@@ -26,6 +26,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.UserMockManager
+import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimarySmallButton
 import com.skyvo.mobile.core.uikit.compose.progressbar.AppCircleProgressbar
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
@@ -188,7 +189,9 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                                 end = AppDimension.default.dp16,
                                                 bottom = AppDimension.default.dp16
                                             )
-                                    ) { }
+                                    ) {
+                                        navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToFlashCardFragment())
+                                    }
                                 }
                             }
                         }

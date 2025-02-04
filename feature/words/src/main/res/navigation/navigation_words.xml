@@ -9,6 +9,14 @@
         android:name="com.skyvo.mobile.top.words.feature.words.WordsDashboardFragment"
         android:label="WordsDashboardFragment">
         <deepLink app:uri="top-words://words/dashboard"/>
+        <action
+            android:id="@+id/action_wordsDashboardFragment_to_flashCardFragment"
+            app:destination="@id/flashCardFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/flashCardFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.flashcard.FlashCardFragment"
+        android:label="FlashCardFragment" />
 
 </navigation>
