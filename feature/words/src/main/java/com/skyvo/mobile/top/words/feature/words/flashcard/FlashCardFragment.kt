@@ -15,6 +15,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.FiDataMockManager
+import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.button.AppSecondaryLargeButton
@@ -42,14 +43,6 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
         val state by viewModel.state.collectAsStateWithLifecycle()
         var isNavigateRight by remember { mutableStateOf(false) }
         var isNavigateLeft by remember { mutableStateOf(false) }
-
-        val items = listOf(
-            FlashcardItem("mother", "Anne", "A1 Level"),
-            FlashcardItem("father", "Baba", "A1 Level"),
-            FlashcardItem("sister", "Kız Kardeş", "A1 Level"),
-            FlashcardItem("brother", "Erkek Kardeş, Abi", "A1 Level"),
-            FlashcardItem("child", "Çocuk", "A1 Level")
-        )
 
         AppPrimaryTheme {
             AppScaffold(
@@ -95,19 +88,18 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                 }
             ) {
                 FlashcardStack(
-                    items = items,
+                    items = state.items,
                     isNavigateRight = isNavigateRight,
                     isNavigateLeft = isNavigateLeft,
-                    onSwipeRight = { 
+                    onSwipeRight = { item -> 
                         isNavigateRight = false
-                        // Kelimeyi bildiğini işaretle
+                        viewModel.markWordAsKnown(item)
                     },
-                    onSwipeLeft = { 
+                    onSwipeLeft = { item -> 
                         isNavigateLeft = false
-                        // Kelimeyi bilmediğini işaretle
+                        viewModel.markWordAsUnknown(item)
                     },
                     onStackCompleted = {
-                        // Tüm kartlar bittiğinde yapılacak işlem
                         navigateBack()
                     }
                 )
@@ -119,7 +111,8 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
     @Composable
     private fun Preview() {
         val vm = FlashCardViewModel(
-            FiDataMockManager()
+            FiDataMockManager(),
+            UserMockManager()
         )
         ContentView(vm)
     }
