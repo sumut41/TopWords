@@ -47,7 +47,7 @@ fun AppTopHeader(
                 Box(
                     modifier = Modifier
                         .padding(
-                            start = AppDimension.default.dp24,
+                            start = AppDimension.default.dp16,
                             end = AppDimension.default.dp8
                         )
                         .size(AppDimension.default.dp32)
@@ -70,7 +70,8 @@ fun AppTopHeader(
             }
 
             AppText(
-                modifier = Modifier,
+                modifier = Modifier
+                    .padding(horizontal = AppDimension.default.dp16),
                 text = title,
                 style = titleStyle,
                 textAlign = TextAlign.Start

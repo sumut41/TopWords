@@ -48,6 +48,7 @@ dependencies {
     implementation(Dependencies.kotlinxCoroutinesAndroid)
 
     implementation(Dependencies.hiltAndroid)
+    kapt(Dependencies.hiltAndroidCompiler)
     kapt(Dependencies.hiltCompiler)
 
     implementation(Dependencies.RoomKtx)

@@ -25,6 +25,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.layoutId
 import androidx.compose.ui.res.vectorResource
@@ -47,9 +48,9 @@ fun AppSearchTextField(
     enabled: Boolean = true,
     height: Dp = AppDimension.default.dp52,
     backgroundColor: Color = LocalAppColor.current.colorBackgroundInformationSubtle,
-    shape: RoundedCornerShape = RoundedCornerShape(AppDimension.default.dp4),
+    shape: RoundedCornerShape = RoundedCornerShape(AppDimension.default.dp10),
     borderColor: Color = LocalAppColor.current.colorBorderInputsDefault,
-    focusedBorderColor: Color = LocalAppColor.current.colorBorderInputsSelected,
+    focusedBorderColor: Color = LocalAppColor.current.colorBorderInputsDefault,
     onImeAction: () -> Unit = {},
 ) {
     var isFocused by remember { mutableStateOf(false) }
@@ -73,6 +74,7 @@ fun AppSearchTextField(
             imeAction = ImeAction.Done,
             autoCorrectEnabled = false
         ),
+        cursorBrush = SolidColor(LocalAppColor.current.colorTextMain),
         keyboardActions = KeyboardActions(onDone = { onImeAction() }),
         decorationBox = @Composable { innerTextField ->
             Row(
@@ -112,7 +114,7 @@ fun AppSearchTextField(
                         AppIcon(
                             imageVector = ImageVector.vectorResource(R.drawable.ic_search),
                             contentDescription = "search",
-                            tint = LocalAppColor.current.primary
+                            tint = LocalAppColor.current.colorBorderInputsDefault
                         )
                     }
                 }

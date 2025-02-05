@@ -7,5 +7,14 @@
     <fragment
         android:id="@+id/menuFragment"
         android:name="com.skyvo.mobile.top.words.feature.menu.MenuFragment"
-        android:label="MenuFragment" />
+        android:label="MenuFragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_favoriteWordFragment"
+            app:destination="@id/favoriteWordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteWordFragment"
+        android:name="com.skyvo.mobile.top.words.feature.menu.favorite.FavoriteWordFragment"
+        android:label="FavoriteWordFragment" />
 </navigation>

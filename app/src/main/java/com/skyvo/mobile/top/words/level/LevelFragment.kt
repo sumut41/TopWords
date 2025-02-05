@@ -23,6 +23,7 @@ import com.skyvo.mobile.core.base.manager.FiDataMockManager
 import com.skyvo.mobile.core.base.manager.Level
 import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
+import com.skyvo.mobile.core.database.word.WordMockRepository
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopLongHeader
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
@@ -180,7 +181,8 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
     private fun Preview() {
         val vm = LevelViewModel(
             UserMockManager(),
-            FiDataMockManager()
+            FiDataMockManager(),
+            WordMockRepository()
         )
         ContentView(vm)
     }

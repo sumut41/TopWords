@@ -21,6 +21,7 @@ import androidx.compose.ui.res.vectorResource
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.menu.AppMenuCard
@@ -124,7 +125,7 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                             color = LocalAppColor.current.colorC2Level,
                             menuIcon = R.drawable.ic_heart_filled
                         ) {
-
+                            navigate(MenuFragmentDirections.actionMenuFragmentToFavoriteWordFragment())
                         }
                     }
                 }

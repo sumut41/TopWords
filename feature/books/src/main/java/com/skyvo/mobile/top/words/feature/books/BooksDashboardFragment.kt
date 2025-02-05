@@ -1,12 +1,16 @@
 package com.skyvo.mobile.top.words.feature.books
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -84,19 +88,26 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                 )
                         )
 
-                        AppIcon(
+                        Box(
                             modifier = Modifier
-                                .ghostClickable {
+                                .padding(end = AppDimension.default.dp16)
+                                .size(AppDimension.default.dp32)
+                                .background(
+                                    color = LocalAppColor.current.colorIconBackground,
+                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                )
+                                .clickable {
                                     navigate(BooksDashboardFragmentDirections.actionBooksDashboardFragmentToBooksSearchFragment(state.selectedTabIndex))
-                                }
-                                .size(AppDimension.default.dp48)
-                                .padding(
-                                    end = AppDimension.default.dp16
-                                ),
-                            imageVector = ImageVector.vectorResource(R.drawable.ic_search),
-                            tint = LocalAppColor.current.primary,
-                            contentDescription = "Theme"
-                        )
+                                },
+                            contentAlignment = Alignment.Center
+                        ) {
+                            AppIcon(
+                                modifier = Modifier.size(AppDimension.default.dp20),
+                                imageVector = ImageVector.vectorResource(R.drawable.ic_search),
+                                tint = LocalAppColor.current.colorIcon,
+                                contentDescription = "Search"
+                            )
+                        }
                     }
 
 

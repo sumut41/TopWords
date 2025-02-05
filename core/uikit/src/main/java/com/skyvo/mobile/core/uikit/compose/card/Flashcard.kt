@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -13,11 +14,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.skyvo.mobile.core.uikit.R
+import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
@@ -26,6 +31,7 @@ import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import kotlinx.coroutines.delay
 
 data class FlashcardItem(
+    val id: Long,
     val word: String,
     val translate: String,
     val sentence: String,
@@ -41,13 +47,15 @@ fun FlashcardStack(
     isNavigateLeft: Boolean,
     onSwipeRight: (FlashcardItem) -> Unit,
     onSwipeLeft: (FlashcardItem) -> Unit,
-    onStackCompleted: () -> Unit
+    onStackCompleted: () -> Unit,
+    onFavoriteClick: (Long, Boolean) -> Unit
 ) {
     val cardStack = remember { mutableStateListOf(*items.toTypedArray()) }
     val currentCard = cardStack.firstOrNull()
     val offsetX = remember { Animatable(0f) }
     var isAnimating by remember { mutableStateOf(false) }
     var cardType by remember { mutableIntStateOf(0) }
+    var favoriteStates by remember { mutableStateOf(mutableMapOf<Long, Boolean>()) }
 
     Box(
         modifier = Modifier
@@ -92,7 +100,14 @@ fun FlashcardStack(
                     item = cardStack[1],
                     modifier = Modifier.scale(0.95f),
                     cardType = 0,
-                    backgroundColor = LocalAppColor.current.colorFlashCardBackground
+                    backgroundColor = LocalAppColor.current.colorFlashCardBackground,
+                    isFavorite = favoriteStates[cardStack[1].id] ?: false,
+                    onFavoriteClick = { itemId, isFavorite ->
+                        favoriteStates = favoriteStates.toMutableMap().apply {
+                            this[itemId] = !(this[itemId] ?: false)
+                        }
+                        onFavoriteClick(itemId, isFavorite)
+                    }
                 )
             }
 
@@ -106,6 +121,13 @@ fun FlashcardStack(
                     1 -> LocalAppColor.current.colorSuccess
                     2 -> LocalAppColor.current.colorError
                     else -> LocalAppColor.current.colorFlashCardBackground
+                },
+                isFavorite = favoriteStates[currentCard.id] ?: false,
+                onFavoriteClick = { itemId, isFavorite ->
+                    favoriteStates = favoriteStates.toMutableMap().apply {
+                        this[itemId] = !(this[itemId] ?: false)
+                    }
+                    onFavoriteClick(itemId, isFavorite)
                 }
             )
         }
@@ -117,7 +139,9 @@ fun Flashcard(
     item: FlashcardItem,
     modifier: Modifier = Modifier,
     cardType: Int = 0,
-    backgroundColor: Color = LocalAppColor.current.colorFlashCardBackground
+    backgroundColor: Color = LocalAppColor.current.colorFlashCardBackground,
+    isFavorite: Boolean,
+    onFavoriteClick: (Long, Boolean) -> Unit
 ) {
     Card(
         shape = RoundedCornerShape(24.dp),
@@ -138,12 +162,54 @@ fun Flashcard(
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier.fillMaxSize()
         ) {
-            AppText(
-                text = item.level,
-                style = AppTypography.default.body,
-                color = LocalAppColor.current.colorTextMain,
-                modifier = Modifier.padding(top = AppDimension.default.dp24)
-            )
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(
+                        top = AppDimension.default.dp24,
+                        start = AppDimension.default.dp24,
+                        end = AppDimension.default.dp24
+                    ),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Box(
+                    modifier = Modifier.weight(1f)
+                )
+
+                AppText(
+                    text = item.level,
+                    style = AppTypography.default.body,
+                    color = LocalAppColor.current.colorTextMain,
+                    modifier = Modifier.weight(1f),
+                    textAlign = TextAlign.Center
+                )
+
+                Box(
+                    modifier = Modifier.weight(1f),
+                    contentAlignment = Alignment.CenterEnd
+                ) {
+                    AppIcon(
+                        modifier = Modifier
+                            .size(AppDimension.default.dp24)
+                            .clickable {
+                                onFavoriteClick(
+                                    item.id,
+                                    isFavorite.not()
+                                )
+                            },
+                        imageVector = ImageVector.vectorResource(
+                            if (isFavorite) R.drawable.ic_favorite_filled else R.drawable.ic_favorite
+                        ),
+                        tint = if (isFavorite) {
+                            LocalAppColor.current.colorError
+                        } else {
+                            LocalAppColor.current.colorIcon
+                        },
+                        contentDescription = "${item.word} favorite"
+                    )
+                }
+            }
 
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
@@ -180,7 +246,7 @@ fun Flashcard(
                         )
                         append(item.sentence.substring(wordIndex, wordIndex + item.word.length))
                         pop()
-                        
+
                         // Kelimeden sonraki kısım
                         append(item.sentence.substring(wordIndex + item.word.length))
                     } else {
@@ -189,7 +255,7 @@ fun Flashcard(
                     }
                 }
 
-                Column (
+                Column(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(
@@ -253,9 +319,9 @@ fun FlashcardStackPreview() {
     var isNavigateLeft by remember { mutableStateOf(false) }
 
     val items = listOf(
-        FlashcardItem("mother", "[mʌðər]", "Örnek Cümle", "Örnek Cümle","A1 Level"),
-        FlashcardItem("father", "[fɑːðər]", "Örnek Cümle", "Örnek Cümle", "A1 Level"),
-        FlashcardItem("sister", "[sɪstər]", "Örnek Cümle", "Örnek Cümle", "A1 Level", )
+        FlashcardItem(1, "mother", "[mʌðər]", "Örnek Cümle", "Örnek Cümle", "A1 Level"),
+        FlashcardItem(2, "father", "[fɑːðər]", "Örnek Cümle", "Örnek Cümle", "A1 Level"),
+        FlashcardItem(3, "sister", "[sɪstər]", "Örnek Cümle", "Örnek Cümle", "A1 Level")
     )
 
     AppPrimaryTheme {
@@ -265,7 +331,9 @@ fun FlashcardStackPreview() {
             isNavigateLeft = isNavigateLeft,
             onSwipeRight = { isNavigateRight = false },
             onSwipeLeft = { isNavigateLeft = false },
-            onStackCompleted = { /* Kartlar bittiğinde yapılacak işlem */ }
+            onStackCompleted = { /* Kartlar bittiğinde yapılacak işlem */ },
+            onFavoriteClick = {_, _ ->
+            }
         )
     }
 }

@@ -45,6 +45,7 @@ android {
 dependencies {
     implementation(project(BuildModules.CORE.BASE))
     implementation(project(BuildModules.CORE.UIKIT))
+    implementation(project(BuildModules.CORE.DATABASE))
 
     implementation(Dependencies.androidXCore)
     implementation(Dependencies.appcompat)

@@ -26,6 +26,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.base.navigation.navigateBack
+import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.layout.AppBookCard
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
@@ -64,7 +65,15 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
         var searchText by remember { mutableStateOf("") }
         val focusManager = LocalFocusManager.current
         AppPrimaryTheme {
-            AppScaffold {
+            AppScaffold (
+                header = {
+                    AppTopHeader(
+                        title = "Book Search"
+                    ) {
+                        navigateBack()
+                    }
+                }
+            ) {
                Column (
                    modifier = Modifier
                        .fillMaxSize()
@@ -73,16 +82,6 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
                            focusManager.clearFocus()
                        }
                ) {
-                   AppIcon(
-                       modifier = Modifier
-                           .ghostClickable {
-                               navigateBack()
-                           }
-                           .size(AppDimension.default.dp40)
-                           .padding(top = AppDimension.default.dp16),
-                       imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_back),
-                       contentDescription = "Back Button"
-                   )
                    AppSearchTextField(
                        modifier = Modifier
                            .fillMaxWidth()
@@ -93,8 +92,7 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
                            searchText = it
                            viewModel.searchBooks(it)
                        },
-                       backgroundColor = LocalAppColor.current.colorSurfaceBase,
-                       focusedBorderColor = LocalAppColor.current.primary,
+                       backgroundColor = LocalAppColor.current.colorSurfaceBase
                    )
 
                    BookList(state = state)
