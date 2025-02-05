@@ -110,9 +110,9 @@ fun AppSearchTextField(
                         onClick = {}
                     ) {
                         AppIcon(
-                            imageVector = ImageVector.vectorResource(R.drawable.ic_android_black_24dp),
+                            imageVector = ImageVector.vectorResource(R.drawable.ic_search),
                             contentDescription = "search",
-                            tint = LocalAppColor.current.colorIcon
+                            tint = LocalAppColor.current.primary
                         )
                     }
                 }

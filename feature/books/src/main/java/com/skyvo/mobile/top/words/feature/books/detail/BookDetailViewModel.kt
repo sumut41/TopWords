@@ -3,8 +3,10 @@ package com.skyvo.mobile.top.words.feature.books.detail
 import android.os.Bundle
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.uikit.compose.widget.KeyValue
+import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
+@HiltViewModel
 class BookDetailViewModel @Inject constructor() : BaseComposeViewModel<BookDetailUIState>() {
     override fun setInitialState(): BookDetailUIState {
         return BookDetailUIState()

@@ -11,6 +11,9 @@
         <action
             android:id="@+id/action_booksDashboardFragment_to_bookDetailFragment"
             app:destination="@id/bookDetailFragment" />
+        <action
+            android:id="@+id/action_booksDashboardFragment_to_booksSearchFragment"
+            app:destination="@id/booksSearchFragment" />
     </fragment>
     <fragment
         android:id="@+id/bookDetailFragment"
@@ -20,5 +23,16 @@
             android:name="book"
             app:argType="com.skyvo.mobile.top.words.feature.books.model.BooksItem"
             app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksSearchFragment"
+        android:name="com.skyvo.mobile.top.words.feature.books.search.BooksSearchFragment"
+        android:label="BooksSearchFragment" >
+        <argument
+            android:name="bookType"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_booksSearchFragment_to_bookDetailFragment"
+            app:destination="@id/bookDetailFragment" />
     </fragment>
 </navigation>
