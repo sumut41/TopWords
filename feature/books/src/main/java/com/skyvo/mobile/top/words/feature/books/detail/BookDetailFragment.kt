@@ -48,7 +48,9 @@ import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import com.skyvo.mobile.core.uikit.util.GetLevelIcon
 import com.skyvo.mobile.core.uikit.util.setTextColor
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
     override val viewModel: BookDetailViewModel by viewModels()
     override var displayBottomNavigationBarMenu: Boolean = false
@@ -331,7 +333,7 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                             modifier = Modifier.padding(
                                 start = AppDimension.default.dp24
                             ),
-                            text = state.selectedSentence.first.orEmpty(),
+                            text = state.selectedSentence.first,
                             style = AppTypography.default.bodyExtraLargeBold,
                             color = LocalAppColor.current.colorBooksLevel
                         )
