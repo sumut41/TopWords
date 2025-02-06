@@ -1,10 +1,13 @@
 package com.skyvo.mobile.top.words.level
 
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -19,7 +22,6 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
-import com.skyvo.mobile.core.base.manager.Level
 import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
@@ -31,13 +33,13 @@ import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
-import com.skyvo.mobile.core.uikit.util.GetLevelColor
+import com.skyvo.mobile.core.uikit.util.GetGoalColor
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class LevelFragment : BaseComposeFragment<LevelViewModel>() {
+class LevelGoalFragment : BaseComposeFragment<LevelGoalViewModel>() {
 
-    override val viewModel: LevelViewModel by viewModels()
+    override val viewModel: LevelGoalViewModel by viewModels()
 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
@@ -46,15 +48,14 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
     }
 
     @Composable
-    private fun ContentView(viewModel: LevelViewModel) {
-        createLevelList(viewModel)
+    private fun ContentView(viewModel: LevelGoalViewModel) {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
         AppPrimaryTheme {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "Select level for learning language",
+                        title = "What's your daily learning goal?",
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -62,7 +63,8 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                 },
                 bottomView = {
                     AppPrimaryLargeButton(
-                        text = "Continue",
+                        text = "Start learning",
+                        icon = com.skyvo.mobile.core.uikit.R.drawable.ic_book,
                         onClick = {
                             viewModel.next()
                         },
@@ -79,38 +81,46 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                         )
                     }
 
-                    items(state.levelList) { level ->
+                    items(state.goalList) { item ->
                         AppChooseItemComponent(
                             modifier = Modifier.padding(
                                 horizontal = AppDimension.default.dp16,
                                 vertical = AppDimension.default.dp8
                             ),
-                            text = level.name.orEmpty(),
-                            isSelected = level == state.selectLevel,
+                            text = "${item} min/day",
+                            isSelected = item == state.selectGoalMin,
                             startContent = {
                                 Box(
                                     modifier = Modifier
                                         .size(
-                                            width = 36.dp,
-                                            height = 28.dp
+                                            width = 72.dp,
+                                            height = 30.dp
                                         )
                                         .background(
-                                            color = GetLevelColor(level.type.orEmpty()),
+                                            color = GetGoalColor(item),
                                             shape = RoundedCornerShape(10.dp)
                                         ),
                                     contentAlignment = Alignment.Center
                                 ) {
                                     AppText(
-                                        text = level.type.orEmpty(),
-                                        style = AppTypography.default.bodyLarge,
+                                        text = if (item <= 5) {
+                                            "Casual"
+                                        } else if (item <= 10) {
+                                            "Regular"
+                                        } else if (item <= 15) {
+                                            "Serious"
+                                        } else if (item <= 20) {
+                                            "Intence"
+                                        } else {
+                                            "Normaly"
+                                        },
+                                        style = AppTypography.default.bodySmallBold,
                                         color = Color.White
                                     )
                                 }
                             },
                             onSelectListener = { _ ->
-                                viewModel.selectLevel(
-                                    level
-                                )
+                                viewModel.selectGoal(item)
                             }
                         )
                     }
@@ -125,58 +135,11 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
         }
     }
 
-    private fun createLevelList(viewModel: LevelViewModel) {
-        val list: ArrayList<Level> = arrayListOf()
-
-        list.add(
-            Level(
-                type = "A1",
-                name = "Beginner"
-            )
-        )
-
-        list.add(
-            Level(
-                type = "A2",
-                name = "Elementary"
-            )
-        )
-
-        list.add(
-            Level(
-                type = "B1",
-                name = "Intermediate"
-            )
-        )
-
-        list.add(
-            Level(
-                type = "B2",
-                name = "Upper Intermediate"
-            )
-        )
-
-        list.add(
-            Level(
-                type = "C1",
-                name = "Advanced"
-            )
-        )
-
-        list.add(
-            Level(
-                type = "C2",
-                name = "Proficient"
-            )
-        )
-
-        viewModel.setLevelList(list)
-    }
 
     @Preview
     @Composable
     private fun Preview() {
-        val vm = LevelViewModel(
+        val vm = LevelGoalViewModel(
             UserMockManager()
         )
         ContentView(vm)

@@ -22,4 +22,5 @@ object ComposeLibs {
     const val ThemeAdapter = "com.google.accompanist:accompanist-themeadapter-material:${Versions.accompanistVersion}"
     const val SystemUIController = "com.google.accompanist:accompanist-systemuicontroller:${Versions.accompanistVersion}"
     const val Permission = "com.google.accompanist:accompanist-permissions:${Versions.accompanistVersion}"
+    const val Lottie = "com.airbnb.android:lottie-compose:4.0.0"
 }

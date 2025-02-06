@@ -18,4 +18,7 @@ class UserMockManager: UserManager {
         "Beginner"
     )
 
+    override var goalMinute: Int? = 10
+
+    override var isCompletedSetup: Boolean = false
 }

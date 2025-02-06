@@ -1,13 +1,21 @@
 package com.skyvo.mobile.top.words.feature.books.detail
 
 import android.os.Bundle
+import androidx.lifecycle.viewModelScope
+import com.skyvo.mobile.core.base.manager.AppBook
+import com.skyvo.mobile.core.base.manager.AppBookClickWordItem
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
+import com.skyvo.mobile.core.database.book.BookRepository
+import com.skyvo.mobile.core.shared.extension.convertJsonToList
 import com.skyvo.mobile.core.uikit.compose.widget.KeyValue
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class BookDetailViewModel @Inject constructor() : BaseComposeViewModel<BookDetailUIState>() {
+class BookDetailViewModel @Inject constructor(
+    private val bookRepository: BookRepository
+) : BaseComposeViewModel<BookDetailUIState>() {
     override fun setInitialState(): BookDetailUIState {
         return BookDetailUIState()
     }
@@ -15,13 +23,32 @@ class BookDetailViewModel @Inject constructor() : BaseComposeViewModel<BookDetai
     override fun fetchExtras(extra: Bundle) {
         super.fetchExtras(extra)
         with(BookDetailFragmentArgs.fromBundle(extra)) {
-            val args = this
-            setState {
-                copy(
-                    book = args.book
-                )
+            getBookDetail(bookId)
+        }
+    }
+
+    private fun getBookDetail(id: Long?) {
+        viewModelScope.launch {
+            bookRepository.getBookDetail(id ?: 0).collect {
+                it?.let { item ->
+                    setState {
+                        copy(
+                            book = AppBook(
+                                content = item.content,
+                                contentTr = item.contentTr,
+                                title = item.title,
+                                imageUrl = item.imageUrl,
+                                isNew = item.isNew,
+                                level = item.level,
+                                genre = item.genre,
+                                min = item.min,
+                                words = item.words.convertJsonToList<AppBookClickWordItem>()
+                            )
+                        )
+                    }
+                    updateSentences()
+                }
             }
-            updateSentences()
         }
     }
 

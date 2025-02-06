@@ -26,3 +26,16 @@ fun GetLevelIcon(type: String): Int {
         else -> R.drawable.ic_level_c2
     }
 }
+
+@Composable
+fun GetGoalColor(minute: Int): Color {
+    return if (minute <= 5) {
+        LocalAppColor.current.colorA1Level
+    } else if (minute <= 10) {
+        LocalAppColor.current.colorA2Level
+    } else if (minute <= 15) {
+        LocalAppColor.current.colorC1Level
+    } else {
+        LocalAppColor.current.colorC2Level
+    }
+}

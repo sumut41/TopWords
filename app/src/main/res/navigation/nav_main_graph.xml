@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_splashFragment_to_startScreenFragment"
             app:destination="@id/startScreenFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_dataLoaderFragment"
+            app:destination="@id/dataLoaderFragment" />
     </fragment>
 
     <fragment
@@ -47,6 +50,22 @@
     <fragment
         android:id="@+id/levelFragment"
         android:name="com.skyvo.mobile.top.words.level.LevelFragment"
-        android:label="LevelFragment" />
+        android:label="LevelFragment" >
+        <action
+            android:id="@+id/action_levelFragment_to_levelGoalFragment"
+            app:destination="@id/levelGoalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataLoaderFragment"
+        android:name="com.skyvo.mobile.top.words.loader.DataLoaderFragment"
+        android:label="DataLoaderFragment" />
+    <fragment
+        android:id="@+id/levelGoalFragment"
+        android:name="com.skyvo.mobile.top.words.level.LevelGoalFragment"
+        android:label="LevelGoalFragment" >
+        <action
+            android:id="@+id/action_levelGoalFragment_to_dataLoaderFragment"
+            app:destination="@id/dataLoaderFragment" />
+    </fragment>
 
 </navigation>

@@ -4,6 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import com.skyvo.mobile.core.database.AppCoreDatabase
 import com.skyvo.mobile.core.database.RoomDatabaseConstant
+import com.skyvo.mobile.core.database.book.BookDao
+import com.skyvo.mobile.core.database.course.CourseWordDao
 import com.skyvo.mobile.core.database.localization.LocalizationDao
 import com.skyvo.mobile.core.database.word.WordDao
 import dagger.Module
@@ -38,5 +40,17 @@ object DBDIModule {
     @Singleton
     fun provideWordDao(database: AppCoreDatabase): WordDao {
         return database.wordDao()
+    }
+
+    @Provides
+    @Singleton
+    fun provideCourseWordDao(database: AppCoreDatabase): CourseWordDao {
+        return database.courseDao()
+    }
+
+    @Provides
+    @Singleton
+    fun provideBookDao(database: AppCoreDatabase): BookDao {
+        return database.bookDao()
     }
 }

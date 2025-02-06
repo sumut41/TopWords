@@ -20,9 +20,8 @@
         android:name="com.skyvo.mobile.top.words.feature.books.detail.BookDetailFragment"
         android:label="BookDetailFragment" >
         <argument
-            android:name="book"
-            app:argType="com.skyvo.mobile.top.words.feature.books.model.BooksItem"
-            app:nullable="true" />
+            android:name="bookId"
+            app:argType="long" />
     </fragment>
     <fragment
         android:id="@+id/booksSearchFragment"

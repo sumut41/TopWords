@@ -49,7 +49,7 @@ android {
 }
 
 dependencies {
-    implementation(project(BuildModules.CORE.SHARED))
+    api(project(BuildModules.CORE.SHARED))
     implementation(Dependencies.androidXCore)
     implementation(Dependencies.appcompat)
     implementation(Dependencies.supportConstraint)

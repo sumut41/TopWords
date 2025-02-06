@@ -39,6 +39,12 @@ interface WordDao {
     @Query("UPDATE ${RoomDatabaseConstant.WORD_TABLE} SET isFavorite = :isFavorite  WHERE id = :id AND languageCode = :languageCode")
     suspend fun markWordAsFavorite(isFavorite: Boolean, id: Long, languageCode: String?)
 
+    @Query("SELECT * FROM ${RoomDatabaseConstant.WORD_TABLE} WHERE id = :id")
+    suspend fun getWord(id: Long): WordEntity?
+
     @Update
     suspend fun updateWord(word: WordEntity)
+
+    @Query("DELETE FROM ${RoomDatabaseConstant.WORD_TABLE}")
+    suspend fun clearAll()
 }
