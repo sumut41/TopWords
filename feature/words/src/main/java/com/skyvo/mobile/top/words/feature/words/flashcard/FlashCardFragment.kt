@@ -16,6 +16,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
+import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.database.word.WordMockRepository
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.button.AppSecondaryLargeButton
@@ -100,7 +101,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                             viewModel.markWordAsUnknown(item)
                         },
                         onStackCompleted = {
-                            navigateBack()
+                            viewModel.next()
                         },
                         onFavoriteClick = { itemId, isFavorite ->
                             viewModel.toggleFavorite(itemId, isFavorite)
@@ -116,6 +117,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
     private fun Preview() {
         val vm = FlashCardViewModel(
             UserMockManager(),
+            CourseWordMockRepository(),
             WordMockRepository()
         )
         ContentView(vm)

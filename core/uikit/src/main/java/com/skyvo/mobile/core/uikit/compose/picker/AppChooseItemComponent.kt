@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.skyvo.mobile.core.uikit.compose.checkbox.AppCheckBox
@@ -24,7 +25,8 @@ import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 @Composable
 fun AppChooseItemComponent(
     modifier: Modifier = Modifier,
-    startContent: @Composable () -> Unit,
+    backgroundColor: Color = LocalAppColor.current.colorBackgroundSelected,
+    startContent: (@Composable () -> Unit)? = null,
     text: String,
     isSelected: Boolean,
     onSelectListener: (isSelect: Boolean) -> Unit
@@ -34,7 +36,7 @@ fun AppChooseItemComponent(
             .fillMaxWidth()
             .height(56.dp)
             .background(
-                color = LocalAppColor.current.colorBackgroundSelected,
+                color = backgroundColor,
                 shape = RoundedCornerShape(AppDimension.default.dp16)
             )
             .border(
@@ -54,7 +56,9 @@ fun AppChooseItemComponent(
                 .weight(9f),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            startContent()
+            startContent?.let {
+                startContent()
+            }
 
             AppText(
                 modifier = Modifier

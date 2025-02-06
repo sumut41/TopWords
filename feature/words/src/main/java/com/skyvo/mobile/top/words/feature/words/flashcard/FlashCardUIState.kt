@@ -4,5 +4,8 @@ import com.skyvo.mobile.core.base.viewmodel.UIState
 import com.skyvo.mobile.core.uikit.compose.card.FlashcardItem
 
 data class FlashCardUIState(
-    val items: List<FlashcardItem>? = null
+    val courseId: Long? = null,
+    val items: List<FlashcardItem>? = null,
+    val knowCount: Int = 0,
+    val unKnowCount: Int = 0
 ) : UIState

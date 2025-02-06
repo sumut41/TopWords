@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
-class CourseWordRepository @Inject constructor(
+open class CourseWordRepository @Inject constructor(
     private val courseWordDao: CourseWordDao
 ) {
     suspend fun insertAll(list: List<CourseWordEntity>) {
@@ -20,6 +20,14 @@ class CourseWordRepository @Inject constructor(
     fun getCurrentCourse(): Flow<CourseWordEntity?> = flow {
         emit(courseWordDao.getCurrentCourse())
     }.flowOn(Dispatchers.IO)
+
+    fun getFirstCourse(): Flow<CourseWordEntity?> = flow {
+        emit(courseWordDao.getFirstCourse())
+    }.flowOn(Dispatchers.IO)
+
+    suspend fun updateCourse(isStart: Boolean, progress: Float) {
+        courseWordDao.updateCourse(isStart, progress, progress >= 1f)
+    }
 
     fun getCompletedCourseCount(): Flow<Int> = flow {
         emit(courseWordDao.getCompletedCourseCount())

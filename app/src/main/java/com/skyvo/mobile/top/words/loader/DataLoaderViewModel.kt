@@ -113,7 +113,7 @@ class DataLoaderViewModel @Inject constructor(
                         quizTranslate = item.quizTranslate,
                         level = LevelType.BEGINNER.key,
                         languageCode = userManager.learnLanguage?.code,
-                        translateList = item.translateList?.joinToString { "," }
+                        translateList = item.translateList?.toJson()
                     )
                 )
             }
@@ -127,7 +127,7 @@ class DataLoaderViewModel @Inject constructor(
                         quizTranslate = item.quizTranslate,
                         level = LevelType.INTERMEDIATE.key,
                         languageCode = userManager.learnLanguage?.code,
-                        translateList = item.translateList?.joinToString { "," }
+                        translateList = item.translateList?.toJson()
                     )
                 )
             }
@@ -141,7 +141,7 @@ class DataLoaderViewModel @Inject constructor(
                         quizTranslate = item.quizTranslate,
                         level = LevelType.ADVANCED.key,
                         languageCode = userManager.learnLanguage?.code,
-                        translateList = item.translateList?.joinToString { "," }
+                        translateList = item.translateList?.toJson()
                     )
                 )
             }
@@ -207,7 +207,7 @@ class DataLoaderViewModel @Inject constructor(
             list.add(
                 CourseWordEntity(
                     level = levelType.key,
-                    wordIds = getIdList(course).joinToString { "," }
+                    wordIds = getIdList(course).joinToString(",")
                 )
             )
         }

@@ -11,6 +11,6 @@ data class CourseWordEntity (
     val level: String? = null,
     val wordIds: String? = null,
     val isCompleted: Boolean = false,
-    val progress: Double = 0.0,
+    val progress: Float = 0.0f,
     val isStart: Boolean = false
 )

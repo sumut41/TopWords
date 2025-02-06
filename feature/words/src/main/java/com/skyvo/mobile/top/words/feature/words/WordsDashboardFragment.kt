@@ -20,12 +20,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
-import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimarySmallButton
 import com.skyvo.mobile.core.uikit.compose.progressbar.AppCircleProgressbar
@@ -147,7 +145,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                             start = AppDimension.default.dp16
                                         ),
                                     diameter = 80.dp,
-                                    progress = 0.1f
+                                    progress = state.currentCourse?.progress ?: 0f
                                 )
 
                                 Column (
@@ -155,7 +153,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                         .weight(2.5f)
                                 ) {
                                     AppText(
-                                        text = "Chapter 1",
+                                        text = "Chapter ${state.currentCourse?.id}",
                                         style = AppTypography.default.body,
                                         modifier = Modifier
                                             .fillMaxWidth()
@@ -199,14 +197,5 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 }
             }
         }
-    }
-
-    @Preview
-    @Composable
-    private fun Preview() {
-        val vm = WordsDashboardViewModel(
-            UserMockManager()
-        )
-        ContentView(vm)
     }
 }

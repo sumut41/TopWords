@@ -17,6 +17,12 @@ interface CourseWordDao {
     @Query("SELECT * FROM ${RoomDatabaseConstant.COURSE_WORD_TABLE} WHERE isStart = 1 AND isCompleted = 0 ORDER BY id ASC LIMIT 1")
     suspend fun getCurrentCourse(): CourseWordEntity?
 
+    @Query("SELECT * FROM ${RoomDatabaseConstant.COURSE_WORD_TABLE} WHERE isStart = 0 AND isCompleted = 0 ORDER BY id ASC LIMIT 1")
+    suspend fun getFirstCourse(): CourseWordEntity?
+
+    @Query("UPDATE ${RoomDatabaseConstant.COURSE_WORD_TABLE} SET isStart = :isStart, progress = :progress, isCompleted = :isComplete")
+    suspend fun updateCourse(isStart: Boolean, progress: Float, isComplete: Boolean)
+
     @Query("SELECT COUNT(*) FROM ${RoomDatabaseConstant.COURSE_WORD_TABLE} WHERE progress = 1.0 AND isCompleted = 1")
     suspend fun getCompletedCourseCount(): Int
 

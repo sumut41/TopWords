@@ -17,6 +17,15 @@
     <fragment
         android:id="@+id/flashCardFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.flashcard.FlashCardFragment"
-        android:label="FlashCardFragment" />
+        android:label="FlashCardFragment" >
+        <action
+            android:id="@+id/action_flashCardFragment_to_sentenceQuizFragment"
+            app:destination="@id/sentenceQuizFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sentenceQuizFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizFragment"
+        android:label="SentenceQuizFragment" />
 
 </navigation>

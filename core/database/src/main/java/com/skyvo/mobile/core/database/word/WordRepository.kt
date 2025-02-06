@@ -53,8 +53,12 @@ open class WordRepository @Inject constructor(
         wordDao.markWordAsFavorite(isFavorite, id, languageCode)
     }
 
-    suspend fun getWord(id: Long): Flow<WordEntity?> = flow {
+    fun getWord(id: Long): Flow<WordEntity?> = flow {
         emit(wordDao.getWord(id))
+    }.flowOn(Dispatchers.IO)
+
+    fun getStudyWord(id: Long): Flow<WordEntity?> = flow {
+        emit(wordDao.getStudyWord(id))
     }.flowOn(Dispatchers.IO)
 
     suspend fun clearAll() {

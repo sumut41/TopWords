@@ -13,6 +13,18 @@ class CourseMockDao: CourseWordDao {
         TODO("Not yet implemented")
     }
 
+    override suspend fun getFirstCourse(): CourseWordEntity? {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun updateCourse(
+        isStart: Boolean,
+        progress: Float,
+        isComplete: Boolean
+    ) {
+        TODO("Not yet implemented")
+    }
+
     override suspend fun getCompletedCourseCount(): Int {
         TODO("Not yet implemented")
     }

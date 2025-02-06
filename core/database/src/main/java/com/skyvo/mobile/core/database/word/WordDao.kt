@@ -42,6 +42,9 @@ interface WordDao {
     @Query("SELECT * FROM ${RoomDatabaseConstant.WORD_TABLE} WHERE id = :id")
     suspend fun getWord(id: Long): WordEntity?
 
+    @Query("SELECT * FROM ${RoomDatabaseConstant.WORD_TABLE} WHERE id = :id and isKnow = 0")
+    suspend fun getStudyWord(id: Long): WordEntity?
+
     @Update
     suspend fun updateWord(word: WordEntity)
 
