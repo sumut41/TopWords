@@ -29,7 +29,8 @@
         android:label="BooksSearchFragment" >
         <argument
             android:name="bookType"
-            app:argType="integer" />
+            app:argType="string"
+            app:nullable="true"/>
         <action
             android:id="@+id/action_booksSearchFragment_to_bookDetailFragment"
             app:destination="@id/bookDetailFragment" />

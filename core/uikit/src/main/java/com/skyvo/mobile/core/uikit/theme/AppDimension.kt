@@ -52,7 +52,7 @@ data class AppDimension(
             buttonSmallHeight = 34.dp,
             headerHeight = 56.dp,
             longHeaderHeight = 108.dp,
-            booksCardItemHeight = 130.dp,
+            booksCardItemHeight = 200.dp,
             bookHeight = 150.dp,
             bookImageHeight = 80.dp,
             dp0 = 0.dp,

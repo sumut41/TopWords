@@ -10,16 +10,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -35,13 +34,11 @@ import com.skyvo.mobile.core.uikit.compose.widget.Book
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
-import com.skyvo.mobile.core.uikit.util.GetLevelColor
 import com.skyvo.mobile.core.uikit.util.GetLevelIcon
 
 @Composable
 fun AppBookCard(
     book: Book,
-    levelColor: Color = LocalAppColor.current.colorSurfaceBase,
     navigateBookDetail: (Book) -> Unit = {}
 ) {
     Column(
@@ -51,6 +48,7 @@ fun AppBookCard(
                 color = LocalAppColor.current.background,
                 shape = RoundedCornerShape(AppDimension.default.dp10)
             )
+            .heightIn(min = AppDimension.default.booksCardItemHeight)
             .border(
                 width = 1.dp,
                 color = LocalAppColor.current.colorBorder,

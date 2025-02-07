@@ -29,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.base.manager.LevelType
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.R
@@ -45,7 +46,6 @@ import com.skyvo.mobile.core.uikit.theme.AppLightColors
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
-import com.skyvo.mobile.core.uikit.util.setTextColor
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -109,9 +109,15 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                         shape = RoundedCornerShape(AppDimension.default.dp10)
                                     )
                                     .clickable {
+                                        val level: String = when (state.selectedTabIndex) {
+                                            BooksDashboardTypeEnum.BEGINNER -> LevelType.BEGINNER.key.orEmpty()
+                                            BooksDashboardTypeEnum.INTERMEDIATE -> LevelType.INTERMEDIATE.key.orEmpty()
+                                            BooksDashboardTypeEnum.ADVANCED -> LevelType.ADVANCED.key.orEmpty()
+                                            else -> LevelType.BEGINNER.key.orEmpty()
+                                        }
                                         navigate(
                                             BooksDashboardFragmentDirections.actionBooksDashboardFragmentToBooksSearchFragment(
-                                                state.selectedTabIndex
+                                                level
                                             )
                                         )
                                     },
@@ -175,8 +181,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                         genre = book.genre.orEmpty(),
                                         min = book.min,
                                         isNew = book.isNew ?: false
-                                    ),
-                                    levelColor = setTextColor(book.level)
+                                    )
                                 ) {
                                     navigate(
                                         BooksDashboardFragmentDirections.actionBooksDashboardFragmentToBookDetailFragment(
