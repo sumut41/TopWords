@@ -18,6 +18,7 @@ data class AppTypography(
     val bodyExtraLargeBold: TextStyle,
     val bodyExtraLargeSemiBold: TextStyle,
     val bodyPrimary: TextStyle,
+    val bodyLargeNormal: TextStyle,
     val bodyLarge: TextStyle,
     val bodyBold: TextStyle,
     val body: TextStyle,
@@ -94,6 +95,13 @@ data class AppTypography(
                 fontWeight = FontWeight.Normal,
                 fontSize = 20.sp,
                 lineHeight = 24.sp,
+                letterSpacing = 0.2.sp
+            ),
+            bodyLargeNormal = TextStyle(
+                fontFamily = AppFonts.Inter,
+                fontWeight = FontWeight.Medium,
+                fontSize = 18.sp,
+                lineHeight = 20.sp,
                 letterSpacing = 0.2.sp
             ),
             bodyLarge = TextStyle(

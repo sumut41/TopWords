@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
@@ -25,6 +26,7 @@ fun AppRadioButton(
     selectedColor: Color = LocalAppColor.current.colorRadioButtonChecked,
     unSelectedColor: Color = LocalAppColor.current.colorRadioButtonUnChecked,
     textColor: Color = LocalAppColor.current.colorTextSubtler,
+    textStyle: TextStyle = AppTypography.default.body,
     onClick: (() -> Unit)?
 ) {
     Row(
@@ -55,7 +57,7 @@ fun AppRadioButton(
                     },
                 text = text,
                 color = textColor,
-                style = AppTypography.default.body
+                style = textStyle
             )
         }
         if (appRadioButtonDirection == AppRadioButtonDirection.RIGHT) {
