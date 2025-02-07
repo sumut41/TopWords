@@ -1,8 +1,10 @@
 package com.skyvo.mobile.top.words.feature.books.search
 
+import android.os.Bundle
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.AppBook
 import com.skyvo.mobile.core.base.manager.AppBookClickWordItem
+import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.book.BookRepository
 import com.skyvo.mobile.core.shared.extension.convertJsonToList
@@ -12,18 +14,28 @@ import javax.inject.Inject
 
 @HiltViewModel
 class BooksSearchViewModel @Inject constructor(
-    private val bookRepository: BookRepository
+    private val bookRepository: BookRepository,
+    private val userManager: UserManager
 ) : BaseComposeViewModel<BooksSearchUIState>() {
+
+    private var remoteBookList : List<AppBook>? = null
 
     override fun setInitialState(): BooksSearchUIState {
         return BooksSearchUIState()
     }
 
-    private fun searchBook(text: String?) {
+    override fun fetchExtras(extra: Bundle) {
+        super.fetchExtras(extra)
+        with(BooksSearchFragmentArgs.fromBundle(extra)) {
+            val args = this
+            searchBook(args.bookType)
+        }
+    }
+    private fun searchBook(level: String?) {
         viewModelScope.launch {
-            bookRepository.search(text).collect {
+            bookRepository.getBookList(level.orEmpty(), userManager.learnLanguage?.code.orEmpty()).collect {
                 it?.let { bookList ->
-                    val searchBooks = bookList.map { book ->
+                    val books = bookList.map { book ->
                         AppBook(
                             id = book.id,
                             title = book.title.orEmpty(),
@@ -37,10 +49,11 @@ class BooksSearchViewModel @Inject constructor(
                             words = book.words.convertJsonToList<AppBookClickWordItem>()
                         )
                     }
+                    remoteBookList = books
 
                     setState {
                         copy(
-                            books = searchBooks
+                            books = books
                         )
                     }
                 }
@@ -50,7 +63,19 @@ class BooksSearchViewModel @Inject constructor(
 
     fun searchBooks(searchText: String) {
         if (searchText.isNotEmpty()) {
-            searchBook(searchText)
+            setState {
+                copy(
+                    books = remoteBookList?.filter { book ->
+                        book.title?.contains(searchText.lowercase(), ignoreCase = true) == true
+                    } ?: emptyList()
+                )
+            }
+        } else {
+            setState {
+                copy(
+                    books = remoteBookList.orEmpty()
+                )
+            }
         }
     }
 }
