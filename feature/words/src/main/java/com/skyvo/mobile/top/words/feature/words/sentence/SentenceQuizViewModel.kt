@@ -16,7 +16,7 @@ class SentenceQuizViewModel @Inject constructor(
     private val userManager: UserManager,
     private val courseWordRepository: CourseWordRepository,
     private val wordRepository: WordRepository
-): BaseComposeViewModel<SentenceQuizUIState>() {
+) : BaseComposeViewModel<SentenceQuizUIState>() {
 
     private var currentProgress: Float = 0.0f
 
@@ -48,25 +48,27 @@ class SentenceQuizViewModel @Inject constructor(
     private fun getWordList(wordIds: String?) {
         viewModelScope.launch {
             val questionList: ArrayList<SentenceQuizModel> = arrayListOf()
-            wordIds?.split(",")?.forEach { id ->
-                wordRepository.getWord(id.toLong()).collect {
-                    it?.let { word ->
-                        questionList.add(
-                            SentenceQuizModel(
-                                word = word.word.orEmpty(),
-                                question = word.quiz.orEmpty(),
-                                questionTranslate = word.quizTranslate.orEmpty(),
-                                answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>(),
+            (wordIds?.split(","))?.let { list ->
+                list.shuffled().forEach { id ->
+                    wordRepository.getWord(id.toLong()).collect {
+                        it?.let { word ->
+                            questionList.add(
+                                SentenceQuizModel(
+                                    word = word.word.orEmpty(),
+                                    question = word.quiz.orEmpty(),
+                                    questionTranslate = word.quizTranslate.orEmpty(),
+                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>(),
+                                )
                             )
-                        )
+                        }
                     }
                 }
-            }
-            setState {
-                copy(
-                    items = questionList,
-                    currentQuestion = questionList.first()
-                )
+                setState {
+                    copy(
+                        items = questionList,
+                        currentQuestion = questionList.first()
+                    )
+                }
             }
             removeAllLoading()
         }
@@ -133,11 +135,19 @@ class SentenceQuizViewModel @Inject constructor(
 
     fun next() {
         viewModelScope.launch {
-            val progress = (state.value.correctCount / (userManager.goalMinute ?: 10)) / 100
             courseWordRepository.updateCourse(
                 isStart = true,
-                progress = currentProgress + progress.toFloat()
+                progress = calculateProgress(
+                    state.value.items.orEmpty().size, state.value.correctCount
+                )
             )
         }
+    }
+
+    private fun calculateProgress(totalWords: Int, knownWords: Int): Float {
+        if (totalWords == 0) return currentProgress
+        val progressIncrement = 0.25f * (knownWords.toFloat() / totalWords)
+        currentProgress += progressIncrement
+        return currentProgress
     }
 }

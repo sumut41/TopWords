@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -26,6 +25,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.UserMockManager
+import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
@@ -59,16 +59,16 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
             AppScaffold(
                 header = {
                     AppTopHeader(
-                        title = "Chapter 1"
+                        title = "Course ${state.currentCourse?.id}"
                     ) {
-
+                        navigateBack()
                     }
                 },
                 bottomView = {
                     AppPrimaryLargeButton(
                         text = "Continue"
                     ) {
-                        // next
+                        viewModel.next()
                     }
                 }
             ) {
@@ -99,7 +99,7 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                     )
 
                     AppSpacer(
-                        height = AppDimension.default.dp80
+                        height = AppDimension.default.dp100
                     )
                 }
             }

@@ -10,22 +10,45 @@
         android:label="WordsDashboardFragment">
         <deepLink app:uri="top-words://words/dashboard"/>
         <action
-            android:id="@+id/action_wordsDashboardFragment_to_flashCardFragment"
-            app:destination="@id/flashCardFragment" />
+            android:id="@+id/action_wordsDashboardFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/flashCardFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.flashcard.FlashCardFragment"
         android:label="FlashCardFragment" >
+
         <action
             android:id="@+id/action_flashCardFragment_to_sentenceQuizFragment"
-            app:destination="@id/sentenceQuizFragment" />
+            app:destination="@id/sentenceQuizFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
     </fragment>
 
     <fragment
         android:id="@+id/sentenceQuizFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizFragment"
         android:label="SentenceQuizFragment" />
+
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.status.StatusFragment"
+        android:label="StatusFragment" >
+
+        <action
+            android:id="@+id/action_statusFragment_to_flashCardFragment"
+            app:destination="@id/flashCardFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
+        <action
+            android:id="@+id/action_statusFragment_to_sentenceQuizFragment"
+            app:destination="@id/sentenceQuizFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
 
 </navigation>

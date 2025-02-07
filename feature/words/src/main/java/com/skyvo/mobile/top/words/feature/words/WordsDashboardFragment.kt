@@ -188,7 +188,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                                 bottom = AppDimension.default.dp16
                                             )
                                     ) {
-                                        navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToFlashCardFragment())
+                                        navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToStatusFragment())
                                     }
                                 }
                             }

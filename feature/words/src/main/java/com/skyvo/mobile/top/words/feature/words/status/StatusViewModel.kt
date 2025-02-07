@@ -12,10 +12,14 @@ import javax.inject.Inject
 class StatusViewModel @Inject constructor(
     private val userManager: UserManager,
     private val courseWordRepository: CourseWordRepository
-): BaseComposeViewModel<StatusUIState>() {
+) : BaseComposeViewModel<StatusUIState>() {
 
     override fun setInitialState(): StatusUIState {
         return StatusUIState()
+    }
+
+    init {
+        getCurrentCourse()
     }
 
     private fun getCurrentCourse() {
@@ -27,8 +31,64 @@ class StatusViewModel @Inject constructor(
                             currentCourse = course
                         )
                     }
+                    when (course.progress) {
+                        0.25f -> {
+                            setState {
+                                copy(
+                                    isWordCardCompleted = true,
+                                    isBlankFillQuizCompleted = false,
+                                    isWordQuizCompleted = false,
+                                    isSentenceQuizCompleted = false
+                                )
+                            }
+                        }
+
+                        0.50f -> {
+                            setState {
+                                copy(
+                                    isWordCardCompleted = true,
+                                    isBlankFillQuizCompleted = true,
+                                    isWordQuizCompleted = false,
+                                    isSentenceQuizCompleted = false
+                                )
+                            }
+                        }
+
+                        0.75f -> {
+                            setState {
+                                copy(
+                                    isWordCardCompleted = true,
+                                    isBlankFillQuizCompleted = true,
+                                    isWordQuizCompleted = true,
+                                    isSentenceQuizCompleted = false
+                                )
+                            }
+                        }
+
+                        1f -> {
+                            setState {
+                                copy(
+                                    isWordCardCompleted = true,
+                                    isBlankFillQuizCompleted = true,
+                                    isWordQuizCompleted = true,
+                                    isSentenceQuizCompleted = true
+                                )
+                            }
+                        }
+                    }
                 }
             }
+        }
+    }
+
+    fun next() {
+        val progress = state.value.currentCourse?.progress ?: 0f
+        if (progress <= 0.25f) {
+            navigate(StatusFragmentDirections.actionStatusFragmentToFlashCardFragment())
+        } else if (progress <= 0.50f) {
+            navigate(StatusFragmentDirections.actionStatusFragmentToSentenceQuizFragment())
+        } else {
+            // safs
         }
     }
 }
