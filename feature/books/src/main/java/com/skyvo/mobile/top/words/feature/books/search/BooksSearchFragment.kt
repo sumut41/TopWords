@@ -36,7 +36,6 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import com.skyvo.mobile.core.uikit.util.ghostClickable
-import com.skyvo.mobile.core.uikit.util.setTextColor
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -141,8 +140,7 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
                                         genre = book.genre.orEmpty(),
                                         min = book.min,
                                         isNew = book.isNew ?: false
-                                    ),
-                                    levelColor = setTextColor(book.level)
+                                    )
                                 ) {
                                     navigate(
                                         BooksSearchFragmentDirections.actionBooksSearchFragmentToBookDetailFragment(
