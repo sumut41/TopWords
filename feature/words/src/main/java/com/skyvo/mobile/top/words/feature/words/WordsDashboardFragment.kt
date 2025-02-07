@@ -1,5 +1,6 @@
 package com.skyvo.mobile.top.words.feature.words
 
+import android.os.Bundle
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -42,6 +43,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
 
     override val viewModel: WordsDashboardViewModel by viewModels()
     override var displayBottomNavigationBarMenu: Boolean = true
+
+    override fun onResume() {
+        super.onResume()
+        viewModel.getCurrentCourse()
+    }
 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {

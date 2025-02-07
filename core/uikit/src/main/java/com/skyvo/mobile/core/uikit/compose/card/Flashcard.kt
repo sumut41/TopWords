@@ -74,7 +74,6 @@ fun FlashcardStack(
                         onSwipeRight(currentCard)
                         cardStack.removeAt(0)
                         if (cardStack.isEmpty()) {
-                            delay(300)
                             onStackCompleted()
                         }
                         offsetX.snapTo(0f)
@@ -86,7 +85,6 @@ fun FlashcardStack(
                         onSwipeLeft(currentCard)
                         cardStack.removeAt(0)
                         if (cardStack.isEmpty()) {
-                            delay(300)
                             onStackCompleted()
                         }
                         offsetX.snapTo(0f)

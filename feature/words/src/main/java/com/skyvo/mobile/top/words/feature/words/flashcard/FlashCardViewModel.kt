@@ -108,18 +108,18 @@ class FlashCardViewModel @Inject constructor(
 
     fun next() {
         viewModelScope.launch {
+            delay(200)
             courseWordRepository.updateCourse(
                 isStart = true,
                 progress = calculateProgress(state.value.items.orEmpty().size, state.value.knowCount)
             )
-            delay(100)
             navigate(FlashCardFragmentDirections.actionFlashCardFragmentToSentenceQuizFragment())
         }
     }
 
     private fun calculateProgress(totalWords: Int, knownWords: Int): Float {
         if (totalWords == 0) return currentProgress
-        val progressIncrement = (0.25f * (knownWords.toFloat() / totalWords))*(totalWords/(userManager.goalMinute ?: 10))
+        val progressIncrement = ((0.25f - currentProgress) * (knownWords.toFloat() / totalWords))
         currentProgress += progressIncrement
         return currentProgress
     }

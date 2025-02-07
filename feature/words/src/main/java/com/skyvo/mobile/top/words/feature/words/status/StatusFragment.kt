@@ -84,7 +84,7 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
 
                     StepView(
                         text = "Fill Blanks",
-                        isCompleted = state.isSentenceQuizCompleted
+                        isCompleted = state.isBlankFillQuizCompleted
                     )
 
                     StepView(
@@ -94,7 +94,7 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
 
                     StepView(
                         text = "Sentence Puzzle",
-                        isCompleted = state.isBlankFillQuizCompleted,
+                        isCompleted = state.isSentenceQuizCompleted,
                         dividerVisible = false
                     )
 

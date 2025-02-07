@@ -12,8 +12,7 @@ import javax.inject.Inject
 class WordsDashboardViewModel @Inject constructor(
     private val userManager: UserManager,
     private val courseWordRepository: CourseWordRepository
-) :
-    BaseComposeViewModel<WordsDashboardUIState>() {
+) : BaseComposeViewModel<WordsDashboardUIState>() {
 
     override fun setInitialState(): WordsDashboardUIState {
         return WordsDashboardUIState()
@@ -28,7 +27,7 @@ class WordsDashboardViewModel @Inject constructor(
         getCurrentCourse()
     }
 
-    private fun getCurrentCourse() {
+    fun getCurrentCourse() {
         viewModelScope.launch {
             courseWordRepository.getCurrentCourse().collect {
                 it?.let { course ->

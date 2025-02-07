@@ -8,6 +8,7 @@ import com.skyvo.mobile.core.database.course.CourseWordRepository
 import com.skyvo.mobile.core.database.word.WordRepository
 import com.skyvo.mobile.core.shared.extension.convertJsonToList
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -57,12 +58,13 @@ class SentenceQuizViewModel @Inject constructor(
                                     word = word.word.orEmpty(),
                                     question = word.quiz.orEmpty(),
                                     questionTranslate = word.quizTranslate.orEmpty(),
-                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>(),
+                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()?.shuffled(),
                                 )
                             )
                         }
                     }
                 }
+                questionList.shuffled()
                 setState {
                     copy(
                         items = questionList,
@@ -105,49 +107,49 @@ class SentenceQuizViewModel @Inject constructor(
     }
 
     fun nextQuestion() {
-        if (state.value.nextCount == 1) {
-            setState {
-                copy(
-                    nextCount = 0,
-                    showAnswer = false,
-                    selectAnswer = null
-                )
-            }
-            val index = state.value.selectIndex + 1
-            if (index > (state.value.items?.size ?: 0)) {
-                next()
+        viewModelScope.launch {
+            if (state.value.nextCount == 1) {
+                setState {
+                    copy(
+                        showAnswer = false,
+                        nextCount = 0,
+                        selectIndex = selectIndex + 1
+                    )
+                }
+                delay(250)
+                val index = state.value.selectIndex
+                if (index >= (state.value.items?.size ?: 0)) {
+                    next()
+                } else {
+                    setState {
+                        copy(
+                            showAnswer = false,
+                            selectAnswer = null,
+                            currentQuestion = items?.get(index)
+                        )
+                    }
+                }
             } else {
                 setState {
                     copy(
-                        currentQuestion = items?.get(index)
+                        showAnswer = true,
+                        nextCount = 1
                     )
                 }
             }
-        } else {
-            setState {
-                copy(
-                    showAnswer = true,
-                    nextCount = 1
-                )
-            }
         }
     }
 
-    fun next() {
+    fun next(isBack: Boolean = false) {
         viewModelScope.launch {
             courseWordRepository.updateCourse(
                 isStart = true,
-                progress = calculateProgress(
-                    state.value.items.orEmpty().size, state.value.correctCount
-                )
+                progress = if (state.value.correctCount == state.value.items?.size) 0.50f else 0.30f
             )
+            delay(100)
+            if (isBack) {
+                navigateBack()
+            }
         }
-    }
-
-    private fun calculateProgress(totalWords: Int, knownWords: Int): Float {
-        if (totalWords == 0) return currentProgress
-        val progressIncrement = 0.25f * (knownWords.toFloat() / totalWords)
-        currentProgress += progressIncrement
-        return currentProgress
     }
 }

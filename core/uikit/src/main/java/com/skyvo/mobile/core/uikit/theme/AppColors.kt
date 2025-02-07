@@ -58,6 +58,8 @@ data class AppCoreColorScheme(
     val colorSuccess: Color = Color.Unspecified,
     val colorError: Color = Color.Unspecified,
     val colorBorderFocused: Color = Color.Unspecified,
+    val colorAnswerSuccess: Color = Color.Unspecified,
+    val colorAnswerError: Color = Color.Unspecified,
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -115,6 +117,8 @@ val AppLightColors = AppCoreColorScheme(
     colorError = Color(0xFFD73245),
     colorFlashCardBackground = Color(0xFFFFFFFE),
     colorBorderFocused = Color(0xFFE8E8E8),
+    colorAnswerSuccess = Color(0xFFF5FFD8),
+    colorAnswerError = Color(0xFFFFDDD8),
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -172,6 +176,8 @@ val AppDarkColors = AppCoreColorScheme(
     colorError = Color(0xFFFF5858),
     colorFlashCardBackground = Color(0xFF171A1F),
     colorBorderFocused = Color(0xFF282D36),
+    colorAnswerSuccess = Color(0xFFC9F8BC),
+    colorAnswerError = Color(0xFFFDCDC6),
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

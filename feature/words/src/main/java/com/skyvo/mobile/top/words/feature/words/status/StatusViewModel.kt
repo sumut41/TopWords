@@ -31,49 +31,42 @@ class StatusViewModel @Inject constructor(
                             currentCourse = course
                         )
                     }
-                    when (course.progress) {
-                        0.25f -> {
-                            setState {
-                                copy(
-                                    isWordCardCompleted = true,
-                                    isBlankFillQuizCompleted = false,
-                                    isWordQuizCompleted = false,
-                                    isSentenceQuizCompleted = false
-                                )
-                            }
-                        }
 
-                        0.50f -> {
-                            setState {
-                                copy(
-                                    isWordCardCompleted = true,
-                                    isBlankFillQuizCompleted = true,
-                                    isWordQuizCompleted = false,
-                                    isSentenceQuizCompleted = false
-                                )
-                            }
+                    if (course.progress < 0.25f) {
+                        setState {
+                            copy(
+                                isWordCardCompleted = true,
+                                isBlankFillQuizCompleted = false,
+                                isWordQuizCompleted = false,
+                                isSentenceQuizCompleted = false
+                            )
                         }
-
-                        0.75f -> {
-                            setState {
-                                copy(
-                                    isWordCardCompleted = true,
-                                    isBlankFillQuizCompleted = true,
-                                    isWordQuizCompleted = true,
-                                    isSentenceQuizCompleted = false
-                                )
-                            }
+                    } else  if (course.progress < 0.50f) {
+                        setState {
+                            copy(
+                                isWordCardCompleted = true,
+                                isBlankFillQuizCompleted = true,
+                                isWordQuizCompleted = false,
+                                isSentenceQuizCompleted = false
+                            )
                         }
-
-                        1f -> {
-                            setState {
-                                copy(
-                                    isWordCardCompleted = true,
-                                    isBlankFillQuizCompleted = true,
-                                    isWordQuizCompleted = true,
-                                    isSentenceQuizCompleted = true
-                                )
-                            }
+                    } else  if (course.progress < 0.75f) {
+                        setState {
+                            copy(
+                                isWordCardCompleted = true,
+                                isBlankFillQuizCompleted = true,
+                                isWordQuizCompleted = true,
+                                isSentenceQuizCompleted = false
+                            )
+                        }
+                    } else {
+                        setState {
+                            copy(
+                                isWordCardCompleted = true,
+                                isBlankFillQuizCompleted = true,
+                                isWordQuizCompleted = true,
+                                isSentenceQuizCompleted = true
+                            )
                         }
                     }
                 }
@@ -83,9 +76,9 @@ class StatusViewModel @Inject constructor(
 
     fun next() {
         val progress = state.value.currentCourse?.progress ?: 0f
-        if (progress <= 0.25f) {
+        if (progress < 0.25f) {
             navigate(StatusFragmentDirections.actionStatusFragmentToFlashCardFragment())
-        } else if (progress <= 0.50f) {
+        } else if (progress < 0.50f) {
             navigate(StatusFragmentDirections.actionStatusFragmentToSentenceQuizFragment())
         } else {
             // safs
