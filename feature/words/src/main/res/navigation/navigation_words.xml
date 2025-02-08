@@ -30,7 +30,11 @@
     <fragment
         android:id="@+id/sentenceQuizFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizFragment"
-        android:label="SentenceQuizFragment" />
+        android:label="SentenceQuizFragment" >
+        <action
+            android:id="@+id/action_sentenceQuizFragment_to_findMeaningQuizFragment"
+            app:destination="@id/findMeaningQuizFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/statusFragment"
@@ -48,7 +52,14 @@
             app:destination="@id/sentenceQuizFragment"
             app:popUpTo="@id/wordsDashboardFragment"
             app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_statusFragment_to_findMeaningQuizFragment"
+            app:destination="@id/findMeaningQuizFragment" />
 
     </fragment>
+    <fragment
+        android:id="@+id/findMeaningQuizFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.mearning.FindMeaningQuizFragment"
+        android:label="FindMeaningQuizFragment" />
 
 </navigation>

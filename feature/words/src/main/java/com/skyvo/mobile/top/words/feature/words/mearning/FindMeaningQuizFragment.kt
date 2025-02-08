@@ -1,4 +1,4 @@
-package com.skyvo.mobile.top.words.feature.words.sentence
+package com.skyvo.mobile.top.words.feature.words.mearning
 
 import android.media.MediaPlayer
 import android.os.Bundle
@@ -28,9 +28,9 @@ import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
+class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() {
 
-    override val viewModel: SentenceQuizViewModel by viewModels()
+    override val viewModel: FindMeaningQuizViewModel by viewModels()
     private var mediaPlayer: MediaPlayer? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -45,7 +45,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
     }
 
     @Composable
-    private fun ContentView(viewModel: SentenceQuizViewModel) {
+    private fun ContentView(viewModel: FindMeaningQuizViewModel) {
 
         val state by viewModel.state.collectAsStateWithLifecycle()
 

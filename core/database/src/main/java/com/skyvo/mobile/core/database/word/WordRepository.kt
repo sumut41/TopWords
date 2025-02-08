@@ -61,6 +61,14 @@ open class WordRepository @Inject constructor(
         emit(wordDao.getStudyWord(id))
     }.flowOn(Dispatchers.IO)
 
+    fun getQuizWord(id: Long): Flow<WordEntity?> = flow {
+        emit(wordDao.getQuizWord(id))
+    }.flowOn(Dispatchers.IO)
+
+    fun getWordTranslate(word: String?): Flow<WordEntity?> = flow {
+        emit(wordDao.getWordTranslate(word))
+    }.flowOn(Dispatchers.IO)
+
     suspend fun clearAll() {
         wordDao.clearAll()
     }

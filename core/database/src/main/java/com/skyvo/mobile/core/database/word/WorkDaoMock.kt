@@ -52,6 +52,14 @@ class WorkDaoMock: WordDao {
         TODO("Not yet implemented")
     }
 
+    override suspend fun getQuizWord(id: Long): WordEntity? {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun getWordTranslate(word: String?): WordEntity? {
+        TODO("Not yet implemented")
+    }
+
     override suspend fun updateWord(word: WordEntity) {
         // update
     }

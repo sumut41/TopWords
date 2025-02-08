@@ -80,6 +80,8 @@ class StatusViewModel @Inject constructor(
             navigate(StatusFragmentDirections.actionStatusFragmentToFlashCardFragment())
         } else if (progress < 0.50f) {
             navigate(StatusFragmentDirections.actionStatusFragmentToSentenceQuizFragment())
+        } else if (progress < 0.75f) {
+            navigate(StatusFragmentDirections.actionStatusFragmentToFindMeaningQuizFragment())
         } else {
             // safs
         }

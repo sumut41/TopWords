@@ -1,8 +1,9 @@
-package com.skyvo.mobile.top.words.feature.words.sentence
+package com.skyvo.mobile.top.words.feature.words.mearning
 
 import com.skyvo.mobile.core.base.viewmodel.UIState
+import com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizModel
 
-data class SentenceQuizUIState (
+data class FindMeaningQuizUIState (
     val courseId: Long? = null,
     val selectIndex: Int = 0,
     val buttonEnable: Boolean = false,

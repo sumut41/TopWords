@@ -99,7 +99,7 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                     )
 
                     AppSpacer(
-                        height = AppDimension.default.dp100
+                        height = AppDimension.default.dp128
                     )
                 }
             }
