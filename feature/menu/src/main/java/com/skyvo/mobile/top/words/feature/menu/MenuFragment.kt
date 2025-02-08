@@ -114,7 +114,7 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                             color = LocalAppColor.current.colorA2Level,
                             menuIcon = R.drawable.ic_nav_words_filled
                         ) {
-
+                            navigate(MenuFragmentDirections.actionMenuFragmentToLearnedWordFragment())
                         }
 
                         AppMenuCard(
