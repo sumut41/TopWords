@@ -19,6 +19,7 @@ class SplashViewModel @Inject constructor(
 
     init {
         ThemeUtils.setAppTheme(isNightMode = userManager.isDarkTheme)
+        userManager.checkAndUpdateWeeklyAttendance()
         startTimer()
     }
 

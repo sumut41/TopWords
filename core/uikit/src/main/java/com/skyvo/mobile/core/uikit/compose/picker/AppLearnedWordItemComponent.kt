@@ -43,7 +43,7 @@ fun AppLearnedWordItemComponent(
             )
             .border(
                 width = 1.dp,
-                color = LocalAppColor.current.primary,
+                color = LocalAppColor.current.colorBorder,
                 shape = RoundedCornerShape(AppDimension.default.dp16)
             )
             .clip(RoundedCornerShape(AppDimension.default.dp16)),

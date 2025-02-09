@@ -5,7 +5,9 @@ import com.skyvo.mobile.core.database.course.CourseWordEntity
 
 data class WordsDashboardUIState(
     val learnLanguage: Language? = null,
-    val wordList: List<String>? = null,
+    val currentCourse: CourseWordEntity? = null,
     val selectedTabIndex: Int = 0,
-    val currentCourse: CourseWordEntity? = null
+    val weekDayList: List<String> = emptyList(),
+    val weekDayStatus: List<Int> = emptyList(),
+    val missedDaysCount: Int = 0
 )

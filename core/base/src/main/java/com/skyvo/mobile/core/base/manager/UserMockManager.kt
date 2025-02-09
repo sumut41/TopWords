@@ -21,4 +21,11 @@ class UserMockManager: UserManager {
     override var goalMinute: Int? = 10
 
     override var isCompletedSetup: Boolean = false
+
+    override fun checkAndUpdateWeeklyAttendance() {
+    }
+
+    override fun getWeeklyAttendance(): Set<Int> {
+        TODO("Not yet implemented")
+    }
 }

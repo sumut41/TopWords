@@ -51,7 +51,7 @@ class LearnedWordFragment : BaseComposeFragment<LearnedWordViewModel>() {
             AppScaffold(
                 header = {
                     AppTopHeader(
-                        title = "Favorite"
+                        title = "Learned Words"
                     ) {
                         navigateBack()
                     }

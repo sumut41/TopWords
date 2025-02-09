@@ -7,4 +7,6 @@ interface UserManager {
     var customerLevel: Level?
     var goalMinute: Int?
     var isCompletedSetup: Boolean
+    fun checkAndUpdateWeeklyAttendance()
+    fun getWeeklyAttendance(): Set<Int>
 }
