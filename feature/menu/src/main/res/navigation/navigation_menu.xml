@@ -11,10 +11,17 @@
         <action
             android:id="@+id/action_menuFragment_to_favoriteWordFragment"
             app:destination="@id/favoriteWordFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_learnedWordFragment"
+            app:destination="@id/learnedWordFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/favoriteWordFragment"
         android:name="com.skyvo.mobile.top.words.feature.menu.favorite.FavoriteWordFragment"
         android:label="FavoriteWordFragment" />
+    <fragment
+        android:id="@+id/learnedWordFragment"
+        android:name="com.skyvo.mobile.top.words.feature.menu.learned.LearnedWordFragment"
+        android:label="LearnedWordFragment" />
 </navigation>
