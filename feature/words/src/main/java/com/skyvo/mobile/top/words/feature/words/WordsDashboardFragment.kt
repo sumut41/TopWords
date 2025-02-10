@@ -121,9 +121,9 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             )
 
                             AppText(
-                                text = "See Course",
-                                style = AppTypography.default.bodyUnderline,
-                                color = LocalAppColor.current.primary
+                                text = state.currentCourse?.level.orEmpty(),
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorTextSubtler
                             )
                         }
                     }

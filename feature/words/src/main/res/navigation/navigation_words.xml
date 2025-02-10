@@ -55,11 +55,22 @@
         <action
             android:id="@+id/action_statusFragment_to_findMeaningQuizFragment"
             app:destination="@id/findMeaningQuizFragment" />
+        <action
+            android:id="@+id/action_statusFragment_to_puzzleQuizFragment"
+            app:destination="@id/puzzleQuizFragment" />
 
     </fragment>
     <fragment
         android:id="@+id/findMeaningQuizFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.mearning.FindMeaningQuizFragment"
-        android:label="FindMeaningQuizFragment" />
+        android:label="FindMeaningQuizFragment" >
+        <action
+            android:id="@+id/action_findMeaningQuizFragment_to_puzzleQuizFragment"
+            app:destination="@id/puzzleQuizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/puzzleQuizFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.puzzle.PuzzleQuizFragment"
+        android:label="PuzzleQuizFragment" />
 
 </navigation>

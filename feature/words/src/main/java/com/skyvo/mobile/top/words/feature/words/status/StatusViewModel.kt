@@ -83,7 +83,7 @@ class StatusViewModel @Inject constructor(
         } else if (progress < 0.75f) {
             navigate(StatusFragmentDirections.actionStatusFragmentToFindMeaningQuizFragment())
         } else {
-            // safs
+            navigate(StatusFragmentDirections.actionStatusFragmentToPuzzleQuizFragment())
         }
     }
 }

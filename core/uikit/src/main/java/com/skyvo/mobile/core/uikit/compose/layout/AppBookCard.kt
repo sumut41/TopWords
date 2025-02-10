@@ -65,12 +65,14 @@ fun AppBookCard(
                 .clip(RoundedCornerShape(AppDimension.default.dp6))
         ) {
             AsyncImage(
+                modifier = Modifier.fillMaxWidth()
+                    .height(AppDimension.default.bookImageHeight),
                 model = ImageRequest.Builder(LocalContext.current)
                     .data(book.imageUrl)
-                    .error(R.drawable.ic_nav_book)
+                    .error(R.drawable.img_placeholder)
                     .build(),
                 contentDescription = "Book Image",
-                contentScale = ContentScale.FillWidth
+                contentScale = ContentScale.Crop
             )
 
             if (book.isNew == true) {

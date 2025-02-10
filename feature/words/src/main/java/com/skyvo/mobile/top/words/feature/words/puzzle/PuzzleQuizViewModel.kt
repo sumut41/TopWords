@@ -1,27 +1,24 @@
-package com.skyvo.mobile.top.words.feature.words.mearning
+package com.skyvo.mobile.top.words.feature.words.puzzle
 
 import androidx.lifecycle.viewModelScope
-import com.skyvo.mobile.core.base.manager.AppWordTranslateItem
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import com.skyvo.mobile.core.database.word.WordRepository
-import com.skyvo.mobile.core.shared.extension.convertJsonToList
-import com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class FindMeaningQuizViewModel @Inject constructor(
+class PuzzleQuizViewModel @Inject constructor(
     private val courseWordRepository: CourseWordRepository,
     private val wordRepository: WordRepository
-) : BaseComposeViewModel<FindMeaningQuizUIState>() {
+) : BaseComposeViewModel<PuzzleQuizUIState>() {
 
     private var currentProgress: Float = 0.0f
 
-    override fun setInitialState(): FindMeaningQuizUIState {
-        return FindMeaningQuizUIState()
+    override fun setInitialState(): PuzzleQuizUIState {
+        return PuzzleQuizUIState()
     }
 
     init {
@@ -47,18 +44,16 @@ class FindMeaningQuizViewModel @Inject constructor(
 
     private fun getWordList(wordIds: String?) {
         viewModelScope.launch {
-            val questionList: ArrayList<SentenceQuizModel> = arrayListOf()
+            val questionList: ArrayList<PuzzleModel> = arrayListOf()
             val wordIdList = (wordIds?.split(","))
             wordIdList?.let { list ->
                 list.shuffled().forEach { id ->
                     wordRepository.getQuizWord(id.toLong()).collect {
                         it?.let { word ->
                             questionList.add(
-                                SentenceQuizModel(
+                                PuzzleModel(
                                     word = word.word.orEmpty(),
-                                    question = word.translate.orEmpty(),
-                                    questionTranslate = "Anlamına uygun seçeneği seç.",
-                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()?.shuffled()?.shuffled()
+                                    translate = word.translate.orEmpty()
                                 )
                             )
                         }
@@ -67,28 +62,14 @@ class FindMeaningQuizViewModel @Inject constructor(
                 questionList.shuffled().shuffled()
                 setState {
                     copy(
-                        wordIdListSize = wordIdList.size,
-                        items = questionList,
-                        unCorrectCount = wordIdList.size - questionList.size,
+                        selectIndex = 0,
+                        wordList = questionList,
+                        buttonEnable = false,
                         currentQuestion = questionList.first()
                     )
                 }
             }
             removeAllLoading()
-        }
-    }
-
-    fun selectAnswer(answer: String, isCorrect: Boolean?) {
-        setState {
-            copy(
-                selectAnswer = answer
-            )
-        }
-
-        if (isCorrect == true) {
-            correct()
-        } else {
-            unCorrect()
         }
     }
 
@@ -120,14 +101,14 @@ class FindMeaningQuizViewModel @Inject constructor(
                 }
                 delay(250)
                 val index = state.value.selectIndex
-                if (index >= (state.value.items?.size ?: 0)) {
+                if (index >= (state.value.wordList?.size ?: 0)) {
                     next()
                 } else {
                     setState {
                         copy(
                             showAnswer = false,
                             selectAnswer = null,
-                            currentQuestion = items?.get(index)
+                            currentQuestion = wordList?.get(index)
                         )
                     }
                 }
@@ -142,17 +123,36 @@ class FindMeaningQuizViewModel @Inject constructor(
         }
     }
 
+    fun checkAnswer() {
+        viewModelScope.launch {
+            if (state.value.selectAnswer?.lowercase() == state.value.currentQuestion?.word?.lowercase()) {
+                correct()
+            } else {
+                unCorrect()
+            }
+            delay(100)
+            nextQuestion()
+        }
+    }
+
+    fun updateAnswer(answer: String) {
+        setState {
+            copy(
+                selectAnswer = answer,
+                buttonEnable = answer.isNotEmpty()
+            )
+        }
+    }
+
     fun next(isBack: Boolean = false) {
         viewModelScope.launch {
             courseWordRepository.updateCourse(
                 isStart = true,
-                progress = if (state.value.correctCount == state.value.items?.size && state.value.unCorrectCount == 0) 0.75f else (if (currentProgress == 0.50f) 0.60f else currentProgress)
+                progress = if (state.value.correctCount == state.value.wordList?.size && state.value.unCorrectCount == 0) 1f else (if (currentProgress == 0.75f) 0.80f else currentProgress)
             )
             delay(100)
             if (isBack) {
                 navigateBack()
-            } else {
-                navigate(FindMeaningQuizFragmentDirections.actionFindMeaningQuizFragmentToPuzzleQuizFragment())
             }
         }
     }

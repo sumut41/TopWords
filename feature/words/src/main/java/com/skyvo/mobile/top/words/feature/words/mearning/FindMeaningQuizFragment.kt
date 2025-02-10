@@ -49,7 +49,7 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
 
         val state by viewModel.state.collectAsStateWithLifecycle()
 
-        LaunchedEffect(Unit) {
+        LaunchedEffect(state.nextCount) {
             if (state.nextCount == 1) {
                 mediaPlayer?.start()
             } else {
