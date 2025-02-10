@@ -64,4 +64,7 @@ object Dependencies {
     const val RoomCompiler = "androidx.room:room-compiler:${Versions.roomVersion}"
     const val RoomKtx = "androidx.room:room-ktx:${Versions.roomVersion}"
 
+    // in app review
+    const val inAppReview = "com.google.android.play:review:${Versions.inAppReview}"
+    const val inAppReviewKtx = "com.google.android.play:review-ktx:${Versions.inAppReview}"
 }

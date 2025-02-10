@@ -22,8 +22,11 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigate
+import com.skyvo.mobile.core.base.util.InAppReviewManager
+import com.skyvo.mobile.core.shared.extension.shareApp
 import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
+import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.menu.AppMenuCard
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
@@ -60,7 +63,24 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                 AppDarkColors.colorBottomMenu
             }
         ) {
-            AppScaffold {
+            AppScaffold(
+                bottomView = {
+                    AppMenuCard(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(
+                                bottom = AppDimension.default.dp64
+                            ),
+                        title = "About Us",
+                        subTitle = "You can view information about the application here",
+                        color = LocalAppColor.current.colorTextSubtler,
+                        horizontalPaddingValues = AppDimension.default.dp0,
+                        menuIcon = R.drawable.ic_info
+                    ) {
+                        // TODO: Share
+                    }
+                }
+            ) {
                 LazyColumn {
                     item {
                         Row(
@@ -126,6 +146,38 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                             menuIcon = R.drawable.ic_heart_filled
                         ) {
                             navigate(MenuFragmentDirections.actionMenuFragmentToFavoriteWordFragment())
+                        }
+                    }
+
+                    item {
+                        AppSpacer(
+                            height = AppDimension.default.dp36
+                        )
+                    }
+
+                    item {
+                        AppMenuCard(
+                            modifier = Modifier
+                                .padding(vertical = AppDimension.default.dp4),
+                            title = "Rate Us",
+                            subTitle = "How would you love this app ?",
+                            color = LocalAppColor.current.primary,
+                            menuIcon = R.drawable.ic_star
+                        ) {
+                            InAppReviewManager.showFeedbackDialog(this@MenuFragment)
+                        }
+                    }
+
+                    item {
+                        AppMenuCard(
+                            modifier = Modifier
+                                .padding(vertical = AppDimension.default.dp4),
+                            title = "Share",
+                            subTitle = "You can recommend app to your friends",
+                            color = LocalAppColor.current.colorC1Level,
+                            menuIcon = R.drawable.ic_share
+                        ) {
+                            shareApp(requireContext())
                         }
                     }
                 }

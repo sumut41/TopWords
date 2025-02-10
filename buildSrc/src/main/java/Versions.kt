@@ -55,4 +55,5 @@ object Versions {
     const val turbineTestVersion = "0.12.1"
     const val composeAndroidCompilerVersion = "1.5.14"
     const val roomVersion = "2.6.1"
+    const val inAppReview = "2.0.2"
 }

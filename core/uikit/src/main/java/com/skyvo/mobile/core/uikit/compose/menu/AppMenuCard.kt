@@ -5,6 +5,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -18,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
@@ -33,13 +35,14 @@ fun AppMenuCard(
     subTitle: String? = null,
     color: Color = LocalAppColor.current.colorA1Level,
     menuIcon: Int = R.drawable.ic_settings,
+    horizontalPaddingValues: Dp = AppDimension.default.dp16,
     onClick: () -> Unit
 ) {
     Row(
         modifier = modifier
             .fillMaxWidth()
             .padding(
-                horizontal = AppDimension.default.dp16,
+                horizontal = horizontalPaddingValues,
                 vertical = AppDimension.default.dp4
             )
             .background(
