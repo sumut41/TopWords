@@ -167,7 +167,7 @@ class DataLoaderViewModel @Inject constructor(
                 level = LevelType.BEGINNER.key,
                 languageCode = userManager.learnLanguage?.code
             ).collect { response ->
-                shuffleWord(response, LevelType.INTERMEDIATE)
+                shuffleWord(response, LevelType.BEGINNER)
             }
         }
     }
