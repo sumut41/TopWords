@@ -77,4 +77,7 @@ dependencies {
     implementation(platform(ComposeLibs.Bom))
     implementation(ComposeLibs.UI)
     implementation(Dependencies.lottie)
+
+    implementation(Dependencies.inAppReview)
+    implementation(Dependencies.inAppReviewKtx)
 }
