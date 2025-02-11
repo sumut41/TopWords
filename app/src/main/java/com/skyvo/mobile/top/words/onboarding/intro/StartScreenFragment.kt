@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.viewModels
@@ -101,7 +102,7 @@ class StartScreenFragment : BaseComposeFragment<StartScreenViewModel>() {
                         )
 
                         AppPrimaryLargeButton(
-                            text = if (pagerState.currentPage == pageCount - 1) "Get started" else "Next",
+                            text = if (pagerState.currentPage == pageCount - 1) stringResource(com.skyvo.mobile.core.resource.R.string.intro_get_start_button) else stringResource(com.skyvo.mobile.core.resource.R.string.intro_next_button),
                             icon = if (pagerState.currentPage == pageCount - 1) R.drawable.ic_lightning else null,
                             onClick = {
                                 if (pagerState.currentPage == pageCount - 1) {

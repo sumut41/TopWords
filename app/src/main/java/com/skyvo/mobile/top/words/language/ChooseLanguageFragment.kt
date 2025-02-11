@@ -10,6 +10,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -49,7 +50,7 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "What language are you want to study?",
+                        title = stringResource(com.skyvo.mobile.core.resource.R.string.choose_learning_language_title),
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -58,7 +59,7 @@ class ChooseLanguageFragment : BaseComposeFragment<ChooseLanguageViewModel>() {
                 bottomView = {
                     AppPrimaryLargeButton(
                         modifier = Modifier,
-                        text = "Continue",
+                        text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button),
                         enabled = state.enableButton
                     ) {
                         viewModel.next()

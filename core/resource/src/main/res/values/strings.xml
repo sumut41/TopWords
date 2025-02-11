@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro_first_title">Learn a language easily with cards</string>
+    <string name="intro_first_description">Learn words using cards, choosing levels that are convenient for you</string>
+    <string name="intro_second_title">Learn language easily with books</string>
+    <string name="intro_second_description">Read favorite books in their original language with parallel translation</string>
+    <string name="intro_get_start_button">Get started</string>
+    <string name="intro_next_button">Next</string>
+    <string name="continue_button">Continue</string>
+    <string name="choose_native_language_title">Choose your native language</string>
+    <string name="choose_learning_language_title">What language are you want to study?</string>
+    <string name="select_level_page_title">How much %s do you know?</string>
+    <string name="level_beginner">Beginner</string>
+    <string name="level_elementary">Elementary</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="level_upper">Upper Intermediate</string>
+    <string name="level_advanced">Advanced</string>
+    <string name="level_proficient">Proficient</string>
+    <string name="select_goal_page_title">What is your daily learning goal?</string>
+    <string name="goal_daily_min">%s min/day</string>
+    <string name="goal_start_learning_button">Start learning</string>
+    <string name="data_loader_loading_title">Loading.</string>
+    <string name="data_loader_description">We organize the %s course for you.</string>
+</resources>

@@ -51,6 +51,7 @@ android {
 }
 
 dependencies {
+    implementation(project(BuildModules.CORE.RESOURCE))
     implementation(project(BuildModules.CORE.DATABASE))
     implementation(project(BuildModules.CORE.BASE))
     implementation(project(BuildModules.CORE.UIKIT))

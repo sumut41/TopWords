@@ -6,6 +6,7 @@ object BuildModules {
         const val DATA = ":core:data"
         const val SHARED = ":core:shared"
         const val NETWORK = ":core:network"
+        const val RESOURCE = ":core:resource"
     }
 
     object FEATURE {

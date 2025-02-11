@@ -9,6 +9,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -47,7 +48,7 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "Choose Your Native Language",
+                        title = stringResource(com.skyvo.mobile.core.resource.R.string.choose_native_language_title),
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -55,7 +56,7 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
                 },
                 bottomView = {
                     AppPrimaryLargeButton(
-                        text = "Continue",
+                        text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button),
                         onClick = { viewModel.next() },
                         modifier = Modifier
                             .fillMaxWidth(),

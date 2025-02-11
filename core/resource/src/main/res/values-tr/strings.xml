@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro_first_title">Kolayca dil ögrenin</string>
+    <string name="intro_first_description">Size uygun seviyeleri seçerek istediğiniz dildeki popüler kelimeleri öğrenin</string>
+    <string name="intro_second_title">Kitaplarla kolayca dil öğrenin</string>
+    <string name="intro_second_description">Paralel çeviriyle kısa hikayeleri orijinal dillerinde okuyun ve öğrenin</string>
+    <string name="intro_get_start_button">Hemen Başla</string>
+    <string name="intro_next_button">İleri</string>
+    <string name="continue_button">Devam Et</string>
+    <string name="choose_native_language_title">Konuştuğunuz ana dilinizi seçin</string>
+    <string name="choose_learning_language_title">Öğrenmek istediğiniz dili seçin</string>
+    <string name="select_level_page_title">Lütfen %s seviyenizi seçin</string>
+    <string name="level_beginner">Temel</string>
+    <string name="level_elementary">Başlangıç</string>
+    <string name="level_intermediate">Orta</string>
+    <string name="level_upper">Orta Üstü</string>
+    <string name="level_advanced">İleri</string>
+    <string name="level_proficient">Ana Dil</string>
+    <string name="select_goal_page_title">Günlük öğrenme hedefinizi seçin</string>
+    <string name="goal_daily_min">%s dk/gün</string>
+    <string name="goal_start_learning_button">Hemen Başla</string>
+    <string name="data_loader_loading_title">Yükleniyor.</string>
+    <string name="data_loader_description">Sizin için %s kursunu düzenliyoruz.</string>
+</resources>

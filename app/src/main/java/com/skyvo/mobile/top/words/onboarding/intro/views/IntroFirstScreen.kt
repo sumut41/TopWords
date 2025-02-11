@@ -13,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
@@ -49,7 +50,7 @@ fun IntroFirstScreen(
         Spacer(modifier = Modifier.height(AppDimension.default.dp32))
 
         AppText(
-            text = "Learn a language easily with cards",
+            text = stringResource(com.skyvo.mobile.core.resource.R.string.intro_first_title),
             style = AppTypography.default.bigLargeTitleBold,
             textAlign = TextAlign.Center,
             modifier = Modifier
@@ -58,7 +59,7 @@ fun IntroFirstScreen(
         )
 
         AppText(
-            text = "Learn words using cards, choosing levels that are convenient for you",
+            text = stringResource(com.skyvo.mobile.core.resource.R.string.intro_first_description),
             textAlign = TextAlign.Center,
             color = LocalAppColor.current.colorTextSubtler,
             modifier = Modifier.fillMaxWidth()

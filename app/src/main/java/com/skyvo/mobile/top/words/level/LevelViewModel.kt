@@ -15,6 +15,14 @@ class LevelViewModel @Inject constructor(
         return LevelUIState()
     }
 
+    init {
+        setState {
+            copy(
+                learningLanguage = userManager.learnLanguage?.name
+            )
+        }
+    }
+
     fun setLevelList(list: ArrayList<Level>) {
         setState {
             copy(

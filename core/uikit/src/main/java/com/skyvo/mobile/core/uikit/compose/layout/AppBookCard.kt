@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -48,7 +47,6 @@ fun AppBookCard(
                 color = LocalAppColor.current.background,
                 shape = RoundedCornerShape(AppDimension.default.dp10)
             )
-            .heightIn(min = AppDimension.default.booksCardItemHeight)
             .border(
                 width = 1.dp,
                 color = LocalAppColor.current.colorBorder,

@@ -13,6 +13,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -61,7 +62,7 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                     AnimatedPreloader(modifier = Modifier.size(200.dp))
 
                     AppText(
-                        text = "Yükleniyor.",
+                        text = stringResource(com.skyvo.mobile.core.resource.R.string.data_loader_loading_title),
                         modifier = Modifier.padding(
                             top = AppDimension.default.dp24,
                             start = AppDimension.default.dp16,
@@ -71,7 +72,7 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                     )
 
                     AppText(
-                        text = "Senin için ${state.language} kursunu düzenliyoruz.",
+                        text = stringResource(com.skyvo.mobile.core.resource.R.string.data_loader_description, state.language.orEmpty()),
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(

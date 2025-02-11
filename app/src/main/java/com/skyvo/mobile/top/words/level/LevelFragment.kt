@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -54,7 +55,7 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "Select level for learning language",
+                        title = stringResource(com.skyvo.mobile.core.resource.R.string.select_level_page_title, state.learningLanguage.orEmpty()),
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -62,7 +63,7 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                 },
                 bottomView = {
                     AppPrimaryLargeButton(
-                        text = "Continue",
+                        text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button),
                         onClick = {
                             viewModel.next()
                         },
@@ -131,42 +132,42 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
         list.add(
             Level(
                 type = "A1",
-                name = "Beginner"
+                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_beginner)
             )
         )
 
         list.add(
             Level(
                 type = "A2",
-                name = "Elementary"
+                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_elementary)
             )
         )
 
         list.add(
             Level(
                 type = "B1",
-                name = "Intermediate"
+                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_intermediate)
             )
         )
 
         list.add(
             Level(
                 type = "B2",
-                name = "Upper Intermediate"
+                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_upper)
             )
         )
 
         list.add(
             Level(
                 type = "C1",
-                name = "Advanced"
+                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_advanced)
             )
         )
 
         list.add(
             Level(
                 type = "C2",
-                name = "Proficient"
+                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_proficient)
             )
         )
 
