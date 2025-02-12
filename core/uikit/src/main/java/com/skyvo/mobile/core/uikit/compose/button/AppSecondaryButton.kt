@@ -3,6 +3,7 @@ package com.skyvo.mobile.core.uikit.compose.button
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -33,6 +34,7 @@ fun AppSecondaryLargeButton(
         onClick = onClick,
         shape = RoundedCornerShape(AppDimension.default.buttonLargeRadius),
         modifier = modifier
+            .fillMaxWidth()
             .height(AppDimension.default.buttonLargeHeight),
         enabled = enabled,
         contentPadding = PaddingValues(
@@ -52,7 +54,7 @@ fun AppSecondaryLargeButton(
     ) {
         AppText(
             text = text,
-            style = AppTypography.default.bodyBold,
+            style = AppTypography.default.bodyLarge,
             color = if (enabled) contentColor else disabledContentColor,
             maxLines = 1
         )

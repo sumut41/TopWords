@@ -26,9 +26,10 @@ sealed class NavDeeplinkDestination(
         _deeplink = "home/test?pageId=$pageId" // xml deeplink
     )
 
-    // argument yoksa
-    data object HomeFragment: NavDeeplinkDestination(
-        _deeplink = "" // xml deeplink
+    data class ResultWord(
+        val title: String
+    ): NavDeeplinkDestination(
+        _deeplink = "result-word?title=$title"
     )
 
     data object WordsDashboard: NavDeeplinkDestination(

@@ -2,10 +2,12 @@ package com.skyvo.mobile.top.words.feature.words.mearning
 
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.AppWordTranslateItem
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import com.skyvo.mobile.core.database.word.WordRepository
 import com.skyvo.mobile.core.shared.extension.convertJsonToList
+import com.skyvo.mobile.top.words.feature.words.R
 import com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
@@ -95,7 +97,8 @@ class FindMeaningQuizViewModel @Inject constructor(
     private fun correct() {
         setState {
             copy(
-                correctCount = correctCount + 1
+                correctCount = correctCount + 1,
+                playSoundType = 0
             )
         }
     }
@@ -103,7 +106,8 @@ class FindMeaningQuizViewModel @Inject constructor(
     private fun unCorrect() {
         setState {
             copy(
-                unCorrectCount = unCorrectCount + 1
+                unCorrectCount = unCorrectCount + 1,
+                playSoundType = 1
             )
         }
     }
@@ -134,8 +138,13 @@ class FindMeaningQuizViewModel @Inject constructor(
             } else {
                 setState {
                     copy(
-                        showAnswer = true,
                         nextCount = 1
+                    )
+                }
+                delay(150)
+                setState {
+                    copy(
+                        showAnswer = true
                     )
                 }
             }
@@ -146,13 +155,22 @@ class FindMeaningQuizViewModel @Inject constructor(
         viewModelScope.launch {
             courseWordRepository.updateCourse(
                 isStart = true,
-                progress = if (state.value.correctCount == state.value.items?.size && state.value.unCorrectCount == 0) 0.75f else (if (currentProgress == 0.50f) 0.60f else currentProgress)
+                progress = if (state.value.correctCount == ((state.value.items?.size
+                        ?: 1) - 1) && state.value.unCorrectCount == 0
+                ) 0.75f else (if (currentProgress == 0.50f) 0.60f else currentProgress)
             )
             delay(100)
             if (isBack) {
                 navigateBack()
             } else {
-                navigate(FindMeaningQuizFragmentDirections.actionFindMeaningQuizFragmentToPuzzleQuizFragment())
+                navigate(
+                    navDeepLink = NavDeeplinkDestination.ResultWord(
+                        "Harika gidiyorsun!"
+                    ),
+                    popUpTo = true,
+                    popUpToInclusive = false,
+                    popUpToId = R.id.wordsDashboardFragment
+                )
             }
         }
     }

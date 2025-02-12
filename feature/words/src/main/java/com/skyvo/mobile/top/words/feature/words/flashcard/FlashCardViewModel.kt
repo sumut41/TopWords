@@ -2,10 +2,12 @@ package com.skyvo.mobile.top.words.feature.words.flashcard
 
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.UserManager
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import com.skyvo.mobile.core.database.word.WordRepository
 import com.skyvo.mobile.core.uikit.compose.card.FlashcardItem
+import com.skyvo.mobile.top.words.feature.words.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -113,7 +115,14 @@ class FlashCardViewModel @Inject constructor(
                 isStart = true,
                 progress = calculateProgress(state.value.items.orEmpty().size, state.value.knowCount)
             )
-            navigate(FlashCardFragmentDirections.actionFlashCardFragmentToSentenceQuizFragment())
+            navigate(
+                navDeepLink = NavDeeplinkDestination.ResultWord(
+                    "Tebrikler!, Kelimeler Bitti."
+                ),
+                popUpTo = true,
+                popUpToInclusive = false,
+                popUpToId = R.id.wordsDashboardFragment
+            )
         }
     }
 

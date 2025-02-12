@@ -73,4 +73,41 @@
         android:name="com.skyvo.mobile.top.words.feature.words.puzzle.PuzzleQuizFragment"
         android:label="PuzzleQuizFragment" />
 
+    <fragment
+        android:id="@+id/resultWordFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.result.WordResultFragment"
+        android:label="WordResultFragment">
+        <deepLink app:uri="top-words://result-word?title={title}" />
+
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true"/>
+
+        <action
+            android:id="@+id/action_resultWordFragment_to_flashCardFragment"
+            app:destination="@id/flashCardFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
+        <action
+            android:id="@+id/action_resultWordFragment_to_sentenceQuizFragment"
+            app:destination="@id/sentenceQuizFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
+        <action
+            android:id="@+id/action_resultWordFragment_to_findMeaningQuizFragment"
+            app:destination="@id/findMeaningQuizFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
+        <action
+            android:id="@+id/action_resultWordFragment_to_puzzleQuizFragment"
+            app:destination="@id/puzzleQuizFragment"
+            app:popUpTo="@id/wordsDashboardFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
 </navigation>

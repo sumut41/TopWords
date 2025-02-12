@@ -3,10 +3,12 @@ package com.skyvo.mobile.top.words.feature.words.sentence
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.AppWordTranslateItem
 import com.skyvo.mobile.core.base.manager.UserManager
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import com.skyvo.mobile.core.database.word.WordRepository
 import com.skyvo.mobile.core.shared.extension.convertJsonToList
+import com.skyvo.mobile.top.words.feature.words.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -59,7 +61,8 @@ class SentenceQuizViewModel @Inject constructor(
                                     word = word.word.orEmpty(),
                                     question = word.quiz.orEmpty(),
                                     questionTranslate = word.quizTranslate.orEmpty(),
-                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()?.shuffled(),
+                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()
+                                        ?.shuffled(),
                                 )
                             )
                         }
@@ -96,7 +99,8 @@ class SentenceQuizViewModel @Inject constructor(
     private fun correct() {
         setState {
             copy(
-                correctCount = correctCount + 1
+                correctCount = correctCount + 1,
+                playSoundType = 0
             )
         }
     }
@@ -104,7 +108,8 @@ class SentenceQuizViewModel @Inject constructor(
     private fun unCorrect() {
         setState {
             copy(
-                unCorrectCount = unCorrectCount + 1
+                unCorrectCount = unCorrectCount + 1,
+                playSoundType = 1
             )
         }
     }
@@ -135,8 +140,13 @@ class SentenceQuizViewModel @Inject constructor(
             } else {
                 setState {
                     copy(
-                        showAnswer = true,
                         nextCount = 1
+                    )
+                }
+                delay(150)
+                setState {
+                    copy(
+                        showAnswer = true
                     )
                 }
             }
@@ -147,13 +157,20 @@ class SentenceQuizViewModel @Inject constructor(
         viewModelScope.launch {
             courseWordRepository.updateCourse(
                 isStart = true,
-                progress = if (state.value.correctCount == state.value.items?.size && state.value.unCorrectCount == 0) 0.50f else (if (currentProgress == 0.25f) 0.30f else currentProgress)
+                progress = if (state.value.correctCount == ((state.value.items?.size ?: 1) - 1) && state.value.unCorrectCount == 0) 0.50f else (if (currentProgress == 0.25f) 0.30f else currentProgress)
             )
             delay(100)
             if (isBack) {
                 navigateBack()
             } else {
-                navigate(SentenceQuizFragmentDirections.actionSentenceQuizFragmentToFindMeaningQuizFragment())
+                navigate(
+                    navDeepLink = NavDeeplinkDestination.ResultWord(
+                        "Süpersin!"
+                    ),
+                    popUpTo = true,
+                    popUpToInclusive = false,
+                    popUpToId = R.id.wordsDashboardFragment
+                )
             }
         }
     }

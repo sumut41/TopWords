@@ -69,6 +69,7 @@ dependencies {
     implementation(ComposeLibs.LifecycleRuntime)
     debugImplementation(ComposeLibs.UITooling)
     implementation(ComposeLibs.Coil)
+    implementation(ComposeLibs.Lottie)
 
     //hilt
     implementation(Dependencies.hiltAndroid)

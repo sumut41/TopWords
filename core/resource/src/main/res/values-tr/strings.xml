@@ -7,6 +7,7 @@
     <string name="intro_get_start_button">Hemen Başla</string>
     <string name="intro_next_button">İleri</string>
     <string name="continue_button">Devam Et</string>
+    <string name="close_button">Kapat</string>
     <string name="choose_native_language_title">Konuştuğunuz ana dilinizi seçin</string>
     <string name="choose_learning_language_title">Öğrenmek istediğiniz dili seçin</string>
     <string name="select_level_page_title">Lütfen %s seviyenizi seçin</string>

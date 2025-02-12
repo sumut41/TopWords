@@ -1,8 +1,5 @@
 package com.skyvo.mobile.top.words.feature.words.puzzle
 
-import android.media.MediaPlayer
-import android.os.Bundle
-import android.view.View
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.text.KeyboardActions
@@ -29,6 +26,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.database.word.WordMockRepository
+import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.layout.AppShowAnswerCard
@@ -42,15 +40,9 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 
 @AndroidEntryPoint
-class PuzzleQuizFragment: BaseComposeFragment<PuzzleQuizViewModel>() {
+class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
 
     override val viewModel: PuzzleQuizViewModel by viewModels()
-    private var mediaPlayer: MediaPlayer? = null
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        mediaPlayer = MediaPlayer.create(requireContext(), com.skyvo.mobile.core.uikit.R.raw.next_sound)
-    }
 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
@@ -64,12 +56,18 @@ class PuzzleQuizFragment: BaseComposeFragment<PuzzleQuizViewModel>() {
         val keyboardController = LocalSoftwareKeyboardController.current
         val focusRequester = remember { FocusRequester() }
 
+        if (state.nextCount == 1) {
+            if (state.playSoundType == 0) {
+                SoundEffect(requireContext()).playSuccess()
+            } else {
+                SoundEffect(requireContext()).playError()
+            }
+        }
+
         LaunchedEffect(state.nextCount) {
             if (state.nextCount == 1) {
-                mediaPlayer?.start()
                 keyboardController?.hide()
             } else {
-                mediaPlayer?.stop()
                 delay(150)
                 keyboardController?.show()
                 focusRequester.requestFocus()
@@ -176,7 +174,6 @@ class PuzzleQuizFragment: BaseComposeFragment<PuzzleQuizViewModel>() {
                                 enabled = state.selectAnswer.isNullOrEmpty().not()
                             ) {
                                 viewModel.checkAnswer()
-                                mediaPlayer?.stop()
                             }
                         }
 
@@ -201,11 +198,5 @@ class PuzzleQuizFragment: BaseComposeFragment<PuzzleQuizViewModel>() {
             WordMockRepository()
         )
         ContentView(vm)
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        mediaPlayer?.release()
-        mediaPlayer = null
     }
 }

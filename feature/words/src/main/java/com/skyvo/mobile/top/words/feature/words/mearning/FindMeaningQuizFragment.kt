@@ -1,13 +1,9 @@
 package com.skyvo.mobile.top.words.feature.words.mearning
 
-import android.media.MediaPlayer
-import android.os.Bundle
-import android.view.View
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
@@ -15,6 +11,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.layout.AppShowAnswerCard
@@ -31,12 +28,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() {
 
     override val viewModel: FindMeaningQuizViewModel by viewModels()
-    private var mediaPlayer: MediaPlayer? = null
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        mediaPlayer = MediaPlayer.create(requireContext(), com.skyvo.mobile.core.uikit.R.raw.next_sound)
-    }
 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
@@ -49,11 +40,11 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
 
         val state by viewModel.state.collectAsStateWithLifecycle()
 
-        LaunchedEffect(state.nextCount) {
-            if (state.nextCount == 1) {
-                mediaPlayer?.start()
+        if (state.nextCount == 1) {
+            if (state.playSoundType == 0) {
+                SoundEffect(requireContext()).playSuccess()
             } else {
-                mediaPlayer?.stop()
+                SoundEffect(requireContext()).playError()
             }
         }
 
@@ -79,7 +70,6 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
                             enabled = state.selectAnswer.isNullOrEmpty().not()
                         ) {
                             viewModel.nextQuestion()
-                            mediaPlayer?.stop()
                         }
                     }
                 }
@@ -134,11 +124,5 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
                 }
             }
         }
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        mediaPlayer?.release()
-        mediaPlayer = null
     }
 }

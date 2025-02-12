@@ -179,7 +179,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
 
                                     AppText(
                                         text = "Discovering English",
-                                        style = AppTypography.default.bodyLarge,
+                                        style = AppTypography.default.bodyBold,
                                         modifier = Modifier
                                             .fillMaxWidth()
                                             .padding(

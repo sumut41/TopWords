@@ -13,5 +13,6 @@ data class SentenceQuizUIState (
     val currentQuestion: SentenceQuizModel? = null,
     val items: List<SentenceQuizModel>? = null,
     val correctCount: Int = 0,
-    val unCorrectCount: Int = 0
+    val unCorrectCount: Int = 0,
+    val playSoundType: Int = 0
 ): UIState
