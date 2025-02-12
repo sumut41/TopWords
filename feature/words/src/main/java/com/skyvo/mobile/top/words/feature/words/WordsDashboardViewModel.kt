@@ -79,22 +79,23 @@ class WordsDashboardViewModel @Inject constructor(
 
     private fun getFirstCourse() {
         viewModelScope.launch {
-            courseWordRepository.getFirstCourse().collect {
+            courseWordRepository.getNextCourse().collect {
                 it?.let { course ->
                     setState {
                         copy(
                             currentCourse = course
                         )
                     }
-                    updateCourse()
+                    updateCourse(course.id)
                 }
             }
         }
     }
 
-    private fun updateCourse() {
+    private fun updateCourse(id: Long) {
         viewModelScope.launch {
             courseWordRepository.updateCourse(
+                id = id,
                 isStart = true,
                 progress = 0f
             )

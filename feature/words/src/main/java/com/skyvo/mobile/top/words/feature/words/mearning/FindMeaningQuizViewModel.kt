@@ -154,8 +154,9 @@ class FindMeaningQuizViewModel @Inject constructor(
     fun next(isBack: Boolean = false) {
         viewModelScope.launch {
             courseWordRepository.updateCourse(
+                id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = if (state.value.correctCount == ((state.value.items?.size
+                progress = if (state.value.correctCount >= ((state.value.items?.size
                         ?: 1) - 1) && state.value.unCorrectCount == 0
                 ) 0.75f else (if (currentProgress == 0.50f) 0.60f else currentProgress)
             )

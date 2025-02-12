@@ -32,7 +32,6 @@ class FlashCardViewModel @Inject constructor(
 
     private fun getCurrentCourse() {
         viewModelScope.launch {
-            showLoading()
             courseWordRepository.getCurrentCourse().collect {
                 it?.let { course ->
                     setState {
@@ -71,7 +70,6 @@ class FlashCardViewModel @Inject constructor(
                     items = wordList
                 )
             }
-            removeAllLoading()
             if (wordList.isEmpty()) {
                 navigate(
                     FlashCardFragmentDirections.actionFlashCardFragmentToSentenceQuizFragment()
@@ -112,6 +110,7 @@ class FlashCardViewModel @Inject constructor(
         viewModelScope.launch {
             delay(200)
             courseWordRepository.updateCourse(
+                id = state.value.courseId ?: 0L,
                 isStart = true,
                 progress = calculateProgress(state.value.items.orEmpty().size, state.value.knowCount)
             )

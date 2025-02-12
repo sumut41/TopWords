@@ -21,12 +21,12 @@ open class CourseWordRepository @Inject constructor(
         emit(courseWordDao.getCurrentCourse())
     }.flowOn(Dispatchers.IO)
 
-    fun getFirstCourse(): Flow<CourseWordEntity?> = flow {
+    fun getNextCourse(): Flow<CourseWordEntity?> = flow {
         emit(courseWordDao.getFirstCourse())
     }.flowOn(Dispatchers.IO)
 
-    suspend fun updateCourse(isStart: Boolean, progress: Float) {
-        courseWordDao.updateCourse(isStart, progress, progress >= 1f)
+    suspend fun updateCourse(id: Long, isStart: Boolean, progress: Float) {
+        courseWordDao.updateCourse(id, isStart, progress, progress >= 1f)
     }
 
     fun getCompletedCourseCount(): Flow<Int> = flow {

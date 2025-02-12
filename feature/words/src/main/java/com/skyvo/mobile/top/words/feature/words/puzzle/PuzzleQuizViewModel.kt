@@ -134,7 +134,7 @@ class PuzzleQuizViewModel @Inject constructor(
 
     fun checkAnswer() {
         viewModelScope.launch {
-            if (state.value.selectAnswer?.lowercase() == state.value.currentQuestion?.word?.lowercase()) {
+            if (state.value.selectAnswer?.lowercase()?.trim() == state.value.currentQuestion?.word?.lowercase()?.trim()) {
                 correct()
             } else {
                 unCorrect()
@@ -156,8 +156,9 @@ class PuzzleQuizViewModel @Inject constructor(
     fun next(isBack: Boolean = false) {
         viewModelScope.launch {
             courseWordRepository.updateCourse(
+                id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = if (state.value.correctCount == state.value.wordList?.size && state.value.unCorrectCount == 0) 1f else (if (currentProgress == 0.75f) 0.80f else currentProgress)
+                progress = if (state.value.correctCount >= ((state.value.wordList?.size ?: 1) - 1) && state.value.unCorrectCount == 0) 1f else (if (currentProgress == 0.75f) 0.80f else currentProgress)
             )
             delay(100)
             if (isBack) {

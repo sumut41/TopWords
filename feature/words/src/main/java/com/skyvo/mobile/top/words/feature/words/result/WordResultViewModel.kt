@@ -6,6 +6,7 @@ import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -62,6 +63,28 @@ class WordResultViewModel @Inject constructor(
         } else if (progress < 1f){
             navigate(WordResultFragmentDirections.actionResultWordFragmentToPuzzleQuizFragment())
         } else {
+            nextCourse()
+        }
+    }
+
+    private fun nextCourse() {
+        viewModelScope.launch {
+            courseWordRepository.getNextCourse().collect {
+                it?.let { course ->
+                    updateCourse(course.id)
+                }
+            }
+        }
+    }
+
+    private fun updateCourse(id: Long) {
+        viewModelScope.launch {
+            courseWordRepository.updateCourse(
+                id = id,
+                isStart = true,
+                progress = 0f
+            )
+            delay(150)
             navigate(WordResultFragmentDirections.actionResultWordFragmentToFlashCardFragment())
         }
     }

@@ -1,8 +1,10 @@
 package com.skyvo.mobile.top.words.feature.words.status
 
 import androidx.lifecycle.viewModelScope
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
+import com.skyvo.mobile.top.words.feature.words.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -93,12 +95,14 @@ class StatusViewModel @Inject constructor(
         } else if (progress < 1f){
             navigate(StatusFragmentDirections.actionStatusFragmentToPuzzleQuizFragment())
         } else {
-            viewModelScope.launch {
-                courseWordRepository.updateCourse(
-                    isStart = true,
-                    progress = 1f
-                )
-            }
+            navigate(
+                navDeepLink = NavDeeplinkDestination.ResultWord(
+                    "Oooo ${state.value.currentCourse?.id}. Ders Bitti!"
+                ),
+                popUpTo = true,
+                popUpToInclusive = false,
+                popUpToId = R.id.wordsDashboardFragment
+            )
         }
     }
 }

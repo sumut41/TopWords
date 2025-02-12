@@ -18,6 +18,7 @@ class CourseMockDao: CourseWordDao {
     }
 
     override suspend fun updateCourse(
+        id: Long,
         isStart: Boolean,
         progress: Float,
         isComplete: Boolean
