@@ -77,7 +77,7 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                         horizontalPaddingValues = AppDimension.default.dp0,
                         menuIcon = R.drawable.ic_info
                     ) {
-                        // TODO: Share
+                        navigate(MenuFragmentDirections.actionMenuFragmentToAboutUsFragment())
                     }
                 }
             ) {
