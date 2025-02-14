@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_menuFragment_to_learnedWordFragment"
             app:destination="@id/learnedWordFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
     </fragment>
 
     <fragment
@@ -24,4 +27,8 @@
         android:id="@+id/learnedWordFragment"
         android:name="com.skyvo.mobile.top.words.feature.menu.learned.LearnedWordFragment"
         android:label="LearnedWordFragment" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.skyvo.mobile.top.words.feature.menu.appinfo.AboutUsFragment"
+        android:label="AboutUsFragment" />
 </navigation>
