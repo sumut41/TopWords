@@ -60,6 +60,10 @@ data class AppCoreColorScheme(
     val colorBorderFocused: Color = Color.Unspecified,
     val colorAnswerSuccess: Color = Color.Unspecified,
     val colorAnswerError: Color = Color.Unspecified,
+    val colorBeginner: Color = Color.Unspecified,
+    val colorIntermediate: Color = Color.Unspecified,
+    val colorAdvanced: Color = Color.Unspecified,
+    val colorTextLevelCard: Color = Color.Unspecified
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -74,13 +78,13 @@ val AppLightColors = AppCoreColorScheme(
     colorSurfaceBase = Color(0xFFFFFFFE),
     colorTextMain = Color(0xFF08162C),
     colorTextOnPrimary = Color(0xFF14161B),
-    colorTextOnSecondary = Color(0xFF14161B),
+    colorTextOnSecondary = Color(0xFF8D8DA6),
     colorBackgroundButtonPrimaryDefault = Color(0xFFFFC222),
     colorBackgroundButtonSecondaryDefault = Color(0xFFFFFFFE),
     colorBackgroundButtonPrimaryDisabled = Color(0x59FFB81C),
     colorBackgroundButtonSecondaryDisabled = Color(0xFFFFFFFE),
     colorTextDisabled = Color(0xFFFFFFFF),
-    colorBorderInputsDefault = Color(0xFF8C8C8C),
+    colorBorderInputsDefault = Color(0xFFE8E8E8),
     colorBorderSelected = Color(0xFFFFC222),
     colorBackgroundSelected = Color(0xFFF8F8F7),
     colorCheckBoxChecked = Color(0xFFFFC222),
@@ -119,6 +123,10 @@ val AppLightColors = AppCoreColorScheme(
     colorBorderFocused = Color(0xFFE8E8E8),
     colorAnswerSuccess = Color(0xFFF5FFD8),
     colorAnswerError = Color(0xFFFFDDD8),
+    colorBeginner = Color(0xFF439D33),
+    colorIntermediate = Color(0xFF157CF3),
+    colorAdvanced = Color(0xFF8952F5),
+    colorTextLevelCard = Color(0xFFFFFFFE)
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -133,13 +141,13 @@ val AppDarkColors = AppCoreColorScheme(
     colorSurfaceBase = Color(0xFF14161B),
     colorTextMain = Color(0xFFFFFFFE),
     colorTextOnPrimary = Color(0xFF14161B),
-    colorTextOnSecondary = Color(0xFFFFFFFE),
+    colorTextOnSecondary = Color(0xFF83899F),
     colorBackgroundButtonPrimaryDefault = Color(0xFFF1CC06),
     colorBackgroundButtonSecondaryDefault = Color(0xFF313843),
     colorBackgroundButtonPrimaryDisabled = Color(0x59F1CC06),
     colorBackgroundButtonSecondaryDisabled = Color(0x4D313843),
     colorTextDisabled = Color(0xFFFFFFFF),
-    colorBorderInputsDefault = Color(0xFF3D4357),
+    colorBorderInputsDefault = Color(0xFF282D36),
     colorBorderSelected = Color(0xFFF1CC06),
     colorBackgroundSelected = Color(0xFF1C1F26),
     colorCheckBoxChecked = Color(0xFFFFEB3B),
@@ -178,6 +186,10 @@ val AppDarkColors = AppCoreColorScheme(
     colorBorderFocused = Color(0xFF282D36),
     colorAnswerSuccess = Color(0xFFC9F8BC),
     colorAnswerError = Color(0xFFFDCDC6),
+    colorBeginner = Color(0xFFE3316F),
+    colorIntermediate = Color(0xFF197BEF),
+    colorAdvanced = Color(0xFF965FFD),
+    colorTextLevelCard = Color(0xFFBCBDC0)
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

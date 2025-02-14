@@ -69,17 +69,12 @@ class LearnedWordFragment : BaseComposeFragment<LearnedWordViewModel>() {
                                     ),
                                 word = item.word.orEmpty(),
                                 translatedWord = item.translate.orEmpty(),
-                                startContent = {
-                                    AppIcon(
-                                        modifier = Modifier
-                                            .size(AppDimension.default.dp24)
-                                            .ghostClickable {
-                                                speaker.speak(item.word.orEmpty())
-                                            },
-                                        imageVector = ImageVector.vectorResource(R.drawable.ic_voice),
-                                        tint = LocalAppColor.current.primary,
-                                        contentDescription = "Pronounce word"
-                                    )
+                                isFavorite = item.isFavorite,
+                                onSpeakClick = {
+                                    speaker.speak(it)
+                                },
+                                onFavoriteClick = {
+                                    viewModel.updateWord(item.id, item.isFavorite)
                                 }
                             )
                         }

@@ -48,7 +48,8 @@ fun FlashcardStack(
     onSwipeRight: (FlashcardItem) -> Unit,
     onSwipeLeft: (FlashcardItem) -> Unit,
     onStackCompleted: () -> Unit,
-    onFavoriteClick: (Long, Boolean) -> Unit
+    onFavoriteClick: (Long, Boolean) -> Unit,
+    onSpeakClick: ((String) -> Unit)? = null
 ) {
     val cardStack = remember { mutableStateListOf(*items.toTypedArray()) }
     val currentCard = cardStack.firstOrNull()
@@ -107,7 +108,8 @@ fun FlashcardStack(
                             this[itemId] = !(this[itemId] ?: false)
                         }
                         onFavoriteClick(itemId, isFavorite)
-                    }
+                    },
+                    onSpeakClick = onSpeakClick
                 )
             }
 
@@ -128,7 +130,8 @@ fun FlashcardStack(
                         this[itemId] = !(this[itemId] ?: false)
                     }
                     onFavoriteClick(itemId, isFavorite)
-                }
+                },
+                onSpeakClick = onSpeakClick
             )
         }
     }
@@ -141,7 +144,8 @@ fun Flashcard(
     cardType: Int = 0,
     backgroundColor: Color = LocalAppColor.current.colorFlashCardBackground,
     isFavorite: Boolean,
-    onFavoriteClick: (Long, Boolean) -> Unit
+    onFavoriteClick: (Long, Boolean) -> Unit,
+    onSpeakClick: ((String) -> Unit)? = null
 ) {
     Card(
         shape = RoundedCornerShape(24.dp),
@@ -229,6 +233,22 @@ fun Flashcard(
                     modifier = Modifier.padding(top = AppDimension.default.dp8)
                 )
 
+                onSpeakClick?.let {
+                    AppIcon(
+                        modifier = Modifier
+                            .padding(
+                                top = AppDimension.default.dp16
+                            )
+                            .size(AppDimension.default.dp24)
+                            .clickable {
+                                it.invoke(item.word)
+                            },
+                        imageVector = ImageVector.vectorResource(R.drawable.ic_voice),
+                        tint = LocalAppColor.current.primary,
+                        contentDescription = "${item.word} speak"
+                    )
+                }
+
                 val annotatedString = buildAnnotatedString {
                     val wordIndex = item.sentence.indexOf(" ${item.word}", ignoreCase = true) + 1
                     if (wordIndex >= 0) {
@@ -259,8 +279,10 @@ fun Flashcard(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(
-                            horizontal = AppDimension.default.dp24,
-                            vertical = AppDimension.default.dp24
+                            start = AppDimension.default.dp24,
+                            end = AppDimension.default.dp24,
+                            top = AppDimension.default.dp16,
+                            bottom = AppDimension.default.dp24
                         )
                         .background(
                             color = backgroundColor,

@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_wordsDashboardFragment_to_statusFragment"
             app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_wordsDashboardFragment_to_topWordListFragment"
+            app:destination="@id/topWordListFragment" />
     </fragment>
 
     <fragment
@@ -108,6 +111,16 @@
             app:popUpTo="@id/wordsDashboardFragment"
             app:popUpToInclusive="false" />
 
+    </fragment>
+
+    <fragment
+        android:id="@+id/topWordListFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.topword.TopWordListFragment"
+        android:label="TopWordListFragment">
+        <argument
+            android:name="level"
+            app:argType="string"
+            app:nullable="true"/>
     </fragment>
 
 </navigation>

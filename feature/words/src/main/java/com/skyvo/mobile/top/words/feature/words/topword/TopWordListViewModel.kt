@@ -1,5 +1,6 @@
-package com.skyvo.mobile.top.words.feature.menu.learned
+package com.skyvo.mobile.top.words.feature.words.topword
 
+import android.os.Bundle
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
@@ -9,27 +10,32 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class LearnedWordViewModel @Inject constructor(
+class TopWordListViewModel @Inject constructor(
     private val userManager: UserManager,
     private val wordRepository: WordRepository
-) : BaseComposeViewModel<LearnedWordUIState>() {
+) : BaseComposeViewModel<TopWordListUIState>() {
 
-    override fun setInitialState(): LearnedWordUIState {
-        return LearnedWordUIState()
+    override fun setInitialState(): TopWordListUIState {
+        return TopWordListUIState()
     }
 
-    init {
-        getLearnedWordList()
+    override fun fetchExtras(extra: Bundle) {
+        super.fetchExtras(extra)
+        with(TopWordListFragmentArgs.fromBundle(extra)) {
+            getLearnedWordList(level.orEmpty())
+        }
     }
 
-    private fun getLearnedWordList() {
+    private fun getLearnedWordList(level: String) {
         viewModelScope.launch {
-            wordRepository.getLearnedWordList(
-                userManager.learnLanguage?.code.orEmpty()
+            wordRepository.getLevelWordList(
+                level = level,
+                languageCode = userManager.learnLanguage?.code.orEmpty()
             ).collect {
                 setState {
                     copy(
-                        learnedWords = it,
+                        level = level,
+                        wordList = it,
                         learnLanguageCode = userManager.learnLanguage?.code,
                     )
                 }
@@ -48,7 +54,7 @@ class LearnedWordViewModel @Inject constructor(
 
         setState {
             copy(
-                learnedWords = learnedWords?.map { word ->
+                wordList = wordList?.map { word ->
                     if (word.id == id) word.copy(isFavorite = isFavorite.not()) else word
                 }
             )

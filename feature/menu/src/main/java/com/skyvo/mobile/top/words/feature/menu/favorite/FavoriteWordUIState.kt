@@ -4,5 +4,6 @@ import com.skyvo.mobile.core.base.viewmodel.UIState
 import com.skyvo.mobile.core.database.word.WordEntity
 
 data class FavoriteWordUIState (
-    val items: List<WordEntity>? = null
+    val items: List<WordEntity>? = null,
+    val learnLanguageCode: String? = null
 ): UIState

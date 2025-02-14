@@ -1,10 +1,16 @@
 package com.skyvo.mobile.top.words.feature.words.result
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -13,8 +19,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -30,6 +38,7 @@ import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.button.AppSecondaryLargeButton
+import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
@@ -70,21 +79,55 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
 
         AppPrimaryTheme {
             AppScaffold(
+                header = {
+                    Row (
+                        modifier = Modifier.fillMaxWidth()
+                            .padding(
+                                top = AppDimension.default.dp16,
+                                end = AppDimension.default.dp24
+                            ),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .padding(start = AppDimension.default.dp24)
+                                .size(AppDimension.default.dp32)
+                                .clickable {
+                                    navigateBack()
+                                },
+                            contentAlignment = Alignment.Center
+                        ) {
+                           // empty
+                        }
+
+                        Box(
+                            modifier = Modifier
+                                .padding(start = AppDimension.default.dp24)
+                                .size(AppDimension.default.dp32)
+                                .background(
+                                    color = LocalAppColor.current.colorIconBackground,
+                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                )
+                                .clickable {
+                                    navigateBack()
+                                },
+                            contentAlignment = Alignment.Center
+                        ) {
+                            AppIcon(
+                                modifier = Modifier.size(AppDimension.default.dp20),
+                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_close),
+                                tint = LocalAppColor.current.colorIcon,
+                                contentDescription = "Theme"
+                            )
+                        }
+                    }
+                },
                 bottomView = {
-                    Column {
-                        AppSecondaryLargeButton(
-                            text = stringResource(com.skyvo.mobile.core.resource.R.string.close_button)
-                        ) {
-                            navigateBack()
-                        }
-                        AppSpacer(
-                            height = AppDimension.default.dp8
-                        )
-                        AppPrimaryLargeButton(
-                            text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button)
-                        ) {
-                            viewModel.next()
-                        }
+                    AppPrimaryLargeButton(
+                        text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button)
+                    ) {
+                        viewModel.next()
                     }
                 }
             ) {
@@ -103,8 +146,8 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
                     ) {
                         SuccessAnimation(
                             modifier = Modifier
-                                .padding(top = AppDimension.default.dp48)
-                                .size(200.dp)
+                                .padding(top = AppDimension.default.dp40)
+                                .size(210.dp)
                         )
 
                         AppText(

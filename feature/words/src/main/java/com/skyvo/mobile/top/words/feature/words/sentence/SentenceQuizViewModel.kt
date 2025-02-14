@@ -28,6 +28,11 @@ class SentenceQuizViewModel @Inject constructor(
     }
 
     init {
+        setState {
+            copy(
+                learnLanguageCode = userManager.learnLanguage?.code
+            )
+        }
         getCurrentCourse()
     }
 

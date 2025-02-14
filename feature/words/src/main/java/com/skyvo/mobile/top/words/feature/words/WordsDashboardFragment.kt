@@ -3,6 +3,7 @@ package com.skyvo.mobile.top.words.feature.words
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -12,7 +13,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.base.manager.LevelType
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.shared.enum.DayStatus
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimarySmallButton
@@ -92,14 +93,24 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             )
 
                             state.learnLanguage?.let {
-                                Image(
-                                    modifier = Modifier.size(
-                                        width = 24.dp,
-                                        height = 16.dp
-                                    ),
-                                    imageVector = ImageVector.vectorResource(it.icon),
-                                    contentDescription = it.name
-                                )
+                                Row(
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    AppText(
+                                        text = it.name,
+                                        modifier = Modifier.padding(horizontal = AppDimension.default.dp8),
+                                        style = AppTypography.default.body,
+                                        color = LocalAppColor.current.colorTextMain
+                                    )
+                                    Image(
+                                        modifier = Modifier.size(
+                                            width = 24.dp,
+                                            height = 16.dp
+                                        ),
+                                        imageVector = ImageVector.vectorResource(it.icon),
+                                        contentDescription = it.name
+                                    )
+                                }
                             }
                         }
                     }
@@ -211,7 +222,8 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             height = AppDimension.default.dp16
                         )
                         Row (
-                            modifier = Modifier.fillMaxWidth()
+                            modifier = Modifier
+                                .fillMaxWidth()
                                 .padding(
                                     horizontal = AppDimension.default.dp16,
                                     vertical = AppDimension.default.dp8
@@ -219,7 +231,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             AppText(
-                                text = "Week Challenge",
+                                text = "Study Days",
                                 style = AppTypography.default.subTitleBold
                             )
                             AppText(
@@ -255,8 +267,124 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             }
                         }
                     }
+
+                    item {
+                        AppSpacer(
+                            height = AppDimension.default.dp16
+                        )
+                        Row (
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    all = AppDimension.default.dp16
+                                ),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            AppText(
+                                text = "Top Words",
+                                style = AppTypography.default.subTitleBold
+                            )
+                            AppText(
+                                text = "3000",
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorTextSubtler
+                            )
+                        }
+
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = AppDimension.default.dp12)
+                        ) {
+                            WordBox(
+                                modifier = Modifier.weight(1f),
+                                title = "Beginner",
+                                backgroundColor = LocalAppColor.current.colorBeginner,
+                                iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_regular_level
+                            ) {
+                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
+                                    LevelType.BEGINNER.key
+                                ))
+                            }
+
+                            WordBox(
+                                modifier = Modifier.weight(1f),
+                                title = "Intermediate",
+                                backgroundColor = LocalAppColor.current.colorIntermediate,
+                                iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_serious_level
+                            ) {
+                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
+                                    LevelType.INTERMEDIATE.key
+                                ))
+                            }
+
+                            WordBox(
+                                modifier = Modifier.weight(1f),
+                                title = "Advanced",
+                                backgroundColor = LocalAppColor.current.colorAdvanced,
+                                iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_intence_level
+                            ) {
+                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
+                                    LevelType.ADVANCED.key
+                                ))
+                            }
+                        }
+                    }
                 }
             }
+        }
+    }
+
+    @Composable
+    private fun WordBox(
+        modifier: Modifier,
+        title: String,
+        iconRes: Int,
+        backgroundColor: Color = LocalAppColor.current.colorA1Level,
+        onClick: () -> Unit
+    ) {
+        Column(
+            modifier = modifier
+                .padding(
+                    horizontal = AppDimension.default.dp4
+                )
+                .background(
+                    color = if (isSystemInDarkTheme()) {
+                        backgroundColor.copy(alpha = 0.25f)
+                    } else {
+                        backgroundColor.copy(alpha = 0.5f)
+                    },
+                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                )
+                .border(
+                    width = 1.dp,
+                    color = backgroundColor,
+                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                )
+                .clip(RoundedCornerShape(AppDimension.default.dp10))
+                .clickable {
+                    onClick.invoke()
+                },
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            AppSpacer(height = AppDimension.default.dp16)
+            AppIcon(
+                modifier = Modifier.size(30.dp),
+                imageVector = ImageVector.vectorResource(iconRes),
+                tint = backgroundColor,
+                contentDescription = title
+            )
+
+            AppText(
+                modifier = Modifier.padding(
+                    top = AppDimension.default.dp12
+                ),
+                text = title,
+                style = AppTypography.default.subTitleBold,
+                color = LocalAppColor.current.colorTextLevelCard
+            )
+
+            AppSpacer(height = AppDimension.default.dp16)
         }
     }
 
@@ -277,7 +405,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
             Box(
                 modifier = Modifier
                     .padding(top = AppDimension.default.dp8)
-                    .size(30.dp)
+                    .size(32.dp)
                     .background(
                         color = when (status) {
                             DayStatus.TODAY -> LocalAppColor.current.primary.copy(alpha = 0.2f)
@@ -285,7 +413,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             DayStatus.MISSED -> LocalAppColor.current.colorError.copy(alpha = 0.2f)
                             DayStatus.UPCOMING -> Color.Transparent
                         },
-                        shape = CircleShape
+                        shape = RoundedCornerShape(AppDimension.default.dp10)
                     )
                     .border(
                         width = 1.dp,
@@ -295,9 +423,9 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             DayStatus.MISSED -> LocalAppColor.current.colorError
                             DayStatus.UPCOMING -> LocalAppColor.current.colorBorder
                         },
-                        shape = CircleShape
+                        shape = RoundedCornerShape(AppDimension.default.dp10)
                     )
-                    .clip(CircleShape),
+                    .clip(RoundedCornerShape(AppDimension.default.dp10)),
                 contentAlignment = Alignment.Center
             ) {
                 when (status) {
@@ -321,7 +449,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
 
                     DayStatus.TODAY -> {
                         AppIcon(
-                            modifier = Modifier.size(20.dp),
+                            modifier = Modifier.size(18.dp),
                             imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_lightning),
                             tint = LocalAppColor.current.primary,
                             contentDescription = "missed"

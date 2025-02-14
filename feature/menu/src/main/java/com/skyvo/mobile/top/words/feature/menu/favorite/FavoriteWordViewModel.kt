@@ -19,6 +19,11 @@ class FavoriteWordViewModel @Inject constructor(
     }
 
     init {
+        setState {
+            copy(
+                learnLanguageCode = userManager.learnLanguage?.code.orEmpty()
+            )
+        }
         getFavoriteWordList()
     }
 

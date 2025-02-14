@@ -17,5 +17,5 @@ data class WordEntity (
     val translateList: String? = null,
     val isKnow: Boolean = false,
     val isNotMuch: Boolean? = null,
-    val isFavorite: Boolean = false
+    var isFavorite: Boolean = false
 )

@@ -18,6 +18,7 @@ import com.skyvo.mobile.core.base.manager.UserMockManager
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.database.word.WordMockRepository
+import com.skyvo.mobile.core.shared.extension.Pronouncer
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.button.AppSecondaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.card.FlashcardStack
@@ -43,6 +44,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
         val state by viewModel.state.collectAsStateWithLifecycle()
         var isNavigateRight by remember { mutableStateOf(false) }
         var isNavigateLeft by remember { mutableStateOf(false) }
+        val speaker = remember { Pronouncer(requireContext(), state.learnLanguageCode.orEmpty()) }
 
         AppPrimaryTheme {
             AppScaffold(
@@ -105,6 +107,9 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                         },
                         onFavoriteClick = { itemId, isFavorite ->
                             viewModel.toggleFavorite(itemId, isFavorite)
+                        },
+                        onSpeakClick = { word ->
+                            speaker.speak(word)
                         }
                     )
                 }

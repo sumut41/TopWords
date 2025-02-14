@@ -1,8 +1,8 @@
-package com.skyvo.mobile.top.words.feature.menu.favorite
+package com.skyvo.mobile.top.words.feature.words.topword
 
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
@@ -24,9 +24,8 @@ import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class FavoriteWordFragment: BaseComposeFragment<FavoriteWordViewModel>() {
-
-    override val viewModel: FavoriteWordViewModel by viewModels()
+class TopWordListFragment : BaseComposeFragment<TopWordListViewModel>() {
+    override val viewModel: TopWordListViewModel by viewModels()
 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
@@ -35,23 +34,25 @@ class FavoriteWordFragment: BaseComposeFragment<FavoriteWordViewModel>() {
     }
 
     @Composable
-    private fun ContentView(viewModel: FavoriteWordViewModel) {
+    fun ContentView(
+        viewModel: TopWordListViewModel
+    ) {
         val state by viewModel.state.collectAsStateWithLifecycle()
         val context = LocalContext.current
         val speaker = remember { Pronouncer(context, state.learnLanguageCode.orEmpty()) }
 
         AppPrimaryTheme {
-            AppScaffold (
+            AppScaffold(
                 header = {
                     AppTopHeader(
-                        title = "Favorite"
+                        title = "Words ${state.level.lowercase()}"
                     ) {
                         navigateBack()
                     }
                 }
             ) {
                 LazyColumn {
-                    state.items?.let {
+                    state.wordList?.let {
                         items(it) { item ->
                             AppLearnedWordItemComponent(
                                 modifier = Modifier
@@ -65,6 +66,9 @@ class FavoriteWordFragment: BaseComposeFragment<FavoriteWordViewModel>() {
                                 isFavorite = item.isFavorite,
                                 onSpeakClick = {
                                     speaker.speak(it)
+                                },
+                                onFavoriteClick = {
+                                    viewModel.updateWord(item.id, item.isFavorite)
                                 }
                             )
                         }

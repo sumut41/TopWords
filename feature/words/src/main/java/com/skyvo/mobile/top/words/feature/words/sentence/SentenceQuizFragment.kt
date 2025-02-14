@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.text.style.TextAlign
@@ -12,6 +13,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.resource.SoundEffect
+import com.skyvo.mobile.core.shared.extension.Pronouncer
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.layout.AppShowAnswerCard
@@ -47,6 +49,8 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                 SoundEffect(requireContext()).playError()
             }
         }
+
+        val speaker = remember { Pronouncer(requireContext(), state.learnLanguageCode.orEmpty()) }
 
         AppPrimaryTheme {
             AppScaffold(
@@ -116,6 +120,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                                     text = item.label.orEmpty(),
                                     isSelected = state.selectAnswer == item.label
                                 ) {
+                                    speaker.speak(item.label.orEmpty())
                                     viewModel.selectAnswer(item.label.orEmpty(), item.isCorrect)
                                 }
                             }
