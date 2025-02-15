@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -22,6 +23,7 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
+import com.skyvo.mobile.core.uikit.util.UI_EMPTY
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -51,7 +53,7 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
         AppPrimaryTheme {
             AppScaffold(
                 header = {
-                    AppTopHeader(title = "") {
+                    AppTopHeader(title = String.UI_EMPTY) {
                         viewModel.next(isBack = true)
                     }
                 },
@@ -66,7 +68,7 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
 
                     if (state.nextCount != 1) {
                         AppPrimaryLargeButton(
-                            text = "Check Answer",
+                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.check_answer),
                             enabled = state.selectAnswer.isNullOrEmpty().not()
                         ) {
                             viewModel.nextQuestion()

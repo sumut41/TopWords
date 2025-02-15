@@ -46,6 +46,7 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
+import com.skyvo.mobile.core.uikit.util.UI_EMPTY
 import com.skyvo.mobile.top.words.feature.words.R
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
@@ -65,7 +66,7 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
     private fun ContentView(viewModel: WordResultViewModel) {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
-        var animatedText by remember { mutableStateOf("") }
+        var animatedText by remember { mutableStateOf(String.UI_EMPTY) }
         val title = state.headerText
 
         LaunchedEffect(Unit) {

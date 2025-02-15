@@ -10,6 +10,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -50,7 +51,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = "How well do you remember this word?",
+                        title = stringResource(id = com.skyvo.mobile.core.resource.R.string.flash_card_title),
                         onBackClickListener = {
                             navigateBack()
                         }
@@ -71,7 +72,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                                 .padding(
                                     end = AppDimension.default.dp8
                                 ),
-                            text = "Not Much"
+                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.not_much)
                         ) { 
                             isNavigateLeft = true
                         }
@@ -82,7 +83,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                                 .padding(
                                     start = AppDimension.default.dp8
                                 ),
-                            text = "I Know"
+                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.i_know)
                         ) { 
                             isNavigateRight = true
                         }

@@ -22,6 +22,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -88,7 +89,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             AppText(
-                                text = "WORDS",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.words_title),
                                 style = AppTypography.default.bodyExtraLargeBold
                             )
 
@@ -127,7 +128,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             AppText(
-                                text = "Active Level",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.active_level_label),
                                 style = AppTypography.default.subTitleBold
                             )
 
@@ -189,7 +190,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                     )
 
                                     AppText(
-                                        text = "Discovering English",
+                                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.discovering_words_label),
                                         style = AppTypography.default.bodyBold,
                                         modifier = Modifier
                                             .fillMaxWidth()
@@ -201,7 +202,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                     )
 
                                     AppPrimarySmallButton(
-                                        text = "Continue",
+                                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.continue_button),
                                         modifier = Modifier
                                             .fillMaxWidth()
                                             .padding(
@@ -231,14 +232,14 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             AppText(
-                                text = "Study Days",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.study_days_label),
                                 style = AppTypography.default.subTitleBold
                             )
                             AppText(
                                 text = if (state.missedDaysCount > 0) {
-                                    "${state.missedDaysCount} missed days"
+                                    "${state.missedDaysCount} " + stringResource(id = com.skyvo.mobile.core.resource.R.string.missed_days_label)
                                 } else {
-                                    "No missed days"
+                                    stringResource(id = com.skyvo.mobile.core.resource.R.string.no_missed_days_label)
                                 },
                                 style = AppTypography.default.body,
                                 color = LocalAppColor.current.colorTextSubtler
@@ -281,11 +282,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             AppText(
-                                text = "Top Words",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.top_words),
                                 style = AppTypography.default.subTitleBold
                             )
                             AppText(
-                                text = "3000",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.word_count),
                                 style = AppTypography.default.body,
                                 color = LocalAppColor.current.colorTextSubtler
                             )
@@ -298,7 +299,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                         ) {
                             WordBox(
                                 modifier = Modifier.weight(1f),
-                                title = "Beginner",
+                                title = stringResource(id = com.skyvo.mobile.core.resource.R.string.beginner_title),
                                 backgroundColor = LocalAppColor.current.colorBeginner,
                                 iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_regular_level
                             ) {
@@ -309,7 +310,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
 
                             WordBox(
                                 modifier = Modifier.weight(1f),
-                                title = "Intermediate",
+                                title = stringResource(id = com.skyvo.mobile.core.resource.R.string.intermediate_title),
                                 backgroundColor = LocalAppColor.current.colorIntermediate,
                                 iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_serious_level
                             ) {
@@ -320,7 +321,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
 
                             WordBox(
                                 modifier = Modifier.weight(1f),
-                                title = "Advanced",
+                                title = stringResource(id = com.skyvo.mobile.core.resource.R.string.advanced_title),
                                 backgroundColor = LocalAppColor.current.colorAdvanced,
                                 iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_intence_level
                             ) {
@@ -344,11 +345,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             AppText(
-                                text = "Alıştırma Yap",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.practice_label),
                                 style = AppTypography.default.subTitleBold
                             )
                             AppText(
-                                text = "Quiz",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label),
                                 style = AppTypography.default.body,
                                 color = LocalAppColor.current.colorTextSubtler
                             )
@@ -366,7 +367,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             }
                         ) {
                             AppText(
-                                text = "Quiz",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label),
                                 style = AppTypography.default.subTitleBold
                             )
                         }

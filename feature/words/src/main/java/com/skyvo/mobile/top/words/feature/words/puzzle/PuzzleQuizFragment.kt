@@ -17,6 +17,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
@@ -103,7 +104,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                             )
 
                             AppText(
-                                text = "(İngilizce anlamını yaz.)",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.meaning),
                                 style = AppTypography.default.bodyExtraLarge,
                                 modifier = Modifier
                                     .fillMaxSize()
@@ -134,7 +135,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                                 ),
                                 placeholder = {
                                     AppText(
-                                        text = "Type your answer",
+                                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.type_your_answer),
                                         style = AppTypography.default.bodyLarge,
                                         color = LocalAppColor.current.colorTextSubtler.copy(alpha = 0.7f),
                                         modifier = Modifier.fillMaxWidth(),
@@ -170,7 +171,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                     ) {
                         if (state.nextCount != 1) {
                             AppPrimaryLargeButton(
-                                text = "Check Answer",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.check_answer),
                                 enabled = state.selectAnswer.isNullOrEmpty().not()
                             ) {
                                 viewModel.checkAnswer()

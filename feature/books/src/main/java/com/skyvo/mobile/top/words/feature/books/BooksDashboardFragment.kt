@@ -24,6 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -92,7 +93,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             AppText(
-                                text = "BOOKS",
+                                text = stringResource(com.skyvo.mobile.core.resource.R.string.books_title),
                                 style = AppTypography.default.bodyExtraLargeBold,
                                 modifier = Modifier.padding(
                                     vertical = AppDimension.default.dp8,
@@ -127,7 +128,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                     modifier = Modifier.size(AppDimension.default.dp20),
                                     imageVector = ImageVector.vectorResource(R.drawable.ic_search),
                                     tint = LocalAppColor.current.colorIcon,
-                                    contentDescription = "Search"
+                                    contentDescription = stringResource(com.skyvo.mobile.core.resource.R.string.search)
                                 )
                             }
                         }

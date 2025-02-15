@@ -17,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -64,7 +65,7 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                 },
                 bottomView = {
                     AppPrimaryLargeButton(
-                        text = "Continue"
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.continue_button)
                     ) {
                         viewModel.next()
                     }
@@ -76,28 +77,28 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                     verticalArrangement = Arrangement.Center
                 ) {
                     StepView(
-                        text = "Word Cards",
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.words_card_label),
                         isCompleted = state.isWordCardCompleted,
                         isCurrent = (state.currentCourse?.progress ?: 0f) < 0.25f,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_words
                     )
 
                     StepView(
-                        text = "Fill Blanks",
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.fill_blanks_label),
                         isCurrent = (state.currentCourse?.progress ?: 0f) < 0.50f && state.isWordCardCompleted,
                         isCompleted = state.isBlankFillQuizCompleted,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_write
                     )
 
                     StepView(
-                        text = "Find Meaning",
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.find_meaning_label),
                         isCurrent = (state.currentCourse?.progress ?: 0f) < 0.75f && state.isBlankFillQuizCompleted,
                         isCompleted = state.isTranslateQuizCompleted,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_meaning
                     )
 
                     StepView(
-                        text = "Write Word",
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.write_word_label),
                         isCurrent = (state.currentCourse?.progress ?: 0f) < 1f && state.isTranslateQuizCompleted,
                         isCompleted = state.isWriteQuizCompleted,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_denden,
