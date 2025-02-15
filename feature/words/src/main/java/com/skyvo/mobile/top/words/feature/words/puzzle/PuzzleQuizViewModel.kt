@@ -95,6 +95,7 @@ class PuzzleQuizViewModel @Inject constructor(
 
     fun nextQuestion() {
         viewModelScope.launch {
+            delay(120)
             if (state.value.nextCount == 1) {
                 setState {
                     copy(
@@ -133,15 +134,20 @@ class PuzzleQuizViewModel @Inject constructor(
     }
 
     fun checkAnswer() {
-        viewModelScope.launch {
-            if (state.value.selectAnswer?.lowercase()?.trim() == state.value.currentQuestion?.word?.lowercase()?.trim()) {
-                correct()
-            } else {
-                unCorrect()
+        val answerList = state.value.currentQuestion?.word?.split(",")
+        if (answerList != null) {
+            for (item in answerList) {
+                if (item.lowercase().trim() == state.value.selectAnswer?.lowercase()?.trim()) {
+                    correct()
+                } else {
+                    unCorrect()
+                }
             }
-            delay(100)
-            nextQuestion()
+        } else {
+            unCorrect()
         }
+
+        nextQuestion()
     }
 
     fun updateAnswer(answer: String) {
@@ -158,7 +164,7 @@ class PuzzleQuizViewModel @Inject constructor(
             courseWordRepository.updateCourse(
                 id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = if (state.value.correctCount >= ((state.value.wordList?.size ?: 1) - 1) && state.value.unCorrectCount == 0) 1f else (if (currentProgress == 0.75f) 0.80f else currentProgress)
+                progress = if (state.value.correctCount >= ((state.value.wordList?.size ?: 1) - 1)) 1f else (if (currentProgress == 0.75f) 0.80f else currentProgress)
             )
             delay(100)
             if (isBack) {

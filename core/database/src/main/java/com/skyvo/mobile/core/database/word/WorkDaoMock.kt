@@ -9,6 +9,13 @@ class WorkDaoMock: WordDao {
         return emptyList()
     }
 
+    override suspend fun getRandomLevelWordList(
+        level: String,
+        languageCode: String
+    ): List<WordEntity>? {
+        return emptyList()
+    }
+
     override suspend fun getSearchWordTranslate(
         word: String,
         languageCode: String

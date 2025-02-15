@@ -178,8 +178,8 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                         }
 
                         AppShowAnswerCard(
-                            selectAnswer = state.selectAnswer?.lowercase(),
-                            correctWord = state.currentQuestion?.word?.lowercase(),
+                            selectAnswer = state.selectAnswer?.lowercase()?.trim(),
+                            correctWord = state.currentQuestion?.word?.lowercase()?.trim(),
                             visible = state.showAnswer
                         ) {
                             viewModel.nextQuestion()

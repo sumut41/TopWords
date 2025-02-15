@@ -3,6 +3,7 @@ package com.skyvo.mobile.top.words.feature.words.result
 import android.os.Bundle
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.UserManager
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -16,6 +17,8 @@ class WordResultViewModel @Inject constructor(
     private val courseWordRepository: CourseWordRepository
 ) : BaseComposeViewModel<WordResultUIState>() {
 
+    var isQuizFrom: Boolean = false
+
     override fun setInitialState(): WordResultUIState {
         return WordResultUIState()
     }
@@ -24,6 +27,7 @@ class WordResultViewModel @Inject constructor(
         super.fetchExtras(extra)
         with(WordResultFragmentArgs.fromBundle(extra)) {
             setup(title.orEmpty())
+            isQuizFrom = isQuiz
         }
     }
 
@@ -53,17 +57,21 @@ class WordResultViewModel @Inject constructor(
     }
 
     fun next() {
-        val progress = state.value.progress
-        if (progress < 0.25f) {
-            navigate(WordResultFragmentDirections.actionResultWordFragmentToFlashCardFragment())
-        } else if (progress < 0.50f) {
-            navigate(WordResultFragmentDirections.actionResultWordFragmentToSentenceQuizFragment())
-        } else if (progress < 0.75f) {
-            navigate(WordResultFragmentDirections.actionResultWordFragmentToFindMeaningQuizFragment())
-        } else if (progress < 1f){
-            navigate(WordResultFragmentDirections.actionResultWordFragmentToPuzzleQuizFragment())
+        if (isQuizFrom) {
+            navigate(NavDeeplinkDestination.WordsDashboard)
         } else {
-            nextCourse()
+            val progress = state.value.progress
+            if (progress < 0.25f) {
+                navigate(WordResultFragmentDirections.actionResultWordFragmentToFlashCardFragment())
+            } else if (progress < 0.50f) {
+                navigate(WordResultFragmentDirections.actionResultWordFragmentToSentenceQuizFragment())
+            } else if (progress < 0.75f) {
+                navigate(WordResultFragmentDirections.actionResultWordFragmentToFindMeaningQuizFragment())
+            } else if (progress < 1f) {
+                navigate(WordResultFragmentDirections.actionResultWordFragmentToPuzzleQuizFragment())
+            } else {
+                nextCourse()
+            }
         }
     }
 
@@ -85,7 +93,7 @@ class WordResultViewModel @Inject constructor(
                 progress = 0f
             )
             delay(150)
-            navigate(WordResultFragmentDirections.actionResultWordFragmentToFlashCardFragment())
+            navigate(NavDeeplinkDestination.WordsDashboard)
         }
     }
 }

@@ -38,8 +38,8 @@ class StatusViewModel @Inject constructor(
                             copy(
                                 isWordCardCompleted = false,
                                 isBlankFillQuizCompleted = false,
-                                isWordQuizCompleted = false,
-                                isSentenceQuizCompleted = false
+                                isTranslateQuizCompleted = false,
+                                isWriteQuizCompleted = false
                             )
                         }
                     } else  if (course.progress < 0.50f) {
@@ -47,26 +47,26 @@ class StatusViewModel @Inject constructor(
                             copy(
                                 isWordCardCompleted = true,
                                 isBlankFillQuizCompleted = false,
-                                isWordQuizCompleted = false,
-                                isSentenceQuizCompleted = false
+                                isTranslateQuizCompleted = false,
+                                isWriteQuizCompleted = false
                             )
                         }
-                    } else  if (course.progress < 0.75f) {
+                    } else  if (course.progress < 0.70f) {
                         setState {
                             copy(
                                 isWordCardCompleted = true,
                                 isBlankFillQuizCompleted = true,
-                                isWordQuizCompleted = false,
-                                isSentenceQuizCompleted = false
+                                isTranslateQuizCompleted = false,
+                                isWriteQuizCompleted = false
                             )
                         }
-                    } else  if (course.progress > 0.75f && course.progress < 1f) {
+                    } else  if (course.progress > 0.70f && course.progress < 1f) {
                         setState {
                             copy(
                                 isWordCardCompleted = true,
                                 isBlankFillQuizCompleted = true,
-                                isWordQuizCompleted = true,
-                                isSentenceQuizCompleted = false
+                                isTranslateQuizCompleted = true,
+                                isWriteQuizCompleted = false
                             )
                         }
                     } else {
@@ -74,8 +74,8 @@ class StatusViewModel @Inject constructor(
                             copy(
                                 isWordCardCompleted = true,
                                 isBlankFillQuizCompleted = true,
-                                isWordQuizCompleted = true,
-                                isSentenceQuizCompleted = true
+                                isTranslateQuizCompleted = true,
+                                isWriteQuizCompleted = true
                             )
                         }
                     }

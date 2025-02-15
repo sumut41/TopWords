@@ -2,7 +2,6 @@ package com.skyvo.mobile.top.words.feature.words.topword
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
@@ -21,6 +20,7 @@ import com.skyvo.mobile.core.uikit.compose.picker.AppLearnedWordItemComponent
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
+import com.skyvo.mobile.core.uikit.util.ghostClickable
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -45,7 +45,7 @@ class TopWordListFragment : BaseComposeFragment<TopWordListViewModel>() {
             AppScaffold(
                 header = {
                     AppTopHeader(
-                        title = "Words ${state.level.lowercase()}"
+                        title = state.level
                     ) {
                         navigateBack()
                     }
@@ -60,7 +60,10 @@ class TopWordListFragment : BaseComposeFragment<TopWordListViewModel>() {
                                     .padding(
                                         horizontal = AppDimension.default.dp16,
                                         vertical = AppDimension.default.dp8
-                                    ),
+                                    )
+                                    .ghostClickable {
+                                        speaker.speak(item.word.orEmpty())
+                                    },
                                 word = item.word.orEmpty(),
                                 translatedWord = item.translate.orEmpty(),
                                 isFavorite = item.isFavorite,

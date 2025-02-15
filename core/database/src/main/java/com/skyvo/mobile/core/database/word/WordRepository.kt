@@ -21,6 +21,10 @@ open class WordRepository @Inject constructor(
         emit(wordDao.getLevelWordList(level, languageCode))
     }.flowOn(Dispatchers.IO)
 
+    fun getRandomLevelWordList(level: String, languageCode: String): Flow<List<WordEntity>?> = flow {
+        emit(wordDao.getRandomLevelWordList(level, languageCode))
+    }.flowOn(Dispatchers.IO)
+
     fun getFavoriteWordList(languageCode: String): Flow<List<WordEntity>?> = flow {
         emit(wordDao.getFavoriteWordList(languageCode))
     }.flowOn(Dispatchers.IO)

@@ -15,6 +15,9 @@
         <action
             android:id="@+id/action_wordsDashboardFragment_to_topWordListFragment"
             app:destination="@id/topWordListFragment" />
+        <action
+            android:id="@+id/action_wordsDashboardFragment_to_sentenceArrangeFragment"
+            app:destination="@id/sentenceArrangeFragment" />
     </fragment>
 
     <fragment
@@ -80,12 +83,16 @@
         android:id="@+id/resultWordFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.result.WordResultFragment"
         android:label="WordResultFragment">
-        <deepLink app:uri="top-words://result-word?title={title}" />
+        <deepLink app:uri="top-words://result-word?title={title}/isQuiz={isQuiz}" />
 
         <argument
             android:name="title"
             app:argType="string"
             app:nullable="true"/>
+
+        <argument
+            android:name="isQuiz"
+            app:argType="boolean" />
 
         <action
             android:id="@+id/action_resultWordFragment_to_flashCardFragment"
@@ -122,5 +129,9 @@
             app:argType="string"
             app:nullable="true"/>
     </fragment>
+    <fragment
+        android:id="@+id/sentenceArrangeFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.sentence.SentenceArrangeFragment"
+        android:label="SentenceArrangeFragment" />
 
 </navigation>

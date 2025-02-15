@@ -15,6 +15,9 @@ interface WordDao {
     @Query("SELECT * FROM ${RoomDatabaseConstant.WORD_TABLE} WHERE level = :level AND languageCode = :languageCode")
     suspend fun getLevelWordList(level: String, languageCode: String): List<WordEntity>?
 
+    @Query("SELECT * FROM ${RoomDatabaseConstant.WORD_TABLE} WHERE level = :level AND languageCode = :languageCode ORDER BY RANDOM() LIMIT 10")
+    suspend fun getRandomLevelWordList(level: String, languageCode: String): List<WordEntity>?
+
     @Query("SELECT * FROM ${RoomDatabaseConstant.WORD_TABLE} WHERE word = :word AND languageCode = :languageCode")
     suspend fun getSearchWordTranslate(word: String, languageCode: String): List<WordEntity>?
 

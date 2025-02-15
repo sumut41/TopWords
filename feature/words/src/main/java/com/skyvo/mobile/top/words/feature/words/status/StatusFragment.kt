@@ -92,14 +92,14 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                     StepView(
                         text = "Find Meaning",
                         isCurrent = (state.currentCourse?.progress ?: 0f) < 0.75f && state.isBlankFillQuizCompleted,
-                        isCompleted = state.isWordQuizCompleted,
+                        isCompleted = state.isTranslateQuizCompleted,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_meaning
                     )
 
                     StepView(
                         text = "Write Word",
-                        isCurrent = (state.currentCourse?.progress ?: 0f) < 1f && state.isWordQuizCompleted,
-                        isCompleted = state.isSentenceQuizCompleted,
+                        isCurrent = (state.currentCourse?.progress ?: 0f) < 1f && state.isTranslateQuizCompleted,
+                        isCompleted = state.isWriteQuizCompleted,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_denden,
                         dividerVisible = false
                     )
@@ -178,7 +178,7 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                     border = AppDimension.default.dp2,
                     height = AppDimension.default.dp32,
                     color = if (isCompleted) {
-                        LocalAppColor.current.primary
+                        LocalAppColor.current.colorSuccess
                     } else {
                         LocalAppColor.current.colorBorder
                     }

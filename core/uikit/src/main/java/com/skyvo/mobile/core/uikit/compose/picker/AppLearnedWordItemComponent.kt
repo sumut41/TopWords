@@ -47,14 +47,14 @@ fun AppLearnedWordItemComponent(
             .height(56.dp)
             .background(
                 color = backgroundColor,
-                shape = RoundedCornerShape(AppDimension.default.dp16)
+                shape = RoundedCornerShape(AppDimension.default.dp10)
             )
             .border(
                 width = 1.dp,
                 color = LocalAppColor.current.colorBorder,
-                shape = RoundedCornerShape(AppDimension.default.dp16)
+                shape = RoundedCornerShape(AppDimension.default.dp10)
             )
-            .clip(RoundedCornerShape(AppDimension.default.dp16)),
+            .clip(RoundedCornerShape(AppDimension.default.dp10)),
         verticalAlignment = Alignment.CenterVertically
     ) {
         AppSpacer(

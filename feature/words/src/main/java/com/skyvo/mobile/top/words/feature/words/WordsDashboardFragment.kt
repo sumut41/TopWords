@@ -330,6 +330,47 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             }
                         }
                     }
+
+                    item {
+                        AppSpacer(
+                            height = AppDimension.default.dp16
+                        )
+                        Row (
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    all = AppDimension.default.dp16
+                                ),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            AppText(
+                                text = "Alıştırma Yap",
+                                style = AppTypography.default.subTitleBold
+                            )
+                            AppText(
+                                text = "Quiz",
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorTextSubtler
+                            )
+                        }
+
+                        Box (
+                            modifier = Modifier
+                                .padding(horizontal = AppDimension.default.dp16)
+                                .size(50.dp)
+                                .background(
+                                    color = LocalAppColor.current.colorA2Level.copy(alpha = 0.3f)
+                                )
+                                .clickable {
+                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToSentenceArrangeFragment())
+                            }
+                        ) {
+                            AppText(
+                                text = "Quiz",
+                                style = AppTypography.default.subTitleBold
+                            )
+                        }
+                    }
                 }
             }
         }
@@ -350,7 +391,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 )
                 .background(
                     color = if (isSystemInDarkTheme()) {
-                        backgroundColor.copy(alpha = 0.25f)
+                        backgroundColor.copy(alpha = 0.2f)
                     } else {
                         backgroundColor.copy(alpha = 0.5f)
                     },
@@ -358,7 +399,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 )
                 .border(
                     width = 1.dp,
-                    color = backgroundColor,
+                    color = if (isSystemInDarkTheme()) {
+                        backgroundColor.copy(alpha = 0.7f)
+                    } else {
+                        backgroundColor
+                    },
                     shape = RoundedCornerShape(AppDimension.default.dp10)
                 )
                 .clip(RoundedCornerShape(AppDimension.default.dp10))
@@ -377,11 +422,14 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
 
             AppText(
                 modifier = Modifier.padding(
-                    top = AppDimension.default.dp12
+                    top = AppDimension.default.dp12,
+                    start = AppDimension.default.dp4,
+                    end = AppDimension.default.dp4
                 ),
                 text = title,
-                style = AppTypography.default.subTitleBold,
-                color = LocalAppColor.current.colorTextLevelCard
+                style = AppTypography.default.body,
+                color = LocalAppColor.current.colorTextLevelCard,
+                maxLines = 1
             )
 
             AppSpacer(height = AppDimension.default.dp16)
