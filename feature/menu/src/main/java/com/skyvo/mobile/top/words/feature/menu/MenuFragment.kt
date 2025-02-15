@@ -17,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -71,8 +72,8 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                             .padding(
                                 bottom = AppDimension.default.dp64
                             ),
-                        title = "About Us",
-                        subTitle = "You can view information about the application here",
+                        title = stringResource(id = com.skyvo.mobile.core.resource.R.string.about_us_menu_card_title),
+                        subTitle = stringResource(id = com.skyvo.mobile.core.resource.R.string.about_us_menu_card_label),
                         color = LocalAppColor.current.colorTextSubtler,
                         horizontalPaddingValues = AppDimension.default.dp0,
                         menuIcon = R.drawable.ic_info
@@ -94,7 +95,7 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                             verticalAlignment = Alignment.Top
                         ) {
                             AppText(
-                                text = "MENU",
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.menu_fragment_title),
                                 style = AppTypography.default.bodyExtraLargeBold
                             )
 
@@ -129,8 +130,8 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                         AppMenuCard(
                             modifier = Modifier
                                 .padding(vertical = AppDimension.default.dp4),
-                            title = "Learned Words",
-                            subTitle = "All the words you learned",
+                            title = stringResource(id = com.skyvo.mobile.core.resource.R.string.learned_words_title),
+                            subTitle = stringResource(id = com.skyvo.mobile.core.resource.R.string.learned_words_label),
                             color = LocalAppColor.current.colorA2Level,
                             menuIcon = R.drawable.ic_nav_words_filled
                         ) {
@@ -140,8 +141,8 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                         AppMenuCard(
                             modifier = Modifier
                                 .padding(vertical = AppDimension.default.dp4),
-                            title = "Favorite Words",
-                            subTitle = "See your favorite words in groups",
+                            title = stringResource(id = com.skyvo.mobile.core.resource.R.string.favourite_words_title),
+                            subTitle = stringResource(id = com.skyvo.mobile.core.resource.R.string.favourite_words_label),
                             color = LocalAppColor.current.colorC2Level,
                             menuIcon = R.drawable.ic_heart_filled
                         ) {
@@ -159,8 +160,8 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                         AppMenuCard(
                             modifier = Modifier
                                 .padding(vertical = AppDimension.default.dp4),
-                            title = "Rate Us",
-                            subTitle = "How would you love this app ?",
+                            title = stringResource(id = com.skyvo.mobile.core.resource.R.string.rate_us_title),
+                            subTitle = stringResource(id = com.skyvo.mobile.core.resource.R.string.rate_us_label),
                             color = LocalAppColor.current.primary,
                             menuIcon = R.drawable.ic_star
                         ) {
@@ -172,8 +173,8 @@ class MenuFragment : BaseComposeFragment<MenuViewModel>() {
                         AppMenuCard(
                             modifier = Modifier
                                 .padding(vertical = AppDimension.default.dp4),
-                            title = "Share",
-                            subTitle = "You can recommend app to your friends",
+                            title = stringResource(id = com.skyvo.mobile.core.resource.R.string.share_title),
+                            subTitle = stringResource(id = com.skyvo.mobile.core.resource.R.string.share_label),
                             color = LocalAppColor.current.colorC1Level,
                             menuIcon = R.drawable.ic_share
                         ) {

@@ -1,6 +1,5 @@
 package com.skyvo.mobile.top.words.feature.menu.favorite
 
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -11,6 +10,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
@@ -44,7 +44,7 @@ class FavoriteWordFragment: BaseComposeFragment<FavoriteWordViewModel>() {
             AppScaffold (
                 header = {
                     AppTopHeader(
-                        title = "Favorite"
+                        title = stringResource(id = com.skyvo.mobile.core.resource.R.string.favourite_fragment_title)
                     ) {
                         navigateBack()
                     }
@@ -63,8 +63,8 @@ class FavoriteWordFragment: BaseComposeFragment<FavoriteWordViewModel>() {
                                 word = item.word.orEmpty(),
                                 translatedWord = item.translate.orEmpty(),
                                 isFavorite = item.isFavorite,
-                                onSpeakClick = {
-                                    speaker.speak(it)
+                                onSpeakClick = { word ->
+                                    speaker.speak(word)
                                 }
                             )
                         }

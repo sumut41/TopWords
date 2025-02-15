@@ -4,8 +4,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -19,7 +17,6 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
-import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
@@ -29,6 +26,7 @@ import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.resource.SoundEffect
@@ -117,7 +115,7 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                     }
 
                     AppPrimaryLargeButton(
-                        text = "Kontrol Et",
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.check_answer),
                         enabled = state.isCompleted,
                         modifier = Modifier
                             .fillMaxWidth()

@@ -19,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -35,6 +36,7 @@ import com.skyvo.mobile.core.uikit.compose.widget.KeyValue
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
+import com.skyvo.mobile.core.uikit.util.UI_EMPTY
 import com.skyvo.mobile.core.uikit.util.ghostClickable
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -60,7 +62,7 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
     fun BooksSearchView(
         state: BooksSearchUIState
     ) {
-        var searchText by remember { mutableStateOf("") }
+        var searchText by remember { mutableStateOf(String.UI_EMPTY) }
         val focusManager = LocalFocusManager.current
         val screenHeight = LocalConfiguration.current.screenHeightDp.dp
 
@@ -68,7 +70,7 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
             AppScaffold(
                 header = {
                     AppTopHeader(
-                        title = "Book Search"
+                        title = stringResource(id = com.skyvo.mobile.core.resource.R.string.books_search_fragment_title)
                     ) {
                         navigateBack()
                     }
@@ -93,7 +95,7 @@ class BooksSearchFragment : BaseComposeFragment<BooksSearchViewModel>() {
                                 .fillMaxWidth()
                                 .padding(horizontal = AppDimension.default.dp16),
                             value = searchText,
-                            placeholder = "Search",
+                            placeholder = stringResource(id = com.skyvo.mobile.core.resource.R.string.search),
                             onSearch = {
                                 searchText = it
                                 viewModel.searchBooks(it)

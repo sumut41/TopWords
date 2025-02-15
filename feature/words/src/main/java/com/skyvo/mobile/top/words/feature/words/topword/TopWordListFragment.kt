@@ -67,8 +67,8 @@ class TopWordListFragment : BaseComposeFragment<TopWordListViewModel>() {
                                 word = item.word.orEmpty(),
                                 translatedWord = item.translate.orEmpty(),
                                 isFavorite = item.isFavorite,
-                                onSpeakClick = {
-                                    speaker.speak(it)
+                                onSpeakClick = { word ->
+                                    speaker.speak(word)
                                 },
                                 onFavoriteClick = {
                                     viewModel.updateWord(item.id, item.isFavorite)

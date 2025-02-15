@@ -9,6 +9,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -71,7 +72,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
 
                     if (state.nextCount != 1) {
                         AppPrimaryLargeButton(
-                            text = "Check Answer",
+                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.check_answer),
                             enabled = state.selectAnswer.isNullOrEmpty().not()
                         ) {
                             viewModel.nextQuestion()
