@@ -67,7 +67,8 @@ dependencies {
     implementation(Dependencies.viewModelScope)
     implementation(Dependencies.kotlinxCoroutines)
     implementation(Dependencies.kotlinxCoroutinesAndroid)
-    implementation(Dependencies.retrofitGson)
+    implementation(Dependencies.moshi)
+    kapt(Dependencies.moshiCodegen)
 
     // test
     testImplementation(Dependencies.junitTest)

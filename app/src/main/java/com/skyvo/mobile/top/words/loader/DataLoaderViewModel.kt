@@ -5,7 +5,6 @@ import com.skyvo.mobile.core.base.firebase.RemoteConfigManager
 import com.skyvo.mobile.core.base.manager.AppBook
 import com.skyvo.mobile.core.base.manager.AppBookParentModel
 import com.skyvo.mobile.core.base.manager.AppWord
-import com.skyvo.mobile.core.base.manager.AppWordParentModel
 import com.skyvo.mobile.core.base.manager.LevelType
 import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
@@ -49,9 +48,26 @@ class DataLoaderViewModel @Inject constructor(
     init {
         setState {
             copy(
-                language = userManager.learnLanguage?.name
+                language = userManager.learnLanguage?.name,
+                nativeLanguageCode = userManager.nativeLanguage?.code,
+                learnLanguageCode = userManager.learnLanguage?.code
             )
         }
+    }
+
+    fun setBeginnerWord(wordList: List<AppWord>?) {
+        beginnerWordList = wordList
+    }
+
+    fun setIntermediate(wordList: List<AppWord>?) {
+        intermediateWordList = wordList
+    }
+
+    fun setAdvanced(wordList: List<AppWord>?) {
+        advancedWordList = wordList
+    }
+
+    fun getBookData() {
         viewModelScope.launch {
             remoteConfigManager.initRemoteConfig {
                 fetchRemoteConfigData { isComplete ->
@@ -81,18 +97,6 @@ class DataLoaderViewModel @Inject constructor(
             advancedBookList = remoteConfigManager.getString(
                 "books_advanced_${nativeLanguageCode}_$learnLanguageCode"
             ).toModel<AppBookParentModel>()?.books
-
-            beginnerWordList = remoteConfigManager.getString(
-                "words_beginner_${nativeLanguageCode}_$learnLanguageCode"
-            ).toModel<AppWordParentModel>()?.wordList
-
-            intermediateWordList = remoteConfigManager.getString(
-                "words_intermediate_${nativeLanguageCode}_$learnLanguageCode"
-            ).toModel<AppWordParentModel>()?.wordList
-
-            advancedWordList = remoteConfigManager.getString(
-                "words_advanced_${nativeLanguageCode}_$learnLanguageCode"
-            ).toModel<AppWordParentModel>()?.wordList
 
             onComplete.invoke(true)
         } catch (ex: Exception) {

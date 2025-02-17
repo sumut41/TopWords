@@ -30,6 +30,8 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
+import com.skyvo.mobile.core.resource.R
+import com.skyvo.mobile.top.words.file.ReadJsonFile
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -40,6 +42,21 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
             ContentView()
+        }
+        readFileJson()
+    }
+
+    private fun readFileJson() {
+        viewModel.state.value.let { state ->
+            if (state.nativeLanguageCode == "tr" && state.learnLanguageCode == "en") {
+                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_tr_en)
+                val intermediate = ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_tr_en)
+                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_tr_en)
+                viewModel.setBeginnerWord(beginner?.wordList)
+                viewModel.setIntermediate(intermediate?.wordList)
+                viewModel.setAdvanced(advanced?.wordList)
+            }
+            viewModel.getBookData()
         }
     }
 
