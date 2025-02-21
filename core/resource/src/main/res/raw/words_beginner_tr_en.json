@@ -28753,6 +28753,3559 @@
       ]
     },
     {
+      "word": "Should",
+      "translate": "Gerekmek",
+      "quiz": "You .... study for the exam.",
+      "quizTranslate": "Sınav için çalışman gerek.",
+      "translateList": [
+        {
+          "label": "Should",
+          "isCorrect": true
+        },
+        {
+          "label": "Must",
+          "isCorrect": false
+        },
+        {
+          "label": "Have to",
+          "isCorrect": false
+        },
+        {
+          "label": "Ought to",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shoulder",
+      "translate": "Omuz",
+      "quiz": "He injured his .... while playing football.",
+      "quizTranslate": "Futbol oynarken omzunu sakatladı.",
+      "translateList": [
+        {
+          "label": "Shoulder",
+          "isCorrect": true
+        },
+        {
+          "label": "Knee",
+          "isCorrect": false
+        },
+        {
+          "label": "Elbow",
+          "isCorrect": false
+        },
+        {
+          "label": "Back",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shout",
+      "translate": "Bağırmak",
+      "quiz": "She began to .... when she saw the spider.",
+      "quizTranslate": "Örümceği görünce bağırmaya başladı.",
+      "translateList": [
+        {
+          "label": "Shout",
+          "isCorrect": true
+        },
+        {
+          "label": "Cry",
+          "isCorrect": false
+        },
+        {
+          "label": "Scream",
+          "isCorrect": false
+        },
+        {
+          "label": "Yell",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Show",
+      "translate": "Göstermek",
+      "quiz": "Can you .... me how to do it?",
+      "quizTranslate": "Bunu nasıl yapacağımı gösterebilir misin?",
+      "translateList": [
+        {
+          "label": "Show",
+          "isCorrect": true
+        },
+        {
+          "label": "Tell",
+          "isCorrect": false
+        },
+        {
+          "label": "Explain",
+          "isCorrect": false
+        },
+        {
+          "label": "Demonstrate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shower",
+      "translate": "Duş",
+      "quiz": "I need to take a .... after work.",
+      "quizTranslate": "İşten sonra duş almam gerek.",
+      "translateList": [
+        {
+          "label": "Shower",
+          "isCorrect": true
+        },
+        {
+          "label": "Bath",
+          "isCorrect": false
+        },
+        {
+          "label": "Wash",
+          "isCorrect": false
+        },
+        {
+          "label": "Dip",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shut",
+      "translate": "Kapatmak",
+      "quiz": "Please .... the door behind you.",
+      "quizTranslate": "Lütfen arkanıza kapıyı kapatın.",
+      "translateList": [
+        {
+          "label": "Shut",
+          "isCorrect": true
+        },
+        {
+          "label": "Close",
+          "isCorrect": false
+        },
+        {
+          "label": "Lock",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shy",
+      "translate": "Çekingen",
+      "quiz": "She was too .... to speak in front of the class.",
+      "quizTranslate": "Sınıfın önünde konuşmak için çok çekingendi.",
+      "translateList": [
+        {
+          "label": "Shy",
+          "isCorrect": true
+        },
+        {
+          "label": "Confident",
+          "isCorrect": false
+        },
+        {
+          "label": "Brave",
+          "isCorrect": false
+        },
+        {
+          "label": "Bold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sick",
+      "translate": "Hasta",
+      "quiz": "He feels .... today and stayed home.",
+      "quizTranslate": "Bugün hasta hissediyor ve evde kaldı.",
+      "translateList": [
+        {
+          "label": "Sick",
+          "isCorrect": true
+        },
+        {
+          "label": "Healthy",
+          "isCorrect": false
+        },
+        {
+          "label": "Fine",
+          "isCorrect": false
+        },
+        {
+          "label": "Well",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Side",
+      "translate": "Taraf, yan",
+      "quiz": "He sat on the left .... of the room.",
+      "quizTranslate": "Odaya sol tarafında oturdu.",
+      "translateList": [
+        {
+          "label": "Side",
+          "isCorrect": true
+        },
+        {
+          "label": "Edge",
+          "isCorrect": false
+        },
+        {
+          "label": "Corner",
+          "isCorrect": false
+        },
+        {
+          "label": "Part",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sideways",
+      "translate": "Yana doğru",
+      "quiz": "He walked .... across the room.",
+      "quizTranslate": "Odayı yana doğru yürüdü.",
+      "translateList": [
+        {
+          "label": "Sideways",
+          "isCorrect": true
+        },
+        {
+          "label": "Forward",
+          "isCorrect": false
+        },
+        {
+          "label": "Backward",
+          "isCorrect": false
+        },
+        {
+          "label": "Straight",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sight",
+      "translate": "Görme, manzara",
+      "quiz": "The view from the top of the mountain was a breathtaking ....",
+      "quizTranslate": "Dağın zirvesindeki manzara nefes kesiciydi.",
+      "translateList": [
+        {
+          "label": "Sight",
+          "isCorrect": true
+        },
+        {
+          "label": "View",
+          "isCorrect": false
+        },
+        {
+          "label": "Vision",
+          "isCorrect": false
+        },
+        {
+          "label": "Scene",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sign",
+      "translate": "İşaret, tabela",
+      "quiz": "He gave me a .... to stop.",
+      "quizTranslate": "Bana durmam için bir işaret verdi.",
+      "translateList": [
+        {
+          "label": "Sign",
+          "isCorrect": true
+        },
+        {
+          "label": "Signal",
+          "isCorrect": false
+        },
+        {
+          "label": "Gesture",
+          "isCorrect": false
+        },
+        {
+          "label": "Mark",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Signal",
+      "translate": "İşaret, sinyal",
+      "quiz": "The traffic .... is red, so we must stop.",
+      "quizTranslate": "Trafik ışığı kırmızı, bu yüzden durmalıyız.",
+      "translateList": [
+        {
+          "label": "Signal",
+          "isCorrect": true
+        },
+        {
+          "label": "Signal light",
+          "isCorrect": false
+        },
+        {
+          "label": "Sign",
+          "isCorrect": false
+        },
+        {
+          "label": "Alert",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silence",
+      "translate": "Sessizlik",
+      "quiz": "There was complete .... in the room after the announcement.",
+      "quizTranslate": "Açıklamadan sonra odada tam bir sessizlik vardı.",
+      "translateList": [
+        {
+          "label": "Silence",
+          "isCorrect": true
+        },
+        {
+          "label": "Quiet",
+          "isCorrect": false
+        },
+        {
+          "label": "Stillness",
+          "isCorrect": false
+        },
+        {
+          "label": "Mute",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silent",
+      "translate": "Sessiz",
+      "quiz": "The library is a .... place.",
+      "quizTranslate": "Kütüphane sessiz bir yerdir.",
+      "translateList": [
+        {
+          "label": "Silent",
+          "isCorrect": true
+        },
+        {
+          "label": "Quiet",
+          "isCorrect": false
+        },
+        {
+          "label": "Loud",
+          "isCorrect": false
+        },
+        {
+          "label": "Noisy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silk",
+      "translate": "İpek",
+      "quiz": "She wore a beautiful .... dress.",
+      "quizTranslate": "Güzel bir ipek elbise giydi.",
+      "translateList": [
+        {
+          "label": "Silk",
+          "isCorrect": true
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Wool",
+          "isCorrect": false
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silly",
+      "translate": "Saçma, aptalca",
+      "quiz": "Don't say such .... things!",
+      "quizTranslate": "Böyle saçma şeyler söyleme!",
+      "translateList": [
+        {
+          "label": "Silly",
+          "isCorrect": true
+        },
+        {
+          "label": "Funny",
+          "isCorrect": false
+        },
+        {
+          "label": "Serious",
+          "isCorrect": false
+        },
+        {
+          "label": "Stupid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silver",
+      "translate": "Gümüş",
+      "quiz": "He gave her a .... necklace.",
+      "quizTranslate": "Ona bir gümüş kolye verdi.",
+      "translateList": [
+        {
+          "label": "Silver",
+          "isCorrect": true
+        },
+        {
+          "label": "Gold",
+          "isCorrect": false
+        },
+        {
+          "label": "Copper",
+          "isCorrect": false
+        },
+        {
+          "label": "Bronze",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Similar",
+      "translate": "Benzer",
+      "quiz": "These two shirts look .... in color.",
+      "quizTranslate": "Bu iki gömlek renk olarak birbirine benziyor.",
+      "translateList": [
+        {
+          "label": "Similar",
+          "isCorrect": true
+        },
+        {
+          "label": "Different",
+          "isCorrect": false
+        },
+        {
+          "label": "Identical",
+          "isCorrect": false
+        },
+        {
+          "label": "Alike",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Simple",
+      "translate": "Basit",
+      "quiz": "The instructions were .... to follow.",
+      "quizTranslate": "Talimatlar takip edilmesi basitti.",
+      "translateList": [
+        {
+          "label": "Simple",
+          "isCorrect": true
+        },
+        {
+          "label": "Complicated",
+          "isCorrect": false
+        },
+        {
+          "label": "Easy",
+          "isCorrect": false
+        },
+        {
+          "label": "Difficult",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Since",
+      "translate": "Den beri",
+      "quiz": "I haven't seen him .... last week.",
+      "quizTranslate": "Onu geçen haftadan beri görmedim.",
+      "translateList": [
+        {
+          "label": "Since",
+          "isCorrect": true
+        },
+        {
+          "label": "For",
+          "isCorrect": false
+        },
+        {
+          "label": "From",
+          "isCorrect": false
+        },
+        {
+          "label": "After",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sincere",
+      "translate": "İçten, samimi",
+      "quiz": "He gave me a .... apology.",
+      "quizTranslate": "Bana içten bir özür diledi.",
+      "translateList": [
+        {
+          "label": "Sincere",
+          "isCorrect": true
+        },
+        {
+          "label": "Insincere",
+          "isCorrect": false
+        },
+        {
+          "label": "Fake",
+          "isCorrect": false
+        },
+        {
+          "label": "Honest",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sing",
+      "translate": "Şarkı söylemek",
+      "quiz": "I love to .... in the shower.",
+      "quizTranslate": "Duşta şarkı söylemeyi severim.",
+      "translateList": [
+        {
+          "label": "Sing",
+          "isCorrect": true
+        },
+        {
+          "label": "Dance",
+          "isCorrect": false
+        },
+        {
+          "label": "Play",
+          "isCorrect": false
+        },
+        {
+          "label": "Act",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Singer",
+      "translate": "Şarkıcı",
+      "quiz": "She is a famous .... from Italy.",
+      "quizTranslate": "O, İtalya'dan ünlü bir şarkıcı.",
+      "translateList": [
+        {
+          "label": "Singer",
+          "isCorrect": true
+        },
+        {
+          "label": "Musician",
+          "isCorrect": false
+        },
+        {
+          "label": "Artist",
+          "isCorrect": false
+        },
+        {
+          "label": "Composer",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Singing",
+      "translate": "Şarkı söyleme",
+      "quiz": "She was .... in the park when I saw her.",
+      "quizTranslate": "Onu parkta şarkı söylerken gördüm.",
+      "translateList": [
+        {
+          "label": "Singing",
+          "isCorrect": true
+        },
+        {
+          "label": "Dancing",
+          "isCorrect": false
+        },
+        {
+          "label": "Talking",
+          "isCorrect": false
+        },
+        {
+          "label": "Shouting",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Single",
+      "translate": "Bireysel, tek",
+      "quiz": "He is still .... and looking for a partner.",
+      "quizTranslate": "O hala bekar ve bir partner arıyor.",
+      "translateList": [
+        {
+          "label": "Single",
+          "isCorrect": true
+        },
+        {
+          "label": "Married",
+          "isCorrect": false
+        },
+        {
+          "label": "Taken",
+          "isCorrect": false
+        },
+        {
+          "label": "Engaged",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sink",
+      "translate": "Lavabo, batmak",
+      "quiz": "I accidentally dropped my phone in the ....",
+      "quizTranslate": "Telefonumu kazara lavaboya düşürdüm.",
+      "translateList": [
+        {
+          "label": "Sink",
+          "isCorrect": true
+        },
+        {
+          "label": "Bathtub",
+          "isCorrect": false
+        },
+        {
+          "label": "Pool",
+          "isCorrect": false
+        },
+        {
+          "label": "Fountain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sir",
+      "translate": "Beyefendi, efendim",
+      "quiz": "He is a respected .... in the community.",
+      "quizTranslate": "O, toplumda saygı duyulan bir beyefendidir.",
+      "translateList": [
+        {
+          "label": "Sir",
+          "isCorrect": true
+        },
+        {
+          "label": "Mr.",
+          "isCorrect": false
+        },
+        {
+          "label": "Doctor",
+          "isCorrect": false
+        },
+        {
+          "label": "Master",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Site",
+      "translate": "Site, alan",
+      "quiz": "We are looking for a building .... for our new office.",
+      "quizTranslate": "Yeni ofisimiz için bir bina alanı arıyoruz.",
+      "translateList": [
+        {
+          "label": "Site",
+          "isCorrect": true
+        },
+        {
+          "label": "Place",
+          "isCorrect": false
+        },
+        {
+          "label": "Building",
+          "isCorrect": false
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Situation",
+      "translate": "Durum",
+      "quiz": "The economic .... is improving slowly.",
+      "quizTranslate": "Ekonomik durum yavaşça iyileşiyor.",
+      "translateList": [
+        {
+          "label": "Situation",
+          "isCorrect": true
+        },
+        {
+          "label": "State",
+          "isCorrect": false
+        },
+        {
+          "label": "Condition",
+          "isCorrect": false
+        },
+        {
+          "label": "Position",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Size",
+      "translate": "Boyut",
+      "quiz": "What .... do you wear?",
+      "quizTranslate": "Hangi boyutu giyiyorsun?",
+      "translateList": [
+        {
+          "label": "Size",
+          "isCorrect": true
+        },
+        {
+          "label": "Color",
+          "isCorrect": false
+        },
+        {
+          "label": "Shape",
+          "isCorrect": false
+        },
+        {
+          "label": "Fit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Skill",
+      "translate": "Yetenek",
+      "quiz": "He has great technical .... in programming.",
+      "quizTranslate": "Programlamada mükemmel teknik yeteneklere sahip.",
+      "translateList": [
+        {
+          "label": "Skill",
+          "isCorrect": true
+        },
+        {
+          "label": "Ability",
+          "isCorrect": false
+        },
+        {
+          "label": "Talent",
+          "isCorrect": false
+        },
+        {
+          "label": "Experience",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Skilled",
+      "translate": "Yetenekli",
+      "quiz": "She is a very .... artist.",
+      "quizTranslate": "O çok yetenekli bir sanatçı.",
+      "translateList": [
+        {
+          "label": "Skilled",
+          "isCorrect": true
+        },
+        {
+          "label": "Experienced",
+          "isCorrect": false
+        },
+        {
+          "label": "Gifted",
+          "isCorrect": false
+        },
+        {
+          "label": "Qualified",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Skin",
+      "translate": "Cilt, deri",
+      "quiz": "She has soft ....",
+      "quizTranslate": "Onun cildi yumuşak.",
+      "translateList": [
+        {
+          "label": "Skin",
+          "isCorrect": true
+        },
+        {
+          "label": "Hair",
+          "isCorrect": false
+        },
+        {
+          "label": "Flesh",
+          "isCorrect": false
+        },
+        {
+          "label": "Muscle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Skirt",
+      "translate": "Etek",
+      "quiz": "She wore a red .... for the party.",
+      "quizTranslate": "Parti için kırmızı bir etek giydi.",
+      "translateList": [
+        {
+          "label": "Skirt",
+          "isCorrect": true
+        },
+        {
+          "label": "Dress",
+          "isCorrect": false
+        },
+        {
+          "label": "Pants",
+          "isCorrect": false
+        },
+        {
+          "label": "Trousers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sky",
+      "translate": "Gökyüzü",
+      "quiz": "The .... is clear and blue today.",
+      "quizTranslate": "Bugün gökyüzü açık ve mavi.",
+      "translateList": [
+        {
+          "label": "Sky",
+          "isCorrect": true
+        },
+        {
+          "label": "Cloud",
+          "isCorrect": false
+        },
+        {
+          "label": "Weather",
+          "isCorrect": false
+        },
+        {
+          "label": "Air",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sleeve",
+      "translate": "Kol (gömlek)",
+      "quiz": "She rolled up her .... to wash her hands.",
+      "quizTranslate": "Ellerini yıkamak için kolunu sıvadı.",
+      "translateList": [
+        {
+          "label": "Sleeve",
+          "isCorrect": true
+        },
+        {
+          "label": "Arm",
+          "isCorrect": false
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Cuff",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Slice",
+      "translate": "Dilim",
+      "quiz": "She cut the bread into thin ....",
+      "quizTranslate": "Ekmeği ince dilimlere kesti.",
+      "translateList": [
+        {
+          "label": "Slice",
+          "isCorrect": true
+        },
+        {
+          "label": "Piece",
+          "isCorrect": false
+        },
+        {
+          "label": "Chunk",
+          "isCorrect": false
+        },
+        {
+          "label": "Part",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Slide",
+      "translate": "Kaymak, kaydırmak",
+      "quiz": "The children love to .... down the slide at the playground.",
+      "quizTranslate": "Çocuklar oyun alanındaki kaydırağa kaymayı çok seviyor.",
+      "translateList": [
+        {
+          "label": "Slide",
+          "isCorrect": true
+        },
+        {
+          "label": "Climb",
+          "isCorrect": false
+        },
+        {
+          "label": "Jump",
+          "isCorrect": false
+        },
+        {
+          "label": "Run",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Slight",
+      "translate": "Hafif, küçük",
+      "quiz": "There was a .... chance of winning the lottery.",
+      "quizTranslate": "Piyangoyu kazanma şansı çok küçüktü.",
+      "translateList": [
+        {
+          "label": "Slight",
+          "isCorrect": true
+        },
+        {
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "label": "Large",
+          "isCorrect": false
+        },
+        {
+          "label": "Major",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Slip",
+      "translate": "Kaymak, kayma",
+      "quiz": "Be careful, you might .... on the ice.",
+      "quizTranslate": "Dikkat et, buzda kayabilirsin.",
+      "translateList": [
+        {
+          "label": "Slip",
+          "isCorrect": true
+        },
+        {
+          "label": "Fall",
+          "isCorrect": false
+        },
+        {
+          "label": "Trip",
+          "isCorrect": false
+        },
+        {
+          "label": "Stumble",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Slope",
+      "translate": "Yamaç, eğim",
+      "quiz": "The mountain has a steep ....",
+      "quizTranslate": "Dağın dik bir yamaçı var.",
+      "translateList": [
+        {
+          "label": "Slope",
+          "isCorrect": true
+        },
+        {
+          "label": "Hill",
+          "isCorrect": false
+        },
+        {
+          "label": "Mountain",
+          "isCorrect": false
+        },
+        {
+          "label": "Plain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Slow",
+      "translate": "Yavaş",
+      "quiz": "The car is moving too ....",
+      "quizTranslate": "Araba çok yavaş hareket ediyor.",
+      "translateList": [
+        {
+          "label": "Slow",
+          "isCorrect": true
+        },
+        {
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "label": "Quick",
+          "isCorrect": false
+        },
+        {
+          "label": "Speedy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Smart",
+      "translate": "Akıllı, şık",
+      "quiz": "He looks very .... in his new suit.",
+      "quizTranslate": "Yeni takım elbiseyle çok şık görünüyor.",
+      "translateList": [
+        {
+          "label": "Smart",
+          "isCorrect": true
+        },
+        {
+          "label": "Dumb",
+          "isCorrect": false
+        },
+        {
+          "label": "Intelligent",
+          "isCorrect": false
+        },
+        {
+          "label": "Silly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Smell",
+      "translate": "Koklamak, koku",
+      "quiz": "That flower has a nice ....",
+      "quizTranslate": "O çiçeğin güzel bir kokusu var.",
+      "translateList": [
+        {
+          "label": "Smell",
+          "isCorrect": true
+        },
+        {
+          "label": "Scent",
+          "isCorrect": false
+        },
+        {
+          "label": "Odor",
+          "isCorrect": false
+        },
+        {
+          "label": "Aroma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Smile",
+      "translate": "Gülümsemek, gülümseme",
+      "quiz": "She gave me a warm ....",
+      "quizTranslate": "Bana sıcak bir gülümseme verdi.",
+      "translateList": [
+        {
+          "label": "Smile",
+          "isCorrect": true
+        },
+        {
+          "label": "Laugh",
+          "isCorrect": false
+        },
+        {
+          "label": "Grin",
+          "isCorrect": false
+        },
+        {
+          "label": "Beam",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Smoke",
+      "translate": "Duman, sigara içmek",
+      "quiz": "He went outside for a ....",
+      "quizTranslate": "Sigara içmek için dışarı çıktı.",
+      "translateList": [
+        {
+          "label": "Smoke",
+          "isCorrect": true
+        },
+        {
+          "label": "Mist",
+          "isCorrect": false
+        },
+        {
+          "label": "Steam",
+          "isCorrect": false
+        },
+        {
+          "label": "Fog",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Smoking",
+      "translate": "Sigara içme",
+      "quiz": "He was caught .... in the building.",
+      "quizTranslate": "Bina içinde sigara içerken yakalandı.",
+      "translateList": [
+        {
+          "label": "Smoking",
+          "isCorrect": true
+        },
+        {
+          "label": "Drinking",
+          "isCorrect": false
+        },
+        {
+          "label": "Running",
+          "isCorrect": false
+        },
+        {
+          "label": "Walking",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Smooth",
+      "translate": "Düz, pürüzsüz",
+      "quiz": "The surface of the table is ....",
+      "quizTranslate": "Masadaki yüzey pürüzsüz.",
+      "translateList": [
+        {
+          "label": "Smooth",
+          "isCorrect": true
+        },
+        {
+          "label": "Rough",
+          "isCorrect": false
+        },
+        {
+          "label": "Bumpy",
+          "isCorrect": false
+        },
+        {
+          "label": "Hard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Snake",
+      "translate": "Yılan",
+      "quiz": "I saw a big .... in the garden.",
+      "quizTranslate": "Bahçede büyük bir yılan gördüm.",
+      "translateList": [
+        {
+          "label": "Snake",
+          "isCorrect": true
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        },
+        {
+          "label": "Worm",
+          "isCorrect": false
+        },
+        {
+          "label": "Dragon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Snow",
+      "translate": "Kar",
+      "quiz": "It's .... outside.",
+      "quizTranslate": "Dışarıda kar yağıyor.",
+      "translateList": [
+        {
+          "label": "Snow",
+          "isCorrect": true
+        },
+        {
+          "label": "Rain",
+          "isCorrect": false
+        },
+        {
+          "label": "Wind",
+          "isCorrect": false
+        },
+        {
+          "label": "Cloud",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Soap",
+      "translate": "Sabun",
+      "quiz": "Please wash your hands with ....",
+      "quizTranslate": "Lütfen ellerini sabunla yıka.",
+      "translateList": [
+        {
+          "label": "Soap",
+          "isCorrect": true
+        },
+        {
+          "label": "Water",
+          "isCorrect": false
+        },
+        {
+          "label": "Shampoo",
+          "isCorrect": false
+        },
+        {
+          "label": "Gel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Social",
+      "translate": "Sosyal",
+      "quiz": "He is very .... and loves meeting new people.",
+      "quizTranslate": "O çok sosyal ve yeni insanlarla tanışmayı seviyor.",
+      "translateList": [
+        {
+          "label": "Social",
+          "isCorrect": true
+        },
+        {
+          "label": "Shy",
+          "isCorrect": false
+        },
+        {
+          "label": "Friendly",
+          "isCorrect": false
+        },
+        {
+          "label": "Private",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Society",
+      "translate": "Toplum, cemiyet",
+      "quiz": "We live in a very diverse ....",
+      "quizTranslate": "Çok farklı bir toplumda yaşıyoruz.",
+      "translateList": [
+        {
+          "label": "Society",
+          "isCorrect": true
+        },
+        {
+          "label": "Community",
+          "isCorrect": false
+        },
+        {
+          "label": "Family",
+          "isCorrect": false
+        },
+        {
+          "label": "Group",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sock",
+      "translate": "Çorap",
+      "quiz": "I need to buy new ....",
+      "quizTranslate": "Yeni çorap almam gerek.",
+      "translateList": [
+        {
+          "label": "Sock",
+          "isCorrect": true
+        },
+        {
+          "label": "Shoes",
+          "isCorrect": false
+        },
+        {
+          "label": "Gloves",
+          "isCorrect": false
+        },
+        {
+          "label": "Boots",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Soft",
+      "translate": "Yumuşak",
+      "quiz": "This pillow is so ....",
+      "quizTranslate": "Bu yastık çok yumuşak.",
+      "translateList": [
+        {
+          "label": "Soft",
+          "isCorrect": true
+        },
+        {
+          "label": "Hard",
+          "isCorrect": false
+        },
+        {
+          "label": "Rough",
+          "isCorrect": false
+        },
+        {
+          "label": "Solid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Softly",
+      "translate": "Yavaşça, nazikçe",
+      "quiz": "She spoke .... to comfort him.",
+      "quizTranslate": "Onu rahatlatmak için yavaşça konuştu.",
+      "translateList": [
+        {
+          "label": "Softly",
+          "isCorrect": true
+        },
+        {
+          "label": "Loudly",
+          "isCorrect": false
+        },
+        {
+          "label": "Quickly",
+          "isCorrect": false
+        },
+        {
+          "label": "Roughly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Song",
+      "translate": "Şarkı",
+      "quiz": "I love this ....",
+      "quizTranslate": "Bu şarkıyı çok seviyorum.",
+      "translateList": [
+        {
+          "label": "Song",
+          "isCorrect": true
+        },
+        {
+          "label": "Tune",
+          "isCorrect": false
+        },
+        {
+          "label": "Melody",
+          "isCorrect": false
+        },
+        {
+          "label": "Rhythm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Soon",
+      "translate": "Yakında",
+      "quiz": "I will see you ....",
+      "quizTranslate": "Seni yakında göreceğim.",
+      "translateList": [
+        {
+          "label": "Soon",
+          "isCorrect": true
+        },
+        {
+          "label": "Later",
+          "isCorrect": false
+        },
+        {
+          "label": "Now",
+          "isCorrect": false
+        },
+        {
+          "label": "Immediately",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sore",
+      "translate": "Ağrılı",
+      "quiz": "My muscles are .... after the workout.",
+      "quizTranslate": "Egzersizden sonra kaslarım ağrıyor.",
+      "translateList": [
+        {
+          "label": "Sore",
+          "isCorrect": true
+        },
+        {
+          "label": "Painful",
+          "isCorrect": false
+        },
+        {
+          "label": "Tender",
+          "isCorrect": false
+        },
+        {
+          "label": "Hurt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sorry",
+      "translate": "Üzgün, özür dilerim",
+      "quiz": "I am .... for being late.",
+      "quizTranslate": "Geç kaldığım için özür dilerim.",
+      "translateList": [
+        {
+          "label": "Sorry",
+          "isCorrect": true
+        },
+        {
+          "label": "Regret",
+          "isCorrect": false
+        },
+        {
+          "label": "Apologetic",
+          "isCorrect": false
+        },
+        {
+          "label": "Sad",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sort",
+      "translate": "Sıralamak, tür",
+      "quiz": "Can you .... these files by date?",
+      "quizTranslate": "Bu dosyaları tarihe göre sıralayabilir misin?",
+      "translateList": [
+        {
+          "label": "Sort",
+          "isCorrect": true
+        },
+        {
+          "label": "Organize",
+          "isCorrect": false
+        },
+        {
+          "label": "Arrange",
+          "isCorrect": false
+        },
+        {
+          "label": "Categorize",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sound",
+      "translate": "Ses",
+      "quiz": "I can hear the .... of the ocean.",
+      "quizTranslate": "Okyanusun sesini duyabiliyorum.",
+      "translateList": [
+        {
+          "label": "Sound",
+          "isCorrect": true
+        },
+        {
+          "label": "Noise",
+          "isCorrect": false
+        },
+        {
+          "label": "Echo",
+          "isCorrect": false
+        },
+        {
+          "label": "Tone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Soup",
+      "translate": "Çorba",
+      "quiz": "Would you like some ....?",
+      "quizTranslate": "Biraz çorba ister misiniz?",
+      "translateList": [
+        {
+          "label": "Soup",
+          "isCorrect": true
+        },
+        {
+          "label": "Stew",
+          "isCorrect": false
+        },
+        {
+          "label": "Broth",
+          "isCorrect": false
+        },
+        {
+          "label": "Porridge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "South",
+      "translate": "Güney",
+      "quiz": "We are traveling to the .... of France.",
+      "quizTranslate": "Fransa'nın güneyine seyahat ediyoruz.",
+      "translateList": [
+        {
+          "label": "South",
+          "isCorrect": true
+        },
+        {
+          "label": "North",
+          "isCorrect": false
+        },
+        {
+          "label": "East",
+          "isCorrect": false
+        },
+        {
+          "label": "West",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Software",
+      "translate": "Yazılım",
+      "quiz": "I need to install new .... on my computer.",
+      "quizTranslate": "Bilgisayarımda yeni yazılım yüklemem gerekiyor.",
+      "translateList": [
+        {
+          "label": "Software",
+          "isCorrect": true
+        },
+        {
+          "label": "Hardware",
+          "isCorrect": false
+        },
+        {
+          "label": "Application",
+          "isCorrect": false
+        },
+        {
+          "label": "Program",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Soil",
+      "translate": "Toprak",
+      "quiz": "The farmer worked hard to improve the ....",
+      "quizTranslate": "Çiftçi toprağı geliştirmek için çok çalıştı.",
+      "translateList": [
+        {
+          "label": "Soil",
+          "isCorrect": true
+        },
+        {
+          "label": "Sand",
+          "isCorrect": false
+        },
+        {
+          "label": "Water",
+          "isCorrect": false
+        },
+        {
+          "label": "Earth",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Soldier",
+      "translate": "Asker",
+      "quiz": "He is a brave .....",
+      "quizTranslate": "O cesur bir asker.",
+      "translateList": [
+        {
+          "label": "Soldier",
+          "isCorrect": true
+        },
+        {
+          "label": "Warrior",
+          "isCorrect": false
+        },
+        {
+          "label": "Guard",
+          "isCorrect": false
+        },
+        {
+          "label": "Commander",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Solve",
+      "translate": "Çözmek",
+      "quiz": "I will .... the puzzle later.",
+      "quizTranslate": "Bulmacayı daha sonra çözeceğim.",
+      "translateList": [
+        {
+          "label": "Solve",
+          "isCorrect": true
+        },
+        {
+          "label": "Break",
+          "isCorrect": false
+        },
+        {
+          "label": "Answer",
+          "isCorrect": false
+        },
+        {
+          "label": "Complete",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Some",
+      "translate": "Birkaç, bazı",
+      "quiz": "I have .... questions for you.",
+      "quizTranslate": "Sana birkaç sorum var.",
+      "translateList": [
+        {
+          "label": "Some",
+          "isCorrect": true
+        },
+        {
+          "label": "Any",
+          "isCorrect": false
+        },
+        {
+          "label": "Few",
+          "isCorrect": false
+        },
+        {
+          "label": "Many",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Somebody",
+      "translate": "Birisi",
+      "quiz": ".... called you while you were out.",
+      "quizTranslate": "Sen dışarıdayken biri seni aradı.",
+      "translateList": [
+        {
+          "label": "Somebody",
+          "isCorrect": true
+        },
+        {
+          "label": "Someone",
+          "isCorrect": false
+        },
+        {
+          "label": "Anybody",
+          "isCorrect": false
+        },
+        {
+          "label": "No one",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Somehow",
+      "translate": "Bir şekilde",
+      "quiz": "...., we managed to finish the project on time.",
+      "quizTranslate": "Bir şekilde, projeyi zamanında bitirmeyi başardık.",
+      "translateList": [
+        {
+          "label": "Somehow",
+          "isCorrect": true
+        },
+        {
+          "label": "Clearly",
+          "isCorrect": false
+        },
+        {
+          "label": "Easily",
+          "isCorrect": false
+        },
+        {
+          "label": "Luckily",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Someone",
+      "translate": "Birisi",
+      "quiz": ".... left their bag on the table.",
+      "quizTranslate": "Birisi çantasını masada unuttu.",
+      "translateList": [
+        {
+          "label": "Someone",
+          "isCorrect": true
+        },
+        {
+          "label": "Anybody",
+          "isCorrect": false
+        },
+        {
+          "label": "Anyone",
+          "isCorrect": false
+        },
+        {
+          "label": "Nobody",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Something",
+      "translate": "Bir şey",
+      "quiz": "I heard .... outside.",
+      "quizTranslate": "Dışarıda bir şey duydum.",
+      "translateList": [
+        {
+          "label": "Something",
+          "isCorrect": true
+        },
+        {
+          "label": "Anything",
+          "isCorrect": false
+        },
+        {
+          "label": "Nothing",
+          "isCorrect": false
+        },
+        {
+          "label": "Everything",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sometimes",
+      "translate": "Bazen",
+      "quiz": ".... I like to go for a walk in the evening.",
+      "quizTranslate": "Bazen akşamları yürüyüşe çıkmayı severim.",
+      "translateList": [
+        {
+          "label": "Sometimes",
+          "isCorrect": true
+        },
+        {
+          "label": "Always",
+          "isCorrect": false
+        },
+        {
+          "label": "Never",
+          "isCorrect": false
+        },
+        {
+          "label": "Usually",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Somewhat",
+      "translate": "Biraz, az çok",
+      "quiz": "The problem was .... difficult to solve.",
+      "quizTranslate": "Sorun, çözülmesi biraz zordu.",
+      "translateList": [
+        {
+          "label": "Somewhat",
+          "isCorrect": true
+        },
+        {
+          "label": "Very",
+          "isCorrect": false
+        },
+        {
+          "label": "Extremely",
+          "isCorrect": false
+        },
+        {
+          "label": "Slightly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Somewhere",
+      "translate": "Bir yerde",
+      "quiz": "I left my keys .... in the house.",
+      "quizTranslate": "Anahtarlarımı evin bir yerinde unuttum.",
+      "translateList": [
+        {
+          "label": "Somewhere",
+          "isCorrect": true
+        },
+        {
+          "label": "Anywhere",
+          "isCorrect": false
+        },
+        {
+          "label": "Nowhere",
+          "isCorrect": false
+        },
+        {
+          "label": "Everywhere",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Space",
+      "translate": "Uzay, alan",
+      "quiz": "There is a lot of .... in the room.",
+      "quizTranslate": "Odada çok fazla alan var.",
+      "translateList": [
+        {
+          "label": "Space",
+          "isCorrect": true
+        },
+        {
+          "label": "Area",
+          "isCorrect": false
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        },
+        {
+          "label": "Distance",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spare",
+      "translate": "Yedek",
+      "quiz": "Do you have a .... tire?",
+      "quizTranslate": "Bir yedek lastiğiniz var mı?",
+      "translateList": [
+        {
+          "label": "Spare",
+          "isCorrect": true
+        },
+        {
+          "label": "Extra",
+          "isCorrect": false
+        },
+        {
+          "label": "Backup",
+          "isCorrect": false
+        },
+        {
+          "label": "Second",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Speak",
+      "translate": "Konuşmak",
+      "quiz": "She can .... three languages.",
+      "quizTranslate": "O, üç dil konuşabiliyor.",
+      "translateList": [
+        {
+          "label": "Speak",
+          "isCorrect": true
+        },
+        {
+          "label": "Talk",
+          "isCorrect": false
+        },
+        {
+          "label": "Chat",
+          "isCorrect": false
+        },
+        {
+          "label": "Say",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Speaker",
+      "translate": "Konuşmacı, hoparlör",
+      "quiz": "The .... gave an interesting speech.",
+      "quizTranslate": "Konuşmacı ilginç bir konuşma yaptı.",
+      "translateList": [
+        {
+          "label": "Speaker",
+          "isCorrect": true
+        },
+        {
+          "label": "Presenter",
+          "isCorrect": false
+        },
+        {
+          "label": "Host",
+          "isCorrect": false
+        },
+        {
+          "label": "Audience",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Special",
+      "translate": "Özel",
+      "quiz": "This is a .... edition of the book.",
+      "quizTranslate": "Bu kitabın özel bir baskısıdır.",
+      "translateList": [
+        {
+          "label": "Special",
+          "isCorrect": true
+        },
+        {
+          "label": "Unique",
+          "isCorrect": false
+        },
+        {
+          "label": "Different",
+          "isCorrect": false
+        },
+        {
+          "label": "Rare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Speed",
+      "translate": "Hız",
+      "quiz": "The car was going at a very high ....",
+      "quizTranslate": "Araba çok yüksek bir hızda gidiyordu.",
+      "translateList": [
+        {
+          "label": "Speed",
+          "isCorrect": true
+        },
+        {
+          "label": "Velocity",
+          "isCorrect": false
+        },
+        {
+          "label": "Pace",
+          "isCorrect": false
+        },
+        {
+          "label": "Rate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spell",
+      "translate": "Hecelemek",
+      "quiz": "Can you .... this word for me?",
+      "quizTranslate": "Bu kelimeyi benim için heceleyebilir misin?",
+      "translateList": [
+        {
+          "label": "Spell",
+          "isCorrect": true
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        },
+        {
+          "label": "Read",
+          "isCorrect": false
+        },
+        {
+          "label": "Pronounce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spelling",
+      "translate": "Heceleme",
+      "quiz": "The .... of this word is difficult.",
+      "quizTranslate": "Bu kelimenin hecelenmesi zor.",
+      "translateList": [
+        {
+          "label": "Spelling",
+          "isCorrect": true
+        },
+        {
+          "label": "Pronunciation",
+          "isCorrect": false
+        },
+        {
+          "label": "Writing",
+          "isCorrect": false
+        },
+        {
+          "label": "Reading",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spend",
+      "translate": "Harcamak",
+      "quiz": "I .... my money on books.",
+      "quizTranslate": "Paramı kitaplara harcıyorum.",
+      "translateList": [
+        {
+          "label": "Spend",
+          "isCorrect": true
+        },
+        {
+          "label": "Use",
+          "isCorrect": false
+        },
+        {
+          "label": "Buy",
+          "isCorrect": false
+        },
+        {
+          "label": "Save",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spider",
+      "translate": "Örümcek",
+      "quiz": "I saw a .... on the wall.",
+      "quizTranslate": "Duvarın üzerinde bir örümcek gördüm.",
+      "translateList": [
+        {
+          "label": "Spider",
+          "isCorrect": true
+        },
+        {
+          "label": "Insect",
+          "isCorrect": false
+        },
+        {
+          "label": "Ant",
+          "isCorrect": false
+        },
+        {
+          "label": "Bug",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spin",
+      "translate": "Dönmek",
+      "quiz": "The wheel will .... when you press the button.",
+      "quizTranslate": "Düğmeye bastığında tekerlek dönecek.",
+      "translateList": [
+        {
+          "label": "Spin",
+          "isCorrect": true
+        },
+        {
+          "label": "Turn",
+          "isCorrect": false
+        },
+        {
+          "label": "Rotate",
+          "isCorrect": false
+        },
+        {
+          "label": "Move",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Split",
+      "translate": "Bölmek",
+      "quiz": "We will .... the bill at the restaurant.",
+      "quizTranslate": "Restoranda faturayı böleceğiz.",
+      "translateList": [
+        {
+          "label": "Split",
+          "isCorrect": true
+        },
+        {
+          "label": "Share",
+          "isCorrect": false
+        },
+        {
+          "label": "Divide",
+          "isCorrect": false
+        },
+        {
+          "label": "Cut",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spoil",
+      "translate": "Bozmak, mahvetmek",
+      "quiz": "Don’t .... the surprise party for her!",
+      "quizTranslate": "Onun sürpriz partisinin mahvetme!",
+      "translateList": [
+        {
+          "label": "Spoil",
+          "isCorrect": true
+        },
+        {
+          "label": "Destroy",
+          "isCorrect": false
+        },
+        {
+          "label": "Waste",
+          "isCorrect": false
+        },
+        {
+          "label": "Harm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spoken",
+      "translate": "Konuşulan",
+      "quiz": "English is the most commonly .... language in the world.",
+      "quizTranslate": "İngilizce, dünyada en yaygın konuşulan dildir.",
+      "translateList": [
+        {
+          "label": "Spoken",
+          "isCorrect": true
+        },
+        {
+          "label": "Written",
+          "isCorrect": false
+        },
+        {
+          "label": "Said",
+          "isCorrect": false
+        },
+        {
+          "label": "Heard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spoon",
+      "translate": "Kaşık",
+      "quiz": "I need a .... to eat my soup.",
+      "quizTranslate": "Çorba içmek için bir kaşığa ihtiyacım var.",
+      "translateList": [
+        {
+          "label": "Spoon",
+          "isCorrect": true
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Chopstick",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "Sport",
+      "translate": "Spor",
+      "quiz": "I love playing ....",
+      "quizTranslate": "Spor yapmayı seviyorum.",
+      "translateList": [
+        {
+          "label": "Sport",
+          "isCorrect": true
+        },
+        {
+          "label": "Game",
+          "isCorrect": false
+        },
+        {
+          "label": "Exercise",
+          "isCorrect": false
+        },
+        {
+          "label": "Activity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spot",
+      "translate": "Nokta, yer",
+      "quiz": "I see a .... on your shirt.",
+      "quizTranslate": "Gömleğinde bir leke görüyorum.",
+      "translateList": [
+        {
+          "label": "Spot",
+          "isCorrect": true
+        },
+        {
+          "label": "Mark",
+          "isCorrect": false
+        },
+        {
+          "label": "Place",
+          "isCorrect": false
+        },
+        {
+          "label": "Dot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spray",
+      "translate": "Sprey",
+      "quiz": "Can you .... the plants with water?",
+      "quizTranslate": "Bitkileri su ile spreyler misin?",
+      "translateList": [
+        {
+          "label": "Spray",
+          "isCorrect": true
+        },
+        {
+          "label": "Mist",
+          "isCorrect": false
+        },
+        {
+          "label": "Pour",
+          "isCorrect": false
+        },
+        {
+          "label": "Squirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spread",
+      "translate": "Yaymak",
+      "quiz": "Please .... the butter on the bread.",
+      "quizTranslate": "Lütfen tereyağını ekmeğe sür.",
+      "translateList": [
+        {
+          "label": "Spread",
+          "isCorrect": true
+        },
+        {
+          "label": "Place",
+          "isCorrect": false
+        },
+        {
+          "label": "Apply",
+          "isCorrect": false
+        },
+        {
+          "label": "Smear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spring",
+      "translate": "Yaz, bahar",
+      "quiz": "I love the flowers in ....",
+      "quizTranslate": "Baharın çiçeklerini seviyorum.",
+      "translateList": [
+        {
+          "label": "Spring",
+          "isCorrect": true
+        },
+        {
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "label": "Autumn",
+          "isCorrect": false
+        },
+        {
+          "label": "Winter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Square",
+      "translate": "Kare",
+      "quiz": "The table is .... shaped.",
+      "quizTranslate": "Masa kare şeklinde.",
+      "translateList": [
+        {
+          "label": "Square",
+          "isCorrect": true
+        },
+        {
+          "label": "Rectangular",
+          "isCorrect": false
+        },
+        {
+          "label": "Circular",
+          "isCorrect": false
+        },
+        {
+          "label": "Oval",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Squeeze",
+      "translate": "Sıkmak, sıkıştırmak",
+      "quiz": "Can you .... the toothpaste out?",
+      "quizTranslate": "Diş macununu sıkabilir misin?",
+      "translateList": [
+        {
+          "label": "Squeeze",
+          "isCorrect": true
+        },
+        {
+          "label": "Press",
+          "isCorrect": false
+        },
+        {
+          "label": "Crush",
+          "isCorrect": false
+        },
+        {
+          "label": "Push",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Staff",
+      "translate": "Personel",
+      "quiz": "The .... at the hotel was very friendly.",
+      "quizTranslate": "Otelin personeli çok dostçaydı.",
+      "translateList": [
+        {
+          "label": "Staff",
+          "isCorrect": true
+        },
+        {
+          "label": "Employees",
+          "isCorrect": false
+        },
+        {
+          "label": "Workers",
+          "isCorrect": false
+        },
+        {
+          "label": "Team",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stand",
+      "translate": "Durmak, ayakta durmak",
+      "quiz": "Please .... up when the teacher enters.",
+      "quizTranslate": "Lütfen öğretmen girdiğinde ayakta durun.",
+      "translateList": [
+        {
+          "label": "Stand",
+          "isCorrect": true
+        },
+        {
+          "label": "Sit",
+          "isCorrect": false
+        },
+        {
+          "label": "Stay",
+          "isCorrect": false
+        },
+        {
+          "label": "Walk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Star",
+      "translate": "Yıldız",
+      "quiz": "She is a famous movie ....",
+      "quizTranslate": "O, ünlü bir film yıldızıdır.",
+      "translateList": [
+        {
+          "label": "Star",
+          "isCorrect": true
+        },
+        {
+          "label": "Actor",
+          "isCorrect": false
+        },
+        {
+          "label": "Director",
+          "isCorrect": false
+        },
+        {
+          "label": "Celebrity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Start",
+      "translate": "Başlamak",
+      "quiz": "We will .... the meeting at 10 AM.",
+      "quizTranslate": "Toplantıya sabah 10'da başlayacağız.",
+      "translateList": [
+        {
+          "label": "Start",
+          "isCorrect": true
+        },
+        {
+          "label": "Begin",
+          "isCorrect": false
+        },
+        {
+          "label": "Commence",
+          "isCorrect": false
+        },
+        {
+          "label": "Open",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "State",
+      "translate": "Durum, hal",
+      "quiz": "The .... of the project is good.",
+      "quizTranslate": "Projenin durumu iyi.",
+      "translateList": [
+        {
+          "label": "State",
+          "isCorrect": true
+        },
+        {
+          "label": "Condition",
+          "isCorrect": false
+        },
+        {
+          "label": "Status",
+          "isCorrect": false
+        },
+        {
+          "label": "Situation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stay",
+      "translate": "Kalmak",
+      "quiz": "I will .... at home today.",
+      "quizTranslate": "Bugün evde kalacağım.",
+      "translateList": [
+        {
+          "label": "Stay",
+          "isCorrect": true
+        },
+        {
+          "label": "Go",
+          "isCorrect": false
+        },
+        {
+          "label": "Leave",
+          "isCorrect": false
+        },
+        {
+          "label": "Visit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Steal",
+      "translate": "Çalmak",
+      "quiz": "Someone tried to .... my wallet.",
+      "quizTranslate": "Birisi cüzdanımı çalmaya çalıştı.",
+      "translateList": [
+        {
+          "label": "Steal",
+          "isCorrect": true
+        },
+        {
+          "label": "Take",
+          "isCorrect": false
+        },
+        {
+          "label": "Grab",
+          "isCorrect": false
+        },
+        {
+          "label": "Lift",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Step",
+      "translate": "Adım",
+      "quiz": "Take a .... forward.",
+      "quizTranslate": "Bir adım öne at.",
+      "translateList": [
+        {
+          "label": "Step",
+          "isCorrect": true
+        },
+        {
+          "label": "Foot",
+          "isCorrect": false
+        },
+        {
+          "label": "Stride",
+          "isCorrect": false
+        },
+        {
+          "label": "Move",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stick",
+      "translate": "Yapıştırmak",
+      "quiz": "The paper won’t .... to the wall.",
+      "quizTranslate": "Kağıt duvara yapışmaz.",
+      "translateList": [
+        {
+          "label": "Stick",
+          "isCorrect": true
+        },
+        {
+          "label": "Attach",
+          "isCorrect": false
+        },
+        {
+          "label": "Glue",
+          "isCorrect": false
+        },
+        {
+          "label": "Fix",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Still",
+      "translate": "Hala, durgun",
+      "quiz": "He is .... waiting for his friend.",
+      "quizTranslate": "O, hala arkadaşı için bekliyor.",
+      "translateList": [
+        {
+          "label": "Still",
+          "isCorrect": true
+        },
+        {
+          "label": "Not moving",
+          "isCorrect": false
+        },
+        {
+          "label": "Silent",
+          "isCorrect": false
+        },
+        {
+          "label": "Quiet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stomach",
+      "translate": "Mide",
+      "quiz": "I have a pain in my ....",
+      "quizTranslate": "Midemde ağrı var.",
+      "translateList": [
+        {
+          "label": "Stomach",
+          "isCorrect": true
+        },
+        {
+          "label": "Belly",
+          "isCorrect": false
+        },
+        {
+          "label": "Chest",
+          "isCorrect": false
+        },
+        {
+          "label": "Abdomen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stop",
+      "translate": "Durmak",
+      "quiz": "Please .... when the light turns red.",
+      "quizTranslate": "Işıklarda kırmızı yanarsa lütfen dur.",
+      "translateList": [
+        {
+          "label": "Stop",
+          "isCorrect": true
+        },
+        {
+          "label": "Pause",
+          "isCorrect": false
+        },
+        {
+          "label": "Halt",
+          "isCorrect": false
+        },
+        {
+          "label": "End",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stock",
+      "translate": "Stok, envanter",
+      "quiz": "The store has a large .... of goods.",
+      "quizTranslate": "Mağaza büyük bir malzeme stoğuna sahip.",
+      "translateList": [
+        {
+          "label": "Stock",
+          "isCorrect": true
+        },
+        {
+          "label": "Inventory",
+          "isCorrect": false
+        },
+        {
+          "label": "Supply",
+          "isCorrect": false
+        },
+        {
+          "label": "Store",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stone",
+      "translate": "Taş",
+      "quiz": "The road was paved with ....",
+      "quizTranslate": "Yol taşlarla döşenmişti.",
+      "translateList": [
+        {
+          "label": "Stone",
+          "isCorrect": true
+        },
+        {
+          "label": "Rock",
+          "isCorrect": false
+        },
+        {
+          "label": "Pebble",
+          "isCorrect": false
+        },
+        {
+          "label": "Gravel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Store",
+      "translate": "Mağaza",
+      "quiz": "I bought this from the ....",
+      "quizTranslate": "Bunu mağazadan aldım.",
+      "translateList": [
+        {
+          "label": "Store",
+          "isCorrect": true
+        },
+        {
+          "label": "Shop",
+          "isCorrect": false
+        },
+        {
+          "label": "Market",
+          "isCorrect": false
+        },
+        {
+          "label": "Mall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Story",
+      "translate": "Hikaye",
+      "quiz": "She told me an interesting ....",
+      "quizTranslate": "Bana ilginç bir hikaye anlattı.",
+      "translateList": [
+        {
+          "label": "Story",
+          "isCorrect": true
+        },
+        {
+          "label": "Tale",
+          "isCorrect": false
+        },
+        {
+          "label": "Narrative",
+          "isCorrect": false
+        },
+        {
+          "label": "Account",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stove",
+      "translate": "Ocak",
+      "quiz": "I cooked dinner on the ....",
+      "quizTranslate": "Akşam yemeğini ocakta pişirdim.",
+      "translateList": [
+        {
+          "label": "Stove",
+          "isCorrect": true
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        },
+        {
+          "label": "Cooker",
+          "isCorrect": false
+        },
+        {
+          "label": "Grill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Street",
+      "translate": "Cadde",
+      "quiz": "I live on Main ....",
+      "quizTranslate": "Main Caddesi'nde yaşıyorum.",
+      "translateList": [
+        {
+          "label": "Street",
+          "isCorrect": true
+        },
+        {
+          "label": "Road",
+          "isCorrect": false
+        },
+        {
+          "label": "Avenue",
+          "isCorrect": false
+        },
+        {
+          "label": "Lane",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stretch",
+      "translate": "Gerilmek, uzanmak",
+      "quiz": "You should .... before exercising.",
+      "quizTranslate": "Egzersiz yapmadan önce ısınmalısın.",
+      "translateList": [
+        {
+          "label": "Stretch",
+          "isCorrect": true
+        },
+        {
+          "label": "Stretch out",
+          "isCorrect": false
+        },
+        {
+          "label": "Extend",
+          "isCorrect": false
+        },
+        {
+          "label": "Reach",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "String",
+      "translate": "İp, tel",
+      "quiz": "She tied the box with a ....",
+      "quizTranslate": "Kutuyu bir ip ile bağladı.",
+      "translateList": [
+        {
+          "label": "String",
+          "isCorrect": true
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "Cord",
+          "isCorrect": false
+        },
+        {
+          "label": "Rope",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stress",
+      "translate": "Stres",
+      "quiz": "He is under a lot of .... at work.",
+      "quizTranslate": "İş yerinde çok fazla stres altında.",
+      "translateList": [
+        {
+          "label": "Stress",
+          "isCorrect": true
+        },
+        {
+          "label": "Pressure",
+          "isCorrect": false
+        },
+        {
+          "label": "Tension",
+          "isCorrect": false
+        },
+        {
+          "label": "Anxiety",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Student",
+      "translate": "Öğrenci",
+      "quiz": "She is a .... at the university.",
+      "quizTranslate": "O, üniversitede bir öğrencidir.",
+      "translateList": [
+        {
+          "label": "Student",
+          "isCorrect": true
+        },
+        {
+          "label": "Teacher",
+          "isCorrect": false
+        },
+        {
+          "label": "Professor",
+          "isCorrect": false
+        },
+        {
+          "label": "Researcher",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Study",
+      "translate": "Çalışmak",
+      "quiz": "I need to .... for my exam tomorrow.",
+      "quizTranslate": "Yarınki sınavım için çalışmam gerekiyor.",
+      "translateList": [
+        {
+          "label": "Study",
+          "isCorrect": true
+        },
+        {
+          "label": "Sleep",
+          "isCorrect": false
+        },
+        {
+          "label": "Read",
+          "isCorrect": false
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stuff",
+      "translate": "Şeyler",
+      "quiz": "I need to pack my .... before the trip.",
+      "quizTranslate": "Seyahatten önce eşyalarımı toplamam gerekiyor.",
+      "translateList": [
+        {
+          "label": "Stuff",
+          "isCorrect": true
+        },
+        {
+          "label": "Clothes",
+          "isCorrect": false
+        },
+        {
+          "label": "Luggage",
+          "isCorrect": false
+        },
+        {
+          "label": "Bag",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stupid",
+      "translate": "Aptal",
+      "quiz": "That was a .... mistake.",
+      "quizTranslate": "Bu aptalca bir hataydı.",
+      "translateList": [
+        {
+          "label": "Stupid",
+          "isCorrect": true
+        },
+        {
+          "label": "Smart",
+          "isCorrect": false
+        },
+        {
+          "label": "Clever",
+          "isCorrect": false
+        },
+        {
+          "label": "Funny",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Style",
+      "translate": "Tarz",
+      "quiz": "She has a unique fashion ....",
+      "quizTranslate": "Onun benzersiz bir moda tarzı var.",
+      "translateList": [
+        {
+          "label": "Style",
+          "isCorrect": true
+        },
+        {
+          "label": "Trend",
+          "isCorrect": false
+        },
+        {
+          "label": "Habit",
+          "isCorrect": false
+        },
+        {
+          "label": "Design",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Subject",
+      "translate": "Konu / Ders",
+      "quiz": "Math is my favorite .... in school.",
+      "quizTranslate": "Matematik, okulda en sevdiğim ders.",
+      "translateList": [
+        {
+          "label": "Subject",
+          "isCorrect": true
+        },
+        {
+          "label": "Topic",
+          "isCorrect": false
+        },
+        {
+          "label": "Lesson",
+          "isCorrect": false
+        },
+        {
+          "label": "Chapter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Such",
+      "translate": "Böyle",
+      "quiz": "I have never seen .... a beautiful place before.",
+      "quizTranslate": "Daha önce böyle güzel bir yer görmemiştim.",
+      "translateList": [
+        {
+          "label": "Such",
+          "isCorrect": true
+        },
+        {
+          "label": "So",
+          "isCorrect": false
+        },
+        {
+          "label": "Much",
+          "isCorrect": false
+        },
+        {
+          "label": "Very",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sugar",
+      "translate": "Şeker",
+      "quiz": "I like to put .... in my coffee.",
+      "quizTranslate": "Kahveme şeker koymayı severim.",
+      "translateList": [
+        {
+          "label": "Sugar",
+          "isCorrect": true
+        },
+        {
+          "label": "Salt",
+          "isCorrect": false
+        },
+        {
+          "label": "Honey",
+          "isCorrect": false
+        },
+        {
+          "label": "Milk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Suit",
+      "translate": "Takım elbise",
+      "quiz": "He wore a black .... to the wedding.",
+      "quizTranslate": "Düğünde siyah bir takım elbise giydi.",
+      "translateList": [
+        {
+          "label": "Suit",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sum",
+      "translate": "Toplam",
+      "quiz": "The .... of 5 and 7 is 12.",
+      "quizTranslate": "5 ve 7'nin toplamı 12'dir.",
+      "translateList": [
+        {
+          "label": "Sum",
+          "isCorrect": true
+        },
+        {
+          "label": "Number",
+          "isCorrect": false
+        },
+        {
+          "label": "Addition",
+          "isCorrect": false
+        },
+        {
+          "label": "Result",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Summer",
+      "translate": "Yaz",
+      "quiz": "I love going to the beach in the ....",
+      "quizTranslate": "Yazın plaja gitmeyi severim.",
+      "translateList": [
+        {
+          "label": "Summer",
+          "isCorrect": true
+        },
+        {
+          "label": "Winter",
+          "isCorrect": false
+        },
+        {
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "label": "Autumn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sunday",
+      "translate": "Pazar",
+      "quiz": "We usually visit our grandparents on ....",
+      "quizTranslate": "Genellikle pazar günleri büyüklerimizi ziyaret ederiz.",
+      "translateList": [
+        {
+          "label": "Sunday",
+          "isCorrect": true
+        },
+        {
+          "label": "Monday",
+          "isCorrect": false
+        },
+        {
+          "label": "Friday",
+          "isCorrect": false
+        },
+        {
+          "label": "Saturday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Supermarket",
+      "translate": "Süpermarket",
+      "quiz": "I need to buy some vegetables from the ....",
+      "quizTranslate": "Süpermarketten biraz sebze almam gerekiyor.",
+      "translateList": [
+        {
+          "label": "Supermarket",
+          "isCorrect": true
+        },
+        {
+          "label": "Mall",
+          "isCorrect": false
+        },
+        {
+          "label": "Bakery",
+          "isCorrect": false
+        },
+        {
+          "label": "Restaurant",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Support",
+      "translate": "Destek",
+      "quiz": "My family always gives me .... in difficult times.",
+      "quizTranslate": "Ailem zor zamanlarda bana her zaman destek olur.",
+      "translateList": [
+        {
+          "label": "Support",
+          "isCorrect": true
+        },
+        {
+          "label": "Advice",
+          "isCorrect": false
+        },
+        {
+          "label": "Love",
+          "isCorrect": false
+        },
+        {
+          "label": "Permission",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sure",
+      "translate": "Emin",
+      "quiz": "Are you .... about the meeting time?",
+      "quizTranslate": "Toplantı saatinden emin misin?",
+      "translateList": [
+        {
+          "label": "Sure",
+          "isCorrect": true
+        },
+        {
+          "label": "Happy",
+          "isCorrect": false
+        },
+        {
+          "label": "Angry",
+          "isCorrect": false
+        },
+        {
+          "label": "Confused",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Surface",
+      "translate": "Yüzey",
+      "quiz": "The table has a smooth ....",
+      "quizTranslate": "Masada pürüzsüz bir yüzey var.",
+      "translateList": [
+        {
+          "label": "Surface",
+          "isCorrect": true
+        },
+        {
+          "label": "Top",
+          "isCorrect": false
+        },
+        {
+          "label": "Side",
+          "isCorrect": false
+        },
+        {
+          "label": "Edge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Surprise",
+      "translate": "Sürpriz",
+      "quiz": "It was a big .... when they threw me a party.",
+      "quizTranslate": "Bana parti verdiklerinde büyük bir sürpriz oldu.",
+      "translateList": [
+        {
+          "label": "Surprise",
+          "isCorrect": true
+        },
+        {
+          "label": "Shock",
+          "isCorrect": false
+        },
+        {
+          "label": "Excitement",
+          "isCorrect": false
+        },
+        {
+          "label": "Happiness",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Surround",
+      "translate": "Çevrelemek",
+      "quiz": "The house is .... by trees.",
+      "quizTranslate": "Ev ağaçlarla çevrili.",
+      "translateList": [
+        {
+          "label": "Surrounded",
+          "isCorrect": true
+        },
+        {
+          "label": "Filled",
+          "isCorrect": false
+        },
+        {
+          "label": "Covered",
+          "isCorrect": false
+        },
+        {
+          "label": "Decorated",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Survey",
+      "translate": "Anket",
+      "quiz": "The company conducted a .... to understand customer needs.",
+      "quizTranslate": "Şirket, müşteri ihtiyaçlarını anlamak için bir anket yaptı.",
+      "translateList": [
+        {
+          "label": "Survey",
+          "isCorrect": true
+        },
+        {
+          "label": "Report",
+          "isCorrect": false
+        },
+        {
+          "label": "Interview",
+          "isCorrect": false
+        },
+        {
+          "label": "Discussion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Survive",
+      "translate": "Hayatta kalmak",
+      "quiz": "He managed to .... the accident.",
+      "quizTranslate": "Kazadan hayatta kalmayı başardı.",
+      "translateList": [
+        {
+          "label": "Survive",
+          "isCorrect": true
+        },
+        {
+          "label": "Escape",
+          "isCorrect": false
+        },
+        {
+          "label": "Win",
+          "isCorrect": false
+        },
+        {
+          "label": "Lose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Suspect",
+      "translate": "Şüphelenmek",
+      "quiz": "I .... he is hiding something.",
+      "quizTranslate": "Onun bir şey sakladığından şüpheleniyorum.",
+      "translateList": [
+        {
+          "label": "Suspect",
+          "isCorrect": true
+        },
+        {
+          "label": "Know",
+          "isCorrect": false
+        },
+        {
+          "label": "Forget",
+          "isCorrect": false
+        },
+        {
+          "label": "Hope",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swallow",
+      "translate": "Yutmak",
+      "quiz": "Don’t forget to .... your pills.",
+      "quizTranslate": "Haplarını yutmayı unutma.",
+      "translateList": [
+        {
+          "label": "Swallow",
+          "isCorrect": true
+        },
+        {
+          "label": "Chew",
+          "isCorrect": false
+        },
+        {
+          "label": "Bite",
+          "isCorrect": false
+        },
+        {
+          "label": "Spit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swear",
+      "translate": "Yemin etmek",
+      "quiz": "I .... I didn’t take your book.",
+      "quizTranslate": "Senin kitabını almadığıma yemin ederim.",
+      "translateList": [
+        {
+          "label": "Swear",
+          "isCorrect": true
+        },
+        {
+          "label": "Promise",
+          "isCorrect": false
+        },
+        {
+          "label": "Lie",
+          "isCorrect": false
+        },
+        {
+          "label": "Think",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sweat",
+      "translate": "Ter",
+      "quiz": "After running, he was covered in ....",
+      "quizTranslate": "Koşudan sonra ter içinde kaldı.",
+      "translateList": [
+        {
+          "label": "Sweat",
+          "isCorrect": true
+        },
+        {
+          "label": "Water",
+          "isCorrect": false
+        },
+        {
+          "label": "Oil",
+          "isCorrect": false
+        },
+        {
+          "label": "Dust",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sweet",
+      "translate": "Tatlı",
+      "quiz": "I love .... chocolate.",
+      "quizTranslate": "Tatlı çikolatayı severim.",
+      "translateList": [
+        {
+          "label": "Sweet",
+          "isCorrect": true
+        },
+        {
+          "label": "Bitter",
+          "isCorrect": false
+        },
+        {
+          "label": "Sour",
+          "isCorrect": false
+        },
+        {
+          "label": "Spicy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Switch",
+      "translate": "Değiştirmek / Anahtar",
+      "quiz": "Can you .... the lights on?",
+      "quizTranslate": "Işıkları açabilir misin?",
+      "translateList": [
+        {
+          "label": "Switch",
+          "isCorrect": true
+        },
+        {
+          "label": "Turn",
+          "isCorrect": false
+        },
+        {
+          "label": "Push",
+          "isCorrect": false
+        },
+        {
+          "label": "Remove",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Symbol",
+      "translate": "Sembol",
+      "quiz": "The heart is a .... of love.",
+      "quizTranslate": "Kalp, aşkın bir sembolüdür.",
+      "translateList": [
+        {
+          "label": "Symbol",
+          "isCorrect": true
+        },
+        {
+          "label": "Shape",
+          "isCorrect": false
+        },
+        {
+          "label": "Pattern",
+          "isCorrect": false
+        },
+        {
+          "label": "Sign",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "System",
+      "translate": "Sistem",
+      "quiz": "The body has an immune .... to fight diseases.",
+      "quizTranslate": "Vücut, hastalıklarla savaşmak için bir bağışıklık sistemine sahiptir.",
+      "translateList": [
+        {
+          "label": "System",
+          "isCorrect": true
+        },
+        {
+          "label": "Network",
+          "isCorrect": false
+        },
+        {
+          "label": "Process",
+          "isCorrect": false
+        },
+        {
+          "label": "Function",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Table",
       "translate": "Masa",
       "quiz": "Put the book on the ....",
@@ -28772,6 +32325,582 @@
         },
         {
           "label": "Sofa",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Take",
+      "translate": "Almak",
+      "quiz": "Can you .... this book to your brother?",
+      "quizTranslate": "Bu kitabı kardeşine götürebilir misin?",
+      "translateList": [
+        {
+          "label": "Take",
+          "isCorrect": true
+        },
+        {
+          "label": "Give",
+          "isCorrect": false
+        },
+        {
+          "label": "Send",
+          "isCorrect": false
+        },
+        {
+          "label": "Drop",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Talk",
+      "translate": "Konuşmak",
+      "quiz": "They love to .... about sports.",
+      "quizTranslate": "Onlar spor hakkında konuşmayı sever.",
+      "translateList": [
+        {
+          "label": "Talk",
+          "isCorrect": true
+        },
+        {
+          "label": "Listen",
+          "isCorrect": false
+        },
+        {
+          "label": "Read",
+          "isCorrect": false
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tall",
+      "translate": "Uzun (boy)",
+      "quiz": "He is very .... for his age.",
+      "quizTranslate": "O, yaşına göre çok uzun.",
+      "translateList": [
+        {
+          "label": "Tall",
+          "isCorrect": true
+        },
+        {
+          "label": "Short",
+          "isCorrect": false
+        },
+        {
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "label": "Heavy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tap",
+      "translate": "Musluk / Hafifçe dokunmak",
+      "quiz": "Please turn off the .... after washing your hands.",
+      "quizTranslate": "Ellerini yıkadıktan sonra lütfen musluğu kapat.",
+      "translateList": [
+        {
+          "label": "Tap",
+          "isCorrect": true
+        },
+        {
+          "label": "Pipe",
+          "isCorrect": false
+        },
+        {
+          "label": "Button",
+          "isCorrect": false
+        },
+        {
+          "label": "Knob",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tape",
+      "translate": "Bant",
+      "quiz": "He used .... to fix the paper.",
+      "quizTranslate": "Kağıdı tamir etmek için bant kullandı.",
+      "translateList": [
+        {
+          "label": "Tape",
+          "isCorrect": true
+        },
+        {
+          "label": "Glue",
+          "isCorrect": false
+        },
+        {
+          "label": "String",
+          "isCorrect": false
+        },
+        {
+          "label": "Pin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Target",
+      "translate": "Hedef",
+      "quiz": "The company's .... is to increase sales.",
+      "quizTranslate": "Şirketin hedefi satışları artırmak.",
+      "translateList": [
+        {
+          "label": "Target",
+          "isCorrect": true
+        },
+        {
+          "label": "Plan",
+          "isCorrect": false
+        },
+        {
+          "label": "Result",
+          "isCorrect": false
+        },
+        {
+          "label": "Estimate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Task",
+      "translate": "Görev",
+      "quiz": "My .... is to clean the kitchen today.",
+      "quizTranslate": "Bugünkü görevim mutfağı temizlemek.",
+      "translateList": [
+        {
+          "label": "Task",
+          "isCorrect": true
+        },
+        {
+          "label": "Game",
+          "isCorrect": false
+        },
+        {
+          "label": "Hobby",
+          "isCorrect": false
+        },
+        {
+          "label": "Exam",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Taste",
+      "translate": "Tat",
+      "quiz": "This cake has a delicious ....",
+      "quizTranslate": "Bu pastanın lezzetli bir tadı var.",
+      "translateList": [
+        {
+          "label": "Taste",
+          "isCorrect": true
+        },
+        {
+          "label": "Smell",
+          "isCorrect": false
+        },
+        {
+          "label": "Color",
+          "isCorrect": false
+        },
+        {
+          "label": "Shape",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tax",
+      "translate": "Vergi",
+      "quiz": "Everyone has to pay ....",
+      "quizTranslate": "Herkes vergi ödemek zorunda.",
+      "translateList": [
+        {
+          "label": "Tax",
+          "isCorrect": true
+        },
+        {
+          "label": "Debt",
+          "isCorrect": false
+        },
+        {
+          "label": "Bill",
+          "isCorrect": false
+        },
+        {
+          "label": "Fee",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Taxi",
+      "translate": "Taksi",
+      "quiz": "We took a .... to the airport.",
+      "quizTranslate": "Havaalanına taksiyle gittik.",
+      "translateList": [
+        {
+          "label": "Taxi",
+          "isCorrect": true
+        },
+        {
+          "label": "Bus",
+          "isCorrect": false
+        },
+        {
+          "label": "Train",
+          "isCorrect": false
+        },
+        {
+          "label": "Car",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tea",
+      "translate": "Çay",
+      "quiz": "She drinks a cup of .... every morning.",
+      "quizTranslate": "Her sabah bir fincan çay içer.",
+      "translateList": [
+        {
+          "label": "Tea",
+          "isCorrect": true
+        },
+        {
+          "label": "Coffee",
+          "isCorrect": false
+        },
+        {
+          "label": "Milk",
+          "isCorrect": false
+        },
+        {
+          "label": "Juice",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Teach",
+      "translate": "Öğretmek",
+      "quiz": "She loves to .... children how to read.",
+      "quizTranslate": "Çocuklara okumayı öğretmeyi seviyor.",
+      "translateList": [
+        {
+          "label": "Teach",
+          "isCorrect": true
+        },
+        {
+          "label": "Learn",
+          "isCorrect": false
+        },
+        {
+          "label": "Explain",
+          "isCorrect": false
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Teaching",
+      "translate": "Öğretim",
+      "quiz": "She has a passion for ....",
+      "quizTranslate": "Onun öğretime karşı bir tutkusu var.",
+      "translateList": [
+        {
+          "label": "Teaching",
+          "isCorrect": true
+        },
+        {
+          "label": "Studying",
+          "isCorrect": false
+        },
+        {
+          "label": "Speaking",
+          "isCorrect": false
+        },
+        {
+          "label": "Reading",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Team",
+      "translate": "Takım",
+      "quiz": "Our football .... won the match.",
+      "quizTranslate": "Futbol takımımız maçı kazandı.",
+      "translateList": [
+        {
+          "label": "Team",
+          "isCorrect": true
+        },
+        {
+          "label": "Group",
+          "isCorrect": false
+        },
+        {
+          "label": "Club",
+          "isCorrect": false
+        },
+        {
+          "label": "Player",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Technical",
+      "translate": "Teknik",
+      "quiz": "He has great .... skills.",
+      "quizTranslate": "Onun mükemmel teknik becerileri var.",
+      "translateList": [
+        {
+          "label": "Technical",
+          "isCorrect": true
+        },
+        {
+          "label": "General",
+          "isCorrect": false
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Difficult",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Technique",
+      "translate": "Teknik",
+      "quiz": "His painting .... is impressive.",
+      "quizTranslate": "Onun resim tekniği etkileyici.",
+      "translateList": [
+        {
+          "label": "Technique",
+          "isCorrect": true
+        },
+        {
+          "label": "Method",
+          "isCorrect": false
+        },
+        {
+          "label": "Process",
+          "isCorrect": false
+        },
+        {
+          "label": "Tool",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Technology",
+      "translate": "Teknoloji",
+      "quiz": "Modern .... makes life easier.",
+      "quizTranslate": "Modern teknoloji hayatı kolaylaştırır.",
+      "translateList": [
+        {
+          "label": "Technology",
+          "isCorrect": true
+        },
+        {
+          "label": "Science",
+          "isCorrect": false
+        },
+        {
+          "label": "Knowledge",
+          "isCorrect": false
+        },
+        {
+          "label": "Device",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Television",
+      "translate": "Televizyon",
+      "quiz": "I watch the news on .... every evening.",
+      "quizTranslate": "Her akşam haberleri televizyonda izlerim.",
+      "translateList": [
+        {
+          "label": "Television",
+          "isCorrect": true
+        },
+        {
+          "label": "Radio",
+          "isCorrect": false
+        },
+        {
+          "label": "Internet",
+          "isCorrect": false
+        },
+        {
+          "label": "Newspaper",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tell",
+      "translate": "Söylemek / Anlatmak",
+      "quiz": "Can you .... me a story?",
+      "quizTranslate": "Bana bir hikaye anlatabilir misin?",
+      "translateList": [
+        {
+          "label": "Tell",
+          "isCorrect": true
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        },
+        {
+          "label": "Show",
+          "isCorrect": false
+        },
+        {
+          "label": "Sing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Temperature",
+      "translate": "Sıcaklık",
+      "quiz": "The .... is very high today.",
+      "quizTranslate": "Bugün sıcaklık çok yüksek.",
+      "translateList": [
+        {
+          "label": "Temperature",
+          "isCorrect": true
+        },
+        {
+          "label": "Weather",
+          "isCorrect": false
+        },
+        {
+          "label": "Condition",
+          "isCorrect": false
+        },
+        {
+          "label": "Pressure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Temporary",
+      "translate": "Geçici",
+      "quiz": "This job is just .... for the summer.",
+      "quizTranslate": "Bu iş sadece yaz için geçici.",
+      "translateList": [
+        {
+          "label": "Temporary",
+          "isCorrect": true
+        },
+        {
+          "label": "Permanent",
+          "isCorrect": false
+        },
+        {
+          "label": "Difficult",
+          "isCorrect": false
+        },
+        {
+          "label": "Short",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tend",
+      "translate": "Eğiliminde olmak",
+      "quiz": "She .... to get nervous before exams.",
+      "quizTranslate": "O, sınavlardan önce gergin olma eğilimindedir.",
+      "translateList": [
+        {
+          "label": "Tends",
+          "isCorrect": true
+        },
+        {
+          "label": "Forgets",
+          "isCorrect": false
+        },
+        {
+          "label": "Avoids",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignores",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tension",
+      "translate": "Gerginlik",
+      "quiz": "There was a lot of .... in the meeting.",
+      "quizTranslate": "Toplantıda çok fazla gerginlik vardı.",
+      "translateList": [
+        {
+          "label": "Tension",
+          "isCorrect": true
+        },
+        {
+          "label": "Happiness",
+          "isCorrect": false
+        },
+        {
+          "label": "Silence",
+          "isCorrect": false
+        },
+        {
+          "label": "Excitement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tent",
+      "translate": "Çadır",
+      "quiz": "We set up a .... in the forest.",
+      "quizTranslate": "Ormanda bir çadır kurduk.",
+      "translateList": [
+        {
+          "label": "Tent",
+          "isCorrect": true
+        },
+        {
+          "label": "House",
+          "isCorrect": false
+        },
+        {
+          "label": "Cabin",
+          "isCorrect": false
+        },
+        {
+          "label": "Hut",
           "isCorrect": false
         }
       ]
@@ -28825,6 +32954,318 @@
       ]
     },
     {
+      "word": "Tenth",
+      "translate": "Onuncu",
+      "quiz": "She finished in .... place in the race.",
+      "quizTranslate": "O, yarışta onuncu sırada bitirdi.",
+      "translateList": [
+        {
+          "label": "Tenth",
+          "isCorrect": true
+        },
+        {
+          "label": "First",
+          "isCorrect": false
+        },
+        {
+          "label": "Fifth",
+          "isCorrect": false
+        },
+        {
+          "label": "Twentieth",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Term",
+      "translate": "Dönem / Terim",
+      "quiz": "The school year is divided into three ....",
+      "quizTranslate": "Okul yılı üç döneme ayrılmıştır.",
+      "translateList": [
+        {
+          "label": "Terms",
+          "isCorrect": true
+        },
+        {
+          "label": "Weeks",
+          "isCorrect": false
+        },
+        {
+          "label": "Subjects",
+          "isCorrect": false
+        },
+        {
+          "label": "Lessons",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Terrible",
+      "translate": "Berbat / Korkunç",
+      "quiz": "The weather was .... yesterday.",
+      "quizTranslate": "Dün hava berbattı.",
+      "translateList": [
+        {
+          "label": "Terrible",
+          "isCorrect": true
+        },
+        {
+          "label": "Wonderful",
+          "isCorrect": false
+        },
+        {
+          "label": "Normal",
+          "isCorrect": false
+        },
+        {
+          "label": "Cold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Text",
+      "translate": "Metin / Mesaj",
+      "quiz": "I sent her a .... this morning.",
+      "quizTranslate": "Bu sabah ona bir mesaj gönderdim.",
+      "translateList": [
+        {
+          "label": "Text",
+          "isCorrect": true
+        },
+        {
+          "label": "Letter",
+          "isCorrect": false
+        },
+        {
+          "label": "Call",
+          "isCorrect": false
+        },
+        {
+          "label": "Photo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Than",
+      "translate": "-den, -dan (karşılaştırma)",
+      "quiz": "She is taller .... me.",
+      "quizTranslate": "O benden daha uzun.",
+      "translateList": [
+        {
+          "label": "Than",
+          "isCorrect": true
+        },
+        {
+          "label": "Then",
+          "isCorrect": false
+        },
+        {
+          "label": "That",
+          "isCorrect": false
+        },
+        {
+          "label": "Thus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "That",
+      "translate": "Şu / O",
+      "quiz": "I like .... book on the shelf.",
+      "quizTranslate": "Raftaki şu kitabı beğendim.",
+      "translateList": [
+        {
+          "label": "That",
+          "isCorrect": true
+        },
+        {
+          "label": "This",
+          "isCorrect": false
+        },
+        {
+          "label": "Those",
+          "isCorrect": false
+        },
+        {
+          "label": "These",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Theatre",
+      "translate": "Tiyatro",
+      "quiz": "We watched a play at the ....",
+      "quizTranslate": "Tiyatroda bir oyun izledik.",
+      "translateList": [
+        {
+          "label": "Theatre",
+          "isCorrect": true
+        },
+        {
+          "label": "Cinema",
+          "isCorrect": false
+        },
+        {
+          "label": "Museum",
+          "isCorrect": false
+        },
+        {
+          "label": "Concert",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Their",
+      "translate": "Onların",
+      "quiz": "This is .... house.",
+      "quizTranslate": "Bu onların evi.",
+      "translateList": [
+        {
+          "label": "Their",
+          "isCorrect": true
+        },
+        {
+          "label": "His",
+          "isCorrect": false
+        },
+        {
+          "label": "Her",
+          "isCorrect": false
+        },
+        {
+          "label": "My",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Theirs",
+      "translate": "Onlarınki",
+      "quiz": "That car is ....",
+      "quizTranslate": "O araba onlarınki.",
+      "translateList": [
+        {
+          "label": "Theirs",
+          "isCorrect": true
+        },
+        {
+          "label": "Ours",
+          "isCorrect": false
+        },
+        {
+          "label": "Mine",
+          "isCorrect": false
+        },
+        {
+          "label": "Hers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Theme",
+      "translate": "Tema",
+      "quiz": "The main .... of the book is friendship.",
+      "quizTranslate": "Kitabın ana teması arkadaşlıktır.",
+      "translateList": [
+        {
+          "label": "Theme",
+          "isCorrect": true
+        },
+        {
+          "label": "Title",
+          "isCorrect": false
+        },
+        {
+          "label": "Character",
+          "isCorrect": false
+        },
+        {
+          "label": "Ending",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Themselves",
+      "translate": "Kendileri",
+      "quiz": "They prepared dinner by ....",
+      "quizTranslate": "Yemeği kendileri hazırladılar.",
+      "translateList": [
+        {
+          "label": "Themselves",
+          "isCorrect": true
+        },
+        {
+          "label": "Himself",
+          "isCorrect": false
+        },
+        {
+          "label": "Herself",
+          "isCorrect": false
+        },
+        {
+          "label": "Ourselves",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Then",
+      "translate": "O zaman / Sonra",
+      "quiz": "We had lunch, and .... we went to the park.",
+      "quizTranslate": "Öğle yemeği yedik ve sonra parka gittik.",
+      "translateList": [
+        {
+          "label": "Then",
+          "isCorrect": true
+        },
+        {
+          "label": "Than",
+          "isCorrect": false
+        },
+        {
+          "label": "That",
+          "isCorrect": false
+        },
+        {
+          "label": "Thus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Theory",
+      "translate": "Teori",
+      "quiz": "His .... explains how planets move.",
+      "quizTranslate": "Onun teorisi, gezegenlerin nasıl hareket ettiğini açıklar.",
+      "translateList": [
+        {
+          "label": "Theory",
+          "isCorrect": true
+        },
+        {
+          "label": "Fact",
+          "isCorrect": false
+        },
+        {
+          "label": "Story",
+          "isCorrect": false
+        },
+        {
+          "label": "Belief",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Thank",
       "translate": "Teşekkür etmek",
       "quiz": ".... you for your help.",
@@ -28849,6 +33290,270 @@
       ]
     },
     {
+      "word": "Thick",
+      "translate": "Kalın",
+      "quiz": "She wore a .... coat because it was cold.",
+      "quizTranslate": "Hava soğuk olduğu için kalın bir palto giydi.",
+      "translateList": [
+        {
+          "label": "Thick",
+          "isCorrect": true
+        },
+        {
+          "label": "Thin",
+          "isCorrect": false
+        },
+        {
+          "label": "Soft",
+          "isCorrect": false
+        },
+        {
+          "label": "Short",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Thief",
+      "translate": "Hırsız",
+      "quiz": "The police caught the .... last night.",
+      "quizTranslate": "Polis, hırsızı dün gece yakaladı.",
+      "translateList": [
+        {
+          "label": "Thief",
+          "isCorrect": true
+        },
+        {
+          "label": "Police",
+          "isCorrect": false
+        },
+        {
+          "label": "Guard",
+          "isCorrect": false
+        },
+        {
+          "label": "Driver",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Thin",
+      "translate": "İnce",
+      "quiz": "She prefers to wear .... clothes in summer.",
+      "quizTranslate": "Yazın ince kıyafetler giymeyi tercih eder.",
+      "translateList": [
+        {
+          "label": "Thin",
+          "isCorrect": true
+        },
+        {
+          "label": "Thick",
+          "isCorrect": false
+        },
+        {
+          "label": "Heavy",
+          "isCorrect": false
+        },
+        {
+          "label": "Small",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Thing",
+      "translate": "Şey",
+      "quiz": "What is that .... on the table?",
+      "quizTranslate": "Masadaki o şey nedir?",
+      "translateList": [
+        {
+          "label": "Thing",
+          "isCorrect": true
+        },
+        {
+          "label": "Person",
+          "isCorrect": false
+        },
+        {
+          "label": "Animal",
+          "isCorrect": false
+        },
+        {
+          "label": "Food",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Think",
+      "translate": "Düşünmek",
+      "quiz": "I .... it will rain tomorrow.",
+      "quizTranslate": "Yarın yağmur yağacağını düşünüyorum.",
+      "translateList": [
+        {
+          "label": "Think",
+          "isCorrect": true
+        },
+        {
+          "label": "Forget",
+          "isCorrect": false
+        },
+        {
+          "label": "See",
+          "isCorrect": false
+        },
+        {
+          "label": "Know",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Thirsty",
+      "translate": "Susamış",
+      "quiz": "I feel very .... after running.",
+      "quizTranslate": "Koştuktan sonra çok susadım.",
+      "translateList": [
+        {
+          "label": "Thirsty",
+          "isCorrect": true
+        },
+        {
+          "label": "Hungry",
+          "isCorrect": false
+        },
+        {
+          "label": "Tired",
+          "isCorrect": false
+        },
+        {
+          "label": "Sleepy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "This",
+      "translate": "Bu",
+      "quiz": ".... book is mine.",
+      "quizTranslate": "Bu kitap benim.",
+      "translateList": [
+        {
+          "label": "This",
+          "isCorrect": true
+        },
+        {
+          "label": "That",
+          "isCorrect": false
+        },
+        {
+          "label": "These",
+          "isCorrect": false
+        },
+        {
+          "label": "Those",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Though",
+      "translate": "Gerçi / Ancak",
+      "quiz": "She was tired, .... she continued working.",
+      "quizTranslate": "Yorgundu, ancak çalışmaya devam etti.",
+      "translateList": [
+        {
+          "label": "Though",
+          "isCorrect": true
+        },
+        {
+          "label": "Therefore",
+          "isCorrect": false
+        },
+        {
+          "label": "Then",
+          "isCorrect": false
+        },
+        {
+          "label": "Thus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Thousand",
+      "translate": "Bin",
+      "quiz": "There are more than a .... students in the school.",
+      "quizTranslate": "Okulda binden fazla öğrenci var.",
+      "translateList": [
+        {
+          "label": "Thousand",
+          "isCorrect": true
+        },
+        {
+          "label": "Hundred",
+          "isCorrect": false
+        },
+        {
+          "label": "Million",
+          "isCorrect": false
+        },
+        {
+          "label": "Dozen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Throw",
+      "translate": "Atmak",
+      "quiz": "Can you .... me the ball?",
+      "quizTranslate": "Bana topu atabilir misin?",
+      "translateList": [
+        {
+          "label": "Throw",
+          "isCorrect": true
+        },
+        {
+          "label": "Catch",
+          "isCorrect": false
+        },
+        {
+          "label": "Kick",
+          "isCorrect": false
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Thursday",
+      "translate": "Perşembe",
+      "quiz": "We have a meeting on ....",
+      "quizTranslate": "Perşembe günü bir toplantımız var.",
+      "translateList": [
+        {
+          "label": "Thursday",
+          "isCorrect": true
+        },
+        {
+          "label": "Monday",
+          "isCorrect": false
+        },
+        {
+          "label": "Friday",
+          "isCorrect": false
+        },
+        {
+          "label": "Tuesday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Tree",
       "translate": "Ağaç",
       "quiz": "The .... is full of apples.",
@@ -28868,6 +33573,1158 @@
         },
         {
           "label": "Grass",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ticket",
+      "translate": "Bilet",
+      "quiz": "I bought a .... for the concert.",
+      "quizTranslate": "Konser için bir bilet aldım.",
+      "translateList": [
+        {
+          "label": "Ticket",
+          "isCorrect": true
+        },
+        {
+          "label": "Bill",
+          "isCorrect": false
+        },
+        {
+          "label": "Invoice",
+          "isCorrect": false
+        },
+        {
+          "label": "Card",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Today",
+      "translate": "Bugün",
+      "quiz": "What are your plans for ....?",
+      "quizTranslate": "Bugün için planların neler?",
+      "translateList": [
+        {
+          "label": "Today",
+          "isCorrect": true
+        },
+        {
+          "label": "Tomorrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Yesterday",
+          "isCorrect": false
+        },
+        {
+          "label": "Tonight",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Together",
+      "translate": "Birlikte",
+      "quiz": "We went to the cinema ....",
+      "quizTranslate": "Sinemaya birlikte gittik.",
+      "translateList": [
+        {
+          "label": "Together",
+          "isCorrect": true
+        },
+        {
+          "label": "Alone",
+          "isCorrect": false
+        },
+        {
+          "label": "Apart",
+          "isCorrect": false
+        },
+        {
+          "label": "Away",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Toilet",
+      "translate": "Tuvalet",
+      "quiz": "Where is the ....?",
+      "quizTranslate": "Tuvalet nerede?",
+      "translateList": [
+        {
+          "label": "Toilet",
+          "isCorrect": true
+        },
+        {
+          "label": "Shower",
+          "isCorrect": false
+        },
+        {
+          "label": "Sink",
+          "isCorrect": false
+        },
+        {
+          "label": "Kitchen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tomato",
+      "translate": "Domates",
+      "quiz": "I bought a kilo of .... from the market.",
+      "quizTranslate": "Marketten bir kilo domates aldım.",
+      "translateList": [
+        {
+          "label": "Tomato",
+          "isCorrect": true
+        },
+        {
+          "label": "Apple",
+          "isCorrect": false
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Potato",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tomorrow",
+      "translate": "Yarın",
+      "quiz": "I will call you ....",
+      "quizTranslate": "Seni yarın arayacağım.",
+      "translateList": [
+        {
+          "label": "Tomorrow",
+          "isCorrect": true
+        },
+        {
+          "label": "Today",
+          "isCorrect": false
+        },
+        {
+          "label": "Tonight",
+          "isCorrect": false
+        },
+        {
+          "label": "Yesterday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tonight",
+      "translate": "Bu gece",
+      "quiz": "Are you free ....?",
+      "quizTranslate": "Bu gece müsait misin?",
+      "translateList": [
+        {
+          "label": "Tonight",
+          "isCorrect": true
+        },
+        {
+          "label": "Today",
+          "isCorrect": false
+        },
+        {
+          "label": "Tomorrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Yesterday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Title",
+      "translate": "Başlık",
+      "quiz": "What is the .... of the book?",
+      "quizTranslate": "Kitabın başlığı nedir?",
+      "translateList": [
+        {
+          "label": "Title",
+          "isCorrect": true
+        },
+        {
+          "label": "Author",
+          "isCorrect": false
+        },
+        {
+          "label": "Page",
+          "isCorrect": false
+        },
+        {
+          "label": "Cover",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tidy",
+      "translate": "Düzenli / Toplamak",
+      "quiz": "Please .... your room before dinner.",
+      "quizTranslate": "Lütfen akşam yemeğinden önce odanı topla.",
+      "translateList": [
+        {
+          "label": "Tidy",
+          "isCorrect": true
+        },
+        {
+          "label": "Mess",
+          "isCorrect": false
+        },
+        {
+          "label": "Clean",
+          "isCorrect": false
+        },
+        {
+          "label": "Wash",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tie",
+      "translate": "Bağlamak / Kravat",
+      "quiz": "He always wears a .... to work.",
+      "quizTranslate": "O, işe giderken her zaman kravat takar.",
+      "translateList": [
+        {
+          "label": "Tie",
+          "isCorrect": true
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        },
+        {
+          "label": "Belt",
+          "isCorrect": false
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tight",
+      "translate": "Sıkı / Dar",
+      "quiz": "These shoes are too .... for me.",
+      "quizTranslate": "Bu ayakkabılar benim için çok dar.",
+      "translateList": [
+        {
+          "label": "Tight",
+          "isCorrect": true
+        },
+        {
+          "label": "Loose",
+          "isCorrect": false
+        },
+        {
+          "label": "Heavy",
+          "isCorrect": false
+        },
+        {
+          "label": "Soft",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Till",
+      "translate": "-e kadar",
+      "quiz": "I will wait here .... you come back.",
+      "quizTranslate": "Sen geri dönene kadar burada bekleyeceğim.",
+      "translateList": [
+        {
+          "label": "Till",
+          "isCorrect": true
+        },
+        {
+          "label": "After",
+          "isCorrect": false
+        },
+        {
+          "label": "Before",
+          "isCorrect": false
+        },
+        {
+          "label": "Since",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Time",
+      "translate": "Zaman",
+      "quiz": "What .... is the meeting?",
+      "quizTranslate": "Toplantı saat kaçta?",
+      "translateList": [
+        {
+          "label": "Time",
+          "isCorrect": true
+        },
+        {
+          "label": "Date",
+          "isCorrect": false
+        },
+        {
+          "label": "Place",
+          "isCorrect": false
+        },
+        {
+          "label": "Event",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Timetable",
+      "translate": "Zaman çizelgesi / Ders programı",
+      "quiz": "Check the .... for your train departure.",
+      "quizTranslate": "Tren kalkış saatin için zaman çizelgesini kontrol et.",
+      "translateList": [
+        {
+          "label": "Timetable",
+          "isCorrect": true
+        },
+        {
+          "label": "Schedule",
+          "isCorrect": false
+        },
+        {
+          "label": "Clock",
+          "isCorrect": false
+        },
+        {
+          "label": "Notice",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tin",
+      "translate": "Kutu / Teneke",
+      "quiz": "She bought a .... of beans from the store.",
+      "quizTranslate": "Mağazadan bir kutu fasulye aldı.",
+      "translateList": [
+        {
+          "label": "Tin",
+          "isCorrect": true
+        },
+        {
+          "label": "Bottle",
+          "isCorrect": false
+        },
+        {
+          "label": "Bag",
+          "isCorrect": false
+        },
+        {
+          "label": "Jar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tiny",
+      "translate": "Küçücük",
+      "quiz": "The baby’s hands are so ....",
+      "quizTranslate": "Bebeğin elleri çok küçücük.",
+      "translateList": [
+        {
+          "label": "Tiny",
+          "isCorrect": true
+        },
+        {
+          "label": "Big",
+          "isCorrect": false
+        },
+        {
+          "label": "Heavy",
+          "isCorrect": false
+        },
+        {
+          "label": "Strong",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tip",
+      "translate": "İpucu / Bahşiş",
+      "quiz": "She gave me a useful .... for studying.",
+      "quizTranslate": "Bana ders çalışma konusunda faydalı bir ipucu verdi.",
+      "translateList": [
+        {
+          "label": "Tip",
+          "isCorrect": true
+        },
+        {
+          "label": "Hint",
+          "isCorrect": false
+        },
+        {
+          "label": "Warning",
+          "isCorrect": false
+        },
+        {
+          "label": "Question",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tired",
+      "translate": "Yorgun",
+      "quiz": "I feel very .... after work.",
+      "quizTranslate": "İşten sonra çok yorgun hissediyorum.",
+      "translateList": [
+        {
+          "label": "Tired",
+          "isCorrect": true
+        },
+        {
+          "label": "Happy",
+          "isCorrect": false
+        },
+        {
+          "label": "Excited",
+          "isCorrect": false
+        },
+        {
+          "label": "Hungry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Too",
+      "translate": "Çok / Ayrıca",
+      "quiz": "It’s .... hot to go outside.",
+      "quizTranslate": "Dışarı çıkmak için çok sıcak.",
+      "translateList": [
+        {
+          "label": "Too",
+          "isCorrect": true
+        },
+        {
+          "label": "So",
+          "isCorrect": false
+        },
+        {
+          "label": "Very",
+          "isCorrect": false
+        },
+        {
+          "label": "Much",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tool",
+      "translate": "Araç / Alet",
+      "quiz": "He used a special .... to fix the door.",
+      "quizTranslate": "Kapıyı tamir etmek için özel bir alet kullandı.",
+      "translateList": [
+        {
+          "label": "Tool",
+          "isCorrect": true
+        },
+        {
+          "label": "Machine",
+          "isCorrect": false
+        },
+        {
+          "label": "Device",
+          "isCorrect": false
+        },
+        {
+          "label": "Object",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tooth",
+      "translate": "Diş",
+      "quiz": "I have a pain in my ....",
+      "quizTranslate": "Dişimde ağrı var.",
+      "translateList": [
+        {
+          "label": "Tooth",
+          "isCorrect": true
+        },
+        {
+          "label": "Ear",
+          "isCorrect": false
+        },
+        {
+          "label": "Nose",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouth",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Top",
+      "translate": "Üst / En iyi",
+      "quiz": "She climbed to the .... of the mountain.",
+      "quizTranslate": "Dağın tepesine tırmandı.",
+      "translateList": [
+        {
+          "label": "Top",
+          "isCorrect": true
+        },
+        {
+          "label": "Bottom",
+          "isCorrect": false
+        },
+        {
+          "label": "Side",
+          "isCorrect": false
+        },
+        {
+          "label": "Edge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Topic",
+      "translate": "Konu",
+      "quiz": "We discussed an interesting .... in class.",
+      "quizTranslate": "Sınıfta ilginç bir konu tartıştık.",
+      "translateList": [
+        {
+          "label": "Topic",
+          "isCorrect": true
+        },
+        {
+          "label": "Word",
+          "isCorrect": false
+        },
+        {
+          "label": "Subject",
+          "isCorrect": false
+        },
+        {
+          "label": "Title",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Total",
+      "translate": "Toplam",
+      "quiz": "The .... cost of the meal was $50.",
+      "quizTranslate": "Yemeğin toplam maliyeti 50 dolardı.",
+      "translateList": [
+        {
+          "label": "Total",
+          "isCorrect": true
+        },
+        {
+          "label": "Final",
+          "isCorrect": false
+        },
+        {
+          "label": "Sum",
+          "isCorrect": false
+        },
+        {
+          "label": "Price",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Touch",
+      "translate": "Dokunmak",
+      "quiz": "Please don’t .... the paintings in the museum.",
+      "quizTranslate": "Lütfen müzedeki tablolara dokunmayın.",
+      "translateList": [
+        {
+          "label": "Touch",
+          "isCorrect": true
+        },
+        {
+          "label": "Move",
+          "isCorrect": false
+        },
+        {
+          "label": "Push",
+          "isCorrect": false
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tour",
+      "translate": "Tur / Gezmek",
+      "quiz": "We went on a city .... last weekend.",
+      "quizTranslate": "Geçen hafta sonu şehir turuna çıktık.",
+      "translateList": [
+        {
+          "label": "Tour",
+          "isCorrect": true
+        },
+        {
+          "label": "Journey",
+          "isCorrect": false
+        },
+        {
+          "label": "Trip",
+          "isCorrect": false
+        },
+        {
+          "label": "Visit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tourist",
+      "translate": "Turist",
+      "quiz": "Many .... visit this place every year.",
+      "quizTranslate": "Her yıl burayı birçok turist ziyaret ediyor.",
+      "translateList": [
+        {
+          "label": "Tourists",
+          "isCorrect": true
+        },
+        {
+          "label": "Locals",
+          "isCorrect": false
+        },
+        {
+          "label": "Workers",
+          "isCorrect": false
+        },
+        {
+          "label": "Students",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Towards",
+      "translate": "-e doğru",
+      "quiz": "She walked .... the door.",
+      "quizTranslate": "Kapıya doğru yürüdü.",
+      "translateList": [
+        {
+          "label": "Towards",
+          "isCorrect": true
+        },
+        {
+          "label": "Away",
+          "isCorrect": false
+        },
+        {
+          "label": "Under",
+          "isCorrect": false
+        },
+        {
+          "label": "Over",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Towel",
+      "translate": "Havlu",
+      "quiz": "She dried her hands with a ....",
+      "quizTranslate": "Ellerini bir havluyla kuruttu.",
+      "translateList": [
+        {
+          "label": "Towel",
+          "isCorrect": true
+        },
+        {
+          "label": "Napkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Blanket",
+          "isCorrect": false
+        },
+        {
+          "label": "Paper",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tower",
+      "translate": "Kule",
+      "quiz": "The Eiffel .... is in Paris.",
+      "quizTranslate": "Eiffel Kulesi Paris'tedir.",
+      "translateList": [
+        {
+          "label": "Tower",
+          "isCorrect": true
+        },
+        {
+          "label": "Building",
+          "isCorrect": false
+        },
+        {
+          "label": "Bridge",
+          "isCorrect": false
+        },
+        {
+          "label": "Castle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Town",
+      "translate": "Kasaba",
+      "quiz": "I grew up in a small ....",
+      "quizTranslate": "Küçük bir kasabada büyüdüm.",
+      "translateList": [
+        {
+          "label": "Town",
+          "isCorrect": true
+        },
+        {
+          "label": "City",
+          "isCorrect": false
+        },
+        {
+          "label": "Village",
+          "isCorrect": false
+        },
+        {
+          "label": "Country",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Toy",
+      "translate": "Oyuncak",
+      "quiz": "The child received a new .... for his birthday.",
+      "quizTranslate": "Çocuk doğum günü için yeni bir oyuncak aldı.",
+      "translateList": [
+        {
+          "label": "Toy",
+          "isCorrect": true
+        },
+        {
+          "label": "Book",
+          "isCorrect": false
+        },
+        {
+          "label": "Game",
+          "isCorrect": false
+        },
+        {
+          "label": "Puzzle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tradition",
+      "translate": "Gelenek",
+      "quiz": "It is a family .... to have dinner together.",
+      "quizTranslate": "Birlikte akşam yemeği yemek bizim aile geleneğimizdir.",
+      "translateList": [
+        {
+          "label": "Tradition",
+          "isCorrect": true
+        },
+        {
+          "label": "Habit",
+          "isCorrect": false
+        },
+        {
+          "label": "Rule",
+          "isCorrect": false
+        },
+        {
+          "label": "Routine",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Traditional",
+      "translate": "Geleneksel",
+      "quiz": "They wear .... clothes for the festival.",
+      "quizTranslate": "Festival için geleneksel kıyafetler giyiyorlar.",
+      "translateList": [
+        {
+          "label": "Traditional",
+          "isCorrect": true
+        },
+        {
+          "label": "Modern",
+          "isCorrect": false
+        },
+        {
+          "label": "Formal",
+          "isCorrect": false
+        },
+        {
+          "label": "Casual",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Traffic",
+      "translate": "Trafik",
+      "quiz": "There was a lot of .... on the way home.",
+      "quizTranslate": "Eve giderken çok fazla trafik vardı.",
+      "translateList": [
+        {
+          "label": "Traffic",
+          "isCorrect": true
+        },
+        {
+          "label": "Journey",
+          "isCorrect": false
+        },
+        {
+          "label": "Accident",
+          "isCorrect": false
+        },
+        {
+          "label": "Road",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Train",
+      "translate": "Tren",
+      "quiz": "We took a .... to London.",
+      "quizTranslate": "Londra'ya trenle gittik.",
+      "translateList": [
+        {
+          "label": "Train",
+          "isCorrect": true
+        },
+        {
+          "label": "Bus",
+          "isCorrect": false
+        },
+        {
+          "label": "Car",
+          "isCorrect": false
+        },
+        {
+          "label": "Plane",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Transport",
+      "translate": "Ulaşım / Taşımak",
+      "quiz": "The city has a good public .... system.",
+      "quizTranslate": "Şehir iyi bir toplu ulaşım sistemine sahip.",
+      "translateList": [
+        {
+          "label": "Transport",
+          "isCorrect": true
+        },
+        {
+          "label": "Travel",
+          "isCorrect": false
+        },
+        {
+          "label": "Car",
+          "isCorrect": false
+        },
+        {
+          "label": "Road",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Travel",
+      "translate": "Seyahat etmek",
+      "quiz": "I love to .... to different countries.",
+      "quizTranslate": "Farklı ülkelere seyahat etmeyi seviyorum.",
+      "translateList": [
+        {
+          "label": "Travel",
+          "isCorrect": true
+        },
+        {
+          "label": "Work",
+          "isCorrect": false
+        },
+        {
+          "label": "Move",
+          "isCorrect": false
+        },
+        {
+          "label": "Explore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Trip",
+      "translate": "Gezi / Yolculuk",
+      "quiz": "We went on a school .... last weekend.",
+      "quizTranslate": "Geçen hafta sonu bir okul gezisine gittik.",
+      "translateList": [
+        {
+          "label": "Trip",
+          "isCorrect": true
+        },
+        {
+          "label": "Tour",
+          "isCorrect": false
+        },
+        {
+          "label": "Journey",
+          "isCorrect": false
+        },
+        {
+          "label": "Travel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Trousers",
+      "translate": "Pantolon",
+      "quiz": "He bought a new pair of .... for work.",
+      "quizTranslate": "İş için yeni bir pantolon aldı.",
+      "translateList": [
+        {
+          "label": "Trousers",
+          "isCorrect": true
+        },
+        {
+          "label": "Shorts",
+          "isCorrect": false
+        },
+        {
+          "label": "Jeans",
+          "isCorrect": false
+        },
+        {
+          "label": "Skirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Truck",
+      "translate": "Kamyon",
+      "quiz": "A large .... was parked outside the store.",
+      "quizTranslate": "Mağazanın dışında büyük bir kamyon park etmişti.",
+      "translateList": [
+        {
+          "label": "Truck",
+          "isCorrect": true
+        },
+        {
+          "label": "Car",
+          "isCorrect": false
+        },
+        {
+          "label": "Bus",
+          "isCorrect": false
+        },
+        {
+          "label": "Bicycle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Try",
+      "translate": "Denemek",
+      "quiz": "You should .... this new dish.",
+      "quizTranslate": "Bu yeni yemeği denemelisin.",
+      "translateList": [
+        {
+          "label": "Try",
+          "isCorrect": true
+        },
+        {
+          "label": "Cook",
+          "isCorrect": false
+        },
+        {
+          "label": "Buy",
+          "isCorrect": false
+        },
+        {
+          "label": "Taste",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Turn",
+      "translate": "Dönmek / Çevirmek",
+      "quiz": "Please .... left at the traffic lights.",
+      "quizTranslate": "Lütfen trafik ışıklarında sola dönün.",
+      "translateList": [
+        {
+          "label": "Turn",
+          "isCorrect": true
+        },
+        {
+          "label": "Move",
+          "isCorrect": false
+        },
+        {
+          "label": "Stop",
+          "isCorrect": false
+        },
+        {
+          "label": "Wait",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Twice",
+      "translate": "İki kez",
+      "quiz": "I go to the gym .... a week.",
+      "quizTranslate": "Haftada iki kez spor salonuna gidiyorum.",
+      "translateList": [
+        {
+          "label": "Twice",
+          "isCorrect": true
+        },
+        {
+          "label": "Once",
+          "isCorrect": false
+        },
+        {
+          "label": "Three times",
+          "isCorrect": false
+        },
+        {
+          "label": "Never",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Type",
+      "translate": "Tür / Çeşit",
+      "quiz": "What .... of music do you like?",
+      "quizTranslate": "Ne tür müzik seversin?",
+      "translateList": [
+        {
+          "label": "Type",
+          "isCorrect": true
+        },
+        {
+          "label": "Style",
+          "isCorrect": false
+        },
+        {
+          "label": "Song",
+          "isCorrect": false
+        },
+        {
+          "label": "Genre",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tuesday",
+      "translate": "Salı",
+      "quiz": "Our class is on ....",
+      "quizTranslate": "Dersimiz Salı günü.",
+      "translateList": [
+        {
+          "label": "Tuesday",
+          "isCorrect": true
+        },
+        {
+          "label": "Monday",
+          "isCorrect": false
+        },
+        {
+          "label": "Thursday",
+          "isCorrect": false
+        },
+        {
+          "label": "Friday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Twin",
+      "translate": "İkiz",
+      "quiz": "She has a .... brother.",
+      "quizTranslate": "Onun bir ikiz erkek kardeşi var.",
+      "translateList": [
+        {
+          "label": "Twin",
+          "isCorrect": true
+        },
+        {
+          "label": "Older",
+          "isCorrect": false
+        },
+        {
+          "label": "Younger",
+          "isCorrect": false
+        },
+        {
+          "label": "Step",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tyre",
+      "translate": "Lastik",
+      "quiz": "I need to change the car’s ....",
+      "quizTranslate": "Arabanın lastiğini değiştirmem gerekiyor.",
+      "translateList": [
+        {
+          "label": "Tyre",
+          "isCorrect": true
+        },
+        {
+          "label": "Engine",
+          "isCorrect": false
+        },
+        {
+          "label": "Window",
+          "isCorrect": false
+        },
+        {
+          "label": "Seat",
           "isCorrect": false
         }
       ]
@@ -28945,6 +34802,608 @@
       ]
     },
     {
+      "word": "Under",
+      "translate": "Altında",
+      "quiz": "The cat is hiding .... the table.",
+      "quizTranslate": "Kedi masanın altında saklanıyor.",
+      "translateList": [
+        {
+          "label": "Under",
+          "isCorrect": true
+        },
+        {
+          "label": "Above",
+          "isCorrect": false
+        },
+        {
+          "label": "Next to",
+          "isCorrect": false
+        },
+        {
+          "label": "Behind",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Underground",
+      "translate": "Yeraltı / Metro",
+      "quiz": "The city has an .... train system.",
+      "quizTranslate": "Şehirde bir yeraltı tren sistemi var.",
+      "translateList": [
+        {
+          "label": "Underground",
+          "isCorrect": true
+        },
+        {
+          "label": "Overground",
+          "isCorrect": false
+        },
+        {
+          "label": "Subway",
+          "isCorrect": false
+        },
+        {
+          "label": "Tunnel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Underwear",
+      "translate": "İç çamaşırı",
+      "quiz": "She bought new .... from the store.",
+      "quizTranslate": "Mağazadan yeni iç çamaşırı aldı.",
+      "translateList": [
+        {
+          "label": "Underwear",
+          "isCorrect": true
+        },
+        {
+          "label": "Clothes",
+          "isCorrect": false
+        },
+        {
+          "label": "Socks",
+          "isCorrect": false
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Umbrella",
+      "translate": "Şemsiye",
+      "quiz": "Take your ...., it’s raining outside!",
+      "quizTranslate": "Şemsiyeni al, dışarıda yağmur yağıyor!",
+      "translateList": [
+        {
+          "label": "Umbrella",
+          "isCorrect": true
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        },
+        {
+          "label": "Boots",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Uniform",
+      "translate": "Üniforma",
+      "quiz": "Students must wear a school ....",
+      "quizTranslate": "Öğrenciler okul üniforması giymek zorunda.",
+      "translateList": [
+        {
+          "label": "Uniform",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "Tie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Unit",
+      "translate": "Birim",
+      "quiz": "Each apartment has its own heating ....",
+      "quizTranslate": "Her dairenin kendi ısıtma birimi vardır.",
+      "translateList": [
+        {
+          "label": "Unit",
+          "isCorrect": true
+        },
+        {
+          "label": "Section",
+          "isCorrect": false
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        },
+        {
+          "label": "Department",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "University",
+      "translate": "Üniversite",
+      "quiz": "She is studying at a famous ....",
+      "quizTranslate": "O, ünlü bir üniversitede okuyor.",
+      "translateList": [
+        {
+          "label": "University",
+          "isCorrect": true
+        },
+        {
+          "label": "School",
+          "isCorrect": false
+        },
+        {
+          "label": "Library",
+          "isCorrect": false
+        },
+        {
+          "label": "Office",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Unless",
+      "translate": "-mezse / -mazsa",
+      "quiz": "I won't go out .... it stops raining.",
+      "quizTranslate": "Yağmur durmazsa dışarı çıkmayacağım.",
+      "translateList": [
+        {
+          "label": "Unless",
+          "isCorrect": true
+        },
+        {
+          "label": "If",
+          "isCorrect": false
+        },
+        {
+          "label": "Until",
+          "isCorrect": false
+        },
+        {
+          "label": "When",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "Until",
+      "translate": "-e kadar",
+      "quiz": "We have to wait .... the bus arrives.",
+      "quizTranslate": "Otobüs gelene kadar beklemek zorundayız.",
+      "translateList": [
+        {
+          "label": "Until",
+          "isCorrect": true
+        },
+        {
+          "label": "Before",
+          "isCorrect": false
+        },
+        {
+          "label": "After",
+          "isCorrect": false
+        },
+        {
+          "label": "While",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Upstairs",
+      "translate": "Üst kat",
+      "quiz": "She went .... to her bedroom.",
+      "quizTranslate": "O, yatak odasına üst kata çıktı.",
+      "translateList": [
+        {
+          "label": "Upstairs",
+          "isCorrect": true
+        },
+        {
+          "label": "Downstairs",
+          "isCorrect": false
+        },
+        {
+          "label": "Outside",
+          "isCorrect": false
+        },
+        {
+          "label": "Inside",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Unsteady",
+      "translate": "Dengesiz, kararsız",
+      "quiz": "His hands were .... due to nervousness.",
+      "quizTranslate": "Sinirlilik nedeniyle elleri dengesizdi.",
+      "translateList": [
+        {
+          "label": "Unsteady",
+          "isCorrect": true
+        },
+        {
+          "label": "Firm",
+          "isCorrect": false
+        },
+        {
+          "label": "Still",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Unsuccessful",
+      "translate": "Başarısız",
+      "quiz": "Their project was .... due to lack of funds.",
+      "quizTranslate": "Projeleri, bütçe eksikliği nedeniyle başarısız oldu.",
+      "translateList": [
+        {
+          "label": "Unsuccessful",
+          "isCorrect": true
+        },
+        {
+          "label": "Successful",
+          "isCorrect": false
+        },
+        {
+          "label": "Promising",
+          "isCorrect": false
+        },
+        {
+          "label": "Profitable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Untidy",
+      "translate": "Düzensiz, dağınık",
+      "quiz": "His room was very ....",
+      "quizTranslate": "Onun odası çok dağınıktı.",
+      "translateList": [
+        {
+          "label": "Untidy",
+          "isCorrect": true
+        },
+        {
+          "label": "Neat",
+          "isCorrect": false
+        },
+        {
+          "label": "Organized",
+          "isCorrect": false
+        },
+        {
+          "label": "Decorated",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Unusual",
+      "translate": "Olağan dışı",
+      "quiz": "She has a very .... hobby.",
+      "quizTranslate": "Onun çok olağan dışı bir hobisi var.",
+      "translateList": [
+        {
+          "label": "Unusual",
+          "isCorrect": true
+        },
+        {
+          "label": "Common",
+          "isCorrect": false
+        },
+        {
+          "label": "Normal",
+          "isCorrect": false
+        },
+        {
+          "label": "Expected",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Unwilling",
+      "translate": "İsteksiz",
+      "quiz": "He seemed .... to talk about the issue.",
+      "quizTranslate": "Konu hakkında konuşmaya isteksiz görünüyordu.",
+      "translateList": [
+        {
+          "label": "Unwilling",
+          "isCorrect": true
+        },
+        {
+          "label": "Eager",
+          "isCorrect": false
+        },
+        {
+          "label": "Excited",
+          "isCorrect": false
+        },
+        {
+          "label": "Interested",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Upon",
+      "translate": "Üzerine",
+      "quiz": "He placed the book .... the table.",
+      "quizTranslate": "Kitabı masanın üzerine koydu.",
+      "translateList": [
+        {
+          "label": "Upon",
+          "isCorrect": true
+        },
+        {
+          "label": "Under",
+          "isCorrect": false
+        },
+        {
+          "label": "Next to",
+          "isCorrect": false
+        },
+        {
+          "label": "Inside",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Upper",
+      "translate": "Üst, üstteki",
+      "quiz": "She lives in the .... part of the city.",
+      "quizTranslate": "O, şehrin üst bölgesinde yaşıyor.",
+      "translateList": [
+        {
+          "label": "Upper",
+          "isCorrect": true
+        },
+        {
+          "label": "Lower",
+          "isCorrect": false
+        },
+        {
+          "label": "Middle",
+          "isCorrect": false
+        },
+        {
+          "label": "Central",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Upset",
+      "translate": "Üzgün, rahatsız",
+      "quiz": "She was very .... about the news.",
+      "quizTranslate": "Haber hakkında çok üzgündü.",
+      "translateList": [
+        {
+          "label": "Upset",
+          "isCorrect": true
+        },
+        {
+          "label": "Happy",
+          "isCorrect": false
+        },
+        {
+          "label": "Excited",
+          "isCorrect": false
+        },
+        {
+          "label": "Relaxed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Upward",
+      "translate": "Yukarı doğru",
+      "quiz": "The smoke rose .... into the sky.",
+      "quizTranslate": "Duman yukarı doğru gökyüzüne yükseldi.",
+      "translateList": [
+        {
+          "label": "Upward",
+          "isCorrect": true
+        },
+        {
+          "label": "Downward",
+          "isCorrect": false
+        },
+        {
+          "label": "Sideways",
+          "isCorrect": false
+        },
+        {
+          "label": "Backward",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Urban",
+      "translate": "Kentsel",
+      "quiz": "The government is planning an .... development project.",
+      "quizTranslate": "Hükümet, kentsel bir gelişim projesi planlıyor.",
+      "translateList": [
+        {
+          "label": "Urban",
+          "isCorrect": true
+        },
+        {
+          "label": "Rural",
+          "isCorrect": false
+        },
+        {
+          "label": "Agricultural",
+          "isCorrect": false
+        },
+        {
+          "label": "Natural",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "User",
+      "translate": "Kullanıcı",
+      "quiz": "Each .... has a unique password.",
+      "quizTranslate": "Her kullanıcının benzersiz bir şifresi vardır.",
+      "translateList": [
+        {
+          "label": "User",
+          "isCorrect": true
+        },
+        {
+          "label": "Customer",
+          "isCorrect": false
+        },
+        {
+          "label": "Member",
+          "isCorrect": false
+        },
+        {
+          "label": "Owner",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Usual",
+      "translate": "Alışılmış, sıradan",
+      "quiz": "He arrived home at his .... time.",
+      "quizTranslate": "Eve her zamanki saatinde geldi.",
+      "translateList": [
+        {
+          "label": "Usual",
+          "isCorrect": true
+        },
+        {
+          "label": "Strange",
+          "isCorrect": false
+        },
+        {
+          "label": "Different",
+          "isCorrect": false
+        },
+        {
+          "label": "Rare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Usually",
+      "translate": "Genellikle, çoğunlukla",
+      "quiz": "I .... wake up at 7 AM.",
+      "quizTranslate": "Genellikle sabah 7'de uyanırım.",
+      "translateList": [
+        {
+          "label": "Usually",
+          "isCorrect": true
+        },
+        {
+          "label": "Sometimes",
+          "isCorrect": false
+        },
+        {
+          "label": "Rarely",
+          "isCorrect": false
+        },
+        {
+          "label": "Never",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Valley",
+      "translate": "Vadi",
+      "quiz": "The river runs through the ....",
+      "quizTranslate": "Nehir vadi boyunca akar.",
+      "translateList": [
+        {
+          "label": "Valley",
+          "isCorrect": true
+        },
+        {
+          "label": "Mountain",
+          "isCorrect": false
+        },
+        {
+          "label": "Forest",
+          "isCorrect": false
+        },
+        {
+          "label": "Hill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Value",
+      "translate": "Değer, kıymet",
+      "quiz": "The .... of gold has increased.",
+      "quizTranslate": "Altının değeri arttı.",
+      "translateList": [
+        {
+          "label": "Value",
+          "isCorrect": true
+        },
+        {
+          "label": "Price",
+          "isCorrect": false
+        },
+        {
+          "label": "Amount",
+          "isCorrect": false
+        },
+        {
+          "label": "Weight",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Vacation",
       "translate": "Tatil",
       "quiz": "We are planning a ....",
@@ -28988,6 +35447,30 @@
         },
         {
           "label": "Grain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Village",
+      "translate": "Köy",
+      "quiz": "He grew up in a small ....",
+      "quizTranslate": "O, küçük bir köyde büyüdü.",
+      "translateList": [
+        {
+          "label": "Village",
+          "isCorrect": true
+        },
+        {
+          "label": "City",
+          "isCorrect": false
+        },
+        {
+          "label": "Town",
+          "isCorrect": false
+        },
+        {
+          "label": "Country",
           "isCorrect": false
         }
       ]
@@ -29041,6 +35524,78 @@
       ]
     },
     {
+      "word": "Virus",
+      "translate": "Virüs",
+      "quiz": "The computer was infected with a ....",
+      "quizTranslate": "Bilgisayar bir virüsle enfekte oldu.",
+      "translateList": [
+        {
+          "label": "Virus",
+          "isCorrect": true
+        },
+        {
+          "label": "Bacteria",
+          "isCorrect": false
+        },
+        {
+          "label": "Germ",
+          "isCorrect": false
+        },
+        {
+          "label": "Illness",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wait",
+      "translate": "Beklemek",
+      "quiz": "Please .... here for a moment.",
+      "quizTranslate": "Lütfen burada bir dakika bekleyin.",
+      "translateList": [
+        {
+          "label": "Wait",
+          "isCorrect": true
+        },
+        {
+          "label": "Run",
+          "isCorrect": false
+        },
+        {
+          "label": "Sit",
+          "isCorrect": false
+        },
+        {
+          "label": "Move",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Waiter",
+      "translate": "Garson",
+      "quiz": "The .... took our order quickly.",
+      "quizTranslate": "Garson siparişimizi hızlıca aldı.",
+      "translateList": [
+        {
+          "label": "Waiter",
+          "isCorrect": true
+        },
+        {
+          "label": "Cook",
+          "isCorrect": false
+        },
+        {
+          "label": "Cashier",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Walk",
       "translate": "Yürümek",
       "quiz": "I .... to work every day.",
@@ -29089,6 +35644,174 @@
       ]
     },
     {
+      "word": "Wake",
+      "translate": "Uyanmak",
+      "quiz": "I usually .... up at 7 AM.",
+      "quizTranslate": "Genellikle sabah 7'de uyanırım.",
+      "translateList": [
+        {
+          "label": "Wake",
+          "isCorrect": true
+        },
+        {
+          "label": "Sleep",
+          "isCorrect": false
+        },
+        {
+          "label": "Stay",
+          "isCorrect": false
+        },
+        {
+          "label": "Run",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wall",
+      "translate": "Duvar",
+      "quiz": "There is a picture on the ....",
+      "quizTranslate": "Duvarın üzerinde bir resim var.",
+      "translateList": [
+        {
+          "label": "Wall",
+          "isCorrect": true
+        },
+        {
+          "label": "Floor",
+          "isCorrect": false
+        },
+        {
+          "label": "Ceiling",
+          "isCorrect": false
+        },
+        {
+          "label": "Window",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "War",
+      "translate": "Savaş",
+      "quiz": "Many people suffered during the ....",
+      "quizTranslate": "Birçok insan savaş sırasında acı çekti.",
+      "translateList": [
+        {
+          "label": "War",
+          "isCorrect": true
+        },
+        {
+          "label": "Peace",
+          "isCorrect": false
+        },
+        {
+          "label": "Game",
+          "isCorrect": false
+        },
+        {
+          "label": "Travel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Warm",
+      "translate": "Sıcak, ılık",
+      "quiz": "The weather is very .... today.",
+      "quizTranslate": "Hava bugün çok sıcak.",
+      "translateList": [
+        {
+          "label": "Warm",
+          "isCorrect": true
+        },
+        {
+          "label": "Cold",
+          "isCorrect": false
+        },
+        {
+          "label": "Freezing",
+          "isCorrect": false
+        },
+        {
+          "label": "Hot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wash",
+      "translate": "Yıkamak",
+      "quiz": "I need to .... my hands before eating.",
+      "quizTranslate": "Yemek yemeden önce ellerimi yıkamam gerekiyor.",
+      "translateList": [
+        {
+          "label": "Wash",
+          "isCorrect": true
+        },
+        {
+          "label": "Dry",
+          "isCorrect": false
+        },
+        {
+          "label": "Shake",
+          "isCorrect": false
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Watch",
+      "translate": "İzlemek, saat",
+      "quiz": "She likes to .... movies at night.",
+      "quizTranslate": "O, geceleri film izlemeyi sever.",
+      "translateList": [
+        {
+          "label": "Watch",
+          "isCorrect": true
+        },
+        {
+          "label": "Read",
+          "isCorrect": false
+        },
+        {
+          "label": "Listen",
+          "isCorrect": false
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Way",
+      "translate": "Yol, yöntem",
+      "quiz": "Can you show me the .... to the station?",
+      "quizTranslate": "Bana istasyona giden yolu gösterebilir misin?",
+      "translateList": [
+        {
+          "label": "Way",
+          "isCorrect": true
+        },
+        {
+          "label": "Road",
+          "isCorrect": false
+        },
+        {
+          "label": "Path",
+          "isCorrect": false
+        },
+        {
+          "label": "Street",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Window",
       "translate": "Pencere",
       "quiz": "The .... is open.",
@@ -29132,6 +35855,846 @@
         },
         {
           "label": "Desire",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wear",
+      "translate": "Giymek, takmak",
+      "quiz": "She likes to .... colorful dresses.",
+      "quizTranslate": "O, renkli elbiseler giymeyi sever.",
+      "translateList": [
+        {
+          "label": "Wear",
+          "isCorrect": true
+        },
+        {
+          "label": "Take",
+          "isCorrect": false
+        },
+        {
+          "label": "Buy",
+          "isCorrect": false
+        },
+        {
+          "label": "Sell",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Weather",
+      "translate": "Hava durumu",
+      "quiz": "The .... is very cold today.",
+      "quizTranslate": "Bugün hava çok soğuk.",
+      "translateList": [
+        {
+          "label": "Weather",
+          "isCorrect": true
+        },
+        {
+          "label": "Temperature",
+          "isCorrect": false
+        },
+        {
+          "label": "Wind",
+          "isCorrect": false
+        },
+        {
+          "label": "Storm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Website",
+      "translate": "İnternet sitesi",
+      "quiz": "I found the information on their ....",
+      "quizTranslate": "Bilgiyi onların internet sitesinde buldum.",
+      "translateList": [
+        {
+          "label": "Website",
+          "isCorrect": true
+        },
+        {
+          "label": "Book",
+          "isCorrect": false
+        },
+        {
+          "label": "Newspaper",
+          "isCorrect": false
+        },
+        {
+          "label": "Library",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wedding",
+      "translate": "Düğün",
+      "quiz": "They are planning their .... next year.",
+      "quizTranslate": "Gelecek yıl düğünlerini planlıyorlar.",
+      "translateList": [
+        {
+          "label": "Wedding",
+          "isCorrect": true
+        },
+        {
+          "label": "Birthday",
+          "isCorrect": false
+        },
+        {
+          "label": "Holiday",
+          "isCorrect": false
+        },
+        {
+          "label": "Anniversary",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wednesday",
+      "translate": "Çarşamba",
+      "quiz": "The meeting is on ....",
+      "quizTranslate": "Toplantı çarşamba günü.",
+      "translateList": [
+        {
+          "label": "Wednesday",
+          "isCorrect": true
+        },
+        {
+          "label": "Monday",
+          "isCorrect": false
+        },
+        {
+          "label": "Friday",
+          "isCorrect": false
+        },
+        {
+          "label": "Sunday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Week",
+      "translate": "Hafta",
+      "quiz": "I work five days a ....",
+      "quizTranslate": "Haftada beş gün çalışıyorum.",
+      "translateList": [
+        {
+          "label": "Week",
+          "isCorrect": true
+        },
+        {
+          "label": "Month",
+          "isCorrect": false
+        },
+        {
+          "label": "Day",
+          "isCorrect": false
+        },
+        {
+          "label": "Year",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Weekend",
+      "translate": "Hafta sonu",
+      "quiz": "What are you doing this ....?",
+      "quizTranslate": "Bu hafta sonu ne yapıyorsun?",
+      "translateList": [
+        {
+          "label": "Weekend",
+          "isCorrect": true
+        },
+        {
+          "label": "Holiday",
+          "isCorrect": false
+        },
+        {
+          "label": "Vacation",
+          "isCorrect": false
+        },
+        {
+          "label": "Weekday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Weekly",
+      "translate": "Haftalık",
+      "quiz": "She writes a .... report.",
+      "quizTranslate": "O, haftalık bir rapor yazıyor.",
+      "translateList": [
+        {
+          "label": "Weekly",
+          "isCorrect": true
+        },
+        {
+          "label": "Daily",
+          "isCorrect": false
+        },
+        {
+          "label": "Monthly",
+          "isCorrect": false
+        },
+        {
+          "label": "Yearly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Weigh",
+      "translate": "Tartmak, ağırlığında olmak",
+      "quiz": "She needs to .... the ingredients.",
+      "quizTranslate": "O, malzemeleri tartması gerekiyor.",
+      "translateList": [
+        {
+          "label": "Weigh",
+          "isCorrect": true
+        },
+        {
+          "label": "Count",
+          "isCorrect": false
+        },
+        {
+          "label": "Measure",
+          "isCorrect": false
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Welcome",
+      "translate": "Hoş geldiniz, karşılamak",
+      "quiz": "They gave us a warm ....",
+      "quizTranslate": "Bize sıcak bir hoş geldiniz dediler.",
+      "translateList": [
+        {
+          "label": "Welcome",
+          "isCorrect": true
+        },
+        {
+          "label": "Goodbye",
+          "isCorrect": false
+        },
+        {
+          "label": "Thanks",
+          "isCorrect": false
+        },
+        {
+          "label": "Hello",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Well",
+      "translate": "İyi, oldukça",
+      "quiz": "She sings very ....",
+      "quizTranslate": "O, çok iyi şarkı söyler.",
+      "translateList": [
+        {
+          "label": "Well",
+          "isCorrect": true
+        },
+        {
+          "label": "Badly",
+          "isCorrect": false
+        },
+        {
+          "label": "Loudly",
+          "isCorrect": false
+        },
+        {
+          "label": "Slowly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "West",
+      "translate": "Batı",
+      "quiz": "The sun sets in the ....",
+      "quizTranslate": "Güneş batıda batar.",
+      "translateList": [
+        {
+          "label": "West",
+          "isCorrect": true
+        },
+        {
+          "label": "East",
+          "isCorrect": false
+        },
+        {
+          "label": "North",
+          "isCorrect": false
+        },
+        {
+          "label": "South",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Western",
+      "translate": "Batıya ait, batılı",
+      "quiz": "She prefers .... culture.",
+      "quizTranslate": "O, batı kültürünü tercih ediyor.",
+      "translateList": [
+        {
+          "label": "Western",
+          "isCorrect": true
+        },
+        {
+          "label": "Eastern",
+          "isCorrect": false
+        },
+        {
+          "label": "Southern",
+          "isCorrect": false
+        },
+        {
+          "label": "Northern",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wet",
+      "translate": "Islak",
+      "quiz": "Her hair is still ....",
+      "quizTranslate": "Onun saçı hâlâ ıslak.",
+      "translateList": [
+        {
+          "label": "Wet",
+          "isCorrect": true
+        },
+        {
+          "label": "Dry",
+          "isCorrect": false
+        },
+        {
+          "label": "Soft",
+          "isCorrect": false
+        },
+        {
+          "label": "Hard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "What",
+      "translate": "Ne",
+      "quiz": ".... is your name?",
+      "quizTranslate": "Adın ne?",
+      "translateList": [
+        {
+          "label": "What",
+          "isCorrect": true
+        },
+        {
+          "label": "Where",
+          "isCorrect": false
+        },
+        {
+          "label": "Who",
+          "isCorrect": false
+        },
+        {
+          "label": "When",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wheel",
+      "translate": "Tekerlek",
+      "quiz": "The car has four ....",
+      "quizTranslate": "Arabanın dört tekerleği var.",
+      "translateList": [
+        {
+          "label": "Wheels",
+          "isCorrect": true
+        },
+        {
+          "label": "Doors",
+          "isCorrect": false
+        },
+        {
+          "label": "Windows",
+          "isCorrect": false
+        },
+        {
+          "label": "Lights",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "When",
+      "translate": "Ne zaman",
+      "quiz": ".... will you come?",
+      "quizTranslate": "Ne zaman geleceksin?",
+      "translateList": [
+        {
+          "label": "When",
+          "isCorrect": true
+        },
+        {
+          "label": "Where",
+          "isCorrect": false
+        },
+        {
+          "label": "What",
+          "isCorrect": false
+        },
+        {
+          "label": "Who",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Where",
+      "translate": "Nerede",
+      "quiz": ".... do you live?",
+      "quizTranslate": "Nerede yaşıyorsun?",
+      "translateList": [
+        {
+          "label": "Where",
+          "isCorrect": true
+        },
+        {
+          "label": "Who",
+          "isCorrect": false
+        },
+        {
+          "label": "What",
+          "isCorrect": false
+        },
+        {
+          "label": "Why",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Whether",
+      "translate": "Olup olmadığı",
+      "quiz": "I don't know .... he will come.",
+      "quizTranslate": "Onun gelip gelmeyeceğini bilmiyorum.",
+      "translateList": [
+        {
+          "label": "Whether",
+          "isCorrect": true
+        },
+        {
+          "label": "If",
+          "isCorrect": false
+        },
+        {
+          "label": "When",
+          "isCorrect": false
+        },
+        {
+          "label": "Since",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Weight",
+      "translate": "Ağırlık",
+      "quiz": "She lost a lot of .... last year.",
+      "quizTranslate": "Geçen yıl çok kilo verdi.",
+      "translateList": [
+        {
+          "label": "Weight",
+          "isCorrect": true
+        },
+        {
+          "label": "Height",
+          "isCorrect": false
+        },
+        {
+          "label": "Strength",
+          "isCorrect": false
+        },
+        {
+          "label": "Speed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Which",
+      "translate": "Hangi",
+      "quiz": ".... color do you like best?",
+      "quizTranslate": "Hangi rengi en çok seviyorsun?",
+      "translateList": [
+        {
+          "label": "Which",
+          "isCorrect": true
+        },
+        {
+          "label": "Who",
+          "isCorrect": false
+        },
+        {
+          "label": "What",
+          "isCorrect": false
+        },
+        {
+          "label": "Where",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "While",
+      "translate": "İken, sırasında",
+      "quiz": "She was reading .... I was cooking.",
+      "quizTranslate": "Ben yemek yaparken o kitap okuyordu.",
+      "translateList": [
+        {
+          "label": "While",
+          "isCorrect": true
+        },
+        {
+          "label": "When",
+          "isCorrect": false
+        },
+        {
+          "label": "Before",
+          "isCorrect": false
+        },
+        {
+          "label": "After",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "White",
+      "translate": "Beyaz",
+      "quiz": "She bought a .... dress.",
+      "quizTranslate": "O, beyaz bir elbise aldı.",
+      "translateList": [
+        {
+          "label": "White",
+          "isCorrect": true
+        },
+        {
+          "label": "Black",
+          "isCorrect": false
+        },
+        {
+          "label": "Red",
+          "isCorrect": false
+        },
+        {
+          "label": "Blue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Who",
+      "translate": "Kim",
+      "quiz": ".... is your best friend?",
+      "quizTranslate": "En iyi arkadaşın kim?",
+      "translateList": [
+        {
+          "label": "Who",
+          "isCorrect": true
+        },
+        {
+          "label": "What",
+          "isCorrect": false
+        },
+        {
+          "label": "Which",
+          "isCorrect": false
+        },
+        {
+          "label": "Where",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Whole",
+      "translate": "Bütün, tüm",
+      "quiz": "I spent the .... day studying.",
+      "quizTranslate": "Bütün günü ders çalışarak geçirdim.",
+      "translateList": [
+        {
+          "label": "Whole",
+          "isCorrect": true
+        },
+        {
+          "label": "Half",
+          "isCorrect": false
+        },
+        {
+          "label": "Little",
+          "isCorrect": false
+        },
+        {
+          "label": "Small",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Whose",
+      "translate": "Kimin",
+      "quiz": ".... book is this?",
+      "quizTranslate": "Bu kimin kitabı?",
+      "translateList": [
+        {
+          "label": "Whose",
+          "isCorrect": true
+        },
+        {
+          "label": "Who",
+          "isCorrect": false
+        },
+        {
+          "label": "Which",
+          "isCorrect": false
+        },
+        {
+          "label": "What",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Why",
+      "translate": "Neden",
+      "quiz": ".... are you late?",
+      "quizTranslate": "Neden geç kaldın?",
+      "translateList": [
+        {
+          "label": "Why",
+          "isCorrect": true
+        },
+        {
+          "label": "When",
+          "isCorrect": false
+        },
+        {
+          "label": "Where",
+          "isCorrect": false
+        },
+        {
+          "label": "What",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wide",
+      "translate": "Geniş",
+      "quiz": "The river is very .... here.",
+      "quizTranslate": "Nehir burada çok geniş.",
+      "translateList": [
+        {
+          "label": "Wide",
+          "isCorrect": true
+        },
+        {
+          "label": "Narrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Short",
+          "isCorrect": false
+        },
+        {
+          "label": "Small",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wife",
+      "translate": "Eş, hanım",
+      "quiz": "His .... is a doctor.",
+      "quizTranslate": "Onun eşi bir doktordur.",
+      "translateList": [
+        {
+          "label": "Wife",
+          "isCorrect": true
+        },
+        {
+          "label": "Husband",
+          "isCorrect": false
+        },
+        {
+          "label": "Mother",
+          "isCorrect": false
+        },
+        {
+          "label": "Sister",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Win",
+      "translate": "Kazanmak",
+      "quiz": "He wants to .... the game.",
+      "quizTranslate": "O, oyunu kazanmak istiyor.",
+      "translateList": [
+        {
+          "label": "Win",
+          "isCorrect": true
+        },
+        {
+          "label": "Lose",
+          "isCorrect": false
+        },
+        {
+          "label": "Try",
+          "isCorrect": false
+        },
+        {
+          "label": "Play",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wine",
+      "translate": "Şarap",
+      "quiz": "Would you like a glass of ....?",
+      "quizTranslate": "Bir bardak şarap ister misiniz?",
+      "translateList": [
+        {
+          "label": "Wine",
+          "isCorrect": true
+        },
+        {
+          "label": "Water",
+          "isCorrect": false
+        },
+        {
+          "label": "Juice",
+          "isCorrect": false
+        },
+        {
+          "label": "Milk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Winter",
+      "translate": "Kış",
+      "quiz": "It usually snows in ....",
+      "quizTranslate": "Genellikle kışın kar yağar.",
+      "translateList": [
+        {
+          "label": "Winter",
+          "isCorrect": true
+        },
+        {
+          "label": "Summer",
+          "isCorrect": false
+        },
+        {
+          "label": "Spring",
+          "isCorrect": false
+        },
+        {
+          "label": "Autumn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "With",
+      "translate": "İle, birlikte",
+      "quiz": "She went to the party .... her friends.",
+      "quizTranslate": "O, partiye arkadaşlarıyla gitti.",
+      "translateList": [
+        {
+          "label": "With",
+          "isCorrect": true
+        },
+        {
+          "label": "Without",
+          "isCorrect": false
+        },
+        {
+          "label": "Near",
+          "isCorrect": false
+        },
+        {
+          "label": "From",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Within",
+      "translate": "İçinde, dahilinde",
+      "quiz": "The package will arrive .... three days.",
+      "quizTranslate": "Paket üç gün içinde ulaşacak.",
+      "translateList": [
+        {
+          "label": "Within",
+          "isCorrect": true
+        },
+        {
+          "label": "Outside",
+          "isCorrect": false
+        },
+        {
+          "label": "Beyond",
+          "isCorrect": false
+        },
+        {
+          "label": "Over",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Without",
+      "translate": "Olmadan, -sız",
+      "quiz": "He left .... saying goodbye.",
+      "quizTranslate": "O, veda etmeden ayrıldı.",
+      "translateList": [
+        {
+          "label": "Without",
+          "isCorrect": true
+        },
+        {
+          "label": "With",
+          "isCorrect": false
+        },
+        {
+          "label": "After",
+          "isCorrect": false
+        },
+        {
+          "label": "Before",
           "isCorrect": false
         }
       ]
@@ -29209,6 +36772,150 @@
       ]
     },
     {
+      "word": "Word",
+      "translate": "Kelime",
+      "quiz": "Can you spell this ....?",
+      "quizTranslate": "Bu kelimeyi heceleyebilir misin?",
+      "translateList": [
+        {
+          "label": "Word",
+          "isCorrect": true
+        },
+        {
+          "label": "Letter",
+          "isCorrect": false
+        },
+        {
+          "label": "Sentence",
+          "isCorrect": false
+        },
+        {
+          "label": "Book",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Worker",
+      "translate": "İşçi, çalışan",
+      "quiz": "He is a factory ....",
+      "quizTranslate": "O, bir fabrika işçisidir.",
+      "translateList": [
+        {
+          "label": "Worker",
+          "isCorrect": true
+        },
+        {
+          "label": "Teacher",
+          "isCorrect": false
+        },
+        {
+          "label": "Doctor",
+          "isCorrect": false
+        },
+        {
+          "label": "Driver",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "World",
+      "translate": "Dünya",
+      "quiz": "She wants to travel around the ....",
+      "quizTranslate": "O, dünyayı gezmek istiyor.",
+      "translateList": [
+        {
+          "label": "World",
+          "isCorrect": true
+        },
+        {
+          "label": "Country",
+          "isCorrect": false
+        },
+        {
+          "label": "City",
+          "isCorrect": false
+        },
+        {
+          "label": "Village",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Worry",
+      "translate": "Endişelenmek",
+      "quiz": "Don’t ...., everything will be fine.",
+      "quizTranslate": "Endişelenme, her şey yoluna girecek.",
+      "translateList": [
+        {
+          "label": "Worry",
+          "isCorrect": true
+        },
+        {
+          "label": "Relax",
+          "isCorrect": false
+        },
+        {
+          "label": "Forget",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Worse",
+      "translate": "Daha kötü",
+      "quiz": "The weather is getting ....",
+      "quizTranslate": "Hava gittikçe daha kötü oluyor.",
+      "translateList": [
+        {
+          "label": "Worse",
+          "isCorrect": true
+        },
+        {
+          "label": "Better",
+          "isCorrect": false
+        },
+        {
+          "label": "Same",
+          "isCorrect": false
+        },
+        {
+          "label": "Different",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Worst",
+      "translate": "En kötü",
+      "quiz": "That was the .... day of my life!",
+      "quizTranslate": "Bu hayatımın en kötü günüydü!",
+      "translateList": [
+        {
+          "label": "Worst",
+          "isCorrect": true
+        },
+        {
+          "label": "Best",
+          "isCorrect": false
+        },
+        {
+          "label": "Normal",
+          "isCorrect": false
+        },
+        {
+          "label": "Happy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Year",
       "translate": "Yıl",
       "quiz": "This .... is very important for me.",
@@ -29252,6 +36959,246 @@
         },
         {
           "label": "Green",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Write",
+      "translate": "Yazmak",
+      "quiz": "Can you .... your name here?",
+      "quizTranslate": "Adını buraya yazabilir misin?",
+      "translateList": [
+        {
+          "label": "Write",
+          "isCorrect": true
+        },
+        {
+          "label": "Read",
+          "isCorrect": false
+        },
+        {
+          "label": "Speak",
+          "isCorrect": false
+        },
+        {
+          "label": "Draw",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Writer",
+      "translate": "Yazar",
+      "quiz": "She is a famous ....",
+      "quizTranslate": "O, ünlü bir yazardır.",
+      "translateList": [
+        {
+          "label": "Writer",
+          "isCorrect": true
+        },
+        {
+          "label": "Reader",
+          "isCorrect": false
+        },
+        {
+          "label": "Singer",
+          "isCorrect": false
+        },
+        {
+          "label": "Painter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wrong",
+      "translate": "Yanlış",
+      "quiz": "Your answer is ....",
+      "quizTranslate": "Cevabın yanlış.",
+      "translateList": [
+        {
+          "label": "Wrong",
+          "isCorrect": true
+        },
+        {
+          "label": "Correct",
+          "isCorrect": false
+        },
+        {
+          "label": "Fast",
+          "isCorrect": false
+        },
+        {
+          "label": "Late",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Yard",
+      "translate": "Avlu, bahçe",
+      "quiz": "The children are playing in the ....",
+      "quizTranslate": "Çocuklar avluda oynuyor.",
+      "translateList": [
+        {
+          "label": "Yard",
+          "isCorrect": true
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        },
+        {
+          "label": "Kitchen",
+          "isCorrect": false
+        },
+        {
+          "label": "Garage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Yesterday",
+      "translate": "Dün",
+      "quiz": "I saw her ....",
+      "quizTranslate": "Onu dün gördüm.",
+      "translateList": [
+        {
+          "label": "Yesterday",
+          "isCorrect": true
+        },
+        {
+          "label": "Today",
+          "isCorrect": false
+        },
+        {
+          "label": "Tomorrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Soon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Yet",
+      "translate": "Henüz, fakat",
+      "quiz": "I haven't finished my homework ....",
+      "quizTranslate": "Ödevimi henüz bitirmedim.",
+      "translateList": [
+        {
+          "label": "Yet",
+          "isCorrect": true
+        },
+        {
+          "label": "Already",
+          "isCorrect": false
+        },
+        {
+          "label": "Soon",
+          "isCorrect": false
+        },
+        {
+          "label": "Still",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Young",
+      "translate": "Genç",
+      "quiz": "She is too .... to drive a car.",
+      "quizTranslate": "O, araba kullanmak için çok genç.",
+      "translateList": [
+        {
+          "label": "Young",
+          "isCorrect": true
+        },
+        {
+          "label": "Old",
+          "isCorrect": false
+        },
+        {
+          "label": "Tall",
+          "isCorrect": false
+        },
+        {
+          "label": "Short",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Yourself",
+      "translate": "Kendin",
+      "quiz": "Look at .... in the mirror.",
+      "quizTranslate": "Kendine aynada bak.",
+      "translateList": [
+        {
+          "label": "Yourself",
+          "isCorrect": true
+        },
+        {
+          "label": "Myself",
+          "isCorrect": false
+        },
+        {
+          "label": "Himself",
+          "isCorrect": false
+        },
+        {
+          "label": "Herself",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Youth",
+      "translate": "Gençlik",
+      "quiz": "He spent his .... in this town.",
+      "quizTranslate": "Gençliğini bu kasabada geçirdi.",
+      "translateList": [
+        {
+          "label": "Youth",
+          "isCorrect": true
+        },
+        {
+          "label": "Childhood",
+          "isCorrect": false
+        },
+        {
+          "label": "Old age",
+          "isCorrect": false
+        },
+        {
+          "label": "Retirement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Zero",
+      "translate": "Sıfır",
+      "quiz": "The temperature dropped to .... degrees.",
+      "quizTranslate": "Sıcaklık sıfır dereceye düştü.",
+      "translateList": [
+        {
+          "label": "Zero",
+          "isCorrect": true
+        },
+        {
+          "label": "One",
+          "isCorrect": false
+        },
+        {
+          "label": "Ten",
+          "isCorrect": false
+        },
+        {
+          "label": "Hundred",
           "isCorrect": false
         }
       ]

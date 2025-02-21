@@ -49,6 +49,30 @@
       ]
     },
     {
+      "word": "Adjust",
+      "translate": "Ayarlamak",
+      "quiz": "You need to .... the seat before driving.",
+      "quizTranslate": "Araba kullanmadan önce koltuğu ayarlaman gerekiyor.",
+      "translateList": [
+        {
+          "label": "Adjust",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Destroy",
+          "isCorrect": false
+        },
+        {
+          "label": "Remove",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Adequate",
       "translate": "Yeterli, uygun, elverişli",
       "quiz": "The resources provided are .... for completing the project.",
@@ -3073,6 +3097,30 @@
       ]
     },
     {
+      "word": "Substance",
+      "translate": "Madde",
+      "quiz": "Water is an essential .... for life.",
+      "quizTranslate": "Su, yaşam için temel bir maddedir.",
+      "translateList": [
+        {
+          "label": "Substance",
+          "isCorrect": true
+        },
+        {
+          "label": "Material",
+          "isCorrect": false
+        },
+        {
+          "label": "Liquid",
+          "isCorrect": false
+        },
+        {
+          "label": "Element",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Sustain",
       "translate": "Sürdürmek",
       "quiz": "Efficient energy use is crucial to .... the environment.",
@@ -3092,6 +3140,102 @@
         },
         {
           "label": "Disrupt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Suck",
+      "translate": "Emmek / Berbat olmak",
+      "quiz": "The baby loves to .... his thumb.",
+      "quizTranslate": "Bebek başparmağını emmeyi seviyor.",
+      "translateList": [
+        {
+          "label": "Suck",
+          "isCorrect": true
+        },
+        {
+          "label": "Bite",
+          "isCorrect": false
+        },
+        {
+          "label": "Chew",
+          "isCorrect": false
+        },
+        {
+          "label": "Lick",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Superior",
+      "translate": "Üstün",
+      "quiz": "This product is .... to the others in quality.",
+      "quizTranslate": "Bu ürün, kalite açısından diğerlerinden üstündür.",
+      "translateList": [
+        {
+          "label": "Superior",
+          "isCorrect": true
+        },
+        {
+          "label": "Inferior",
+          "isCorrect": false
+        },
+        {
+          "label": "Similar",
+          "isCorrect": false
+        },
+        {
+          "label": "Ordinary",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swearing",
+      "translate": "Küfür etme",
+      "quiz": ".... is not allowed in the classroom.",
+      "quizTranslate": "Sınıfta küfür etmek yasaktır.",
+      "translateList": [
+        {
+          "label": "Swearing",
+          "isCorrect": true
+        },
+        {
+          "label": "Shouting",
+          "isCorrect": false
+        },
+        {
+          "label": "Speaking",
+          "isCorrect": false
+        },
+        {
+          "label": "Talking",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swollen",
+      "translate": "Şişmiş",
+      "quiz": "His eyes were .... after crying all night.",
+      "quizTranslate": "Bütün gece ağladıktan sonra gözleri şişmişti.",
+      "translateList": [
+        {
+          "label": "Swollen",
+          "isCorrect": true
+        },
+        {
+          "label": "Dry",
+          "isCorrect": false
+        },
+        {
+          "label": "Closed",
+          "isCorrect": false
+        },
+        {
+          "label": "Red",
           "isCorrect": false
         }
       ]
