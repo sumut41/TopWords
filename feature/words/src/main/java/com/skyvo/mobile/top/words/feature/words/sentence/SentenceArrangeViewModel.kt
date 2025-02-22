@@ -101,29 +101,27 @@ class SentenceArrangeViewModel @Inject constructor(
         // Seçilen kelimeleri orijinal sırasında tut
         val correctWords = selectedIndices.map { allWords[it] }
         
-        // Boşlukların sırasını karıştır
-        val shuffledSelectedIndices = selectedIndices.shuffled()
-        
         // Görüntülenecek kelimeleri hazırla, noktalama işaretlerini koru
         val displayWords = sentence.split(" ").mapIndexed { index, word ->
             if (index in selectedIndices) "" else word
         }
 
-        // Boşlukların karışık sırasına göre kelime-pozisyon eşleştirmesini yap
-        val shuffledWordToPositionMap = correctWords.mapIndexed { index, word ->
-            word to shuffledSelectedIndices.indexOf(selectedIndices[index])
+        // Kutucukları karıştır ve pozisyon eşleştirmesini yap
+        val shuffledWords = correctWords.shuffled()
+        val wordToPositionMap = shuffledWords.mapIndexed { index, word ->
+            word to correctWords.indexOf(word)
         }.toMap()
 
         setState {
             copy(
                 originalSentence = sentence,
                 displayWords = displayWords,
-                wordList = correctWords.shuffled(),
+                wordList = shuffledWords,  // Karıştırılmış kelimeler
                 filledWords = MutableList(correctWords.size) { null },
                 correctOrder = correctWords,
-                selectedIndices = shuffledSelectedIndices,  // Karıştırılmış sırayı kullan
+                selectedIndices = selectedIndices,
                 selectedWords = emptySet(),
-                wordToPositionMap = shuffledWordToPositionMap  // Karıştırılmış eşleştirmeyi kullan
+                wordToPositionMap = wordToPositionMap
             )
         }
     }

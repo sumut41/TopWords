@@ -237,7 +237,7 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                         verticalArrangement = Arrangement.spacedBy(8.dp),
                         maxItemsInEachRow = 4
                     ) {
-                        state.wordList.sortedBy { state.wordToPositionMap[it] }.forEach { word ->
+                        state.wordList.shuffled().forEach { word ->
                             if (!state.selectedWords.contains(word)) {
                                 Box(
                                     modifier = Modifier
