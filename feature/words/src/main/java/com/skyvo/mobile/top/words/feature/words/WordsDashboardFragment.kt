@@ -203,7 +203,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                     )
 
                                     AppPrimarySmallButton(
-                                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.continue_button),
+                                        text = if ((state.currentCourse?.progress ?: 0f) == 0f) {
+                                            stringResource(id = com.skyvo.mobile.core.resource.R.string.lets_go_button)
+                                        } else {
+                                            stringResource(id = com.skyvo.mobile.core.resource.R.string.continue_button)
+                                        },
                                         modifier = Modifier
                                             .fillMaxWidth()
                                             .padding(

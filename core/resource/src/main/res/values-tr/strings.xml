@@ -5,6 +5,7 @@
     <string name="intro_second_title">Kitaplarla kolayca dil öğrenin</string>
     <string name="intro_second_description">Paralel çeviriyle kısa hikayeleri orijinal dillerinde okuyun ve öğrenin</string>
     <string name="intro_get_start_button">Hemen Başla</string>
+    <string name="lets_go_button">Hemen Başla</string>
     <string name="intro_next_button">İleri</string>
     <string name="continue_button">Devam Et</string>
     <string name="close_button">Kapat</string>
@@ -47,7 +48,7 @@
     <string name="about_us_book_label_second">✔ Öğrendiğin kelimelerin kullanımını gör</string>
     <string name="about_us_book_label_third">✔ Yeni kelimeler öğrenmeye hazır ol</string>
     <string name="flash_card_title">Bu kelimeyi ne kadar iyi hatırlıyorsun?</string>
-    <string name="not_much">Biraz</string>
+    <string name="not_much">Bilmiyorum</string>
     <string name="i_know">Biliyorum</string>
     <string name="check_answer">Kontrol et</string>
     <string name="type_your_answer">Yanıtınızı yazın</string>
