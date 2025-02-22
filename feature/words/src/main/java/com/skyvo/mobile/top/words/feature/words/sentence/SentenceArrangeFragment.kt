@@ -28,7 +28,6 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.unit.sp
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
@@ -63,7 +62,8 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
             AppScaffold(
                 header = {
                    Row(
-                       modifier = Modifier.fillMaxWidth()
+                       modifier = Modifier
+                           .fillMaxWidth()
                            .padding(
                                top = AppDimension.default.dp16,
                                start = AppDimension.default.dp16,
@@ -133,6 +133,29 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
 
+
+                    Box (
+                        modifier = Modifier
+                            .padding(
+                                top = AppDimension.default.dp24
+                            )
+                            .background(
+                                color = LocalAppColor.current.colorAnswerError.copy(alpha = 0.8f),
+                                shape = RoundedCornerShape(AppDimension.default.dp6)
+                            )
+                    ) {
+                        AppText(
+                            text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_sentence_arrange_title),
+                            modifier = Modifier
+                                .padding(
+                                    vertical = AppDimension.default.dp4,
+                                    horizontal = AppDimension.default.dp16
+                                ),
+                            style = AppTypography.default.body,
+                            color = LocalAppColor.current.colorError
+                        )
+                    }
+
                     state.questionSentences?.getOrNull(state.questionIndex)?.let { s ->
                         AppText(
                             text = "${s.quizTranslate}",
@@ -171,7 +194,7 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                                         .height(40.dp)
                                         .width(
                                             if (filledWord != null) {
-                                                if (((filledWord.length * 16).dp + 16.dp ) > 64.dp) {
+                                                if (((filledWord.length * 16).dp + 16.dp) > 64.dp) {
                                                     (filledWord.length * 16).dp + 16.dp
                                                 } else {
                                                     64.dp
@@ -181,9 +204,11 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                                             }
                                         )
                                         .background(
-                                            color = state.filledWords.getOrNull(emptyBoxIndex)?.let { 
-                                                LocalAppColor.current.primary 
-                                            } ?: LocalAppColor.current.colorBackgroundSelected,
+                                            color = state.filledWords
+                                                .getOrNull(emptyBoxIndex)
+                                                ?.let {
+                                                    LocalAppColor.current.primary
+                                                } ?: LocalAppColor.current.colorBackgroundSelected,
                                             shape = RoundedCornerShape(AppDimension.default.dp10)
                                         )
                                         .border(
@@ -195,9 +220,11 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                                         .clickable(
                                             enabled = state.filledWords.getOrNull(emptyBoxIndex) != null
                                         ) {
-                                            state.filledWords.getOrNull(emptyBoxIndex)?.let {
-                                                viewModel.onFilledWordClick(it, emptyBoxIndex)
-                                            }
+                                            state.filledWords
+                                                .getOrNull(emptyBoxIndex)
+                                                ?.let {
+                                                    viewModel.onFilledWordClick(it, emptyBoxIndex)
+                                                }
                                         },
                                     contentAlignment = Alignment.Center
                                 ) {

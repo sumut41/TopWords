@@ -33,6 +33,7 @@ import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import com.skyvo.mobile.core.resource.R
 import com.skyvo.mobile.top.words.file.ReadJsonFile
 import dagger.hilt.android.AndroidEntryPoint
+import java.util.Locale
 
 @AndroidEntryPoint
 class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
@@ -48,6 +49,14 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
 
     private fun readFileJson() {
         viewModel.state.value.let { state ->
+
+            when(state.nativeLanguageCode) {
+                "tr" -> forceConfiguration("tr")
+                "de" -> forceConfiguration("de")
+                "az" -> forceConfiguration("az")
+                "it" -> forceConfiguration("it")
+            }
+
             if (state.nativeLanguageCode == "tr" && state.learnLanguageCode == "en") {
                 val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_tr_en)
                 val intermediate = ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_tr_en)
@@ -57,6 +66,20 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                 viewModel.setAdvanced(advanced?.wordList)
             }
             viewModel.getBookData()
+        }
+    }
+
+    private fun forceConfiguration(languageCode: String) {
+        try {
+            val locale = Locale(languageCode)
+            val config = requireContext().resources.configuration
+            config.setLocale(locale)
+            requireContext().resources.updateConfiguration(
+                config,
+                requireContext().resources.displayMetrics
+            )
+        } catch (ex: Exception) {
+            recordException(ex)
         }
     }
 

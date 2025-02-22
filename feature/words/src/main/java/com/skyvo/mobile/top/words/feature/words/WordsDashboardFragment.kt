@@ -327,7 +327,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             )
 
                             AppText(
-                                text = "Öğrendiklerini pekiştirip pratik yap!",
+                                text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_sentence_title),
                                 style = AppTypography.default.body,
                                 modifier = Modifier
                                     .padding(horizontal = AppDimension.default.dp16)

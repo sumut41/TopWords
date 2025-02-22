@@ -61,12 +61,14 @@
     <string name="discovering_words_label">Kelimeleri Keşfet</string>
     <string name="study_days_label">Çalışma Günleri</string>
     <string name="no_missed_days_label">Kaçırılan gün yok</string>
-    <string name="missed_days_label">kaçırılan gün</string>
+    <string name="missed_days_label">gün yoktun</string>
     <string name="quiz_label">Quiz</string>
+    <string name="quiz_sentence_title">Haydi cümle tamamlama testini yap!</string>
     <string name="practice_label">Alıştırma Yap</string>
     <string name="advanced_title">İleri</string>
     <string name="intermediate_title">Orta</string>
     <string name="beginner_title">Başlangıç</string>
-    <string name="top_words">Top Words</string>
+    <string name="top_words">Popüler Kelimeler</string>
     <string name="word_count">3000</string>
+    <string name="quiz_sentence_arrange_title">Cümleyi tamamla!</string>
 </resources>
