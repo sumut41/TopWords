@@ -392,7 +392,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 )
                 .background(
                     color = if (isSystemInDarkTheme()) {
-                        backgroundColor.copy(alpha = 0.2f)
+                        backgroundColor.copy(alpha = 0.15f)
                     } else {
                         backgroundColor.copy(alpha = 0.5f)
                     },
@@ -401,7 +401,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 .border(
                     width = 1.dp,
                     color = if (isSystemInDarkTheme()) {
-                        backgroundColor.copy(alpha = 0.7f)
+                        backgroundColor.copy(alpha = 0.5f)
                     } else {
                         backgroundColor
                     },
