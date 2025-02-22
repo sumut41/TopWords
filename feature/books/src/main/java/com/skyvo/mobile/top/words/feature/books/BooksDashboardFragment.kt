@@ -86,6 +86,9 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                 header = {
                     Column(
                         modifier = Modifier.fillMaxWidth()
+                            .padding(
+                                vertical = AppDimension.default.dp8
+                            )
                     ) {
                         Row(
                             modifier = Modifier.fillMaxWidth(),

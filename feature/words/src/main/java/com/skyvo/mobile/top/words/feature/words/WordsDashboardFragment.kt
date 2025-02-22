@@ -320,7 +320,9 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             )
 
                             AppIcon(
-                                modifier = Modifier.size(32.dp),
+                                modifier = Modifier
+                                    .weight(1.3f)
+                                    .size(32.dp),
                                 imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_bulk),
                                 tint = LocalAppColor.current.primary,
                                 contentDescription = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label)
@@ -330,7 +332,21 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                 text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_sentence_title),
                                 style = AppTypography.default.body,
                                 modifier = Modifier
+                                    .weight(9f)
                                     .padding(horizontal = AppDimension.default.dp16)
+                            )
+
+                            AppIcon(
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .size(24.dp),
+                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_box_arrow_right),
+                                tint = LocalAppColor.current.colorBorder,
+                                contentDescription = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label)
+                            )
+
+                            AppSpacer(
+                                width = AppDimension.default.dp16
                             )
                         }
                     }

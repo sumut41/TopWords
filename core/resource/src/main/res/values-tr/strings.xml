@@ -63,7 +63,7 @@
     <string name="no_missed_days_label">Kaçırılan gün yok</string>
     <string name="missed_days_label">gün yoktun</string>
     <string name="quiz_label">Quiz</string>
-    <string name="quiz_sentence_title">Haydi cümle tamamlama testini yap!</string>
+    <string name="quiz_sentence_title">Bugünün cümle quizini yap!</string>
     <string name="practice_label">Alıştırma Yap</string>
     <string name="advanced_title">İleri</string>
     <string name="intermediate_title">Orta</string>
