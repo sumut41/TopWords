@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -222,7 +223,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                         AppSpacer(
                             height = AppDimension.default.dp16
                         )
-                        Row (
+                        Row(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(
@@ -269,11 +270,76 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                         }
                     }
 
+
                     item {
                         AppSpacer(
-                            height = AppDimension.default.dp16
+                            height = AppDimension.default.dp4
                         )
-                        Row (
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    all = AppDimension.default.dp16
+                                ),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            AppText(
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.practice_label),
+                                style = AppTypography.default.subTitleBold
+                            )
+                            AppText(
+                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label),
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorTextSubtler
+                            )
+                        }
+
+                        Row(
+                            modifier = Modifier
+                                .padding(horizontal = AppDimension.default.dp16)
+                                .fillMaxWidth()
+                                .height(56.dp)
+                                .background(
+                                    color = LocalAppColor.current.colorSurfaceBase,
+                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                )
+                                .border(
+                                    width = AppDimension.default.dp1,
+                                    color = LocalAppColor.current.colorBorder,
+                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                )
+                                .clip(RoundedCornerShape(AppDimension.default.dp10))
+                                .clickable {
+                                    navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToSentenceArrangeFragment())
+                                },
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+
+                            AppSpacer(
+                                width = AppDimension.default.dp16
+                            )
+
+                            AppIcon(
+                                modifier = Modifier.size(32.dp),
+                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_bulk),
+                                tint = LocalAppColor.current.primary,
+                                contentDescription = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label)
+                            )
+
+                            AppText(
+                                text = "Öğrendiklerini pekiştirip pratik yap!",
+                                style = AppTypography.default.body,
+                                modifier = Modifier
+                                    .padding(horizontal = AppDimension.default.dp16)
+                            )
+                        }
+                    }
+
+                    item {
+                        AppSpacer(
+                            height = AppDimension.default.dp20
+                        )
+                        Row(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(
@@ -303,9 +369,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                 backgroundColor = LocalAppColor.current.colorBeginner,
                                 iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_regular_level
                             ) {
-                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
-                                    LevelType.BEGINNER.key
-                                ))
+                                navigate(
+                                    WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
+                                        LevelType.BEGINNER.key
+                                    )
+                                )
                             }
 
                             WordBox(
@@ -314,9 +382,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                 backgroundColor = LocalAppColor.current.colorIntermediate,
                                 iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_serious_level
                             ) {
-                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
-                                    LevelType.INTERMEDIATE.key
-                                ))
+                                navigate(
+                                    WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
+                                        LevelType.INTERMEDIATE.key
+                                    )
+                                )
                             }
 
                             WordBox(
@@ -325,51 +395,12 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                 backgroundColor = LocalAppColor.current.colorAdvanced,
                                 iconRes = com.skyvo.mobile.core.uikit.R.drawable.ic_intence_level
                             ) {
-                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
-                                    LevelType.ADVANCED.key
-                                ))
-                            }
-                        }
-                    }
-
-                    item {
-                        AppSpacer(
-                            height = AppDimension.default.dp16
-                        )
-                        Row (
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(
-                                    all = AppDimension.default.dp16
-                                ),
-                            horizontalArrangement = Arrangement.SpaceBetween
-                        ) {
-                            AppText(
-                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.practice_label),
-                                style = AppTypography.default.subTitleBold
-                            )
-                            AppText(
-                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label),
-                                style = AppTypography.default.body,
-                                color = LocalAppColor.current.colorTextSubtler
-                            )
-                        }
-
-                        Box (
-                            modifier = Modifier
-                                .padding(horizontal = AppDimension.default.dp16)
-                                .size(50.dp)
-                                .background(
-                                    color = LocalAppColor.current.colorA2Level.copy(alpha = 0.3f)
+                                navigate(
+                                    WordsDashboardFragmentDirections.actionWordsDashboardFragmentToTopWordListFragment(
+                                        LevelType.ADVANCED.key
+                                    )
                                 )
-                                .clickable {
-                                navigate(WordsDashboardFragmentDirections.actionWordsDashboardFragmentToSentenceArrangeFragment())
                             }
-                        ) {
-                            AppText(
-                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label),
-                                style = AppTypography.default.subTitleBold
-                            )
                         }
                     }
                 }
@@ -392,18 +423,18 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                 )
                 .background(
                     color = if (isSystemInDarkTheme()) {
-                        backgroundColor.copy(alpha = 0.15f)
+                        backgroundColor.copy(alpha = 0.2f)
                     } else {
-                        backgroundColor.copy(alpha = 0.5f)
+                        backgroundColor.copy(alpha = 0.25f)
                     },
                     shape = RoundedCornerShape(AppDimension.default.dp10)
                 )
                 .border(
                     width = 1.dp,
                     color = if (isSystemInDarkTheme()) {
-                        backgroundColor.copy(alpha = 0.5f)
+                        backgroundColor.copy(alpha = 0.7f)
                     } else {
-                        backgroundColor
+                        backgroundColor.copy(alpha = 0.5f)
                     },
                     shape = RoundedCornerShape(AppDimension.default.dp10)
                 )

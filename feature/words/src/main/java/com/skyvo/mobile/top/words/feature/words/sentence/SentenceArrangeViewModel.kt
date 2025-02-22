@@ -66,6 +66,29 @@ class SentenceArrangeViewModel @Inject constructor(
         val targetWord = currentQuestion.word.orEmpty().lowercase()
         val targetWordIndex = allWords.indexOf(targetWord)
         
+        // Eğer hedef kelime bulunamazsa bir sonraki soruya geç
+        if (targetWordIndex == -1) {
+            setState {
+                copy(
+                    questionIndex = questionIndex + 1
+                )
+            }
+            if (state.value.questionIndex < (state.value.questionSentences?.size ?: 0)) {
+                setupSentence()
+            } else {
+                navigate(
+                    navDeepLink = NavDeeplinkDestination.ResultWord(
+                        title = "Harikasın, bitirdin!",
+                        isQuiz = true
+                    ),
+                    popUpTo = true,
+                    popUpToInclusive = false,
+                    popUpToId = R.id.wordsDashboardFragment
+                )
+            }
+            return
+        }
+        
         // Hedef kelimeyi ve 1-2 rastgele kelimeyi seç
         val additionalWordsCount = Random.nextInt(1, 3)
         val otherIndices = allWords.indices
@@ -78,10 +101,18 @@ class SentenceArrangeViewModel @Inject constructor(
         // Seçilen kelimeleri orijinal sırasında tut
         val correctWords = selectedIndices.map { allWords[it] }
         
+        // Boşlukların sırasını karıştır
+        val shuffledSelectedIndices = selectedIndices.shuffled()
+        
         // Görüntülenecek kelimeleri hazırla, noktalama işaretlerini koru
         val displayWords = sentence.split(" ").mapIndexed { index, word ->
             if (index in selectedIndices) "" else word
         }
+
+        // Boşlukların karışık sırasına göre kelime-pozisyon eşleştirmesini yap
+        val shuffledWordToPositionMap = correctWords.mapIndexed { index, word ->
+            word to shuffledSelectedIndices.indexOf(selectedIndices[index])
+        }.toMap()
 
         setState {
             copy(
@@ -90,11 +121,9 @@ class SentenceArrangeViewModel @Inject constructor(
                 wordList = correctWords.shuffled(),
                 filledWords = MutableList(correctWords.size) { null },
                 correctOrder = correctWords,
-                selectedIndices = selectedIndices,
+                selectedIndices = shuffledSelectedIndices,  // Karıştırılmış sırayı kullan
                 selectedWords = emptySet(),
-                wordToPositionMap = correctWords.mapIndexed { index, word -> 
-                    word to index 
-                }.toMap()
+                wordToPositionMap = shuffledWordToPositionMap  // Karıştırılmış eşleştirmeyi kullan
             )
         }
     }

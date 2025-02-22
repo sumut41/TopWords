@@ -28,6 +28,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.unit.sp
 import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
@@ -131,13 +132,29 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                         .padding(horizontal = AppDimension.default.dp16),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
+
+                    state.questionSentences?.getOrNull(state.questionIndex)?.let { s ->
+                        AppText(
+                            text = "${s.quizTranslate}",
+                            style = AppTypography.default.bodyExtraLarge,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(
+                                    top = AppDimension.default.dp56,
+                                    bottom = AppDimension.default.dp48
+                                ),
+                            color = LocalAppColor.current.colorTextMain,
+                            textAlign = TextAlign.Center
+                        )
+                    }
+
                     // Cümle ve boşluklar
                     FlowRow(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(
-                                top = AppDimension.default.dp48,
-                                bottom = AppDimension.default.dp32
+                                top = AppDimension.default.dp20,
+                                bottom = AppDimension.default.dp72
                             ),
                         horizontalArrangement = Arrangement.Center,
                         verticalArrangement = Arrangement.Center,
@@ -209,20 +226,6 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                                 }
                             }
                         }
-                    }
-
-                    state.questionSentences?.getOrNull(state.questionIndex)?.let { s ->
-                        AppText(
-                            text = "(${s.quizTranslate})",
-                            style = AppTypography.default.bodyExtraLarge,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(
-                                    bottom = AppDimension.default.dp48
-                                ),
-                            color = LocalAppColor.current.colorTextSubtler,
-                            textAlign = TextAlign.Center
-                        )
                     }
 
                     // Kelime listesi
