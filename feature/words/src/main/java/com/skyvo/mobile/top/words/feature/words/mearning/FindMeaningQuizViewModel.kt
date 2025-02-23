@@ -207,7 +207,7 @@ class FindMeaningQuizViewModel @Inject constructor(
             } else {
                 navigate(
                     navDeepLink = NavDeeplinkDestination.ResultWord(
-                        title = "Süpersin, tekrar görüşmek üzere :)",
+                        title = "Süpersin, devam!",
                         isQuiz = true
                     ),
                     popUpTo = true,
