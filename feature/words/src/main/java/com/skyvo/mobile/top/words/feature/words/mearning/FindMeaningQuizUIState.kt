@@ -15,5 +15,7 @@ data class FindMeaningQuizUIState (
     val items: List<SentenceQuizModel>? = null,
     val correctCount: Int = 0,
     val unCorrectCount: Int = 0,
-    val playSoundType: Int = 0
+    val playSoundType: Int = 0,
+    val isSingleQuiz: Boolean = false,
+    val questionIndex: Int = 1
 ): UIState

@@ -722,7 +722,7 @@
     },
     {
       "word": "Against",
-      "translate": "Karşı",
+      "translate": "Aykırı, karşı",
       "quiz": "He is .... the new law.",
       "quizTranslate": "O, yeni yasaya karşı.",
       "translateList": [
@@ -17771,7 +17771,7 @@
           "isCorrect": true
         },
         {
-          "label": "Coins",
+          "label": "Coal",
           "isCorrect": false
         },
         {
@@ -25931,7 +25931,7 @@
           "isCorrect": true
         },
         {
-          "label": "Shade",
+          "label": "Pool",
           "isCorrect": false
         },
         {

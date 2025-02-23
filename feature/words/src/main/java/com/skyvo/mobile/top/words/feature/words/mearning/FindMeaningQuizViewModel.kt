@@ -44,6 +44,11 @@ class FindMeaningQuizViewModel @Inject constructor(
     }
 
     private fun getRandomLearnWord() {
+        setState {
+            copy(
+                isSingleQuiz = true
+            )
+        }
         val questionList: ArrayList<SentenceQuizModel> = arrayListOf()
         viewModelScope.launch {
             showLoading()
@@ -166,6 +171,7 @@ class FindMeaningQuizViewModel @Inject constructor(
             if (state.value.nextCount == 1) {
                 setState {
                     copy(
+                        questionIndex = questionIndex + 1,
                         showAnswer = false,
                         nextCount = 0,
                         selectIndex = selectIndex + 1
