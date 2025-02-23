@@ -56,15 +56,18 @@ class DataLoaderViewModel @Inject constructor(
     }
 
     fun setBeginnerWord(wordList: List<AppWord>?) {
-        beginnerWordList = wordList
+        val sortedWordList = wordList?.sortedBy { it.word?.trim()?.lowercase() }
+        beginnerWordList = sortedWordList
     }
 
     fun setIntermediate(wordList: List<AppWord>?) {
-        intermediateWordList = wordList
+        val sortedWordList = wordList?.sortedBy { it.word?.trim()?.lowercase() }
+        intermediateWordList = sortedWordList
     }
 
     fun setAdvanced(wordList: List<AppWord>?) {
-        advancedWordList = wordList
+        val sortedWordList = wordList?.sortedBy { it.word?.trim()?.lowercase() }
+        advancedWordList = sortedWordList
     }
 
     fun getBookData() {
