@@ -5161,6 +5161,414 @@
       ]
     },
     {
+      "word": "Combat",
+      "translate": "Savaşmak",
+      "quiz": "The soldiers were trained to .... enemy forces.",
+      "quizTranslate": "Askerler, düşman kuvvetleriyle savaşmak için eğitildi.",
+      "translateList": [
+        {
+          "label": "Combat",
+          "isCorrect": true
+        },
+        {
+          "label": "Negotiate",
+          "isCorrect": false
+        },
+        {
+          "label": "Collaborate",
+          "isCorrect": false
+        },
+        {
+          "label": "Retreat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Communist",
+      "translate": "Komünist",
+      "quiz": "He was a dedicated .... who believed in Marxist principles.",
+      "quizTranslate": "O, Marksist ilkelere inanan adanmış bir komünistti.",
+      "translateList": [
+        {
+          "label": "Communist",
+          "isCorrect": true
+        },
+        {
+          "label": "Capitalist",
+          "isCorrect": false
+        },
+        {
+          "label": "Democrat",
+          "isCorrect": false
+        },
+        {
+          "label": "Monarchist",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Companion",
+      "translate": "Arkadaş",
+      "quiz": "She is my travel ....; we explore new places together.",
+      "quizTranslate": "O, benim seyahat arkadaşımdır; birlikte yeni yerler keşfederiz.",
+      "translateList": [
+        {
+          "label": "Companion",
+          "isCorrect": true
+        },
+        {
+          "label": "Stranger",
+          "isCorrect": false
+        },
+        {
+          "label": "Enemy",
+          "isCorrect": false
+        },
+        {
+          "label": "Colleague",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Configuration",
+      "translate": "Yapılandırma",
+      "quiz": "The system's .... was optimized for better performance.",
+      "quizTranslate": "Sistemin yapılandırması, daha iyi performans için optimize edildi.",
+      "translateList": [
+        {
+          "label": "Configuration",
+          "isCorrect": true
+        },
+        {
+          "label": "Condition",
+          "isCorrect": false
+        },
+        {
+          "label": "Structure",
+          "isCorrect": false
+        },
+        {
+          "label": "Design",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Confirmation",
+      "translate": "Onay",
+      "quiz": "We received a .... email about the meeting schedule.",
+      "quizTranslate": "Toplantı programı hakkında onaylı bir e-posta aldık.",
+      "translateList": [
+        {
+          "label": "Confirmation",
+          "isCorrect": true
+        },
+        {
+          "label": "Invitation",
+          "isCorrect": false
+        },
+        {
+          "label": "Suggestion",
+          "isCorrect": false
+        },
+        {
+          "label": "Request",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Confrontation",
+      "translate": "Yüzleşme",
+      "quiz": "The two leaders had a tense .... over the trade agreement.",
+      "quizTranslate": "İki lider, ticaret anlaşması üzerinde gergin bir yüzleşme yaşadılar.",
+      "translateList": [
+        {
+          "label": "Confrontation",
+          "isCorrect": true
+        },
+        {
+          "label": "Discussion",
+          "isCorrect": false
+        },
+        {
+          "label": "Agreement",
+          "isCorrect": false
+        },
+        {
+          "label": "Negotiation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dedication",
+      "translate": "Adanmışlık",
+      "quiz": "Her .... to the project was evident in her work.",
+      "quizTranslate": "Projeye olan adanmışlığı, işinde belirgindi.",
+      "translateList": [
+        {
+          "label": "Dedication",
+          "isCorrect": true
+        },
+        {
+          "label": "Indifference",
+          "isCorrect": false
+        },
+        {
+          "label": "Neglect",
+          "isCorrect": false
+        },
+        {
+          "label": "Disinterest",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Deem",
+      "translate": "Saymak",
+      "quiz": "The committee will .... the proposal at their next meeting.",
+      "quizTranslate": "Komite, teklifi bir sonraki toplantılarında değerlendirecektir.",
+      "translateList": [
+        {
+          "label": "Deem",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Reject",
+          "isCorrect": false
+        },
+        {
+          "label": "Accept",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Debris",
+      "translate": "Enkaz",
+      "quiz": "After the storm, the streets were filled with ....",
+      "quizTranslate": "Fırtınadan sonra, sokaklar enkazla doluydu.",
+      "translateList": [
+        {
+          "label": "Debris",
+          "isCorrect": true
+        },
+        {
+          "label": "Rubble",
+          "isCorrect": false
+        },
+        {
+          "label": "Garbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Waste",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Default",
+      "translate": "Varsayılan",
+      "quiz": "The system will revert to .... settings if no changes are made.",
+      "quizTranslate": "Değişiklik yapılmazsa, sistem varsayılan ayarlara geri dönecektir.",
+      "translateList": [
+        {
+          "label": "Default",
+          "isCorrect": true
+        },
+        {
+          "label": "Custom",
+          "isCorrect": false
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        },
+        {
+          "label": "Alternative",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Defect",
+      "translate": "Kusur",
+      "quiz": "The product was recalled due to a manufacturing ....",
+      "quizTranslate": "Ürün, üretim kusuru nedeniyle geri çağrıldı.",
+      "translateList": [
+        {
+          "label": "Defect",
+          "isCorrect": true
+        },
+        {
+          "label": "Feature",
+          "isCorrect": false
+        },
+        {
+          "label": "Advantage",
+          "isCorrect": false
+        },
+        {
+          "label": "Benefit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Defensive",
+      "translate": "Savunmacı",
+      "quiz": "The team adopted a .... strategy to protect their lead.",
+      "quizTranslate": "Takım, öndeki avantajlarını korumak için savunmacı bir strateji benimsedi.",
+      "translateList": [
+        {
+          "label": "Defensive",
+          "isCorrect": true
+        },
+        {
+          "label": "Aggressive",
+          "isCorrect": false
+        },
+        {
+          "label": "Offensive",
+          "isCorrect": false
+        },
+        {
+          "label": "Neutral",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Defy",
+      "translate": "Karşı gelmek",
+      "quiz": "She decided to .... the rules and speak her mind.",
+      "quizTranslate": "Kurallara karşı gelerek düşüncelerini açıkça ifade etmeye karar verdi.",
+      "translateList": [
+        {
+          "label": "Defy",
+          "isCorrect": true
+        },
+        {
+          "label": "Obey",
+          "isCorrect": false
+        },
+        {
+          "label": "Follow",
+          "isCorrect": false
+        },
+        {
+          "label": "Comply",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Desirable",
+      "translate": "Arzu edilen",
+      "quiz": "A high salary is often considered a .... trait.",
+      "quizTranslate": "Yüksek maaş, genellikle arzu edilen bir özelliktir.",
+      "translateList": [
+        {
+          "label": "Desirable",
+          "isCorrect": true
+        },
+        {
+          "label": "Unattractive",
+          "isCorrect": false
+        },
+        {
+          "label": "Unwanted",
+          "isCorrect": false
+        },
+        {
+          "label": "Unappealing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Devastate",
+      "translate": "Yıkmak",
+      "quiz": "The earthquake will .... the city, causing widespread destruction.",
+      "quizTranslate": "Deprem, şehri yıkacak ve geniş çaplı tahribata neden olacaktır.",
+      "translateList": [
+        {
+          "label": "Devastate",
+          "isCorrect": true
+        },
+        {
+          "label": "Build",
+          "isCorrect": false
+        },
+        {
+          "label": "Repair",
+          "isCorrect": false
+        },
+        {
+          "label": "Restore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Diagnose",
+      "translate": "Teşhis etmek",
+      "quiz": "The doctor will .... the illness after conducting several tests.",
+      "quizTranslate": "Doktor, birkaç test yaptıktan sonra hastalığı teşhis edecektir.",
+      "translateList": [
+        {
+          "label": "Diagnose",
+          "isCorrect": true
+        },
+        {
+          "label": "Treat",
+          "isCorrect": false
+        },
+        {
+          "label": "Cure",
+          "isCorrect": false
+        },
+        {
+          "label": "Prevent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dawn",
+      "translate": "Şafak",
+      "quiz": "We set out at .... to catch the first train.",
+      "quizTranslate": "İlk treni yakalamak için şafakta yola çıktık.",
+      "translateList": [
+        {
+          "label": "Dawn",
+          "isCorrect": true
+        },
+        {
+          "label": "Noon",
+          "isCorrect": false
+        },
+        {
+          "label": "Dusk",
+          "isCorrect": false
+        },
+        {
+          "label": "Midnight",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Disclosure",
       "translate": "Açıklama, ifşa",
       "quiz": "The company was forced to make a public .... about its financial situation.",
@@ -7268,6 +7676,174 @@
         },
         {
           "label": "Progressive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coastal",
+      "translate": "Kıyı",
+      "quiz": "They live in a .... town by the sea.",
+      "quizTranslate": "Deniz kenarında bir kıyı kasabasında yaşıyorlar.",
+      "translateList": [
+        {
+          "label": "Coastal",
+          "isCorrect": true
+        },
+        {
+          "label": "Mountainous",
+          "isCorrect": false
+        },
+        {
+          "label": "Desert",
+          "isCorrect": false
+        },
+        {
+          "label": "Urban",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cocktail",
+      "translate": "Kokteyl",
+      "quiz": "She ordered a tropical .... at the bar.",
+      "quizTranslate": "Barın kokteyl menüsünden tropikal bir kokteyl sipariş etti.",
+      "translateList": [
+        {
+          "label": "Cocktail",
+          "isCorrect": true
+        },
+        {
+          "label": "Smoothie",
+          "isCorrect": false
+        },
+        {
+          "label": "Juice",
+          "isCorrect": false
+        },
+        {
+          "label": "Mocktail",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cognitive",
+      "translate": "Bilişsel",
+      "quiz": "The study focuses on .... development in children.",
+      "quizTranslate": "Çalışma, çocuklarda bilişsel gelişime odaklanıyor.",
+      "translateList": [
+        {
+          "label": "Cognitive",
+          "isCorrect": true
+        },
+        {
+          "label": "Physical",
+          "isCorrect": false
+        },
+        {
+          "label": "Emotional",
+          "isCorrect": false
+        },
+        {
+          "label": "Social",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coincide",
+      "translate": "Çakışmak",
+      "quiz": "Their vacation plans .... with the festival dates.",
+      "quizTranslate": "Tatil planları, festival tarihleriyle çakıştı.",
+      "translateList": [
+        {
+          "label": "Coincide",
+          "isCorrect": true
+        },
+        {
+          "label": "Conflict",
+          "isCorrect": false
+        },
+        {
+          "label": "Align",
+          "isCorrect": false
+        },
+        {
+          "label": "Overlap",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Collaborate",
+      "translate": "İş birliği yapmak",
+      "quiz": "They decided to .... on the new project.",
+      "quizTranslate": "Yeni projede iş birliği yapmaya karar verdiler.",
+      "translateList": [
+        {
+          "label": "Collaborate",
+          "isCorrect": true
+        },
+        {
+          "label": "Compete",
+          "isCorrect": false
+        },
+        {
+          "label": "Negotiate",
+          "isCorrect": false
+        },
+        {
+          "label": "Lead",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Collective",
+      "translate": "Topluluk",
+      "quiz": "The team made a .... decision to proceed.",
+      "quizTranslate": "Takım, devam etme konusunda toplu bir karar aldı.",
+      "translateList": [
+        {
+          "label": "Collective",
+          "isCorrect": true
+        },
+        {
+          "label": "Individual",
+          "isCorrect": false
+        },
+        {
+          "label": "Solo",
+          "isCorrect": false
+        },
+        {
+          "label": "Separate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Columnist",
+      "translate": "Köşe yazarı",
+      "quiz": "She is a well-known .... for the local newspaper.",
+      "quizTranslate": "O, yerel gazetenin tanınmış bir köşe yazarıdır.",
+      "translateList": [
+        {
+          "label": "Columnist",
+          "isCorrect": true
+        },
+        {
+          "label": "Reporter",
+          "isCorrect": false
+        },
+        {
+          "label": "Editor",
+          "isCorrect": false
+        },
+        {
+          "label": "Photographer",
           "isCorrect": false
         }
       ]
@@ -30500,6 +31076,630 @@
         },
         {
           "label": "Participate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chunk",
+      "translate": "Bölüm",
+      "quiz": "She ate a large .... of cake.",
+      "quizTranslate": "Büyük bir pasta parçası yedi.",
+      "translateList": [
+        {
+          "label": "Chunk",
+          "isCorrect": true
+        },
+        {
+          "label": "Slice",
+          "isCorrect": false
+        },
+        {
+          "label": "Piece",
+          "isCorrect": false
+        },
+        {
+          "label": "Portion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Circulate",
+      "translate": "Dolaşmak",
+      "quiz": "The news began to .... quickly.",
+      "quizTranslate": "Haberler hızla dolaşmaya başladı.",
+      "translateList": [
+        {
+          "label": "Circulate",
+          "isCorrect": true
+        },
+        {
+          "label": "Spread",
+          "isCorrect": false
+        },
+        {
+          "label": "Distribute",
+          "isCorrect": false
+        },
+        {
+          "label": "Transmit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Circulation",
+      "translate": "Dolaşım",
+      "quiz": "The magazine has a wide ....",
+      "quizTranslate": "Derginin geniş bir dağıtımı var.",
+      "translateList": [
+        {
+          "label": "Circulation",
+          "isCorrect": true
+        },
+        {
+          "label": "Distribution",
+          "isCorrect": false
+        },
+        {
+          "label": "Spread",
+          "isCorrect": false
+        },
+        {
+          "label": "Dispersion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Blessing",
+      "translate": "Nimet",
+      "quiz": "They considered the rain a .... for the crops.",
+      "quizTranslate": "Yağmuru ürünler için bir nimet olarak gördüler.",
+      "translateList": [
+        {
+          "label": "Blessing",
+          "isCorrect": true
+        },
+        {
+          "label": "Curse",
+          "isCorrect": false
+        },
+        {
+          "label": "Misfortune",
+          "isCorrect": false
+        },
+        {
+          "label": "Disaster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Boom",
+      "translate": "Patlama",
+      "quiz": "The city experienced an economic .... last year.",
+      "quizTranslate": "Şehir geçen yıl ekonomik bir patlama yaşadı.",
+      "translateList": [
+        {
+          "label": "Boom",
+          "isCorrect": true
+        },
+        {
+          "label": "Decline",
+          "isCorrect": false
+        },
+        {
+          "label": "Recession",
+          "isCorrect": false
+        },
+        {
+          "label": "Depression",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Boundary",
+      "translate": "Sınır",
+      "quiz": "The river forms the natural .... between the two countries.",
+      "quizTranslate": "Nehir, iki ülke arasındaki doğal sınırı oluşturur.",
+      "translateList": [
+        {
+          "label": "Boundary",
+          "isCorrect": true
+        },
+        {
+          "label": "Border",
+          "isCorrect": false
+        },
+        {
+          "label": "Edge",
+          "isCorrect": false
+        },
+        {
+          "label": "Limit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bounce",
+      "translate": "Sıçramak",
+      "quiz": "The ball .... off the wall.",
+      "quizTranslate": "Top duvardan sıçradı.",
+      "translateList": [
+        {
+          "label": "Bounce",
+          "isCorrect": true
+        },
+        {
+          "label": "Roll",
+          "isCorrect": false
+        },
+        {
+          "label": "Slide",
+          "isCorrect": false
+        },
+        {
+          "label": "Fall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bow",
+      "translate": "Eğilmek",
+      "quiz": "He gave a deep .... to the audience.",
+      "quizTranslate": "İzleyicilere derin bir eğilme yaptı.",
+      "translateList": [
+        {
+          "label": "Bow",
+          "isCorrect": true
+        },
+        {
+          "label": "Kneel",
+          "isCorrect": false
+        },
+        {
+          "label": "Bend",
+          "isCorrect": false
+        },
+        {
+          "label": "Lean",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Buddy",
+      "translate": "Arkadaş",
+      "quiz": "He's my best .... from college.",
+      "quizTranslate": "O, üniversiteden en iyi arkadaşımdır.",
+      "translateList": [
+        {
+          "label": "Buddy",
+          "isCorrect": true
+        },
+        {
+          "label": "Friend",
+          "isCorrect": false
+        },
+        {
+          "label": "Companion",
+          "isCorrect": false
+        },
+        {
+          "label": "Pal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Buck",
+      "translate": "Dolar",
+      "quiz": "It costs fifty .... to enter the concert.",
+      "quizTranslate": "Konser için giriş 50 dolar.",
+      "translateList": [
+        {
+          "label": "Buck",
+          "isCorrect": true
+        },
+        {
+          "label": "Pound",
+          "isCorrect": false
+        },
+        {
+          "label": "Euro",
+          "isCorrect": false
+        },
+        {
+          "label": "Yen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Burden",
+      "translate": "Yük",
+      "quiz": "She felt the heavy .... of responsibility.",
+      "quizTranslate": "Sorumluluğun ağır yükünü hissetti.",
+      "translateList": [
+        {
+          "label": "Burden",
+          "isCorrect": true
+        },
+        {
+          "label": "Weight",
+          "isCorrect": false
+        },
+        {
+          "label": "Load",
+          "isCorrect": false
+        },
+        {
+          "label": "Pressure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bulk",
+      "translate": "Toplam",
+      "quiz": "They bought the product in ....",
+      "quizTranslate": "Ürünü toplu olarak satın aldılar.",
+      "translateList": [
+        {
+          "label": "Bulk",
+          "isCorrect": true
+        },
+        {
+          "label": "Retail",
+          "isCorrect": false
+        },
+        {
+          "label": "Wholesale",
+          "isCorrect": false
+        },
+        {
+          "label": "Piece",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cargo",
+      "translate": "Yük",
+      "quiz": "The ship is carrying a large ....",
+      "quizTranslate": "Gemi büyük bir yük taşıyor.",
+      "translateList": [
+        {
+          "label": "Cargo",
+          "isCorrect": true
+        },
+        {
+          "label": "Passenger",
+          "isCorrect": false
+        },
+        {
+          "label": "Crew",
+          "isCorrect": false
+        },
+        {
+          "label": "Baggage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Carriage",
+      "translate": "Taşıma",
+      "quiz": "The .... of goods by rail is efficient.",
+      "quizTranslate": "Demir yoluyla mal taşımacılığı etkilidir.",
+      "translateList": [
+        {
+          "label": "Carriage",
+          "isCorrect": true
+        },
+        {
+          "label": "Transportation",
+          "isCorrect": false
+        },
+        {
+          "label": "Delivery",
+          "isCorrect": false
+        },
+        {
+          "label": "Shipment",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Carve",
+      "translate": "Oymak",
+      "quiz": "He used a knife to .... the sculpture.",
+      "quizTranslate": "Heykeli oymak için bir bıçak kullandı.",
+      "translateList": [
+        {
+          "label": "Carve",
+          "isCorrect": true
+        },
+        {
+          "label": "Cut",
+          "isCorrect": false
+        },
+        {
+          "label": "Shape",
+          "isCorrect": false
+        },
+        {
+          "label": "Mold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cattle",
+      "translate": "Sığır",
+      "quiz": "The farm has a herd of ....",
+      "quizTranslate": "Çiftlikte bir sığır sürüsü var.",
+      "translateList": [
+        {
+          "label": "Cattle",
+          "isCorrect": true
+        },
+        {
+          "label": "Sheep",
+          "isCorrect": false
+        },
+        {
+          "label": "Goats",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cater",
+      "translate": "Sağlamak",
+      "quiz": "They .... to the needs of their clients.",
+      "quizTranslate": "Müşterilerinin ihtiyaçlarını karşılıyorlar.",
+      "translateList": [
+        {
+          "label": "Cater",
+          "isCorrect": true
+        },
+        {
+          "label": "Serve",
+          "isCorrect": false
+        },
+        {
+          "label": "Provide",
+          "isCorrect": false
+        },
+        {
+          "label": "Supply",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Caution",
+      "translate": "Dikkat",
+      "quiz": "He proceeded with great ....",
+      "quizTranslate": "Çok dikkatli bir şekilde ilerledi.",
+      "translateList": [
+        {
+          "label": "Caution",
+          "isCorrect": true
+        },
+        {
+          "label": "Care",
+          "isCorrect": false
+        },
+        {
+          "label": "Warning",
+          "isCorrect": false
+        },
+        {
+          "label": "Alert",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cemetery",
+      "translate": "Mezarlık",
+      "quiz": "They visited the family ....",
+      "quizTranslate": "Aile mezarlığını ziyaret ettiler.",
+      "translateList": [
+        {
+          "label": "Cemetery",
+          "isCorrect": true
+        },
+        {
+          "label": "Graveyard",
+          "isCorrect": false
+        },
+        {
+          "label": "Tomb",
+          "isCorrect": false
+        },
+        {
+          "label": "Crypt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Charm",
+      "translate": "Cazibe",
+      "quiz": "Her smile had a certain ....",
+      "quizTranslate": "Gülümsemesinde belirli bir cazibe vardı.",
+      "translateList": [
+        {
+          "label": "Charm",
+          "isCorrect": true
+        },
+        {
+          "label": "Attractiveness",
+          "isCorrect": false
+        },
+        {
+          "label": "Appeal",
+          "isCorrect": false
+        },
+        {
+          "label": "Allure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Civilian",
+      "translate": "Sivil",
+      "quiz": "He is a .... pilot, not a military one.",
+      "quizTranslate": "O, sivil bir pilot, askeri değil.",
+      "translateList": [
+        {
+          "label": "Civilian",
+          "isCorrect": true
+        },
+        {
+          "label": "Soldier",
+          "isCorrect": false
+        },
+        {
+          "label": "Officer",
+          "isCorrect": false
+        },
+        {
+          "label": "Trooper",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Classification",
+      "translate": "Sınıflandırma",
+      "quiz": "The biologist's research focuses on the .... of new species.",
+      "quizTranslate": "Biyoloğun araştırması, yeni türlerin sınıflandırılmasına odaklanıyor.",
+      "translateList": [
+        {
+          "label": "Classification",
+          "isCorrect": true
+        },
+        {
+          "label": "Identification",
+          "isCorrect": false
+        },
+        {
+          "label": "Observation",
+          "isCorrect": false
+        },
+        {
+          "label": "Analysis",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Clinical",
+      "translate": "Klinik",
+      "quiz": "The doctor conducted a thorough .... examination.",
+      "quizTranslate": "Doktor kapsamlı bir klinik muayene yaptı.",
+      "translateList": [
+        {
+          "label": "Clinical",
+          "isCorrect": true
+        },
+        {
+          "label": "Laboratory",
+          "isCorrect": false
+        },
+        {
+          "label": "Theoretical",
+          "isCorrect": false
+        },
+        {
+          "label": "Experimental",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Closure",
+      "translate": "Kapanış",
+      "quiz": "The company announced the .... of its branch in the city.",
+      "quizTranslate": "Şirket, şehirdeki şubesinin kapanışını duyurdu.",
+      "translateList": [
+        {
+          "label": "Closure",
+          "isCorrect": true
+        },
+        {
+          "label": "Opening",
+          "isCorrect": false
+        },
+        {
+          "label": "Expansion",
+          "isCorrect": false
+        },
+        {
+          "label": "Renovation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coalition",
+      "translate": "Koalisyon",
+      "quiz": "The two parties formed a .... to win the election.",
+      "quizTranslate": "İki parti, seçimi kazanmak için bir koalisyon kurdu.",
+      "translateList": [
+        {
+          "label": "Coalition",
+          "isCorrect": true
+        },
+        {
+          "label": "Alliance",
+          "isCorrect": false
+        },
+        {
+          "label": "Union",
+          "isCorrect": false
+        },
+        {
+          "label": "Confederation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cling",
+      "translate": "Yapışmak",
+      "quiz": "The child .... to his mother.",
+      "quizTranslate": "Çocuk annesine yapıştı.",
+      "translateList": [
+        {
+          "label": "Cling",
+          "isCorrect": true
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        },
+        {
+          "label": "Grip",
+          "isCorrect": false
+        },
+        {
+          "label": "Clutch",
           "isCorrect": false
         }
       ]

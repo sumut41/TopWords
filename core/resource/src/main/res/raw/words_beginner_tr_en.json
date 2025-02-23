@@ -9241,30 +9241,6 @@
       ]
     },
     {
-      "word": "Ease",
-      "translate": "Kolaylık",
-      "quiz": "She completed the task with great ....",
-      "quizTranslate": "Görevi büyük bir kolaylıkla tamamladı.",
-      "translateList": [
-        {
-          "label": "Ease",
-          "isCorrect": true
-        },
-        {
-          "label": "Difficulty",
-          "isCorrect": false
-        },
-        {
-          "label": "Challenge",
-          "isCorrect": false
-        },
-        {
-          "label": "Effort",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "East",
       "translate": "Doğu",
       "quiz": "The sun rises in the ....",

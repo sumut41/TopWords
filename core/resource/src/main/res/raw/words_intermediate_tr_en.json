@@ -121,30 +121,6 @@
       ]
     },
     {
-      "word": "Abuse",
-      "translate": "İstismar",
-      "quiz": "The company was accused of .... its workers.",
-      "quizTranslate": "Şirket, işçilerini istismar etmekle suçlandı.",
-      "translateList": [
-        {
-          "label": "Abuse",
-          "isCorrect": true
-        },
-        {
-          "label": "Use",
-          "isCorrect": false
-        },
-        {
-          "label": "Help",
-          "isCorrect": false
-        },
-        {
-          "label": "Support",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Acceptable",
       "translate": "Kabul edilebilir",
       "quiz": "Your behavior is not .... in this school.",
