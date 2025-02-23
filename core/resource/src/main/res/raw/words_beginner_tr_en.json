@@ -18241,30 +18241,6 @@
       ]
     },
     {
-      "word": "Mum",
-      "translate": "Anne (özellikle İngiltere İngilizcesi)",
-      "quiz": "My .... is cooking dinner.",
-      "quizTranslate": "Benim annem akşam yemeği pişiriyor.",
-      "translateList": [
-        {
-          "label": "Mum",
-          "isCorrect": true
-        },
-        {
-          "label": "Mother",
-          "isCorrect": false
-        },
-        {
-          "label": "Father",
-          "isCorrect": false
-        },
-        {
-          "label": "Parent",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Muscle",
       "translate": "Kas",
       "quiz": "He has big ....",
