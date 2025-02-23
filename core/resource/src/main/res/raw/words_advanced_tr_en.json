@@ -1993,30 +1993,6 @@
       ]
     },
     {
-      "word": "Assess",
-      "translate": "Değerlendirmek",
-      "quiz": "Before the interview, she needed to .... her skills and experience.",
-      "quizTranslate": "Mülakat öncesinde, yeteneklerini ve deneyimini değerlendirmesi gerekiyordu.",
-      "translateList": [
-        {
-          "label": "Assess",
-          "isCorrect": true
-        },
-        {
-          "label": "Ignore",
-          "isCorrect": false
-        },
-        {
-          "label": "Enhance",
-          "isCorrect": false
-        },
-        {
-          "label": "Disregard",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Associate",
       "translate": "İlişkilendirmek",
       "quiz": "It's common to .... certain smells with childhood memories.",
@@ -2756,30 +2732,6 @@
         },
         {
           "label": "Disruption",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Capture",
-      "translate": "Ele geçirmek",
-      "quiz": "The photographer was able to .... the sunset beautifully.",
-      "quizTranslate": "Fotoğrafçı, gün batımını güzelce ele geçirebildi.",
-      "translateList": [
-        {
-          "label": "Capture",
-          "isCorrect": true
-        },
-        {
-          "label": "Miss",
-          "isCorrect": false
-        },
-        {
-          "label": "Avoid",
-          "isCorrect": false
-        },
-        {
-          "label": "Escape",
           "isCorrect": false
         }
       ]
@@ -7820,30 +7772,6 @@
         },
         {
           "label": "Liberal",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Emphasize",
-      "translate": "Vurgulamak",
-      "quiz": "The teacher .... the importance of discipline.",
-      "quizTranslate": "Öğretmen, disiplinin önemini vurguladı.",
-      "translateList": [
-        {
-          "label": "Emphasize",
-          "isCorrect": true
-        },
-        {
-          "label": "Important",
-          "isCorrect": false
-        },
-        {
-          "label": "Accent",
-          "isCorrect": false
-        },
-        {
-          "label": "Hit",
           "isCorrect": false
         }
       ]
@@ -28513,30 +28441,6 @@
       ]
     },
     {
-      "word": "Notion",
-      "translate": "Kavram, fikir",
-      "quiz": "She had a .... about how the system should work.",
-      "quizTranslate": "Sistemin nasıl çalışması gerektiği hakkında bir fikri vardı.",
-      "translateList": [
-        {
-          "label": "Notion",
-          "isCorrect": true
-        },
-        {
-          "label": "Fact",
-          "isCorrect": false
-        },
-        {
-          "label": "Reality",
-          "isCorrect": false
-        },
-        {
-          "label": "Truth",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Objective",
       "translate": "Amaç, nesnel",
       "quiz": "Her team member should have a clear .... for the project.",
@@ -28628,30 +28532,6 @@
         },
         {
           "label": "Vague",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Enhance",
-      "translate": "Geliştirmek",
-      "quiz": "The new software will .... the performance of the system.",
-      "quizTranslate": "Yeni yazılım, sistemin performansını geliştirecek.",
-      "translateList": [
-        {
-          "label": "Enhance",
-          "isCorrect": true
-        },
-        {
-          "label": "Diminish",
-          "isCorrect": false
-        },
-        {
-          "label": "Weaken",
-          "isCorrect": false
-        },
-        {
-          "label": "Reduce",
           "isCorrect": false
         }
       ]
@@ -29516,30 +29396,6 @@
         },
         {
           "label": "Volume",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Prospect",
-      "translate": "Beklenti",
-      "quiz": "The new job offers great .... for career advancement.",
-      "quizTranslate": "Yeni iş, kariyer ilerlemesi için harika beklentiler sunuyor.",
-      "translateList": [
-        {
-          "label": "Prospect",
-          "isCorrect": true
-        },
-        {
-          "label": "Reality",
-          "isCorrect": false
-        },
-        {
-          "label": "Experience",
-          "isCorrect": false
-        },
-        {
-          "label": "History",
           "isCorrect": false
         }
       ]
