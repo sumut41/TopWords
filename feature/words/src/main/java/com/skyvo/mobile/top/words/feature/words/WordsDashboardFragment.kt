@@ -1,6 +1,5 @@
 package com.skyvo.mobile.top.words.feature.words
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -30,6 +29,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.LevelType
+import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.shared.enum.DayStatus
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimarySmallButton
@@ -93,27 +93,6 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                 text = stringResource(id = com.skyvo.mobile.core.resource.R.string.words_title),
                                 style = AppTypography.default.bodyExtraLargeBold
                             )
-
-                            state.learnLanguage?.let {
-                                Row(
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
-                                    AppText(
-                                        text = it.name,
-                                        modifier = Modifier.padding(horizontal = AppDimension.default.dp8),
-                                        style = AppTypography.default.body,
-                                        color = LocalAppColor.current.colorTextMain
-                                    )
-                                    Image(
-                                        modifier = Modifier.size(
-                                            width = 24.dp,
-                                            height = 16.dp
-                                        ),
-                                        imageVector = ImageVector.vectorResource(it.icon),
-                                        contentDescription = it.name
-                                    )
-                                }
-                            }
                         }
                     }
 
@@ -327,13 +306,73 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                                 modifier = Modifier
                                     .weight(1.3f)
                                     .size(32.dp),
-                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_bulk),
+                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_sentence),
                                 tint = LocalAppColor.current.primary,
                                 contentDescription = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label)
                             )
 
                             AppText(
                                 text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_sentence_title),
+                                style = AppTypography.default.body,
+                                modifier = Modifier
+                                    .weight(9f)
+                                    .padding(horizontal = AppDimension.default.dp16)
+                            )
+
+                            AppIcon(
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .size(24.dp),
+                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_box_arrow_right),
+                                tint = LocalAppColor.current.colorBorder,
+                                contentDescription = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_label)
+                            )
+
+                            AppSpacer(
+                                width = AppDimension.default.dp16
+                            )
+                        }
+
+                        Row(
+                            modifier = Modifier
+                                .padding(
+                                    start = AppDimension.default.dp16,
+                                    end = AppDimension.default.dp16,
+                                    top = AppDimension.default.dp16
+                                )
+                                .fillMaxWidth()
+                                .height(56.dp)
+                                .background(
+                                    color = LocalAppColor.current.colorSurfaceBase,
+                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                )
+                                .border(
+                                    width = AppDimension.default.dp1,
+                                    color = LocalAppColor.current.colorBorder,
+                                    shape = RoundedCornerShape(AppDimension.default.dp10)
+                                )
+                                .clip(RoundedCornerShape(AppDimension.default.dp10))
+                                .clickable {
+                                    navigate(NavDeeplinkDestination.WordMeaningQuiz(isSingleQuiz = true))
+                                },
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+
+                            AppSpacer(
+                                width = AppDimension.default.dp16
+                            )
+
+                            AppIcon(
+                                modifier = Modifier
+                                    .weight(1.3f)
+                                    .size(32.dp),
+                                imageVector = ImageVector.vectorResource(com.skyvo.mobile.core.uikit.R.drawable.ic_word_card),
+                                tint = LocalAppColor.current.colorError,
+                                contentDescription = stringResource(id = com.skyvo.mobile.core.resource.R.string.quiz_word_title)
+                            )
+
+                            AppText(
+                                text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_word_title),
                                 style = AppTypography.default.body,
                                 modifier = Modifier
                                     .weight(9f)
@@ -445,7 +484,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                     color = if (isSystemInDarkTheme()) {
                         backgroundColor.copy(alpha = 0.2f)
                     } else {
-                        backgroundColor.copy(alpha = 0.25f)
+                        backgroundColor
                     },
                     shape = RoundedCornerShape(AppDimension.default.dp10)
                 )
@@ -454,7 +493,7 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                     color = if (isSystemInDarkTheme()) {
                         backgroundColor.copy(alpha = 0.7f)
                     } else {
-                        backgroundColor.copy(alpha = 0.5f)
+                        backgroundColor
                     },
                     shape = RoundedCornerShape(AppDimension.default.dp10)
                 )
@@ -468,7 +507,11 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
             AppIcon(
                 modifier = Modifier.size(30.dp),
                 imageVector = ImageVector.vectorResource(iconRes),
-                tint = backgroundColor,
+                tint = if (isSystemInDarkTheme()) {
+                    backgroundColor
+                } else {
+                    LocalAppColor.current.colorTextOnSecondary
+                },
                 contentDescription = title
             )
 

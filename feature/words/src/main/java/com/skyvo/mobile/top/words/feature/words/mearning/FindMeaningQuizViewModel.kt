@@ -1,7 +1,10 @@
 package com.skyvo.mobile.top.words.feature.words.mearning
 
+import android.os.Bundle
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.AppWordTranslateItem
+import com.skyvo.mobile.core.base.manager.LevelType
+import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
@@ -17,17 +20,62 @@ import javax.inject.Inject
 @HiltViewModel
 class FindMeaningQuizViewModel @Inject constructor(
     private val courseWordRepository: CourseWordRepository,
-    private val wordRepository: WordRepository
+    private val wordRepository: WordRepository,
+    private val userManager: UserManager
 ) : BaseComposeViewModel<FindMeaningQuizUIState>() {
 
     private var currentProgress: Float = 0.0f
+    private var isSingleJustQuiz: Boolean = false
 
     override fun setInitialState(): FindMeaningQuizUIState {
         return FindMeaningQuizUIState()
     }
 
-    init {
-        getCurrentCourse()
+    override fun fetchExtras(extra: Bundle) {
+        super.fetchExtras(extra)
+        with(FindMeaningQuizFragmentArgs.fromBundle(extra)) {
+            isSingleJustQuiz = isSingleQuiz
+            if (isSingleQuiz) {
+                getRandomLearnWord()
+            } else {
+                getCurrentCourse()
+            }
+        }
+    }
+
+    private fun getRandomLearnWord() {
+        val questionList: ArrayList<SentenceQuizModel> = arrayListOf()
+        viewModelScope.launch {
+            showLoading()
+            wordRepository.getRandomLevelWordList(
+                level = getLevel().orEmpty(),
+                languageCode = userManager.learnLanguage?.code.orEmpty()
+            ).collect {
+                it?.forEach { word ->
+                    questionList.add(
+                        SentenceQuizModel(
+                            word = word.word.orEmpty(),
+                            question = word.translate.orEmpty(),
+                            questionTranslate = "Anlamına uygun seçeneği seç.",
+                            answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()
+                                ?.shuffled()?.shuffled()
+                        )
+                    )
+                }
+
+                questionList.shuffled().shuffled()
+                setState {
+                    copy(
+                        wordIdListSize = questionList.size,
+                        items = questionList,
+                        unCorrectCount = 0,
+                        currentQuestion = questionList.first()
+                    )
+                }
+            }
+
+            removeAllLoading()
+        }
     }
 
     private fun getCurrentCourse() {
@@ -60,7 +108,8 @@ class FindMeaningQuizViewModel @Inject constructor(
                                     word = word.word.orEmpty(),
                                     question = word.translate.orEmpty(),
                                     questionTranslate = "Anlamına uygun seçeneği seç.",
-                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()?.shuffled()?.shuffled()
+                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()
+                                        ?.shuffled()?.shuffled()
                                 )
                             )
                         }
@@ -152,27 +201,52 @@ class FindMeaningQuizViewModel @Inject constructor(
     }
 
     fun next(isBack: Boolean = false) {
-        viewModelScope.launch {
-            courseWordRepository.updateCourse(
-                id = state.value.courseId ?: 0L,
-                isStart = true,
-                progress = if (state.value.correctCount >= ((state.value.items?.size
-                        ?: 1) - 1) && state.value.unCorrectCount == 0
-                ) 0.75f else (if (currentProgress == 0.50f) 0.60f else currentProgress)
-            )
-            delay(100)
+        if (isSingleJustQuiz) {
             if (isBack) {
                 navigateBack()
             } else {
                 navigate(
                     navDeepLink = NavDeeplinkDestination.ResultWord(
-                        "Harika gidiyorsun!"
+                        title = "Süpersin, tekrar görüşmek üzere :)",
+                        isQuiz = true
                     ),
                     popUpTo = true,
                     popUpToInclusive = false,
                     popUpToId = R.id.wordsDashboardFragment
                 )
             }
+        } else {
+            viewModelScope.launch {
+                courseWordRepository.updateCourse(
+                    id = state.value.courseId ?: 0L,
+                    isStart = true,
+                    progress = if (state.value.correctCount >= ((state.value.items?.size
+                            ?: 1) - 1) && state.value.unCorrectCount == 0
+                    ) 0.75f else (if (currentProgress == 0.50f) 0.60f else currentProgress)
+                )
+                delay(100)
+                if (isBack) {
+                    navigateBack()
+                } else {
+                    navigate(
+                        navDeepLink = NavDeeplinkDestination.ResultWord(
+                            "Harika gidiyorsun!"
+                        ),
+                        popUpTo = true,
+                        popUpToInclusive = false,
+                        popUpToId = R.id.wordsDashboardFragment
+                    )
+                }
+            }
+        }
+    }
+
+    private fun getLevel(): String? {
+        return when (userManager.customerLevel?.type) {
+            "A1", "A2" -> LevelType.BEGINNER.key
+            "B1", "B2" -> LevelType.INTERMEDIATE.key
+            "C1", "C2" -> LevelType.ADVANCED.key
+            else -> LevelType.BEGINNER.key
         }
     }
 }

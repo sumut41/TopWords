@@ -123,10 +123,10 @@ val AppLightColors = AppCoreColorScheme(
     colorBorderFocused = Color(0xFFE8E8E8),
     colorAnswerSuccess = Color(0xFFF5FFD8),
     colorAnswerError = Color(0xFFFFDDD8),
-    colorBeginner = Color(0xFF439D33),
-    colorIntermediate = Color(0xFF157CF3),
-    colorAdvanced = Color(0xFF8952F5),
-    colorTextLevelCard = Color(0xFF3F3E3E)
+    colorBeginner = Color(0xFFE6F5F3),
+    colorIntermediate = Color(0xFFE6F7FE),
+    colorAdvanced = Color(0xFFFAF0ED),
+    colorTextLevelCard = Color(0xFF31363F)
 )
 
 val AppDarkColors = AppCoreColorScheme(

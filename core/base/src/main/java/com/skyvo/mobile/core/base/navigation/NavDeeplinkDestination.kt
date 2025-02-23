@@ -36,4 +36,10 @@ sealed class NavDeeplinkDestination(
     data object WordsDashboard: NavDeeplinkDestination(
         _deeplink = "words/dashboard"
     )
+
+    data class WordMeaningQuiz(
+        val isSingleQuiz: Boolean = false
+    ): NavDeeplinkDestination (
+        _deeplink = "words/quiz/word-meaning?isSingleQuiz=$isSingleQuiz"
+    )
 }
