@@ -5545,6 +5545,534 @@
       ]
     },
     {
+      "word": "Abate",
+      "translate": "Azaltmak",
+      "quiz": "The storm finally began to .... after several hours.",
+      "quizTranslate": "Fırtına birkaç saat sonra azalmaya başladı.",
+      "translateList": [
+        {
+          "label": "Abate",
+          "isCorrect": true
+        },
+        {
+          "label": "Increase",
+          "isCorrect": false
+        },
+        {
+          "label": "Intensify",
+          "isCorrect": false
+        },
+        {
+          "label": "Expand",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Aberration",
+      "translate": "Sapma",
+      "quiz": "His actions were seen as an .... from the normal behavior.",
+      "quizTranslate": "Onun hareketleri, normal davranıştan bir sapma olarak görüldü.",
+      "translateList": [
+        {
+          "label": "Aberration",
+          "isCorrect": true
+        },
+        {
+          "label": "Conformity",
+          "isCorrect": false
+        },
+        {
+          "label": "Consistency",
+          "isCorrect": false
+        },
+        {
+          "label": "Standard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Abstruse",
+      "translate": "Zor anlaşılır",
+      "quiz": "The lecture was so .... that none of the students understood it.",
+      "quizTranslate": "Ders o kadar zor anlaşılırdı ki, öğrencilerden hiçbiri anlamadı.",
+      "translateList": [
+        {
+          "label": "Abstruse",
+          "isCorrect": true
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Obvious",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Accolade",
+      "translate": "Ödül",
+      "quiz": "She received many .... for her outstanding performance.",
+      "quizTranslate": "O, olağanüstü performansı için birçok ödül aldı.",
+      "translateList": [
+        {
+          "label": "Accolade",
+          "isCorrect": true
+        },
+        {
+          "label": "Criticism",
+          "isCorrect": false
+        },
+        {
+          "label": "Penalty",
+          "isCorrect": false
+        },
+        {
+          "label": "Fine",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Acrimony",
+      "translate": "Huzursuzluk",
+      "quiz": "The debate ended in .... and no agreement was reached.",
+      "quizTranslate": "Tartışma huzursuzluk içinde sona erdi ve hiçbir anlaşmaya varılmadı.",
+      "translateList": [
+        {
+          "label": "Acrimony",
+          "isCorrect": true
+        },
+        {
+          "label": "Harmony",
+          "isCorrect": false
+        },
+        {
+          "label": "Peace",
+          "isCorrect": false
+        },
+        {
+          "label": "Agreement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Alacrity",
+      "translate": "İsteklilik",
+      "quiz": "She accepted the offer with great ....",
+      "quizTranslate": "Teklifi büyük bir istekle kabul etti.",
+      "translateList": [
+        {
+          "label": "Alacrity",
+          "isCorrect": true
+        },
+        {
+          "label": "Reluctance",
+          "isCorrect": false
+        },
+        {
+          "label": "Indifference",
+          "isCorrect": false
+        },
+        {
+          "label": "Laziness",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Anachronistic",
+      "translate": "Zaman dışı",
+      "quiz": "The use of a typewriter in the modern office is ....",
+      "quizTranslate": "Modern ofiste daktilo kullanımı zaman dışıdır.",
+      "translateList": [
+        {
+          "label": "Anachronistic",
+          "isCorrect": true
+        },
+        {
+          "label": "Modern",
+          "isCorrect": false
+        },
+        {
+          "label": "Contemporary",
+          "isCorrect": false
+        },
+        {
+          "label": "Timeless",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Assiduous",
+      "translate": "Azimli",
+      "quiz": "She was an .... worker who always gave her best.",
+      "quizTranslate": "O, her zaman en iyisini veren azimli bir işçiydi.",
+      "translateList": [
+        {
+          "label": "Assiduous",
+          "isCorrect": true
+        },
+        {
+          "label": "Lazy",
+          "isCorrect": false
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        },
+        {
+          "label": "Negligent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Austere",
+      "translate": "Sert",
+      "quiz": "The monk's .... lifestyle reflected his commitment to simplicity.",
+      "quizTranslate": "Keşişin sert yaşam tarzı, basitliğe olan bağlılığını yansıtıyordu.",
+      "translateList": [
+        {
+          "label": "Austere",
+          "isCorrect": true
+        },
+        {
+          "label": "Luxurious",
+          "isCorrect": false
+        },
+        {
+          "label": "Comfortable",
+          "isCorrect": false
+        },
+        {
+          "label": "Opulent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Banal",
+      "translate": "Sıradan",
+      "quiz": "The movie's plot was so .... that I fell asleep halfway through.",
+      "quizTranslate": "Filmin konusu o kadar sıradandı ki, yarı yolda uyuyakaldım.",
+      "translateList": [
+        {
+          "label": "Banal",
+          "isCorrect": true
+        },
+        {
+          "label": "Original",
+          "isCorrect": false
+        },
+        {
+          "label": "Creative",
+          "isCorrect": false
+        },
+        {
+          "label": "Innovative",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Belie",
+      "translate": "Yanıltmak",
+      "quiz": "His actions .... his true intentions.",
+      "quizTranslate": "Hareketleri, gerçek niyetlerini yanıltıyordu.",
+      "translateList": [
+        {
+          "label": "Belie",
+          "isCorrect": true
+        },
+        {
+          "label": "Reveal",
+          "isCorrect": false
+        },
+        {
+          "label": "Clarify",
+          "isCorrect": false
+        },
+        {
+          "label": "Expose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Benevolent",
+      "translate": "Yardımsever",
+      "quiz": "The .... organization donated large sums to charity.",
+      "quizTranslate": "Yardımsever organizasyon, hayır kurumlarına büyük bağışlar yaptı.",
+      "translateList": [
+        {
+          "label": "Benevolent",
+          "isCorrect": true
+        },
+        {
+          "label": "Selfish",
+          "isCorrect": false
+        },
+        {
+          "label": "Cruel",
+          "isCorrect": false
+        },
+        {
+          "label": "Malevolent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Boisterous",
+      "translate": "Gürültülü, coşkulu",
+      "quiz": "The children were .... as they played in the park.",
+      "quizTranslate": "Çocuklar parkta oynarken gürültülüydü.",
+      "translateList": [
+        {
+          "label": "Boisterous",
+          "isCorrect": true
+        },
+        {
+          "label": "Quiet",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        },
+        {
+          "label": "Serene",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cacophony",
+      "translate": "Karmaşık ses, gürültü",
+      "quiz": "The streets were filled with the .... of car horns and shouting.",
+      "quizTranslate": "Sokaklar, araba kornalarının ve bağıran insanların gürültüsüyle doluydu.",
+      "translateList": [
+        {
+          "label": "Cacophony",
+          "isCorrect": true
+        },
+        {
+          "label": "Harmony",
+          "isCorrect": false
+        },
+        {
+          "label": "Melody",
+          "isCorrect": false
+        },
+        {
+          "label": "Symphony",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Capricious",
+      "translate": "Kaprisli, değişken",
+      "quiz": "His .... behavior made it hard to predict his next move.",
+      "quizTranslate": "Onun kaprisli davranışları, bir sonraki hamlesini tahmin etmeyi zorlaştırıyordu.",
+      "translateList": [
+        {
+          "label": "Capricious",
+          "isCorrect": true
+        },
+        {
+          "label": "Consistent",
+          "isCorrect": false
+        },
+        {
+          "label": "Steady",
+          "isCorrect": false
+        },
+        {
+          "label": "Predictable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Circumspect",
+      "translate": "Dikkatli, temkinli",
+      "quiz": "He took a .... approach to solving the problem.",
+      "quizTranslate": "Problemi çözmek için dikkatli bir yaklaşım benimsedi.",
+      "translateList": [
+        {
+          "label": "Circumspect",
+          "isCorrect": true
+        },
+        {
+          "label": "Reckless",
+          "isCorrect": false
+        },
+        {
+          "label": "Carefree",
+          "isCorrect": false
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Clandestine",
+      "translate": "Gizli",
+      "quiz": "They held a .... meeting to discuss the secret plans.",
+      "quizTranslate": "Gizli planları tartışmak için gizli bir toplantı yaptılar.",
+      "translateList": [
+        {
+          "label": "Clandestine",
+          "isCorrect": true
+        },
+        {
+          "label": "Open",
+          "isCorrect": false
+        },
+        {
+          "label": "Public",
+          "isCorrect": false
+        },
+        {
+          "label": "Transparent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coalesce",
+      "translate": "Birleşmek, kaynaşmak",
+      "quiz": "The two companies decided to .... and form a larger corporation.",
+      "quizTranslate": "İki şirket birleşip daha büyük bir şirket kurmaya karar verdi.",
+      "translateList": [
+        {
+          "label": "Coalesce",
+          "isCorrect": true
+        },
+        {
+          "label": "Separate",
+          "isCorrect": false
+        },
+        {
+          "label": "Divide",
+          "isCorrect": false
+        },
+        {
+          "label": "Split",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Conundrum",
+      "translate": "Çıkmaz, muamma",
+      "quiz": "The team was faced with a difficult .... during the project.",
+      "quizTranslate": "Takım, proje sırasında zor bir muammayla karşılaştı.",
+      "translateList": [
+        {
+          "label": "Conundrum",
+          "isCorrect": true
+        },
+        {
+          "label": "Solution",
+          "isCorrect": false
+        },
+        {
+          "label": "Answer",
+          "isCorrect": false
+        },
+        {
+          "label": "Clarity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Debunk",
+      "translate": "Çürütmek",
+      "quiz": "The documentary helped .... many common myths about the environment.",
+      "quizTranslate": "Belgesel, çevreyle ilgili birçok yaygın miti çürütmeye yardımcı oldu.",
+      "translateList": [
+        {
+          "label": "Debunk",
+          "isCorrect": true
+        },
+        {
+          "label": "Confirm",
+          "isCorrect": false
+        },
+        {
+          "label": "Validate",
+          "isCorrect": false
+        },
+        {
+          "label": "Support",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Deleterious",
+      "translate": "Zararlı",
+      "quiz": "Smoking has .... effects on health.",
+      "quizTranslate": "Sigara içmek sağlığa zararlı etkiler yapar.",
+      "translateList": [
+        {
+          "label": "Deleterious",
+          "isCorrect": true
+        },
+        {
+          "label": "Beneficial",
+          "isCorrect": false
+        },
+        {
+          "label": "Positive",
+          "isCorrect": false
+        },
+        {
+          "label": "Healthy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Diaphanous",
+      "translate": "Şeffaf, ince",
+      "quiz": "She wore a .... gown to the gala.",
+      "quizTranslate": "Gala için ince bir elbise giydi.",
+      "translateList": [
+        {
+          "label": "Diaphanous",
+          "isCorrect": true
+        },
+        {
+          "label": "Opaque",
+          "isCorrect": false
+        },
+        {
+          "label": "Thick",
+          "isCorrect": false
+        },
+        {
+          "label": "Solid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Dawn",
       "translate": "Şafak",
       "quiz": "We set out at .... to catch the first train.",
@@ -5564,6 +6092,678 @@
         },
         {
           "label": "Midnight",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Disparage",
+      "translate": "Aşağılamak, küçük düşürmek",
+      "quiz": "He would never .... his colleagues in front of others.",
+      "quizTranslate": "Başkalarının önünde asla çalışma arkadaşlarını aşağılamazdı.",
+      "translateList": [
+        {
+          "label": "Disparage",
+          "isCorrect": true
+        },
+        {
+          "label": "Compliment",
+          "isCorrect": false
+        },
+        {
+          "label": "Praise",
+          "isCorrect": false
+        },
+        {
+          "label": "Honor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Egregious",
+      "translate": "Berbat, korkunç",
+      "quiz": "The team's performance was .... during the final match.",
+      "quizTranslate": "Final maçında takımın performansı korkunçtu.",
+      "translateList": [
+        {
+          "label": "Egregious",
+          "isCorrect": true
+        },
+        {
+          "label": "Acceptable",
+          "isCorrect": false
+        },
+        {
+          "label": "Decent",
+          "isCorrect": false
+        },
+        {
+          "label": "Moderate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Enervate",
+      "translate": "Güçsüzleştirmek",
+      "quiz": "The long hike in the heat began to .... him.",
+      "quizTranslate": "Sıcaklıkta uzun yürüyüş, onu güçsüzleştirmeye başladı.",
+      "translateList": [
+        {
+          "label": "Enervate",
+          "isCorrect": true
+        },
+        {
+          "label": "Energize",
+          "isCorrect": false
+        },
+        {
+          "label": "Invigorate",
+          "isCorrect": false
+        },
+        {
+          "label": "Strengthen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ephemeral",
+      "translate": "Kısa ömürlü",
+      "quiz": "The beauty of the sunset was .... and fleeting.",
+      "quizTranslate": "Gün batımının güzelliği kısa ömürlü ve geçiciydi.",
+      "translateList": [
+        {
+          "label": "Ephemeral",
+          "isCorrect": true
+        },
+        {
+          "label": "Permanent",
+          "isCorrect": false
+        },
+        {
+          "label": "Enduring",
+          "isCorrect": false
+        },
+        {
+          "label": "Lasting",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Esoteric",
+      "translate": "Sadece bir grup insanın anlayabileceği",
+      "quiz": "The lecture on quantum physics was highly ....",
+      "quizTranslate": "Kuantum fiziğiyle ilgili ders oldukça özel bir konuydu.",
+      "translateList": [
+        {
+          "label": "Esoteric",
+          "isCorrect": true
+        },
+        {
+          "label": "Popular",
+          "isCorrect": false
+        },
+        {
+          "label": "Common",
+          "isCorrect": false
+        },
+        {
+          "label": "Mainstream",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fastidious",
+      "translate": "Titiz",
+      "quiz": "She was .... about keeping her room perfectly organized.",
+      "quizTranslate": "O, odasını mükemmel bir şekilde düzenli tutma konusunda titizdi.",
+      "translateList": [
+        {
+          "label": "Fastidious",
+          "isCorrect": true
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        },
+        {
+          "label": "Negligent",
+          "isCorrect": false
+        },
+        {
+          "label": "Untidy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Furtive",
+      "translate": "Gizli, sinsi",
+      "quiz": "He gave a .... glance at the clock, hoping no one would notice.",
+      "quizTranslate": "Saate gizlice bir göz attı, kimsenin fark etmesini umarak.",
+      "translateList": [
+        {
+          "label": "Furtive",
+          "isCorrect": true
+        },
+        {
+          "label": "Open",
+          "isCorrect": false
+        },
+        {
+          "label": "Obvious",
+          "isCorrect": false
+        },
+        {
+          "label": "Transparent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Garrulous",
+      "translate": "Çok konuşan, geveze",
+      "quiz": "The garrulous neighbor talked about his life for hours.",
+      "quizTranslate": "Geveze komşu saatlerce hayatını anlattı.",
+      "translateList": [
+        {
+          "label": "Garrulous",
+          "isCorrect": true
+        },
+        {
+          "label": "Taciturn",
+          "isCorrect": false
+        },
+        {
+          "label": "Quiet",
+          "isCorrect": false
+        },
+        {
+          "label": "Reserved",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Gregarious",
+      "translate": "Sosyable, sosyal",
+      "quiz": "She was a .... person who loved attending social events.",
+      "quizTranslate": "O, sosyal etkinliklere katılmayı seven sosyal bir insandı.",
+      "translateList": [
+        {
+          "label": "Gregarious",
+          "isCorrect": true
+        },
+        {
+          "label": "Introverted",
+          "isCorrect": false
+        },
+        {
+          "label": "Shy",
+          "isCorrect": false
+        },
+        {
+          "label": "Reserved",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Harangue",
+      "translate": "Nutuk, uzun ve kızgın konuşma",
+      "quiz": "The politician delivered a long .... about the state of the economy.",
+      "quizTranslate": "Siyasetçi, ekonominin durumu hakkında uzun bir nutuk verdi.",
+      "translateList": [
+        {
+          "label": "Harangue",
+          "isCorrect": true
+        },
+        {
+          "label": "Speech",
+          "isCorrect": false
+        },
+        {
+          "label": "Discussion",
+          "isCorrect": false
+        },
+        {
+          "label": "Debate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Iconoclast",
+      "translate": "Geleneksel inançlara veya kurumlara karşı çıkan kişi",
+      "quiz": "The artist was considered an .... for challenging conventional art forms.",
+      "quizTranslate": "Sanatçı, geleneksel sanat biçimlerine karşı çıkmakla bir iconoclast olarak kabul edildi.",
+      "translateList": [
+        {
+          "label": "Iconoclast",
+          "isCorrect": true
+        },
+        {
+          "label": "Traditionalist",
+          "isCorrect": false
+        },
+        {
+          "label": "Conformist",
+          "isCorrect": false
+        },
+        {
+          "label": "Follower",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Idiosyncratic",
+      "translate": "Bireye özgü, alışılmadık",
+      "quiz": "His .... habits made him a unique character.",
+      "quizTranslate": "Onun alışılmadık alışkanlıkları onu benzersiz bir karakter yaptı.",
+      "translateList": [
+        {
+          "label": "Idiosyncratic",
+          "isCorrect": true
+        },
+        {
+          "label": "Common",
+          "isCorrect": false
+        },
+        {
+          "label": "Normal",
+          "isCorrect": false
+        },
+        {
+          "label": "Ordinary",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Impertinent",
+      "translate": "Saygısız, edebe aykırı",
+      "quiz": "The student's .... remarks angered the teacher.",
+      "quizTranslate": "Öğrencinin saygısız sözleri öğretmeni kızdırdı.",
+      "translateList": [
+        {
+          "label": "Impertinent",
+          "isCorrect": true
+        },
+        {
+          "label": "Polite",
+          "isCorrect": false
+        },
+        {
+          "label": "Respectful",
+          "isCorrect": false
+        },
+        {
+          "label": "Courteous",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ineffable",
+      "translate": "Kelimelerle anlatılamayacak kadar büyük veya güzel",
+      "quiz": "The beauty of the sunset was .... and fleeting.",
+      "quizTranslate": "Gün batımının güzelliği kelimelerle anlatılamayacak kadar büyük ve geçiciydi.",
+      "translateList": [
+        {
+          "label": "Ineffable",
+          "isCorrect": true
+        },
+        {
+          "label": "Describable",
+          "isCorrect": false
+        },
+        {
+          "label": "Expressible",
+          "isCorrect": false
+        },
+        {
+          "label": "Modest",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Insidious",
+      "translate": "Sinsi, gizlice zarar veren",
+      "quiz": "The disease spread in an .... manner, causing unnoticed damage.",
+      "quizTranslate": "Hastalık, fark edilmeden zarar vererek sinsi bir şekilde yayıldı.",
+      "translateList": [
+        {
+          "label": "Insidious",
+          "isCorrect": true
+        },
+        {
+          "label": "Harmless",
+          "isCorrect": false
+        },
+        {
+          "label": "Obvious",
+          "isCorrect": false
+        },
+        {
+          "label": "Benign",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Intransigent",
+      "translate": "Taviz vermeyen, uzlaşmaz",
+      "quiz": "The negotiations failed because both sides were .... on the issue.",
+      "quizTranslate": "Her iki taraf da bu konuda uzlaşmaz olduğu için müzakereler başarısız oldu.",
+      "translateList": [
+        {
+          "label": "Intransigent",
+          "isCorrect": true
+        },
+        {
+          "label": "Flexible",
+          "isCorrect": false
+        },
+        {
+          "label": "Compromising",
+          "isCorrect": false
+        },
+        {
+          "label": "Agreeable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Juxtapose",
+      "translate": "Yan yana koymak, karşılaştırmak",
+      "quiz": "The artist decided to .... modern and traditional styles in the same piece.",
+      "quizTranslate": "Sanatçı, modern ve geleneksel stilleri aynı eserde yan yana koymaya karar verdi.",
+      "translateList": [
+        {
+          "label": "Juxtapose",
+          "isCorrect": true
+        },
+        {
+          "label": "Separate",
+          "isCorrect": false
+        },
+        {
+          "label": "Combine",
+          "isCorrect": false
+        },
+        {
+          "label": "Blend",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Laconic",
+      "translate": "Kısa ve öz, az kelimeli",
+      "quiz": "His .... answers made the conversation efficient and to the point.",
+      "quizTranslate": "Onun kısa ve öz cevapları, konuşmayı verimli ve konuya odaklanmış hale getirdi.",
+      "translateList": [
+        {
+          "label": "Laconic",
+          "isCorrect": true
+        },
+        {
+          "label": "Verbose",
+          "isCorrect": false
+        },
+        {
+          "label": "Talkative",
+          "isCorrect": false
+        },
+        {
+          "label": "Wordy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Languid",
+      "translate": "Halsiz, bitkin",
+      "quiz": "After the long hike, she felt .... and needed rest.",
+      "quizTranslate": "Uzun yürüyüşün ardından halsiz hissetti ve dinlenmeye ihtiyacı vardı.",
+      "translateList": [
+        {
+          "label": "Languid",
+          "isCorrect": true
+        },
+        {
+          "label": "Energetic",
+          "isCorrect": false
+        },
+        {
+          "label": "Vigorous",
+          "isCorrect": false
+        },
+        {
+          "label": "Active",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Magnanimous",
+      "translate": "Cömert, büyük yürekli",
+      "quiz": "His .... gesture helped many families in need.",
+      "quizTranslate": "Onun büyük yürekli jesti, ihtiyaç içinde olan birçok aileye yardımcı oldu.",
+      "translateList": [
+        {
+          "label": "Magnanimous",
+          "isCorrect": true
+        },
+        {
+          "label": "Selfish",
+          "isCorrect": false
+        },
+        {
+          "label": "Greedy",
+          "isCorrect": false
+        },
+        {
+          "label": "Mean",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Misanthrope",
+      "translate": "İnsanlardan nefret eden kişi",
+      "quiz": "The old man was a .... who rarely left his house.",
+      "quizTranslate": "Yaşlı adam, nadiren evinden çıkan bir misantropiydi.",
+      "translateList": [
+        {
+          "label": "Misanthrope",
+          "isCorrect": true
+        },
+        {
+          "label": "Humanitarian",
+          "isCorrect": false
+        },
+        {
+          "label": "Philanthropist",
+          "isCorrect": false
+        },
+        {
+          "label": "Altruist",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Obfuscate",
+      "translate": "Karmaşık hale getirmek, gizlemek",
+      "quiz": "The politician tried to .... the truth during the interview.",
+      "quizTranslate": "Siyasetçi, röportaj sırasında gerçeği gizlemeye çalıştı.",
+      "translateList": [
+        {
+          "label": "Obfuscate",
+          "isCorrect": true
+        },
+        {
+          "label": "Clarify",
+          "isCorrect": false
+        },
+        {
+          "label": "Illuminate",
+          "isCorrect": false
+        },
+        {
+          "label": "Simplify",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Obsequious",
+      "translate": "Aşırı derecede itaatkar, yağcı",
+      "quiz": "His .... behavior towards the boss was evident to everyone.",
+      "quizTranslate": "Patronuna karşı aşırı derecede itaatkar tavırları herkes tarafından fark edildi.",
+      "translateList": [
+        {
+          "label": "Obsequious",
+          "isCorrect": true
+        },
+        {
+          "label": "Assertive",
+          "isCorrect": false
+        },
+        {
+          "label": "Independent",
+          "isCorrect": false
+        },
+        {
+          "label": "Bold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ostentatious",
+      "translate": "Gösterişli, abartılı",
+      "quiz": "Her .... display of wealth made everyone uncomfortable.",
+      "quizTranslate": "Onun zenginliğini gösterişli şekilde sergilemesi herkesi rahatsız etti.",
+      "translateList": [
+        {
+          "label": "Ostentatious",
+          "isCorrect": true
+        },
+        {
+          "label": "Modest",
+          "isCorrect": false
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Subtle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Panacea",
+      "translate": "Her derde deva, çare",
+      "quiz": "There is no .... for all the problems we face today.",
+      "quizTranslate": "Bugün karşılaştığımız tüm sorunlar için bir çare yoktur.",
+      "translateList": [
+        {
+          "label": "Panacea",
+          "isCorrect": true
+        },
+        {
+          "label": "Solution",
+          "isCorrect": false
+        },
+        {
+          "label": "Answer",
+          "isCorrect": false
+        },
+        {
+          "label": "Remedy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Parsimonious",
+      "translate": "Aşırı cimri",
+      "quiz": "His .... attitude towards money made him unpopular among his friends.",
+      "quizTranslate": "Paraya karşı aşırı cimri tavrı, arkadaşları arasında popüler olmasını engelledi.",
+      "translateList": [
+        {
+          "label": "Parsimonious",
+          "isCorrect": true
+        },
+        {
+          "label": "Generous",
+          "isCorrect": false
+        },
+        {
+          "label": "Lavish",
+          "isCorrect": false
+        },
+        {
+          "label": "Bountiful",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pedantic",
+      "translate": "aşırı ayrıntıcı, bilgiçlik taslayan",
+      "quiz": "His .... style of teaching made the lessons feel tedious.",
+      "quizTranslate": "Onun aşırı ayrıntıya giren öğretim tarzı, dersleri sıkıcı hale getirdi.",
+      "translateList": [
+        {
+          "label": "Pedantic",
+          "isCorrect": true
+        },
+        {
+          "label": "Engaging",
+          "isCorrect": false
+        },
+        {
+          "label": "Inspiring",
+          "isCorrect": false
+        },
+        {
+          "label": "Entertaining",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Perfunctory",
+      "translate": "Yüzeysel, isteksizce yapılan",
+      "quiz": "His .... response to the question showed his lack of interest.",
+      "quizTranslate": "Soruyu cevaplarken isteksizce verdiği tepki, ilgisizliğini gösterdi.",
+      "translateList": [
+        {
+          "label": "Perfunctory",
+          "isCorrect": true
+        },
+        {
+          "label": "Thorough",
+          "isCorrect": false
+        },
+        {
+          "label": "Diligent",
+          "isCorrect": false
+        },
+        {
+          "label": "Careful",
           "isCorrect": false
         }
       ]
