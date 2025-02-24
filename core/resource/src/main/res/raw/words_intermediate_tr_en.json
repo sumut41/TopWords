@@ -23233,6 +23233,246 @@
       ]
     },
     {
+      "word": "Scientific",
+      "translate": "Bilimsel",
+      "quiz": "The research provides .... evidence supporting the theory.",
+      "quizTranslate": "Araştırma, teoriyi destekleyen bilimsel kanıtlar sunmaktadır.",
+      "translateList": [
+        {
+          "label": "Scientific",
+          "isCorrect": true
+        },
+        {
+          "label": "Empirical",
+          "isCorrect": false
+        },
+        {
+          "label": "Experimental",
+          "isCorrect": false
+        },
+        {
+          "label": "Analytical",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Recommendation",
+      "translate": "Tavsiye",
+      "quiz": "She gave me a .... to improve my writing skills.",
+      "quizTranslate": "Yazma becerilerimi geliştirmem için bana bir tavsiye verdi.",
+      "translateList": [
+        {
+          "label": "Recommendation",
+          "isCorrect": true
+        },
+        {
+          "label": "Suggestion",
+          "isCorrect": false
+        },
+        {
+          "label": "Advice",
+          "isCorrect": false
+        },
+        {
+          "label": "Proposal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Quotation",
+      "translate": "Alıntı",
+      "quiz": "The book begins with a famous .... from Shakespeare.",
+      "quizTranslate": "Kitap, Shakespeare'den ünlü bir alıntı ile başlar.",
+      "translateList": [
+        {
+          "label": "Quotation",
+          "isCorrect": true
+        },
+        {
+          "label": "Citation",
+          "isCorrect": false
+        },
+        {
+          "label": "Reference",
+          "isCorrect": false
+        },
+        {
+          "label": "Excerpt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Queue",
+      "translate": "Kuyruk",
+      "quiz": "We had to wait in a long .... to buy tickets.",
+      "quizTranslate": "Bilet almak için uzun bir kuyrukta beklemek zorunda kaldık.",
+      "translateList": [
+        {
+          "label": "Queue",
+          "isCorrect": true
+        },
+        {
+          "label": "Line",
+          "isCorrect": false
+        },
+        {
+          "label": "Row",
+          "isCorrect": false
+        },
+        {
+          "label": "Sequence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Prediction",
+      "translate": "Tahmin",
+      "quiz": "The weather .... for tomorrow is sunny.",
+      "quizTranslate": "Yarının hava tahmini güneşli.",
+      "translateList": [
+        {
+          "label": "Prediction",
+          "isCorrect": true
+        },
+        {
+          "label": "Forecast",
+          "isCorrect": false
+        },
+        {
+          "label": "Estimate",
+          "isCorrect": false
+        },
+        {
+          "label": "Projection",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Volunteer",
+      "translate": "Gönüllü",
+      "quiz": "She decided to .... at the local shelter.",
+      "quizTranslate": "Yerel barınakta gönüllü olmaya karar verdi.",
+      "translateList": [
+        {
+          "label": "Volunteer",
+          "isCorrect": true
+        },
+        {
+          "label": "Donate",
+          "isCorrect": false
+        },
+        {
+          "label": "Contribute",
+          "isCorrect": false
+        },
+        {
+          "label": "Assist",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Viewer",
+      "translate": "İzleyici",
+      "quiz": "The show attracted a large number of ....",
+      "quizTranslate": "Gösteri, büyük bir izleyici kitlesi çekti.",
+      "translateList": [
+        {
+          "label": "Viewer",
+          "isCorrect": true
+        },
+        {
+          "label": "Audience",
+          "isCorrect": false
+        },
+        {
+          "label": "Spectator",
+          "isCorrect": false
+        },
+        {
+          "label": "Observer",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Used",
+      "translate": "Kullanılmış",
+      "quiz": "She bought a .... car at a reasonable price.",
+      "quizTranslate": "Makul bir fiyata ikinci el bir araba aldı.",
+      "translateList": [
+        {
+          "label": "Used",
+          "isCorrect": true
+        },
+        {
+          "label": "Second-hand",
+          "isCorrect": false
+        },
+        {
+          "label": "Pre-owned",
+          "isCorrect": false
+        },
+        {
+          "label": "Old",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Update",
+      "translate": "Güncelleme",
+      "quiz": "Please .... your contact information.",
+      "quizTranslate": "Lütfen iletişim bilgilerinizi güncelleyin.",
+      "translateList": [
+        {
+          "label": "Update",
+          "isCorrect": true
+        },
+        {
+          "label": "Refresh",
+          "isCorrect": false
+        },
+        {
+          "label": "Modify",
+          "isCorrect": false
+        },
+        {
+          "label": "Revise",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Typically",
+      "translate": "Tipik olarak",
+      "quiz": "...., she arrives at work by 9 AM.",
+      "quizTranslate": "Tipik olarak, işe sabah 9'a kadar varır.",
+      "translateList": [
+        {
+          "label": "Typically",
+          "isCorrect": true
+        },
+        {
+          "label": "Usually",
+          "isCorrect": false
+        },
+        {
+          "label": "Generally",
+          "isCorrect": false
+        },
+        {
+          "label": "Normally",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Nearly",
       "translate": "Neredeyse",
       "quiz": "I have .... finished my homework.",
@@ -23276,6 +23516,246 @@
         },
         {
           "label": "Fear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ad",
+      "translate": "Reklam",
+      "quiz": "The company launched a new .... campaign.",
+      "quizTranslate": "Şirket, yeni bir reklam kampanyası başlattı.",
+      "translateList": [
+        {
+          "label": "Ad",
+          "isCorrect": true
+        },
+        {
+          "label": "Advertisement",
+          "isCorrect": false
+        },
+        {
+          "label": "Commercial",
+          "isCorrect": false
+        },
+        {
+          "label": "Promo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Assignment",
+      "translate": "Ödev",
+      "quiz": "The teacher gave us a challenging .... to complete.",
+      "quizTranslate": "Öğretmen, tamamlamamız için zor bir ödev verdi.",
+      "translateList": [
+        {
+          "label": "Assignment",
+          "isCorrect": true
+        },
+        {
+          "label": "Task",
+          "isCorrect": false
+        },
+        {
+          "label": "Project",
+          "isCorrect": false
+        },
+        {
+          "label": "Exercise",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Development",
+      "translate": "Gelişim",
+      "quiz": "The city has seen significant .... in recent years.",
+      "quizTranslate": "Şehir, son yıllarda önemli bir gelişim gördü.",
+      "translateList": [
+        {
+          "label": "Development",
+          "isCorrect": true
+        },
+        {
+          "label": "Growth",
+          "isCorrect": false
+        },
+        {
+          "label": "Advancement",
+          "isCorrect": false
+        },
+        {
+          "label": "Progress",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Disappointing",
+      "translate": "Hayal kırıklığına uğratıcı",
+      "quiz": "The movie had a .... ending that left many viewers unsatisfied.",
+      "quizTranslate": "Filmin, birçok izleyiciyi tatmin etmeyen hayal kırıklığına uğratıcı bir sonu vardı.",
+      "translateList": [
+        {
+          "label": "Disappointing",
+          "isCorrect": true
+        },
+        {
+          "label": "Unsatisfying",
+          "isCorrect": false
+        },
+        {
+          "label": "Unimpressive",
+          "isCorrect": false
+        },
+        {
+          "label": "Underwhelming",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Disappointed",
+      "translate": "Hayal kırıklığına uğramış",
+      "quiz": "She felt .... after hearing the bad news.",
+      "quizTranslate": "Kötü haberi duyduktan sonra hayal kırıklığına uğramış hissetti.",
+      "translateList": [
+        {
+          "label": "Disappointed",
+          "isCorrect": true
+        },
+        {
+          "label": "Dismayed",
+          "isCorrect": false
+        },
+        {
+          "label": "Dissatisfied",
+          "isCorrect": false
+        },
+        {
+          "label": "Disheartened",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Generally",
+      "translate": "Genellikle",
+      "quiz": "...., she prefers tea over coffee.",
+      "quizTranslate": "Genellikle, çayı kahveden daha çok tercih eder.",
+      "translateList": [
+        {
+          "label": "Generally",
+          "isCorrect": true
+        },
+        {
+          "label": "Usually",
+          "isCorrect": false
+        },
+        {
+          "label": "Typically",
+          "isCorrect": false
+        },
+        {
+          "label": "Mostly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Frequently",
+      "translate": "Sıkça",
+      "quiz": "He .... travels for work.",
+      "quizTranslate": "İş için sıkça seyahat eder.",
+      "translateList": [
+        {
+          "label": "Frequently",
+          "isCorrect": true
+        },
+        {
+          "label": "Often",
+          "isCorrect": false
+        },
+        {
+          "label": "Regularly",
+          "isCorrect": false
+        },
+        {
+          "label": "Constantly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Folk",
+      "translate": "Halk",
+      "quiz": "The festival celebrates traditional .... music.",
+      "quizTranslate": "Festival, geleneksel halk müziğini kutlar.",
+      "translateList": [
+        {
+          "label": "Folk",
+          "isCorrect": true
+        },
+        {
+          "label": "Traditional",
+          "isCorrect": false
+        },
+        {
+          "label": "Popular",
+          "isCorrect": false
+        },
+        {
+          "label": "Local",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Secondary",
+      "translate": "İkincil",
+      "quiz": "The .... objective is to improve customer satisfaction.",
+      "quizTranslate": "İkincil hedef, müşteri memnuniyetini artırmaktır.",
+      "translateList": [
+        {
+          "label": "Secondary",
+          "isCorrect": true
+        },
+        {
+          "label": "Primary",
+          "isCorrect": false
+        },
+        {
+          "label": "Main",
+          "isCorrect": false
+        },
+        {
+          "label": "Principal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sculpture",
+      "translate": "Heykel",
+      "quiz": "The museum features a collection of modern ....",
+      "quizTranslate": "Müze, modern heykellerden oluşan bir koleksiyona sahiptir.",
+      "translateList": [
+        {
+          "label": "Sculpture",
+          "isCorrect": true
+        },
+        {
+          "label": "Painting",
+          "isCorrect": false
+        },
+        {
+          "label": "Drawing",
+          "isCorrect": false
+        },
+        {
+          "label": "Installation",
           "isCorrect": false
         }
       ]

@@ -6961,30 +6961,6 @@
       ]
     },
     {
-      "word": "Cheerful",
-      "translate": "Neşeli",
-      "quiz": "She was in a .... mood all day.",
-      "quizTranslate": "O, bütün gün neşeliydi.",
-      "translateList": [
-        {
-          "label": "Cheerful",
-          "isCorrect": true
-        },
-        {
-          "label": "Sad",
-          "isCorrect": false
-        },
-        {
-          "label": "Angry",
-          "isCorrect": false
-        },
-        {
-          "label": "Bored",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Cheese",
       "translate": "Peynir",
       "quiz": "I like to eat .... on my sandwich.",
