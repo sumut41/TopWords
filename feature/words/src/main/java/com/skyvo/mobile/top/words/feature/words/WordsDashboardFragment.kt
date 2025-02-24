@@ -462,6 +462,12 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
                             }
                         }
                     }
+
+                    item {
+                        AppSpacer(
+                            height = AppDimension.default.dp100
+                        )
+                    }
                 }
             }
         }

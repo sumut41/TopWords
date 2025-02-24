@@ -26,6 +26,7 @@ import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import dagger.hilt.android.AndroidEntryPoint
+import java.util.Locale
 
 @AndroidEntryPoint
 class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() {
@@ -36,6 +37,20 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
             ContentView(viewModel)
+        }
+    }
+
+    private fun forceConfiguration(languageCode: String) {
+        try {
+            val locale = Locale(languageCode)
+            val config = requireContext().resources.configuration
+            config.setLocale(locale)
+            requireContext().resources.updateConfiguration(
+                config,
+                requireContext().resources.displayMetrics
+            )
+        } catch (ex: Exception) {
+            recordException(ex)
         }
     }
 
@@ -57,7 +72,10 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
                 bottomView = {
                     AppPrimaryLargeButton(
                         text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button),
-                        onClick = { viewModel.next() },
+                        onClick = {
+                            forceConfiguration(state.selectedLanguage?.code.orEmpty())
+                            viewModel.next()
+                        },
                         modifier = Modifier
                             .fillMaxWidth(),
                         enabled = state.selectedLanguage != null

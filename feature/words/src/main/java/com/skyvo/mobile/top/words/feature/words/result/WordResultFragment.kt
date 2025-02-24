@@ -71,9 +71,9 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
 
         LaunchedEffect(Unit) {
             SoundEffect(requireContext()).playCompleted()
-            delay(400)
+            delay(300)
             title.forEachIndexed { index, _ ->
-                delay(150)
+                delay(90)
                 animatedText = title.substring(0, index + 1)
             }
         }

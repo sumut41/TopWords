@@ -28,6 +28,7 @@ import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.layout.AppShowAnswerCard
+import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.picker.AppChooseItemComponent
 import com.skyvo.mobile.core.uikit.compose.progressbar.AppLinearProgressbar
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
@@ -137,6 +138,15 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
                 }
             ) {
                 LazyColumn {
+
+                    if (state.isSingleQuiz) {
+                        item {
+                            AppSpacer(
+                                height = AppDimension.default.dp24
+                            )
+                        }
+                    }
+
                     item {
                         AppText(
                             text = state.currentQuestion?.question.orEmpty(),
