@@ -6625,6 +6625,30 @@
       ]
     },
     {
+      "word": "Concierge",
+      "translate": "Kapı görevlisi, otel görevlisi",
+      "quiz": "The .... at the hotel helped us find the best restaurants in the city.",
+      "quizTranslate": "Otelin kapı görevlisi, şehirdeki en iyi restoranları bulmamıza yardımcı oldu.",
+      "translateList": [
+        {
+          "label": "Concierge",
+          "isCorrect": true
+        },
+        {
+          "label": "Receptionist",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Porter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
       "word": "Obsequious",
       "translate": "Aşırı derecede itaatkar, yağcı",
       "quiz": "His .... behavior towards the boss was evident to everyone.",
