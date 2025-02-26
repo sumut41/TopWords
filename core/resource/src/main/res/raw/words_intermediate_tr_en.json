@@ -25465,54 +25465,6 @@
       ]
     },
     {
-      "word": "Person",
-      "translate": "Kişi",
-      "quiz": "She is a kind ....",
-      "quizTranslate": "O, nazik bir kişidir.",
-      "translateList": [
-        {
-          "label": "Person",
-          "isCorrect": true
-        },
-        {
-          "label": "Human",
-          "isCorrect": false
-        },
-        {
-          "label": "Individual",
-          "isCorrect": false
-        },
-        {
-          "label": "Character",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Personal",
-      "translate": "Kişisel",
-      "quiz": "This is my .... opinion.",
-      "quizTranslate": "Bu benim kişisel görüşümdür.",
-      "translateList": [
-        {
-          "label": "Personal",
-          "isCorrect": true
-        },
-        {
-          "label": "Public",
-          "isCorrect": false
-        },
-        {
-          "label": "Private",
-          "isCorrect": false
-        },
-        {
-          "label": "General",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Personality",
       "translate": "Kişilik",
       "quiz": "Her .... is very charming.",
@@ -25753,30 +25705,6 @@
       ]
     },
     {
-      "word": "Plan",
-      "translate": "Planlamak",
-      "quiz": "We need to .... our vacation dates ahead of time.",
-      "quizTranslate": "Tatil tarihlerini önceden planlamamız gerekiyor.",
-      "translateList": [
-        {
-          "label": "Plan",
-          "isCorrect": true
-        },
-        {
-          "label": "Schedule",
-          "isCorrect": false
-        },
-        {
-          "label": "Arrange",
-          "isCorrect": false
-        },
-        {
-          "label": "Map Out",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Plant",
       "translate": "Bitki, dikmek",
       "quiz": "She wants to .... more flowers in her garden this spring.",
@@ -25940,30 +25868,6 @@
         },
         {
           "label": "Train",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Player",
-      "translate": "Oyuncu",
-      "quiz": "The .... scored the winning goal.",
-      "quizTranslate": "Oyuncu, kazanan golü attı.",
-      "translateList": [
-        {
-          "label": "Player",
-          "isCorrect": true
-        },
-        {
-          "label": "Goalkeeper",
-          "isCorrect": false
-        },
-        {
-          "label": "Referee",
-          "isCorrect": false
-        },
-        {
-          "label": "Team",
           "isCorrect": false
         }
       ]
@@ -27409,30 +27313,6 @@
       ]
     },
     {
-      "word": "Relax",
-      "translate": "Rahatlamak",
-      "quiz": "She decided to .... by reading a book in the park.",
-      "quizTranslate": "Parkta kitap okuyarak rahatlamaya karar verdi.",
-      "translateList": [
-        {
-          "label": "Relax",
-          "isCorrect": true
-        },
-        {
-          "label": "Unwind",
-          "isCorrect": false
-        },
-        {
-          "label": "Rest",
-          "isCorrect": false
-        },
-        {
-          "label": "Easy",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Release",
       "translate": "Serbest bırakmak",
       "quiz": "They plan to .... the new product next quarter.",
@@ -28628,6 +28508,30 @@
         },
         {
           "label": "Publisher",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reading",
+      "translate": "Okuma",
+      "quiz": "I enjoy .... books in my free time.",
+      "quizTranslate": "Boş zamanlarımda kitap okumaktan keyif alırım.",
+      "translateList": [
+        {
+          "label": "Reading",
+          "isCorrect": true
+        },
+        {
+          "label": "Writing",
+          "isCorrect": false
+        },
+        {
+          "label": "Listening",
+          "isCorrect": false
+        },
+        {
+          "label": "Speaking",
           "isCorrect": false
         }
       ]
@@ -32617,30 +32521,6 @@
       ]
     },
     {
-      "word": "Strong",
-      "translate": "Güçlü",
-      "quiz": "He is very .... because he lifts weights every day.",
-      "quizTranslate": "Her gün ağırlık kaldırdığı için çok güçlüdür.",
-      "translateList": [
-        {
-          "label": "Strong",
-          "isCorrect": true
-        },
-        {
-          "label": "Weak",
-          "isCorrect": false
-        },
-        {
-          "label": "Fast",
-          "isCorrect": false
-        },
-        {
-          "label": "Big",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Structure",
       "translate": "Yapı",
       "quiz": "The new bridge has a solid ....",
@@ -32708,30 +32588,6 @@
         },
         {
           "label": "Room",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Success",
-      "translate": "Başarı",
-      "quiz": "Hard work is the key to ....",
-      "quizTranslate": "Sıkı çalışma başarının anahtarıdır.",
-      "translateList": [
-        {
-          "label": "Success",
-          "isCorrect": true
-        },
-        {
-          "label": "Failure",
-          "isCorrect": false
-        },
-        {
-          "label": "Effort",
-          "isCorrect": false
-        },
-        {
-          "label": "Goal",
           "isCorrect": false
         }
       ]
@@ -33145,25 +33001,25 @@
       ]
     },
     {
-      "word": "Sweater",
-      "translate": "Kazak",
-      "quiz": "She wore a warm .... in winter.",
-      "quizTranslate": "Kışın sıcak bir kazak giydi.",
+      "word": "Themselves",
+      "translate": "Kendileri",
+      "quiz": "They prepared dinner by ....",
+      "quizTranslate": "Yemeği kendileri hazırladılar.",
       "translateList": [
         {
-          "label": "Sweater",
+          "label": "Themselves",
           "isCorrect": true
         },
         {
-          "label": "Jacket",
+          "label": "Himself",
           "isCorrect": false
         },
         {
-          "label": "Scarf",
+          "label": "Herself",
           "isCorrect": false
         },
         {
-          "label": "Shirt",
+          "label": "Ourselves",
           "isCorrect": false
         }
       ]

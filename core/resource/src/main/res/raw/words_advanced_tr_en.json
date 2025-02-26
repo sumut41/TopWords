@@ -27193,30 +27193,6 @@
       ]
     },
     {
-      "word": "Top",
-      "translate": "Üst",
-      "quiz": "She placed the book on the ....",
-      "quizTranslate": "Kitabı üst rafaya koydu.",
-      "translateList": [
-        {
-          "label": "Top",
-          "isCorrect": true
-        },
-        {
-          "label": "Bottom",
-          "isCorrect": false
-        },
-        {
-          "label": "Side",
-          "isCorrect": false
-        },
-        {
-          "label": "Middle",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Torture",
       "translate": "İşkence",
       "quiz": "The prisoner endured severe .... during the interrogation.",
@@ -27260,30 +27236,6 @@
         },
         {
           "label": "Organize",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Total",
-      "translate": "Toplam",
-      "quiz": "The .... cost of the project was higher than expected.",
-      "quizTranslate": "Projenin toplam maliyeti beklenenden daha yüksekti.",
-      "translateList": [
-        {
-          "label": "Total",
-          "isCorrect": true
-        },
-        {
-          "label": "Partial",
-          "isCorrect": false
-        },
-        {
-          "label": "Individual",
-          "isCorrect": false
-        },
-        {
-          "label": "Separate",
           "isCorrect": false
         }
       ]
