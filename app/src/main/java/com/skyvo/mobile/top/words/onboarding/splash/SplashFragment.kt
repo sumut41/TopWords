@@ -53,9 +53,9 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
 
         when(state.nativeLanguageCode) {
             "tr" -> forceConfiguration("tr")
-            "de" -> forceConfiguration("de")
-            "az" -> forceConfiguration("az")
+            "es" -> forceConfiguration("az")
             "it" -> forceConfiguration("it")
+            else -> {}
         }
 
         AppPrimaryTheme {

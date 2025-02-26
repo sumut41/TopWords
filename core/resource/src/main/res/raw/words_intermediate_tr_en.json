@@ -3625,25 +3625,25 @@
       ]
     },
     {
-      "word": "Blonde",
-      "translate": "Sarışın",
-      "quiz": "She is a .... woman.",
-      "quizTranslate": "O, sarışın bir kadın.",
+      "word": "Called",
+      "translate": "Adlandırılan",
+      "quiz": "He is .... John.",
+      "quizTranslate": "O, John olarak adlandırılıyor.",
       "translateList": [
         {
-          "label": "Blonde",
+          "label": "Called",
           "isCorrect": true
         },
         {
-          "label": "Brunette",
+          "label": "Named",
           "isCorrect": false
         },
         {
-          "label": "Redhead",
+          "label": "Referred",
           "isCorrect": false
         },
         {
-          "label": "Black-haired",
+          "label": "Known",
           "isCorrect": false
         }
       ]
@@ -5377,30 +5377,6 @@
       ]
     },
     {
-      "word": "Capital",
-      "translate": "Başkent",
-      "quiz": "The capital of France is Paris.",
-      "quizTranslate": "Fransa'nın başkenti Paris'tir.",
-      "translateList": [
-        {
-          "label": "Capital",
-          "isCorrect": true
-        },
-        {
-          "label": "City",
-          "isCorrect": false
-        },
-        {
-          "label": "Town",
-          "isCorrect": false
-        },
-        {
-          "label": "State",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Captain",
       "translate": "Kaptan",
       "quiz": "He is the .... of the ship.",
@@ -5420,30 +5396,6 @@
         },
         {
           "label": "Pilot",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Create",
-      "translate": "Yaratmak",
-      "quiz": "They plan to .... a new app that helps people find local events.",
-      "quizTranslate": "İnsanların yerel etkinlikleri bulmasına yardımcı olacak yeni bir uygulama yaratmayı planlıyorlar.",
-      "translateList": [
-        {
-          "label": "Create",
-          "isCorrect": true
-        },
-        {
-          "label": "Make",
-          "isCorrect": false
-        },
-        {
-          "label": "Develop",
-          "isCorrect": false
-        },
-        {
-          "label": "Build",
           "isCorrect": false
         }
       ]
@@ -5564,30 +5516,6 @@
         },
         {
           "label": "Paper",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Career",
-      "translate": "Kariyer",
-      "quiz": "He wants to pursue a successful ....",
-      "quizTranslate": "O, başarılı bir kariyer yapmak istiyor.",
-      "translateList": [
-        {
-          "label": "Career",
-          "isCorrect": true
-        },
-        {
-          "label": "Job",
-          "isCorrect": false
-        },
-        {
-          "label": "Work",
-          "isCorrect": false
-        },
-        {
-          "label": "Task",
           "isCorrect": false
         }
       ]
@@ -6937,30 +6865,6 @@
       ]
     },
     {
-      "word": "Centre",
-      "translate": "Merkez",
-      "quiz": "There is a shopping .... near my house.",
-      "quizTranslate": "Evimin yakınında bir alışveriş merkezi var.",
-      "translateList": [
-        {
-          "label": "Centre",
-          "isCorrect": true
-        },
-        {
-          "label": "Area",
-          "isCorrect": false
-        },
-        {
-          "label": "Square",
-          "isCorrect": false
-        },
-        {
-          "label": "Place",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Century",
       "translate": "Yüzyıl",
       "quiz": "The 21st .... started in the year 2001.",
@@ -7849,30 +7753,6 @@
       ]
     },
     {
-      "word": "Course",
-      "translate": "Kurs, rota",
-      "quiz": "He signed up for a cooking .... this summer.",
-      "quizTranslate": "Bu yaz yemek pişirme kursuna kaydoldu.",
-      "translateList": [
-        {
-          "label": "Course",
-          "isCorrect": true
-        },
-        {
-          "label": "Lesson",
-          "isCorrect": false
-        },
-        {
-          "label": "Class",
-          "isCorrect": false
-        },
-        {
-          "label": "Program",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Curtain",
       "translate": "Perde",
       "quiz": "She closed the .... before going to bed.",
@@ -8324,30 +8204,6 @@
         },
         {
           "label": "Practices",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Cut",
-      "translate": "Kesmek",
-      "quiz": "I need to .... the paper into smaller pieces.",
-      "quizTranslate": "Kağıdı daha küçük parçalara kesmem gerek.",
-      "translateList": [
-        {
-          "label": "Cut",
-          "isCorrect": true
-        },
-        {
-          "label": "Slice",
-          "isCorrect": false
-        },
-        {
-          "label": "Chop",
-          "isCorrect": false
-        },
-        {
-          "label": "Snip",
           "isCorrect": false
         }
       ]

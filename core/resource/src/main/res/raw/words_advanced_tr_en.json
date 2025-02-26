@@ -3505,30 +3505,6 @@
       ]
     },
     {
-      "word": "Conundrum",
-      "translate": "Muamma",
-      "quiz": "The detective faced a complex .... in the case.",
-      "quizTranslate": "Dedektif, davada karmaşık bir muammayla karşılaştı.",
-      "translateList": [
-        {
-          "label": "Conundrum",
-          "isCorrect": true
-        },
-        {
-          "label": "Solution",
-          "isCorrect": false
-        },
-        {
-          "label": "Answer",
-          "isCorrect": false
-        },
-        {
-          "label": "Clarity",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Credible",
       "translate": "İnandırıcı",
       "quiz": "The witness provided a .... account of the events.",
@@ -6169,30 +6145,6 @@
       ]
     },
     {
-      "word": "Ephemeral",
-      "translate": "Kısa ömürlü",
-      "quiz": "The beauty of the sunset was .... and fleeting.",
-      "quizTranslate": "Gün batımının güzelliği kısa ömürlü ve geçiciydi.",
-      "translateList": [
-        {
-          "label": "Ephemeral",
-          "isCorrect": true
-        },
-        {
-          "label": "Permanent",
-          "isCorrect": false
-        },
-        {
-          "label": "Enduring",
-          "isCorrect": false
-        },
-        {
-          "label": "Lasting",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Esoteric",
       "translate": "Sadece bir grup insanın anlayabileceği",
       "quiz": "The lecture on quantum physics was highly ....",
@@ -6236,6 +6188,534 @@
         },
         {
           "label": "Untidy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Absolutely",
+      "translate": "Kesinlikle",
+      "quiz": "I am .... sure that I left my keys on the table.",
+      "quizTranslate": "Anahtarlarımı masanın üzerinde bıraktığımdan kesinlikle eminim.",
+      "translateList": [
+        {
+          "label": "Absolutely",
+          "isCorrect": true
+        },
+        {
+          "label": "Maybe",
+          "isCorrect": false
+        },
+        {
+          "label": "Perhaps",
+          "isCorrect": false
+        },
+        {
+          "label": "Partially",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Abusive",
+      "translate": "Kötüye kullanan, saldırgan",
+      "quiz": "His .... language upset everyone in the room.",
+      "quizTranslate": "Onun saldırgan dili odadaki herkesi rahatsız etti.",
+      "translateList": [
+        {
+          "label": "Abusive",
+          "isCorrect": true
+        },
+        {
+          "label": "Friendly",
+          "isCorrect": false
+        },
+        {
+          "label": "Kind",
+          "isCorrect": false
+        },
+        {
+          "label": "Respectful",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Arouse",
+      "translate": "Uyandırmak, harekete geçirmek",
+      "quiz": "The news report managed to .... interest in the community.",
+      "quizTranslate": "Haber raporu, toplulukta ilgi uyandırmayı başardı.",
+      "translateList": [
+        {
+          "label": "Arouse",
+          "isCorrect": true
+        },
+        {
+          "label": "Suppress",
+          "isCorrect": false
+        },
+        {
+          "label": "Stop",
+          "isCorrect": false
+        },
+        {
+          "label": "Avoid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inscrutable",
+      "translate": "Anlaşılmaz",
+      "quiz": "His expression was ...., making it hard to tell what he was thinking.",
+      "quizTranslate": "Onun ifadesi anlaşılmazdı, bu yüzden ne düşündüğünü anlamak zordu.",
+      "translateList": [
+        {
+          "label": "Inscrutable",
+          "isCorrect": true
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Obvious",
+          "isCorrect": false
+        },
+        {
+          "label": "Transparent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Myriad",
+      "translate": "Çok sayıda",
+      "quiz": "There are a .... of ways to solve this problem.",
+      "quizTranslate": "Bu problemi çözmek için çok sayıda yol var.",
+      "translateList": [
+        {
+          "label": "Myriad",
+          "isCorrect": true
+        },
+        {
+          "label": "Few",
+          "isCorrect": false
+        },
+        {
+          "label": "One",
+          "isCorrect": false
+        },
+        {
+          "label": "Single",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Nefarious",
+      "translate": "Kötü, alçak",
+      "quiz": "The villain in the movie had a .... plan to take over the world.",
+      "quizTranslate": "Filmin kötü karakterinin dünyayı ele geçirecek kötü bir planı vardı.",
+      "translateList": [
+        {
+          "label": "Nefarious",
+          "isCorrect": true
+        },
+        {
+          "label": "Good",
+          "isCorrect": false
+        },
+        {
+          "label": "Honorable",
+          "isCorrect": false
+        },
+        {
+          "label": "Heroic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Harbinger",
+      "translate": "Habercisi, müjdeleyen",
+      "quiz": "The dark clouds were a .... of the approaching storm.",
+      "quizTranslate": "Karanlık bulutlar, yaklaşan fırtınanın habercisiydi.",
+      "translateList": [
+        {
+          "label": "Harbinger",
+          "isCorrect": true
+        },
+        {
+          "label": "Indicator",
+          "isCorrect": false
+        },
+        {
+          "label": "Signal",
+          "isCorrect": false
+        },
+        {
+          "label": "Result",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Axiomatic",
+      "translate": "Kendiliğinden doğru, apaçık",
+      "quiz": "His statement was ....; no one could disagree with it.",
+      "quizTranslate": "Onun açıklaması apaçıktı; kimse buna karşı çıkamazdı.",
+      "translateList": [
+        {
+          "label": "Axiomatic",
+          "isCorrect": true
+        },
+        {
+          "label": "Controversial",
+          "isCorrect": false
+        },
+        {
+          "label": "Uncertain",
+          "isCorrect": false
+        },
+        {
+          "label": "Debatable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Equanimity",
+      "translate": "Sakinlik, soğukkanlılık",
+      "quiz": "She faced the difficult situation with .... and calmness.",
+      "quizTranslate": "Zor durumu soğukkanlılık ve sakinlikle karşıladı.",
+      "translateList": [
+        {
+          "label": "Equanimity",
+          "isCorrect": true
+        },
+        {
+          "label": "Anger",
+          "isCorrect": false
+        },
+        {
+          "label": "Frustration",
+          "isCorrect": false
+        },
+        {
+          "label": "Excitement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Genuflect",
+      "translate": "Secde etmek, eğilmek",
+      "quiz": "In many cultures, people .... to show respect.",
+      "quizTranslate": "Birçok kültürde insanlar saygı göstermek için secde ederler.",
+      "translateList": [
+        {
+          "label": "Genuflect",
+          "isCorrect": true
+        },
+        {
+          "label": "Bow",
+          "isCorrect": false
+        },
+        {
+          "label": "Kneel",
+          "isCorrect": false
+        },
+        {
+          "label": "Stand",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Limpid",
+      "translate": "Şeffaf, berrak",
+      "quiz": "The water in the lake was so .... that we could see the fish swimming.",
+      "quizTranslate": "Gölün içindeki su o kadar berraktı ki balıkları yüzeyde görüyorduk.",
+      "translateList": [
+        {
+          "label": "Limpid",
+          "isCorrect": true
+        },
+        {
+          "label": "Murky",
+          "isCorrect": false
+        },
+        {
+          "label": "Cloudy",
+          "isCorrect": false
+        },
+        {
+          "label": "Dirty",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Metamorphosis",
+      "translate": "Dönüşüm, başkalaşım",
+      "quiz": "The caterpillar's .... into a butterfly is one of nature's most fascinating processes.",
+      "quizTranslate": "Tırtılın bir kelebeğe dönüşümü, doğanın en ilginç süreçlerinden biridir.",
+      "translateList": [
+        {
+          "label": "Metamorphosis",
+          "isCorrect": true
+        },
+        {
+          "label": "Transformation",
+          "isCorrect": false
+        },
+        {
+          "label": "Evolution",
+          "isCorrect": false
+        },
+        {
+          "label": "Change",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Perspicacious",
+      "translate": "Keskin zekalı, dikkatli",
+      "quiz": "The detective was ...., quickly noticing the smallest of clues.",
+      "quizTranslate": "Dedektif çok zekiydi, en küçük ipuçlarını hızla fark etti.",
+      "translateList": [
+        {
+          "label": "Perspicacious",
+          "isCorrect": true
+        },
+        {
+          "label": "Unobservant",
+          "isCorrect": false
+        },
+        {
+          "label": "Forgetful",
+          "isCorrect": false
+        },
+        {
+          "label": "Dull",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Vituperate",
+      "translate": "Ağır şekilde eleştirmek",
+      "quiz": "He was known to .... anyone who disagreed with him.",
+      "quizTranslate": "Onunla aynı fikirde olmayan herkesi ağır bir şekilde eleştirdiği biliniyordu.",
+      "translateList": [
+        {
+          "label": "Vituperate",
+          "isCorrect": true
+        },
+        {
+          "label": "Praise",
+          "isCorrect": false
+        },
+        {
+          "label": "Compliment",
+          "isCorrect": false
+        },
+        {
+          "label": "Admire",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Nonplussed",
+      "translate": "Şaşkına dönmüş, ne yapacağını bilemez durumda",
+      "quiz": "She was completely .... when she saw the surprise.",
+      "quizTranslate": "Sürprizi gördüğünde tamamen şaşkına dönmüştü.",
+      "translateList": [
+        {
+          "label": "Nonplussed",
+          "isCorrect": true
+        },
+        {
+          "label": "Confused",
+          "isCorrect": false
+        },
+        {
+          "label": "Happy",
+          "isCorrect": false
+        },
+        {
+          "label": "Excited",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Obdurate",
+      "translate": "İnatçı, sert",
+      "quiz": "Despite their pleas, he remained .... and refused to change his decision.",
+      "quizTranslate": "Yalvarmalarına rağmen, o inatçı kaldı ve kararını değiştirmeyi reddetti.",
+      "translateList": [
+        {
+          "label": "Obdurate",
+          "isCorrect": true
+        },
+        {
+          "label": "Flexible",
+          "isCorrect": false
+        },
+        {
+          "label": "Easily persuaded",
+          "isCorrect": false
+        },
+        {
+          "label": "Gentle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Querulous",
+      "translate": "Sızlanan, şikayetçi",
+      "quiz": "The customer was very ...., constantly complaining about the service.",
+      "quizTranslate": "Müşteri çok şikayetçiydi, sürekli hizmetten şikayet ediyordu.",
+      "translateList": [
+        {
+          "label": "Querulous",
+          "isCorrect": true
+        },
+        {
+          "label": "Content",
+          "isCorrect": false
+        },
+        {
+          "label": "Happy",
+          "isCorrect": false
+        },
+        {
+          "label": "Satisfied",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Salient",
+      "translate": "Dikkate değer, belirgin",
+      "quiz": "The report highlighted the .... points of the project.",
+      "quizTranslate": "Rapor, projenin dikkat çeken noktalarını vurguladı.",
+      "translateList": [
+        {
+          "label": "Salient",
+          "isCorrect": true
+        },
+        {
+          "label": "Unimportant",
+          "isCorrect": false
+        },
+        {
+          "label": "Obscure",
+          "isCorrect": false
+        },
+        {
+          "label": "Negligible",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ubiquitous",
+      "translate": "Her yerde bulunan",
+      "quiz": "Smartphones are .... in modern society.",
+      "quizTranslate": "Akıllı telefonlar, modern toplumda her yerde bulunuyor.",
+      "translateList": [
+        {
+          "label": "Ubiquitous",
+          "isCorrect": true
+        },
+        {
+          "label": "Rare",
+          "isCorrect": false
+        },
+        {
+          "label": "Limited",
+          "isCorrect": false
+        },
+        {
+          "label": "Unique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Vexatious",
+      "translate": "Sinir bozucu",
+      "quiz": "The constant noise from the construction site was ....",
+      "quizTranslate": "İnşaat alanından gelen sürekli gürültü sinir bozucuydu.",
+      "translateList": [
+        {
+          "label": "Vexatious",
+          "isCorrect": true
+        },
+        {
+          "label": "Pleasant",
+          "isCorrect": false
+        },
+        {
+          "label": "Comfortable",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bombastic",
+      "translate": "Abartılı, gösterişli",
+      "quiz": "His speech was full of .... promises that he couldn’t keep.",
+      "quizTranslate": "Konuşması, tutamayacağı abartılı vaatlerle doluydu.",
+      "translateList": [
+        {
+          "label": "Bombastic",
+          "isCorrect": true
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Modest",
+          "isCorrect": false
+        },
+        {
+          "label": "Straightforward",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Enigma",
+      "translate": "Gizem, muamma",
+      "quiz": "The disappearance of the plane remains an ....",
+      "quizTranslate": "Uçağın kaybolması bir muamma olarak kalıyor.",
+      "translateList": [
+        {
+          "label": "Enigma",
+          "isCorrect": true
+        },
+        {
+          "label": "Answer",
+          "isCorrect": false
+        },
+        {
+          "label": "Solution",
+          "isCorrect": false
+        },
+        {
+          "label": "Clarity",
           "isCorrect": false
         }
       ]
