@@ -35,7 +35,7 @@ class TopWordListViewModel @Inject constructor(
                 setState {
                     copy(
                         level = level,
-                        wordList = it,
+                        wordList = it?.sortedBy { it.word?.trim()?.lowercase() },
                         learnLanguageCode = userManager.learnLanguage?.code,
                     )
                 }

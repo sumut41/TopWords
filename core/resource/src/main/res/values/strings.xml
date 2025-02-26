@@ -5,12 +5,13 @@
     <string name="intro_second_title">Learn language easily with books</string>
     <string name="intro_second_description">Read favorite books in their original language with parallel translation</string>
     <string name="intro_get_start_button">Get started</string>
+    <string name="lets_go_button">Get started</string>
     <string name="intro_next_button">Next</string>
     <string name="continue_button">Continue</string>
     <string name="close_button">Close</string>
     <string name="choose_native_language_title">Choose your native language</string>
     <string name="choose_learning_language_title">What language are you want to study?</string>
-    <string name="select_level_page_title">How much %s do you know?</string>
+    <string name="select_level_page_title">What is your %s level?</string>
     <string name="level_beginner">Beginner</string>
     <string name="level_elementary">Elementary</string>
     <string name="level_intermediate">Intermediate</string>
@@ -33,7 +34,7 @@
     <string name="favourite_words_title">Favorite Words</string>
     <string name="favourite_words_label">See your favorite words in groups</string>
     <string name="rate_us_title">Rate Us</string>
-    <string name="rate_us_label">How would you love this app ?</string>
+    <string name="rate_us_label">How would you love this app?</string>
     <string name="share_label">Share</string>
     <string name="share_title">You can recommend app to your friends</string>
     <string name="favourite_fragment_title">Favorite</string>
@@ -71,4 +72,5 @@
     <string name="top_words">Top Words</string>
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Complete the sentence!</string>
+    <string name="quiz_word_title">Today\'s word completion test!</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.skyvo.mobile.top.words.level
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,8 +14,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -89,24 +92,26 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
                             text = level.name.orEmpty(),
                             isSelected = level == state.selectLevel,
                             startContent = {
-                                Box(
-                                    modifier = Modifier
-                                        .size(
-                                            width = 36.dp,
-                                            height = 28.dp
-                                        )
-                                        .background(
-                                            color = GetLevelColor(level.type.orEmpty()),
-                                            shape = RoundedCornerShape(10.dp)
-                                        ),
-                                    contentAlignment = Alignment.Center
-                                ) {
-                                    AppText(
-                                        text = level.type.orEmpty(),
-                                        style = AppTypography.default.bodyLarge,
-                                        color = Color.White
-                                    )
-                                }
+                                Image(
+                                    modifier = Modifier.size(
+                                        width = 28.dp,
+                                        height = 28.dp
+                                    ),
+                                    imageVector = ImageVector.vectorResource(
+                                        when (level.type) {
+                                            "A1" -> {
+                                                com.skyvo.mobile.core.uikit.R.drawable.ic_regular_level
+                                            }
+                                            "B1" -> {
+                                                com.skyvo.mobile.core.uikit.R.drawable.ic_serious_level
+                                            }
+                                            else -> {
+                                                com.skyvo.mobile.core.uikit.R.drawable.ic_intence_level
+                                            }
+                                        }
+                                    ),
+                                    contentDescription = ""
+                                )
                             },
                             onSelectListener = { _ ->
                                 viewModel.selectLevel(
@@ -138,13 +143,6 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
 
         list.add(
             Level(
-                type = "A2",
-                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_elementary)
-            )
-        )
-
-        list.add(
-            Level(
                 type = "B1",
                 name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_intermediate)
             )
@@ -152,22 +150,8 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
 
         list.add(
             Level(
-                type = "B2",
-                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_upper)
-            )
-        )
-
-        list.add(
-            Level(
                 type = "C1",
                 name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_advanced)
-            )
-        )
-
-        list.add(
-            Level(
-                type = "C2",
-                name = requireActivity().getString(com.skyvo.mobile.core.resource.R.string.level_proficient)
             )
         )
 

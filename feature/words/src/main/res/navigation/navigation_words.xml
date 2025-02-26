@@ -70,6 +70,13 @@
         android:id="@+id/findMeaningQuizFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.mearning.FindMeaningQuizFragment"
         android:label="FindMeaningQuizFragment" >
+
+        <deepLink app:uri="top-words://words/quiz/word-meaning?isSingleQuiz={isSingleQuiz}"/>
+        <argument
+            android:name="isSingleQuiz"
+            app:argType="boolean"
+            android:defaultValue="false"/>
+
         <action
             android:id="@+id/action_findMeaningQuizFragment_to_puzzleQuizFragment"
             app:destination="@id/puzzleQuizFragment" />
