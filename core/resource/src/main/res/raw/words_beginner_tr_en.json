@@ -23161,30 +23161,6 @@
       ]
     },
     {
-      "word": "Pronounce",
-      "translate": "Telaffuz etmek",
-      "quiz": "How do you .... this word?",
-      "quizTranslate": "Bu kelimeyi nasıl telaffuz edersiniz?",
-      "translateList": [
-        {
-          "label": "Pronounce",
-          "isCorrect": true
-        },
-        {
-          "label": "Spell",
-          "isCorrect": false
-        },
-        {
-          "label": "Write",
-          "isCorrect": false
-        },
-        {
-          "label": "Say",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Pronunciation",
       "translate": "Telaffuz",
       "quiz": "Her .... of the word is perfect.",
