@@ -2,9 +2,9 @@
   "wordList": [
     {
       "word": "Abolish",
-      "translate": "Ortadan kaldırmak",
+      "translate": "Abolir",
       "quiz": "The government decided to .... the old tax system.",
-      "quizTranslate": "Hükümet eski vergi sistemini ortadan kaldırmaya karar verdi.",
+      "quizTranslate": "El gobierno decidió abolir el antiguo sistema fiscal.",
       "translateList": [
         {
           "label": "Abolish",
@@ -26,9 +26,9 @@
     },
     {
       "word": "Abortion",
-      "translate": "Kürtaj",
+      "translate": "Aborto",
       "quiz": "The debate over .... is highly controversial.",
-      "quizTranslate": "Kürtaj hakkındaki tartışma oldukça tartışmalıdır.",
+      "quizTranslate": "El debate sobre el aborto es altamente controvertido.",
       "translateList": [
         {
           "label": "Abortion",
@@ -50,9 +50,9 @@
     },
     {
       "word": "Absence",
-      "translate": "Yokluk, bulunmama",
+      "translate": "Ausencia",
       "quiz": "Her long .... from work raised concerns.",
-      "quizTranslate": "Onun işten uzun süre yokluğu endişelere neden oldu.",
+      "quizTranslate": "Su larga ausencia del trabajo generó preocupaciones.",
       "translateList": [
         {
           "label": "Absence",
@@ -74,9 +74,9 @@
     },
     {
       "word": "Absent",
-      "translate": "Yok, bulunmayan",
+      "translate": "Ausente",
       "quiz": "He was .... from the meeting.",
-      "quizTranslate": "O, toplantıda yoktu.",
+      "quizTranslate": "Él estuvo ausente en la reunión.",
       "translateList": [
         {
           "label": "Absent",
@@ -98,9 +98,9 @@
     },
     {
       "word": "Absurd",
-      "translate": "Saçma",
+      "translate": "Absurdo",
       "quiz": "His excuse for being late was absolutely ....",
-      "quizTranslate": "Geç kalma bahanesi tamamen saçmaydı.",
+      "quizTranslate": "Su excusa por llegar tarde fue absolutamente absurda.",
       "translateList": [
         {
           "label": "Absurd",
@@ -122,9 +122,9 @@
     },
     {
       "word": "Abundance",
-      "translate": "Bolluk",
+      "translate": "Abundancia",
       "quiz": "The garden was filled with an .... of flowers.",
-      "quizTranslate": "Bahçe çiçek bolluğuyla doluydu.",
+      "quizTranslate": "El jardín estaba lleno de una abundancia de flores.",
       "translateList": [
         {
           "label": "Abundance",
@@ -146,9 +146,9 @@
     },
     {
       "word": "Abuse",
-      "translate": "Suistimal etmek, kötüye kullanmak; suistimal",
+      "translate": "Abusar, maltrato",
       "quiz": "He was arrested for child ....",
-      "quizTranslate": "O, çocuk istismarı nedeniyle tutuklandı.",
+      "quizTranslate": "Fue arrestado por maltrato infantil.",
       "translateList": [
         {
           "label": "Abuse",
@@ -170,9 +170,9 @@
     },
     {
       "word": "Academy",
-      "translate": "Akademi, yüksekokul",
+      "translate": "Academia",
       "quiz": "He attended a military ....",
-      "quizTranslate": "O, bir askeri akademiye katıldı.",
+      "quizTranslate": "Asistió a una academia militar.",
       "translateList": [
         {
           "label": "Academy",
@@ -194,9 +194,9 @@
     },
     {
       "word": "Accelerate",
-      "translate": "Hızlanmak, hızlandırmak",
+      "translate": "Acelerar",
       "quiz": "The car began to .... as it entered the highway.",
-      "quizTranslate": "Araba otoyola girdiğinde hızlanmaya başladı.",
+      "quizTranslate": "El coche comenzó a acelerar al entrar a la autopista.",
       "translateList": [
         {
           "label": "Accelerate",
@@ -218,9 +218,9 @@
     },
     {
       "word": "Acceptance",
-      "translate": "Kabul",
+      "translate": "Aceptación",
       "quiz": "Her .... into the university was a great success.",
-      "quizTranslate": "Onun üniversiteye kabul edilmesi büyük bir başarıydı.",
+      "quizTranslate": "Su aceptación en la universidad fue un gran éxito.",
       "translateList": [
         {
           "label": "Acceptance",
@@ -242,9 +242,9 @@
     },
     {
       "word": "Accessible",
-      "translate": "Ulaşılabilir",
+      "translate": "Accesible",
       "quiz": "This website is .... to all users.",
-      "quizTranslate": "Bu web sitesi tüm kullanıcılara ulaşılabilir.",
+      "quizTranslate": "Este sitio web es accesible para todos los usuarios.",
       "translateList": [
         {
           "label": "Accessible",
@@ -266,9 +266,9 @@
     },
     {
       "word": "Accomplishment",
-      "translate": "Başarı, tamamlama",
+      "translate": "Logro, éxito",
       "quiz": "Graduating from university was his greatest ....",
-      "quizTranslate": "Üniversiteden mezun olmak onun en büyük başarısıydı.",
+      "quizTranslate": "Graduarse de la universidad fue su mayor logro.",
       "translateList": [
         {
           "label": "Accomplishment",
@@ -290,9 +290,9 @@
     },
     {
       "word": "Accordance",
-      "translate": "Uyum",
+      "translate": "Conformidad",
       "quiz": "The rules must be followed in .... with the law.",
-      "quizTranslate": "Kurallar yasaya uygun olarak takip edilmelidir.",
+      "quizTranslate": "Las reglas deben seguirse en conformidad con la ley.",
       "translateList": [
         {
           "label": "Accordance",
@@ -314,9 +314,9 @@
     },
     {
       "word": "Accordingly",
-      "translate": "Buna göre",
+      "translate": "En consecuencia",
       "quiz": "She was promoted and paid ....",
-      "quizTranslate": "O, terfi etti ve buna göre maaş aldı.",
+      "quizTranslate": "Fue ascendida y pagada en consecuencia.",
       "translateList": [
         {
           "label": "Accordingly",
@@ -338,9 +338,9 @@
     },
     {
       "word": "Accountability",
-      "translate": "Hesap verebilirlik",
+      "translate": "Responsabilidad",
       "quiz": "Transparency and .... are important in politics.",
-      "quizTranslate": "Şeffaflık ve hesap verebilirlik siyasette önemlidir.",
+      "quizTranslate": "La transparencia y la responsabilidad son importantes en la política.",
       "translateList": [
         {
           "label": "Accountability",
@@ -362,9 +362,9 @@
     },
     {
       "word": "Accountable",
-      "translate": "Sorumlu",
+      "translate": "Responsable",
       "quiz": "The manager is .... for the team's performance.",
-      "quizTranslate": "Müdür, ekibin performansından sorumludur.",
+      "quizTranslate": "El gerente es responsable del desempeño del equipo.",
       "translateList": [
         {
           "label": "Accountable",
@@ -386,9 +386,9 @@
     },
     {
       "word": "Accumulate",
-      "translate": "Biriktirmek, toplamak",
+      "translate": "Acumular",
       "quiz": "Over the years, he managed to .... a small fortune.",
-      "quizTranslate": "Yıllar içinde küçük bir servet biriktirmeyi başardı.",
+      "quizTranslate": "A lo largo de los años, logró acumular una pequeña fortuna.",
       "translateList": [
         {
           "label": "Accumulate",
@@ -410,9 +410,9 @@
     },
     {
       "word": "Accumulation",
-      "translate": "Birikim",
+      "translate": "Acumulación",
       "quiz": "The .... of wealth took years of hard work.",
-      "quizTranslate": "Servet birikimi yıllarca süren sıkı çalışmayı gerektirdi.",
+      "quizTranslate": "La acumulación de riqueza tomó años de arduo trabajo.",
       "translateList": [
         {
           "label": "Accumulation",
@@ -434,9 +434,9 @@
     },
     {
       "word": "Accusation",
-      "translate": "Suçlama",
+      "translate": "Acusación",
       "quiz": "She denied the .... of theft.",
-      "quizTranslate": "O, hırsızlık suçlamasını reddetti.",
+      "quizTranslate": "Ella negó la acusación de robo.",
       "translateList": [
         {
           "label": "Accusation",
@@ -458,9 +458,9 @@
     },
     {
       "word": "Accused",
-      "translate": "Sanık, suçlanan",
+      "translate": "Acusado",
       "quiz": "The .... was found guilty in court.",
-      "quizTranslate": "Sanık mahkemede suçlu bulundu.",
+      "quizTranslate": "El acusado fue declarado culpable en la corte.",
       "translateList": [
         {
           "label": "Accused",
@@ -482,9 +482,9 @@
     },
     {
       "word": "Acid",
-      "translate": "Asit",
+      "translate": "Ácido",
       "quiz": "Lemon juice contains ....",
-      "quizTranslate": "Limon suyu asit içerir.",
+      "quizTranslate": "El jugo de limón contiene ácido.",
       "translateList": [
         {
           "label": "Acid",
@@ -506,9 +506,9 @@
     },
     {
       "word": "Acquisition",
-      "translate": "Edinim",
+      "translate": "Adquisición",
       "quiz": "The company completed the .... of a new firm.",
-      "quizTranslate": "Şirket yeni bir firma edinimini tamamladı.",
+      "quizTranslate": "La empresa completó la adquisición de una nueva firma.",
       "translateList": [
         {
           "label": "Acquisition",
@@ -530,9 +530,9 @@
     },
     {
       "word": "Acre",
-      "translate": "Dönüm",
+      "translate": "Acre",
       "quiz": "The farm covers 200 .... of land.",
-      "quizTranslate": "Çiftlik 200 dönüm araziyi kaplıyor.",
+      "quizTranslate": "La granja cubre 200 acres de tierra.",
       "translateList": [
         {
           "label": "Acres",
@@ -554,9 +554,9 @@
     },
     {
       "word": "Activation",
-      "translate": "Etkinleştirme",
+      "translate": "Activación",
       "quiz": "The .... of the account requires a confirmation email.",
-      "quizTranslate": "Hesabın etkinleştirilmesi bir onay e-postası gerektirir.",
+      "quizTranslate": "La activación de la cuenta requiere un correo de confirmación.",
       "translateList": [
         {
           "label": "Activation",
@@ -578,9 +578,9 @@
     },
     {
       "word": "Acknowledge",
-      "translate": "Kabul etmek",
+      "translate": "Reconocer",
       "quiz": "He decided to .... the mistake he made.",
-      "quizTranslate": "Yaptığı hatayı kabul etmeye karar verdi.",
+      "quizTranslate": "Decidió reconocer el error que cometió.",
       "translateList": [
         {
           "label": "Acknowledge",
@@ -602,9 +602,9 @@
     },
     {
       "word": "Acquire",
-      "translate": "Elde etmek",
+      "translate": "Adquirir",
       "quiz": "She managed to .... a rare antique at the auction.",
-      "quizTranslate": "Açık artırmada nadir bir antika elde etmeyi başardı.",
+      "quizTranslate": "Logró adquirir una antigüedad rara en la subasta.",
       "translateList": [
         {
           "label": "Acquire",
@@ -626,9 +626,9 @@
     },
     {
       "word": "Activist",
-      "translate": "Aktivist",
+      "translate": "Activista",
       "quiz": "She is a human rights ....",
-      "quizTranslate": "O, bir insan hakları aktivistidir.",
+      "quizTranslate": "Ella es una activista de derechos humanos.",
       "translateList": [
         {
           "label": "Activist",
@@ -650,9 +650,9 @@
     },
     {
       "word": "Acute",
-      "translate": "Şiddetli, akut",
+      "translate": "Agudo, severo",
       "quiz": "He was suffering from .... pain.",
-      "quizTranslate": "O, şiddetli bir ağrı çekiyordu.",
+      "quizTranslate": "Sufría un dolor agudo.",
       "translateList": [
         {
           "label": "Acute",
@@ -674,9 +674,9 @@
     },
     {
       "word": "Adaptation",
-      "translate": "Uyarlama, adaptasyon",
+      "translate": "Adaptación",
       "quiz": "The movie is an .... of a famous novel.",
-      "quizTranslate": "Film, ünlü bir romanın uyarlamasıdır.",
+      "quizTranslate": "La película es una adaptación de una novela famosa.",
       "translateList": [
         {
           "label": "Adaptation",
@@ -698,9 +698,9 @@
     },
     {
       "word": "Adhere",
-      "translate": "Bağlı kalmak, sadık kalmak",
+      "translate": "Adherirse",
       "quiz": "It is important to .... to the rules.",
-      "quizTranslate": "Kurallara bağlı kalmak önemlidir.",
+      "quizTranslate": "Es importante adherirse a las reglas.",
       "translateList": [
         {
           "label": "Adhere",
@@ -722,9 +722,9 @@
     },
     {
       "word": "Adjacent",
-      "translate": "Bitişik, komşu",
+      "translate": "Adyacente",
       "quiz": "Their house is .... to the park.",
-      "quizTranslate": "Evleri parka bitişiktir.",
+      "quizTranslate": "Su casa está adyacente al parque.",
       "translateList": [
         {
           "label": "Adjacent",
@@ -746,9 +746,9 @@
     },
     {
       "word": "Adjustment",
-      "translate": "Ayarlama, düzenleme",
+      "translate": "Ajuste",
       "quiz": "He made a slight .... to the chair.",
-      "quizTranslate": "O, sandalyede küçük bir ayarlama yaptı.",
+      "quizTranslate": "Hizo un pequeño ajuste en la silla.",
       "translateList": [
         {
           "label": "Adjustment",
@@ -770,9 +770,9 @@
     },
     {
       "word": "Administer",
-      "translate": "Yönetmek, uygulamak",
+      "translate": "Administrar",
       "quiz": "The nurse will .... the medicine.",
-      "quizTranslate": "Hemşire ilacı uygulayacak.",
+      "quizTranslate": "La enfermera administrará el medicamento.",
       "translateList": [
         {
           "label": "Administer",
@@ -794,9 +794,9 @@
     },
     {
       "word": "Administrative",
-      "translate": "İdari",
+      "translate": "Administrativo",
       "quiz": "She works in an .... position.",
-      "quizTranslate": "O, idari bir pozisyonda çalışıyor.",
+      "quizTranslate": "Ella trabaja en un puesto administrativo.",
       "translateList": [
         {
           "label": "Administrative",
@@ -818,9 +818,9 @@
     },
     {
       "word": "Administrator",
-      "translate": "Yönetici",
+      "translate": "Administrador",
       "quiz": "He is the school ....",
-      "quizTranslate": "O, okul yöneticisidir.",
+      "quizTranslate": "Él es el administrador de la escuela.",
       "translateList": [
         {
           "label": "Administrator",
@@ -842,9 +842,9 @@
     },
     {
       "word": "Admission",
-      "translate": "Kabul, giriş",
+      "translate": "Admisión",
       "quiz": "The university granted him ....",
-      "quizTranslate": "Üniversite ona kabul hakkı verdi.",
+      "quizTranslate": "La universidad le concedió la admisión.",
       "translateList": [
         {
           "label": "Admission",
@@ -866,9 +866,9 @@
     },
     {
       "word": "Adolescent",
-      "translate": "Ergen",
+      "translate": "Adolescente",
       "quiz": "She is dealing with the challenges of being an ....",
-      "quizTranslate": "O, ergen olmanın zorluklarıyla başa çıkıyor.",
+      "quizTranslate": "Ella está enfrentando los desafíos de ser una adolescente.",
       "translateList": [
         {
           "label": "Adolescent",
@@ -890,9 +890,9 @@
     },
     {
       "word": "Adoption",
-      "translate": "Evlat edinme, benimseme",
+      "translate": "Adopción",
       "quiz": "The couple is considering the .... of a child.",
-      "quizTranslate": "Çift, bir çocuğu evlat edinmeyi düşünüyor.",
+      "quizTranslate": "La pareja está considerando la adopción de un niño.",
       "translateList": [
         {
           "label": "Adoption",
@@ -914,9 +914,9 @@
     },
     {
       "word": "Adverse",
-      "translate": "Olumsuz, ters",
+      "translate": "Adverso",
       "quiz": "The weather had an .... effect on the crops.",
-      "quizTranslate": "Hava durumu mahsuller üzerinde olumsuz bir etki yaptı.",
+      "quizTranslate": "El clima tuvo un efecto adverso en los cultivos.",
       "translateList": [
         {
           "label": "Adverse",
@@ -938,9 +938,9 @@
     },
     {
       "word": "Advocate",
-      "translate": "Savunmak, desteklemek, savunucu",
+      "translate": "Defensor, abogar",
       "quiz": "He is a strong .... for human rights.",
-      "quizTranslate": "O, insan haklarının güçlü bir savunucusudur.",
+      "quizTranslate": "Él es un fuerte defensor de los derechos humanos.",
       "translateList": [
         {
           "label": "Advocate",
@@ -962,9 +962,9 @@
     },
     {
       "word": "Adjust",
-      "translate": "Ayarlamak",
+      "translate": "Ajustar",
       "quiz": "You need to .... the seat before driving.",
-      "quizTranslate": "Araba kullanmadan önce koltuğu ayarlaman gerekiyor.",
+      "quizTranslate": "Necesitas ajustar el asiento antes de conducir.",
       "translateList": [
         {
           "label": "Adjust",
@@ -986,9 +986,9 @@
     },
     {
       "word": "Adequate",
-      "translate": "Yeterli, uygun, elverişli",
+      "translate": "Adecuado",
       "quiz": "The resources provided are .... for completing the project.",
-      "quizTranslate": "Sağlanan kaynaklar projeyi tamamlamak için yeterli.",
+      "quizTranslate": "Los recursos proporcionados son adecuados para completar el proyecto.",
       "translateList": [
         {
           "label": "Adequate",
@@ -1010,9 +1010,9 @@
     },
     {
       "word": "Allocate",
-      "translate": "Pay etmek, bölüştürmek",
+      "translate": "Asignar, distribuir",
       "quiz": "They decided to .... funds to different departments.",
-      "quizTranslate": "Farklı departmanlara fonlar bölüştürmeye karar verdiler.",
+      "quizTranslate": "Decidieron asignar fondos a diferentes departamentos.",
       "translateList": [
         {
           "label": "Allocate",
@@ -1034,9 +1034,9 @@
     },
     {
       "word": "Ally",
-      "translate": "Müttefik",
+      "translate": "Aliado",
       "quiz": "During the war, several countries chose to .... together.",
-      "quizTranslate": "Savaş sırasında birkaç ülke birlikte müttefik olmaya karar verdi.",
+      "quizTranslate": "Durante la guerra, varios países eligieron aliarse juntos.",
       "translateList": [
         {
           "label": "Ally",
@@ -1058,9 +1058,9 @@
     },
     {
       "word": "Affection",
-      "translate": "Sevgi, şefkat",
+      "translate": "Afecto, cariño",
       "quiz": "She showed great .... for her pet.",
-      "quizTranslate": "O, evcil hayvanına büyük sevgi gösterdi.",
+      "quizTranslate": "Ella mostró un gran afecto por su mascota.",
       "translateList": [
         {
           "label": "Affection",
@@ -1082,9 +1082,9 @@
     },
     {
       "word": "Aftermath",
-      "translate": "Sonrasındaki durum, akıbet",
+      "translate": "Consecuencia, secuelas",
       "quiz": "The country is still dealing with the .... of the earthquake.",
-      "quizTranslate": "Ülke, depremin sonrasındaki durumla hala başa çıkıyor.",
+      "quizTranslate": "El país aún está lidiando con las secuelas del terremoto.",
       "translateList": [
         {
           "label": "Aftermath",
@@ -1106,9 +1106,9 @@
     },
     {
       "word": "Aggression",
-      "translate": "Saldırganlık",
+      "translate": "Agresión",
       "quiz": "The team showed a lot of .... during the game.",
-      "quizTranslate": "Takım, maç boyunca çok fazla saldırganlık gösterdi.",
+      "quizTranslate": "El equipo mostró mucha agresión durante el partido.",
       "translateList": [
         {
           "label": "Aggression",
@@ -1130,9 +1130,9 @@
     },
     {
       "word": "Agricultural",
-      "translate": "Tarımsal",
+      "translate": "Agrícola",
       "quiz": "The country has a strong .... industry.",
-      "quizTranslate": "Ülkenin güçlü bir tarımsal endüstrisi vardır.",
+      "quizTranslate": "El país tiene una fuerte industria agrícola.",
       "translateList": [
         {
           "label": "Agricultural",
@@ -1154,9 +1154,9 @@
     },
     {
       "word": "Aide",
-      "translate": "Yardımcı, asistan",
+      "translate": "Asistente, ayudante",
       "quiz": "She works as a medical .... in the hospital.",
-      "quizTranslate": "O, hastanede tıbbi yardımcı olarak çalışıyor.",
+      "quizTranslate": "Ella trabaja como asistente médica en el hospital.",
       "translateList": [
         {
           "label": "Aide",
@@ -1178,9 +1178,9 @@
     },
     {
       "word": "Albeit",
-      "translate": "Her ne kadar, -se de",
+      "translate": "Aunque, si bien",
       "quiz": "She is very good at painting, .... she doesn't have much time to practice.",
-      "quizTranslate": "O, resim yapmada çok iyi, ancak pratik yapacak fazla zamanı yok.",
+      "quizTranslate": "Ella es muy buena pintando, aunque no tiene mucho tiempo para practicar.",
       "translateList": [
         {
           "label": "Albeit",
@@ -1202,9 +1202,9 @@
     },
     {
       "word": "Alert",
-      "translate": "Uyanık, tetikte; alarm",
+      "translate": "Alerta, atento",
       "quiz": "She stayed .... during the night shift.",
-      "quizTranslate": "O, gece vardiyasında tetikte kaldı.",
+      "quizTranslate": "Ella permaneció alerta durante el turno de noche.",
       "translateList": [
         {
           "label": "Alert",
@@ -1226,9 +1226,9 @@
     },
     {
       "word": "Alien",
-      "translate": "Yabancı; uzaylı",
+      "translate": "Extranjero, alienígena",
       "quiz": "The authorities are concerned about .... species invasion.",
-      "quizTranslate": "Yetkililer, yabancı türlerin istilasından endişeleniyor.",
+      "quizTranslate": "Las autoridades están preocupadas por la invasión de especies extranjeras.",
       "translateList": [
         {
           "label": "Alien",
@@ -1250,9 +1250,9 @@
     },
     {
       "word": "Align",
-      "translate": "Hizalamak, sıralamak",
+      "translate": "Alinear",
       "quiz": "Make sure the text is properly .... with the page margins.",
-      "quizTranslate": "Metnin sayfa kenarlarıyla düzgün bir şekilde hizalandığından emin olun.",
+      "quizTranslate": "Asegúrate de que el texto esté correctamente alineado con los márgenes de la página.",
       "translateList": [
         {
           "label": "Align",
@@ -1274,9 +1274,9 @@
     },
     {
       "word": "Alignment",
-      "translate": "Hizalama, sıralama",
+      "translate": "Alineación",
       "quiz": "Check the .... of the text in the document.",
-      "quizTranslate": "Belgede metnin hizalanmasını kontrol edin.",
+      "quizTranslate": "Verifica la alineación del texto en el documento.",
       "translateList": [
         {
           "label": "Alignment",
@@ -1298,9 +1298,9 @@
     },
     {
       "word": "Alike",
-      "translate": "Benzer, aynı şekilde",
+      "translate": "Parecido, similar",
       "quiz": "They both look .... after the surgery.",
-      "quizTranslate": "Ameliyat sonrasında ikisi de benzer görünüyor.",
+      "quizTranslate": "Ambos se ven parecidos después de la cirugía.",
       "translateList": [
         {
           "label": "Alike",
@@ -1322,9 +1322,9 @@
     },
     {
       "word": "Allegation",
-      "translate": "İddia, suçlama",
+      "translate": "Alegación, acusación",
       "quiz": "The company denied the .... of fraud.",
-      "quizTranslate": "Şirket, dolandırıcılık suçlamasını reddetti.",
+      "quizTranslate": "La empresa negó la acusación de fraude.",
       "translateList": [
         {
           "label": "Allegation",
