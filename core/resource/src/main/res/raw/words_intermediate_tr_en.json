@@ -28993,30 +28993,6 @@
       ]
     },
     {
-      "word": "Relief",
-      "translate": "Rahatlama, ferahlama",
-      "quiz": "She felt a sense of .... after the meeting.",
-      "quizTranslate": "Toplantıdan sonra rahatlama hissetti.",
-      "translateList": [
-        {
-          "label": "Relief",
-          "isCorrect": true
-        },
-        {
-          "label": "Stress",
-          "isCorrect": false
-        },
-        {
-          "label": "Tension",
-          "isCorrect": false
-        },
-        {
-          "label": "Pressure",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Removal",
       "translate": "Kaldırma, çıkarma",
       "quiz": "The .... of the old building was a huge task.",
@@ -29228,30 +29204,6 @@
         },
         {
           "label": "Endurance",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Relief",
-      "translate": "Rahatlama",
-      "quiz": "He felt a sense of .... after completing the task.",
-      "quizTranslate": "Görevi tamamladıktan sonra rahatlama hissetti.",
-      "translateList": [
-        {
-          "label": "Relief",
-          "isCorrect": true
-        },
-        {
-          "label": "Stress",
-          "isCorrect": false
-        },
-        {
-          "label": "Tension",
-          "isCorrect": false
-        },
-        {
-          "label": "Pressure",
           "isCorrect": false
         }
       ]
