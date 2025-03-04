@@ -24915,8 +24915,8 @@
     {
       "word": "Stab",
       "translate": "Bıçaklamak",
-      "quiz": "He was stabbed in the back.",
-      "quizTranslate": "Sırtından bıçaklandı.",
+      "quiz": "She had a deep .... in the back.",
+      "quizTranslate": "sırtından derin bir bıçak darbesi almıştı.",
       "translateList": [
         {
           "label": "Stab",
@@ -24939,7 +24939,7 @@
     {
       "word": "Stability",
       "translate": "İstikrar",
-      "quiz": "The country is seeking political stability.",
+      "quiz": "The country is seeking political .....",
       "quizTranslate": "Ülke, siyasi istikrar arayışında.",
       "translateList": [
         {
