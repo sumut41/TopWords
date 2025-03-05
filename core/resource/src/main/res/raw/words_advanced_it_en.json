@@ -30146,30 +30146,6 @@
       ]
     },
     {
-      "word": "Linger",
-      "translate": "Oyalanmak",
-      "quiz": "After the meeting, she decided to .... for a while and talk to some colleagues.",
-      "quizTranslate": "Toplantıdan sonra bir süre oyalanıp bazı meslektaşlarıyla konuşmaya karar verdi.",
-      "translateList": [
-        {
-          "label": "Linger",
-          "isCorrect": true
-        },
-        {
-          "label": "Leave",
-          "isCorrect": false
-        },
-        {
-          "label": "Hurry",
-          "isCorrect": false
-        },
-        {
-          "label": "Depart",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Loom",
       "translate": "Belirmek, dokuma tezgâhı",
       "quiz": "The storm seemed to .... on the horizon.",
@@ -34701,6 +34677,390 @@
         },
         {
           "label": "Inconsistency",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Flustered",
+      "translate": "Telaşlı, şaşkın",
+      "quiz": "She became .... when she couldn’t find her keys in a hurry.",
+      "quizTranslate": "Anahtarlarını aceleyle bulamayınca telaşlandı.",
+      "translateList": [
+        {
+          "label": "Flustered",
+          "isCorrect": true
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        },
+        {
+          "label": "Relaxed",
+          "isCorrect": false
+        },
+        {
+          "label": "Focused",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dazed",
+      "translate": "Sersemlemiş, afallamış",
+      "quiz": "After the accident, he was left .... and disoriented.",
+      "quizTranslate": "Kaza sonrası sersemlemiş ve kafası karışmış haldeydi.",
+      "translateList": [
+        {
+          "label": "Dazed",
+          "isCorrect": true
+        },
+        {
+          "label": "Alert",
+          "isCorrect": false
+        },
+        {
+          "label": "Energetic",
+          "isCorrect": false
+        },
+        {
+          "label": "Attentive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Witty",
+      "translate": "Esprili, zeki",
+      "quiz": "He always has a .... response to every joke.",
+      "quizTranslate": "Her şakaya her zaman esprili bir yanıtı vardır.",
+      "translateList": [
+        {
+          "label": "Witty",
+          "isCorrect": true
+        },
+        {
+          "label": "Dull",
+          "isCorrect": false
+        },
+        {
+          "label": "Boring",
+          "isCorrect": false
+        },
+        {
+          "label": "Serious",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Skeptical",
+      "translate": "Şüpheci, kuşkucu",
+      "quiz": "I am .... about his promises because he has broken them before.",
+      "quizTranslate": "Daha önce sözlerini tutmadığı için vaatleri konusunda şüpheliyim.",
+      "translateList": [
+        {
+          "label": "Skeptical",
+          "isCorrect": true
+        },
+        {
+          "label": "Trusting",
+          "isCorrect": false
+        },
+        {
+          "label": "Gullible",
+          "isCorrect": false
+        },
+        {
+          "label": "Confident",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Gullible",
+      "translate": "Saf, kolay kandırılabilir",
+      "quiz": "She’s so .... that she believed his ridiculous lie.",
+      "quizTranslate": "O kadar saf ki onun saçma yalanına inandı.",
+      "translateList": [
+        {
+          "label": "Gullible",
+          "isCorrect": true
+        },
+        {
+          "label": "Cautious",
+          "isCorrect": false
+        },
+        {
+          "label": "Skeptical",
+          "isCorrect": false
+        },
+        {
+          "label": "Suspicious",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Uplifting",
+      "translate": "Moral verici, ilham verici",
+      "quiz": "The movie had an .... message that left everyone feeling hopeful.",
+      "quizTranslate": "Film, herkese umut veren moral verici bir mesaja sahipti.",
+      "translateList": [
+        {
+          "label": "Uplifting",
+          "isCorrect": true
+        },
+        {
+          "label": "Depressing",
+          "isCorrect": false
+        },
+        {
+          "label": "Discouraging",
+          "isCorrect": false
+        },
+        {
+          "label": "Uninspiring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Daunting",
+      "translate": "Göz korkutucu, zor",
+      "quiz": "Moving to a new country can be a .... experience.",
+      "quizTranslate": "Yeni bir ülkeye taşınmak göz korkutucu bir deneyim olabilir.",
+      "translateList": [
+        {
+          "label": "Daunting",
+          "isCorrect": true
+        },
+        {
+          "label": "Easy",
+          "isCorrect": false
+        },
+        {
+          "label": "Exciting",
+          "isCorrect": false
+        },
+        {
+          "label": "Relaxing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Hectic",
+      "translate": "Yoğun, telaşlı",
+      "quiz": "My schedule has been really .... this week with meetings every day.",
+      "quizTranslate": "Bu hafta her gün toplantılar olduğu için programım gerçekten yoğun geçti.",
+      "translateList": [
+        {
+          "label": "Hectic",
+          "isCorrect": true
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        },
+        {
+          "label": "Lazy",
+          "isCorrect": false
+        },
+        {
+          "label": "Dull",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Irritating",
+      "translate": "Sinir bozucu",
+      "quiz": "The constant noise from the construction site is really .....",
+      "quizTranslate": "Şantiyeden gelen sürekli gürültü gerçekten sinir bozucu.",
+      "translateList": [
+        {
+          "label": "Irritating",
+          "isCorrect": true
+        },
+        {
+          "label": "Soothing",
+          "isCorrect": false
+        },
+        {
+          "label": "Pleasant",
+          "isCorrect": false
+        },
+        {
+          "label": "Comforting",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tedious",
+      "translate": "Sıkıcı, yorucu",
+      "quiz": "Filling out forms is such a .... and time-consuming task.",
+      "quizTranslate": "Form doldurmak çok sıkıcı ve zaman alıcı bir iş.",
+      "translateList": [
+        {
+          "label": "Tedious",
+          "isCorrect": true
+        },
+        {
+          "label": "Enjoyable",
+          "isCorrect": false
+        },
+        {
+          "label": "Exciting",
+          "isCorrect": false
+        },
+        {
+          "label": "Refreshing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Quirky",
+      "translate": "Tuhaf, ilginç",
+      "quiz": "She has a .... sense of humor that not everyone understands.",
+      "quizTranslate": "Onun herkesin anlayamadığı tuhaf bir mizah anlayışı var.",
+      "translateList": [
+        {
+          "label": "Quirky",
+          "isCorrect": true
+        },
+        {
+          "label": "Ordinary",
+          "isCorrect": false
+        },
+        {
+          "label": "Common",
+          "isCorrect": false
+        },
+        {
+          "label": "Boring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jittery",
+      "translate": "Gergin, sinirli",
+      "quiz": "I always feel .... before giving a big presentation.",
+      "quizTranslate": "Büyük bir sunum yapmadan önce her zaman gergin hissederim.",
+      "translateList": [
+        {
+          "label": "Jittery",
+          "isCorrect": true
+        },
+        {
+          "label": "Confident",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        },
+        {
+          "label": "Relaxed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dreadful",
+      "translate": "Berbat, korkunç",
+      "quiz": "The weather has been absolutely .... all week with heavy rain and storms.",
+      "quizTranslate": "Hava tüm hafta boyunca korkunçtu, sürekli sağanak yağmur ve fırtına vardı.",
+      "translateList": [
+        {
+          "label": "Dreadful",
+          "isCorrect": true
+        },
+        {
+          "label": "Wonderful",
+          "isCorrect": false
+        },
+        {
+          "label": "Pleasant",
+          "isCorrect": false
+        },
+        {
+          "label": "Mild",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fussy",
+      "translate": "Titiz, zor beğenen",
+      "quiz": "He's so .... about his food that he won’t eat anything with onions in it.",
+      "quizTranslate": "Yemek konusunda o kadar titiz ki içinde soğan olan hiçbir şeyi yemez.",
+      "translateList": [
+        {
+          "label": "Fussy",
+          "isCorrect": true
+        },
+        {
+          "label": "Easy-going",
+          "isCorrect": false
+        },
+        {
+          "label": "Flexible",
+          "isCorrect": false
+        },
+        {
+          "label": "Unconcerned",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Procrastinate",
+      "translate": "Ertelemek, oyalanmak",
+      "quiz": "Many students tend to .... when they have an important assignment due.",
+      "quizTranslate": "Birçok öğrenci, teslim tarihi yaklaşan önemli bir ödevi olduğunda erteleme eğilimindedir.",
+      "translateList": [
+        {
+          "label": "Procrastinate",
+          "isCorrect": true
+        },
+        {
+          "label": "Finish early",
+          "isCorrect": false
+        },
+        {
+          "label": "Work diligently",
+          "isCorrect": false
+        },
+        {
+          "label": "Complete on time",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Meddle",
+      "translate": "Burnunu sokmak, karışmak",
+      "quiz": "I don’t want to .... in their relationship; it’s none of my business.",
+      "quizTranslate": "Onların ilişkisine burnumu sokmak istemiyorum; bu benim işim değil.",
+      "translateList": [
+        {
+          "label": "Meddle",
+          "isCorrect": true
+        },
+        {
+          "label": "Respect privacy",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Support",
           "isCorrect": false
         }
       ]
