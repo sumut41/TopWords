@@ -37247,6 +37247,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Cradle",
+      "translate": "Beşik, kucaklamak",
+      "quiz": "She gently rocked the baby in the .... to help him sleep.",
+      "quizTranslate": "Bebeğin uyumasına yardımcı olmak için onu beşikte nazikçe salladı.",
+      "translateList": [
+        {
+          "label": "Cradle",
+          "isCorrect": true
+        },
+        {
+          "label": "Hammock",
+          "isCorrect": false
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        },
+        {
+          "label": "Basket",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

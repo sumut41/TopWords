@@ -37974,6 +37974,270 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Grater",
+      "translate": "Grattugia",
+      "quiz": "She used a .... to shred the cheese for the pasta.",
+      "quizTranslate": "Ha usato una grattugia per grattugiare il formaggio per la pasta.",
+      "translateList": [
+        {
+          "label": "Grater",
+          "isCorrect": true
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Peeler",
+          "isCorrect": false
+        },
+        {
+          "label": "Blender",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Colander",
+      "translate": "Colino",
+      "quiz": "She poured the pasta into a .... to drain the water.",
+      "quizTranslate": "Ha versato la pasta in un colino per scolare l'acqua.",
+      "translateList": [
+        {
+          "label": "Colander",
+          "isCorrect": true
+        },
+        {
+          "label": "Bowl",
+          "isCorrect": false
+        },
+        {
+          "label": "Ladle",
+          "isCorrect": false
+        },
+        {
+          "label": "Pan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Corkscrew",
+      "translate": "Cavatappi",
+      "quiz": "He used a .... to open the bottle of wine.",
+      "quizTranslate": "Ha usato un cavatappi per aprire la bottiglia di vino.",
+      "translateList": [
+        {
+          "label": "Corkscrew",
+          "isCorrect": true
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Spoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Freezer",
+      "translate": "Congelatore",
+      "quiz": "She put the ice cream in the .... to keep it frozen.",
+      "quizTranslate": "Ha messo il gelato nel congelatore per mantenerlo congelato.",
+      "translateList": [
+        {
+          "label": "Freezer",
+          "isCorrect": true
+        },
+        {
+          "label": "Refrigerator",
+          "isCorrect": false
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        },
+        {
+          "label": "Microwave",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kettle",
+      "translate": "Bollitore",
+      "quiz": "She boiled some water in the .... to make tea.",
+      "quizTranslate": "Ha fatto bollire dell'acqua nel bollitore per preparare il tè.",
+      "translateList": [
+        {
+          "label": "Kettle",
+          "isCorrect": true
+        },
+        {
+          "label": "Teapot",
+          "isCorrect": false
+        },
+        {
+          "label": "Saucepan",
+          "isCorrect": false
+        },
+        {
+          "label": "Cup",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ladle",
+      "translate": "Mestolo",
+      "quiz": "She used a large .... to serve the soup.",
+      "quizTranslate": "Ha usato un grande mestolo per servire la zuppa.",
+      "translateList": [
+        {
+          "label": "Ladle",
+          "isCorrect": true
+        },
+        {
+          "label": "Spoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Spatula",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Napkin",
+      "translate": "Tovagliolo",
+      "quiz": "She placed a folded .... on each plate.",
+      "quizTranslate": "Ha messo un tovagliolo piegato su ogni piatto.",
+      "translateList": [
+        {
+          "label": "Napkin",
+          "isCorrect": true
+        },
+        {
+          "label": "Tablecloth",
+          "isCorrect": false
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Placemat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pan",
+      "translate": "Padella",
+      "quiz": "She fried the eggs in a non-stick ....",
+      "quizTranslate": "Ha fritto le uova in una padella antiaderente.",
+      "translateList": [
+        {
+          "label": "Pan",
+          "isCorrect": true
+        },
+        {
+          "label": "Saucepan",
+          "isCorrect": false
+        },
+        {
+          "label": "Kettle",
+          "isCorrect": false
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Saucepan",
+      "translate": "Pentola",
+      "quiz": "She boiled pasta in a large ....",
+      "quizTranslate": "Ha bollito la pasta in una grande pentola.",
+      "translateList": [
+        {
+          "label": "Saucepan",
+          "isCorrect": true
+        },
+        {
+          "label": "Pan",
+          "isCorrect": false
+        },
+        {
+          "label": "Kettle",
+          "isCorrect": false
+        },
+        {
+          "label": "Colander",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tablecloth",
+      "translate": "Tovaglia",
+      "quiz": "She spread a clean white .... over the dining table.",
+      "quizTranslate": "Ha steso una tovaglia bianca pulita sul tavolo da pranzo.",
+      "translateList": [
+        {
+          "label": "Tablecloth",
+          "isCorrect": true
+        },
+        {
+          "label": "Napkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Placemat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Teaspoon",
+      "translate": "Cucchiaino",
+      "quiz": "She stirred the tea with a small ....",
+      "quizTranslate": "Ha mescolato il tè con un piccolo cucchiaino.",
+      "translateList": [
+        {
+          "label": "Teaspoon",
+          "isCorrect": true
+        },
+        {
+          "label": "Tablespoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

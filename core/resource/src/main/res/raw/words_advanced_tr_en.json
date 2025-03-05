@@ -35087,6 +35087,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Conditioning",
+      "translate": "Koşullandırma, şartlandırma",
+      "quiz": "Through years of social ...., people develop certain behaviors automatically.",
+      "quizTranslate": "Yıllarca süren sosyal koşullandırma sayesinde insanlar belirli davranışları otomatik olarak geliştirir.",
+      "translateList": [
+        {
+          "label": "Conditioning",
+          "isCorrect": true
+        },
+        {
+          "label": "Training",
+          "isCorrect": false
+        },
+        {
+          "label": "Education",
+          "isCorrect": false
+        },
+        {
+          "label": "Instinct",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

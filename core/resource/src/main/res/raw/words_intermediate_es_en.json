@@ -37200,6 +37200,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Cradle",
+      "translate": "Cuna, acunar",
+      "quiz": "She gently rocked the baby in the .... to help him sleep.",
+      "quizTranslate": "Meció suavemente al bebé en la cuna para ayudarlo a dormir.",
+      "translateList": [
+        {
+          "label": "Cradle",
+          "isCorrect": true
+        },
+        {
+          "label": "Hammock",
+          "isCorrect": false
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        },
+        {
+          "label": "Basket",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

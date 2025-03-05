@@ -37994,6 +37994,270 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Grater",
+      "translate": "Rende",
+      "quiz": "She used a .... to shred the cheese for the pasta.",
+      "quizTranslate": "Makarna için peyniri rendelemek amacıyla bir rende kullandı.",
+      "translateList": [
+        {
+          "label": "Grater",
+          "isCorrect": true
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Peeler",
+          "isCorrect": false
+        },
+        {
+          "label": "Blender",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Colander",
+      "translate": "Süzgeç",
+      "quiz": "She poured the pasta into a .... to drain the water.",
+      "quizTranslate": "Makarnanın suyunu süzmek için süzgece döktü.",
+      "translateList": [
+        {
+          "label": "Colander",
+          "isCorrect": true
+        },
+        {
+          "label": "Bowl",
+          "isCorrect": false
+        },
+        {
+          "label": "Ladle",
+          "isCorrect": false
+        },
+        {
+          "label": "Pan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Corkscrew",
+      "translate": "Tirbuşon",
+      "quiz": "He used a .... to open the bottle of wine.",
+      "quizTranslate": "Şişeyi açmak için bir tirbuşon kullandı.",
+      "translateList": [
+        {
+          "label": "Corkscrew",
+          "isCorrect": true
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Spoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Freezer",
+      "translate": "Dondurucu",
+      "quiz": "She put the ice cream in the .... to keep it frozen.",
+      "quizTranslate": "Dondurmayı donmuş halde tutmak için dondurucuya koydu.",
+      "translateList": [
+        {
+          "label": "Freezer",
+          "isCorrect": true
+        },
+        {
+          "label": "Refrigerator",
+          "isCorrect": false
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        },
+        {
+          "label": "Microwave",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kettle",
+      "translate": "Su ısıtıcısı",
+      "quiz": "She boiled some water in the .... to make tea.",
+      "quizTranslate": "Çay yapmak için su ısıtıcıda biraz su kaynattı.",
+      "translateList": [
+        {
+          "label": "Kettle",
+          "isCorrect": true
+        },
+        {
+          "label": "Teapot",
+          "isCorrect": false
+        },
+        {
+          "label": "Saucepan",
+          "isCorrect": false
+        },
+        {
+          "label": "Cup",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ladle",
+      "translate": "Kepçe",
+      "quiz": "She used a large .... to serve the soup.",
+      "quizTranslate": "Çorbayı servis etmek için büyük bir kepçe kullandı.",
+      "translateList": [
+        {
+          "label": "Ladle",
+          "isCorrect": true
+        },
+        {
+          "label": "Spoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Spatula",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Napkin",
+      "translate": "Peçete",
+      "quiz": "She placed a folded .... on each plate.",
+      "quizTranslate": "Her tabağın üzerine katlanmış bir peçete koydu.",
+      "translateList": [
+        {
+          "label": "Napkin",
+          "isCorrect": true
+        },
+        {
+          "label": "Tablecloth",
+          "isCorrect": false
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Placemat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pan",
+      "translate": "Tava",
+      "quiz": "She fried the eggs in a non-stick ....",
+      "quizTranslate": "Yumurtaları yapışmaz bir tavada kızarttı.",
+      "translateList": [
+        {
+          "label": "Pan",
+          "isCorrect": true
+        },
+        {
+          "label": "Saucepan",
+          "isCorrect": false
+        },
+        {
+          "label": "Kettle",
+          "isCorrect": false
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Saucepan",
+      "translate": "Tencere",
+      "quiz": "She boiled pasta in a large ....",
+      "quizTranslate": "Büyük bir tencerede makarna kaynattı.",
+      "translateList": [
+        {
+          "label": "Saucepan",
+          "isCorrect": true
+        },
+        {
+          "label": "Pan",
+          "isCorrect": false
+        },
+        {
+          "label": "Kettle",
+          "isCorrect": false
+        },
+        {
+          "label": "Colander",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tablecloth",
+      "translate": "Masa örtüsü",
+      "quiz": "She spread a clean white .... over the dining table.",
+      "quizTranslate": "Yemek masasının üzerine temiz beyaz bir masa örtüsü serdi.",
+      "translateList": [
+        {
+          "label": "Tablecloth",
+          "isCorrect": true
+        },
+        {
+          "label": "Napkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Placemat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Teaspoon",
+      "translate": "Çay kaşığı",
+      "quiz": "She stirred the tea with a small ....",
+      "quizTranslate": "Çayı küçük bir çay kaşığı ile karıştırdı.",
+      "translateList": [
+        {
+          "label": "Teaspoon",
+          "isCorrect": true
+        },
+        {
+          "label": "Tablespoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
