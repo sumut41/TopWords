@@ -36891,6 +36891,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Ribbon",
+      "translate": "Nastro",
+      "quiz": "She tied a red .... around the gift box to make it look more elegant.",
+      "quizTranslate": "Ha legato un nastro rosso intorno alla scatola regalo per renderla più elegante.",
+      "translateList": [
+        {
+          "label": "Ribbon",
+          "isCorrect": true
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "String",
+          "isCorrect": false
+        },
+        {
+          "label": "Rope",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

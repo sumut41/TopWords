@@ -36914,6 +36914,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Ribbon",
+      "translate": "Kurdele",
+      "quiz": "She tied a red .... around the gift box to make it look more elegant.",
+      "quizTranslate": "Hediyenin daha şık görünmesi için kutunun etrafına kırmızı bir kurdele bağladı.",
+      "translateList": [
+        {
+          "label": "Ribbon",
+          "isCorrect": true
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "String",
+          "isCorrect": false
+        },
+        {
+          "label": "Rope",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

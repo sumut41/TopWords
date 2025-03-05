@@ -36941,6 +36941,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Ribbon",
+      "translate": "Cinta",
+      "quiz": "She tied a red .... around the gift box to make it look more elegant.",
+      "quizTranslate": "Ató una cinta roja alrededor de la caja de regalo para que se viera más elegante.",
+      "translateList": [
+        {
+          "label": "Ribbon",
+          "isCorrect": true
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "String",
+          "isCorrect": false
+        },
+        {
+          "label": "Rope",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
