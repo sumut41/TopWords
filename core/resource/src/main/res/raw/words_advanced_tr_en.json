@@ -1538,7 +1538,7 @@
     },
     {
       "word": "Amendment",
-      "translate": "Değişiklik",
+      "translate": "Yasa Değişikliği, değişiklik",
       "quiz": "The constitution was revised with an important ....",
       "quizTranslate": "Anayasaya önemli bir değişiklik yapıldı.",
       "translateList": [
@@ -30625,30 +30625,6 @@
       ]
     },
     {
-      "word": "Elaborate",
-      "translate": "Ayrıntılı",
-      "quiz": "She gave an .... explanation of the process.",
-      "quizTranslate": "Sürecin ayrıntılı bir açıklamasını yaptı.",
-      "translateList": [
-        {
-          "label": "Elaborate",
-          "isCorrect": true
-        },
-        {
-          "label": "Simple",
-          "isCorrect": false
-        },
-        {
-          "label": "Brief",
-          "isCorrect": false
-        },
-        {
-          "label": "Vague",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Ephemeral",
       "translate": "Kısa ömürlü",
       "quiz": "The beauty of the sunset was ...., lasting only a few minutes.",
@@ -31753,30 +31729,6 @@
       ]
     },
     {
-      "word": "Reluctant",
-      "translate": "İsteksiz",
-      "quiz": "She was .... to accept the job offer without negotiating the terms.",
-      "quizTranslate": "Şartları müzakere etmeden iş teklifini kabul etmeye istekli değildi.",
-      "translateList": [
-        {
-          "label": "Reluctant",
-          "isCorrect": true
-        },
-        {
-          "label": "Eager",
-          "isCorrect": false
-        },
-        {
-          "label": "Willing",
-          "isCorrect": false
-        },
-        {
-          "label": "Enthusiastic",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Resemble",
       "translate": "Benzemek",
       "quiz": "The twins .... each other so much that it's hard to tell them apart.",
@@ -32468,30 +32420,6 @@
         },
         {
           "label": "Void",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Viable",
-      "translate": "Uygulanabilir",
-      "quiz": "The proposed solution is .... and can be implemented effectively.",
-      "quizTranslate": "Önerilen çözüm uygulanabilir ve etkili bir şekilde hayata geçirilebilir.",
-      "translateList": [
-        {
-          "label": "Viable",
-          "isCorrect": true
-        },
-        {
-          "label": "Unfeasible",
-          "isCorrect": false
-        },
-        {
-          "label": "Impractical",
-          "isCorrect": false
-        },
-        {
-          "label": "Impossible",
           "isCorrect": false
         }
       ]
@@ -33315,7 +33243,7 @@
     {
       "word": "Velocity",
       "translate": "Hız, sürat",
-      "quiz": "The ... of the wind increased significantly during the storm.",
+      "quiz": "The .... of the wind increased significantly during the storm.",
       "quizTranslate": "Fırtına sırasında rüzgarın hızı önemli ölçüde arttı.",
       "translateList": [
         {
@@ -33339,7 +33267,7 @@
     {
       "word": "Vegetation",
       "translate": "Bitki örtüsü",
-      "quiz": "The dense ... of the rainforest provides habitat for many species.",
+      "quiz": "The dense .... of the rainforest provides habitat for many species.",
       "quizTranslate": "Yağmur ormanlarının yoğun bitki örtüsü, birçok tür için yaşam alanı sağlar.",
       "translateList": [
         {
@@ -33363,7 +33291,7 @@
     {
       "word": "Underlie",
       "translate": "Altında yatmak, temelini oluşturmak",
-      "quiz": "Psychological factors often ... a person’s decision-making process.",
+      "quiz": "Psychological factors often .... a person’s decision-making process.",
       "quizTranslate": "Psikolojik faktörler genellikle bir kişinin karar verme sürecinin temelini oluşturur.",
       "translateList": [
         {
@@ -33387,7 +33315,7 @@
     {
       "word": "Statutory",
       "translate": "Yasal, kanuni",
-      "quiz": "The company must comply with ... regulations regarding data protection.",
+      "quiz": "The company must comply with .... regulations regarding data protection.",
       "quizTranslate": "Şirket, veri korumaya ilişkin yasal düzenlemelere uymak zorundadır.",
       "translateList": [
         {
@@ -33411,7 +33339,7 @@
     {
       "word": "Sediment",
       "translate": "Tortu, çökelti",
-      "quiz": "Over time, layers of ... accumulate at the bottom of the lake.",
+      "quiz": "Over time, layers of .... accumulate at the bottom of the lake.",
       "quizTranslate": "Zamanla, gölün dibinde tortu tabakaları birikir.",
       "translateList": [
         {
@@ -33435,7 +33363,7 @@
     {
       "word": "Scatter",
       "translate": "Dağıtmak, saçmak",
-      "quiz": "The strong wind caused the leaves to ... all over the garden.",
+      "quiz": "The strong wind caused the leaves to .... all over the garden.",
       "quizTranslate": "Güçlü rüzgar, yaprakların bahçeye dağılmasına neden oldu.",
       "translateList": [
         {
@@ -33459,7 +33387,7 @@
     {
       "word": "Precede",
       "translate": "Önce gelmek, önce olmak",
-      "quiz": "In a formal letter, the greeting should ... the main content.",
+      "quiz": "In a formal letter, the greeting should .... the main content.",
       "quizTranslate": "Resmi bir mektupta selamlama, ana içeriğin öncesinde olmalıdır.",
       "translateList": [
         {
@@ -33483,7 +33411,7 @@
     {
       "word": "Obscure",
       "translate": "Gizlemek, belirsizleştirmek",
-      "quiz": "Thick fog can ... the view, making it difficult to drive safely.",
+      "quiz": "Thick fog can .... the view, making it difficult to drive safely.",
       "quizTranslate": "Yoğun sis, görüşü gizleyebilir ve güvenli sürüşü zorlaştırabilir.",
       "translateList": [
         {
@@ -33507,7 +33435,7 @@
     {
       "word": "Monetary",
       "translate": "Parasal, mali",
-      "quiz": "The central bank plays a key role in shaping ... policy.",
+      "quiz": "The central bank plays a key role in shaping .... policy.",
       "quizTranslate": "Merkez bankası, parasal politikayı şekillendirmede önemli bir rol oynar.",
       "translateList": [
         {
@@ -33531,7 +33459,7 @@
     {
       "word": "Deforestation",
       "translate": "Ormansızlaşma",
-      "quiz": "The rapid ... of the Amazon rainforest is a serious environmental concern.",
+      "quiz": "The rapid .... of the Amazon rainforest is a serious environmental concern.",
       "quizTranslate": "Amazon yağmur ormanlarının hızlı ormansızlaşması ciddi bir çevresel sorundur.",
       "translateList": [
         {
@@ -33555,7 +33483,7 @@
     {
       "word": "Stubborn",
       "translate": "İnatçı",
-      "quiz": "Despite the evidence, he remained ... and refused to change his opinion.",
+      "quiz": "Despite the evidence, he remained .... and refused to change his opinion.",
       "quizTranslate": "Kanıtlara rağmen inatçı kaldı ve fikrini değiştirmeyi reddetti.",
       "translateList": [
         {
@@ -33579,7 +33507,7 @@
     {
       "word": "Revenue",
       "translate": "Gelir",
-      "quiz": "The company's annual ... exceeded expectations due to high sales.",
+      "quiz": "The company's annual .... exceeded expectations due to high sales.",
       "quizTranslate": "Şirketin yıllık geliri, yüksek satışlar nedeniyle beklentileri aştı.",
       "translateList": [
         {
@@ -33603,7 +33531,7 @@
     {
       "word": "Disgusting",
       "translate": "İğrenç",
-      "quiz": "The smell from the garbage was so ... that I had to leave immediately.",
+      "quiz": "The smell from the garbage was so .... that I had to leave immediately.",
       "quizTranslate": "Çöpten gelen koku o kadar iğrençti ki hemen ayrılmak zorunda kaldım.",
       "translateList": [
         {
@@ -33627,7 +33555,7 @@
     {
       "word": "Weird",
       "translate": "Tuhaf, garip",
-      "quiz": "She had a ... feeling that someone was watching her from the shadows.",
+      "quiz": "She had a .... feeling that someone was watching her from the shadows.",
       "quizTranslate": "Gölgelerden birinin onu izlediğine dair tuhaf bir hisse kapıldı.",
       "translateList": [
         {
@@ -33651,7 +33579,7 @@
     {
       "word": "Padlock",
       "translate": "Asma kilit",
-      "quiz": "He secured the gate with a heavy ... to prevent unauthorized access.",
+      "quiz": "He secured the gate with a heavy .... to prevent unauthorized access.",
       "quizTranslate": "Yetkisiz erişimi önlemek için kapıyı ağır bir asma kilitle kilitledi.",
       "translateList": [
         {
@@ -33675,7 +33603,7 @@
     {
       "word": "Versatile",
       "translate": "Çok yönlü",
-      "quiz": "Her ... tool in the kitchen can perform multiple functions efficiently.",
+      "quiz": "Her .... tool in the kitchen can perform multiple functions efficiently.",
       "quizTranslate": "Mutfaktaki her çok yönlü araç, birden fazla işlevi verimli bir şekilde yerine getirebilir.",
       "translateList": [
         {
@@ -33699,7 +33627,7 @@
     {
       "word": "Homely",
       "translate": "Sade, mütevazı",
-      "quiz": "She preferred a ... cottage in the countryside rather than a luxurious mansion.",
+      "quiz": "She preferred a .... cottage in the countryside rather than a luxurious mansion.",
       "quizTranslate": "Lüks bir malikane yerine kırsalda sade bir kulübeyi tercih etti.",
       "translateList": [
         {
@@ -33723,7 +33651,7 @@
     {
       "word": "Decadent",
       "translate": "Çökmekte olan, yozlaşmış",
-      "quiz": "The city's once-thriving culture became increasingly ... over time.",
+      "quiz": "The city's once-thriving culture became increasingly .... over time.",
       "quizTranslate": "Şehrin bir zamanlar gelişen kültürü zamanla giderek yozlaştı.",
       "translateList": [
         {
@@ -33747,7 +33675,7 @@
     {
       "word": "Topnotch",
       "translate": "Birinci sınıf, en iyi",
-      "quiz": "The restaurant is known for its ... service and exquisite cuisine.",
+      "quiz": "The restaurant is known for its .... service and exquisite cuisine.",
       "quizTranslate": "Restoran, birinci sınıf hizmeti ve enfes mutfağıyla tanınır.",
       "translateList": [
         {
@@ -33771,7 +33699,7 @@
     {
       "word": "Corresponding",
       "translate": "Karşılık gelen, denk",
-      "quiz": "Each employee's responsibilities should be clearly defined along with their ... benefits.",
+      "quiz": "Each employee's responsibilities should be clearly defined along with their .... benefits.",
       "quizTranslate": "Her çalışanın sorumlulukları, karşılık gelen avantajlarıyla birlikte açıkça tanımlanmalıdır.",
       "translateList": [
         {
@@ -33795,7 +33723,7 @@
     {
       "word": "Recognition",
       "translate": "Tanıma, takdir",
-      "quiz": "She received public ... for her groundbreaking research in physics.",
+      "quiz": "She received public .... for her groundbreaking research in physics.",
       "quizTranslate": "Fizikteki çığır açan araştırması nedeniyle kamuoyunda tanınma kazandı.",
       "translateList": [
         {
@@ -33819,7 +33747,7 @@
     {
       "word": "Redundancy",
       "translate": "Gereksizlik, fazlalık",
-      "quiz": "The company had to cut costs, leading to job ... across various departments.",
+      "quiz": "The company had to cut costs, leading to job .... across various departments.",
       "quizTranslate": "Şirket maliyetleri azaltmak zorunda kaldı ve çeşitli departmanlarda iş fazlalığına yol açtı.",
       "translateList": [
         {
@@ -33843,7 +33771,7 @@
     {
       "word": "Relevant",
       "translate": "İlgili, alakalı",
-      "quiz": "Ensure that your arguments are ... to the main topic of discussion.",
+      "quiz": "Ensure that your arguments are .... to the main topic of discussion.",
       "quizTranslate": "Tartışmanın ana konusuyla ilgili olduğundan emin olun.",
       "translateList": [
         {
@@ -33867,7 +33795,7 @@
     {
       "word": "Primitive",
       "translate": "İlkel, basit",
-      "quiz": "The ancient tribe used ... tools made of stone and wood.",
+      "quiz": "The ancient tribe used .... tools made of stone and wood.",
       "quizTranslate": "Antik kabile taş ve tahtadan yapılmış ilkel araçlar kullanıyordu.",
       "translateList": [
         {
@@ -33891,7 +33819,7 @@
     {
       "word": "Particularly",
       "translate": "Özellikle",
-      "quiz": "I enjoyed the film, ... the stunning visual effects.",
+      "quiz": "I enjoyed the film, .... the stunning visual effects.",
       "quizTranslate": "Filmi özellikle muhteşem görsel efektleri nedeniyle beğendim.",
       "translateList": [
         {
@@ -33915,7 +33843,7 @@
     {
       "word": "Narrator",
       "translate": "Anlatıcı",
-      "quiz": "The ... of the story provides insight into the main character’s thoughts and emotions.",
+      "quiz": "The .... of the story provides insight into the main character’s thoughts and emotions.",
       "quizTranslate": "Hikayenin anlatıcısı, ana karakterin düşüncelerine ve duygularına dair içgörüler sunar.",
       "translateList": [
         {
@@ -33939,7 +33867,7 @@
     {
       "word": "Linguistic",
       "translate": "Dilbilimsel, dil ile ilgili",
-      "quiz": "Her ... study requires a deep understanding of syntax and phonetics.",
+      "quiz": "Her .... study requires a deep understanding of syntax and phonetics.",
       "quizTranslate": "Her dilbilimsel çalışma, sözdizimi ve fonetik konusunda derin bir anlayış gerektirir.",
       "translateList": [
         {
@@ -33963,7 +33891,7 @@
     {
       "word": "Auction",
       "translate": "Müzayede, açık artırma",
-      "quiz": "The rare painting was sold at an ... for a record-breaking price.",
+      "quiz": "The rare painting was sold at an .... for a record-breaking price.",
       "quizTranslate": "Nadir bulunan tablo, müzayedede rekor kıran bir fiyata satıldı.",
       "translateList": [
         {
@@ -33987,7 +33915,7 @@
     {
       "word": "Boost",
       "translate": "Artırmak, yükseltmek",
-      "quiz": "The government launched a new policy to ... economic growth.",
+      "quiz": "The government launched a new policy to .... economic growth.",
       "quizTranslate": "Hükümet, ekonomik büyümeyi artırmak için yeni bir politika başlattı.",
       "translateList": [
         {
@@ -34011,7 +33939,7 @@
     {
       "word": "Density",
       "translate": "Yoğunluk",
-      "quiz": "The ... of the city’s population has increased dramatically over the last decade.",
+      "quiz": "The .... of the city’s population has increased dramatically over the last decade.",
       "quizTranslate": "Şehir nüfusunun yoğunluğu son on yılda dramatik bir şekilde arttı.",
       "translateList": [
         {
@@ -34035,7 +33963,7 @@
     {
       "word": "Embrace",
       "translate": "Kucaklamak, benimsemek",
-      "quiz": "She decided to ... the changes in her life with a positive attitude.",
+      "quiz": "She decided to .... the changes in her life with a positive attitude.",
       "quizTranslate": "Hayatındaki değişiklikleri olumlu bir tutumla benimsemeye karar verdi.",
       "translateList": [
         {
@@ -34059,7 +33987,7 @@
     {
       "word": "Equilibrium",
       "translate": "Denge",
-      "quiz": "The ecosystem maintains an ... between predators and prey.",
+      "quiz": "The ecosystem maintains an .... between predators and prey.",
       "quizTranslate": "Ekosistem, avcılar ve avlar arasında bir denge sağlar.",
       "translateList": [
         {
@@ -34083,7 +34011,7 @@
     {
       "word": "Exemption",
       "translate": "Muafiyet",
-      "quiz": "Some companies receive tax ... to encourage investment in certain sectors.",
+      "quiz": "Some companies receive tax .... to encourage investment in certain sectors.",
       "quizTranslate": "Bazı şirketler, belirli sektörlerde yatırımı teşvik etmek için vergi muafiyeti alır.",
       "translateList": [
         {
@@ -34107,7 +34035,7 @@
     {
       "word": "Exceed",
       "translate": "Aşmak, geçmek",
-      "quiz": "The athlete managed to ... all previous records in the competition.",
+      "quiz": "The athlete managed to .... all previous records in the competition.",
       "quizTranslate": "Sporcu, yarışmada önceki tüm rekorları aşmayı başardı.",
       "translateList": [
         {
@@ -34131,7 +34059,7 @@
     {
       "word": "Evolve",
       "translate": "Evrim geçirmek, gelişmek",
-      "quiz": "Over millions of years, species ... to adapt to changing environments.",
+      "quiz": "Over millions of years, species .... to adapt to changing environments.",
       "quizTranslate": "Milyonlarca yıl boyunca türler, değişen çevrelere uyum sağlamak için evrim geçirir.",
       "translateList": [
         {
@@ -34155,7 +34083,7 @@
     {
       "word": "Exploit",
       "translate": "Sömürmek, faydalanmak",
-      "quiz": "Some corporations ... natural resources without considering environmental consequences.",
+      "quiz": "Some corporations .... natural resources without considering environmental consequences.",
       "quizTranslate": "Bazı şirketler, çevresel sonuçları göz önünde bulundurmadan doğal kaynakları sömürür.",
       "translateList": [
         {
@@ -34179,7 +34107,7 @@
     {
       "word": "Faintly",
       "translate": "Hafifçe, belli belirsiz",
-      "quiz": "I could ... hear music playing in the distance.",
+      "quiz": "I could .... hear music playing in the distance.",
       "quizTranslate": "Uzakta çalan müziği belli belirsiz duyabiliyordum.",
       "translateList": [
         {
@@ -34203,7 +34131,7 @@
     {
       "word": "Fiscal",
       "translate": "Mali, bütçeyle ilgili",
-      "quiz": "The government announced new ... policies to boost the economy.",
+      "quiz": "The government announced new .... policies to boost the economy.",
       "quizTranslate": "Hükümet, ekonomiyi canlandırmak için yeni mali politikalar açıkladı.",
       "translateList": [
         {
@@ -34220,6 +34148,294 @@
         },
         {
           "label": "Cultural",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Comprehend",
+      "translate": "Anlamak, kavramak",
+      "quiz": "Many people struggle to .... complex mathematical concepts.",
+      "quizTranslate": "Birçok insan karmaşık matematiksel kavramları anlamakta zorlanır.",
+      "translateList": [
+        {
+          "label": "Comprehend",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Forget",
+          "isCorrect": false
+        },
+        {
+          "label": "Reject",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Contradict",
+      "translate": "Çelişmek, ters düşmek",
+      "quiz": "His actions completely .... the principles he claims to support.",
+      "quizTranslate": "Onun eylemleri, desteklediğini iddia ettiği ilkelerle tamamen çelişiyor.",
+      "translateList": [
+        {
+          "label": "Contradict",
+          "isCorrect": true
+        },
+        {
+          "label": "Confirm",
+          "isCorrect": false
+        },
+        {
+          "label": "Support",
+          "isCorrect": false
+        },
+        {
+          "label": "Approve",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Substantiate",
+      "translate": "Kanıtlamak, doğrulamak",
+      "quiz": "The scientist provided strong evidence to .... his theory.",
+      "quizTranslate": "Bilim insanı, teorisini doğrulamak için güçlü kanıtlar sundu.",
+      "translateList": [
+        {
+          "label": "Substantiate",
+          "isCorrect": true
+        },
+        {
+          "label": "Disprove",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Contradict",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ample",
+      "translate": "Bol, yeterli",
+      "quiz": "The hotel provided .... space for guests to relax and enjoy the view.",
+      "quizTranslate": "Otel, misafirlerin rahatlaması ve manzaranın keyfini çıkarması için bolca alan sağladı.",
+      "translateList": [
+        {
+          "label": "Ample",
+          "isCorrect": true
+        },
+        {
+          "label": "Scarce",
+          "isCorrect": false
+        },
+        {
+          "label": "Minimal",
+          "isCorrect": false
+        },
+        {
+          "label": "Insufficient",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coherent",
+      "translate": "Tutarlı, uyumlu",
+      "quiz": "Her explanation was clear and ..., making it easy for everyone to understand.",
+      "quizTranslate": "Onun açıklaması net ve tutarlıydı, bu yüzden herkesin anlaması kolay oldu.",
+      "translateList": [
+        {
+          "label": "Coherent",
+          "isCorrect": true
+        },
+        {
+          "label": "Incoherent",
+          "isCorrect": false
+        },
+        {
+          "label": "Confusing",
+          "isCorrect": false
+        },
+        {
+          "label": "Unstructured",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Compelling",
+      "translate": "İlgi çekici, ikna edici",
+      "quiz": "The lawyer presented a .... argument that convinced the jury.",
+      "quizTranslate": "Avukat, jüriyi ikna eden ilgi çekici bir argüman sundu.",
+      "translateList": [
+        {
+          "label": "Compelling",
+          "isCorrect": true
+        },
+        {
+          "label": "Unpersuasive",
+          "isCorrect": false
+        },
+        {
+          "label": "Dull",
+          "isCorrect": false
+        },
+        {
+          "label": "Uninteresting",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Consensus",
+      "translate": "Fikir birliği",
+      "quiz": "After a long discussion, the committee finally reached a .... on the matter.",
+      "quizTranslate": "Uzun bir tartışmanın ardından, komite sonunda konu üzerinde fikir birliğine vardı.",
+      "translateList": [
+        {
+          "label": "Consensus",
+          "isCorrect": true
+        },
+        {
+          "label": "Disagreement",
+          "isCorrect": false
+        },
+        {
+          "label": "Conflict",
+          "isCorrect": false
+        },
+        {
+          "label": "Opposition",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Contemplate",
+      "translate": "Düşünmek, tasarlamak",
+      "quiz": "He sat quietly by the lake, taking time to .... his future plans.",
+      "quizTranslate": "Göl kenarında sessizce oturdu ve gelecekteki planlarını düşünmek için zaman ayırdı.",
+      "translateList": [
+        {
+          "label": "Contemplate",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Overlook",
+          "isCorrect": false
+        },
+        {
+          "label": "Neglect",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Deteriorate",
+      "translate": "Kötüleşmek, bozulmak",
+      "quiz": "His health began to .... due to years of unhealthy eating habits.",
+      "quizTranslate": "Yıllarca sağlıksız beslenme alışkanlıkları nedeniyle sağlığı bozulmaya başladı.",
+      "translateList": [
+        {
+          "label": "Deteriorate",
+          "isCorrect": true
+        },
+        {
+          "label": "Improve",
+          "isCorrect": false
+        },
+        {
+          "label": "Enhance",
+          "isCorrect": false
+        },
+        {
+          "label": "Strengthen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Entail",
+      "translate": "Gerektirmek, içermek",
+      "quiz": "Becoming a doctor .... years of rigorous training and dedication.",
+      "quizTranslate": "Doktor olmak, yıllarca süren yoğun eğitim ve özveri gerektirir.",
+      "translateList": [
+        {
+          "label": "Entail",
+          "isCorrect": true
+        },
+        {
+          "label": "Exclude",
+          "isCorrect": false
+        },
+        {
+          "label": "Avoid",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Indispensable",
+      "translate": "Vazgeçilmez, zorunlu",
+      "quiz": "In modern society, the internet has become an .... tool for communication.",
+      "quizTranslate": "Modern toplumda internet, iletişim için vazgeçilmez bir araç haline geldi.",
+      "translateList": [
+        {
+          "label": "Indispensable",
+          "isCorrect": true
+        },
+        {
+          "label": "Unnecessary",
+          "isCorrect": false
+        },
+        {
+          "label": "Replaceable",
+          "isCorrect": false
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Prevalent",
+      "translate": "Yaygın, hakim",
+      "quiz": "Obesity is becoming increasingly .... in many developed countries.",
+      "quizTranslate": "Obezite, birçok gelişmiş ülkede giderek daha yaygın hale geliyor.",
+      "translateList": [
+        {
+          "label": "Prevalent",
+          "isCorrect": true
+        },
+        {
+          "label": "Rare",
+          "isCorrect": false
+        },
+        {
+          "label": "Uncommon",
+          "isCorrect": false
+        },
+        {
+          "label": "Isolated",
           "isCorrect": false
         }
       ]
