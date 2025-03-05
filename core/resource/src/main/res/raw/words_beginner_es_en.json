@@ -36965,6 +36965,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Undershirt",
+      "translate": "Camiseta",
+      "quiz": "He wore a white .... under his dress shirt to stay warm.",
+      "quizTranslate": "Llevaba una camiseta blanca debajo de su camisa de vestir para mantenerse caliente.",
+      "translateList": [
+        {
+          "label": "Undershirt",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

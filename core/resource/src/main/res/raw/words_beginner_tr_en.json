@@ -36938,6 +36938,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Undershirt",
+      "translate": "Atlet, fanila",
+      "quiz": "He wore a white .... under his dress shirt to stay warm.",
+      "quizTranslate": "Sıcak kalmak için gömleğinin altına beyaz bir atlet giydi.",
+      "translateList": [
+        {
+          "label": "Undershirt",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

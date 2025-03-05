@@ -36915,6 +36915,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Undershirt",
+      "translate": "Canottiera",
+      "quiz": "He wore a white .... under his dress shirt to stay warm.",
+      "quizTranslate": "Ha indossato una canottiera bianca sotto la camicia per rimanere al caldo.",
+      "translateList": [
+        {
+          "label": "Undershirt",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
