@@ -34440,6 +34440,270 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Altruistic",
+      "translate": "Fedakar, özverili",
+      "quiz": "His .... actions showed that he truly cared about others more than himself.",
+      "quizTranslate": "Onun fedakar eylemleri, başkalarını kendisinden daha çok önemsediğini gösterdi.",
+      "translateList": [
+        {
+          "label": "Altruistic",
+          "isCorrect": true
+        },
+        {
+          "label": "Selfish",
+          "isCorrect": false
+        },
+        {
+          "label": "Indifferent",
+          "isCorrect": false
+        },
+        {
+          "label": "Egotistical",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Anecdotal",
+      "translate": "Kişisel deneyimlere dayalı",
+      "quiz": "The evidence was purely .... and lacked scientific support.",
+      "quizTranslate": "Kanıt tamamen kişisel deneyimlere dayalıydı ve bilimsel bir desteği yoktu.",
+      "translateList": [
+        {
+          "label": "Anecdotal",
+          "isCorrect": true
+        },
+        {
+          "label": "Empirical",
+          "isCorrect": false
+        },
+        {
+          "label": "Statistical",
+          "isCorrect": false
+        },
+        {
+          "label": "Factual",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Camaraderie",
+      "translate": "Yoldaşlık, dostluk",
+      "quiz": "The strong sense of .... among the team members contributed to their success.",
+      "quizTranslate": "Takım üyeleri arasındaki güçlü dostluk duygusu, başarılarına katkı sağladı.",
+      "translateList": [
+        {
+          "label": "Camaraderie",
+          "isCorrect": true
+        },
+        {
+          "label": "Hostility",
+          "isCorrect": false
+        },
+        {
+          "label": "Apathy",
+          "isCorrect": false
+        },
+        {
+          "label": "Rivalry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Convoluted",
+      "translate": "Karmaşık, anlaşılması zor",
+      "quiz": "The plot of the novel was so .... that many readers found it difficult to follow.",
+      "quizTranslate": "Romanın kurgusu o kadar karmaşıktı ki birçok okuyucu takip etmekte zorlandı.",
+      "translateList": [
+        {
+          "label": "Convoluted",
+          "isCorrect": true
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Straightforward",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Deprivation",
+      "translate": "Yoksunluk, mahrumiyet",
+      "quiz": "Long-term sleep .... can have serious effects on mental and physical health.",
+      "quizTranslate": "Uzun süreli uyku yoksunluğu, zihinsel ve fiziksel sağlık üzerinde ciddi etkilere sahip olabilir.",
+      "translateList": [
+        {
+          "label": "Deprivation",
+          "isCorrect": true
+        },
+        {
+          "label": "Abundance",
+          "isCorrect": false
+        },
+        {
+          "label": "Wealth",
+          "isCorrect": false
+        },
+        {
+          "label": "Excess",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Elucidate",
+      "translate": "Açıklamak, aydınlatmak",
+      "quiz": "The professor tried to .... the complex theory in simple terms.",
+      "quizTranslate": "Profesör, karmaşık teoriyi basit terimlerle açıklamaya çalıştı.",
+      "translateList": [
+        {
+          "label": "Elucidate",
+          "isCorrect": true
+        },
+        {
+          "label": "Confuse",
+          "isCorrect": false
+        },
+        {
+          "label": "Complicate",
+          "isCorrect": false
+        },
+        {
+          "label": "Obscure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Flamboyant",
+      "translate": "Gösterişli, dikkat çekici",
+      "quiz": "His .... style and colorful outfits made him stand out in every crowd.",
+      "quizTranslate": "Gösterişli tarzı ve renkli kıyafetleri onu her kalabalıkta öne çıkardı.",
+      "translateList": [
+        {
+          "label": "Flamboyant",
+          "isCorrect": true
+        },
+        {
+          "label": "Modest",
+          "isCorrect": false
+        },
+        {
+          "label": "Plain",
+          "isCorrect": false
+        },
+        {
+          "label": "Subtle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Impeccable",
+      "translate": "Kusursuz, mükemmel",
+      "quiz": "Her manners were ...., impressing everyone at the event.",
+      "quizTranslate": "Onun görgü kuralları kusursuzdu ve etkinlikteki herkesi etkiledi.",
+      "translateList": [
+        {
+          "label": "Impeccable",
+          "isCorrect": true
+        },
+        {
+          "label": "Flawed",
+          "isCorrect": false
+        },
+        {
+          "label": "Mediocre",
+          "isCorrect": false
+        },
+        {
+          "label": "Inferior",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Indignation",
+      "translate": "Öfke, içerleme",
+      "quiz": "The unfair treatment of the workers sparked widespread .... among the employees.",
+      "quizTranslate": "İşçilerin adaletsiz muamelesi, çalışanlar arasında yaygın bir öfkeye yol açtı.",
+      "translateList": [
+        {
+          "label": "Indignation",
+          "isCorrect": true
+        },
+        {
+          "label": "Approval",
+          "isCorrect": false
+        },
+        {
+          "label": "Satisfaction",
+          "isCorrect": false
+        },
+        {
+          "label": "Indifference",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Meticulous",
+      "translate": "Titiz, özenli",
+      "quiz": "She was extremely .... in her research, ensuring every detail was accurate.",
+      "quizTranslate": "O, araştırmasında son derece titizdi ve her ayrıntının doğru olmasını sağladı.",
+      "translateList": [
+        {
+          "label": "Meticulous",
+          "isCorrect": true
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        },
+        {
+          "label": "Sloppy",
+          "isCorrect": false
+        },
+        {
+          "label": "Hasty",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Perseverance",
+      "translate": "Azim, sebat",
+      "quiz": "His .... and dedication led him to finally achieve his dream.",
+      "quizTranslate": "Onun azmi ve adanmışlığı, sonunda hayalini gerçekleştirmesine yol açtı.",
+      "translateList": [
+        {
+          "label": "Perseverance",
+          "isCorrect": true
+        },
+        {
+          "label": "Laziness",
+          "isCorrect": false
+        },
+        {
+          "label": "Weakness",
+          "isCorrect": false
+        },
+        {
+          "label": "Inconsistency",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

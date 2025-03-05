@@ -75,6 +75,14 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                 viewModel.setBeginnerWord(beginner?.wordList)
                 viewModel.setIntermediate(intermediate?.wordList)
                 viewModel.setAdvanced(advanced?.wordList)
+            } else if (state.nativeLanguageCode == "it" && state.learnLanguageCode == "en") {
+                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_it_en)
+                val intermediate =
+                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_it_en)
+                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_it_en)
+                viewModel.setBeginnerWord(beginner?.wordList)
+                viewModel.setIntermediate(intermediate?.wordList)
+                viewModel.setAdvanced(advanced?.wordList)
             }
             viewModel.getBookData()
         }
