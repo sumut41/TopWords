@@ -37324,6 +37324,656 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Garlic",
+      "translate": "Aglio",
+      "quiz": "She added some chopped .... to the sauce for extra flavor.",
+      "quizTranslate": "Ha aggiunto dell'aglio tritato alla salsa per un sapore extra.",
+      "translateList": [
+        {
+          "label": "Garlic",
+          "isCorrect": true
+        },
+        {
+          "label": "Onion",
+          "isCorrect": false
+        },
+        {
+          "label": "Ginger",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cucumber",
+      "translate": "Cetriolo",
+      "quiz": "I love adding fresh .... slices to my salad.",
+      "quizTranslate": "Adoro aggiungere fette di cetriolo fresco alla mia insalata.",
+      "translateList": [
+        {
+          "label": "Cucumber",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lettuce",
+      "translate": "Lattuga",
+      "quiz": "She put some crispy .... in her sandwich.",
+      "quizTranslate": "Ha messo un po' di lattuga croccante nel suo panino.",
+      "translateList": [
+        {
+          "label": "Lettuce",
+          "isCorrect": true
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cabbage",
+      "translate": "Cavolo",
+      "quiz": "Fermented .... is a key ingredient in kimchi.",
+      "quizTranslate": "Il cavolo fermentato è un ingrediente chiave del kimchi.",
+      "translateList": [
+        {
+          "label": "Cabbage",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Kale",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Corn",
+      "translate": "Mais",
+      "quiz": "Roasted .... with butter is my favorite snack.",
+      "quizTranslate": "Il mais arrosto con burro è il mio spuntino preferito.",
+      "translateList": [
+        {
+          "label": "Corn",
+          "isCorrect": true
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Peas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Peas",
+      "translate": "Piselli",
+      "quiz": "He added some green .... to the soup.",
+      "quizTranslate": "Ha aggiunto alcuni piselli verdi alla zuppa.",
+      "translateList": [
+        {
+          "label": "Peas",
+          "isCorrect": true
+        },
+        {
+          "label": "Corn",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentils",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bean",
+      "translate": "Fagiolo",
+      "quiz": "Black .... are commonly used in Mexican cuisine.",
+      "quizTranslate": "I fagioli neri sono comunemente usati nella cucina messicana.",
+      "translateList": [
+        {
+          "label": "Bean",
+          "isCorrect": true
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Chickpea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spinach",
+      "translate": "Spinaci",
+      "quiz": "Popeye loves eating .... for strength.",
+      "quizTranslate": "Braccio di Ferro ama mangiare spinaci per la forza.",
+      "translateList": [
+        {
+          "label": "Spinach",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mushroom",
+      "translate": "Fungo",
+      "quiz": "She added fresh .... to the pasta sauce.",
+      "quizTranslate": "Ha aggiunto funghi freschi alla salsa per la pasta.",
+      "translateList": [
+        {
+          "label": "Mushroom",
+          "isCorrect": true
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Eggplant",
+          "isCorrect": false
+        },
+        {
+          "label": "Radish",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pumpkin",
+      "translate": "Zucca",
+      "quiz": "She made a delicious .... pie for Thanksgiving.",
+      "quizTranslate": "Ha preparato una deliziosa torta di zucca per il Giorno del Ringraziamento.",
+      "translateList": [
+        {
+          "label": "Pumpkin",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Corn",
+          "isCorrect": false
+        },
+        {
+          "label": "Beetroot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Radish",
+      "translate": "Ravanello",
+      "quiz": "She sliced a .... to add some crunch to the salad.",
+      "quizTranslate": "Ha affettato un ravanello per aggiungere croccantezza all'insalata.",
+      "translateList": [
+        {
+          "label": "Radish",
+          "isCorrect": true
+        },
+        {
+          "label": "Cucumber",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Broccoli",
+      "translate": "Broccolo",
+      "quiz": "Eating steamed .... is very healthy.",
+      "quizTranslate": "Mangiare il broccolo al vapore è molto salutare.",
+      "translateList": [
+        {
+          "label": "Broccoli",
+          "isCorrect": true
+        },
+        {
+          "label": "Cauliflower",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cauliflower",
+      "translate": "Cavolfiore",
+      "quiz": "She made a delicious .... soup for dinner.",
+      "quizTranslate": "Ha preparato una deliziosa zuppa di cavolfiore per cena.",
+      "translateList": [
+        {
+          "label": "Cauliflower",
+          "isCorrect": true
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Celery",
+      "translate": "Sedano",
+      "quiz": "He added some chopped .... to the salad.",
+      "quizTranslate": "Ha aggiunto un po' di sedano tritato all'insalata.",
+      "translateList": [
+        {
+          "label": "Celery",
+          "isCorrect": true
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eggplant",
+      "translate": "Melanzana",
+      "quiz": "Grilled .... is a popular dish in Mediterranean cuisine.",
+      "quizTranslate": "La melanzana grigliata è un piatto popolare nella cucina mediterranea.",
+      "translateList": [
+        {
+          "label": "Eggplant",
+          "isCorrect": true
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Beetroot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Zucchini",
+      "translate": "Zucchina",
+      "quiz": "She made a delicious .... bread for breakfast.",
+      "quizTranslate": "Ha preparato un delizioso pane di zucchina per colazione.",
+      "translateList": [
+        {
+          "label": "Zucchini",
+          "isCorrect": true
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Eggplant",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beetroot",
+      "translate": "Barbabietola",
+      "quiz": "Drinking fresh .... juice is great for your health.",
+      "quizTranslate": "Bere il succo fresco di barbabietola fa benissimo alla salute.",
+      "translateList": [
+        {
+          "label": "Beetroot",
+          "isCorrect": true
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Radish",
+          "isCorrect": false
+        },
+        {
+          "label": "Cucumber",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "Parsley",
+      "translate": "Prezzemolo",
+      "quiz": "She sprinkled some fresh .... on top of the soup.",
+      "quizTranslate": "Ha cosparso un po' di prezzemolo fresco sopra la zuppa.",
+      "translateList": [
+        {
+          "label": "Parsley",
+          "isCorrect": true
+        },
+        {
+          "label": "Dill",
+          "isCorrect": false
+        },
+        {
+          "label": "Cilantro",
+          "isCorrect": false
+        },
+        {
+          "label": "Basil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Scallion",
+      "translate": "Cipollotto",
+      "quiz": "He chopped some .... to add to the omelette.",
+      "quizTranslate": "Ha tritato un po' di cipollotto da aggiungere alla frittata.",
+      "translateList": [
+        {
+          "label": "Scallion",
+          "isCorrect": true
+        },
+        {
+          "label": "Leek",
+          "isCorrect": false
+        },
+        {
+          "label": "Onion",
+          "isCorrect": false
+        },
+        {
+          "label": "Garlic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Leek",
+      "translate": "Porro",
+      "quiz": "She made a delicious .... and potato soup.",
+      "quizTranslate": "Ha fatto una deliziosa zuppa di porri e patate.",
+      "translateList": [
+        {
+          "label": "Leek",
+          "isCorrect": true
+        },
+        {
+          "label": "Scallion",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dill",
+      "translate": "Aneto",
+      "quiz": "Fresh .... gives a wonderful aroma to fish dishes.",
+      "quizTranslate": "L'aneto fresco dona un aroma meraviglioso ai piatti di pesce.",
+      "translateList": [
+        {
+          "label": "Dill",
+          "isCorrect": true
+        },
+        {
+          "label": "Parsley",
+          "isCorrect": false
+        },
+        {
+          "label": "Thyme",
+          "isCorrect": false
+        },
+        {
+          "label": "Basil",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "Lentil",
+      "translate": "Lenticchia",
+      "quiz": "She made a delicious .... soup with spices and vegetables.",
+      "quizTranslate": "Ha preparato una deliziosa zuppa di lenticchie con spezie e verdure.",
+      "translateList": [
+        {
+          "label": "Lentil",
+          "isCorrect": true
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chickpeas",
+      "translate": "Ceci",
+      "quiz": "Hummus is made from mashed .... and tahini.",
+      "quizTranslate": "L'hummus è fatto con ceci schiacciati e tahini.",
+      "translateList": [
+        {
+          "label": "Chickpeas",
+          "isCorrect": true
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beans",
+      "translate": "Fagioli",
+      "quiz": "She cooked a pot of .... with tomatoes and onions.",
+      "quizTranslate": "Ha cucinato una pentola di fagioli con pomodori e cipolle.",
+      "translateList": [
+        {
+          "label": "Beans",
+          "isCorrect": true
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pea",
+      "translate": "Pisello",
+      "quiz": "He added fresh .... to the vegetable stew.",
+      "quizTranslate": "Ha aggiunto piselli freschi allo stufato di verdure.",
+      "translateList": [
+        {
+          "label": "Pea",
+          "isCorrect": true
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sesame",
+      "translate": "Sesamo",
+      "quiz": "He sprinkled some .... seeds on top of the bread before baking.",
+      "quizTranslate": "Ha cosparso alcuni semi di sesamo sopra il pane prima di infornarlo.",
+      "translateList": [
+        {
+          "label": "Sesame",
+          "isCorrect": true
+        },
+        {
+          "label": "Sunflower",
+          "isCorrect": false
+        },
+        {
+          "label": "Chia",
+          "isCorrect": false
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kiwi",
+      "translate": "Kiwi",
+      "quiz": "She peeled a fresh .... and sliced it for the fruit salad.",
+      "quizTranslate": "Ha sbucciato un kiwi fresco e lo ha affettato per l'insalata di frutta.",
+      "translateList": [
+        {
+          "label": "Kiwi",
+          "isCorrect": true
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Avocado",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

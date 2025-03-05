@@ -35065,6 +35065,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Fennel",
+      "translate": "Rezene",
+      "quiz": "She added some chopped .... to the salad for a fresh flavor.",
+      "quizTranslate": "Taze bir tat katmak için salataya doğranmış biraz rezene ekledi.",
+      "translateList": [
+        {
+          "label": "Fennel",
+          "isCorrect": true
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Coriander",
+          "isCorrect": false
+        },
+        {
+          "label": "Parsley",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

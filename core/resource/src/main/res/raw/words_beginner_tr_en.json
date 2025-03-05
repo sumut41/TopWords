@@ -37346,6 +37346,654 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Garlic",
+      "translate": "Sarımsak",
+      "quiz": "She added some chopped .... to the sauce for extra flavor.",
+      "quizTranslate": "Ekstra lezzet katmak için sosun içine doğranmış sarımsak ekledi.",
+      "translateList": [
+        {
+          "label": "Garlic",
+          "isCorrect": true
+        },
+        {
+          "label": "Onion",
+          "isCorrect": false
+        },
+        {
+          "label": "Ginger",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cucumber",
+      "translate": "Salatalık",
+      "quiz": "I love adding fresh .... slices to my salad.",
+      "quizTranslate": "Salatama taze salatalık dilimleri eklemeyi seviyorum.",
+      "translateList": [
+        {
+          "label": "Cucumber",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lettuce",
+      "translate": "Marul",
+      "quiz": "She put some crispy .... in her sandwich.",
+      "quizTranslate": "Sandviçine biraz çıtır marul koydu.",
+      "translateList": [
+        {
+          "label": "Lettuce",
+          "isCorrect": true
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cabbage",
+      "translate": "Lahana",
+      "quiz": "Fermented .... is a key ingredient in kimchi.",
+      "quizTranslate": "Fermente lahana, kimchi’nin ana malzemesidir.",
+      "translateList": [
+        {
+          "label": "Cabbage",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Kale",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Corn",
+      "translate": "Mısır",
+      "quiz": "Roasted .... with butter is my favorite snack.",
+      "quizTranslate": "Tereyağlı közlenmiş mısır en sevdiğim atıştırmalıktır.",
+      "translateList": [
+        {
+          "label": "Corn",
+          "isCorrect": true
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Peas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Peas",
+      "translate": "Bezelye",
+      "quiz": "He added some green .... to the soup.",
+      "quizTranslate": "Çorbaya biraz yeşil bezelye ekledi.",
+      "translateList": [
+        {
+          "label": "Peas",
+          "isCorrect": true
+        },
+        {
+          "label": "Corn",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentils",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bean",
+      "translate": "Fasulye",
+      "quiz": "Black .... are commonly used in Mexican cuisine.",
+      "quizTranslate": "Siyah fasulye, Meksika mutfağında yaygın olarak kullanılır.",
+      "translateList": [
+        {
+          "label": "Bean",
+          "isCorrect": true
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Chickpea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spinach",
+      "translate": "Ispanak",
+      "quiz": "Popeye loves eating .... for strength.",
+      "quizTranslate": "Temel Reis güç kazanmak için ıspanak yemeyi sever.",
+      "translateList": [
+        {
+          "label": "Spinach",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mushroom",
+      "translate": "Mantar",
+      "quiz": "She added fresh .... to the pasta sauce.",
+      "quizTranslate": "Makarna sosuna taze mantar ekledi.",
+      "translateList": [
+        {
+          "label": "Mushroom",
+          "isCorrect": true
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Eggplant",
+          "isCorrect": false
+        },
+        {
+          "label": "Radish",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pumpkin",
+      "translate": "Balkabağı",
+      "quiz": "She made a delicious .... pie for Thanksgiving.",
+      "quizTranslate": "Şükran Günü için lezzetli bir balkabağı turtası yaptı.",
+      "translateList": [
+        {
+          "label": "Pumpkin",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Corn",
+          "isCorrect": false
+        },
+        {
+          "label": "Beetroot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Radish",
+      "translate": "Turp",
+      "quiz": "She sliced a .... to add some crunch to the salad.",
+      "quizTranslate": "Salataya biraz çıtırlık katmak için turp dilimledi.",
+      "translateList": [
+        {
+          "label": "Radish",
+          "isCorrect": true
+        },
+        {
+          "label": "Cucumber",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Broccoli",
+      "translate": "Brokoli",
+      "quiz": "Eating steamed .... is very healthy.",
+      "quizTranslate": "Buharda pişirilmiş brokoli yemek çok sağlıklıdır.",
+      "translateList": [
+        {
+          "label": "Broccoli",
+          "isCorrect": true
+        },
+        {
+          "label": "Cauliflower",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cauliflower",
+      "translate": "Karnabahar",
+      "quiz": "She made a delicious .... soup for dinner.",
+      "quizTranslate": "Akşam yemeği için lezzetli bir karnabahar çorbası yaptı.",
+      "translateList": [
+        {
+          "label": "Cauliflower",
+          "isCorrect": true
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Celery",
+      "translate": "Kereviz",
+      "quiz": "He added some chopped .... to the salad.",
+      "quizTranslate": "Salataya doğranmış biraz kereviz ekledi.",
+      "translateList": [
+        {
+          "label": "Celery",
+          "isCorrect": true
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eggplant",
+      "translate": "Patlıcan",
+      "quiz": "Grilled .... is a popular dish in Mediterranean cuisine.",
+      "quizTranslate": "Izgara patlıcan, Akdeniz mutfağında popüler bir yemektir.",
+      "translateList": [
+        {
+          "label": "Eggplant",
+          "isCorrect": true
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Beetroot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Zucchini",
+      "translate": "Kabak",
+      "quiz": "She made a delicious .... bread for breakfast.",
+      "quizTranslate": "Kahvaltı için lezzetli bir kabak ekmeği yaptı.",
+      "translateList": [
+        {
+          "label": "Zucchini",
+          "isCorrect": true
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Eggplant",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beetroot",
+      "translate": "Pancar",
+      "quiz": "Drinking fresh .... juice is great for your health.",
+      "quizTranslate": "Taze pancar suyu içmek sağlığınız için harikadır.",
+      "translateList": [
+        {
+          "label": "Beetroot",
+          "isCorrect": true
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Radish",
+          "isCorrect": false
+        },
+        {
+          "label": "Cucumber",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Parsley",
+      "translate": "Maydanoz",
+      "quiz": "She sprinkled some fresh .... on top of the soup.",
+      "quizTranslate": "Çorbanın üzerine biraz taze maydanoz serpti.",
+      "translateList": [
+        {
+          "label": "Parsley",
+          "isCorrect": true
+        },
+        {
+          "label": "Dill",
+          "isCorrect": false
+        },
+        {
+          "label": "Cilantro",
+          "isCorrect": false
+        },
+        {
+          "label": "Basil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Scallion",
+      "translate": "Taze soğan",
+      "quiz": "He chopped some .... to add to the omelette.",
+      "quizTranslate": "Omlete eklemek için biraz taze soğan doğradı.",
+      "translateList": [
+        {
+          "label": "Scallion",
+          "isCorrect": true
+        },
+        {
+          "label": "Leek",
+          "isCorrect": false
+        },
+        {
+          "label": "Onion",
+          "isCorrect": false
+        },
+        {
+          "label": "Garlic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Leek",
+      "translate": "Pırasa",
+      "quiz": "She made a delicious .... and potato soup.",
+      "quizTranslate": "Lezzetli bir pırasa ve patates çorbası yaptı.",
+      "translateList": [
+        {
+          "label": "Leek",
+          "isCorrect": true
+        },
+        {
+          "label": "Scallion",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dill",
+      "translate": "Dereotu",
+      "quiz": "Fresh .... gives a wonderful aroma to fish dishes.",
+      "quizTranslate": "Taze dereotu, balık yemeklerine harika bir aroma verir.",
+      "translateList": [
+        {
+          "label": "Dill",
+          "isCorrect": true
+        },
+        {
+          "label": "Parsley",
+          "isCorrect": false
+        },
+        {
+          "label": "Thyme",
+          "isCorrect": false
+        },
+        {
+          "label": "Basil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lentil",
+      "translate": "Mercimek",
+      "quiz": "She made a delicious .... soup with spices and vegetables.",
+      "quizTranslate": "Baharatlar ve sebzelerle lezzetli bir mercimek çorbası yaptı.",
+      "translateList": [
+        {
+          "label": "Lentil",
+          "isCorrect": true
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chickpeas",
+      "translate": "Nohut",
+      "quiz": "Hummus is made from mashed .... and tahini.",
+      "quizTranslate": "Humus, ezilmiş nohut ve tahinden yapılır.",
+      "translateList": [
+        {
+          "label": "Chickpeas",
+          "isCorrect": true
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beans",
+      "translate": "Fasulye",
+      "quiz": "She cooked a pot of .... with tomatoes and onions.",
+      "quizTranslate": "Domates ve soğanla bir tencere fasulye pişirdi.",
+      "translateList": [
+        {
+          "label": "Beans",
+          "isCorrect": true
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pea",
+      "translate": "Bezelye",
+      "quiz": "He added fresh .... to the vegetable stew.",
+      "quizTranslate": "Sebze yemeğine taze bezelye ekledi.",
+      "translateList": [
+        {
+          "label": "Pea",
+          "isCorrect": true
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sesame",
+      "translate": "Susam",
+      "quiz": "He sprinkled some .... seeds on top of the bread before baking.",
+      "quizTranslate": "Fırına vermeden önce ekmeğin üzerine biraz susam serpti.",
+      "translateList": [
+        {
+          "label": "Sesame",
+          "isCorrect": true
+        },
+        {
+          "label": "Sunflower",
+          "isCorrect": false
+        },
+        {
+          "label": "Chia",
+          "isCorrect": false
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kiwi",
+      "translate": "Kivi",
+      "quiz": "She peeled a fresh .... and sliced it for the fruit salad.",
+      "quizTranslate": "Taze bir kivi soydu ve meyve salatası için dilimledi.",
+      "translateList": [
+        {
+          "label": "Kiwi",
+          "isCorrect": true
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Avocado",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
