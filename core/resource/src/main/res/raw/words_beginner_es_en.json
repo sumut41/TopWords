@@ -36989,6 +36989,390 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Grapes",
+      "translate": "Uva",
+      "quiz": "She bought a bunch of fresh .... from the market.",
+      "quizTranslate": "Compró un racimo de uvas frescas en el mercado.",
+      "translateList": [
+        {
+          "label": "Grapes",
+          "isCorrect": true
+        },
+        {
+          "label": "Cherries",
+          "isCorrect": false
+        },
+        {
+          "label": "Blueberries",
+          "isCorrect": false
+        },
+        {
+          "label": "Plums",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Strawberry",
+      "translate": "Fresa",
+      "quiz": "Would you like some .... with cream?",
+      "quizTranslate": "¿Te gustaría algunas fresas con crema?",
+      "translateList": [
+        {
+          "label": "Strawberry",
+          "isCorrect": true
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        },
+        {
+          "label": "Raspberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Apricot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cherry",
+      "translate": "Cereza",
+      "quiz": "He picked a .... from the tree and ate it.",
+      "quizTranslate": "Cogió una cereza del árbol y se la comió.",
+      "translateList": [
+        {
+          "label": "Cherry",
+          "isCorrect": true
+        },
+        {
+          "label": "Fig",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        },
+        {
+          "label": "Pomegranate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Watermelon",
+      "translate": "Sandía",
+      "quiz": "Eating .... is very refreshing in the summer.",
+      "quizTranslate": "Comer sandía es muy refrescante en verano.",
+      "translateList": [
+        {
+          "label": "Watermelon",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pear",
+      "translate": "Pera",
+      "quiz": "She prefers .... over apples because they are juicier.",
+      "quizTranslate": "Prefiere la pera a la manzana porque es más jugosa.",
+      "translateList": [
+        {
+          "label": "Pear",
+          "isCorrect": true
+        },
+        {
+          "label": "Fig",
+          "isCorrect": false
+        },
+        {
+          "label": "Apricot",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Peach",
+      "translate": "Durazno",
+      "quiz": "The .... was so ripe that its juice dripped down my hands.",
+      "quizTranslate": "El durazno estaba tan maduro que su jugo goteaba por mis manos.",
+      "translateList": [
+        {
+          "label": "Peach",
+          "isCorrect": true
+        },
+        {
+          "label": "Pineapple",
+          "isCorrect": false
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pineapple",
+      "translate": "Piña",
+      "quiz": "I love the tropical taste of fresh .... juice.",
+      "quizTranslate": "Me encanta el sabor tropical del jugo de piña fresca.",
+      "translateList": [
+        {
+          "label": "Pineapple",
+          "isCorrect": true
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Fig",
+          "isCorrect": false
+        },
+        {
+          "label": "Strawberry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mango",
+      "translate": "Mango",
+      "quiz": "She made a delicious smoothie with ripe .... and yogurt.",
+      "quizTranslate": "Hizo un delicioso batido con mango maduro y yogur.",
+      "translateList": [
+        {
+          "label": "Mango",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Pineapple",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Plum",
+      "translate": "Ciruela",
+      "quiz": "The .... tree in our garden produces the sweetest fruit.",
+      "quizTranslate": "El árbol de ciruela en nuestro jardín produce las frutas más dulces.",
+      "translateList": [
+        {
+          "label": "Plum",
+          "isCorrect": true
+        },
+        {
+          "label": "Cherry",
+          "isCorrect": false
+        },
+        {
+          "label": "Pear",
+          "isCorrect": false
+        },
+        {
+          "label": "Pomegranate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Apricot",
+      "translate": "Albaricoque",
+      "quiz": "Dried .... are a popular snack in Turkey.",
+      "quizTranslate": "Los albaricoques secos son un bocadillo popular en Turquía.",
+      "translateList": [
+        {
+          "label": "Apricot",
+          "isCorrect": true
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        },
+        {
+          "label": "Cherry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pomegranate",
+      "translate": "Granada",
+      "quiz": "Breaking open a .... can be messy, but the seeds are delicious.",
+      "quizTranslate": "Abrir una granada puede ser desordenado, pero las semillas son deliciosas.",
+      "translateList": [
+        {
+          "label": "Pomegranate",
+          "isCorrect": true
+        },
+        {
+          "label": "Pear",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        },
+        {
+          "label": "Blueberry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Raspberry",
+      "translate": "Frambuesa",
+      "quiz": "She made a delicious pie with fresh .... and cream.",
+      "quizTranslate": "Hizo una tarta deliciosa con frambuesas frescas y crema.",
+      "translateList": [
+        {
+          "label": "Raspberry",
+          "isCorrect": true
+        },
+        {
+          "label": "Strawberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Blueberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Pomegranate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Blueberry",
+      "translate": "Arándano",
+      "quiz": "My favorite pancakes are the ones with .... inside.",
+      "quizTranslate": "Mis panqueques favoritos son los que tienen arándanos dentro.",
+      "translateList": [
+        {
+          "label": "Blueberry",
+          "isCorrect": true
+        },
+        {
+          "label": "Raspberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Blackberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Cranberry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coconut",
+      "translate": "Coco",
+      "quiz": "The tropical drink was served in a hollowed-out .... shell.",
+      "quizTranslate": "La bebida tropical se sirvió en una cáscara de coco vaciada.",
+      "translateList": [
+        {
+          "label": "Coconut",
+          "isCorrect": true
+        },
+        {
+          "label": "Pineapple",
+          "isCorrect": false
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Papaya",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fig",
+      "translate": "Higo",
+      "quiz": "Dried .... are commonly eaten as a healthy snack.",
+      "quizTranslate": "Los higos secos se consumen comúnmente como un bocadillo saludable.",
+      "translateList": [
+        {
+          "label": "Fig",
+          "isCorrect": true
+        },
+        {
+          "label": "Pear",
+          "isCorrect": false
+        },
+        {
+          "label": "Apricot",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mandarin",
+      "translate": "Mandarina",
+      "quiz": "I love peeling a juicy .... and eating it piece by piece.",
+      "quizTranslate": "Me encanta pelar una mandarina jugosa y comerla pedazo por pedazo.",
+      "translateList": [
+        {
+          "label": "Mandarin",
+          "isCorrect": true
+        },
+        {
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "label": "Lemon",
+          "isCorrect": false
+        },
+        {
+          "label": "Grapefruit",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
