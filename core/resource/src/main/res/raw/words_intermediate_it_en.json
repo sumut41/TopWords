@@ -37319,6 +37319,222 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Creative",
+      "translate": "Creativo",
+      "quiz": "She is very .... when it comes to designing new products.",
+      "quizTranslate": "È molto creativa quando si tratta di progettare nuovi prodotti.",
+      "translateList": [
+        {
+          "label": "Creative",
+          "isCorrect": true
+        },
+        {
+          "label": "Logical",
+          "isCorrect": false
+        },
+        {
+          "label": "Organized",
+          "isCorrect": false
+        },
+        {
+          "label": "Traditional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Component",
+      "translate": "Componente",
+      "quiz": "The computer has many different .... such as the motherboard and CPU.",
+      "quizTranslate": "Il computer ha molti componenti diversi come la scheda madre e la CPU.",
+      "translateList": [
+        {
+          "label": "Component",
+          "isCorrect": true
+        },
+        {
+          "label": "Device",
+          "isCorrect": false
+        },
+        {
+          "label": "Machine",
+          "isCorrect": false
+        },
+        {
+          "label": "Part",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Expertise",
+      "translate": "Competenza",
+      "quiz": "He has a lot of .... in software development.",
+      "quizTranslate": "Ha molta competenza nello sviluppo software.",
+      "translateList": [
+        {
+          "label": "Expertise",
+          "isCorrect": true
+        },
+        {
+          "label": "Experience",
+          "isCorrect": false
+        },
+        {
+          "label": "Knowledge",
+          "isCorrect": false
+        },
+        {
+          "label": "Skill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reliable",
+      "translate": "Affidabile",
+      "quiz": "She is a very .... person who always keeps her promises.",
+      "quizTranslate": "Lei è una persona molto affidabile che mantiene sempre le sue promesse.",
+      "translateList": [
+        {
+          "label": "Reliable",
+          "isCorrect": true
+        },
+        {
+          "label": "Lazy",
+          "isCorrect": false
+        },
+        {
+          "label": "Forgetful",
+          "isCorrect": false
+        },
+        {
+          "label": "Independent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Understandable",
+      "translate": "Comprensibile",
+      "quiz": "His explanation was very .... and easy to follow.",
+      "quizTranslate": "La sua spiegazione era molto comprensibile e facile da seguire.",
+      "translateList": [
+        {
+          "label": "Understandable",
+          "isCorrect": true
+        },
+        {
+          "label": "Confusing",
+          "isCorrect": false
+        },
+        {
+          "label": "Complex",
+          "isCorrect": false
+        },
+        {
+          "label": "Detailed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Accomplish",
+      "translate": "Completare",
+      "quiz": "She worked hard to .... all her goals for the year.",
+      "quizTranslate": "Ha lavorato duramente per completare tutti i suoi obiettivi per l'anno.",
+      "translateList": [
+        {
+          "label": "Accomplish",
+          "isCorrect": true
+        },
+        {
+          "label": "Forget",
+          "isCorrect": false
+        },
+        {
+          "label": "Fail",
+          "isCorrect": false
+        },
+        {
+          "label": "Avoid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Compatible",
+      "translate": "Compatibile",
+      "quiz": "The software is not .... with older versions of Windows.",
+      "quizTranslate": "Il software non è compatibile con le versioni più vecchie di Windows.",
+      "translateList": [
+        {
+          "label": "Compatible",
+          "isCorrect": true
+        },
+        {
+          "label": "Incompatible",
+          "isCorrect": false
+        },
+        {
+          "label": "Available",
+          "isCorrect": false
+        },
+        {
+          "label": "Up-to-date",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Incorporate",
+      "translate": "Incorporare",
+      "quiz": "The company plans to .... new technologies into their products.",
+      "quizTranslate": "L'azienda prevede di incorporare nuove tecnologie nei loro prodotti.",
+      "translateList": [
+        {
+          "label": "Incorporate",
+          "isCorrect": true
+        },
+        {
+          "label": "Exclude",
+          "isCorrect": false
+        },
+        {
+          "label": "Remove",
+          "isCorrect": false
+        },
+        {
+          "label": "Update",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Clarify",
+      "translate": "Chiarire",
+      "quiz": "Can you .... your point, please?",
+      "quizTranslate": "Puoi chiarire il tuo punto, per favore?",
+      "translateList": [
+        {
+          "label": "Clarify",
+          "isCorrect": true
+        },
+        {
+          "label": "Complicate",
+          "isCorrect": false
+        },
+        {
+          "label": "Confuse",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

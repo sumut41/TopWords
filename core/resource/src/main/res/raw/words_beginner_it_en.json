@@ -38238,6 +38238,798 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Turtle",
+      "translate": "Tartaruga",
+      "quiz": "The .... moved slowly across the sand towards the water.",
+      "quizTranslate": "La tartaruga si muoveva lentamente sulla sabbia verso l'acqua.",
+      "translateList": [
+        {
+          "label": "Turtle",
+          "isCorrect": true
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        },
+        {
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "label": "Snake",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chameleon",
+      "translate": "Camaleonte",
+      "quiz": "The .... changed its color to blend with the tree.",
+      "quizTranslate": "Il camaleonte cambiò colore per mimetizzarsi con l'albero.",
+      "translateList": [
+        {
+          "label": "Chameleon",
+          "isCorrect": true
+        },
+        {
+          "label": "Iguana",
+          "isCorrect": false
+        },
+        {
+          "label": "Turtle",
+          "isCorrect": false
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Rabbit",
+      "translate": "Coniglio",
+      "quiz": "The little .... hopped across the garden and disappeared into the bushes.",
+      "quizTranslate": "Il piccolo coniglio saltellò attraverso il giardino e scomparve tra i cespugli.",
+      "translateList": [
+        {
+          "label": "Rabbit",
+          "isCorrect": true
+        },
+        {
+          "label": "Squirrel",
+          "isCorrect": false
+        },
+        {
+          "label": "Guinea Pig",
+          "isCorrect": false
+        },
+        {
+          "label": "Hamster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Monkey",
+      "translate": "Scimmia",
+      "quiz": "The .... climbed the tree to grab a banana.",
+      "quizTranslate": "La scimmia si arrampicò sull'albero per prendere una banana.",
+      "translateList": [
+        {
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Parrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Squirrel",
+          "isCorrect": false
+        },
+        {
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Parrot",
+      "translate": "Pappagallo",
+      "quiz": "The .... repeated everything its owner said.",
+      "quizTranslate": "Il pappagallo ripeteva tutto ciò che diceva il suo padrone.",
+      "translateList": [
+        {
+          "label": "Parrot",
+          "isCorrect": true
+        },
+        {
+          "label": "Canary",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigeon",
+          "isCorrect": false
+        },
+        {
+          "label": "Hawk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Canary",
+      "translate": "Canarino",
+      "quiz": "Her .... sang beautifully in the morning.",
+      "quizTranslate": "Il suo canarino cantava magnificamente al mattino.",
+      "translateList": [
+        {
+          "label": "Canary",
+          "isCorrect": true
+        },
+        {
+          "label": "Parrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigeon",
+          "isCorrect": false
+        },
+        {
+          "label": "Sparrow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Squirrel",
+      "translate": "Scoiattolo",
+      "quiz": "The .... collected acorns and stored them for winter.",
+      "quizTranslate": "Lo scoiattolo raccolse ghiande e le conservò per l'inverno.",
+      "translateList": [
+        {
+          "label": "Squirrel",
+          "isCorrect": true
+        },
+        {
+          "label": "Rabbit",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouse",
+          "isCorrect": false
+        },
+        {
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Rooster",
+      "translate": "Gallo",
+      "quiz": "The .... crowed loudly at sunrise.",
+      "quizTranslate": "Il gallo cantò forte all'alba.",
+      "translateList": [
+        {
+          "label": "Rooster",
+          "isCorrect": true
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Turkey",
+      "translate": "Tacchino",
+      "quiz": "They roasted a large .... for Thanksgiving dinner.",
+      "quizTranslate": "Hanno arrostito un grande tacchino per la cena del Ringraziamento.",
+      "translateList": [
+        {
+          "label": "Turkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Rooster",
+          "isCorrect": false
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Goose",
+      "translate": "Oca",
+      "quiz": "A flock of .... flew over the lake in the evening.",
+      "quizTranslate": "Uno stormo di oche volò sopra il lago la sera.",
+      "translateList": [
+        {
+          "label": "Goose",
+          "isCorrect": true
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Rooster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Duck",
+      "translate": "Anatra",
+      "quiz": "The .... swam gracefully across the pond.",
+      "quizTranslate": "L'anatra nuotava con grazia nello stagno.",
+      "translateList": [
+        {
+          "label": "Duck",
+          "isCorrect": true
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bull",
+      "translate": "Toro",
+      "quiz": "The .... ran across the field.",
+      "quizTranslate": "Il toro ha corso attraverso il campo.",
+      "translateList": [
+        {
+          "label": "Bull",
+          "isCorrect": true
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Ram",
+          "isCorrect": false
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lamb",
+      "translate": "Agnello",
+      "quiz": "The .... is sleeping under the tree.",
+      "quizTranslate": "L'agnello sta dormendo sotto l'albero.",
+      "translateList": [
+        {
+          "label": "Lamb",
+          "isCorrect": true
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        },
+        {
+          "label": "Ram",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Goat",
+      "translate": "Capra",
+      "quiz": "The .... climbed the rocky hill easily.",
+      "quizTranslate": "La capra ha scalato facilmente la collina rocciosa.",
+      "translateList": [
+        {
+          "label": "Goat",
+          "isCorrect": true
+        },
+        {
+          "label": "Lamb",
+          "isCorrect": false
+        },
+        {
+          "label": "Camel",
+          "isCorrect": false
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ram",
+      "translate": "Ariete",
+      "quiz": "The .... has strong horns.",
+      "quizTranslate": "L'ariete ha corna forti.",
+      "translateList": [
+        {
+          "label": "Ram",
+          "isCorrect": true
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Donkey",
+      "translate": "Asino",
+      "quiz": "The .... carried the heavy bags up the hill.",
+      "quizTranslate": "L'asino ha trasportato le borse pesanti su per la collina.",
+      "translateList": [
+        {
+          "label": "Donkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Camel",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Camel",
+      "translate": "Cammello",
+      "quiz": "The .... walked slowly in the hot desert.",
+      "quizTranslate": "Il cammello camminava lentamente nel caldo deserto.",
+      "translateList": [
+        {
+          "label": "Camel",
+          "isCorrect": true
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pork",
+      "translate": "Carne di maiale",
+      "quiz": "They do not eat .... in their country.",
+      "quizTranslate": "Non mangiano carne di maiale nel loro paese.",
+      "translateList": [
+        {
+          "label": "Pork",
+          "isCorrect": true
+        },
+        {
+          "label": "Beef",
+          "isCorrect": false
+        },
+        {
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tiger",
+      "translate": "Tigre",
+      "quiz": "The .... is resting in the shade.",
+      "quizTranslate": "La tigre si sta riposando all'ombra.",
+      "translateList": [
+        {
+          "label": "Tiger",
+          "isCorrect": true
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        },
+        {
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bat",
+      "translate": "Pipistrello",
+      "quiz": "The .... flew out of the cave at night.",
+      "quizTranslate": "Il pipistrello è volato fuori dalla grotta di notte.",
+      "translateList": [
+        {
+          "label": "Bat",
+          "isCorrect": true
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Whale",
+      "translate": "Balena",
+      "quiz": "The .... jumped out of the water.",
+      "quizTranslate": "La balena è saltata fuori dall'acqua.",
+      "translateList": [
+        {
+          "label": "Whale",
+          "isCorrect": true
+        },
+        {
+          "label": "Dolphin",
+          "isCorrect": false
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dolphin",
+      "translate": "Delfino",
+      "quiz": "The .... swam close to the boat.",
+      "quizTranslate": "Il delfino nuotava vicino alla barca.",
+      "translateList": [
+        {
+          "label": "Dolphin",
+          "isCorrect": true
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Whale",
+          "isCorrect": false
+        },
+        {
+          "label": "Octopus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wolf",
+      "translate": "Lupo",
+      "quiz": "The .... howled in the forest.",
+      "quizTranslate": "Il lupo ululava nella foresta.",
+      "translateList": [
+        {
+          "label": "Wolf",
+          "isCorrect": true
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Fox",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shark",
+      "translate": "Squalo",
+      "quiz": "The .... swam near the shore.",
+      "quizTranslate": "Lo squalo nuotava vicino alla riva.",
+      "translateList": [
+        {
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "label": "Whale",
+          "isCorrect": false
+        },
+        {
+          "label": "Dolphin",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Owl",
+      "translate": "Civetta",
+      "quiz": "The .... makes a hooting sound at night.",
+      "quizTranslate": "La .... emette un suono di chioccia di notte.",
+      "translateList": [
+        {
+          "label": "Owl",
+          "isCorrect": true
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eagle",
+      "translate": "Aquila",
+      "quiz": "The .... flies high in the sky.",
+      "quizTranslate": "L'.... vola alto nel cielo.",
+      "translateList": [
+        {
+          "label": "Eagle",
+          "isCorrect": true
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Woodpecker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dove",
+      "translate": "Colomba",
+      "quiz": "The white .... is a symbol of peace.",
+      "quizTranslate": "La colomba bianca è un simbolo di pace.",
+      "translateList": [
+        {
+          "label": "Dove",
+          "isCorrect": true
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        },
+        {
+          "label": "Stork",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Seagull",
+      "translate": "Gabbiano",
+      "quiz": "The .... was flying above the sea.",
+      "quizTranslate": "Il gabbiano stava volando sopra il mare.",
+      "translateList": [
+        {
+          "label": "Seagull",
+          "isCorrect": true
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Woodpecker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crow",
+      "translate": "Corvo",
+      "quiz": "The .... sat on the tree and made a loud sound.",
+      "quizTranslate": "Il corvo si è seduto sull'albero e ha fatto un suono forte.",
+      "translateList": [
+        {
+          "label": "Crow",
+          "isCorrect": true
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Woodpecker",
+      "translate": "Picchio",
+      "quiz": "The .... was making a noise on the tree.",
+      "quizTranslate": "Il picchio stava facendo rumore sull'albero.",
+      "translateList": [
+        {
+          "label": "Woodpecker",
+          "isCorrect": true
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crocodile",
+      "translate": "Coccodrillo",
+      "quiz": "The .... was lying near the river.",
+      "quizTranslate": "Il coccodrillo era sdraiato vicino al fiume.",
+      "translateList": [
+        {
+          "label": "Crocodile",
+          "isCorrect": true
+        },
+        {
+          "label": "Stork",
+          "isCorrect": false
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stork",
+      "translate": "Cicogna",
+      "quiz": "The .... stood in the water looking for fish.",
+      "quizTranslate": "La cicogna stava in piedi nell'acqua cercando pesci.",
+      "translateList": [
+        {
+          "label": "Stork",
+          "isCorrect": true
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swan",
+      "translate": "Cigno",
+      "quiz": "The .... swam gracefully across the lake.",
+      "quizTranslate": "Il cigno ha nuotato con grazia attraverso il lago.",
+      "translateList": [
+        {
+          "label": "Swan",
+          "isCorrect": true
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

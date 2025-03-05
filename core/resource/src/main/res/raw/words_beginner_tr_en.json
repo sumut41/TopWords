@@ -38258,6 +38258,798 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Turtle",
+      "translate": "Kaplumbağa",
+      "quiz": "The .... moved slowly across the sand towards the water.",
+      "quizTranslate": "Kaplumbağa, suya doğru yavaşça kumun üzerinde ilerledi.",
+      "translateList": [
+        {
+          "label": "Turtle",
+          "isCorrect": true
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        },
+        {
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "label": "Snake",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chameleon",
+      "translate": "Bukalemun",
+      "quiz": "The .... changed its color to blend with the tree.",
+      "quizTranslate": "Bukalemun, ağaçla uyum sağlamak için rengini değiştirdi.",
+      "translateList": [
+        {
+          "label": "Chameleon",
+          "isCorrect": true
+        },
+        {
+          "label": "Iguana",
+          "isCorrect": false
+        },
+        {
+          "label": "Turtle",
+          "isCorrect": false
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Rabbit",
+      "translate": "Tavşan",
+      "quiz": "The little .... hopped across the garden and disappeared into the bushes.",
+      "quizTranslate": "Küçük tavşan bahçede zıplayarak çalıların arasına kayboldu.",
+      "translateList": [
+        {
+          "label": "Rabbit",
+          "isCorrect": true
+        },
+        {
+          "label": "Squirrel",
+          "isCorrect": false
+        },
+        {
+          "label": "Guinea Pig",
+          "isCorrect": false
+        },
+        {
+          "label": "Hamster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Monkey",
+      "translate": "Maymun",
+      "quiz": "The .... climbed the tree to grab a banana.",
+      "quizTranslate": "Maymun, bir muz almak için ağaca tırmandı.",
+      "translateList": [
+        {
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Parrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Squirrel",
+          "isCorrect": false
+        },
+        {
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Parrot",
+      "translate": "Papağan",
+      "quiz": "The .... repeated everything its owner said.",
+      "quizTranslate": "Papağan, sahibinin söylediği her şeyi tekrar etti.",
+      "translateList": [
+        {
+          "label": "Parrot",
+          "isCorrect": true
+        },
+        {
+          "label": "Canary",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigeon",
+          "isCorrect": false
+        },
+        {
+          "label": "Hawk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Canary",
+      "translate": "Kanarya",
+      "quiz": "Her .... sang beautifully in the morning.",
+      "quizTranslate": "Kanaryası sabahları güzel bir şekilde şarkı söyledi.",
+      "translateList": [
+        {
+          "label": "Canary",
+          "isCorrect": true
+        },
+        {
+          "label": "Parrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigeon",
+          "isCorrect": false
+        },
+        {
+          "label": "Sparrow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Squirrel",
+      "translate": "Sincap",
+      "quiz": "The .... collected acorns and stored them for winter.",
+      "quizTranslate": "Sincap, meşe palamutlarını toplayarak kış için sakladı.",
+      "translateList": [
+        {
+          "label": "Squirrel",
+          "isCorrect": true
+        },
+        {
+          "label": "Rabbit",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouse",
+          "isCorrect": false
+        },
+        {
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Rooster",
+      "translate": "Horoz",
+      "quiz": "The .... crowed loudly at sunrise.",
+      "quizTranslate": "Horoz, gün doğumunda yüksek sesle ötüştü.",
+      "translateList": [
+        {
+          "label": "Rooster",
+          "isCorrect": true
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Turkey",
+      "translate": "Hindi",
+      "quiz": "They roasted a large .... for Thanksgiving dinner.",
+      "quizTranslate": "Şükran Günü yemeği için büyük bir hindi kızarttılar.",
+      "translateList": [
+        {
+          "label": "Turkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Rooster",
+          "isCorrect": false
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Goose",
+      "translate": "Kaz",
+      "quiz": "A flock of .... flew over the lake in the evening.",
+      "quizTranslate": "Bir kaz sürüsü akşam gölün üzerinden uçtu.",
+      "translateList": [
+        {
+          "label": "Goose",
+          "isCorrect": true
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Rooster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Duck",
+      "translate": "Ördek",
+      "quiz": "The .... swam gracefully across the pond.",
+      "quizTranslate": "Ördek, gölette zarifçe yüzdü.",
+      "translateList": [
+        {
+          "label": "Duck",
+          "isCorrect": true
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bull",
+      "translate": "Boğa",
+      "quiz": "The .... ran across the field.",
+      "quizTranslate": "Boğa tarlanın üzerinden koştu.",
+      "translateList": [
+        {
+          "label": "Bull",
+          "isCorrect": true
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Ram",
+          "isCorrect": false
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lamb",
+      "translate": "Kuzu",
+      "quiz": "The .... is sleeping under the tree.",
+      "quizTranslate": "Kuzu ağacın altında uyuyor.",
+      "translateList": [
+        {
+          "label": "Lamb",
+          "isCorrect": true
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        },
+        {
+          "label": "Ram",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Goat",
+      "translate": "Keçi",
+      "quiz": "The .... climbed the rocky hill easily.",
+      "quizTranslate": "Keçi kayalık tepeye kolayca tırmandı.",
+      "translateList": [
+        {
+          "label": "Goat",
+          "isCorrect": true
+        },
+        {
+          "label": "Lamb",
+          "isCorrect": false
+        },
+        {
+          "label": "Camel",
+          "isCorrect": false
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ram",
+      "translate": "Koç",
+      "quiz": "The .... has strong horns.",
+      "quizTranslate": "Koçun güçlü boynuzları vardır.",
+      "translateList": [
+        {
+          "label": "Ram",
+          "isCorrect": true
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Donkey",
+      "translate": "Eşek",
+      "quiz": "The .... carried the heavy bags up the hill.",
+      "quizTranslate": "Eşek, ağır çantaları tepeye taşıdı.",
+      "translateList": [
+        {
+          "label": "Donkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Camel",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Camel",
+      "translate": "Deve",
+      "quiz": "The .... walked slowly in the hot desert.",
+      "quizTranslate": "Deve, sıcak çölde yavaşça yürüdü.",
+      "translateList": [
+        {
+          "label": "Camel",
+          "isCorrect": true
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pork",
+      "translate": "Domuz eti",
+      "quiz": "They do not eat .... in their country.",
+      "quizTranslate": "Onlar ülkelerinde domuz eti yemezler.",
+      "translateList": [
+        {
+          "label": "Pork",
+          "isCorrect": true
+        },
+        {
+          "label": "Beef",
+          "isCorrect": false
+        },
+        {
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tiger",
+      "translate": "Kaplan",
+      "quiz": "The .... is resting in the shade.",
+      "quizTranslate": "Kaplan gölgede dinleniyor.",
+      "translateList": [
+        {
+          "label": "Tiger",
+          "isCorrect": true
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        },
+        {
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bat",
+      "translate": "Yarasa",
+      "quiz": "The .... flew out of the cave at night.",
+      "quizTranslate": "Yarasa gece mağaradan dışarı uçtu.",
+      "translateList": [
+        {
+          "label": "Bat",
+          "isCorrect": true
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Whale",
+      "translate": "Balina",
+      "quiz": "The .... jumped out of the water.",
+      "quizTranslate": "Balina sudan dışarı zıpladı.",
+      "translateList": [
+        {
+          "label": "Whale",
+          "isCorrect": true
+        },
+        {
+          "label": "Dolphin",
+          "isCorrect": false
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dolphin",
+      "translate": "Yunus",
+      "quiz": "The .... swam close to the boat.",
+      "quizTranslate": "Yunus tekneye yakın yüzdü.",
+      "translateList": [
+        {
+          "label": "Dolphin",
+          "isCorrect": true
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Whale",
+          "isCorrect": false
+        },
+        {
+          "label": "Octopus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wolf",
+      "translate": "Kurt",
+      "quiz": "The .... howled in the forest.",
+      "quizTranslate": "Kurt ormanda uludu.",
+      "translateList": [
+        {
+          "label": "Wolf",
+          "isCorrect": true
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Fox",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shark",
+      "translate": "Köpekbalığı",
+      "quiz": "The .... swam near the shore.",
+      "quizTranslate": "Köpekbalığı kıyıya yakın yüzdü.",
+      "translateList": [
+        {
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "label": "Whale",
+          "isCorrect": false
+        },
+        {
+          "label": "Dolphin",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Owl",
+      "translate": "Baykuş",
+      "quiz": "The .... makes a hooting sound at night.",
+      "quizTranslate": "Baykuş gece vakti ötme sesi çıkarır.",
+      "translateList": [
+        {
+          "label": "Owl",
+          "isCorrect": true
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eagle",
+      "translate": "Kartal",
+      "quiz": "The .... flies high in the sky.",
+      "quizTranslate": "Kartal gökyüzünde yükseğe uçar.",
+      "translateList": [
+        {
+          "label": "Eagle",
+          "isCorrect": true
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Woodpecker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dove",
+      "translate": "Güvercin",
+      "quiz": "The white .... is a symbol of peace.",
+      "quizTranslate": "Beyaz güvercin barışın sembolüdür.",
+      "translateList": [
+        {
+          "label": "Dove",
+          "isCorrect": true
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        },
+        {
+          "label": "Stork",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Seagull",
+      "translate": "Martı",
+      "quiz": "The .... was flying above the sea.",
+      "quizTranslate": "Martı, denizin üzerinde uçuyordu.",
+      "translateList": [
+        {
+          "label": "Seagull",
+          "isCorrect": true
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Woodpecker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crow",
+      "translate": "Karga",
+      "quiz": "The .... sat on the tree and made a loud sound.",
+      "quizTranslate": "Karga ağacın üzerine kondu ve yüksek ses çıkardı.",
+      "translateList": [
+        {
+          "label": "Crow",
+          "isCorrect": true
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Woodpecker",
+      "translate": "Ağaçkakan",
+      "quiz": "The .... was making a noise on the tree.",
+      "quizTranslate": "Ağaçkakan, ağacın üzerinde ses çıkarıyordu.",
+      "translateList": [
+        {
+          "label": "Woodpecker",
+          "isCorrect": true
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crocodile",
+      "translate": "Timsah",
+      "quiz": "The .... was lying near the river.",
+      "quizTranslate": "Timsah nehrin yakınında yatıyordu.",
+      "translateList": [
+        {
+          "label": "Crocodile",
+          "isCorrect": true
+        },
+        {
+          "label": "Stork",
+          "isCorrect": false
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stork",
+      "translate": "Leylek",
+      "quiz": "The .... stood in the water looking for fish.",
+      "quizTranslate": "Leylek, suyun içinde durarak balık arıyordu.",
+      "translateList": [
+        {
+          "label": "Stork",
+          "isCorrect": true
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swan",
+      "translate": "Kuğu",
+      "quiz": "The .... swam gracefully across the lake.",
+      "quizTranslate": "Kuğu gölde zarifçe yüzdü.",
+      "translateList": [
+        {
+          "label": "Swan",
+          "isCorrect": true
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
