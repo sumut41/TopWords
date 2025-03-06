@@ -52,15 +52,34 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
 
             when(state.nativeLanguageCode) {
                 "tr" -> forceConfiguration("tr")
+                "es" -> forceConfiguration("es")
                 "de" -> forceConfiguration("de")
                 "az" -> forceConfiguration("az")
                 "it" -> forceConfiguration("it")
+                "fr" -> forceConfiguration("fr")
             }
 
             if (state.nativeLanguageCode == "tr" && state.learnLanguageCode == "en") {
                 val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_tr_en)
-                val intermediate = ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_tr_en)
+                val intermediate =
+                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_tr_en)
                 val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_tr_en)
+                viewModel.setBeginnerWord(beginner?.wordList)
+                viewModel.setIntermediate(intermediate?.wordList)
+                viewModel.setAdvanced(advanced?.wordList)
+            } else if (state.nativeLanguageCode == "es" && state.learnLanguageCode == "en") {
+                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_es_en)
+                val intermediate =
+                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_es_en)
+                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_es_en)
+                viewModel.setBeginnerWord(beginner?.wordList)
+                viewModel.setIntermediate(intermediate?.wordList)
+                viewModel.setAdvanced(advanced?.wordList)
+            } else if (state.nativeLanguageCode == "it" && state.learnLanguageCode == "en") {
+                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_it_en)
+                val intermediate =
+                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_it_en)
+                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_it_en)
                 viewModel.setBeginnerWord(beginner?.wordList)
                 viewModel.setIntermediate(intermediate?.wordList)
                 viewModel.setAdvanced(advanced?.wordList)
@@ -89,7 +108,8 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
 
         AppPrimaryTheme {
             Box(
-                modifier = Modifier.fillMaxSize()
+                modifier = Modifier
+                    .fillMaxSize()
                     .background(
                         color = LocalAppColor.current.background
                     ),
@@ -116,9 +136,9 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(
-                            vertical = AppDimension.default.dp8,
-                            horizontal = AppDimension.default.dp16
-                        ),
+                                vertical = AppDimension.default.dp8,
+                                horizontal = AppDimension.default.dp16
+                            ),
                         textAlign = TextAlign.Center,
                         style = AppTypography.default.bodyPrimary,
                         color = LocalAppColor.current.colorTextSubtler

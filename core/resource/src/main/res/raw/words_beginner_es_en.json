@@ -36941,6 +36941,2143 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Ribbon",
+      "translate": "Cinta",
+      "quiz": "She tied a red .... around the gift box to make it look more elegant.",
+      "quizTranslate": "Ató una cinta roja alrededor de la caja de regalo para que se viera más elegante.",
+      "translateList": [
+        {
+          "label": "Ribbon",
+          "isCorrect": true
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "String",
+          "isCorrect": false
+        },
+        {
+          "label": "Rope",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Undershirt",
+      "translate": "Camiseta",
+      "quiz": "He wore a white .... under his dress shirt to stay warm.",
+      "quizTranslate": "Llevaba una camiseta blanca debajo de su camisa de vestir para mantenerse caliente.",
+      "translateList": [
+        {
+          "label": "Undershirt",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Grapes",
+      "translate": "Uva",
+      "quiz": "She bought a bunch of fresh .... from the market.",
+      "quizTranslate": "Compró un racimo de uvas frescas en el mercado.",
+      "translateList": [
+        {
+          "label": "Grapes",
+          "isCorrect": true
+        },
+        {
+          "label": "Cherries",
+          "isCorrect": false
+        },
+        {
+          "label": "Blueberries",
+          "isCorrect": false
+        },
+        {
+          "label": "Plums",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Strawberry",
+      "translate": "Fresa",
+      "quiz": "Would you like some .... with cream?",
+      "quizTranslate": "¿Te gustaría algunas fresas con crema?",
+      "translateList": [
+        {
+          "label": "Strawberry",
+          "isCorrect": true
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        },
+        {
+          "label": "Raspberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Apricot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cherry",
+      "translate": "Cereza",
+      "quiz": "He picked a .... from the tree and ate it.",
+      "quizTranslate": "Cogió una cereza del árbol y se la comió.",
+      "translateList": [
+        {
+          "label": "Cherry",
+          "isCorrect": true
+        },
+        {
+          "label": "Fig",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        },
+        {
+          "label": "Pomegranate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Watermelon",
+      "translate": "Sandía",
+      "quiz": "Eating .... is very refreshing in the summer.",
+      "quizTranslate": "Comer sandía es muy refrescante en verano.",
+      "translateList": [
+        {
+          "label": "Watermelon",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pear",
+      "translate": "Pera",
+      "quiz": "She prefers .... over apples because they are juicier.",
+      "quizTranslate": "Prefiere la pera a la manzana porque es más jugosa.",
+      "translateList": [
+        {
+          "label": "Pear",
+          "isCorrect": true
+        },
+        {
+          "label": "Fig",
+          "isCorrect": false
+        },
+        {
+          "label": "Apricot",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Peach",
+      "translate": "Durazno",
+      "quiz": "The .... was so ripe that its juice dripped down my hands.",
+      "quizTranslate": "El durazno estaba tan maduro que su jugo goteaba por mis manos.",
+      "translateList": [
+        {
+          "label": "Peach",
+          "isCorrect": true
+        },
+        {
+          "label": "Pineapple",
+          "isCorrect": false
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pineapple",
+      "translate": "Piña",
+      "quiz": "I love the tropical taste of fresh .... juice.",
+      "quizTranslate": "Me encanta el sabor tropical del jugo de piña fresca.",
+      "translateList": [
+        {
+          "label": "Pineapple",
+          "isCorrect": true
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Fig",
+          "isCorrect": false
+        },
+        {
+          "label": "Strawberry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mango",
+      "translate": "Mango",
+      "quiz": "She made a delicious smoothie with ripe .... and yogurt.",
+      "quizTranslate": "Hizo un delicioso batido con mango maduro y yogur.",
+      "translateList": [
+        {
+          "label": "Mango",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Pineapple",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Plum",
+      "translate": "Ciruela",
+      "quiz": "The .... tree in our garden produces the sweetest fruit.",
+      "quizTranslate": "El árbol de ciruela en nuestro jardín produce las frutas más dulces.",
+      "translateList": [
+        {
+          "label": "Plum",
+          "isCorrect": true
+        },
+        {
+          "label": "Cherry",
+          "isCorrect": false
+        },
+        {
+          "label": "Pear",
+          "isCorrect": false
+        },
+        {
+          "label": "Pomegranate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Apricot",
+      "translate": "Albaricoque",
+      "quiz": "Dried .... are a popular snack in Turkey.",
+      "quizTranslate": "Los albaricoques secos son un bocadillo popular en Turquía.",
+      "translateList": [
+        {
+          "label": "Apricot",
+          "isCorrect": true
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        },
+        {
+          "label": "Cherry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pomegranate",
+      "translate": "Granada",
+      "quiz": "Breaking open a .... can be messy, but the seeds are delicious.",
+      "quizTranslate": "Abrir una granada puede ser desordenado, pero las semillas son deliciosas.",
+      "translateList": [
+        {
+          "label": "Pomegranate",
+          "isCorrect": true
+        },
+        {
+          "label": "Pear",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        },
+        {
+          "label": "Blueberry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Raspberry",
+      "translate": "Frambuesa",
+      "quiz": "She made a delicious pie with fresh .... and cream.",
+      "quizTranslate": "Hizo una tarta deliciosa con frambuesas frescas y crema.",
+      "translateList": [
+        {
+          "label": "Raspberry",
+          "isCorrect": true
+        },
+        {
+          "label": "Strawberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Blueberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Pomegranate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Blueberry",
+      "translate": "Arándano",
+      "quiz": "My favorite pancakes are the ones with .... inside.",
+      "quizTranslate": "Mis panqueques favoritos son los que tienen arándanos dentro.",
+      "translateList": [
+        {
+          "label": "Blueberry",
+          "isCorrect": true
+        },
+        {
+          "label": "Raspberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Blackberry",
+          "isCorrect": false
+        },
+        {
+          "label": "Cranberry",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Coconut",
+      "translate": "Coco",
+      "quiz": "The tropical drink was served in a hollowed-out .... shell.",
+      "quizTranslate": "La bebida tropical se sirvió en una cáscara de coco vaciada.",
+      "translateList": [
+        {
+          "label": "Coconut",
+          "isCorrect": true
+        },
+        {
+          "label": "Pineapple",
+          "isCorrect": false
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Papaya",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fig",
+      "translate": "Higo",
+      "quiz": "Dried .... are commonly eaten as a healthy snack.",
+      "quizTranslate": "Los higos secos se consumen comúnmente como un bocadillo saludable.",
+      "translateList": [
+        {
+          "label": "Fig",
+          "isCorrect": true
+        },
+        {
+          "label": "Pear",
+          "isCorrect": false
+        },
+        {
+          "label": "Apricot",
+          "isCorrect": false
+        },
+        {
+          "label": "Plum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mandarin",
+      "translate": "Mandarina",
+      "quiz": "I love peeling a juicy .... and eating it piece by piece.",
+      "quizTranslate": "Me encanta pelar una mandarina jugosa y comerla pedazo por pedazo.",
+      "translateList": [
+        {
+          "label": "Mandarin",
+          "isCorrect": true
+        },
+        {
+          "label": "Orange",
+          "isCorrect": false
+        },
+        {
+          "label": "Lemon",
+          "isCorrect": false
+        },
+        {
+          "label": "Grapefruit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Garlic",
+      "translate": "Ajo",
+      "quiz": "She added some chopped .... to the sauce for extra flavor.",
+      "quizTranslate": "Añadió un poco de ajo picado a la salsa para darle más sabor.",
+      "translateList": [
+        {
+          "label": "Garlic",
+          "isCorrect": true
+        },
+        {
+          "label": "Onion",
+          "isCorrect": false
+        },
+        {
+          "label": "Ginger",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cucumber",
+      "translate": "Pepino",
+      "quiz": "I love adding fresh .... slices to my salad.",
+      "quizTranslate": "Me encanta agregar rodajas de pepino fresco a mi ensalada.",
+      "translateList": [
+        {
+          "label": "Cucumber",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lettuce",
+      "translate": "Lechuga",
+      "quiz": "She put some crispy .... in her sandwich.",
+      "quizTranslate": "Puso un poco de lechuga crujiente en su sándwich.",
+      "translateList": [
+        {
+          "label": "Lettuce",
+          "isCorrect": true
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cabbage",
+      "translate": "Repollo",
+      "quiz": "Fermented .... is a key ingredient in kimchi.",
+      "quizTranslate": "El repollo fermentado es un ingrediente clave en el kimchi.",
+      "translateList": [
+        {
+          "label": "Cabbage",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Kale",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Corn",
+      "translate": "Maíz",
+      "quiz": "Roasted .... with butter is my favorite snack.",
+      "quizTranslate": "El maíz asado con mantequilla es mi aperitivo favorito.",
+      "translateList": [
+        {
+          "label": "Corn",
+          "isCorrect": true
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Peas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Peas",
+      "translate": "Guisantes",
+      "quiz": "He added some green .... to the soup.",
+      "quizTranslate": "Añadió algunos guisantes verdes a la sopa.",
+      "translateList": [
+        {
+          "label": "Peas",
+          "isCorrect": true
+        },
+        {
+          "label": "Corn",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentils",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bean",
+      "translate": "Frijol",
+      "quiz": "Black .... are commonly used in Mexican cuisine.",
+      "quizTranslate": "Los frijoles negros se usan comúnmente en la cocina mexicana.",
+      "translateList": [
+        {
+          "label": "Bean",
+          "isCorrect": true
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Chickpea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spinach",
+      "translate": "Espinaca",
+      "quiz": "Popeye loves eating .... for strength.",
+      "quizTranslate": "Popeye ama comer espinaca para ganar fuerza.",
+      "translateList": [
+        {
+          "label": "Spinach",
+          "isCorrect": true
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mushroom",
+      "translate": "Champiñón",
+      "quiz": "She added fresh .... to the pasta sauce.",
+      "quizTranslate": "Añadió champiñones frescos a la salsa de pasta.",
+      "translateList": [
+        {
+          "label": "Mushroom",
+          "isCorrect": true
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Eggplant",
+          "isCorrect": false
+        },
+        {
+          "label": "Radish",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pumpkin",
+      "translate": "Calabaza",
+      "quiz": "She made a delicious .... pie for Thanksgiving.",
+      "quizTranslate": "Hizo un delicioso pastel de calabaza para el Día de Acción de Gracias.",
+      "translateList": [
+        {
+          "label": "Pumpkin",
+          "isCorrect": true
+        },
+        {
+          "label": "Coconut",
+          "isCorrect": false
+        },
+        {
+          "label": "Corn",
+          "isCorrect": false
+        },
+        {
+          "label": "Beetroot",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "Radish",
+      "translate": "Rábano",
+      "quiz": "She sliced a .... to add some crunch to the salad.",
+      "quizTranslate": "Cortó un rábano en rodajas para agregar un poco de textura crujiente a la ensalada.",
+      "translateList": [
+        {
+          "label": "Radish",
+          "isCorrect": true
+        },
+        {
+          "label": "Cucumber",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Broccoli",
+      "translate": "Brócoli",
+      "quiz": "Eating steamed .... is very healthy.",
+      "quizTranslate": "Comer brócoli al vapor es muy saludable.",
+      "translateList": [
+        {
+          "label": "Broccoli",
+          "isCorrect": true
+        },
+        {
+          "label": "Cauliflower",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cauliflower",
+      "translate": "Coliflor",
+      "quiz": "She made a delicious .... soup for dinner.",
+      "quizTranslate": "Hizo una deliciosa sopa de coliflor para la cena.",
+      "translateList": [
+        {
+          "label": "Cauliflower",
+          "isCorrect": true
+        },
+        {
+          "label": "Broccoli",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Celery",
+      "translate": "Apio",
+      "quiz": "He added some chopped .... to the salad.",
+      "quizTranslate": "Agregó un poco de apio picado a la ensalada.",
+      "translateList": [
+        {
+          "label": "Celery",
+          "isCorrect": true
+        },
+        {
+          "label": "Cabbage",
+          "isCorrect": false
+        },
+        {
+          "label": "Spinach",
+          "isCorrect": false
+        },
+        {
+          "label": "Lettuce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eggplant",
+      "translate": "Berenjena",
+      "quiz": "Grilled .... is a popular dish in Mediterranean cuisine.",
+      "quizTranslate": "La berenjena a la parrilla es un plato popular en la cocina mediterránea.",
+      "translateList": [
+        {
+          "label": "Eggplant",
+          "isCorrect": true
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Beetroot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Zucchini",
+      "translate": "Calabacín",
+      "quiz": "She made a delicious .... bread for breakfast.",
+      "quizTranslate": "Hizo un delicioso pan de calabacín para el desayuno.",
+      "translateList": [
+        {
+          "label": "Zucchini",
+          "isCorrect": true
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Eggplant",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beetroot",
+      "translate": "Remolacha",
+      "quiz": "Drinking fresh .... juice is great for your health.",
+      "quizTranslate": "Beber jugo de remolacha fresco es excelente para la salud.",
+      "translateList": [
+        {
+          "label": "Beetroot",
+          "isCorrect": true
+        },
+        {
+          "label": "Carrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Radish",
+          "isCorrect": false
+        },
+        {
+          "label": "Cucumber",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Parsley",
+      "translate": "Perejil",
+      "quiz": "She sprinkled some fresh .... on top of the soup.",
+      "quizTranslate": "Espolvoreó un poco de perejil fresco sobre la sopa.",
+      "translateList": [
+        {
+          "label": "Parsley",
+          "isCorrect": true
+        },
+        {
+          "label": "Dill",
+          "isCorrect": false
+        },
+        {
+          "label": "Cilantro",
+          "isCorrect": false
+        },
+        {
+          "label": "Basil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Scallion",
+      "translate": "Cebolleta",
+      "quiz": "He chopped some .... to add to the omelette.",
+      "quizTranslate": "Picó un poco de cebolleta para añadir a la tortilla.",
+      "translateList": [
+        {
+          "label": "Scallion",
+          "isCorrect": true
+        },
+        {
+          "label": "Leek",
+          "isCorrect": false
+        },
+        {
+          "label": "Onion",
+          "isCorrect": false
+        },
+        {
+          "label": "Garlic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Leek",
+      "translate": "Puerro",
+      "quiz": "She made a delicious .... and potato soup.",
+      "quizTranslate": "Hizo una deliciosa sopa de puerro y patata.",
+      "translateList": [
+        {
+          "label": "Leek",
+          "isCorrect": true
+        },
+        {
+          "label": "Scallion",
+          "isCorrect": false
+        },
+        {
+          "label": "Celery",
+          "isCorrect": false
+        },
+        {
+          "label": "Zucchini",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dill",
+      "translate": "Eneldo",
+      "quiz": "Fresh .... gives a wonderful aroma to fish dishes.",
+      "quizTranslate": "El eneldo fresco da un aroma maravilloso a los platos de pescado.",
+      "translateList": [
+        {
+          "label": "Dill",
+          "isCorrect": true
+        },
+        {
+          "label": "Parsley",
+          "isCorrect": false
+        },
+        {
+          "label": "Thyme",
+          "isCorrect": false
+        },
+        {
+          "label": "Basil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lentil",
+      "translate": "Lenteja",
+      "quiz": "She made a delicious .... soup with spices and vegetables.",
+      "quizTranslate": "Hizo una deliciosa sopa de lentejas con especias y verduras.",
+      "translateList": [
+        {
+          "label": "Lentil",
+          "isCorrect": true
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chickpeas",
+      "translate": "Garbanzos",
+      "quiz": "Hummus is made from mashed .... and tahini.",
+      "quizTranslate": "El hummus se hace con garbanzos triturados y tahini.",
+      "translateList": [
+        {
+          "label": "Chickpeas",
+          "isCorrect": true
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beans",
+      "translate": "Frijoles",
+      "quiz": "She cooked a pot of .... with tomatoes and onions.",
+      "quizTranslate": "Cocinó una olla de frijoles con tomates y cebollas.",
+      "translateList": [
+        {
+          "label": "Beans",
+          "isCorrect": true
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        },
+        {
+          "label": "Pea",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pea",
+      "translate": "Guisante",
+      "quiz": "He added fresh .... to the vegetable stew.",
+      "quizTranslate": "Añadió guisantes frescos al guiso de verduras.",
+      "translateList": [
+        {
+          "label": "Pea",
+          "isCorrect": true
+        },
+        {
+          "label": "Beans",
+          "isCorrect": false
+        },
+        {
+          "label": "Lentil",
+          "isCorrect": false
+        },
+        {
+          "label": "Chickpeas",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sesame",
+      "translate": "Sésamo",
+      "quiz": "He sprinkled some .... seeds on top of the bread before baking.",
+      "quizTranslate": "Espolvoreó algunas semillas de sésamo sobre el pan antes de hornearlo.",
+      "translateList": [
+        {
+          "label": "Sesame",
+          "isCorrect": true
+        },
+        {
+          "label": "Sunflower",
+          "isCorrect": false
+        },
+        {
+          "label": "Chia",
+          "isCorrect": false
+        },
+        {
+          "label": "Pumpkin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kiwi",
+      "translate": "Kiwi",
+      "quiz": "She peeled a fresh .... and sliced it for the fruit salad.",
+      "quizTranslate": "Peló un kiwi fresco y lo cortó en rodajas para la ensalada de frutas.",
+      "translateList": [
+        {
+          "label": "Kiwi",
+          "isCorrect": true
+        },
+        {
+          "label": "Mango",
+          "isCorrect": false
+        },
+        {
+          "label": "Avocado",
+          "isCorrect": false
+        },
+        {
+          "label": "Peach",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Grater",
+      "translate": "Rallador",
+      "quiz": "She used a .... to shred the cheese for the pasta.",
+      "quizTranslate": "Usó un rallador para rallar el queso para la pasta.",
+      "translateList": [
+        {
+          "label": "Grater",
+          "isCorrect": true
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Peeler",
+          "isCorrect": false
+        },
+        {
+          "label": "Blender",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Colander",
+      "translate": "Colador",
+      "quiz": "She poured the pasta into a .... to drain the water.",
+      "quizTranslate": "Vertió la pasta en un colador para escurrir el agua.",
+      "translateList": [
+        {
+          "label": "Colander",
+          "isCorrect": true
+        },
+        {
+          "label": "Bowl",
+          "isCorrect": false
+        },
+        {
+          "label": "Ladle",
+          "isCorrect": false
+        },
+        {
+          "label": "Pan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Corkscrew",
+      "translate": "Sacacorchos",
+      "quiz": "He used a .... to open the bottle of wine.",
+      "quizTranslate": "Usó un sacacorchos para abrir la botella de vino.",
+      "translateList": [
+        {
+          "label": "Corkscrew",
+          "isCorrect": true
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        },
+        {
+          "label": "Spoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Freezer",
+      "translate": "Congelador",
+      "quiz": "She put the ice cream in the .... to keep it frozen.",
+      "quizTranslate": "Puso el helado en el congelador para mantenerlo congelado.",
+      "translateList": [
+        {
+          "label": "Freezer",
+          "isCorrect": true
+        },
+        {
+          "label": "Refrigerator",
+          "isCorrect": false
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        },
+        {
+          "label": "Microwave",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kettle",
+      "translate": "Hervidor",
+      "quiz": "She boiled some water in the .... to make tea.",
+      "quizTranslate": "Hirvió un poco de agua en el hervidor para hacer té.",
+      "translateList": [
+        {
+          "label": "Kettle",
+          "isCorrect": true
+        },
+        {
+          "label": "Teapot",
+          "isCorrect": false
+        },
+        {
+          "label": "Saucepan",
+          "isCorrect": false
+        },
+        {
+          "label": "Cup",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ladle",
+      "translate": "Cucharón",
+      "quiz": "She used a large .... to serve the soup.",
+      "quizTranslate": "Usó un cucharón grande para servir la sopa.",
+      "translateList": [
+        {
+          "label": "Ladle",
+          "isCorrect": true
+        },
+        {
+          "label": "Spoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Spatula",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Napkin",
+      "translate": "Servilleta",
+      "quiz": "She placed a folded .... on each plate.",
+      "quizTranslate": "Colocó una servilleta doblada en cada plato.",
+      "translateList": [
+        {
+          "label": "Napkin",
+          "isCorrect": true
+        },
+        {
+          "label": "Tablecloth",
+          "isCorrect": false
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Placemat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pan",
+      "translate": "Sartén",
+      "quiz": "She fried the eggs in a non-stick ....",
+      "quizTranslate": "Freía los huevos en una sartén antiadherente.",
+      "translateList": [
+        {
+          "label": "Pan",
+          "isCorrect": true
+        },
+        {
+          "label": "Saucepan",
+          "isCorrect": false
+        },
+        {
+          "label": "Kettle",
+          "isCorrect": false
+        },
+        {
+          "label": "Oven",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Saucepan",
+      "translate": "Cacerola",
+      "quiz": "She boiled pasta in a large ....",
+      "quizTranslate": "Hirvió la pasta en una cacerola grande.",
+      "translateList": [
+        {
+          "label": "Saucepan",
+          "isCorrect": true
+        },
+        {
+          "label": "Pan",
+          "isCorrect": false
+        },
+        {
+          "label": "Kettle",
+          "isCorrect": false
+        },
+        {
+          "label": "Colander",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tablecloth",
+      "translate": "Mantel",
+      "quiz": "She spread a clean white .... over the dining table.",
+      "quizTranslate": "Extendió un mantel blanco limpio sobre la mesa del comedor.",
+      "translateList": [
+        {
+          "label": "Tablecloth",
+          "isCorrect": true
+        },
+        {
+          "label": "Napkin",
+          "isCorrect": false
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Placemat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Teaspoon",
+      "translate": "Cucharita",
+      "quiz": "She stirred the tea with a small ....",
+      "quizTranslate": "Revolvió el té con una cucharita pequeña.",
+      "translateList": [
+        {
+          "label": "Teaspoon",
+          "isCorrect": true
+        },
+        {
+          "label": "Tablespoon",
+          "isCorrect": false
+        },
+        {
+          "label": "Fork",
+          "isCorrect": false
+        },
+        {
+          "label": "Knife",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Turtle",
+      "translate": "Tortuga",
+      "quiz": "The .... moved slowly across the sand towards the water.",
+      "quizTranslate": "La tortuga se movió lentamente por la arena hacia el agua.",
+      "translateList": [
+        {
+          "label": "Turtle",
+          "isCorrect": true
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        },
+        {
+          "label": "Frog",
+          "isCorrect": false
+        },
+        {
+          "label": "Snake",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Chameleon",
+      "translate": "Camaleón",
+      "quiz": "The .... changed its color to blend with the tree.",
+      "quizTranslate": "El camaleón cambió de color para mezclarse con el árbol.",
+      "translateList": [
+        {
+          "label": "Chameleon",
+          "isCorrect": true
+        },
+        {
+          "label": "Iguana",
+          "isCorrect": false
+        },
+        {
+          "label": "Turtle",
+          "isCorrect": false
+        },
+        {
+          "label": "Lizard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Rabbit",
+      "translate": "Conejo",
+      "quiz": "The little .... hopped across the garden and disappeared into the bushes.",
+      "quizTranslate": "El pequeño conejo saltó por el jardín y desapareció entre los arbustos.",
+      "translateList": [
+        {
+          "label": "Rabbit",
+          "isCorrect": true
+        },
+        {
+          "label": "Squirrel",
+          "isCorrect": false
+        },
+        {
+          "label": "Guinea Pig",
+          "isCorrect": false
+        },
+        {
+          "label": "Hamster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Monkey",
+      "translate": "Mono",
+      "quiz": "The .... climbed the tree to grab a banana.",
+      "quizTranslate": "El mono trepó al árbol para agarrar un plátano.",
+      "translateList": [
+        {
+          "label": "Monkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Parrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Squirrel",
+          "isCorrect": false
+        },
+        {
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Parrot",
+      "translate": "Loro",
+      "quiz": "The .... repeated everything its owner said.",
+      "quizTranslate": "El loro repitió todo lo que decía su dueño.",
+      "translateList": [
+        {
+          "label": "Parrot",
+          "isCorrect": true
+        },
+        {
+          "label": "Canary",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigeon",
+          "isCorrect": false
+        },
+        {
+          "label": "Hawk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Canary",
+      "translate": "Canario",
+      "quiz": "Her .... sang beautifully in the morning.",
+      "quizTranslate": "Su canario cantaba hermosamente por la mañana.",
+      "translateList": [
+        {
+          "label": "Canary",
+          "isCorrect": true
+        },
+        {
+          "label": "Parrot",
+          "isCorrect": false
+        },
+        {
+          "label": "Pigeon",
+          "isCorrect": false
+        },
+        {
+          "label": "Sparrow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Squirrel",
+      "translate": "Ardilla",
+      "quiz": "The .... collected acorns and stored them for winter.",
+      "quizTranslate": "La ardilla recogió bellotas y las guardó para el invierno.",
+      "translateList": [
+        {
+          "label": "Squirrel",
+          "isCorrect": true
+        },
+        {
+          "label": "Rabbit",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouse",
+          "isCorrect": false
+        },
+        {
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Rooster",
+      "translate": "Gallo",
+      "quiz": "The .... crowed loudly at sunrise.",
+      "quizTranslate": "El gallo cantó fuerte al amanecer.",
+      "translateList": [
+        {
+          "label": "Rooster",
+          "isCorrect": true
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Turkey",
+      "translate": "Pavo",
+      "quiz": "They roasted a large .... for Thanksgiving dinner.",
+      "quizTranslate": "Asaron un gran pavo para la cena de Acción de Gracias.",
+      "translateList": [
+        {
+          "label": "Turkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Rooster",
+          "isCorrect": false
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Goose",
+      "translate": "Ganso",
+      "quiz": "A flock of .... flew over the lake in the evening.",
+      "quizTranslate": "Una bandada de gansos voló sobre el lago por la tarde.",
+      "translateList": [
+        {
+          "label": "Goose",
+          "isCorrect": true
+        },
+        {
+          "label": "Duck",
+          "isCorrect": false
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Rooster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Duck",
+      "translate": "Pato",
+      "quiz": "The .... swam gracefully across the pond.",
+      "quizTranslate": "El pato nadó con gracia a través del estanque.",
+      "translateList": [
+        {
+          "label": "Duck",
+          "isCorrect": true
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        },
+        {
+          "label": "Turkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bull",
+      "translate": "Toro",
+      "quiz": "The .... ran across the field.",
+      "quizTranslate": "El toro corrió por el campo.",
+      "translateList": [
+        {
+          "label": "Bull",
+          "isCorrect": true
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Ram",
+          "isCorrect": false
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lamb",
+      "translate": "Cordero",
+      "quiz": "The .... is sleeping under the tree.",
+      "quizTranslate": "El cordero está durmiendo bajo el árbol.",
+      "translateList": [
+        {
+          "label": "Lamb",
+          "isCorrect": true
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        },
+        {
+          "label": "Ram",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Goat",
+      "translate": "Cabra",
+      "quiz": "The .... climbed the rocky hill easily.",
+      "quizTranslate": "La cabra subió fácilmente la colina rocosa.",
+      "translateList": [
+        {
+          "label": "Goat",
+          "isCorrect": true
+        },
+        {
+          "label": "Lamb",
+          "isCorrect": false
+        },
+        {
+          "label": "Camel",
+          "isCorrect": false
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ram",
+      "translate": "Carnero",
+      "quiz": "The .... has strong horns.",
+      "quizTranslate": "El carnero tiene cuernos fuertes.",
+      "translateList": [
+        {
+          "label": "Ram",
+          "isCorrect": true
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Donkey",
+      "translate": "Burro",
+      "quiz": "The .... carried the heavy bags up the hill.",
+      "quizTranslate": "El burro llevó las bolsas pesadas cuesta arriba.",
+      "translateList": [
+        {
+          "label": "Donkey",
+          "isCorrect": true
+        },
+        {
+          "label": "Camel",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Camel",
+      "translate": "Camello",
+      "quiz": "The .... walked slowly in the hot desert.",
+      "quizTranslate": "El camello caminó lentamente por el caluroso desierto.",
+      "translateList": [
+        {
+          "label": "Camel",
+          "isCorrect": true
+        },
+        {
+          "label": "Donkey",
+          "isCorrect": false
+        },
+        {
+          "label": "Goat",
+          "isCorrect": false
+        },
+        {
+          "label": "Bull",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pork",
+      "translate": "Carne de cerdo",
+      "quiz": "They do not eat .... in their country.",
+      "quizTranslate": "No comen carne de cerdo en su país.",
+      "translateList": [
+        {
+          "label": "Pork",
+          "isCorrect": true
+        },
+        {
+          "label": "Beef",
+          "isCorrect": false
+        },
+        {
+          "label": "Chicken",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Tiger",
+      "translate": "Tigre",
+      "quiz": "The .... is resting in the shade.",
+      "quizTranslate": "El tigre está descansando a la sombra.",
+      "translateList": [
+        {
+          "label": "Tiger",
+          "isCorrect": true
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        },
+        {
+          "label": "Bear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bat",
+      "translate": "Murciélago",
+      "quiz": "The .... flew out of the cave at night.",
+      "quizTranslate": "El murciélago salió volando de la cueva por la noche.",
+      "translateList": [
+        {
+          "label": "Bat",
+          "isCorrect": true
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Whale",
+      "translate": "Ballena",
+      "quiz": "The .... jumped out of the water.",
+      "quizTranslate": "La ballena saltó fuera del agua.",
+      "translateList": [
+        {
+          "label": "Whale",
+          "isCorrect": true
+        },
+        {
+          "label": "Dolphin",
+          "isCorrect": false
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dolphin",
+      "translate": "Delfín",
+      "quiz": "The .... swam close to the boat.",
+      "quizTranslate": "El delfín nadó cerca del barco.",
+      "translateList": [
+        {
+          "label": "Dolphin",
+          "isCorrect": true
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Whale",
+          "isCorrect": false
+        },
+        {
+          "label": "Octopus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wolf",
+      "translate": "Lobo",
+      "quiz": "The .... howled in the forest.",
+      "quizTranslate": "El lobo aulló en el bosque.",
+      "translateList": [
+        {
+          "label": "Wolf",
+          "isCorrect": true
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Fox",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Shark",
+      "translate": "Tiburón",
+      "quiz": "The .... swam near the shore.",
+      "quizTranslate": "El tiburón nadó cerca de la orilla.",
+      "translateList": [
+        {
+          "label": "Shark",
+          "isCorrect": true
+        },
+        {
+          "label": "Whale",
+          "isCorrect": false
+        },
+        {
+          "label": "Dolphin",
+          "isCorrect": false
+        },
+        {
+          "label": "Seal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Owl",
+      "translate": "Búho",
+      "quiz": "The .... makes a hooting sound at night.",
+      "quizTranslate": "El búho hace un sonido ululante por la noche.",
+      "translateList": [
+        {
+          "label": "Owl",
+          "isCorrect": true
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eagle",
+      "translate": "Águila",
+      "quiz": "The .... flies high in the sky.",
+      "quizTranslate": "El águila vuela alto en el cielo.",
+      "translateList": [
+        {
+          "label": "Eagle",
+          "isCorrect": true
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Woodpecker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dove",
+      "translate": "Paloma",
+      "quiz": "The white .... is a symbol of peace.",
+      "quizTranslate": "La paloma blanca es un símbolo de paz.",
+      "translateList": [
+        {
+          "label": "Dove",
+          "isCorrect": true
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        },
+        {
+          "label": "Stork",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Seagull",
+      "translate": "Gaviota",
+      "quiz": "The .... was flying above the sea.",
+      "quizTranslate": "La gaviota volaba sobre el mar.",
+      "translateList": [
+        {
+          "label": "Seagull",
+          "isCorrect": true
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Woodpecker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crow",
+      "translate": "Cuervo",
+      "quiz": "The .... sat on the tree and made a loud sound.",
+      "quizTranslate": "El cuervo se posó en el árbol y emitió un sonido fuerte.",
+      "translateList": [
+        {
+          "label": "Crow",
+          "isCorrect": true
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Swan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Woodpecker",
+      "translate": "Pájaro carpintero",
+      "quiz": "The .... was making a noise on the tree.",
+      "quizTranslate": "El pájaro carpintero hacía ruido en el árbol.",
+      "translateList": [
+        {
+          "label": "Woodpecker",
+          "isCorrect": true
+        },
+        {
+          "label": "Owl",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crocodile",
+      "translate": "Cocodrilo",
+      "quiz": "The .... was lying near the river.",
+      "quizTranslate": "El cocodrilo estaba acostado cerca del río.",
+      "translateList": [
+        {
+          "label": "Crocodile",
+          "isCorrect": true
+        },
+        {
+          "label": "Stork",
+          "isCorrect": false
+        },
+        {
+          "label": "Shark",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stork",
+      "translate": "Cigüeña",
+      "quiz": "The .... stood in the water looking for fish.",
+      "quizTranslate": "La cigüeña se quedó en el agua buscando peces.",
+      "translateList": [
+        {
+          "label": "Stork",
+          "isCorrect": true
+        },
+        {
+          "label": "Seagull",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Eagle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Swan",
+      "translate": "Cisne",
+      "quiz": "The .... swam gracefully across the lake.",
+      "quizTranslate": "El cisne nadó con gracia a través del lago.",
+      "translateList": [
+        {
+          "label": "Swan",
+          "isCorrect": true
+        },
+        {
+          "label": "Goose",
+          "isCorrect": false
+        },
+        {
+          "label": "Dove",
+          "isCorrect": false
+        },
+        {
+          "label": "Crow",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

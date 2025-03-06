@@ -7179,7 +7179,7 @@
     {
       "word": "Comparison",
       "translate": "Karşılaştırma",
-      "quiz": "The ... between the two products was very interesting.",
+      "quiz": "The .... between the two products was very interesting.",
       "quizTranslate": "İki ürün arasındaki karşılaştırma çok ilginçti.",
       "translateList": [
         {
@@ -7203,7 +7203,7 @@
     {
       "word": "Competition",
       "translate": "Yarışma",
-      "quiz": "The ... was tough, but she won first place.",
+      "quiz": "The .... was tough, but she won first place.",
       "quizTranslate": "Yarışma zordu, ama birinci oldu.",
       "translateList": [
         {
@@ -30747,7 +30747,7 @@
     {
       "word": "Separation",
       "translate": "Ayrılma",
-      "quiz": "The ... of powers is a key principle in democracy.",
+      "quiz": "The .... of powers is a key principle in democracy.",
       "quizTranslate": "Güçler ayrılığı, demokrasinin temel ilkelerindendir.",
       "translateList": [
         {
@@ -37244,6 +37244,246 @@
         },
         {
           "label": "Hold",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cradle",
+      "translate": "Beşik, kucaklamak",
+      "quiz": "She gently rocked the baby in the .... to help him sleep.",
+      "quizTranslate": "Bebeğin uyumasına yardımcı olmak için onu beşikte nazikçe salladı.",
+      "translateList": [
+        {
+          "label": "Cradle",
+          "isCorrect": true
+        },
+        {
+          "label": "Hammock",
+          "isCorrect": false
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        },
+        {
+          "label": "Basket",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Creative",
+      "translate": "Yaratıcı",
+      "quiz": "She is very .... when it comes to designing new products.",
+      "quizTranslate": "Yeni ürünler tasarlarken çok yaratıcıdır.",
+      "translateList": [
+        {
+          "label": "Creative",
+          "isCorrect": true
+        },
+        {
+          "label": "Logical",
+          "isCorrect": false
+        },
+        {
+          "label": "Organized",
+          "isCorrect": false
+        },
+        {
+          "label": "Traditional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Component",
+      "translate": "Bileşen",
+      "quiz": "The computer has many different .... such as the motherboard and CPU.",
+      "quizTranslate": "Bilgisayarın anakart ve işlemci gibi birçok farklı bileşeni vardır.",
+      "translateList": [
+        {
+          "label": "Component",
+          "isCorrect": true
+        },
+        {
+          "label": "Device",
+          "isCorrect": false
+        },
+        {
+          "label": "Machine",
+          "isCorrect": false
+        },
+        {
+          "label": "Part",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Expertise",
+      "translate": "Uzmanlık",
+      "quiz": "He has a lot of .... in software development.",
+      "quizTranslate": "Yazılım geliştirme konusunda çok fazla uzmanlığa sahiptir.",
+      "translateList": [
+        {
+          "label": "Expertise",
+          "isCorrect": true
+        },
+        {
+          "label": "Experience",
+          "isCorrect": false
+        },
+        {
+          "label": "Knowledge",
+          "isCorrect": false
+        },
+        {
+          "label": "Skill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reliable",
+      "translate": "Güvenilir",
+      "quiz": "She is a very .... person who always keeps her promises.",
+      "quizTranslate": "O, her zaman sözlerini tutan çok güvenilir bir insandır.",
+      "translateList": [
+        {
+          "label": "Reliable",
+          "isCorrect": true
+        },
+        {
+          "label": "Lazy",
+          "isCorrect": false
+        },
+        {
+          "label": "Forgetful",
+          "isCorrect": false
+        },
+        {
+          "label": "Independent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Understandable",
+      "translate": "Anlaşılır",
+      "quiz": "His explanation was very .... and easy to follow.",
+      "quizTranslate": "Onun açıklaması çok anlaşılır ve takip edilmesi kolaydı.",
+      "translateList": [
+        {
+          "label": "Understandable",
+          "isCorrect": true
+        },
+        {
+          "label": "Confusing",
+          "isCorrect": false
+        },
+        {
+          "label": "Complex",
+          "isCorrect": false
+        },
+        {
+          "label": "Detailed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Accomplish",
+      "translate": "Başarmak",
+      "quiz": "She worked hard to .... all her goals for the year.",
+      "quizTranslate": "Yıl için tüm hedeflerini başarmak için çok çalıştı.",
+      "translateList": [
+        {
+          "label": "Accomplish",
+          "isCorrect": true
+        },
+        {
+          "label": "Forget",
+          "isCorrect": false
+        },
+        {
+          "label": "Fail",
+          "isCorrect": false
+        },
+        {
+          "label": "Avoid",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Compatible",
+      "translate": "Uyumlu",
+      "quiz": "The software is not .... with older versions of Windows.",
+      "quizTranslate": "Yazılım, eski Windows sürümleriyle uyumlu değildir.",
+      "translateList": [
+        {
+          "label": "Compatible",
+          "isCorrect": true
+        },
+        {
+          "label": "Incompatible",
+          "isCorrect": false
+        },
+        {
+          "label": "Available",
+          "isCorrect": false
+        },
+        {
+          "label": "Up-to-date",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Incorporate",
+      "translate": "Dahil etmek, birleştirmek",
+      "quiz": "The company plans to .... new technologies into their products.",
+      "quizTranslate": "Şirket, yeni teknolojileri ürünlerine dahil etmeyi planlıyor.",
+      "translateList": [
+        {
+          "label": "Incorporate",
+          "isCorrect": true
+        },
+        {
+          "label": "Exclude",
+          "isCorrect": false
+        },
+        {
+          "label": "Remove",
+          "isCorrect": false
+        },
+        {
+          "label": "Update",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Clarify",
+      "translate": "Açıklığa kavuşturmak",
+      "quiz": "Can you .... your point, please?",
+      "quizTranslate": "Lütfen fikrinizi açıklığa kavuşturur musunuz?",
+      "translateList": [
+        {
+          "label": "Clarify",
+          "isCorrect": true
+        },
+        {
+          "label": "Complicate",
+          "isCorrect": false
+        },
+        {
+          "label": "Confuse",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
           "isCorrect": false
         }
       ]
