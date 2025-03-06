@@ -35113,6 +35113,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Souvenir",
+      "translate": "Hatıra eşyası, hatıra",
+      "quiz": "I bought a small .... from the museum as a reminder of my visit.",
+      "quizTranslate": "Müzeden ziyaretimi hatırlamak için küçük bir hatıra eşyası aldım.",
+      "translateList": [
+        {
+          "label": "Souvenir",
+          "isCorrect": true
+        },
+        {
+          "label": "Gift",
+          "isCorrect": false
+        },
+        {
+          "label": "Toy",
+          "isCorrect": false
+        },
+        {
+          "label": "Clothing",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

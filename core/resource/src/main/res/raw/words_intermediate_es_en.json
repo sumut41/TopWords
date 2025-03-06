@@ -37440,6 +37440,78 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Internship",
+      "translate": "Prácticas",
+      "quiz": "She got a great experience during her summer .... at a tech company.",
+      "quizTranslate": "Obtuvo una gran experiencia durante su pasantía de verano en una empresa de tecnología.",
+      "translateList": [
+        {
+          "label": "Internship",
+          "isCorrect": true
+        },
+        {
+          "label": "Job",
+          "isCorrect": false
+        },
+        {
+          "label": "Interview",
+          "isCorrect": false
+        },
+        {
+          "label": "Vacation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Intern",
+      "translate": "Becario",
+      "quiz": "The company hired several .... to assist with the project.",
+      "quizTranslate": "La empresa contrató varios becarios para ayudar con el proyecto.",
+      "translateList": [
+        {
+          "label": "Intern",
+          "isCorrect": true
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Employee",
+          "isCorrect": false
+        },
+        {
+          "label": "Supervisor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Workload",
+      "translate": "Carga de trabajo",
+      "quiz": "The team’s .... has increased since the new project started.",
+      "quizTranslate": "La carga de trabajo del equipo ha aumentado desde que comenzó el nuevo proyecto.",
+      "translateList": [
+        {
+          "label": "Workload",
+          "isCorrect": true
+        },
+        {
+          "label": "Task",
+          "isCorrect": false
+        },
+        {
+          "label": "Salary",
+          "isCorrect": false
+        },
+        {
+          "label": "Deadline",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
