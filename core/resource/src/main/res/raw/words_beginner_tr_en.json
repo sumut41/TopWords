@@ -39098,6 +39098,54 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Armchair",
+      "translate": "Koltuk",
+      "quiz": "He sat in his favorite .... and read a book.",
+      "quizTranslate": "En sevdiği koltuğuna oturdu ve kitap okudu.",
+      "translateList": [
+        {
+          "label": "Armchair",
+          "isCorrect": true
+        },
+        {
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "label": "Couch",
+          "isCorrect": false
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sofa",
+      "translate": "Kanepe",
+      "quiz": "They bought a new .... for the living room.",
+      "quizTranslate": "Oturma odası için yeni bir kanepe aldılar.",
+      "translateList": [
+        {
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        },
+        {
+          "label": "Couch",
+          "isCorrect": false
+        },
+        {
+          "label": "Armchair",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

@@ -39126,6 +39126,54 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Armchair",
+      "translate": "Sillón",
+      "quiz": "He sat in his favorite .... and read a book.",
+      "quizTranslate": "Se sentó en su sillón favorito y leyó un libro.",
+      "translateList": [
+        {
+          "label": "Armchair",
+          "isCorrect": true
+        },
+        {
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "label": "Couch",
+          "isCorrect": false
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sofa",
+      "translate": "Sofá",
+      "quiz": "They bought a new .... for the living room.",
+      "quizTranslate": "Compraron un nuevo sofá para la sala de estar.",
+      "translateList": [
+        {
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        },
+        {
+          "label": "Couch",
+          "isCorrect": false
+        },
+        {
+          "label": "Armchair",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
