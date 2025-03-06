@@ -37607,6 +37607,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Blanket",
+      "translate": "Coperta, lenzuolo",
+      "quiz": "She wrapped herself in a warm .... to stay cozy during the cold night.",
+      "quizTranslate": "Si è avvolta in una calda coperta per rimanere comoda durante la notte fredda.",
+      "translateList": [
+        {
+          "label": "Blanket",
+          "isCorrect": true
+        },
+        {
+          "label": "Pillow",
+          "isCorrect": false
+        },
+        {
+          "label": "Sheet",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

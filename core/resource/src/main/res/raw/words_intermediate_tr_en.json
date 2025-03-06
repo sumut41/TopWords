@@ -37559,6 +37559,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Blanket",
+      "translate": "Battaniye, örtü",
+      "quiz": "She wrapped herself in a warm .... to stay cozy during the cold night.",
+      "quizTranslate": "Soğuk gece boyunca rahat kalmak için kendini sıcak bir battaniyeye sardı.",
+      "translateList": [
+        {
+          "label": "Blanket",
+          "isCorrect": true
+        },
+        {
+          "label": "Pillow",
+          "isCorrect": false
+        },
+        {
+          "label": "Sheet",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

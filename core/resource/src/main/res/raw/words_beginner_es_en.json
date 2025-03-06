@@ -39078,6 +39078,54 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Calculator",
+      "translate": "Calculadora",
+      "quiz": "She used a .... to solve the math problem quickly.",
+      "quizTranslate": "Ella usó una calculadora para resolver rápidamente el problema de matemáticas.",
+      "translateList": [
+        {
+          "label": "Calculator",
+          "isCorrect": true
+        },
+        {
+          "label": "Computer",
+          "isCorrect": false
+        },
+        {
+          "label": "Phone",
+          "isCorrect": false
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lite",
+      "translate": "Ligero",
+      "quiz": "I prefer the .... version of the app because it uses less data.",
+      "quizTranslate": "Prefiero la versión ligera de la aplicación porque usa menos datos.",
+      "translateList": [
+        {
+          "label": "Lite",
+          "isCorrect": true
+        },
+        {
+          "label": "Full",
+          "isCorrect": false
+        },
+        {
+          "label": "Advanced",
+          "isCorrect": false
+        },
+        {
+          "label": "Premium",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

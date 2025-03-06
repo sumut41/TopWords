@@ -37512,6 +37512,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Blanket",
+      "translate": "Manta, cobija",
+      "quiz": "She wrapped herself in a warm .... to stay cozy during the cold night.",
+      "quizTranslate": "Se envolvió en una manta cálida para mantenerse cómoda durante la fría noche.",
+      "translateList": [
+        {
+          "label": "Blanket",
+          "isCorrect": true
+        },
+        {
+          "label": "Pillow",
+          "isCorrect": false
+        },
+        {
+          "label": "Sheet",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

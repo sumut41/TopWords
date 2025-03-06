@@ -39050,6 +39050,54 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Calculator",
+      "translate": "Hesap makinesi",
+      "quiz": "She used a .... to solve the math problem quickly.",
+      "quizTranslate": "Matematik problemini hızlıca çözmek için hesap makinesi kullandı.",
+      "translateList": [
+        {
+          "label": "Calculator",
+          "isCorrect": true
+        },
+        {
+          "label": "Computer",
+          "isCorrect": false
+        },
+        {
+          "label": "Phone",
+          "isCorrect": false
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lite",
+      "translate": "Hafif, düşük kalorili",
+      "quiz": "I prefer the .... version of the app because it uses less data.",
+      "quizTranslate": "Daha az veri kullandığı için uygulamanın hafif sürümünü tercih ediyorum.",
+      "translateList": [
+        {
+          "label": "Lite",
+          "isCorrect": true
+        },
+        {
+          "label": "Full",
+          "isCorrect": false
+        },
+        {
+          "label": "Advanced",
+          "isCorrect": false
+        },
+        {
+          "label": "Premium",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
