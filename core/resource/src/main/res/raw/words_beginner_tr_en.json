@@ -2473,30 +2473,6 @@
       ]
     },
     {
-      "word": "Advice",
-      "translate": "Tavsiye, öğüt",
-      "quiz": "He gave me some useful .... on how to improve my presentation.",
-      "quizTranslate": "Sunumumu nasıl geliştireceğimle ilgili bana bazı yararlı tavsiyeler verdi.",
-      "translateList": [
-        {
-          "label": "Advice",
-          "isCorrect": true
-        },
-        {
-          "label": "Request",
-          "isCorrect": false
-        },
-        {
-          "label": "Warning",
-          "isCorrect": false
-        },
-        {
-          "label": "Criticism",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Amazing",
       "translate": "Şaşırtıcı, harika",
       "quiz": "The view from the top of the mountain was absolutely ....",
@@ -22033,30 +22009,6 @@
       ]
     },
     {
-      "word": "Plug",
-      "translate": "Fiş",
-      "quiz": "Don’t forget to put the .... into the socket.",
-      "quizTranslate": "Fişi prizde takmayı unutma.",
-      "translateList": [
-        {
-          "label": "Plug",
-          "isCorrect": true
-        },
-        {
-          "label": "Wire",
-          "isCorrect": false
-        },
-        {
-          "label": "Cable",
-          "isCorrect": false
-        },
-        {
-          "label": "Socket",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Pocket",
       "translate": "Cep",
       "quiz": "I put my keys in my ....",
@@ -22364,30 +22316,6 @@
         },
         {
           "label": "Jazz",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Advice",
-      "translate": "Tavsiye",
-      "quiz": "She gave me valuable ....",
-      "quizTranslate": "Bana değerli tavsiyeler verdi.",
-      "translateList": [
-        {
-          "label": "Advice",
-          "isCorrect": true
-        },
-        {
-          "label": "Information",
-          "isCorrect": false
-        },
-        {
-          "label": "Instruction",
-          "isCorrect": false
-        },
-        {
-          "label": "Suggestion",
           "isCorrect": false
         }
       ]
@@ -35740,30 +35668,6 @@
       ]
     },
     {
-      "word": "Guess",
-      "translate": "Tahmin etmek",
-      "quiz": "Can you .... what time the train arrives?",
-      "quizTranslate": "Trenin saat kaçta geldiğini tahmin edebilir misin?",
-      "translateList": [
-        {
-          "label": "Guess",
-          "isCorrect": true
-        },
-        {
-          "label": "Calculate",
-          "isCorrect": false
-        },
-        {
-          "label": "Know",
-          "isCorrect": false
-        },
-        {
-          "label": "Estimate",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Guitar",
       "translate": "Gitar",
       "quiz": "He played the .... beautifully during the concert.",
@@ -35932,54 +35836,6 @@
       ]
     },
     {
-      "word": "Imagine",
-      "translate": "Hayal etmek, tasavvur etmek",
-      "quiz": "Can you .... what it would be like to live on Mars?",
-      "quizTranslate": "Mars'ta yaşamanın nasıl olacağını hayal edebiliyor musun?",
-      "translateList": [
-        {
-          "label": "Imagine",
-          "isCorrect": true
-        },
-        {
-          "label": "Know",
-          "isCorrect": false
-        },
-        {
-          "label": "Understand",
-          "isCorrect": false
-        },
-        {
-          "label": "Think",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Improve",
-      "translate": "İyileştirmek, geliştirmek",
-      "quiz": "She worked hard to .... her English skills.",
-      "quizTranslate": "İngilizce becerilerini geliştirmek için çok çalıştı.",
-      "translateList": [
-        {
-          "label": "Improve",
-          "isCorrect": true
-        },
-        {
-          "label": "Reduce",
-          "isCorrect": false
-        },
-        {
-          "label": "Increase",
-          "isCorrect": false
-        },
-        {
-          "label": "Decline",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "In",
       "translate": "İçinde, -de, -da",
       "quiz": "The keys are .... the drawer.",
@@ -36047,30 +35903,6 @@
         },
         {
           "label": "Phone",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Interview",
-      "translate": "Röportaj, görüşme",
-      "quiz": "I have an .... tomorrow for the job position.",
-      "quizTranslate": "Yarın iş pozisyonu için bir görüşmem var.",
-      "translateList": [
-        {
-          "label": "Interview",
-          "isCorrect": true
-        },
-        {
-          "label": "Meeting",
-          "isCorrect": false
-        },
-        {
-          "label": "Conversation",
-          "isCorrect": false
-        },
-        {
-          "label": "Presentation",
           "isCorrect": false
         }
       ]

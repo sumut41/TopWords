@@ -38639,6 +38639,318 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Bleed",
+      "translate": "Sanguinare",
+      "quiz": "If you cut yourself, the wound might ....",
+      "quizTranslate": "Se ti tagli, la ferita potrebbe sanguinare.",
+      "translateList": [
+        {
+          "label": "Bleed",
+          "isCorrect": true
+        },
+        {
+          "label": "Burn",
+          "isCorrect": false
+        },
+        {
+          "label": "Scratch",
+          "isCorrect": false
+        },
+        {
+          "label": "Swallow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Brake",
+      "translate": "Freno",
+      "quiz": "Always remember to .... your car before crossing the road.",
+      "quizTranslate": "Ricorda sempre di frenare la tua auto prima di attraversare la strada.",
+      "translateList": [
+        {
+          "label": "Brake",
+          "isCorrect": true
+        },
+        {
+          "label": "Accelerate",
+          "isCorrect": false
+        },
+        {
+          "label": "Turn",
+          "isCorrect": false
+        },
+        {
+          "label": "Reverse",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Comb",
+      "translate": "Pettine",
+      "quiz": "She used a .... to fix her hair before the interview.",
+      "quizTranslate": "Ha usato un pettine per sistemarsi i capelli prima del colloquio.",
+      "translateList": [
+        {
+          "label": "Comb",
+          "isCorrect": true
+        },
+        {
+          "label": "Brush",
+          "isCorrect": false
+        },
+        {
+          "label": "Mirror",
+          "isCorrect": false
+        },
+        {
+          "label": "Scissors",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dive",
+      "translate": "Immersione, tuffarsi",
+      "quiz": "The scuba diver is ready to .... into the deep sea.",
+      "quizTranslate": "Il subacqueo è pronto a tuffarsi nel mare profondo.",
+      "translateList": [
+        {
+          "label": "Dive",
+          "isCorrect": true
+        },
+        {
+          "label": "Swim",
+          "isCorrect": false
+        },
+        {
+          "label": "Float",
+          "isCorrect": false
+        },
+        {
+          "label": "Walk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fist",
+      "translate": "Pugno",
+      "quiz": "He clenched his .... and punched the wall.",
+      "quizTranslate": "Strinse il pugno e colpì il muro.",
+      "translateList": [
+        {
+          "label": "Fist",
+          "isCorrect": true
+        },
+        {
+          "label": "Hand",
+          "isCorrect": false
+        },
+        {
+          "label": "Finger",
+          "isCorrect": false
+        },
+        {
+          "label": "Thumb",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pavement",
+      "translate": "Marciapiede",
+      "quiz": "She was walking along the .... when it started raining.",
+      "quizTranslate": "Stava camminando lungo il marciapiede quando ha iniziato a piovere.",
+      "translateList": [
+        {
+          "label": "Pavement",
+          "isCorrect": true
+        },
+        {
+          "label": "Road",
+          "isCorrect": false
+        },
+        {
+          "label": "Street",
+          "isCorrect": false
+        },
+        {
+          "label": "Sidewalk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Penalty",
+      "translate": "Penalità",
+      "quiz": "The football team received a .... for breaking the rules.",
+      "quizTranslate": "La squadra di calcio ha ricevuto una penalità per aver infranto le regole.",
+      "translateList": [
+        {
+          "label": "Penalty",
+          "isCorrect": true
+        },
+        {
+          "label": "Reward",
+          "isCorrect": false
+        },
+        {
+          "label": "Prize",
+          "isCorrect": false
+        },
+        {
+          "label": "Benefit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Protest",
+      "translate": "Protesta",
+      "quiz": "Many people came to the street to .... against the new law.",
+      "quizTranslate": "Molte persone sono scese in strada per protestare contro la nuova legge.",
+      "translateList": [
+        {
+          "label": "Protest",
+          "isCorrect": true
+        },
+        {
+          "label": "Celebrate",
+          "isCorrect": false
+        },
+        {
+          "label": "Support",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Resign",
+      "translate": "Dimettersi",
+      "quiz": "The CEO decided to .... after the company's poor performance.",
+      "quizTranslate": "Il CEO ha deciso di dimettersi dopo la scarsa performance dell'azienda.",
+      "translateList": [
+        {
+          "label": "Resign",
+          "isCorrect": true
+        },
+        {
+          "label": "Join",
+          "isCorrect": false
+        },
+        {
+          "label": "Leave",
+          "isCorrect": false
+        },
+        {
+          "label": "Promote",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Seatbelt",
+      "translate": "Cintura di sicurezza",
+      "quiz": "Make sure to fasten your .... before driving.",
+      "quizTranslate": "Assicurati di allacciare la cintura di sicurezza prima di guidare.",
+      "translateList": [
+        {
+          "label": "Seatbelt",
+          "isCorrect": true
+        },
+        {
+          "label": "Helmet",
+          "isCorrect": false
+        },
+        {
+          "label": "Gloves",
+          "isCorrect": false
+        },
+        {
+          "label": "Shoes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Snore",
+      "translate": "Russare",
+      "quiz": "He tends to .... loudly when he sleeps.",
+      "quizTranslate": "Tende a russare rumorosamente quando dorme.",
+      "translateList": [
+        {
+          "label": "Snore",
+          "isCorrect": true
+        },
+        {
+          "label": "Cough",
+          "isCorrect": false
+        },
+        {
+          "label": "Talk",
+          "isCorrect": false
+        },
+        {
+          "label": "Breathe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Indecisive",
+      "translate": "Indeciso",
+      "quiz": "She was too .... to choose between the two dresses.",
+      "quizTranslate": "Era troppo indecisa per scegliere tra i due vestiti.",
+      "translateList": [
+        {
+          "label": "Indecisive",
+          "isCorrect": true
+        },
+        {
+          "label": "Confident",
+          "isCorrect": false
+        },
+        {
+          "label": "Decisive",
+          "isCorrect": false
+        },
+        {
+          "label": "Rational",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Collaboration",
+      "translate": "Collaborazione",
+      "quiz": "The success of the new product was due to the close .... between the design and engineering teams.",
+      "quizTranslate": "Il successo del nuovo prodotto è stato dovuto alla stretta collaborazione tra i team di design e ingegneria.",
+      "translateList": [
+        {
+          "label": "Collaboration",
+          "isCorrect": true
+        },
+        {
+          "label": "Competition",
+          "isCorrect": false
+        },
+        {
+          "label": "Isolation",
+          "isCorrect": false
+        },
+        {
+          "label": "Independence",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

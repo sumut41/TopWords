@@ -2473,30 +2473,6 @@
       ]
     },
     {
-      "word": "Advice",
-      "translate": "Consejo",
-      "quiz": "He gave me some useful .... on how to improve my presentation.",
-      "quizTranslate": "Él me dio algunos consejos útiles sobre cómo mejorar mi presentación.",
-      "translateList": [
-        {
-          "label": "Advice",
-          "isCorrect": true
-        },
-        {
-          "label": "Request",
-          "isCorrect": false
-        },
-        {
-          "label": "Warning",
-          "isCorrect": false
-        },
-        {
-          "label": "Criticism",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Amazing",
       "translate": "Increíble",
       "quiz": "The view from the top of the mountain was absolutely ....",
@@ -22063,30 +22039,6 @@
       ]
     },
     {
-      "word": "Plug",
-      "translate": "Enchufe",
-      "quiz": "Don’t forget to put the .... into the socket.",
-      "quizTranslate": "No olvides poner el enchufe en el tomacorriente.",
-      "translateList": [
-        {
-          "label": "Plug",
-          "isCorrect": true
-        },
-        {
-          "label": "Wire",
-          "isCorrect": false
-        },
-        {
-          "label": "Cable",
-          "isCorrect": false
-        },
-        {
-          "label": "Socket",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Pocket",
       "translate": "Bolsillo",
       "quiz": "I put my keys in my ....",
@@ -22394,30 +22346,6 @@
         },
         {
           "label": "Jazz",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Advice",
-      "translate": "Consejo",
-      "quiz": "She gave me valuable ....",
-      "quizTranslate": "Ella me dio un consejo valioso.",
-      "translateList": [
-        {
-          "label": "Advice",
-          "isCorrect": true
-        },
-        {
-          "label": "Information",
-          "isCorrect": false
-        },
-        {
-          "label": "Instruction",
-          "isCorrect": false
-        },
-        {
-          "label": "Suggestion",
           "isCorrect": false
         }
       ]
@@ -35767,30 +35695,6 @@
       ]
     },
     {
-      "word": "Guess",
-      "translate": "Adivinar",
-      "quiz": "Can you .... what time the train arrives?",
-      "quizTranslate": "¿Puedes adivinar a qué hora llega el tren?",
-      "translateList": [
-        {
-          "label": "Guess",
-          "isCorrect": true
-        },
-        {
-          "label": "Calculate",
-          "isCorrect": false
-        },
-        {
-          "label": "Know",
-          "isCorrect": false
-        },
-        {
-          "label": "Estimate",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Guitar",
       "translate": "Guitarra",
       "quiz": "He played the .... beautifully during the concert.",
@@ -35959,54 +35863,6 @@
       ]
     },
     {
-      "word": "Imagine",
-      "translate": "Imaginar",
-      "quiz": "Can you .... what it would be like to live on Mars?",
-      "quizTranslate": "¿Puedes imaginar cómo sería vivir en Marte?",
-      "translateList": [
-        {
-          "label": "Imagine",
-          "isCorrect": true
-        },
-        {
-          "label": "Know",
-          "isCorrect": false
-        },
-        {
-          "label": "Understand",
-          "isCorrect": false
-        },
-        {
-          "label": "Think",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Improve",
-      "translate": "Mejorar",
-      "quiz": "She worked hard to .... her English skills.",
-      "quizTranslate": "Ella trabajó duro para mejorar sus habilidades en inglés.",
-      "translateList": [
-        {
-          "label": "Improve",
-          "isCorrect": true
-        },
-        {
-          "label": "Reduce",
-          "isCorrect": false
-        },
-        {
-          "label": "Increase",
-          "isCorrect": false
-        },
-        {
-          "label": "Decline",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "In",
       "translate": "Dentro de, en",
       "quiz": "The keys are .... the drawer.",
@@ -36074,30 +35930,6 @@
         },
         {
           "label": "Phone",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Interview",
-      "translate": "Entrevista",
-      "quiz": "I have an .... tomorrow for the job position.",
-      "quizTranslate": "Tengo una entrevista mañana para el puesto de trabajo.",
-      "translateList": [
-        {
-          "label": "Interview",
-          "isCorrect": true
-        },
-        {
-          "label": "Meeting",
-          "isCorrect": false
-        },
-        {
-          "label": "Conversation",
-          "isCorrect": false
-        },
-        {
-          "label": "Presentation",
           "isCorrect": false
         }
       ]
