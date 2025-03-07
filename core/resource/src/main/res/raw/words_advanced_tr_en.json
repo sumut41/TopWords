@@ -30025,30 +30025,6 @@
       ]
     },
     {
-      "word": "Landlord",
-      "translate": "Ev sahibi",
-      "quiz": "The .... raised the rent without any prior notice.",
-      "quizTranslate": "Ev sahibi, önceden bildirimde bulunmadan kirayı artırdı.",
-      "translateList": [
-        {
-          "label": "Landlord",
-          "isCorrect": true
-        },
-        {
-          "label": "Tenant",
-          "isCorrect": false
-        },
-        {
-          "label": "Resident",
-          "isCorrect": false
-        },
-        {
-          "label": "Manager",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Lawn",
       "translate": "Çimenlik alan",
       "quiz": "They decided to have a picnic on the .... in the park.",

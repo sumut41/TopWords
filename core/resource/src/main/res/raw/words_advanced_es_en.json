@@ -11089,30 +11089,6 @@
       ]
     },
     {
-      "word": "Gear",
-      "translate": "Engranaje",
-      "quiz": "The car was stuck in the wrong .... and wouldn’t move.",
-      "quizTranslate": "El coche estaba atascado en el engranaje equivocado y no se movía.",
-      "translateList": [
-        {
-          "label": "Gear",
-          "isCorrect": true
-        },
-        {
-          "label": "Speed",
-          "isCorrect": false
-        },
-        {
-          "label": "Power",
-          "isCorrect": false
-        },
-        {
-          "label": "Mode",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Generic",
       "translate": "Genérico",
       "quiz": "This product is a .... version, not the original brand.",
@@ -30046,30 +30022,6 @@
         },
         {
           "label": "Heart",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Landlord",
-      "translate": "Propietario",
-      "quiz": "The .... raised the rent without any prior notice.",
-      "quizTranslate": "El propietario subió el alquiler sin previo aviso.",
-      "translateList": [
-        {
-          "label": "Landlord",
-          "isCorrect": true
-        },
-        {
-          "label": "Tenant",
-          "isCorrect": false
-        },
-        {
-          "label": "Resident",
-          "isCorrect": false
-        },
-        {
-          "label": "Manager",
           "isCorrect": false
         }
       ]

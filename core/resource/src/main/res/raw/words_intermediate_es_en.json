@@ -17881,30 +17881,6 @@
       ]
     },
     {
-      "word": "Include",
-      "translate": "Incluir",
-      "quiz": "Make sure to .... all the necessary details in your application.",
-      "quizTranslate": "Asegúrate de incluir todos los detalles necesarios en tu solicitud.",
-      "translateList": [
-        {
-          "label": "Include",
-          "isCorrect": true
-        },
-        {
-          "label": "Contain",
-          "isCorrect": false
-        },
-        {
-          "label": "Incorporate",
-          "isCorrect": false
-        },
-        {
-          "label": "Encompass",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Increase",
       "translate": "Aumentar, incremento",
       "quiz": "They plan to .... the product price next month.",
@@ -37533,6 +37509,1038 @@
         },
         {
           "label": "Coat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wholesale",
+      "translate": "Venta al por mayor",
+      "quiz": "The company sells its products at .... prices to retailers.",
+      "quizTranslate": "La empresa vende sus productos a precios mayoristas a los minoristas.",
+      "translateList": [
+        {
+          "label": "Wholesale",
+          "isCorrect": true
+        },
+        {
+          "label": "Retail",
+          "isCorrect": false
+        },
+        {
+          "label": "Discount",
+          "isCorrect": false
+        },
+        {
+          "label": "Luxury",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wealthy",
+      "translate": "Rico",
+      "quiz": "He is one of the most .... businessmen in the country.",
+      "quizTranslate": "Es uno de los empresarios más ricos del país.",
+      "translateList": [
+        {
+          "label": "Wealthy",
+          "isCorrect": true
+        },
+        {
+          "label": "Poor",
+          "isCorrect": false
+        },
+        {
+          "label": "Generous",
+          "isCorrect": false
+        },
+        {
+          "label": "Successful",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Underline",
+      "translate": "Subrayar",
+      "quiz": "Please .... the key points in your notes.",
+      "quizTranslate": "Por favor, subraya los puntos clave en tus notas.",
+      "translateList": [
+        {
+          "label": "Underline",
+          "isCorrect": true
+        },
+        {
+          "label": "Highlight",
+          "isCorrect": false
+        },
+        {
+          "label": "Circle",
+          "isCorrect": false
+        },
+        {
+          "label": "Write",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Supplier",
+      "translate": "Proveedor",
+      "quiz": "The company is looking for a new .... of raw materials.",
+      "quizTranslate": "La empresa está buscando un nuevo proveedor de materias primas.",
+      "translateList": [
+        {
+          "label": "Supplier",
+          "isCorrect": true
+        },
+        {
+          "label": "Manufacturer",
+          "isCorrect": false
+        },
+        {
+          "label": "Retailer",
+          "isCorrect": false
+        },
+        {
+          "label": "Customer",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Skyscraper",
+      "translate": "Rascacielos",
+      "quiz": "The city is famous for its modern .....",
+      "quizTranslate": "La ciudad es famosa por sus modernos rascacielos.",
+      "translateList": [
+        {
+          "label": "Skyscraper",
+          "isCorrect": true
+        },
+        {
+          "label": "Building",
+          "isCorrect": false
+        },
+        {
+          "label": "Tower",
+          "isCorrect": false
+        },
+        {
+          "label": "Factory",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Resolution",
+      "translate": "Resolución",
+      "quiz": "My New Year’s .... is to exercise more.",
+      "quizTranslate": "Mi resolución de Año Nuevo es hacer más ejercicio.",
+      "translateList": [
+        {
+          "label": "Resolution",
+          "isCorrect": true
+        },
+        {
+          "label": "Promise",
+          "isCorrect": false
+        },
+        {
+          "label": "Plan",
+          "isCorrect": false
+        },
+        {
+          "label": "Goal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Recognise",
+      "translate": "Reconocer",
+      "quiz": "I didn’t .... you with that new haircut!",
+      "quizTranslate": "¡No te reconocí con ese nuevo corte de pelo!",
+      "translateList": [
+        {
+          "label": "Recognise",
+          "isCorrect": true
+        },
+        {
+          "label": "See",
+          "isCorrect": false
+        },
+        {
+          "label": "Meet",
+          "isCorrect": false
+        },
+        {
+          "label": "Remember",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Quarrel",
+      "translate": "Discutir",
+      "quiz": "They had a big .... about the project deadline.",
+      "quizTranslate": "Tuvieron una gran discusión sobre la fecha límite del proyecto.",
+      "translateList": [
+        {
+          "label": "Quarrel",
+          "isCorrect": true
+        },
+        {
+          "label": "Conversation",
+          "isCorrect": false
+        },
+        {
+          "label": "Agreement",
+          "isCorrect": false
+        },
+        {
+          "label": "Debate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Punctual",
+      "translate": "Puntual",
+      "quiz": "He is always .... for meetings.",
+      "quizTranslate": "Siempre es puntual para las reuniones.",
+      "translateList": [
+        {
+          "label": "Punctual",
+          "isCorrect": true
+        },
+        {
+          "label": "Late",
+          "isCorrect": false
+        },
+        {
+          "label": "Early",
+          "isCorrect": false
+        },
+        {
+          "label": "Flexible",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Prohibit",
+      "translate": "Prohibir",
+      "quiz": "Smoking is .... in all public places.",
+      "quizTranslate": "Fumar está prohibido en todos los lugares públicos.",
+      "translateList": [
+        {
+          "label": "Prohibit",
+          "isCorrect": true
+        },
+        {
+          "label": "Encourage",
+          "isCorrect": false
+        },
+        {
+          "label": "Allow",
+          "isCorrect": false
+        },
+        {
+          "label": "Invite",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Process",
+      "translate": "Proceso",
+      "quiz": "The hiring .... involves several interview stages.",
+      "quizTranslate": "El proceso de contratación implica varias etapas de entrevista.",
+      "translateList": [
+        {
+          "label": "Process",
+          "isCorrect": true
+        },
+        {
+          "label": "Action",
+          "isCorrect": false
+        },
+        {
+          "label": "Task",
+          "isCorrect": false
+        },
+        {
+          "label": "Step",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Percentage",
+      "translate": "Porcentaje",
+      "quiz": "The company raised the prices by 10% .....",
+      "quizTranslate": "La empresa aumentó los precios en un 10%.",
+      "translateList": [
+        {
+          "label": "Percentage",
+          "isCorrect": true
+        },
+        {
+          "label": "Fraction",
+          "isCorrect": false
+        },
+        {
+          "label": "Amount",
+          "isCorrect": false
+        },
+        {
+          "label": "Ratio",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Patience",
+      "translate": "Paciencia",
+      "quiz": "You need a lot of .... to deal with difficult customers.",
+      "quizTranslate": "Necesitas mucha paciencia para tratar con clientes difíciles.",
+      "translateList": [
+        {
+          "label": "Patience",
+          "isCorrect": true
+        },
+        {
+          "label": "Anger",
+          "isCorrect": false
+        },
+        {
+          "label": "Effort",
+          "isCorrect": false
+        },
+        {
+          "label": "Courage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Merchandise",
+      "translate": "Mercancía",
+      "quiz": "The store displays a variety of .... on the shelves.",
+      "quizTranslate": "La tienda exhibe una variedad de mercancías en los estantes.",
+      "translateList": [
+        {
+          "label": "Merchandise",
+          "isCorrect": true
+        },
+        {
+          "label": "Furniture",
+          "isCorrect": false
+        },
+        {
+          "label": "Stock",
+          "isCorrect": false
+        },
+        {
+          "label": "Goods",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Marvellous",
+      "translate": "Maravilloso",
+      "quiz": "The view from the top of the mountain was absolutely ....",
+      "quizTranslate": "La vista desde la cima de la montaña era absolutamente maravillosa.",
+      "translateList": [
+        {
+          "label": "Marvellous",
+          "isCorrect": true
+        },
+        {
+          "label": "Boring",
+          "isCorrect": false
+        },
+        {
+          "label": "Terrible",
+          "isCorrect": false
+        },
+        {
+          "label": "Average",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Magnificent",
+      "translate": "Magnífico",
+      "quiz": "The palace was a .... example of ancient architecture.",
+      "quizTranslate": "El palacio era un magnífico ejemplo de arquitectura antigua.",
+      "translateList": [
+        {
+          "label": "Magnificent",
+          "isCorrect": true
+        },
+        {
+          "label": "Small",
+          "isCorrect": false
+        },
+        {
+          "label": "Modest",
+          "isCorrect": false
+        },
+        {
+          "label": "Unimpressive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Kidnapping",
+      "translate": "Secuestro",
+      "quiz": "The police are investigating a case of .... in the city.",
+      "quizTranslate": "La policía está investigando un caso de secuestro en la ciudad.",
+      "translateList": [
+        {
+          "label": "Kidnapping",
+          "isCorrect": true
+        },
+        {
+          "label": "Theft",
+          "isCorrect": false
+        },
+        {
+          "label": "Fraud",
+          "isCorrect": false
+        },
+        {
+          "label": "Murder",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Invoice",
+      "translate": "Factura",
+      "quiz": "The .... for the order was sent to the client yesterday.",
+      "quizTranslate": "La factura del pedido fue enviada al cliente ayer.",
+      "translateList": [
+        {
+          "label": "Invoice",
+          "isCorrect": true
+        },
+        {
+          "label": "Receipt",
+          "isCorrect": false
+        },
+        {
+          "label": "Contract",
+          "isCorrect": false
+        },
+        {
+          "label": "Bill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inspector",
+      "translate": "Inspector",
+      "quiz": "The safety .... checked all the equipment before the event.",
+      "quizTranslate": "El inspector de seguridad revisó todo el equipo antes del evento.",
+      "translateList": [
+        {
+          "label": "Inspector",
+          "isCorrect": true
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Supervisor",
+          "isCorrect": false
+        },
+        {
+          "label": "Worker",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inflation",
+      "translate": "Inflación",
+      "quiz": "The government is taking steps to control .....",
+      "quizTranslate": "El gobierno está tomando medidas para controlar la inflación.",
+      "translateList": [
+        {
+          "label": "Inflation",
+          "isCorrect": true
+        },
+        {
+          "label": "Deflation",
+          "isCorrect": false
+        },
+        {
+          "label": "Recession",
+          "isCorrect": false
+        },
+        {
+          "label": "Growth",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Hair-dryer",
+      "translate": "Secador de pelo",
+      "quiz": "She used a .... to dry her hair after the shower.",
+      "quizTranslate": "Usó un secador de pelo para secarse el cabello después de la ducha.",
+      "translateList": [
+        {
+          "label": "Hair-dryer",
+          "isCorrect": true
+        },
+        {
+          "label": "Iron",
+          "isCorrect": false
+        },
+        {
+          "label": "Fan",
+          "isCorrect": false
+        },
+        {
+          "label": "Toaster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Globalization",
+      "translate": "Globalización",
+      "quiz": ".... has led to increased international trade and communication.",
+      "quizTranslate": "La globalización ha llevado a un aumento del comercio y la comunicación internacional.",
+      "translateList": [
+        {
+          "label": "Globalization",
+          "isCorrect": true
+        },
+        {
+          "label": "Isolation",
+          "isCorrect": false
+        },
+        {
+          "label": "Localization",
+          "isCorrect": false
+        },
+        {
+          "label": "Segregation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Foolish",
+      "translate": "Tonto, absurdo",
+      "quiz": "It was .... of him to ignore such an important piece of advice.",
+      "quizTranslate": "Fue tonto de su parte ignorar un consejo tan importante.",
+      "translateList": [
+        {
+          "label": "Foolish",
+          "isCorrect": true
+        },
+        {
+          "label": "Wise",
+          "isCorrect": false
+        },
+        {
+          "label": "Clever",
+          "isCorrect": false
+        },
+        {
+          "label": "Smart",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fluent",
+      "translate": "Fluido",
+      "quiz": "She is .... in both French and English.",
+      "quizTranslate": "Ella habla francés e inglés con fluidez.",
+      "translateList": [
+        {
+          "label": "Fluent",
+          "isCorrect": true
+        },
+        {
+          "label": "Beginner",
+          "isCorrect": false
+        },
+        {
+          "label": "Basic",
+          "isCorrect": false
+        },
+        {
+          "label": "Inexperienced",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Envy",
+      "translate": "Envidia",
+      "quiz": "He felt a strong sense of .... when he saw his colleague's promotion.",
+      "quizTranslate": "Sintió una fuerte envidia cuando vio la promoción de su colega.",
+      "translateList": [
+        {
+          "label": "Envy",
+          "isCorrect": true
+        },
+        {
+          "label": "Pride",
+          "isCorrect": false
+        },
+        {
+          "label": "Gratitude",
+          "isCorrect": false
+        },
+        {
+          "label": "Happiness",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Entrepreneur",
+      "translate": "Emprendedor",
+      "quiz": "An ambitious .... started a tech company in his garage.",
+      "quizTranslate": "Un emprendedor ambicioso fundó una empresa de tecnología en su garaje.",
+      "translateList": [
+        {
+          "label": "Entrepreneur",
+          "isCorrect": true
+        },
+        {
+          "label": "Employee",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Investor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Election",
+      "translate": "Elección",
+      "quiz": "The .... for the next president will take place in November.",
+      "quizTranslate": "La elección del próximo presidente tendrá lugar en noviembre.",
+      "translateList": [
+        {
+          "label": "Election",
+          "isCorrect": true
+        },
+        {
+          "label": "Meeting",
+          "isCorrect": false
+        },
+        {
+          "label": "Competition",
+          "isCorrect": false
+        },
+        {
+          "label": "Debate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Devaluation",
+      "translate": "Devaluación",
+      "quiz": "The country is facing a significant .... of its currency.",
+      "quizTranslate": "El país enfrenta una devaluación significativa de su moneda.",
+      "translateList": [
+        {
+          "label": "Devaluation",
+          "isCorrect": true
+        },
+        {
+          "label": "Appreciation",
+          "isCorrect": false
+        },
+        {
+          "label": "Stabilization",
+          "isCorrect": false
+        },
+        {
+          "label": "Inflation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Deceive",
+      "translate": "Engañar",
+      "quiz": "He tried to .... his friends by pretending he knew everything.",
+      "quizTranslate": "Intentó engañar a sus amigos fingiendo que lo sabía todo.",
+      "translateList": [
+        {
+          "label": "Deceive",
+          "isCorrect": true
+        },
+        {
+          "label": "Impress",
+          "isCorrect": false
+        },
+        {
+          "label": "Educate",
+          "isCorrect": false
+        },
+        {
+          "label": "Persuade",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Deadline",
+      "translate": "Fecha límite",
+      "quiz": "The .... for submitting the report is next Friday.",
+      "quizTranslate": "La fecha límite para entregar el informe es el próximo viernes.",
+      "translateList": [
+        {
+          "label": "Deadline",
+          "isCorrect": true
+        },
+        {
+          "label": "Meeting",
+          "isCorrect": false
+        },
+        {
+          "label": "Task",
+          "isCorrect": false
+        },
+        {
+          "label": "Milestone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Dashboard",
+      "translate": "Tablero de instrumentos",
+      "quiz": "The car's .... shows important information like speed and fuel level.",
+      "quizTranslate": "El tablero de instrumentos del coche muestra información importante como la velocidad y el nivel de combustible.",
+      "translateList": [
+        {
+          "label": "Dashboard",
+          "isCorrect": true
+        },
+        {
+          "label": "Mirror",
+          "isCorrect": false
+        },
+        {
+          "label": "Windshield",
+          "isCorrect": false
+        },
+        {
+          "label": "Seat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Crossword",
+      "translate": "Crucigrama",
+      "quiz": "She enjoys solving a .... puzzle every morning.",
+      "quizTranslate": "Disfruta resolviendo un crucigrama cada mañana.",
+      "translateList": [
+        {
+          "label": "Crossword",
+          "isCorrect": true
+        },
+        {
+          "label": "Sudoku",
+          "isCorrect": false
+        },
+        {
+          "label": "Word search",
+          "isCorrect": false
+        },
+        {
+          "label": "Riddle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Confess",
+      "translate": "Confesar",
+      "quiz": "He decided to .... to his mistake and apologize.",
+      "quizTranslate": "Decidió confesar su error y pedir disculpas.",
+      "translateList": [
+        {
+          "label": "Confess",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Blame",
+          "isCorrect": false
+        },
+        {
+          "label": "Deny",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Clerk",
+      "translate": "Empleado, dependiente",
+      "quiz": "The .... helped me find the right file in the office.",
+      "quizTranslate": "El empleado me ayudó a encontrar el archivo correcto en la oficina.",
+      "translateList": [
+        {
+          "label": "Clerk",
+          "isCorrect": true
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Assistant",
+          "isCorrect": false
+        },
+        {
+          "label": "Director",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Circumstances",
+      "translate": "Circunstancias",
+      "quiz": "Due to unforeseen ...., the event was postponed.",
+      "quizTranslate": "Debido a circunstancias imprevistas, el evento fue pospuesto.",
+      "translateList": [
+        {
+          "label": "Circumstances",
+          "isCorrect": true
+        },
+        {
+          "label": "Conditions",
+          "isCorrect": false
+        },
+        {
+          "label": "Consequences",
+          "isCorrect": false
+        },
+        {
+          "label": "Reasons",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Charming",
+      "translate": "Encantador",
+      "quiz": "He is a very .... person, everyone enjoys talking to him.",
+      "quizTranslate": "Es una persona muy encantadora, todos disfrutan hablar con él.",
+      "translateList": [
+        {
+          "label": "Charming",
+          "isCorrect": true
+        },
+        {
+          "label": "Boring",
+          "isCorrect": false
+        },
+        {
+          "label": "Unfriendly",
+          "isCorrect": false
+        },
+        {
+          "label": "Rude",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bribe",
+      "translate": "Soborno",
+      "quiz": "The politician was accused of accepting a .... from a businessman.",
+      "quizTranslate": "El político fue acusado de aceptar un soborno de un empresario.",
+      "translateList": [
+        {
+          "label": "Bribe",
+          "isCorrect": true
+        },
+        {
+          "label": "Loan",
+          "isCorrect": false
+        },
+        {
+          "label": "Gift",
+          "isCorrect": false
+        },
+        {
+          "label": "Reward",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beggar",
+      "translate": "Mendigo",
+      "quiz": "The .... asked for some change outside the store.",
+      "quizTranslate": "El mendigo pidió algo de cambio afuera de la tienda.",
+      "translateList": [
+        {
+          "label": "Beggar",
+          "isCorrect": true
+        },
+        {
+          "label": "Vendor",
+          "isCorrect": false
+        },
+        {
+          "label": "Worker",
+          "isCorrect": false
+        },
+        {
+          "label": "Shopkeeper",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Beg",
+      "translate": "Rogar, suplicar",
+      "quiz": "The dog .... for food after being abandoned by its owner.",
+      "quizTranslate": "El perro suplicó por comida después de ser abandonado por su dueño.",
+      "translateList": [
+        {
+          "label": "Beg",
+          "isCorrect": true
+        },
+        {
+          "label": "Ask",
+          "isCorrect": false
+        },
+        {
+          "label": "Demand",
+          "isCorrect": false
+        },
+        {
+          "label": "Order",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bankrupt",
+      "translate": "Quebrado, en bancarrota",
+      "quiz": "The company went .... after several years of financial struggles.",
+      "quizTranslate": "La empresa se declaró en bancarrota después de varios años de dificultades financieras.",
+      "translateList": [
+        {
+          "label": "Bankrupt",
+          "isCorrect": true
+        },
+        {
+          "label": "Successful",
+          "isCorrect": false
+        },
+        {
+          "label": "Rich",
+          "isCorrect": false
+        },
+        {
+          "label": "Wealthy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Amusement",
+      "translate": "Diversión, entretenimiento",
+      "quiz": "The park has many attractions for .....",
+      "quizTranslate": "El parque tiene muchas atracciones para la diversión.",
+      "translateList": [
+        {
+          "label": "Amusement",
+          "isCorrect": true
+        },
+        {
+          "label": "Education",
+          "isCorrect": false
+        },
+        {
+          "label": "Work",
+          "isCorrect": false
+        },
+        {
+          "label": "Rest",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Aisle",
+      "translate": "Pasillo",
+      "quiz": "The flowers were placed along the .... of the church.",
+      "quizTranslate": "Las flores fueron colocadas a lo largo del pasillo de la iglesia.",
+      "translateList": [
+        {
+          "label": "Aisle",
+          "isCorrect": true
+        },
+        {
+          "label": "Hallway",
+          "isCorrect": false
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        },
+        {
+          "label": "Corridor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Agriculture",
+      "translate": "Agricultura",
+      "quiz": ".... plays a crucial role in the economy of many countries.",
+      "quizTranslate": "La agricultura juega un papel crucial en la economía de muchos países.",
+      "translateList": [
+        {
+          "label": "Agriculture",
+          "isCorrect": true
+        },
+        {
+          "label": "Industry",
+          "isCorrect": false
+        },
+        {
+          "label": "Technology",
+          "isCorrect": false
+        },
+        {
+          "label": "Construction",
           "isCorrect": false
         }
       ]

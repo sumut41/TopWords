@@ -13129,30 +13129,6 @@
       ]
     },
     {
-      "word": "Gear",
-      "translate": "Vites, dişli",
-      "quiz": "He shifted the .... to drive faster.",
-      "quizTranslate": "Daha hızlı gitmek için vites değiştirdi.",
-      "translateList": [
-        {
-          "label": "Gear",
-          "isCorrect": true
-        },
-        {
-          "label": "Wheel",
-          "isCorrect": false
-        },
-        {
-          "label": "Pedal",
-          "isCorrect": false
-        },
-        {
-          "label": "Handle",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Get",
       "translate": "Almak, edinmek",
       "quiz": "I will .... a new phone tomorrow.",
