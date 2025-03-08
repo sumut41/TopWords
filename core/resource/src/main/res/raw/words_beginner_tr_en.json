@@ -2473,30 +2473,6 @@
       ]
     },
     {
-      "word": "Advice",
-      "translate": "Tavsiye, öğüt",
-      "quiz": "He gave me some useful .... on how to improve my presentation.",
-      "quizTranslate": "Sunumumu nasıl geliştireceğimle ilgili bana bazı yararlı tavsiyeler verdi.",
-      "translateList": [
-        {
-          "label": "Advice",
-          "isCorrect": true
-        },
-        {
-          "label": "Request",
-          "isCorrect": false
-        },
-        {
-          "label": "Warning",
-          "isCorrect": false
-        },
-        {
-          "label": "Criticism",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Amazing",
       "translate": "Şaşırtıcı, harika",
       "quiz": "The view from the top of the mountain was absolutely ....",
@@ -13129,30 +13105,6 @@
       ]
     },
     {
-      "word": "Gear",
-      "translate": "Vites, dişli",
-      "quiz": "He shifted the .... to drive faster.",
-      "quizTranslate": "Daha hızlı gitmek için vites değiştirdi.",
-      "translateList": [
-        {
-          "label": "Gear",
-          "isCorrect": true
-        },
-        {
-          "label": "Wheel",
-          "isCorrect": false
-        },
-        {
-          "label": "Pedal",
-          "isCorrect": false
-        },
-        {
-          "label": "Handle",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Get",
       "translate": "Almak, edinmek",
       "quiz": "I will .... a new phone tomorrow.",
@@ -22057,30 +22009,6 @@
       ]
     },
     {
-      "word": "Plug",
-      "translate": "Fiş",
-      "quiz": "Don’t forget to put the .... into the socket.",
-      "quizTranslate": "Fişi prizde takmayı unutma.",
-      "translateList": [
-        {
-          "label": "Plug",
-          "isCorrect": true
-        },
-        {
-          "label": "Wire",
-          "isCorrect": false
-        },
-        {
-          "label": "Cable",
-          "isCorrect": false
-        },
-        {
-          "label": "Socket",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Pocket",
       "translate": "Cep",
       "quiz": "I put my keys in my ....",
@@ -22388,30 +22316,6 @@
         },
         {
           "label": "Jazz",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Advice",
-      "translate": "Tavsiye",
-      "quiz": "She gave me valuable ....",
-      "quizTranslate": "Bana değerli tavsiyeler verdi.",
-      "translateList": [
-        {
-          "label": "Advice",
-          "isCorrect": true
-        },
-        {
-          "label": "Information",
-          "isCorrect": false
-        },
-        {
-          "label": "Instruction",
-          "isCorrect": false
-        },
-        {
-          "label": "Suggestion",
           "isCorrect": false
         }
       ]
@@ -35764,30 +35668,6 @@
       ]
     },
     {
-      "word": "Guess",
-      "translate": "Tahmin etmek",
-      "quiz": "Can you .... what time the train arrives?",
-      "quizTranslate": "Trenin saat kaçta geldiğini tahmin edebilir misin?",
-      "translateList": [
-        {
-          "label": "Guess",
-          "isCorrect": true
-        },
-        {
-          "label": "Calculate",
-          "isCorrect": false
-        },
-        {
-          "label": "Know",
-          "isCorrect": false
-        },
-        {
-          "label": "Estimate",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Guitar",
       "translate": "Gitar",
       "quiz": "He played the .... beautifully during the concert.",
@@ -35956,54 +35836,6 @@
       ]
     },
     {
-      "word": "Imagine",
-      "translate": "Hayal etmek, tasavvur etmek",
-      "quiz": "Can you .... what it would be like to live on Mars?",
-      "quizTranslate": "Mars'ta yaşamanın nasıl olacağını hayal edebiliyor musun?",
-      "translateList": [
-        {
-          "label": "Imagine",
-          "isCorrect": true
-        },
-        {
-          "label": "Know",
-          "isCorrect": false
-        },
-        {
-          "label": "Understand",
-          "isCorrect": false
-        },
-        {
-          "label": "Think",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Improve",
-      "translate": "İyileştirmek, geliştirmek",
-      "quiz": "She worked hard to .... her English skills.",
-      "quizTranslate": "İngilizce becerilerini geliştirmek için çok çalıştı.",
-      "translateList": [
-        {
-          "label": "Improve",
-          "isCorrect": true
-        },
-        {
-          "label": "Reduce",
-          "isCorrect": false
-        },
-        {
-          "label": "Increase",
-          "isCorrect": false
-        },
-        {
-          "label": "Decline",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "In",
       "translate": "İçinde, -de, -da",
       "quiz": "The keys are .... the drawer.",
@@ -36071,30 +35903,6 @@
         },
         {
           "label": "Phone",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Interview",
-      "translate": "Röportaj, görüşme",
-      "quiz": "I have an .... tomorrow for the job position.",
-      "quizTranslate": "Yarın iş pozisyonu için bir görüşmem var.",
-      "translateList": [
-        {
-          "label": "Interview",
-          "isCorrect": true
-        },
-        {
-          "label": "Meeting",
-          "isCorrect": false
-        },
-        {
-          "label": "Conversation",
-          "isCorrect": false
-        },
-        {
-          "label": "Presentation",
           "isCorrect": false
         }
       ]
@@ -39047,6 +38855,102 @@
         },
         {
           "label": "Crow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Calculator",
+      "translate": "Hesap makinesi",
+      "quiz": "She used a .... to solve the math problem quickly.",
+      "quizTranslate": "Matematik problemini hızlıca çözmek için hesap makinesi kullandı.",
+      "translateList": [
+        {
+          "label": "Calculator",
+          "isCorrect": true
+        },
+        {
+          "label": "Computer",
+          "isCorrect": false
+        },
+        {
+          "label": "Phone",
+          "isCorrect": false
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lite",
+      "translate": "Hafif, düşük kalorili",
+      "quiz": "I prefer the .... version of the app because it uses less data.",
+      "quizTranslate": "Daha az veri kullandığı için uygulamanın hafif sürümünü tercih ediyorum.",
+      "translateList": [
+        {
+          "label": "Lite",
+          "isCorrect": true
+        },
+        {
+          "label": "Full",
+          "isCorrect": false
+        },
+        {
+          "label": "Advanced",
+          "isCorrect": false
+        },
+        {
+          "label": "Premium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Armchair",
+      "translate": "Koltuk",
+      "quiz": "He sat in his favorite .... and read a book.",
+      "quizTranslate": "En sevdiği koltuğuna oturdu ve kitap okudu.",
+      "translateList": [
+        {
+          "label": "Armchair",
+          "isCorrect": true
+        },
+        {
+          "label": "Sofa",
+          "isCorrect": false
+        },
+        {
+          "label": "Couch",
+          "isCorrect": false
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sofa",
+      "translate": "Kanepe",
+      "quiz": "They bought a new .... for the living room.",
+      "quizTranslate": "Oturma odası için yeni bir kanepe aldılar.",
+      "translateList": [
+        {
+          "label": "Sofa",
+          "isCorrect": true
+        },
+        {
+          "label": "Chair",
+          "isCorrect": false
+        },
+        {
+          "label": "Couch",
+          "isCorrect": false
+        },
+        {
+          "label": "Armchair",
           "isCorrect": false
         }
       ]
