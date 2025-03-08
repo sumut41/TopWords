@@ -1057,30 +1057,6 @@
       ]
     },
     {
-      "word": "Affection",
-      "translate": "Afecto, cariño",
-      "quiz": "She showed great .... for her pet.",
-      "quizTranslate": "Ella mostró un gran afecto por su mascota.",
-      "translateList": [
-        {
-          "label": "Affection",
-          "isCorrect": true
-        },
-        {
-          "label": "Anger",
-          "isCorrect": false
-        },
-        {
-          "label": "Fear",
-          "isCorrect": false
-        },
-        {
-          "label": "Hate",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Aftermath",
       "translate": "Consecuencia, secuelas",
       "quiz": "The country is still dealing with the .... of the earthquake.",
