@@ -1057,30 +1057,6 @@
       ]
     },
     {
-      "word": "Affection",
-      "translate": "Sevgi, şefkat",
-      "quiz": "She showed great .... for her pet.",
-      "quizTranslate": "O, evcil hayvanına büyük sevgi gösterdi.",
-      "translateList": [
-        {
-          "label": "Affection",
-          "isCorrect": true
-        },
-        {
-          "label": "Anger",
-          "isCorrect": false
-        },
-        {
-          "label": "Fear",
-          "isCorrect": false
-        },
-        {
-          "label": "Hate",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Aftermath",
       "translate": "Sonrasındaki durum, akıbet",
       "quiz": "The country is still dealing with the .... of the earthquake.",

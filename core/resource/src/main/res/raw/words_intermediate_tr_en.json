@@ -9745,30 +9745,6 @@
       ]
     },
     {
-      "word": "Citizen",
-      "translate": "Vatandaş",
-      "quiz": "Every .... has the right to vote.",
-      "quizTranslate": "Her vatandaşın oy kullanma hakkı vardır.",
-      "translateList": [
-        {
-          "label": "Citizen",
-          "isCorrect": true
-        },
-        {
-          "label": "Resident",
-          "isCorrect": false
-        },
-        {
-          "label": "Inhabitant",
-          "isCorrect": false
-        },
-        {
-          "label": "Visitor",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Civil",
       "translate": "Sivil",
       "quiz": "The .... rights of the people must be protected.",
@@ -32065,30 +32041,6 @@
       ]
     },
     {
-      "word": "Strange",
-      "translate": "Garip, tuhaf",
-      "quiz": "There is something .... about this place.",
-      "quizTranslate": "Bu yerle ilgili garip bir şey var.",
-      "translateList": [
-        {
-          "label": "Strange",
-          "isCorrect": true
-        },
-        {
-          "label": "Unusual",
-          "isCorrect": false
-        },
-        {
-          "label": "Weird",
-          "isCorrect": false
-        },
-        {
-          "label": "Odd",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Strategy",
       "translate": "Strateji",
       "quiz": "They are planning a new marketing ....",
@@ -32444,30 +32396,6 @@
         },
         {
           "label": "Ignore",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Suggest",
-      "translate": "Önermek",
-      "quiz": "Can you .... a good restaurant?",
-      "quizTranslate": "Bana iyi bir restoran önerebilir misin?",
-      "translateList": [
-        {
-          "label": "Suggest",
-          "isCorrect": true
-        },
-        {
-          "label": "Decide",
-          "isCorrect": false
-        },
-        {
-          "label": "Refuse",
-          "isCorrect": false
-        },
-        {
-          "label": "Ask",
           "isCorrect": false
         }
       ]
@@ -38900,6 +38828,271 @@
         },
         {
           "label": "Independence",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "word": "Adult",
+      "translate": "Yetişkin",
+      "quiz": "You must be an .... to drive a car.",
+      "quizTranslate": "Araba kullanmak için yetişkin olmalısın.",
+      "translateList": [
+        {
+          "label": "Adult",
+          "isCorrect": true
+        },
+        {
+          "label": "Child",
+          "isCorrect": false
+        },
+        {
+          "label": "Teenager",
+          "isCorrect": false
+        },
+        {
+          "label": "Baby",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bulb",
+      "translate": "Ampul",
+      "quiz": "The .... in the living room needs to be replaced.",
+      "quizTranslate": "Oturma odasındaki ampulün değiştirilmesi gerekiyor.",
+      "translateList": [
+        {
+          "label": "Bulb",
+          "isCorrect": true
+        },
+        {
+          "label": "Lamp",
+          "isCorrect": false
+        },
+        {
+          "label": "Torch",
+          "isCorrect": false
+        },
+        {
+          "label": "Candle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Socket",
+      "translate": "Priz, soket, giriş",
+      "quiz": "Please plug the charger into the ....",
+      "quizTranslate": "Lütfen şarj aletini prize takın.",
+      "translateList": [
+        {
+          "label": "Socket",
+          "isCorrect": true
+        },
+        {
+          "label": "Wire",
+          "isCorrect": false
+        },
+        {
+          "label": "Plug",
+          "isCorrect": false
+        },
+        {
+          "label": "Cable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Headlight",
+      "translate": "Far",
+      "quiz": "The car’s .... is broken, so I can’t drive at night.",
+      "quizTranslate": "Arabanın farı bozuldu, bu yüzden gece araba süremem.",
+      "translateList": [
+        {
+          "label": "Headlight",
+          "isCorrect": true
+        },
+        {
+          "label": "Taillight",
+          "isCorrect": false
+        },
+        {
+          "label": "Indicator",
+          "isCorrect": false
+        },
+        {
+          "label": "Signal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jewel",
+      "translate": "Mücevher",
+      "quiz": "She wore a beautiful .... around her neck at the wedding.",
+      "quizTranslate": "Düğünde boynunda güzel bir mücevher vardı.",
+      "translateList": [
+        {
+          "label": "Jewel",
+          "isCorrect": true
+        },
+        {
+          "label": "Ring",
+          "isCorrect": false
+        },
+        {
+          "label": "Necklace",
+          "isCorrect": false
+        },
+        {
+          "label": "Bracelet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ashtray",
+      "translate": "Kül tablası",
+      "quiz": "Please use the .... to dispose of your cigarette.",
+      "quizTranslate": "Sigaranızı atmak için kül tablasını kullanın lütfen.",
+      "translateList": [
+        {
+          "label": "Ashtray",
+          "isCorrect": true
+        },
+        {
+          "label": "Bin",
+          "isCorrect": false
+        },
+        {
+          "label": "Trash",
+          "isCorrect": false
+        },
+        {
+          "label": "Container",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stationery",
+      "translate": "Kırtasiye",
+      "quiz": "The store sells a variety of .... including pens and notebooks.",
+      "quizTranslate": "Mağaza, kalem ve defter dahil olmak üzere çeşitli kırtasiye ürünleri satıyor.",
+      "translateList": [
+        {
+          "label": "Stationery",
+          "isCorrect": true
+        },
+        {
+          "label": "Electronics",
+          "isCorrect": false
+        },
+        {
+          "label": "Toys",
+          "isCorrect": false
+        },
+        {
+          "label": "Furniture",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Steward",
+      "translate": "Kaptan, görevli",
+      "quiz": "The flight .... helped passengers with their luggage.",
+      "quizTranslate": "Uçuş görevlisi, yolcuların bagajlarına yardımcı oldu.",
+      "translateList": [
+        {
+          "label": "Steward",
+          "isCorrect": true
+        },
+        {
+          "label": "Pilot",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Waiter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sneeze",
+      "translate": "Hapşırmak",
+      "quiz": "He couldn't stop .... during the allergy season.",
+      "quizTranslate": "Alerji sezonunda hapşırmayı durduramıyordu.",
+      "translateList": [
+        {
+          "label": "Sneeze",
+          "isCorrect": true
+        },
+        {
+          "label": "Cough",
+          "isCorrect": false
+        },
+        {
+          "label": "Laugh",
+          "isCorrect": false
+        },
+        {
+          "label": "Yawn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Burglar",
+      "translate": "Hırsız",
+      "quiz": "The .... broke into the house while they were on vacation.",
+      "quizTranslate": "Hırsız, onlar tatildeyken eve girdi.",
+      "translateList": [
+        {
+          "label": "Burglar",
+          "isCorrect": true
+        },
+        {
+          "label": "Thief",
+          "isCorrect": false
+        },
+        {
+          "label": "Robber",
+          "isCorrect": false
+        },
+        {
+          "label": "Mugger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Confused",
+      "translate": "Kafası karışmış, şaşkın",
+      "quiz": "She felt .... after hearing all the different opinions on the matter.",
+      "quizTranslate": "Konu hakkındaki tüm farklı görüşleri duyduktan sonra kafası karıştı.",
+      "translateList": [
+        {
+          "label": "Confused",
+          "isCorrect": true
+        },
+        {
+          "label": "Sure",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
           "isCorrect": false
         }
       ]

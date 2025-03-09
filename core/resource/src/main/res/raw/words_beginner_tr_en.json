@@ -481,30 +481,6 @@
       ]
     },
     {
-      "word": "Adult",
-      "translate": "Yetişkin",
-      "quiz": "You must be an .... to drive a car.",
-      "quizTranslate": "Araba kullanmak için yetişkin olmalısın.",
-      "translateList": [
-        {
-          "label": "Adult",
-          "isCorrect": true
-        },
-        {
-          "label": "Child",
-          "isCorrect": false
-        },
-        {
-          "label": "Teenager",
-          "isCorrect": false
-        },
-        {
-          "label": "Baby",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Advert",
       "translate": "İlan",
       "quiz": "I saw an .... for a new phone.",
@@ -10724,30 +10700,6 @@
         },
         {
           "label": "Office",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Hope",
-      "translate": "Umut, beklenti",
-      "quiz": "I .... you get the job.",
-      "quizTranslate": "Umarım işi alırsın.",
-      "translateList": [
-        {
-          "label": "Hope",
-          "isCorrect": true
-        },
-        {
-          "label": "Wish",
-          "isCorrect": false
-        },
-        {
-          "label": "Think",
-          "isCorrect": false
-        },
-        {
-          "label": "Take",
           "isCorrect": false
         }
       ]

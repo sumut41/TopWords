@@ -9745,30 +9745,6 @@
       ]
     },
     {
-      "word": "Citizen",
-      "translate": "Cittadino",
-      "quiz": "Every .... has the right to vote.",
-      "quizTranslate": "Ogni cittadino ha il diritto di votare.",
-      "translateList": [
-        {
-          "label": "Citizen",
-          "isCorrect": true
-        },
-        {
-          "label": "Resident",
-          "isCorrect": false
-        },
-        {
-          "label": "Inhabitant",
-          "isCorrect": false
-        },
-        {
-          "label": "Visitor",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Civil",
       "translate": "Civile",
       "quiz": "The .... rights of the people must be protected.",
@@ -32113,30 +32089,6 @@
       ]
     },
     {
-      "word": "Strange",
-      "translate": "Strano",
-      "quiz": "There is something .... about this place.",
-      "quizTranslate": "C'è qualcosa di strano in questo posto.",
-      "translateList": [
-        {
-          "label": "Strange",
-          "isCorrect": true
-        },
-        {
-          "label": "Unusual",
-          "isCorrect": false
-        },
-        {
-          "label": "Weird",
-          "isCorrect": false
-        },
-        {
-          "label": "Odd",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Strategy",
       "translate": "Strategia",
       "quiz": "They are planning a new marketing ....",
@@ -32492,30 +32444,6 @@
         },
         {
           "label": "Ignore",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Suggest",
-      "translate": "Suggerire",
-      "quiz": "Can you .... a good restaurant?",
-      "quizTranslate": "Puoi suggerire un buon ristorante?",
-      "translateList": [
-        {
-          "label": "Suggest",
-          "isCorrect": true
-        },
-        {
-          "label": "Decide",
-          "isCorrect": false
-        },
-        {
-          "label": "Refuse",
-          "isCorrect": false
-        },
-        {
-          "label": "Ask",
           "isCorrect": false
         }
       ]
@@ -38948,6 +38876,270 @@
         },
         {
           "label": "Independence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Adult",
+      "translate": "Adulto",
+      "quiz": "You must be an .... to drive a car.",
+      "quizTranslate": "Devi essere un adulto per guidare un'auto.",
+      "translateList": [
+        {
+          "label": "Adult",
+          "isCorrect": true
+        },
+        {
+          "label": "Child",
+          "isCorrect": false
+        },
+        {
+          "label": "Teenager",
+          "isCorrect": false
+        },
+        {
+          "label": "Baby",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bulb",
+      "translate": "Lampadina",
+      "quiz": "The .... in the living room needs to be replaced.",
+      "quizTranslate": "La .... nel soggiorno deve essere sostituita.",
+      "translateList": [
+        {
+          "label": "Bulb",
+          "isCorrect": true
+        },
+        {
+          "label": "Lamp",
+          "isCorrect": false
+        },
+        {
+          "label": "Torch",
+          "isCorrect": false
+        },
+        {
+          "label": "Candle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Socket",
+      "translate": "Prese, socket, ingresso",
+      "quiz": "Please plug the charger into the ....",
+      "quizTranslate": "Per favore, inserisci il caricabatterie nella ....",
+      "translateList": [
+        {
+          "label": "Socket",
+          "isCorrect": true
+        },
+        {
+          "label": "Wire",
+          "isCorrect": false
+        },
+        {
+          "label": "Plug",
+          "isCorrect": false
+        },
+        {
+          "label": "Cable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Headlight",
+      "translate": "Faro",
+      "quiz": "The car’s .... is broken, so I can’t drive at night.",
+      "quizTranslate": "Il .... dell'auto è rotto, quindi non posso guidare di notte.",
+      "translateList": [
+        {
+          "label": "Headlight",
+          "isCorrect": true
+        },
+        {
+          "label": "Taillight",
+          "isCorrect": false
+        },
+        {
+          "label": "Indicator",
+          "isCorrect": false
+        },
+        {
+          "label": "Signal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jewel",
+      "translate": "Gioiello",
+      "quiz": "She wore a beautiful .... around her neck at the wedding.",
+      "quizTranslate": "Indossava un bellissimo .... intorno al collo durante il matrimonio.",
+      "translateList": [
+        {
+          "label": "Jewel",
+          "isCorrect": true
+        },
+        {
+          "label": "Ring",
+          "isCorrect": false
+        },
+        {
+          "label": "Necklace",
+          "isCorrect": false
+        },
+        {
+          "label": "Bracelet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ashtray",
+      "translate": "Posacenere",
+      "quiz": "Please use the .... to dispose of your cigarette.",
+      "quizTranslate": "Si prega di utilizzare il .... per smaltire la tua sigaretta.",
+      "translateList": [
+        {
+          "label": "Ashtray",
+          "isCorrect": true
+        },
+        {
+          "label": "Bin",
+          "isCorrect": false
+        },
+        {
+          "label": "Trash",
+          "isCorrect": false
+        },
+        {
+          "label": "Container",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stationery",
+      "translate": "Cancelleria",
+      "quiz": "The store sells a variety of .... including pens and notebooks.",
+      "quizTranslate": "Il negozio vende una varietà di .... inclusi penne e quaderni.",
+      "translateList": [
+        {
+          "label": "Stationery",
+          "isCorrect": true
+        },
+        {
+          "label": "Electronics",
+          "isCorrect": false
+        },
+        {
+          "label": "Toys",
+          "isCorrect": false
+        },
+        {
+          "label": "Furniture",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Steward",
+      "translate": "Steward",
+      "quiz": "The flight .... helped passengers with their luggage.",
+      "quizTranslate": "Il .... del volo ha aiutato i passeggeri con i loro bagagli.",
+      "translateList": [
+        {
+          "label": "Steward",
+          "isCorrect": true
+        },
+        {
+          "label": "Pilot",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        },
+        {
+          "label": "Waiter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sneeze",
+      "translate": "Starnutire",
+      "quiz": "He couldn't stop .... during the allergy season.",
+      "quizTranslate": "Non riusciva a smettere di starnutire durante la stagione delle allergie.",
+      "translateList": [
+        {
+          "label": "Sneeze",
+          "isCorrect": true
+        },
+        {
+          "label": "Cough",
+          "isCorrect": false
+        },
+        {
+          "label": "Laugh",
+          "isCorrect": false
+        },
+        {
+          "label": "Yawn",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Burglar",
+      "translate": "Ladro",
+      "quiz": "The .... broke into the house while they were on vacation.",
+      "quizTranslate": "Il ladro è entrato in casa mentre erano in vacanza.",
+      "translateList": [
+        {
+          "label": "Burglar",
+          "isCorrect": true
+        },
+        {
+          "label": "Thief",
+          "isCorrect": false
+        },
+        {
+          "label": "Robber",
+          "isCorrect": false
+        },
+        {
+          "label": "Mugger",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Confused",
+      "translate": "Confuso, disorientato",
+      "quiz": "She felt .... after hearing all the different opinions on the matter.",
+      "quizTranslate": "Si sentiva confusa dopo aver sentito tutte le diverse opinioni sulla questione.",
+      "translateList": [
+        {
+          "label": "Confused",
+          "isCorrect": true
+        },
+        {
+          "label": "Sure",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
           "isCorrect": false
         }
       ]

@@ -481,30 +481,6 @@
       ]
     },
     {
-      "word": "Adult",
-      "translate": "Adulto/Adulta",
-      "quiz": "You must be an .... to drive a car.",
-      "quizTranslate": "Debes ser un adulto para conducir un coche.",
-      "translateList": [
-        {
-          "label": "Adult",
-          "isCorrect": true
-        },
-        {
-          "label": "Child",
-          "isCorrect": false
-        },
-        {
-          "label": "Teenager",
-          "isCorrect": false
-        },
-        {
-          "label": "Baby",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Advert",
       "translate": "Anuncio",
       "quiz": "I saw an .... for a new phone.",
@@ -10754,30 +10730,6 @@
         },
         {
           "label": "Office",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Hope",
-      "translate": "Esperanza",
-      "quiz": "I .... you get the job.",
-      "quizTranslate": "Espero que consigas el trabajo.",
-      "translateList": [
-        {
-          "label": "Hope",
-          "isCorrect": true
-        },
-        {
-          "label": "Wish",
-          "isCorrect": false
-        },
-        {
-          "label": "Think",
-          "isCorrect": false
-        },
-        {
-          "label": "Take",
           "isCorrect": false
         }
       ]
