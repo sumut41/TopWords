@@ -39024,6 +39024,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Confused",
+      "translate": "Confundido, desconcertado",
+      "quiz": "She felt .... after hearing all the different opinions on the matter.",
+      "quizTranslate": "Se sintió confundida después de escuchar todas las diferentes opiniones sobre el asunto.",
+      "translateList": [
+        {
+          "label": "Confused",
+          "isCorrect": true
+        },
+        {
+          "label": "Sure",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

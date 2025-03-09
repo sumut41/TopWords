@@ -39072,6 +39072,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Confused",
+      "translate": "Kafası karışmış, şaşkın",
+      "quiz": "She felt .... after hearing all the different opinions on the matter.",
+      "quizTranslate": "Konu hakkındaki tüm farklı görüşleri duyduktan sonra kafası karıştı.",
+      "translateList": [
+        {
+          "label": "Confused",
+          "isCorrect": true
+        },
+        {
+          "label": "Sure",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        },
+        {
+          "label": "Calm",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
