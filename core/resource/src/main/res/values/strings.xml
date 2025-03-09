@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="intro_first_title">Learn a language easily with cards</string>
+    <string name="intro_first_title">Learn english easily with cards</string>
     <string name="intro_first_description">Learn words using cards, choosing levels that are convenient for you</string>
     <string name="intro_second_title">Learn language easily with books</string>
     <string name="intro_second_description">Read favorite books in their original language with parallel translation</string>

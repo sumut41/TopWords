@@ -15,11 +15,13 @@ import com.skyvo.mobile.core.database.course.CourseWordEntity
 import com.skyvo.mobile.core.database.course.CourseWordRepository
 import com.skyvo.mobile.core.database.word.WordEntity
 import com.skyvo.mobile.core.database.word.WordRepository
+import com.skyvo.mobile.core.shared.exception.ExceptionFBHelper.Companion.recordException
 import com.skyvo.mobile.core.shared.extension.toJson
 import com.skyvo.mobile.core.shared.extension.toModel
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.delay
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel
@@ -70,12 +72,8 @@ class DataLoaderViewModel @Inject constructor(
     fun getBookData() {
         viewModelScope.launch {
             remoteConfigManager.initRemoteConfig {
-                fetchRemoteConfigData { isComplete ->
-                    if (isComplete) {
-                        setLocaleData()
-                    } else {
-                        showGenericError()
-                    }
+                fetchRemoteConfigData {
+                    setLocaleData()
                 }
             }
         }
@@ -105,55 +103,39 @@ class DataLoaderViewModel @Inject constructor(
     }
 
     private fun setLocaleData() {
-        viewModelScope.launch {
-            val wordList: ArrayList<WordEntity> = arrayListOf()
-            //beginner
-            beginnerWordList?.forEach { item ->
-                wordList.add(
-                    WordEntity(
-                        word = item.word,
-                        translate = item.translate,
-                        quiz = item.quiz,
-                        quizTranslate = item.quizTranslate,
-                        level = LevelType.BEGINNER.key,
-                        languageCode = userManager.learnLanguage?.code,
-                        translateList = item.translateList?.toJson()
-                    )
-                )
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val wordList = ArrayList<WordEntity>()
+
+                // Tüm kelimeleri tek seferde dönüştür
+                beginnerWordList?.forEach { item ->
+                    wordList.add(createWordEntity(item, LevelType.BEGINNER))
+                }
+                intermediateWordList?.forEach { item ->
+                    wordList.add(createWordEntity(item, LevelType.INTERMEDIATE))
+                }
+                advancedWordList?.forEach { item ->
+                    wordList.add(createWordEntity(item, LevelType.ADVANCED))
+                }
+
+                // Veritabanı işlemlerini IO thread'de yap
+                wordRepository.insertWordList(wordList)
+                loadWords()
+            } catch (e: Exception) {
+                recordException(e)
             }
-            //intermediate
-            intermediateWordList?.forEach { item ->
-                wordList.add(
-                    WordEntity(
-                        word = item.word,
-                        translate = item.translate,
-                        quiz = item.quiz,
-                        quizTranslate = item.quizTranslate,
-                        level = LevelType.INTERMEDIATE.key,
-                        languageCode = userManager.learnLanguage?.code,
-                        translateList = item.translateList?.toJson()
-                    )
-                )
-            }
-            //advanced
-            advancedWordList?.forEach { item ->
-                wordList.add(
-                    WordEntity(
-                        word = item.word,
-                        translate = item.translate,
-                        quiz = item.quiz,
-                        quizTranslate = item.quizTranslate,
-                        level = LevelType.ADVANCED.key,
-                        languageCode = userManager.learnLanguage?.code,
-                        translateList = item.translateList?.toJson()
-                    )
-                )
-            }
-            wordRepository.insertWordList(wordList)
-            delay(600)
-            loadWords()
         }
     }
+
+    private fun createWordEntity(item: AppWord, level: LevelType) = WordEntity(
+        word = item.word,
+        translate = item.translate,
+        quiz = item.quiz,
+        quizTranslate = item.quizTranslate,
+        level = level.key,
+        languageCode = userManager.learnLanguage?.code,
+        translateList = item.translateList?.toJson()
+    )
 
     private fun loadWords() {
         when (userManager.customerLevel?.type) {
@@ -201,24 +183,24 @@ class DataLoaderViewModel @Inject constructor(
     }
 
     private fun shuffleWord(wordList: List<WordEntity>?, levelType: LevelType) {
-        val courseList = wordList?.let { words ->
-            val shuffledWords = (1..3).fold(words) { acc, _ -> acc.shuffled() }
-            shuffledWords.chunked(userManager.goalMinute ?: 10)
-        } ?: emptyList()
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val courseList = wordList?.let { words ->
+                    words.shuffled().chunked(userManager.goalMinute ?: 10)
+                } ?: emptyList()
 
-        val list: ArrayList<CourseWordEntity> = arrayListOf()
-        courseList.forEach { course ->
-            list.add(
-                CourseWordEntity(
-                    level = levelType.key,
-                    wordIds = getIdList(course).joinToString(",")
-                )
-            )
-        }
-        viewModelScope.launch {
-            courseWordRepository.insertAll(list)
-            delay(600)
-            loadMoreCourseWords()
+                val list = courseList.map { course ->
+                    CourseWordEntity(
+                        level = levelType.key,
+                        wordIds = getIdList(course).joinToString(",")
+                    )
+                }
+
+                courseWordRepository.insertAll(list)
+                loadMoreCourseWords()
+            } catch (e: Exception) {
+                recordException(e)
+            }
         }
     }
 
@@ -239,15 +221,22 @@ class DataLoaderViewModel @Inject constructor(
     }
 
     private fun saveBook() {
-        viewModelScope.launch {
-            bookRepository.insertAll(beginnerBook().orEmpty())
-            delay(350)
-            bookRepository.insertAll(intermediateBook().orEmpty())
-            delay(350)
-            bookRepository.insertAll(advancedBook().orEmpty())
-            userManager.isCompletedSetup = true
-            delay(500)
-            navigate(NavDeeplinkDestination.WordsDashboard)
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                // Tüm kitapları tek seferde kaydet
+                val allBooks = (beginnerBook().orEmpty() +
+                              intermediateBook().orEmpty() +
+                              advancedBook().orEmpty())
+
+                bookRepository.insertAll(allBooks)
+                userManager.isCompletedSetup = true
+
+                withContext(Dispatchers.Main) {
+                    navigate(NavDeeplinkDestination.WordsDashboard)
+                }
+            } catch (e: Exception) {
+                recordException(e)
+            }
         }
     }
 

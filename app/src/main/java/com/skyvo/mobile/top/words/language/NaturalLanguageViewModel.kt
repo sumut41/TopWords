@@ -3,6 +3,7 @@ package com.skyvo.mobile.top.words.language
 import com.skyvo.mobile.core.base.manager.Language
 import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
+import com.skyvo.mobile.core.uikit.R
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
@@ -32,7 +33,12 @@ class NaturalLanguageViewModel @Inject constructor(
     fun next() {
         state.value.selectedLanguage?.let { language ->
             userManager.nativeLanguage = language
-            navigate(NaturalLanguageFragmentDirections.actionNaturalLanguageFragmentToChooseLanguageFragment())
+            userManager.learnLanguage = Language(
+                code = "en",
+                name = "English",
+                icon = R.drawable.ic_flag_en
+            )
+            navigate(NaturalLanguageFragmentDirections.actionNaturalLanguageFragmentToLevelFragment())
         }
     }
 } 

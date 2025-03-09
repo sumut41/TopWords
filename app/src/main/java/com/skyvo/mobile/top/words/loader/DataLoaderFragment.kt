@@ -19,6 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.lifecycleScope
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
@@ -34,6 +35,9 @@ import com.skyvo.mobile.core.resource.R
 import com.skyvo.mobile.top.words.file.ReadJsonFile
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Locale
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 @AndroidEntryPoint
 class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
@@ -48,57 +52,72 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
     }
 
     private fun readFileJson() {
-        viewModel.state.value.let { state ->
+        viewLifecycleOwner.lifecycleScope.launch(Dispatchers.IO) {
+            try {
+                val state = viewModel.state.value
+                val jsonReader = ReadJsonFile.getInstance(requireContext())
 
-            when(state.nativeLanguageCode) {
-                "tr" -> forceConfiguration("tr")
-                "es" -> forceConfiguration("es")
-                "de" -> forceConfiguration("de")
-                "az" -> forceConfiguration("az")
-                "it" -> forceConfiguration("it")
-                "fr" -> forceConfiguration("fr")
-            }
+                withContext(Dispatchers.Main) {
+                    when(state.nativeLanguageCode) {
+                        "tr" -> forceConfiguration("tr")
+                        "es" -> forceConfiguration("es")
+                        "de" -> forceConfiguration("de")
+                        "az" -> forceConfiguration("az")
+                        "it" -> forceConfiguration("it")
+                        "fr" -> forceConfiguration("fr")
+                    }
+                }
 
-            if (state.nativeLanguageCode == "tr" && state.learnLanguageCode == "en") {
-                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_tr_en)
-                val intermediate =
-                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_tr_en)
-                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_tr_en)
-                viewModel.setBeginnerWord(beginner?.wordList)
-                viewModel.setIntermediate(intermediate?.wordList)
-                viewModel.setAdvanced(advanced?.wordList)
-            } else if (state.nativeLanguageCode == "es" && state.learnLanguageCode == "en") {
-                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_es_en)
-                val intermediate =
-                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_es_en)
-                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_es_en)
-                viewModel.setBeginnerWord(beginner?.wordList)
-                viewModel.setIntermediate(intermediate?.wordList)
-                viewModel.setAdvanced(advanced?.wordList)
-            } else if (state.nativeLanguageCode == "it" && state.learnLanguageCode == "en") {
-                val beginner = ReadJsonFile(requireContext()).parseJson(R.raw.words_beginner_it_en)
-                val intermediate =
-                    ReadJsonFile(requireContext()).parseJson(R.raw.words_intermediate_it_en)
-                val advanced = ReadJsonFile(requireContext()).parseJson(R.raw.words_advanced_it_en)
-                viewModel.setBeginnerWord(beginner?.wordList)
-                viewModel.setIntermediate(intermediate?.wordList)
-                viewModel.setAdvanced(advanced?.wordList)
+                val (beginner, intermediate, advanced) = when {
+                    state.nativeLanguageCode == "tr" && state.learnLanguageCode == "en" -> {
+                        Triple(
+                            jsonReader.parseJson(R.raw.words_beginner_tr_en),
+                            jsonReader.parseJson(R.raw.words_intermediate_tr_en),
+                            jsonReader.parseJson(R.raw.words_advanced_tr_en)
+                        )
+                    }
+                    state.nativeLanguageCode == "es" && state.learnLanguageCode == "en" -> {
+                        Triple(
+                            jsonReader.parseJson(R.raw.words_beginner_es_en),
+                            jsonReader.parseJson(R.raw.words_intermediate_es_en),
+                            jsonReader.parseJson(R.raw.words_advanced_es_en)
+                        )
+                    }
+                    state.nativeLanguageCode == "it" && state.learnLanguageCode == "en" -> {
+                        Triple(
+                            jsonReader.parseJson(R.raw.words_beginner_it_en),
+                            jsonReader.parseJson(R.raw.words_intermediate_it_en),
+                            jsonReader.parseJson(R.raw.words_advanced_it_en)
+                        )
+                    }
+                    else -> Triple(null, null, null)
+                }
+
+                withContext(Dispatchers.Main) {
+                    viewModel.setBeginnerWord(beginner?.wordList)
+                    viewModel.setIntermediate(intermediate?.wordList)
+                    viewModel.setAdvanced(advanced?.wordList)
+                    viewModel.getBookData()
+                }
+            } catch (e: Exception) {
+                recordException(e)
             }
-            viewModel.getBookData()
         }
     }
 
-    private fun forceConfiguration(languageCode: String) {
-        try {
-            val locale = Locale(languageCode)
-            val config = requireContext().resources.configuration
-            config.setLocale(locale)
-            requireContext().resources.updateConfiguration(
-                config,
-                requireContext().resources.displayMetrics
-            )
-        } catch (ex: Exception) {
-            recordException(ex)
+    private suspend fun forceConfiguration(languageCode: String) {
+        withContext(Dispatchers.Main) {
+            try {
+                val locale = Locale(languageCode)
+                val config = requireContext().resources.configuration
+                config.setLocale(locale)
+                requireContext().resources.updateConfiguration(
+                    config,
+                    requireContext().resources.displayMetrics
+                )
+            } catch (ex: Exception) {
+                recordException(ex)
+            }
         }
     }
 

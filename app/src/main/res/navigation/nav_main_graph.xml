@@ -34,16 +34,7 @@
         android:name="com.skyvo.mobile.top.words.language.NaturalLanguageFragment"
         android:label="NaturalLanguageFragment">
         <action
-            android:id="@+id/action_naturalLanguageFragment_to_chooseLanguageFragment"
-            app:destination="@id/chooseLanguageFragment" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/chooseLanguageFragment"
-        android:name="com.skyvo.mobile.top.words.language.ChooseLanguageFragment"
-        android:label="ChooseLanguageFragment">
-        <action
-            android:id="@+id/action_chooseLanguageFragment_to_levelFragment"
+            android:id="@+id/action_naturalLanguageFragment_to_levelFragment"
             app:destination="@id/levelFragment" />
     </fragment>
 
