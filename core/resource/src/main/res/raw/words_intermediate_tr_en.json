@@ -13393,30 +13393,6 @@
       ]
     },
     {
-      "word": "Expensive",
-      "translate": "Pahalı",
-      "quiz": "This is an .... restaurant.",
-      "quizTranslate": "Bu pahalı bir restorandır.",
-      "translateList": [
-        {
-          "label": "Expensive",
-          "isCorrect": true
-        },
-        {
-          "label": "Cheap",
-          "isCorrect": false
-        },
-        {
-          "label": "Affordable",
-          "isCorrect": false
-        },
-        {
-          "label": "Reasonable",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Experiment",
       "translate": "Deney",
       "quiz": "The scientist conducted an .... to test the hypothesis.",

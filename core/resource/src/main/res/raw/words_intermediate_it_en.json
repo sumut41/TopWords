@@ -13393,30 +13393,6 @@
       ]
     },
     {
-      "word": "Expensive",
-      "translate": "Costoso",
-      "quiz": "This is an .... restaurant.",
-      "quizTranslate": "Questo è un ristorante costoso.",
-      "translateList": [
-        {
-          "label": "Expensive",
-          "isCorrect": true
-        },
-        {
-          "label": "Cheap",
-          "isCorrect": false
-        },
-        {
-          "label": "Affordable",
-          "isCorrect": false
-        },
-        {
-          "label": "Reasonable",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Experiment",
       "translate": "Esperimento",
       "quiz": "The scientist conducted an .... to test the hypothesis.",
