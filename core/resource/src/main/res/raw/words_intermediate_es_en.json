@@ -14233,30 +14233,6 @@
       ]
     },
     {
-      "word": "First",
-      "translate": "Primero",
-      "quiz": "This is my .... time visiting Paris.",
-      "quizTranslate": "Esta es mi primera vez visitando París.",
-      "translateList": [
-        {
-          "label": "First",
-          "isCorrect": true
-        },
-        {
-          "label": "Second",
-          "isCorrect": false
-        },
-        {
-          "label": "Third",
-          "isCorrect": false
-        },
-        {
-          "label": "Last",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Flavour",
       "translate": "Sabor",
       "quiz": "This ice cream has a unique ....",
@@ -14300,78 +14276,6 @@
         },
         {
           "label": "Peel",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Flight",
-      "translate": "Vuelo",
-      "quiz": "Our .... to Paris was delayed.",
-      "quizTranslate": "Nuestro vuelo a París se retrasó.",
-      "translateList": [
-        {
-          "label": "Flight",
-          "isCorrect": true
-        },
-        {
-          "label": "Journey",
-          "isCorrect": false
-        },
-        {
-          "label": "Trip",
-          "isCorrect": false
-        },
-        {
-          "label": "Travel",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Foot",
-      "translate": "Pie",
-      "quiz": "He broke his .... while playing football.",
-      "quizTranslate": "Se rompió el pie mientras jugaba al fútbol.",
-      "translateList": [
-        {
-          "label": "Foot",
-          "isCorrect": true
-        },
-        {
-          "label": "Hand",
-          "isCorrect": false
-        },
-        {
-          "label": "Knee",
-          "isCorrect": false
-        },
-        {
-          "label": "Leg",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Football",
-      "translate": "Fútbol",
-      "quiz": "They are playing .... in the park.",
-      "quizTranslate": "Están jugando al fútbol en el parque.",
-      "translateList": [
-        {
-          "label": "Football",
-          "isCorrect": true
-        },
-        {
-          "label": "Basketball",
-          "isCorrect": false
-        },
-        {
-          "label": "Baseball",
-          "isCorrect": false
-        },
-        {
-          "label": "Tennis",
           "isCorrect": false
         }
       ]
