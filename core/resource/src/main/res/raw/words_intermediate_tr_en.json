@@ -13393,30 +13393,6 @@
       ]
     },
     {
-      "word": "Expensive",
-      "translate": "Pahalı",
-      "quiz": "This is an .... restaurant.",
-      "quizTranslate": "Bu pahalı bir restorandır.",
-      "translateList": [
-        {
-          "label": "Expensive",
-          "isCorrect": true
-        },
-        {
-          "label": "Cheap",
-          "isCorrect": false
-        },
-        {
-          "label": "Affordable",
-          "isCorrect": false
-        },
-        {
-          "label": "Reasonable",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Experiment",
       "translate": "Deney",
       "quiz": "The scientist conducted an .... to test the hypothesis.",
@@ -14257,30 +14233,6 @@
       ]
     },
     {
-      "word": "First",
-      "translate": "İlk",
-      "quiz": "This is my .... time visiting Paris.",
-      "quizTranslate": "Bu, Paris'i ziyaret etme ilk kezim.",
-      "translateList": [
-        {
-          "label": "First",
-          "isCorrect": true
-        },
-        {
-          "label": "Second",
-          "isCorrect": false
-        },
-        {
-          "label": "Third",
-          "isCorrect": false
-        },
-        {
-          "label": "Last",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Flavour",
       "translate": "Lezzet",
       "quiz": "This ice cream has a unique ....",
@@ -14324,78 +14276,6 @@
         },
         {
           "label": "Peel",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Flight",
-      "translate": "Uçuş",
-      "quiz": "Our .... to Paris was delayed.",
-      "quizTranslate": "Paris'e olan uçuşumuz ertelendi.",
-      "translateList": [
-        {
-          "label": "Flight",
-          "isCorrect": true
-        },
-        {
-          "label": "Journey",
-          "isCorrect": false
-        },
-        {
-          "label": "Trip",
-          "isCorrect": false
-        },
-        {
-          "label": "Travel",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Foot",
-      "translate": "Ayak",
-      "quiz": "He broke his .... while playing football.",
-      "quizTranslate": "Futbol oynarken ayağını kırdı.",
-      "translateList": [
-        {
-          "label": "Foot",
-          "isCorrect": true
-        },
-        {
-          "label": "Hand",
-          "isCorrect": false
-        },
-        {
-          "label": "Knee",
-          "isCorrect": false
-        },
-        {
-          "label": "Leg",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Football",
-      "translate": "Futbol",
-      "quiz": "They are playing .... in the park.",
-      "quizTranslate": "Parkta futbol oynuyorlar.",
-      "translateList": [
-        {
-          "label": "Football",
-          "isCorrect": true
-        },
-        {
-          "label": "Basketball",
-          "isCorrect": false
-        },
-        {
-          "label": "Baseball",
-          "isCorrect": false
-        },
-        {
-          "label": "Tennis",
           "isCorrect": false
         }
       ]
