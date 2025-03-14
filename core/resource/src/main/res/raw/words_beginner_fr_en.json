@@ -30027,9 +30027,9 @@
     },
     {
       "word": "Swallow",
-      "translate": "Yutmak",
+      "translate": "Avaler",
       "quiz": "Don’t forget to .... your pills.",
-      "quizTranslate": "Haplarını yutmayı unutma.",
+      "quizTranslate": "N’oublie pas d’avaler tes pilules.",
       "translateList": [
         {
           "label": "Swallow",
@@ -30051,9 +30051,9 @@
     },
     {
       "word": "Swear",
-      "translate": "Yemin etmek",
+      "translate": "Jurer",
       "quiz": "I .... I didn’t take your book.",
-      "quizTranslate": "Senin kitabını almadığıma yemin ederim.",
+      "quizTranslate": "Je jure que je n’ai pas pris ton livre.",
       "translateList": [
         {
           "label": "Swear",
@@ -30075,9 +30075,9 @@
     },
     {
       "word": "Sweat",
-      "translate": "Ter",
+      "translate": "Sueur",
       "quiz": "After running, he was covered in ....",
-      "quizTranslate": "Koşudan sonra ter içinde kaldı.",
+      "quizTranslate": "Après avoir couru, il était couvert de sueur.",
       "translateList": [
         {
           "label": "Sweat",
@@ -30099,9 +30099,9 @@
     },
     {
       "word": "Sweet",
-      "translate": "Tatlı",
+      "translate": "Doux",
       "quiz": "I love .... chocolate.",
-      "quizTranslate": "Tatlı çikolatayı severim.",
+      "quizTranslate": "J’adore le chocolat doux.",
       "translateList": [
         {
           "label": "Sweet",
@@ -30123,9 +30123,9 @@
     },
     {
       "word": "Symbol",
-      "translate": "Sembol",
+      "translate": "Symbole",
       "quiz": "The heart is a .... of love.",
-      "quizTranslate": "Kalp, aşkın bir sembolüdür.",
+      "quizTranslate": "Le cœur est un symbole de l’amour.",
       "translateList": [
         {
           "label": "Symbol",
@@ -30147,9 +30147,9 @@
     },
     {
       "word": "System",
-      "translate": "Sistem",
+      "translate": "Système",
       "quiz": "The body has an immune .... to fight diseases.",
-      "quizTranslate": "Vücut, hastalıklarla savaşmak için bir bağışıklık sistemine sahiptir.",
+      "quizTranslate": "Le corps a un système immunitaire pour combattre les maladies.",
       "translateList": [
         {
           "label": "System",
@@ -30171,9 +30171,9 @@
     },
     {
       "word": "Table",
-      "translate": "Masa",
+      "translate": "Table",
       "quiz": "Put the book on the ....",
-      "quizTranslate": "Kitabı masanın üzerine koy.",
+      "quizTranslate": "Mets le livre sur la table.",
       "translateList": [
         {
           "label": "Table",
@@ -30195,9 +30195,9 @@
     },
     {
       "word": "Take",
-      "translate": "Almak",
+      "translate": "Prendre",
       "quiz": "Can you .... this book to your brother?",
-      "quizTranslate": "Bu kitabı kardeşine götürebilir misin?",
+      "quizTranslate": "Peux-tu prendre ce livre pour ton frère ?",
       "translateList": [
         {
           "label": "Take",
@@ -30219,9 +30219,9 @@
     },
     {
       "word": "Talk",
-      "translate": "Konuşmak",
+      "translate": "Parler",
       "quiz": "They love to .... about sports.",
-      "quizTranslate": "Onlar spor hakkında konuşmayı sever.",
+      "quizTranslate": "Ils aiment parler de sport.",
       "translateList": [
         {
           "label": "Talk",
@@ -30243,9 +30243,9 @@
     },
     {
       "word": "Tall",
-      "translate": "Uzun (boy)",
+      "translate": "Grand",
       "quiz": "He is very .... for his age.",
-      "quizTranslate": "O, yaşına göre çok uzun.",
+      "quizTranslate": "Il est très grand pour son âge.",
       "translateList": [
         {
           "label": "Tall",
@@ -30267,9 +30267,9 @@
     },
     {
       "word": "Tap",
-      "translate": "Musluk / Hafifçe dokunmak",
+      "translate": "Robinet",
       "quiz": "Please turn off the .... after washing your hands.",
-      "quizTranslate": "Ellerini yıkadıktan sonra lütfen musluğu kapat.",
+      "quizTranslate": "Veuillez fermer le robinet après vous être lavé les mains.",
       "translateList": [
         {
           "label": "Tap",
@@ -30291,9 +30291,9 @@
     },
     {
       "word": "Tape",
-      "translate": "Bant",
+      "translate": "Ruban adhésif",
       "quiz": "He used .... to fix the paper.",
-      "quizTranslate": "Kağıdı tamir etmek için bant kullandı.",
+      "quizTranslate": "Il a utilisé du ruban adhésif pour réparer le papier.",
       "translateList": [
         {
           "label": "Tape",
@@ -30315,9 +30315,9 @@
     },
     {
       "word": "Task",
-      "translate": "Görev",
+      "translate": "Tâche",
       "quiz": "My .... is to clean the kitchen today.",
-      "quizTranslate": "Bugünkü görevim mutfağı temizlemek.",
+      "quizTranslate": "Ma tâche aujourd’hui est de nettoyer la cuisine.",
       "translateList": [
         {
           "label": "Task",
@@ -30339,9 +30339,9 @@
     },
     {
       "word": "Taste",
-      "translate": "Tat",
+      "translate": "Goût",
       "quiz": "This cake has a delicious ....",
-      "quizTranslate": "Bu pastanın lezzetli bir tadı var.",
+      "quizTranslate": "Ce gâteau a un goût délicieux.",
       "translateList": [
         {
           "label": "Taste",
@@ -30363,9 +30363,9 @@
     },
     {
       "word": "Tax",
-      "translate": "Vergi",
+      "translate": "Impôt",
       "quiz": "Everyone has to pay ....",
-      "quizTranslate": "Herkes vergi ödemek zorunda.",
+      "quizTranslate": "Tout le monde doit payer des impôts.",
       "translateList": [
         {
           "label": "Tax",
@@ -30387,9 +30387,9 @@
     },
     {
       "word": "Taxi",
-      "translate": "Taksi",
+      "translate": "Taxi",
       "quiz": "We took a .... to the airport.",
-      "quizTranslate": "Havaalanına taksiyle gittik.",
+      "quizTranslate": "Nous avons pris un taxi pour l’aéroport.",
       "translateList": [
         {
           "label": "Taxi",
@@ -30411,9 +30411,9 @@
     },
     {
       "word": "Tea",
-      "translate": "Çay",
+      "translate": "Thé",
       "quiz": "She drinks a cup of .... every morning.",
-      "quizTranslate": "Her sabah bir fincan çay içer.",
+      "quizTranslate": "Elle boit une tasse de thé chaque matin.",
       "translateList": [
         {
           "label": "Tea",
@@ -30435,9 +30435,9 @@
     },
     {
       "word": "Teach",
-      "translate": "Öğretmek",
+      "translate": "Enseigner",
       "quiz": "She loves to .... children how to read.",
-      "quizTranslate": "Çocuklara okumayı öğretmeyi seviyor.",
+      "quizTranslate": "Elle aime enseigner aux enfants à lire.",
       "translateList": [
         {
           "label": "Teach",
@@ -30459,9 +30459,9 @@
     },
     {
       "word": "Teaching",
-      "translate": "Öğretim",
+      "translate": "Enseignement",
       "quiz": "She has a passion for ....",
-      "quizTranslate": "Onun öğretime karşı bir tutkusu var.",
+      "quizTranslate": "Elle a une passion pour l’enseignement.",
       "translateList": [
         {
           "label": "Teaching",
@@ -30483,9 +30483,9 @@
     },
     {
       "word": "Team",
-      "translate": "Takım",
+      "translate": "Équipe",
       "quiz": "Our football .... won the match.",
-      "quizTranslate": "Futbol takımımız maçı kazandı.",
+      "quizTranslate": "Notre équipe de football a gagné le match.",
       "translateList": [
         {
           "label": "Team",
@@ -30507,9 +30507,9 @@
     },
     {
       "word": "Technical",
-      "translate": "Teknik",
+      "translate": "Technique",
       "quiz": "He has great .... skills.",
-      "quizTranslate": "Onun mükemmel teknik becerileri var.",
+      "quizTranslate": "Il a de grandes compétences techniques.",
       "translateList": [
         {
           "label": "Technical",
@@ -30531,9 +30531,9 @@
     },
     {
       "word": "Technique",
-      "translate": "Teknik",
+      "translate": "Technique",
       "quiz": "His painting .... is impressive.",
-      "quizTranslate": "Onun resim tekniği etkileyici.",
+      "quizTranslate": "Sa technique de peinture est impressionnante.",
       "translateList": [
         {
           "label": "Technique",
@@ -30555,9 +30555,9 @@
     },
     {
       "word": "Technology",
-      "translate": "Teknoloji",
+      "translate": "Technologie",
       "quiz": "Modern .... makes life easier.",
-      "quizTranslate": "Modern teknoloji hayatı kolaylaştırır.",
+      "quizTranslate": "La technologie moderne facilite la vie.",
       "translateList": [
         {
           "label": "Technology",
@@ -30579,9 +30579,9 @@
     },
     {
       "word": "Television",
-      "translate": "Televizyon",
+      "translate": "Télévision",
       "quiz": "I watch the news on .... every evening.",
-      "quizTranslate": "Her akşam haberleri televizyonda izlerim.",
+      "quizTranslate": "Je regarde les nouvelles à la télévision chaque soir.",
       "translateList": [
         {
           "label": "Television",
@@ -30603,9 +30603,9 @@
     },
     {
       "word": "Tell",
-      "translate": "Söylemek / Anlatmak",
+      "translate": "Raconter / Dire",
       "quiz": "Can you .... me a story?",
-      "quizTranslate": "Bana bir hikaye anlatabilir misin?",
+      "quizTranslate": "Peux-tu me raconter une histoire?",
       "translateList": [
         {
           "label": "Tell",
@@ -30627,9 +30627,9 @@
     },
     {
       "word": "Temperature",
-      "translate": "Sıcaklık",
+      "translate": "Température",
       "quiz": "The .... is very high today.",
-      "quizTranslate": "Bugün sıcaklık çok yüksek.",
+      "quizTranslate": "La température est très élevée aujourd’hui.",
       "translateList": [
         {
           "label": "Temperature",
@@ -30651,9 +30651,9 @@
     },
     {
       "word": "Temporary",
-      "translate": "Geçici",
+      "translate": "Temporaire",
       "quiz": "This job is just .... for the summer.",
-      "quizTranslate": "Bu iş sadece yaz için geçici.",
+      "quizTranslate": "Ce travail est juste temporaire pour l’été.",
       "translateList": [
         {
           "label": "Temporary",
@@ -30675,9 +30675,9 @@
     },
     {
       "word": "Tend",
-      "translate": "Eğiliminde olmak",
+      "translate": "Avoir tendance à",
       "quiz": "She .... to get nervous before exams.",
-      "quizTranslate": "O, sınavlardan önce gergin olma eğilimindedir.",
+      "quizTranslate": "Elle a tendance à être nerveuse avant les examens.",
       "translateList": [
         {
           "label": "Tends",
@@ -30699,9 +30699,9 @@
     },
     {
       "word": "Tension",
-      "translate": "Gerginlik",
+      "translate": "Tension",
       "quiz": "There was a lot of .... in the meeting.",
-      "quizTranslate": "Toplantıda çok fazla gerginlik vardı.",
+      "quizTranslate": "Il y avait beaucoup de tension dans la réunion.",
       "translateList": [
         {
           "label": "Tension",
@@ -30723,9 +30723,9 @@
     },
     {
       "word": "Tent",
-      "translate": "Çadır",
+      "translate": "Tente",
       "quiz": "We set up a .... in the forest.",
-      "quizTranslate": "Ormanda bir çadır kurduk.",
+      "quizTranslate": "Nous avons monté une tente dans la forêt.",
       "translateList": [
         {
           "label": "Tent",
@@ -30747,9 +30747,9 @@
     },
     {
       "word": "Teacher",
-      "translate": "Öğretmen",
+      "translate": "Enseignant / Enseignante",
       "quiz": "The .... is explaining the lesson.",
-      "quizTranslate": "Öğretmen dersi anlatıyor.",
+      "quizTranslate": "L’enseignant explique la leçon.",
       "translateList": [
         {
           "label": "Teacher",
@@ -30771,9 +30771,9 @@
     },
     {
       "word": "Telephone",
-      "translate": "Telefon",
+      "translate": "Téléphone",
       "quiz": "I called him on the ....",
-      "quizTranslate": "Onu telefondan aradım.",
+      "quizTranslate": "Je l’ai appelé sur le téléphone.",
       "translateList": [
         {
           "label": "Telephone",
@@ -30795,9 +30795,9 @@
     },
     {
       "word": "Tenth",
-      "translate": "Onuncu",
+      "translate": "Dixième",
       "quiz": "She finished in .... place in the race.",
-      "quizTranslate": "O, yarışta onuncu sırada bitirdi.",
+      "quizTranslate": "Elle a terminé à la dixième place dans la course.",
       "translateList": [
         {
           "label": "Tenth",
@@ -30819,9 +30819,9 @@
     },
     {
       "word": "Terrible",
-      "translate": "Berbat / Korkunç",
+      "translate": "Terrible",
       "quiz": "The weather was .... yesterday.",
-      "quizTranslate": "Dün hava berbattı.",
+      "quizTranslate": "Le temps était terrible hier.",
       "translateList": [
         {
           "label": "Terrible",
@@ -30843,9 +30843,9 @@
     },
     {
       "word": "Text",
-      "translate": "Metin / Mesaj",
+      "translate": "Texte / Message",
       "quiz": "I sent her a .... this morning.",
-      "quizTranslate": "Bu sabah ona bir mesaj gönderdim.",
+      "quizTranslate": "Je lui ai envoyé un message ce matin.",
       "translateList": [
         {
           "label": "Text",
@@ -30867,9 +30867,9 @@
     },
     {
       "word": "Than",
-      "translate": "-den, -dan (karşılaştırma)",
+      "translate": "Que (comparaison)",
       "quiz": "She is taller .... me.",
-      "quizTranslate": "O benden daha uzun.",
+      "quizTranslate": "Elle est plus grande que moi.",
       "translateList": [
         {
           "label": "Than",
@@ -30891,9 +30891,9 @@
     },
     {
       "word": "That",
-      "translate": "Şu / O",
+      "translate": "Ce / Cette / Cet",
       "quiz": "I like .... book on the shelf.",
-      "quizTranslate": "Raftaki şu kitabı beğendim.",
+      "quizTranslate": "J’aime ce livre sur l’étagère.",
       "translateList": [
         {
           "label": "That",
@@ -30915,9 +30915,9 @@
     },
     {
       "word": "Theatre",
-      "translate": "Tiyatro",
+      "translate": "Théâtre",
       "quiz": "We watched a play at the ....",
-      "quizTranslate": "Tiyatroda bir oyun izledik.",
+      "quizTranslate": "Nous avons regardé une pièce au théâtre.",
       "translateList": [
         {
           "label": "Theatre",
@@ -30939,9 +30939,9 @@
     },
     {
       "word": "Their",
-      "translate": "Onların",
+      "translate": "Leur / Leurs",
       "quiz": "This is .... house.",
-      "quizTranslate": "Bu onların evi.",
+      "quizTranslate": "Ceci est leur maison.",
       "translateList": [
         {
           "label": "Their",
@@ -30963,9 +30963,9 @@
     },
     {
       "word": "Theirs",
-      "translate": "Onlarınki",
+      "translate": "Le leur / La leur / Les leurs",
       "quiz": "That car is ....",
-      "quizTranslate": "O araba onlarınki.",
+      "quizTranslate": "Cette voiture est la leur.",
       "translateList": [
         {
           "label": "Theirs",
@@ -30987,9 +30987,9 @@
     },
     {
       "word": "Theme",
-      "translate": "Tema",
+      "translate": "Thème",
       "quiz": "The main .... of the book is friendship.",
-      "quizTranslate": "Kitabın ana teması arkadaşlıktır.",
+      "quizTranslate": "Le thème principal du livre est l’amitié.",
       "translateList": [
         {
           "label": "Theme",
@@ -31011,9 +31011,9 @@
     },
     {
       "word": "Then",
-      "translate": "O zaman / Sonra",
+      "translate": "Puis / Ensuite",
       "quiz": "We had lunch, and .... we went to the park.",
-      "quizTranslate": "Öğle yemeği yedik ve sonra parka gittik.",
+      "quizTranslate": "Nous avons déjeuné, puis nous sommes allés au parc.",
       "translateList": [
         {
           "label": "Then",
@@ -31035,9 +31035,9 @@
     },
     {
       "word": "Theory",
-      "translate": "Teori",
+      "translate": "Théorie",
       "quiz": "His .... explains how planets move.",
-      "quizTranslate": "Onun teorisi, gezegenlerin nasıl hareket ettiğini açıklar.",
+      "quizTranslate": "Sa théorie explique comment les planètes bougent.",
       "translateList": [
         {
           "label": "Theory",
@@ -31059,9 +31059,9 @@
     },
     {
       "word": "Thank",
-      "translate": "Teşekkür etmek",
+      "translate": "Remercier",
       "quiz": ".... you for your help.",
-      "quizTranslate": "Yardımın için teşekkür ederim.",
+      "quizTranslate": "Je te remercie pour ton aide.",
       "translateList": [
         {
           "label": "Thank",
@@ -31083,9 +31083,9 @@
     },
     {
       "word": "Thick",
-      "translate": "Kalın",
+      "translate": "Épais",
       "quiz": "She wore a .... coat because it was cold.",
-      "quizTranslate": "Hava soğuk olduğu için kalın bir palto giydi.",
+      "quizTranslate": "Elle portait un manteau épais parce qu'il faisait froid.",
       "translateList": [
         {
           "label": "Thick",
@@ -31107,9 +31107,9 @@
     },
     {
       "word": "Thief",
-      "translate": "Hırsız",
+      "translate": "Voleur",
       "quiz": "The police caught the .... last night.",
-      "quizTranslate": "Polis, hırsızı dün gece yakaladı.",
+      "quizTranslate": "La police a attrapé le voleur la nuit dernière.",
       "translateList": [
         {
           "label": "Thief",
@@ -31131,9 +31131,9 @@
     },
     {
       "word": "Thin",
-      "translate": "İnce",
+      "translate": "Mince",
       "quiz": "She prefers to wear .... clothes in summer.",
-      "quizTranslate": "Yazın ince kıyafetler giymeyi tercih eder.",
+      "quizTranslate": "Elle préfère porter des vêtements minces en été.",
       "translateList": [
         {
           "label": "Thin",
@@ -31155,9 +31155,9 @@
     },
     {
       "word": "Thing",
-      "translate": "Şey",
+      "translate": "Chose",
       "quiz": "What is that .... on the table?",
-      "quizTranslate": "Masadaki o şey nedir?",
+      "quizTranslate": "Quelle est cette chose sur la table?",
       "translateList": [
         {
           "label": "Thing",
@@ -31179,9 +31179,9 @@
     },
     {
       "word": "Think",
-      "translate": "Düşünmek",
+      "translate": "Penser",
       "quiz": "I .... it will rain tomorrow.",
-      "quizTranslate": "Yarın yağmur yağacağını düşünüyorum.",
+      "quizTranslate": "Je pense qu'il va pleuvoir demain.",
       "translateList": [
         {
           "label": "Think",
@@ -31203,9 +31203,9 @@
     },
     {
       "word": "Thirsty",
-      "translate": "Susamış",
+      "translate": "Assoiffé",
       "quiz": "I feel very .... after running.",
-      "quizTranslate": "Koştuktan sonra çok susadım.",
+      "quizTranslate": "Je me sens très assoiffé après avoir couru.",
       "translateList": [
         {
           "label": "Thirsty",
@@ -31227,9 +31227,9 @@
     },
     {
       "word": "This",
-      "translate": "Bu",
+      "translate": "Ce / Cette",
       "quiz": ".... book is mine.",
-      "quizTranslate": "Bu kitap benim.",
+      "quizTranslate": "Ce livre est à moi.",
       "translateList": [
         {
           "label": "This",
@@ -31251,9 +31251,9 @@
     },
     {
       "word": "Though",
-      "translate": "Gerçi / Ancak",
+      "translate": "Bien que / Cependant",
       "quiz": "She was tired, .... she continued working.",
-      "quizTranslate": "Yorgundu, ancak çalışmaya devam etti.",
+      "quizTranslate": "Elle était fatiguée, cependant elle a continué à travailler.",
       "translateList": [
         {
           "label": "Though",
@@ -31275,9 +31275,9 @@
     },
     {
       "word": "Thousand",
-      "translate": "Bin",
+      "translate": "Mille",
       "quiz": "There are more than a .... students in the school.",
-      "quizTranslate": "Okulda binden fazla öğrenci var.",
+      "quizTranslate": "Il y a plus de mille étudiants dans l'école.",
       "translateList": [
         {
           "label": "Thousand",
@@ -31299,9 +31299,9 @@
     },
     {
       "word": "Throw",
-      "translate": "Atmak",
+      "translate": "Lancer",
       "quiz": "Can you .... me the ball?",
-      "quizTranslate": "Bana topu atabilir misin?",
+      "quizTranslate": "Peux-tu me lancer le ballon?",
       "translateList": [
         {
           "label": "Throw",
@@ -31323,9 +31323,9 @@
     },
     {
       "word": "Thursday",
-      "translate": "Perşembe",
+      "translate": "Jeudi",
       "quiz": "We have a meeting on ....",
-      "quizTranslate": "Perşembe günü bir toplantımız var.",
+      "quizTranslate": "Nous avons une réunion jeudi.",
       "translateList": [
         {
           "label": "Thursday",
@@ -31347,9 +31347,9 @@
     },
     {
       "word": "Tree",
-      "translate": "Ağaç",
+      "translate": "Arbre",
       "quiz": "The .... is full of apples.",
-      "quizTranslate": "Ağaç elmalarla dolu.",
+      "quizTranslate": "L'arbre est plein de pommes.",
       "translateList": [
         {
           "label": "Tree",
@@ -31371,9 +31371,9 @@
     },
     {
       "word": "Ticket",
-      "translate": "Bilet",
+      "translate": "Billet",
       "quiz": "I bought a .... for the concert.",
-      "quizTranslate": "Konser için bir bilet aldım.",
+      "quizTranslate": "J'ai acheté un billet pour le concert.",
       "translateList": [
         {
           "label": "Ticket",
@@ -31395,9 +31395,9 @@
     },
     {
       "word": "Today",
-      "translate": "Bugün",
+      "translate": "Aujourd'hui",
       "quiz": "What are your plans for ....?",
-      "quizTranslate": "Bugün için planların neler?",
+      "quizTranslate": "Quels sont tes plans pour aujourd'hui?",
       "translateList": [
         {
           "label": "Today",
@@ -31419,9 +31419,9 @@
     },
     {
       "word": "Together",
-      "translate": "Birlikte",
+      "translate": "Ensemble",
       "quiz": "We went to the cinema ....",
-      "quizTranslate": "Sinemaya birlikte gittik.",
+      "quizTranslate": "Nous sommes allés au cinéma ensemble.",
       "translateList": [
         {
           "label": "Together",
@@ -31443,9 +31443,9 @@
     },
     {
       "word": "Toilet",
-      "translate": "Tuvalet",
+      "translate": "Toilettes",
       "quiz": "Where is the ....?",
-      "quizTranslate": "Tuvalet nerede?",
+      "quizTranslate": "Où sont les toilettes?",
       "translateList": [
         {
           "label": "Toilet",
@@ -31467,9 +31467,9 @@
     },
     {
       "word": "Tomato",
-      "translate": "Domates",
+      "translate": "Tomate",
       "quiz": "I bought a kilo of .... from the market.",
-      "quizTranslate": "Marketten bir kilo domates aldım.",
+      "quizTranslate": "J'ai acheté un kilo de tomates au marché.",
       "translateList": [
         {
           "label": "Tomato",
@@ -31491,9 +31491,9 @@
     },
     {
       "word": "Tomorrow",
-      "translate": "Yarın",
+      "translate": "Demain",
       "quiz": "I will call you ....",
-      "quizTranslate": "Seni yarın arayacağım.",
+      "quizTranslate": "Je t'appellerai demain.",
       "translateList": [
         {
           "label": "Tomorrow",
@@ -31515,9 +31515,9 @@
     },
     {
       "word": "Tonight",
-      "translate": "Bu gece",
+      "translate": "Ce soir",
       "quiz": "Are you free ....?",
-      "quizTranslate": "Bu gece müsait misin?",
+      "quizTranslate": "Es-tu libre ce soir?",
       "translateList": [
         {
           "label": "Tonight",
@@ -31539,9 +31539,9 @@
     },
     {
       "word": "Title",
-      "translate": "Başlık",
+      "translate": "Titre",
       "quiz": "What is the .... of the book?",
-      "quizTranslate": "Kitabın başlığı nedir?",
+      "quizTranslate": "Quel est le titre du livre?",
       "translateList": [
         {
           "label": "Title",
@@ -31563,9 +31563,9 @@
     },
     {
       "word": "Tidy",
-      "translate": "Düzenli / Toplamak",
+      "translate": "Rangé / Ranger",
       "quiz": "Please .... your room before dinner.",
-      "quizTranslate": "Lütfen akşam yemeğinden önce odanı topla.",
+      "quizTranslate": "S'il te plaît, range ta chambre avant le dîner.",
       "translateList": [
         {
           "label": "Tidy",
@@ -31587,9 +31587,9 @@
     },
     {
       "word": "Tie",
-      "translate": "Bağlamak / Kravat",
+      "translate": "Nouer / Cravate",
       "quiz": "He always wears a .... to work.",
-      "quizTranslate": "O, işe giderken her zaman kravat takar.",
+      "quizTranslate": "Il porte toujours une cravate au travail.",
       "translateList": [
         {
           "label": "Tie",
@@ -31611,9 +31611,9 @@
     },
     {
       "word": "Tight",
-      "translate": "Sıkı / Dar",
+      "translate": "Serré / Étroit",
       "quiz": "These shoes are too .... for me.",
-      "quizTranslate": "Bu ayakkabılar benim için çok dar.",
+      "quizTranslate": "Ces chaussures sont trop serrées pour moi.",
       "translateList": [
         {
           "label": "Tight",
@@ -31635,9 +31635,9 @@
     },
     {
       "word": "Till",
-      "translate": "-e kadar",
+      "translate": "Jusqu'à",
       "quiz": "I will wait here .... you come back.",
-      "quizTranslate": "Sen geri dönene kadar burada bekleyeceğim.",
+      "quizTranslate": "Je vais attendre ici jusqu'à ton retour.",
       "translateList": [
         {
           "label": "Till",
@@ -31659,9 +31659,9 @@
     },
     {
       "word": "Time",
-      "translate": "Zaman",
+      "translate": "Temps",
       "quiz": "What .... is the meeting?",
-      "quizTranslate": "Toplantı saat kaçta?",
+      "quizTranslate": "À quelle temps est la réunion?",
       "translateList": [
         {
           "label": "Time",
@@ -31683,9 +31683,9 @@
     },
     {
       "word": "Timetable",
-      "translate": "Zaman çizelgesi / Ders programı",
+      "translate": "Emploi du temps / Horaire",
       "quiz": "Check the .... for your train departure.",
-      "quizTranslate": "Tren kalkış saatin için zaman çizelgesini kontrol et.",
+      "quizTranslate": "Vérifie l'emploi du temps pour le départ de ton train.",
       "translateList": [
         {
           "label": "Timetable",
@@ -31707,9 +31707,9 @@
     },
     {
       "word": "Tin",
-      "translate": "Kutu / Teneke",
+      "translate": "Boîte / Fer-blanc",
       "quiz": "She bought a .... of beans from the store.",
-      "quizTranslate": "Mağazadan bir kutu fasulye aldı.",
+      "quizTranslate": "Elle a acheté une boîte de haricots au magasin.",
       "translateList": [
         {
           "label": "Tin",
@@ -31731,9 +31731,9 @@
     },
     {
       "word": "Tiny",
-      "translate": "Küçücük",
+      "translate": "Minuscule",
       "quiz": "The baby’s hands are so ....",
-      "quizTranslate": "Bebeğin elleri çok küçücük.",
+      "quizTranslate": "Les mains du bébé sont si minuscules.",
       "translateList": [
         {
           "label": "Tiny",
@@ -31755,9 +31755,9 @@
     },
     {
       "word": "Tip",
-      "translate": "İpucu / Bahşiş",
+      "translate": "Astuce / Pourboire",
       "quiz": "She gave me a useful .... for studying.",
-      "quizTranslate": "Bana ders çalışma konusunda faydalı bir ipucu verdi.",
+      "quizTranslate": "Elle m'a donné une astuce utile pour étudier.",
       "translateList": [
         {
           "label": "Tip",
@@ -31779,9 +31779,9 @@
     },
     {
       "word": "Tired",
-      "translate": "Yorgun",
+      "translate": "Fatigué",
       "quiz": "I feel very .... after work.",
-      "quizTranslate": "İşten sonra çok yorgun hissediyorum.",
+      "quizTranslate": "Je me sens très fatigué après le travail.",
       "translateList": [
         {
           "label": "Tired",
@@ -31803,9 +31803,9 @@
     },
     {
       "word": "Too",
-      "translate": "Çok / Ayrıca",
+      "translate": "Trop / Aussi",
       "quiz": "It’s .... hot to go outside.",
-      "quizTranslate": "Dışarı çıkmak için çok sıcak.",
+      "quizTranslate": "Il fait trop chaud pour sortir.",
       "translateList": [
         {
           "label": "Too",
@@ -31827,9 +31827,9 @@
     },
     {
       "word": "Tool",
-      "translate": "Araç / Alet",
+      "translate": "Outil",
       "quiz": "He used a special .... to fix the door.",
-      "quizTranslate": "Kapıyı tamir etmek için özel bir alet kullandı.",
+      "quizTranslate": "Il a utilisé un outil spécial pour réparer la porte.",
       "translateList": [
         {
           "label": "Tool",
@@ -31851,9 +31851,9 @@
     },
     {
       "word": "Tooth",
-      "translate": "Diş",
+      "translate": "Dent",
       "quiz": "I have a pain in my ....",
-      "quizTranslate": "Dişimde ağrı var.",
+      "quizTranslate": "J'ai mal à la dent.",
       "translateList": [
         {
           "label": "Tooth",
@@ -31875,9 +31875,9 @@
     },
     {
       "word": "Top",
-      "translate": "Üst / En iyi",
+      "translate": "Sommet / Meilleur",
       "quiz": "She climbed to the .... of the mountain.",
-      "quizTranslate": "Dağın tepesine tırmandı.",
+      "quizTranslate": "Elle a grimpé au sommet de la montagne.",
       "translateList": [
         {
           "label": "Top",
@@ -31899,9 +31899,9 @@
     },
     {
       "word": "Topic",
-      "translate": "Konu",
+      "translate": "Sujet",
       "quiz": "We discussed an interesting .... in class.",
-      "quizTranslate": "Sınıfta ilginç bir konu tartıştık.",
+      "quizTranslate": "Nous avons discuté d'un sujet intéressant en classe.",
       "translateList": [
         {
           "label": "Topic",
@@ -31923,9 +31923,9 @@
     },
     {
       "word": "Total",
-      "translate": "Toplam",
+      "translate": "Total",
       "quiz": "The .... cost of the meal was $50.",
-      "quizTranslate": "Yemeğin toplam maliyeti 50 dolardı.",
+      "quizTranslate": "Le coût total du repas était de 50 dollars.",
       "translateList": [
         {
           "label": "Total",
@@ -31947,9 +31947,9 @@
     },
     {
       "word": "Touch",
-      "translate": "Dokunmak",
+      "translate": "Toucher",
       "quiz": "Please don’t .... the paintings in the museum.",
-      "quizTranslate": "Lütfen müzedeki tablolara dokunmayın.",
+      "quizTranslate": "S'il vous plaît, ne touchez pas aux tableaux dans le musée.",
       "translateList": [
         {
           "label": "Touch",
@@ -31971,9 +31971,9 @@
     },
     {
       "word": "Tour",
-      "translate": "Tur / Gezmek",
+      "translate": "Tour / Visiter",
       "quiz": "We went on a city .... last weekend.",
-      "quizTranslate": "Geçen hafta sonu şehir turuna çıktık.",
+      "quizTranslate": "Nous avons fait un tour de la ville le week-end dernier.",
       "translateList": [
         {
           "label": "Tour",
@@ -31995,9 +31995,9 @@
     },
     {
       "word": "Tourist",
-      "translate": "Turist",
+      "translate": "Touriste",
       "quiz": "Many .... visit this place every year.",
-      "quizTranslate": "Her yıl burayı birçok turist ziyaret ediyor.",
+      "quizTranslate": "Beaucoup de touristes visitent cet endroit chaque année.",
       "translateList": [
         {
           "label": "Tourists",
@@ -32019,9 +32019,9 @@
     },
     {
       "word": "Towards",
-      "translate": "-e doğru",
+      "translate": "Vers",
       "quiz": "She walked .... the door.",
-      "quizTranslate": "Kapıya doğru yürüdü.",
+      "quizTranslate": "Elle a marché vers la porte.",
       "translateList": [
         {
           "label": "Towards",
@@ -32043,9 +32043,9 @@
     },
     {
       "word": "Towel",
-      "translate": "Havlu",
+      "translate": "Serviette",
       "quiz": "She dried her hands with a ....",
-      "quizTranslate": "Ellerini bir havluyla kuruttu.",
+      "quizTranslate": "Elle a séché ses mains avec une serviette.",
       "translateList": [
         {
           "label": "Towel",
@@ -32067,9 +32067,9 @@
     },
     {
       "word": "Tower",
-      "translate": "Kule",
+      "translate": "Tour",
       "quiz": "The Eiffel .... is in Paris.",
-      "quizTranslate": "Eiffel Kulesi Paris'tedir.",
+      "quizTranslate": "La Tour Eiffel est à Paris.",
       "translateList": [
         {
           "label": "Tower",
@@ -32091,9 +32091,9 @@
     },
     {
       "word": "Town",
-      "translate": "Kasaba",
+      "translate": "Ville / Bourg",
       "quiz": "I grew up in a small ....",
-      "quizTranslate": "Küçük bir kasabada büyüdüm.",
+      "quizTranslate": "J'ai grandi dans une petite ville.",
       "translateList": [
         {
           "label": "Town",
@@ -32115,9 +32115,9 @@
     },
     {
       "word": "Toy",
-      "translate": "Oyuncak",
+      "translate": "Jouet",
       "quiz": "The child received a new .... for his birthday.",
-      "quizTranslate": "Çocuk doğum günü için yeni bir oyuncak aldı.",
+      "quizTranslate": "L'enfant a reçu un nouveau jouet pour son anniversaire.",
       "translateList": [
         {
           "label": "Toy",
@@ -32139,9 +32139,9 @@
     },
     {
       "word": "Tradition",
-      "translate": "Gelenek",
+      "translate": "Tradition",
       "quiz": "It is a family .... to have dinner together.",
-      "quizTranslate": "Birlikte akşam yemeği yemek bizim aile geleneğimizdir.",
+      "quizTranslate": "C'est une tradition familiale de dîner ensemble.",
       "translateList": [
         {
           "label": "Tradition",
@@ -32163,9 +32163,9 @@
     },
     {
       "word": "Traditional",
-      "translate": "Geleneksel",
+      "translate": "Traditionnel",
       "quiz": "They wear .... clothes for the festival.",
-      "quizTranslate": "Festival için geleneksel kıyafetler giyiyorlar.",
+      "quizTranslate": "Ils portent des vêtements traditionnels pour le festival.",
       "translateList": [
         {
           "label": "Traditional",
@@ -32187,9 +32187,9 @@
     },
     {
       "word": "Traffic",
-      "translate": "Trafik",
+      "translate": "Trafic / Circulation",
       "quiz": "There was a lot of .... on the way home.",
-      "quizTranslate": "Eve giderken çok fazla trafik vardı.",
+      "quizTranslate": "Il y avait beaucoup de trafic sur le chemin du retour.",
       "translateList": [
         {
           "label": "Traffic",
@@ -32211,9 +32211,9 @@
     },
     {
       "word": "Train",
-      "translate": "Tren",
+      "translate": "Train",
       "quiz": "We took a .... to London.",
-      "quizTranslate": "Londra'ya trenle gittik.",
+      "quizTranslate": "Nous avons pris un train pour Londres.",
       "translateList": [
         {
           "label": "Train",
@@ -32235,9 +32235,9 @@
     },
     {
       "word": "Transport",
-      "translate": "Ulaşım / Taşımak",
+      "translate": "Transport",
       "quiz": "The city has a good public .... system.",
-      "quizTranslate": "Şehir iyi bir toplu ulaşım sistemine sahip.",
+      "quizTranslate": "La ville dispose d'un bon système de transport public.",
       "translateList": [
         {
           "label": "Transport",
@@ -32259,9 +32259,9 @@
     },
     {
       "word": "Travel",
-      "translate": "Seyahat etmek",
+      "translate": "Voyager",
       "quiz": "I love to .... to different countries.",
-      "quizTranslate": "Farklı ülkelere seyahat etmeyi seviyorum.",
+      "quizTranslate": "J'aime voyager dans différents pays.",
       "translateList": [
         {
           "label": "Travel",
@@ -32283,9 +32283,9 @@
     },
     {
       "word": "Trip",
-      "translate": "Gezi / Yolculuk",
+      "translate": "Voyage / Excursion",
       "quiz": "We went on a school .... last weekend.",
-      "quizTranslate": "Geçen hafta sonu bir okul gezisine gittik.",
+      "quizTranslate": "Nous sommes partis en excursion scolaire le week-end dernier.",
       "translateList": [
         {
           "label": "Trip",
@@ -32307,9 +32307,9 @@
     },
     {
       "word": "Trousers",
-      "translate": "Pantolon",
+      "translate": "Pantalon",
       "quiz": "He bought a new pair of .... for work.",
-      "quizTranslate": "İş için yeni bir pantolon aldı.",
+      "quizTranslate": "Il a acheté un nouveau pantalon pour le travail.",
       "translateList": [
         {
           "label": "Trousers",
@@ -32331,9 +32331,9 @@
     },
     {
       "word": "Truck",
-      "translate": "Kamyon",
+      "translate": "Camion",
       "quiz": "A large .... was parked outside the store.",
-      "quizTranslate": "Mağazanın dışında büyük bir kamyon park etmişti.",
+      "quizTranslate": "Un grand camion était garé devant le magasin.",
       "translateList": [
         {
           "label": "Truck",
@@ -32355,9 +32355,9 @@
     },
     {
       "word": "Turn",
-      "translate": "Dönmek / Çevirmek",
+      "translate": "Tourner",
       "quiz": "Please .... left at the traffic lights.",
-      "quizTranslate": "Lütfen trafik ışıklarında sola dönün.",
+      "quizTranslate": "Veuillez tourner à gauche aux feux de circulation.",
       "translateList": [
         {
           "label": "Turn",
@@ -32379,9 +32379,9 @@
     },
     {
       "word": "Twice",
-      "translate": "İki kez",
+      "translate": "Deux fois",
       "quiz": "I go to the gym .... a week.",
-      "quizTranslate": "Haftada iki kez spor salonuna gidiyorum.",
+      "quizTranslate": "Je vais à la salle de sport deux fois par semaine.",
       "translateList": [
         {
           "label": "Twice",
@@ -32403,9 +32403,9 @@
     },
     {
       "word": "Type",
-      "translate": "Tür / Çeşit",
+      "translate": "Type / Genre",
       "quiz": "What .... of music do you like?",
-      "quizTranslate": "Ne tür müzik seversin?",
+      "quizTranslate": "Quel type de musique aimes-tu?",
       "translateList": [
         {
           "label": "Type",
@@ -32427,9 +32427,9 @@
     },
     {
       "word": "Tuesday",
-      "translate": "Salı",
+      "translate": "Mardi",
       "quiz": "Our class is on ....",
-      "quizTranslate": "Dersimiz Salı günü.",
+      "quizTranslate": "Notre cours est mardi.",
       "translateList": [
         {
           "label": "Tuesday",
@@ -32451,9 +32451,9 @@
     },
     {
       "word": "Twin",
-      "translate": "İkiz",
+      "translate": "Jumeau / Jumelle",
       "quiz": "She has a .... brother.",
-      "quizTranslate": "Onun bir ikiz erkek kardeşi var.",
+      "quizTranslate": "Elle a un frère jumeau.",
       "translateList": [
         {
           "label": "Twin",
@@ -32475,9 +32475,9 @@
     },
     {
       "word": "Tyre",
-      "translate": "Lastik",
+      "translate": "Pneu",
       "quiz": "I need to change the car’s ....",
-      "quizTranslate": "Arabanın lastiğini değiştirmem gerekiyor.",
+      "quizTranslate": "Je dois changer le pneu de la voiture.",
       "translateList": [
         {
           "label": "Tyre",
@@ -32499,9 +32499,9 @@
     },
     {
       "word": "Uncle",
-      "translate": "Amca/Dayı",
+      "translate": "Oncle",
       "quiz": "My .... lives in the city.",
-      "quizTranslate": "Amcam/Dayım şehirde yaşıyor.",
+      "quizTranslate": "Mon oncle vit en ville.",
       "translateList": [
         {
           "label": "Uncle",
@@ -32523,9 +32523,9 @@
     },
     {
       "word": "Understand",
-      "translate": "Anlamak",
+      "translate": "Comprendre",
       "quiz": "I don't .... this question.",
-      "quizTranslate": "Bu soruyu anlamıyorum.",
+      "quizTranslate": "Je ne comprends pas cette question.",
       "translateList": [
         {
           "label": "Understand",
@@ -32547,9 +32547,9 @@
     },
     {
       "word": "Use",
-      "translate": "Kullanmak",
+      "translate": "Utiliser",
       "quiz": "Can I .... your pen?",
-      "quizTranslate": "Kalemini kullanabilir miyim?",
+      "quizTranslate": "Puis-je utiliser ton stylo ?",
       "translateList": [
         {
           "label": "Use",
@@ -32571,9 +32571,9 @@
     },
     {
       "word": "Under",
-      "translate": "Altında",
+      "translate": "Sous",
       "quiz": "The cat is hiding .... the table.",
-      "quizTranslate": "Kedi masanın altında saklanıyor.",
+      "quizTranslate": "Le chat se cache sous la table.",
       "translateList": [
         {
           "label": "Under",
@@ -32595,9 +32595,9 @@
     },
     {
       "word": "Underground",
-      "translate": "Yeraltı / Metro",
+      "translate": "Métro / Souterrain",
       "quiz": "The city has an .... train system.",
-      "quizTranslate": "Şehirde bir yeraltı tren sistemi var.",
+      "quizTranslate": "La ville possède un système de métro souterrain.",
       "translateList": [
         {
           "label": "Underground",
@@ -32619,9 +32619,9 @@
     },
     {
       "word": "Underwear",
-      "translate": "İç çamaşırı",
+      "translate": "Sous-vêtements",
       "quiz": "She bought new .... from the store.",
-      "quizTranslate": "Mağazadan yeni iç çamaşırı aldı.",
+      "quizTranslate": "Elle a acheté de nouveaux sous-vêtements au magasin.",
       "translateList": [
         {
           "label": "Underwear",
@@ -32643,9 +32643,9 @@
     },
     {
       "word": "Umbrella",
-      "translate": "Şemsiye",
+      "translate": "Parapluie",
       "quiz": "Take your ...., it’s raining outside!",
-      "quizTranslate": "Şemsiyeni al, dışarıda yağmur yağıyor!",
+      "quizTranslate": "Prends ton parapluie, il pleut dehors !",
       "translateList": [
         {
           "label": "Umbrella",
@@ -32667,9 +32667,9 @@
     },
     {
       "word": "Uniform",
-      "translate": "Üniforma",
+      "translate": "Uniforme",
       "quiz": "Students must wear a school ....",
-      "quizTranslate": "Öğrenciler okul üniforması giymek zorunda.",
+      "quizTranslate": "Les élèves doivent porter un uniforme scolaire.",
       "translateList": [
         {
           "label": "Uniform",
@@ -32691,9 +32691,9 @@
     },
     {
       "word": "Unit",
-      "translate": "Birim",
+      "translate": "Unité",
       "quiz": "Each apartment has its own heating ....",
-      "quizTranslate": "Her dairenin kendi ısıtma birimi vardır.",
+      "quizTranslate": "Chaque appartement a sa propre unité de chauffage.",
       "translateList": [
         {
           "label": "Unit",
@@ -32716,9 +32716,9 @@
 
     {
       "word": "University",
-      "translate": "Üniversite",
+      "translate": "Université",
       "quiz": "She is studying at a famous ....",
-      "quizTranslate": "O, ünlü bir üniversitede okuyor.",
+      "quizTranslate": "Elle étudie dans une université renommée.",
       "translateList": [
         {
           "label": "University",
@@ -32740,9 +32740,9 @@
     },
     {
       "word": "Unless",
-      "translate": "-mezse / -mazsa",
+      "translate": "À moins que",
       "quiz": "I won't go out .... it stops raining.",
-      "quizTranslate": "Yağmur durmazsa dışarı çıkmayacağım.",
+      "quizTranslate": "Je ne sortirai pas à moins qu'il ne cesse de pleuvoir.",
       "translateList": [
         {
           "label": "Unless",
@@ -32765,9 +32765,9 @@
 
     {
       "word": "Until",
-      "translate": "-e kadar",
+      "translate": "Jusqu'à",
       "quiz": "We have to wait .... the bus arrives.",
-      "quizTranslate": "Otobüs gelene kadar beklemek zorundayız.",
+      "quizTranslate": "Nous devons attendre jusqu'à ce que le bus arrive.",
       "translateList": [
         {
           "label": "Until",
@@ -32789,9 +32789,9 @@
     },
     {
       "word": "Upstairs",
-      "translate": "Üst kat",
+      "translate": "À l'étage / En haut",
       "quiz": "She went .... to her bedroom.",
-      "quizTranslate": "O, yatak odasına üst kata çıktı.",
+      "quizTranslate": "Elle est montée à l'étage dans sa chambre.",
       "translateList": [
         {
           "label": "Upstairs",
@@ -32813,9 +32813,9 @@
     },
     {
       "word": "Unsteady",
-      "translate": "Dengesiz, kararsız",
+      "translate": "Instable",
       "quiz": "His hands were .... due to nervousness.",
-      "quizTranslate": "Sinirlilik nedeniyle elleri dengesizdi.",
+      "quizTranslate": "Ses mains étaient instables à cause du stress.",
       "translateList": [
         {
           "label": "Unsteady",
@@ -32837,9 +32837,9 @@
     },
     {
       "word": "Unsuccessful",
-      "translate": "Başarısız",
+      "translate": "Infructueux / Échoué",
       "quiz": "Their project was .... due to lack of funds.",
-      "quizTranslate": "Projeleri, bütçe eksikliği nedeniyle başarısız oldu.",
+      "quizTranslate": "Leur projet a été infructueux en raison du manque de fonds.",
       "translateList": [
         {
           "label": "Unsuccessful",
@@ -32861,9 +32861,9 @@
     },
     {
       "word": "Untidy",
-      "translate": "Düzensiz, dağınık",
+      "translate": "Désordonné",
       "quiz": "His room was very ....",
-      "quizTranslate": "Onun odası çok dağınıktı.",
+      "quizTranslate": "Sa chambre était très désordonnée.",
       "translateList": [
         {
           "label": "Untidy",
@@ -32885,9 +32885,9 @@
     },
     {
       "word": "Unusual",
-      "translate": "Olağan dışı",
+      "translate": "Inhabituel",
       "quiz": "She has a very .... hobby.",
-      "quizTranslate": "Onun çok olağan dışı bir hobisi var.",
+      "quizTranslate": "Elle a un passe-temps très inhabituel.",
       "translateList": [
         {
           "label": "Unusual",
@@ -32909,9 +32909,9 @@
     },
     {
       "word": "Unwilling",
-      "translate": "İsteksiz",
+      "translate": "Réticent",
       "quiz": "He seemed .... to talk about the issue.",
-      "quizTranslate": "Konu hakkında konuşmaya isteksiz görünüyordu.",
+      "quizTranslate": "Il semblait réticent à parler du problème.",
       "translateList": [
         {
           "label": "Unwilling",
@@ -32933,9 +32933,9 @@
     },
     {
       "word": "Upon",
-      "translate": "Üzerine",
+      "translate": "Sur / À propos de",
       "quiz": "He placed the book .... the table.",
-      "quizTranslate": "Kitabı masanın üzerine koydu.",
+      "quizTranslate": "Il a posé le livre sur la table.",
       "translateList": [
         {
           "label": "Upon",
@@ -32957,9 +32957,9 @@
     },
     {
       "word": "Upper",
-      "translate": "Üst, üstteki",
+      "translate": "Supérieur / Haut",
       "quiz": "She lives in the .... part of the city.",
-      "quizTranslate": "O, şehrin üst bölgesinde yaşıyor.",
+      "quizTranslate": "Elle vit dans la partie supérieure de la ville.",
       "translateList": [
         {
           "label": "Upper",
@@ -32981,9 +32981,9 @@
     },
     {
       "word": "Upset",
-      "translate": "Üzgün, rahatsız",
+      "translate": "Triste / Contrarié",
       "quiz": "She was very .... about the news.",
-      "quizTranslate": "Haber hakkında çok üzgündü.",
+      "quizTranslate": "Elle était très contrariée par la nouvelle.",
       "translateList": [
         {
           "label": "Upset",
@@ -33005,9 +33005,9 @@
     },
     {
       "word": "Upward",
-      "translate": "Yukarı doğru",
+      "translate": "Vers le haut",
       "quiz": "The smoke rose .... into the sky.",
-      "quizTranslate": "Duman yukarı doğru gökyüzüne yükseldi.",
+      "quizTranslate": "La fumée est montée vers le haut dans le ciel.",
       "translateList": [
         {
           "label": "Upward",
@@ -33029,9 +33029,9 @@
     },
     {
       "word": "Urban",
-      "translate": "Kentsel",
+      "translate": "Urbain",
       "quiz": "The government is planning an .... development project.",
-      "quizTranslate": "Hükümet, kentsel bir gelişim projesi planlıyor.",
+      "quizTranslate": "Le gouvernement prévoit un projet de développement urbain.",
       "translateList": [
         {
           "label": "Urban",
@@ -33053,9 +33053,9 @@
     },
     {
       "word": "User",
-      "translate": "Kullanıcı",
+      "translate": "Utilisateur",
       "quiz": "Each .... has a unique password.",
-      "quizTranslate": "Her kullanıcının benzersiz bir şifresi vardır.",
+      "quizTranslate": "Chaque utilisateur a un mot de passe unique.",
       "translateList": [
         {
           "label": "User",
@@ -33077,9 +33077,9 @@
     },
     {
       "word": "Usual",
-      "translate": "Alışılmış, sıradan",
+      "translate": "Habituel",
       "quiz": "He arrived home at his .... time.",
-      "quizTranslate": "Eve her zamanki saatinde geldi.",
+      "quizTranslate": "Il est arrivé chez lui à son heure habituelle.",
       "translateList": [
         {
           "label": "Usual",
@@ -33101,9 +33101,9 @@
     },
     {
       "word": "Usually",
-      "translate": "Genellikle, çoğunlukla",
+      "translate": "D'habitude / Généralement",
       "quiz": "I .... wake up at 7 AM.",
-      "quizTranslate": "Genellikle sabah 7'de uyanırım.",
+      "quizTranslate": "D'habitude, je me réveille à 7 heures du matin.",
       "translateList": [
         {
           "label": "Usually",
@@ -33125,9 +33125,9 @@
     },
     {
       "word": "Valley",
-      "translate": "Vadi",
+      "translate": "Vallée",
       "quiz": "The river runs through the ....",
-      "quizTranslate": "Nehir vadi boyunca akar.",
+      "quizTranslate": "La rivière traverse la vallée.",
       "translateList": [
         {
           "label": "Valley",
@@ -33149,9 +33149,9 @@
     },
     {
       "word": "Value",
-      "translate": "Değer, kıymet",
+      "translate": "Valeur",
       "quiz": "The .... of gold has increased.",
-      "quizTranslate": "Altının değeri arttı.",
+      "quizTranslate": "La valeur de l'or a augmenté.",
       "translateList": [
         {
           "label": "Value",
@@ -33173,9 +33173,9 @@
     },
     {
       "word": "Vacation",
-      "translate": "Tatil",
+      "translate": "Vacances",
       "quiz": "We are planning a ....",
-      "quizTranslate": "Bir tatil planlıyoruz.",
+      "quizTranslate": "Nous planifions des vacances.",
       "translateList": [
         {
           "label": "Vacation",
@@ -33197,9 +33197,9 @@
     },
     {
       "word": "Vegetable",
-      "translate": "Sebze",
+      "translate": "Légume",
       "quiz": ".... are good for health.",
-      "quizTranslate": "Sebzeler sağlık için iyidir.",
+      "quizTranslate": "Les légumes sont bons pour la santé.",
       "translateList": [
         {
           "label": "Vegetable",
@@ -33221,9 +33221,9 @@
     },
     {
       "word": "Village",
-      "translate": "Köy",
+      "translate": "Village",
       "quiz": "He grew up in a small ....",
-      "quizTranslate": "O, küçük bir köyde büyüdü.",
+      "quizTranslate": "Il a grandi dans un petit village.",
       "translateList": [
         {
           "label": "Village",
@@ -33245,9 +33245,9 @@
     },
     {
       "word": "Visit",
-      "translate": "Ziyaret etmek",
+      "translate": "Visiter",
       "quiz": "We will .... our grandparents tomorrow.",
-      "quizTranslate": "Yarın büyükanne ve büyükbabamızı ziyaret edeceğiz.",
+      "quizTranslate": "Nous allons visiter nos grands-parents demain.",
       "translateList": [
         {
           "label": "Visit",
@@ -33269,9 +33269,9 @@
     },
     {
       "word": "Voice",
-      "translate": "Ses",
+      "translate": "Voix",
       "quiz": "Her .... is very soft.",
-      "quizTranslate": "Onun sesi çok yumuşak.",
+      "quizTranslate": "Sa voix est très douce.",
       "translateList": [
         {
           "label": "Voice",
@@ -33293,9 +33293,9 @@
     },
     {
       "word": "Virus",
-      "translate": "Virüs",
+      "translate": "Virus",
       "quiz": "The computer was infected with a ....",
-      "quizTranslate": "Bilgisayar bir virüsle enfekte oldu.",
+      "quizTranslate": "L'ordinateur a été infecté par un virus.",
       "translateList": [
         {
           "label": "Virus",
@@ -33317,9 +33317,9 @@
     },
     {
       "word": "Wait",
-      "translate": "Beklemek",
+      "translate": "Attendre",
       "quiz": "Please .... here for a moment.",
-      "quizTranslate": "Lütfen burada bir dakika bekleyin.",
+      "quizTranslate": "Veuillez attendre ici un instant.",
       "translateList": [
         {
           "label": "Wait",
@@ -33341,9 +33341,9 @@
     },
     {
       "word": "Waiter",
-      "translate": "Garson",
+      "translate": "Serveur",
       "quiz": "The .... took our order quickly.",
-      "quizTranslate": "Garson siparişimizi hızlıca aldı.",
+      "quizTranslate": "Le serveur a pris notre commande rapidement.",
       "translateList": [
         {
           "label": "Waiter",
@@ -33365,9 +33365,9 @@
     },
     {
       "word": "Walk",
-      "translate": "Yürümek",
+      "translate": "Marcher",
       "quiz": "I .... to work every day.",
-      "quizTranslate": "Her gün işe yürürüm.",
+      "quizTranslate": "Je marche pour aller au travail tous les jours.",
       "translateList": [
         {
           "label": "Walk",
@@ -33389,9 +33389,9 @@
     },
     {
       "word": "Water",
-      "translate": "Su",
+      "translate": "Eau",
       "quiz": "Drink plenty of ....",
-      "quizTranslate": "Bol bol su iç.",
+      "quizTranslate": "Buvez beaucoup d'eau.",
       "translateList": [
         {
           "label": "Water",
@@ -33413,9 +33413,9 @@
     },
     {
       "word": "Wake",
-      "translate": "Uyanmak",
+      "translate": "Se réveiller",
       "quiz": "I usually .... up at 7 AM.",
-      "quizTranslate": "Genellikle sabah 7'de uyanırım.",
+      "quizTranslate": "Je me réveille généralement à 7 heures du matin.",
       "translateList": [
         {
           "label": "Wake",
@@ -33437,9 +33437,9 @@
     },
     {
       "word": "Wall",
-      "translate": "Duvar",
+      "translate": "Mur",
       "quiz": "There is a picture on the ....",
-      "quizTranslate": "Duvarın üzerinde bir resim var.",
+      "quizTranslate": "Il y a une image sur le mur.",
       "translateList": [
         {
           "label": "Wall",
@@ -33461,9 +33461,9 @@
     },
     {
       "word": "War",
-      "translate": "Savaş",
+      "translate": "Guerre",
       "quiz": "Many people suffered during the ....",
-      "quizTranslate": "Birçok insan savaş sırasında acı çekti.",
+      "quizTranslate": "Beaucoup de gens ont souffert pendant la guerre.",
       "translateList": [
         {
           "label": "War",
@@ -33485,9 +33485,9 @@
     },
     {
       "word": "Warm",
-      "translate": "Sıcak, ılık",
+      "translate": "Chaud",
       "quiz": "The weather is very .... today.",
-      "quizTranslate": "Hava bugün çok sıcak.",
+      "quizTranslate": "Il fait très chaud aujourd'hui.",
       "translateList": [
         {
           "label": "Warm",
@@ -33509,9 +33509,9 @@
     },
     {
       "word": "Wash",
-      "translate": "Yıkamak",
+      "translate": "Laver",
       "quiz": "I need to .... my hands before eating.",
-      "quizTranslate": "Yemek yemeden önce ellerimi yıkamam gerekiyor.",
+      "quizTranslate": "Je dois laver mes mains avant de manger.",
       "translateList": [
         {
           "label": "Wash",
@@ -33533,9 +33533,9 @@
     },
     {
       "word": "Watch",
-      "translate": "İzlemek, saat",
+      "translate": "Regarder, montre",
       "quiz": "She likes to .... movies at night.",
-      "quizTranslate": "O, geceleri film izlemeyi sever.",
+      "quizTranslate": "Elle aime regarder des films la nuit.",
       "translateList": [
         {
           "label": "Watch",
@@ -33557,9 +33557,9 @@
     },
     {
       "word": "Way",
-      "translate": "Yol, yöntem",
+      "translate": "Chemin, méthode",
       "quiz": "Can you show me the .... to the station?",
-      "quizTranslate": "Bana istasyona giden yolu gösterebilir misin?",
+      "quizTranslate": "Peux-tu me montrer le chemin vers la gare ?",
       "translateList": [
         {
           "label": "Way",
@@ -33581,9 +33581,9 @@
     },
     {
       "word": "Window",
-      "translate": "Pencere",
+      "translate": "Fenêtre",
       "quiz": "The .... is open.",
-      "quizTranslate": "Pencere açık.",
+      "quizTranslate": "La fenêtre est ouverte.",
       "translateList": [
         {
           "label": "Window",
@@ -33605,9 +33605,9 @@
     },
     {
       "word": "Wish",
-      "translate": "Keşke, dilemek",
+      "translate": "Souhaiter, vœu",
       "quiz": "I .... it would stop raining.",
-      "quizTranslate": "Keşke yağmur dursa.",
+      "quizTranslate": "Je souhaite que la pluie s’arrête.",
       "translateList": [
         {
           "label": "Wish",
@@ -33629,9 +33629,9 @@
     },
     {
       "word": "Wear",
-      "translate": "Giymek, takmak",
+      "translate": "Porter (vêtements)",
       "quiz": "She likes to .... colorful dresses.",
-      "quizTranslate": "O, renkli elbiseler giymeyi sever.",
+      "quizTranslate": "Elle aime porter des robes colorées.",
       "translateList": [
         {
           "label": "Wear",
@@ -33653,9 +33653,9 @@
     },
     {
       "word": "Weather",
-      "translate": "Hava durumu",
+      "translate": "Météo",
       "quiz": "The .... is very cold today.",
-      "quizTranslate": "Bugün hava çok soğuk.",
+      "quizTranslate": "La météo est très froide aujourd’hui.",
       "translateList": [
         {
           "label": "Weather",
@@ -33677,9 +33677,9 @@
     },
     {
       "word": "Website",
-      "translate": "İnternet sitesi",
+      "translate": "Site web",
       "quiz": "I found the information on their ....",
-      "quizTranslate": "Bilgiyi onların internet sitesinde buldum.",
+      "quizTranslate": "J’ai trouvé l’information sur leur site web.",
       "translateList": [
         {
           "label": "Website",
@@ -33701,9 +33701,9 @@
     },
     {
       "word": "Wedding",
-      "translate": "Düğün",
+      "translate": "Mariage",
       "quiz": "They are planning their .... next year.",
-      "quizTranslate": "Gelecek yıl düğünlerini planlıyorlar.",
+      "quizTranslate": "Ils planifient leur mariage l’année prochaine.",
       "translateList": [
         {
           "label": "Wedding",
@@ -33725,9 +33725,9 @@
     },
     {
       "word": "Wednesday",
-      "translate": "Çarşamba",
+      "translate": "Mercredi",
       "quiz": "The meeting is on ....",
-      "quizTranslate": "Toplantı çarşamba günü.",
+      "quizTranslate": "La réunion est mercredi.",
       "translateList": [
         {
           "label": "Wednesday",
@@ -33749,9 +33749,9 @@
     },
     {
       "word": "Week",
-      "translate": "Hafta",
+      "translate": "Semaine",
       "quiz": "I work five days a ....",
-      "quizTranslate": "Haftada beş gün çalışıyorum.",
+      "quizTranslate": "Je travaille cinq jours par semaine.",
       "translateList": [
         {
           "label": "Week",
@@ -33773,9 +33773,9 @@
     },
     {
       "word": "Weekend",
-      "translate": "Hafta sonu",
+      "translate": "Week-end",
       "quiz": "What are you doing this ....?",
-      "quizTranslate": "Bu hafta sonu ne yapıyorsun?",
+      "quizTranslate": "Que fais-tu ce week-end ?",
       "translateList": [
         {
           "label": "Weekend",
@@ -33797,9 +33797,9 @@
     },
     {
       "word": "Weekly",
-      "translate": "Haftalık",
+      "translate": "Hebdomadaire",
       "quiz": "She writes a .... report.",
-      "quizTranslate": "O, haftalık bir rapor yazıyor.",
+      "quizTranslate": "Elle écrit un rapport hebdomadaire.",
       "translateList": [
         {
           "label": "Weekly",
@@ -33821,9 +33821,9 @@
     },
     {
       "word": "Weigh",
-      "translate": "Tartmak, ağırlığında olmak",
+      "translate": "Peser",
       "quiz": "She needs to .... the ingredients.",
-      "quizTranslate": "O, malzemeleri tartması gerekiyor.",
+      "quizTranslate": "Elle doit peser les ingrédients.",
       "translateList": [
         {
           "label": "Weigh",
@@ -33845,9 +33845,9 @@
     },
     {
       "word": "Welcome",
-      "translate": "Hoş geldiniz, karşılamak",
+      "translate": "Bienvenue, accueillir",
       "quiz": "They gave us a warm ....",
-      "quizTranslate": "Bize sıcak bir hoş geldiniz dediler.",
+      "quizTranslate": "Ils nous ont donné un chaleureux bienvenue.",
       "translateList": [
         {
           "label": "Welcome",
@@ -33869,9 +33869,9 @@
     },
     {
       "word": "Well",
-      "translate": "İyi, oldukça",
+      "translate": "Bien",
       "quiz": "She sings very ....",
-      "quizTranslate": "O, çok iyi şarkı söyler.",
+      "quizTranslate": "Elle chante très bien.",
       "translateList": [
         {
           "label": "Well",
@@ -33893,9 +33893,9 @@
     },
     {
       "word": "West",
-      "translate": "Batı",
+      "translate": "Ouest",
       "quiz": "The sun sets in the ....",
-      "quizTranslate": "Güneş batıda batar.",
+      "quizTranslate": "Le soleil se couche à l’ouest.",
       "translateList": [
         {
           "label": "West",
@@ -33917,9 +33917,9 @@
     },
     {
       "word": "Western",
-      "translate": "Batıya ait, batılı",
+      "translate": "Occidental",
       "quiz": "She prefers .... culture.",
-      "quizTranslate": "O, batı kültürünü tercih ediyor.",
+      "quizTranslate": "Elle préfère la culture occidentale.",
       "translateList": [
         {
           "label": "Western",
@@ -33941,9 +33941,9 @@
     },
     {
       "word": "Wet",
-      "translate": "Islak",
+      "translate": "Mouillé",
       "quiz": "Her hair is still ....",
-      "quizTranslate": "Onun saçı hâlâ ıslak.",
+      "quizTranslate": "Ses cheveux sont encore mouillés.",
       "translateList": [
         {
           "label": "Wet",
@@ -33965,9 +33965,9 @@
     },
     {
       "word": "What",
-      "translate": "Ne",
+      "translate": "Quoi",
       "quiz": ".... is your name?",
-      "quizTranslate": "Adın ne?",
+      "quizTranslate": "Quel est ton nom ?",
       "translateList": [
         {
           "label": "What",
@@ -33989,9 +33989,9 @@
     },
     {
       "word": "Wheel",
-      "translate": "Tekerlek",
+      "translate": "Roue",
       "quiz": "The car has four ....",
-      "quizTranslate": "Arabanın dört tekerleği var.",
+      "quizTranslate": "La voiture a quatre roues.",
       "translateList": [
         {
           "label": "Wheels",
@@ -34013,9 +34013,9 @@
     },
     {
       "word": "When",
-      "translate": "Ne zaman",
+      "translate": "Quand",
       "quiz": ".... will you come?",
-      "quizTranslate": "Ne zaman geleceksin?",
+      "quizTranslate": "Quand viendras-tu ?",
       "translateList": [
         {
           "label": "When",
@@ -34037,9 +34037,9 @@
     },
     {
       "word": "Where",
-      "translate": "Nerede",
+      "translate": "Où",
       "quiz": ".... do you live?",
-      "quizTranslate": "Nerede yaşıyorsun?",
+      "quizTranslate": "Où habites-tu ?",
       "translateList": [
         {
           "label": "Where",
@@ -34061,9 +34061,9 @@
     },
     {
       "word": "Whether",
-      "translate": "Olup olmadığı",
+      "translate": "Si (oui ou non)",
       "quiz": "I don't know .... he will come.",
-      "quizTranslate": "Onun gelip gelmeyeceğini bilmiyorum.",
+      "quizTranslate": "Je ne sais pas s'il viendra.",
       "translateList": [
         {
           "label": "Whether",
@@ -34085,9 +34085,9 @@
     },
     {
       "word": "Weight",
-      "translate": "Ağırlık",
+      "translate": "Poids",
       "quiz": "She lost a lot of .... last year.",
-      "quizTranslate": "Geçen yıl çok kilo verdi.",
+      "quizTranslate": "Elle a perdu beaucoup de poids l'année dernière.",
       "translateList": [
         {
           "label": "Weight",
@@ -34109,9 +34109,9 @@
     },
     {
       "word": "Which",
-      "translate": "Hangi",
+      "translate": "Quel / Quelle",
       "quiz": ".... color do you like best?",
-      "quizTranslate": "Hangi rengi en çok seviyorsun?",
+      "quizTranslate": "Quelle couleur préfères-tu ?",
       "translateList": [
         {
           "label": "Which",
@@ -34133,9 +34133,9 @@
     },
     {
       "word": "While",
-      "translate": "İken, sırasında",
+      "translate": "Pendant que",
       "quiz": "She was reading .... I was cooking.",
-      "quizTranslate": "Ben yemek yaparken o kitap okuyordu.",
+      "quizTranslate": "Elle lisait pendant que je cuisinais.",
       "translateList": [
         {
           "label": "While",
@@ -34157,9 +34157,9 @@
     },
     {
       "word": "White",
-      "translate": "Beyaz",
+      "translate": "Blanc",
       "quiz": "She bought a .... dress.",
-      "quizTranslate": "O, beyaz bir elbise aldı.",
+      "quizTranslate": "Elle a acheté une robe blanche.",
       "translateList": [
         {
           "label": "White",
@@ -34181,9 +34181,9 @@
     },
     {
       "word": "Who",
-      "translate": "Kim",
+      "translate": "Qui",
       "quiz": ".... is your best friend?",
-      "quizTranslate": "En iyi arkadaşın kim?",
+      "quizTranslate": "Qui est ton meilleur ami ?",
       "translateList": [
         {
           "label": "Who",
@@ -34205,9 +34205,9 @@
     },
     {
       "word": "Whole",
-      "translate": "Bütün, tüm",
+      "translate": "Entier / Tout",
       "quiz": "I spent the .... day studying.",
-      "quizTranslate": "Bütün günü ders çalışarak geçirdim.",
+      "quizTranslate": "J'ai passé toute la journée à étudier.",
       "translateList": [
         {
           "label": "Whole",
@@ -34229,9 +34229,9 @@
     },
     {
       "word": "Whose",
-      "translate": "Kimin",
+      "translate": "À qui",
       "quiz": ".... book is this?",
-      "quizTranslate": "Bu kimin kitabı?",
+      "quizTranslate": "À qui est ce livre ?",
       "translateList": [
         {
           "label": "Whose",
@@ -34253,9 +34253,9 @@
     },
     {
       "word": "Why",
-      "translate": "Neden",
+      "translate": "Pourquoi",
       "quiz": ".... are you late?",
-      "quizTranslate": "Neden geç kaldın?",
+      "quizTranslate": "Pourquoi es-tu en retard ?",
       "translateList": [
         {
           "label": "Why",
@@ -34277,9 +34277,9 @@
     },
     {
       "word": "Wide",
-      "translate": "Geniş",
+      "translate": "Large",
       "quiz": "The river is very .... here.",
-      "quizTranslate": "Nehir burada çok geniş.",
+      "quizTranslate": "La rivière est très large ici.",
       "translateList": [
         {
           "label": "Wide",
@@ -34301,9 +34301,9 @@
     },
     {
       "word": "Wife",
-      "translate": "Eş, hanım",
+      "translate": "Femme (épouse)",
       "quiz": "His .... is a doctor.",
-      "quizTranslate": "Onun eşi bir doktordur.",
+      "quizTranslate": "Sa femme est médecin.",
       "translateList": [
         {
           "label": "Wife",
@@ -34325,9 +34325,9 @@
     },
     {
       "word": "Win",
-      "translate": "Kazanmak",
+      "translate": "Gagner",
       "quiz": "He wants to .... the game.",
-      "quizTranslate": "O, oyunu kazanmak istiyor.",
+      "quizTranslate": "Il veut gagner le match.",
       "translateList": [
         {
           "label": "Win",
@@ -34349,9 +34349,9 @@
     },
     {
       "word": "Wine",
-      "translate": "Şarap",
+      "translate": "Vin",
       "quiz": "Would you like a glass of ....?",
-      "quizTranslate": "Bir bardak şarap ister misiniz?",
+      "quizTranslate": "Voulez-vous un verre de vin ?",
       "translateList": [
         {
           "label": "Wine",
@@ -34373,9 +34373,9 @@
     },
     {
       "word": "Winter",
-      "translate": "Kış",
+      "translate": "Hiver",
       "quiz": "It usually snows in ....",
-      "quizTranslate": "Genellikle kışın kar yağar.",
+      "quizTranslate": "Il neige généralement en hiver.",
       "translateList": [
         {
           "label": "Winter",
@@ -34397,9 +34397,9 @@
     },
     {
       "word": "With",
-      "translate": "İle, birlikte",
+      "translate": "Avec",
       "quiz": "She went to the party .... her friends.",
-      "quizTranslate": "O, partiye arkadaşlarıyla gitti.",
+      "quizTranslate": "Elle est allée à la fête avec ses amis.",
       "translateList": [
         {
           "label": "With",
@@ -34421,9 +34421,9 @@
     },
     {
       "word": "Within",
-      "translate": "İçinde, dahilinde",
+      "translate": "Dans / En",
       "quiz": "The package will arrive .... three days.",
-      "quizTranslate": "Paket üç gün içinde ulaşacak.",
+      "quizTranslate": "Le colis arrivera dans trois jours.",
       "translateList": [
         {
           "label": "Within",
@@ -34445,9 +34445,9 @@
     },
     {
       "word": "Without",
-      "translate": "Olmadan, -sız",
+      "translate": "Sans",
       "quiz": "He left .... saying goodbye.",
-      "quizTranslate": "O, veda etmeden ayrıldı.",
+      "quizTranslate": "Il est parti sans dire au revoir.",
       "translateList": [
         {
           "label": "Without",
@@ -34469,9 +34469,9 @@
     },
     {
       "word": "Woman",
-      "translate": "Kadın",
+      "translate": "Femme",
       "quiz": "The .... is reading a book.",
-      "quizTranslate": "Kadın bir kitap okuyor.",
+      "quizTranslate": "La femme lit un livre.",
       "translateList": [
         {
           "label": "Woman",
@@ -34493,9 +34493,9 @@
     },
     {
       "word": "Work",
-      "translate": "Çalışmak",
+      "translate": "Travailler",
       "quiz": "I .... in an office.",
-      "quizTranslate": "Bir ofiste çalışıyorum.",
+      "quizTranslate": "Je travaille dans un bureau.",
       "translateList": [
         {
           "label": "Work",
@@ -34517,9 +34517,9 @@
     },
     {
       "word": "Write",
-      "translate": "Yazmak",
+      "translate": "Écrire",
       "quiz": "Please .... your name here.",
-      "quizTranslate": "Lütfen buraya ismini yaz.",
+      "quizTranslate": "Veuillez écrire votre nom ici.",
       "translateList": [
         {
           "label": "Write",
@@ -34541,9 +34541,9 @@
     },
     {
       "word": "Word",
-      "translate": "Kelime",
+      "translate": "Mot",
       "quiz": "Can you spell this ....?",
-      "quizTranslate": "Bu kelimeyi heceleyebilir misin?",
+      "quizTranslate": "Peux-tu épeler ce mot ?",
       "translateList": [
         {
           "label": "Word",
@@ -34565,9 +34565,9 @@
     },
     {
       "word": "Worker",
-      "translate": "İşçi, çalışan",
+      "translate": "Travailleur",
       "quiz": "He is a factory ....",
-      "quizTranslate": "O, bir fabrika işçisidir.",
+      "quizTranslate": "Il est un travailleur d'usine.",
       "translateList": [
         {
           "label": "Worker",
@@ -34589,9 +34589,9 @@
     },
     {
       "word": "World",
-      "translate": "Dünya",
+      "translate": "Monde",
       "quiz": "She wants to travel around the ....",
-      "quizTranslate": "O, dünyayı gezmek istiyor.",
+      "quizTranslate": "Elle veut voyager autour du monde.",
       "translateList": [
         {
           "label": "World",
@@ -34613,9 +34613,9 @@
     },
     {
       "word": "Worry",
-      "translate": "Endişelenmek",
+      "translate": "S'inquiéter",
       "quiz": "Don’t ...., everything will be fine.",
-      "quizTranslate": "Endişelenme, her şey yoluna girecek.",
+      "quizTranslate": "Ne t'inquiète pas, tout ira bien.",
       "translateList": [
         {
           "label": "Worry",
@@ -34637,9 +34637,9 @@
     },
     {
       "word": "Year",
-      "translate": "Yıl",
+      "translate": "Année",
       "quiz": "This .... is very important for me.",
-      "quizTranslate": "Bu yıl benim için çok önemli.",
+      "quizTranslate": "Cette année est très importante pour moi.",
       "translateList": [
         {
           "label": "Year",
@@ -34661,9 +34661,9 @@
     },
     {
       "word": "Yellow",
-      "translate": "Sarı",
+      "translate": "Jaune",
       "quiz": "The sun looks .... in the morning.",
-      "quizTranslate": "Sabahları güneş sarı görünür.",
+      "quizTranslate": "Le soleil semble jaune le matin.",
       "translateList": [
         {
           "label": "Yellow",
@@ -34685,9 +34685,9 @@
     },
     {
       "word": "Write",
-      "translate": "Yazmak",
+      "translate": "Écrire",
       "quiz": "Can you .... your name here?",
-      "quizTranslate": "Adını buraya yazabilir misin?",
+      "quizTranslate": "Peux-tu écrire ton nom ici ?",
       "translateList": [
         {
           "label": "Write",
@@ -34709,9 +34709,9 @@
     },
     {
       "word": "Writer",
-      "translate": "Yazar",
+      "translate": "Écrivain",
       "quiz": "She is a famous ....",
-      "quizTranslate": "O, ünlü bir yazardır.",
+      "quizTranslate": "Elle est une écrivaine célèbre.",
       "translateList": [
         {
           "label": "Writer",
@@ -34733,9 +34733,9 @@
     },
     {
       "word": "Wrong",
-      "translate": "Yanlış",
+      "translate": "Faux",
       "quiz": "Your answer is ....",
-      "quizTranslate": "Cevabın yanlış.",
+      "quizTranslate": "Ta réponse est fausse.",
       "translateList": [
         {
           "label": "Wrong",
@@ -34757,9 +34757,9 @@
     },
     {
       "word": "Yard",
-      "translate": "Avlu, bahçe",
+      "translate": "Cour",
       "quiz": "The children are playing in the ....",
-      "quizTranslate": "Çocuklar avluda oynuyor.",
+      "quizTranslate": "Les enfants jouent dans la cour.",
       "translateList": [
         {
           "label": "Yard",
@@ -34781,9 +34781,9 @@
     },
     {
       "word": "Yesterday",
-      "translate": "Dün",
+      "translate": "Hier",
       "quiz": "I saw her ....",
-      "quizTranslate": "Onu dün gördüm.",
+      "quizTranslate": "Je l'ai vue hier.",
       "translateList": [
         {
           "label": "Yesterday",
@@ -34805,9 +34805,9 @@
     },
     {
       "word": "Yet",
-      "translate": "Henüz, fakat",
+      "translate": "Encore",
       "quiz": "I haven't finished my homework ....",
-      "quizTranslate": "Ödevimi henüz bitirmedim.",
+      "quizTranslate": "Je n'ai pas encore fini mes devoirs.",
       "translateList": [
         {
           "label": "Yet",
@@ -34829,9 +34829,9 @@
     },
     {
       "word": "Young",
-      "translate": "Genç",
+      "translate": "Jeune",
       "quiz": "She is too .... to drive a car.",
-      "quizTranslate": "O, araba kullanmak için çok genç.",
+      "quizTranslate": "Elle est trop jeune pour conduire une voiture.",
       "translateList": [
         {
           "label": "Young",
@@ -34853,9 +34853,9 @@
     },
     {
       "word": "Yourself",
-      "translate": "Kendin",
+      "translate": "Toi-même",
       "quiz": "Look at .... in the mirror.",
-      "quizTranslate": "Kendine aynada bak.",
+      "quizTranslate": "Regarde-toi dans le miroir.",
       "translateList": [
         {
           "label": "Yourself",
@@ -34877,9 +34877,9 @@
     },
     {
       "word": "Youth",
-      "translate": "Gençlik",
+      "translate": "Jeunesse",
       "quiz": "He spent his .... in this town.",
-      "quizTranslate": "Gençliğini bu kasabada geçirdi.",
+      "quizTranslate": "Il a passé sa jeunesse dans cette ville.",
       "translateList": [
         {
           "label": "Youth",
@@ -34901,9 +34901,9 @@
     },
     {
       "word": "Zero",
-      "translate": "Sıfır",
+      "translate": "Zéro",
       "quiz": "The temperature dropped to .... degrees.",
-      "quizTranslate": "Sıcaklık sıfır dereceye düştü.",
+      "quizTranslate": "La température est tombée à zéro degré.",
       "translateList": [
         {
           "label": "Zero",
@@ -34925,9 +34925,9 @@
     },
     {
       "word": "Dancing",
-      "translate": "Dans etme",
+      "translate": "Danser",
       "quiz": "She loves .... at parties.",
-      "quizTranslate": "Partilerde dans etmeyi çok sever.",
+      "quizTranslate": "Elle adore danser aux fêtes.",
       "translateList": [
         {
           "label": "Dancing",
@@ -34949,9 +34949,9 @@
     },
     {
       "word": "Dangerous",
-      "translate": "Tehlikeli",
+      "translate": "Dangereux",
       "quiz": "Climbing without equipment is ....",
-      "quizTranslate": "Ekipmansız tırmanmak tehlikelidir.",
+      "quizTranslate": "Escalader sans équipement est dangereux.",
       "translateList": [
         {
           "label": "Dangerous",
@@ -34973,9 +34973,9 @@
     },
     {
       "word": "Daughter",
-      "translate": "Kız çocuk",
+      "translate": "Fille",
       "quiz": "She has one .... and two sons.",
-      "quizTranslate": "Bir kızı ve iki oğlu var.",
+      "quizTranslate": "Elle a une fille et deux fils.",
       "translateList": [
         {
           "label": "Daughter",
@@ -34997,9 +34997,9 @@
     },
     {
       "word": "Delicious",
-      "translate": "Lezzetli",
+      "translate": "Délicieux",
       "quiz": "The cake she made was absolutely ....",
-      "quizTranslate": "Yaptığı kek kesinlikle lezzetliydi.",
+      "quizTranslate": "Le gâteau qu'elle a fait était absolument délicieux.",
       "translateList": [
         {
           "label": "Delicious",
@@ -35021,9 +35021,9 @@
     },
     {
       "word": "Design",
-      "translate": "Tasarım",
+      "translate": "Conception",
       "quiz": "She studied .... at university and now works as a graphic designer.",
-      "quizTranslate": "Üniversitede tasarım okudu ve şimdi grafik tasarımcı olarak çalışıyor.",
+      "quizTranslate": "Elle a étudié la conception à l'université et travaille maintenant comme graphiste.",
       "translateList": [
         {
           "label": "Design",
@@ -35045,9 +35045,9 @@
     },
     {
       "word": "Dictionary",
-      "translate": "Sözlük",
+      "translate": "Dictionnaire",
       "quiz": "I always use a .... when I don't understand a word.",
-      "quizTranslate": "Bir kelimeyi anlamadığımda her zaman sözlük kullanırım.",
+      "quizTranslate": "J'utilise toujours un dictionnaire quand je ne comprends pas un mot.",
       "translateList": [
         {
           "label": "Dictionary",
@@ -35069,9 +35069,9 @@
     },
     {
       "word": "Die",
-      "translate": "Ölmek",
+      "translate": "Mourir",
       "quiz": "Many people fear to .... before they achieve their goals.",
-      "quizTranslate": "Birçok insan hedeflerine ulaşmadan önce ölmekten korkar.",
+      "quizTranslate": "Beaucoup de gens ont peur de mourir avant d'atteindre leurs objectifs.",
       "translateList": [
         {
           "label": "Die",
@@ -35093,9 +35093,9 @@
     },
     {
       "word": "Describe",
-      "translate": "Tanımlamak, açıklamak",
+      "translate": "Décrire",
       "quiz": "Can you .... the picture to me?",
-      "quizTranslate": "Bana resmi tanımlayabilir misin?",
+      "quizTranslate": "Peux-tu me décrire l'image ?",
       "translateList": [
         {
           "label": "Describe",
@@ -35117,9 +35117,9 @@
     },
     {
       "word": "Do",
-      "translate": "Yapmak",
+      "translate": "Faire",
       "quiz": "What do you like to .... in your free time?",
-      "quizTranslate": "Boş zamanlarında ne yapmaktan hoşlanırsın?",
+      "quizTranslate": "Qu'aimes-tu faire pendant ton temps libre ?",
       "translateList": [
         {
           "label": "Do",
@@ -35141,9 +35141,9 @@
     },
     {
       "word": "Enjoy",
-      "translate": "Keyif almak, zevk almak",
+      "translate": "Apprécier",
       "quiz": "I always .... going to the beach during the summer.",
-      "quizTranslate": "Her zaman yazın plaja gitmekten keyif alırım.",
+      "quizTranslate": "J'apprécie toujours d'aller à la plage en été.",
       "translateList": [
         {
           "label": "Enjoy",
@@ -35165,9 +35165,9 @@
     },
     {
       "word": "Enough",
-      "translate": "Yeterli, yeterince",
+      "translate": "Assez",
       "quiz": "Do you think we have .... time to finish the project?",
-      "quizTranslate": "Projeyi bitirmek için yeterli zamanımız olduğunu düşünüyor musun?",
+      "quizTranslate": "Penses-tu que nous avons assez de temps pour finir le projet ?",
       "translateList": [
         {
           "label": "Enough",
@@ -35189,9 +35189,9 @@
     },
     {
       "word": "Event",
-      "translate": "Etkinlik",
+      "translate": "Événement",
       "quiz": "The charity organized a big .... to raise funds.",
-      "quizTranslate": "Hayır kurumu, bağış toplamak için büyük bir etkinlik düzenledi.",
+      "quizTranslate": "L'association a organisé un grand événement pour récolter des fonds.",
       "translateList": [
         {
           "label": "Event",
@@ -35213,9 +35213,9 @@
     },
     {
       "word": "Ever",
-      "translate": "Hiç, her zaman",
+      "translate": "Jamais",
       "quiz": "This is the best meal I have .... tasted!",
-      "quizTranslate": "Bu, şimdiye kadar tattığım en iyi yemek!",
+      "quizTranslate": "C'est le meilleur repas que j'aie jamais goûté !",
       "translateList": [
         {
           "label": "Ever",
@@ -35237,9 +35237,9 @@
     },
     {
       "word": "Exciting",
-      "translate": "Heyecan verici",
+      "translate": "Excitant",
       "quiz": "The news about the new movie was very ....",
-      "quizTranslate": "Yeni film hakkındaki haber çok heyecan vericiydi.",
+      "quizTranslate": "La nouvelle du nouveau film était très excitante.",
       "translateList": [
         {
           "label": "Exciting",
@@ -35261,9 +35261,9 @@
     },
     {
       "word": "Exercise",
-      "translate": "Egzersiz, egzersiz yapmak",
+      "translate": "Exercice",
       "quiz": "I try to do some .... every morning to stay fit.",
-      "quizTranslate": "Formda kalmak için her sabah biraz egzersiz yapmaya çalışıyorum.",
+      "quizTranslate": "J'essaie de faire un peu d'exercice chaque matin pour rester en forme.",
       "translateList": [
         {
           "label": "Exercise",
@@ -35285,9 +35285,9 @@
     },
     {
       "word": "Expensive",
-      "translate": "Pahalı",
+      "translate": "Cher",
       "quiz": "This restaurant is too .... for me to go frequently.",
-      "quizTranslate": "Bu restoran, sıkça gitmem için benim için çok pahalı.",
+      "quizTranslate": "Ce restaurant est trop cher pour que j'y aille souvent.",
       "translateList": [
         {
           "label": "Expensive",
@@ -35309,9 +35309,9 @@
     },
     {
       "word": "Explain",
-      "translate": "Açıklamak",
+      "translate": "Expliquer",
       "quiz": "Can you .... how to use this new software?",
-      "quizTranslate": "Bu yeni yazılımı nasıl kullanacağımı açıklayabilir misin?",
+      "quizTranslate": "Peux-tu expliquer comment utiliser ce nouveau logiciel ?",
       "translateList": [
         {
           "label": "Explain",
@@ -35333,9 +35333,9 @@
     },
     {
       "word": "Extra",
-      "translate": "Ekstra, ilave",
+      "translate": "Supplémentaire",
       "quiz": "Do you want to add some .... toppings to your pizza?",
-      "quizTranslate": "Pizzana ekstra malzeme eklemek ister misin?",
+      "quizTranslate": "Veux-tu ajouter des garnitures supplémentaires à ta pizza ?",
       "translateList": [
         {
           "label": "Extra",
@@ -35357,9 +35357,9 @@
     },
     {
       "word": "False",
-      "translate": "Yanlış",
+      "translate": "Faux",
       "quiz": "The statement you made earlier is ....",
-      "quizTranslate": "Az önce yaptığınız açıklama yanlış.",
+      "quizTranslate": "L'affirmation que tu as faite tout à l'heure est fausse.",
       "translateList": [
         {
           "label": "False",
@@ -35381,9 +35381,9 @@
     },
     {
       "word": "Fantastic",
-      "translate": "Harika",
+      "translate": "Fantastique",
       "quiz": "The concert last night was absolutely ....",
-      "quizTranslate": "Dünkü konser gerçekten harikaydı.",
+      "quizTranslate": "Le concert d'hier soir était absolument fantastique.",
       "translateList": [
         {
           "label": "Fantastic",
@@ -35405,9 +35405,9 @@
     },
     {
       "word": "Feeling",
-      "translate": "Hissiyat, duygu",
+      "translate": "Sentiment",
       "quiz": "She had a strange .... that something bad was going to happen.",
-      "quizTranslate": "Kötü bir şey olacağına dair garip bir hissiyatı vardı.",
+      "quizTranslate": "Elle avait un étrange sentiment que quelque chose de mauvais allait arriver.",
       "translateList": [
         {
           "label": "Feeling",
@@ -35429,9 +35429,9 @@
     },
     {
       "word": "First",
-      "translate": "İlk",
+      "translate": "Premier",
       "quiz": "This is my .... time visiting this city.",
-      "quizTranslate": "Bu, bu şehri ziyaret ettiğim ilk kez.",
+      "quizTranslate": "C'est la première fois que je visite cette ville.",
       "translateList": [
         {
           "label": "First",
@@ -35453,9 +35453,9 @@
     },
     {
       "word": "Few",
-      "translate": "Birkaç",
+      "translate": "Quelques",
       "quiz": "There are .... people in the room right now.",
-      "quizTranslate": "Şu anda odada birkaç kişi var.",
+      "quizTranslate": "Il y a quelques personnes dans la pièce en ce moment.",
       "translateList": [
         {
           "label": "Few",
@@ -35477,9 +35477,9 @@
     },
     {
       "word": "Flight",
-      "translate": "Uçuş",
+      "translate": "Vol",
       "quiz": "Our .... was delayed due to bad weather.",
-      "quizTranslate": "Uçuşumuz kötü hava koşulları nedeniyle ertelendi.",
+      "quizTranslate": "Notre vol a été retardé à cause du mauvais temps.",
       "translateList": [
         {
           "label": "Flight",
@@ -35501,9 +35501,9 @@
     },
     {
       "word": "Follow",
-      "translate": "Takip etmek",
+      "translate": "Suivre",
       "quiz": "You should .... the instructions carefully.",
-      "quizTranslate": "Talimatları dikkatlice takip etmelisin.",
+      "quizTranslate": "Tu devrais suivre les instructions attentivement.",
       "translateList": [
         {
           "label": "Follow",
@@ -35525,9 +35525,9 @@
     },
     {
       "word": "Foot",
-      "translate": "Ayak",
+      "translate": "Pied",
       "quiz": "He injured his .... while playing football.",
-      "quizTranslate": "Futbol oynarken ayağını sakatladı.",
+      "quizTranslate": "Il s'est blessé au pied en jouant au football.",
       "translateList": [
         {
           "label": "Foot",
@@ -35549,9 +35549,9 @@
     },
     {
       "word": "Football",
-      "translate": "Futbol",
+      "translate": "Football",
       "quiz": "He is a professional .... player.",
-      "quizTranslate": "O, profesyonel bir futbolcu.",
+      "quizTranslate": "Il est un joueur de football professionnel.",
       "translateList": [
         {
           "label": "Football",
@@ -35573,9 +35573,9 @@
     },
     {
       "word": "Friendly",
-      "translate": "Dostça, arkadaş canlısı",
+      "translate": "Amical",
       "quiz": "The staff at the hotel were very .... and helpful.",
-      "quizTranslate": "Otelin personeli çok dostça ve yardımcıydı.",
+      "quizTranslate": "Le personnel de l'hôtel était très amical et serviable.",
       "translateList": [
         {
           "label": "Friendly",
@@ -35597,9 +35597,9 @@
     },
     {
       "word": "Geography",
-      "translate": "Coğrafya",
+      "translate": "Géographie",
       "quiz": "He studied .... at university and now works as a teacher.",
-      "quizTranslate": "Üniversitede coğrafya okudu ve şimdi öğretmen olarak çalışıyor.",
+      "quizTranslate": "Il a étudié la géographie à l'université et travaille maintenant comme enseignant.",
       "translateList": [
         {
           "label": "Geography",
@@ -35621,9 +35621,9 @@
     },
     {
       "word": "Guitar",
-      "translate": "Gitar",
+      "translate": "Guitare",
       "quiz": "He played the .... beautifully during the concert.",
-      "quizTranslate": "Konser sırasında gitarı güzel bir şekilde çaldı.",
+      "quizTranslate": "Il a joué de la guitare magnifiquement pendant le concert.",
       "translateList": [
         {
           "label": "Guitar",
@@ -35645,9 +35645,9 @@
     },
     {
       "word": "Gym",
-      "translate": "Spor salonu",
+      "translate": "Salle de sport",
       "quiz": "She goes to the .... every morning to work out.",
-      "quizTranslate": "Her sabah spor yapmak için spor salonuna gider.",
+      "quizTranslate": "Elle va à la salle de sport chaque matin pour s'entraîner.",
       "translateList": [
         {
           "label": "Gym",
@@ -35669,9 +35669,9 @@
     },
     {
       "word": "Healthy",
-      "translate": "Sağlıklı",
+      "translate": "En bonne santé",
       "quiz": "Eating vegetables and fruits is important for staying ....",
-      "quizTranslate": "Sebze ve meyve yemek, sağlıklı kalmak için önemlidir.",
+      "quizTranslate": "Manger des légumes et des fruits est important pour rester en bonne santé.",
       "translateList": [
         {
           "label": "Healthy",
@@ -35693,9 +35693,9 @@
     },
     {
       "word": "Here",
-      "translate": "Burada",
+      "translate": "Ici",
       "quiz": "I am sitting .... at the table.",
-      "quizTranslate": "Ben burada masanın başında oturuyorum.",
+      "quizTranslate": "Je suis assis ici à la table.",
       "translateList": [
         {
           "label": "Here",
@@ -35717,9 +35717,9 @@
     },
     {
       "word": "History",
-      "translate": "Tarih",
+      "translate": "Histoire",
       "quiz": "He studied .... at the university and became a professor.",
-      "quizTranslate": "Üniversitede tarih okudu ve profesör oldu.",
+      "quizTranslate": "Il a étudié l'histoire à l'université et est devenu professeur.",
       "translateList": [
         {
           "label": "History",
@@ -35741,9 +35741,9 @@
     },
     {
       "word": "Hobby",
-      "translate": "Hobi",
+      "translate": "Passe-temps",
       "quiz": "My favorite .... is painting.",
-      "quizTranslate": "En sevdiğim hobim resim yapmaktır.",
+      "quizTranslate": "Mon passe-temps préféré est la peinture.",
       "translateList": [
         {
           "label": "Hobby",
@@ -35765,9 +35765,9 @@
     },
     {
       "word": "However",
-      "translate": "Bununla birlikte",
+      "translate": "Cependant",
       "quiz": "I wanted to go to the beach, ...., it started to rain.",
-      "quizTranslate": "Plaja gitmek istedim, bununla birlikte yağmur yağmaya başladı.",
+      "quizTranslate": "Je voulais aller à la plage, cependant, il a commencé à pleuvoir.",
       "translateList": [
         {
           "label": "However",
@@ -35789,9 +35789,9 @@
     },
     {
       "word": "In",
-      "translate": "İçinde, -de, -da",
+      "translate": "Dans",
       "quiz": "The keys are .... the drawer.",
-      "quizTranslate": "Anahtarlar çekmecenin içinde.",
+      "quizTranslate": "Les clés sont dans le tiroir.",
       "translateList": [
         {
           "label": "In",
@@ -35813,9 +35813,9 @@
     },
     {
       "word": "Include",
-      "translate": "Dahil etmek, içermek",
+      "translate": "Inclure",
       "quiz": "The price of the meal does not .... drinks.",
-      "quizTranslate": "Yemeğin fiyatı içecekleri dahil etmiyor.",
+      "quizTranslate": "Le prix du repas n'inclut pas les boissons.",
       "translateList": [
         {
           "label": "Include",
@@ -35837,9 +35837,9 @@
     },
     {
       "word": "Internet",
-      "translate": "İnternet",
+      "translate": "Internet",
       "quiz": "She spends most of her time on the ....",
-      "quizTranslate": "Zamanının çoğunu internette geçiriyor.",
+      "quizTranslate": "Elle passe la plupart de son temps sur Internet.",
       "translateList": [
         {
           "label": "Internet",
@@ -35861,9 +35861,9 @@
     },
     {
       "word": "Introduce",
-      "translate": "Tanıtmak, tanıştırmak",
+      "translate": "Présenter",
       "quiz": "Let me .... you to my friends.",
-      "quizTranslate": "Sizi arkadaşlarımla tanıştırayım.",
+      "quizTranslate": "Laisse-moi te présenter à mes amis.",
       "translateList": [
         {
           "label": "Introduce",
@@ -35885,9 +35885,9 @@
     },
     {
       "word": "Jacket",
-      "translate": "Ceket",
+      "translate": "Veste",
       "quiz": "She wore a warm .... because it was cold outside.",
-      "quizTranslate": "Dışarıda soğuk olduğu için sıcak bir ceket giydi.",
+      "quizTranslate": "Elle a mis une veste chaude parce qu'il faisait froid dehors.",
       "translateList": [
         {
           "label": "Jacket",
@@ -35909,9 +35909,9 @@
     },
     {
       "word": "Join",
-      "translate": "Katılmak",
+      "translate": "Rejoindre",
       "quiz": "Would you like to .... us for dinner?",
-      "quizTranslate": "Akşam yemeğine bizimle katılmak ister misin?",
+      "quizTranslate": "Aimerais-tu nous rejoindre pour le dîner ?",
       "translateList": [
         {
           "label": "Join",
@@ -35933,9 +35933,9 @@
     },
     {
       "word": "Last",
-      "translate": "Son, sonuncu",
+      "translate": "Dernier",
       "quiz": "This is the .... time I will visit this place.",
-      "quizTranslate": "Bu, bu yeri ziyaret ettiğim son sefer.",
+      "quizTranslate": "C'est la dernière fois que je visite cet endroit.",
       "translateList": [
         {
           "label": "Last",
@@ -35957,9 +35957,9 @@
     },
     {
       "word": "Lion",
-      "translate": "Aslan",
+      "translate": "Lion",
       "quiz": "The .... is known as the king of the jungle.",
-      "quizTranslate": "Aslan, ormanın kralı olarak bilinir.",
+      "quizTranslate": "Le lion est connu comme le roi de la jungle.",
       "translateList": [
         {
           "label": "Lion",
@@ -35981,9 +35981,9 @@
     },
     {
       "word": "Paragraph",
-      "translate": "Paragraf",
+      "translate": "Paragraphe",
       "quiz": "Can you read the last .... of the text?",
-      "quizTranslate": "Metnin son paragrafını okuyabilir misin?",
+      "quizTranslate": "Peux-tu lire le dernier paragraphe du texte ?",
       "translateList": [
         {
           "label": "Paragraph",
@@ -36005,9 +36005,9 @@
     },
     {
       "word": "Passport",
-      "translate": "Pasaport",
+      "translate": "Passeport",
       "quiz": "You need your .... to travel abroad.",
-      "quizTranslate": "Yurt dışına seyahat etmek için pasaportuna ihtiyacın var.",
+      "quizTranslate": "Tu as besoin de ton passeport pour voyager à l'étranger.",
       "translateList": [
         {
           "label": "Passport",
@@ -36029,9 +36029,9 @@
     },
     {
       "word": "Person",
-      "translate": "Kişi",
+      "translate": "Personne",
       "quiz": "She is a very kind ....",
-      "quizTranslate": "O çok nazik bir kişi.",
+      "quizTranslate": "Elle est une personne très gentille.",
       "translateList": [
         {
           "label": "Person",
@@ -36053,9 +36053,9 @@
     },
     {
       "word": "Personal",
-      "translate": "Kişisel",
+      "translate": "Personnel",
       "quiz": "This is a .... matter, not related to work.",
-      "quizTranslate": "Bu, işle ilgili olmayan kişisel bir konu.",
+      "quizTranslate": "C'est une affaire personnelle, non liée au travail.",
       "translateList": [
         {
           "label": "Personal",
@@ -36079,7 +36079,7 @@
       "word": "Plan",
       "translate": "Plan",
       "quiz": "We need to make a detailed .... for the project.",
-      "quizTranslate": "Proje için ayrıntılı bir plan yapmamız gerekiyor.",
+      "quizTranslate": "Nous devons faire un plan détaillé pour le projet.",
       "translateList": [
         {
           "label": "Plan",
@@ -36101,9 +36101,9 @@
     },
     {
       "word": "Plant",
-      "translate": "Bitki",
+      "translate": "Plante",
       "quiz": "She has a beautiful .... in her garden.",
-      "quizTranslate": "Bahçesinde güzel bir bitkisi var.",
+      "quizTranslate": "Elle a une belle plante dans son jardin.",
       "translateList": [
         {
           "label": "Plant",
@@ -36125,9 +36125,9 @@
     },
     {
       "word": "Player",
-      "translate": "Oyuncu",
+      "translate": "Joueur",
       "quiz": "He is the best .... on the team.",
-      "quizTranslate": "O, takımın en iyi oyuncusu.",
+      "quizTranslate": "Il est le meilleur joueur de l'équipe.",
       "translateList": [
         {
           "label": "Player",
@@ -36149,9 +36149,9 @@
     },
     {
       "word": "Policeman",
-      "translate": "Polis memuru",
+      "translate": "Policier",
       "quiz": "The .... is here to help us.",
-      "quizTranslate": "Polis memuru burada bize yardımcı olmak için.",
+      "quizTranslate": "Le policier est ici pour nous aider.",
       "translateList": [
         {
           "label": "Policeman",
@@ -36173,9 +36173,9 @@
     },
     {
       "word": "Probably",
-      "translate": "Muhtemelen",
+      "translate": "Probablement",
       "quiz": "He will .... arrive late to the meeting.",
-      "quizTranslate": "Toplantıya muhtemelen geç kalacak.",
+      "quizTranslate": "Il arrivera probablement en retard à la réunion.",
       "translateList": [
         {
           "label": "Probably",
@@ -36197,9 +36197,9 @@
     },
     {
       "word": "Project",
-      "translate": "Proje",
+      "translate": "Projet",
       "quiz": "We are working on a new .... at the office.",
-      "quizTranslate": "Ofiste yeni bir projede çalışıyoruz.",
+      "quizTranslate": "Nous travaillons sur un nouveau projet au bureau.",
       "translateList": [
         {
           "label": "Project",
@@ -36221,9 +36221,9 @@
     },
     {
       "word": "Relax",
-      "translate": "Rahatlamak",
+      "translate": "Se détendre",
       "quiz": "After a long day at work, I like to .... with a cup of tea.",
-      "quizTranslate": "Uzun bir iş gününün ardından bir fincan çayla rahatlamayı severim.",
+      "quizTranslate": "Après une longue journée de travail, j'aime me détendre avec une tasse de thé.",
       "translateList": [
         {
           "label": "Relax",
@@ -36245,9 +36245,9 @@
     },
     {
       "word": "Rich",
-      "translate": "Zengin",
+      "translate": "Riche",
       "quiz": "He became .... by investing in technology companies.",
-      "quizTranslate": "Teknoloji şirketlerine yatırım yaparak zengin oldu.",
+      "quizTranslate": "Il est devenu riche en investissant dans des entreprises technologiques.",
       "translateList": [
         {
           "label": "Rich",
@@ -36269,9 +36269,9 @@
     },
     {
       "word": "Sandwich",
-      "translate": "Sandviç",
+      "translate": "Sandwich",
       "quiz": "I had a delicious .... for lunch.",
-      "quizTranslate": "Öğle yemeği için lezzetli bir sandviç yedim.",
+      "quizTranslate": "J'ai mangé un délicieux sandwich pour le déjeuner.",
       "translateList": [
         {
           "label": "Sandwich",
@@ -36293,9 +36293,9 @@
     },
     {
       "word": "Second",
-      "translate": "İkinci, saniye",
+      "translate": "Seconde / Deuxième",
       "quiz": "This is the .... time I have visited this place.",
-      "quizTranslate": "Bu, bu yeri ziyaret ettiğim ikinci sefer.",
+      "quizTranslate": "C'est la deuxième fois que je visite cet endroit.",
       "translateList": [
         {
           "label": "Second",
@@ -36317,9 +36317,9 @@
     },
     {
       "word": "Station",
-      "translate": "İstasyon",
+      "translate": "Station",
       "quiz": "We are waiting at the bus ....",
-      "quizTranslate": "Otobüs durağında bekliyoruz.",
+      "quizTranslate": "Nous attendons à la station de bus.",
       "translateList": [
         {
           "label": "Station",
@@ -36341,9 +36341,9 @@
     },
     {
       "word": "Strong",
-      "translate": "Güçlü",
+      "translate": "Fort",
       "quiz": "He is very .... and can lift heavy weights.",
-      "quizTranslate": "O çok güçlüdür ve ağır kaldırabilir.",
+      "quizTranslate": "Il est très fort et peut soulever de lourdes charges.",
       "translateList": [
         {
           "label": "Strong",
@@ -36365,9 +36365,9 @@
     },
     {
       "word": "Success",
-      "translate": "Başarı",
+      "translate": "Succès",
       "quiz": "Hard work leads to ....",
-      "quizTranslate": "Çok çalışmak başarıya yol açar.",
+      "quizTranslate": "Le travail acharné mène au succès.",
       "translateList": [
         {
           "label": "Success",
@@ -36389,9 +36389,9 @@
     },
     {
       "word": "Sweater",
-      "translate": "Kazak",
+      "translate": "Pull",
       "quiz": "I bought a new .... for the winter.",
-      "quizTranslate": "Kış için yeni bir kazak aldım.",
+      "quizTranslate": "J'ai acheté un nouveau pull pour l'hiver.",
       "translateList": [
         {
           "label": "Sweater",
@@ -36413,9 +36413,9 @@
     },
     {
       "word": "Swimming",
-      "translate": "Yüzme",
+      "translate": "Natation",
       "quiz": "She enjoys .... in the ocean.",
-      "quizTranslate": "O, okyanusta yüzmeyi sever.",
+      "quizTranslate": "Elle aime la natation dans l'océan.",
       "translateList": [
         {
           "label": "Swimming",
@@ -36437,9 +36437,9 @@
     },
     {
       "word": "Teenager",
-      "translate": "Genç",
+      "translate": "Adolescent",
       "quiz": "She is a .... and loves hanging out with her friends.",
-      "quizTranslate": "O bir genç ve arkadaşlarıyla vakit geçirmeyi çok seviyor.",
+      "quizTranslate": "Elle est une adolescente et adore passer du temps avec ses amis.",
       "translateList": [
         {
           "label": "Teenager",
@@ -36461,9 +36461,9 @@
     },
     {
       "word": "Tennis",
-      "translate": "Tenis",
+      "translate": "Tennis",
       "quiz": "He plays .... every weekend.",
-      "quizTranslate": "Her hafta sonu tenis oynar.",
+      "quizTranslate": "Il joue au tennis tous les week-ends.",
       "translateList": [
         {
           "label": "Tennis",
@@ -36485,9 +36485,9 @@
     },
     {
       "word": "Test",
-      "translate": "Sınav, test",
+      "translate": "Test",
       "quiz": "I have a math .... tomorrow.",
-      "quizTranslate": "Yarın matematik sınavım var.",
+      "quizTranslate": "J'ai un test de mathématiques demain.",
       "translateList": [
         {
           "label": "Test",
@@ -36509,9 +36509,9 @@
     },
     {
       "word": "There",
-      "translate": "Orada",
+      "translate": "Là-bas",
       "quiz": "I have never been .... before.",
-      "quizTranslate": "Daha önce orada hiç bulunmadım.",
+      "quizTranslate": "Je n'ai jamais été là-bas auparavant.",
       "translateList": [
         {
           "label": "There",
@@ -36533,9 +36533,9 @@
     },
     {
       "word": "True",
-      "translate": "Doğru",
+      "translate": "Vrai",
       "quiz": "This statement is ....",
-      "quizTranslate": "Bu ifade doğrudur.",
+      "quizTranslate": "Cette affirmation est vraie.",
       "translateList": [
         {
           "label": "True",
@@ -36557,9 +36557,9 @@
     },
     {
       "word": "T-shirt",
-      "translate": "Tişört",
+      "translate": "T-shirt",
       "quiz": "He wore a blue .... to the party.",
-      "quizTranslate": "Partiye mavi bir tişört giydi.",
+      "quizTranslate": "Il portait un t-shirt bleu à la fête.",
       "translateList": [
         {
           "label": "T-shirt",
@@ -36581,9 +36581,9 @@
     },
     {
       "word": "Usually",
-      "translate": "Genellikle",
+      "translate": "Habituellement",
       "quiz": "I .... go for a walk in the evening.",
-      "quizTranslate": "Genellikle akşam yürüyüşe çıkarım.",
+      "quizTranslate": "J’habitude de faire une promenade le soir.",
       "translateList": [
         {
           "label": "Usually",
@@ -36605,9 +36605,9 @@
     },
     {
       "word": "Very",
-      "translate": "Çok",
+      "translate": "Très",
       "quiz": "She is .... talented at playing the piano.",
-      "quizTranslate": "O, piyano çalmada çok yetenekli.",
+      "quizTranslate": "Elle est très talentueuse pour jouer du piano.",
       "translateList": [
         {
           "label": "Very",
@@ -36629,9 +36629,9 @@
     },
     {
       "word": "Video",
-      "translate": "Video",
+      "translate": "Vidéo",
       "quiz": "I watched a funny .... on YouTube yesterday.",
-      "quizTranslate": "Dün YouTube'da komik bir video izledim.",
+      "quizTranslate": "J’ai regardé une vidéo drôle sur YouTube hier.",
       "translateList": [
         {
           "label": "Video",
@@ -36653,9 +36653,9 @@
     },
     {
       "word": "Want",
-      "translate": "İstemek",
+      "translate": "Vouloir",
       "quiz": "I .... to go to the movies tonight.",
-      "quizTranslate": "Bu akşam sinemaya gitmek istiyorum.",
+      "quizTranslate": "Je vouloir aller au cinéma ce soir.",
       "translateList": [
         {
           "label": "Want",
@@ -36677,9 +36677,9 @@
     },
     {
       "word": "Ribbon",
-      "translate": "Kurdele",
+      "translate": "Ruban",
       "quiz": "She tied a red .... around the gift box to make it look more elegant.",
-      "quizTranslate": "Hediyenin daha şık görünmesi için kutunun etrafına kırmızı bir kurdele bağladı.",
+      "quizTranslate": "Elle a attaché un ruban rouge autour de la boîte cadeau pour la rendre plus élégante.",
       "translateList": [
         {
           "label": "Ribbon",
@@ -36701,9 +36701,9 @@
     },
     {
       "word": "Undershirt",
-      "translate": "Atlet, fanila",
+      "translate": "Débardeur",
       "quiz": "He wore a white .... under his dress shirt to stay warm.",
-      "quizTranslate": "Sıcak kalmak için gömleğinin altına beyaz bir atlet giydi.",
+      "quizTranslate": "Il portait un débardeur blanc sous sa chemise pour rester au chaud.",
       "translateList": [
         {
           "label": "Undershirt",
@@ -36725,9 +36725,9 @@
     },
     {
       "word": "Grapes",
-      "translate": "Üzüm",
+      "translate": "Raisins",
       "quiz": "She bought a bunch of fresh .... from the market.",
-      "quizTranslate": "Pazardan bir salkım taze üzüm aldı.",
+      "quizTranslate": "Elle a acheté une grappe de raisins frais au marché.",
       "translateList": [
         {
           "label": "Grapes",
@@ -36749,9 +36749,9 @@
     },
     {
       "word": "Strawberry",
-      "translate": "Çilek",
+      "translate": "Fraise",
       "quiz": "Would you like some .... with cream?",
-      "quizTranslate": "Kremayla biraz çilek ister misin?",
+      "quizTranslate": "Voulez-vous des fraises avec de la crème?",
       "translateList": [
         {
           "label": "Strawberry",
@@ -36773,9 +36773,9 @@
     },
     {
       "word": "Cherry",
-      "translate": "Kiraz",
+      "translate": "Cerise",
       "quiz": "He picked a .... from the tree and ate it.",
-      "quizTranslate": "Ağaçtan bir kiraz koparıp yedi.",
+      "quizTranslate": "Il a cueilli une cerise de l’arbre et l’a mangée.",
       "translateList": [
         {
           "label": "Cherry",
@@ -36797,9 +36797,9 @@
     },
     {
       "word": "Watermelon",
-      "translate": "Karpuz",
+      "translate": "Pastèque",
       "quiz": "Eating .... is very refreshing in the summer.",
-      "quizTranslate": "Yazın karpuz yemek çok ferahlatıcıdır.",
+      "quizTranslate": "Manger de la pastèque est très rafraîchissant en été.",
       "translateList": [
         {
           "label": "Watermelon",
@@ -36821,9 +36821,9 @@
     },
     {
       "word": "Pear",
-      "translate": "Armut",
+      "translate": "Poire",
       "quiz": "She prefers .... over apples because they are juicier.",
-      "quizTranslate": "Daha sulu oldukları için elma yerine armut tercih eder.",
+      "quizTranslate": "Elle préfère les poires aux pommes parce qu’elles sont plus juteuses.",
       "translateList": [
         {
           "label": "Pear",
@@ -36845,9 +36845,9 @@
     },
     {
       "word": "Peach",
-      "translate": "Şeftali",
+      "translate": "Pêche",
       "quiz": "The .... was so ripe that its juice dripped down my hands.",
-      "quizTranslate": "Şeftali o kadar olgundu ki suyu ellerimden aktı.",
+      "quizTranslate": "La pêche était si mûre que son jus coulait sur mes mains.",
       "translateList": [
         {
           "label": "Peach",
@@ -36871,7 +36871,7 @@
       "word": "Pineapple",
       "translate": "Ananas",
       "quiz": "I love the tropical taste of fresh .... juice.",
-      "quizTranslate": "Taze ananas suyunun tropikal tadını seviyorum.",
+      "quizTranslate": "J’adore le goût tropical du jus d’ananas frais.",
       "translateList": [
         {
           "label": "Pineapple",
@@ -36893,9 +36893,9 @@
     },
     {
       "word": "Mango",
-      "translate": "Mango",
+      "translate": "Mangue",
       "quiz": "She made a delicious smoothie with ripe .... and yogurt.",
-      "quizTranslate": "Olgın mango ve yoğurtla lezzetli bir smoothie yaptı.",
+      "quizTranslate": "Elle a fait un smoothie délicieux avec de la mangue mûre et du yaourt.",
       "translateList": [
         {
           "label": "Mango",
@@ -36917,9 +36917,9 @@
     },
     {
       "word": "Plum",
-      "translate": "Erik",
+      "translate": "Prune",
       "quiz": "The .... tree in our garden produces the sweetest fruit.",
-      "quizTranslate": "Bahçemizdeki erik ağacı en tatlı meyveleri verir.",
+      "quizTranslate": "Le prunier dans notre jardin produit les fruits les plus sucrés.",
       "translateList": [
         {
           "label": "Plum",
@@ -36941,9 +36941,9 @@
     },
     {
       "word": "Apricot",
-      "translate": "Kayısı",
+      "translate": "Abricot",
       "quiz": "Dried .... are a popular snack in Turkey.",
-      "quizTranslate": "Kurutulmuş kayısılar Türkiye’de popüler bir atıştırmalıktır.",
+      "quizTranslate": "Les abricots secs sont un en-cas populaire en Turquie.",
       "translateList": [
         {
           "label": "Apricot",
@@ -36965,9 +36965,9 @@
     },
     {
       "word": "Pomegranate",
-      "translate": "Nar",
+      "translate": "Grenade",
       "quiz": "Breaking open a .... can be messy, but the seeds are delicious.",
-      "quizTranslate": "Bir narı açmak dağınık olabilir, ama taneleri lezzetlidir.",
+      "quizTranslate": "Ouvrir une grenade peut être salissant, mais les graines sont délicieuses.",
       "translateList": [
         {
           "label": "Pomegranate",
@@ -36989,9 +36989,9 @@
     },
     {
       "word": "Raspberry",
-      "translate": "Ahududu",
+      "translate": "Framboise",
       "quiz": "She made a delicious pie with fresh .... and cream.",
-      "quizTranslate": "Taze ahududu ve krema ile lezzetli bir turta yaptı.",
+      "quizTranslate": "Elle a fait une délicieuse tarte avec des framboises fraîches et de la crème.",
       "translateList": [
         {
           "label": "Raspberry",
@@ -37013,9 +37013,9 @@
     },
     {
       "word": "Blueberry",
-      "translate": "Yaban mersini",
+      "translate": "Myrtille",
       "quiz": "My favorite pancakes are the ones with .... inside.",
-      "quizTranslate": "En sevdiğim pankekler içinde yaban mersini olanlardır.",
+      "quizTranslate": "Mes crêpes préférées sont celles avec des myrtilles à l’intérieur.",
       "translateList": [
         {
           "label": "Blueberry",
@@ -37037,9 +37037,9 @@
     },
     {
       "word": "Coconut",
-      "translate": "Hindistan cevizi",
+      "translate": "Noix de coco",
       "quiz": "The tropical drink was served in a hollowed-out .... shell.",
-      "quizTranslate": "Tropikal içecek, oyulmuş bir Hindistan cevizi kabuğunda servis edildi.",
+      "quizTranslate": "La boisson tropicale a été servie dans une coque de noix de coco creusée.",
       "translateList": [
         {
           "label": "Coconut",
@@ -37061,9 +37061,9 @@
     },
     {
       "word": "Fig",
-      "translate": "İncir",
+      "translate": "Figue",
       "quiz": "Dried .... are commonly eaten as a healthy snack.",
-      "quizTranslate": "Kurutulmuş incirler genellikle sağlıklı bir atıştırmalık olarak tüketilir.",
+      "quizTranslate": "Les figues séchées sont souvent consommées comme un en-cas sain.",
       "translateList": [
         {
           "label": "Fig",
@@ -37085,9 +37085,9 @@
     },
     {
       "word": "Mandarin",
-      "translate": "Mandalina",
+      "translate": "Mandarine",
       "quiz": "I love peeling a juicy .... and eating it piece by piece.",
-      "quizTranslate": "Sulu bir mandalinayı soyup parça parça yemeyi seviyorum.",
+      "quizTranslate": "J'adore éplucher une mandarine juteuse et la manger morceau par morceau.",
       "translateList": [
         {
           "label": "Mandarin",
@@ -37109,9 +37109,9 @@
     },
     {
       "word": "Garlic",
-      "translate": "Sarımsak",
+      "translate": "Ail",
       "quiz": "She added some chopped .... to the sauce for extra flavor.",
-      "quizTranslate": "Ekstra lezzet katmak için sosun içine doğranmış sarımsak ekledi.",
+      "quizTranslate": "Elle a ajouté de l'ail haché à la sauce pour plus de saveur.",
       "translateList": [
         {
           "label": "Garlic",
@@ -37133,9 +37133,9 @@
     },
     {
       "word": "Cucumber",
-      "translate": "Salatalık",
+      "translate": "Concombre",
       "quiz": "I love adding fresh .... slices to my salad.",
-      "quizTranslate": "Salatama taze salatalık dilimleri eklemeyi seviyorum.",
+      "quizTranslate": "J'adore ajouter des tranches de concombre frais à ma salade.",
       "translateList": [
         {
           "label": "Cucumber",
@@ -37157,9 +37157,9 @@
     },
     {
       "word": "Lettuce",
-      "translate": "Marul",
+      "translate": "Laitue",
       "quiz": "She put some crispy .... in her sandwich.",
-      "quizTranslate": "Sandviçine biraz çıtır marul koydu.",
+      "quizTranslate": "Elle a mis de la laitue croquante dans son sandwich.",
       "translateList": [
         {
           "label": "Lettuce",
@@ -37181,9 +37181,9 @@
     },
     {
       "word": "Cabbage",
-      "translate": "Lahana",
+      "translate": "Chou",
       "quiz": "Fermented .... is a key ingredient in kimchi.",
-      "quizTranslate": "Fermente lahana, kimchi’nin ana malzemesidir.",
+      "quizTranslate": "Le chou fermenté est un ingrédient clé du kimchi.",
       "translateList": [
         {
           "label": "Cabbage",
@@ -37205,9 +37205,9 @@
     },
     {
       "word": "Corn",
-      "translate": "Mısır",
+      "translate": "Maïs",
       "quiz": "Roasted .... with butter is my favorite snack.",
-      "quizTranslate": "Tereyağlı közlenmiş mısır en sevdiğim atıştırmalıktır.",
+      "quizTranslate": "Le maïs grillé avec du beurre est mon en-cas préféré.",
       "translateList": [
         {
           "label": "Corn",
@@ -37229,9 +37229,9 @@
     },
     {
       "word": "Peas",
-      "translate": "Bezelye",
+      "translate": "Petits pois",
       "quiz": "He added some green .... to the soup.",
-      "quizTranslate": "Çorbaya biraz yeşil bezelye ekledi.",
+      "quizTranslate": "Il a ajouté des petits pois verts à la soupe.",
       "translateList": [
         {
           "label": "Peas",
@@ -37253,9 +37253,9 @@
     },
     {
       "word": "Bean",
-      "translate": "Fasulye",
+      "translate": "Haricot",
       "quiz": "Black .... are commonly used in Mexican cuisine.",
-      "quizTranslate": "Siyah fasulye, Meksika mutfağında yaygın olarak kullanılır.",
+      "quizTranslate": "Les haricots noirs sont couramment utilisés dans la cuisine mexicaine.",
       "translateList": [
         {
           "label": "Bean",
@@ -37277,9 +37277,9 @@
     },
     {
       "word": "Spinach",
-      "translate": "Ispanak",
+      "translate": "Épinards",
       "quiz": "Popeye loves eating .... for strength.",
-      "quizTranslate": "Temel Reis güç kazanmak için ıspanak yemeyi sever.",
+      "quizTranslate": "Popeye adore manger des épinards pour avoir de la force.",
       "translateList": [
         {
           "label": "Spinach",
@@ -37301,9 +37301,9 @@
     },
     {
       "word": "Mushroom",
-      "translate": "Mantar",
+      "translate": "Champignon",
       "quiz": "She added fresh .... to the pasta sauce.",
-      "quizTranslate": "Makarna sosuna taze mantar ekledi.",
+      "quizTranslate": "Elle a ajouté des champignons frais à la sauce pour pâtes.",
       "translateList": [
         {
           "label": "Mushroom",
@@ -37325,9 +37325,9 @@
     },
     {
       "word": "Pumpkin",
-      "translate": "Balkabağı",
+      "translate": "Citrouille",
       "quiz": "She made a delicious .... pie for Thanksgiving.",
-      "quizTranslate": "Şükran Günü için lezzetli bir balkabağı turtası yaptı.",
+      "quizTranslate": "Elle a fait une délicieuse tarte à la citrouille pour Thanksgiving.",
       "translateList": [
         {
           "label": "Pumpkin",
@@ -37349,9 +37349,9 @@
     },
     {
       "word": "Radish",
-      "translate": "Turp",
+      "translate": "Radis",
       "quiz": "She sliced a .... to add some crunch to the salad.",
-      "quizTranslate": "Salataya biraz çıtırlık katmak için turp dilimledi.",
+      "quizTranslate": "Elle a coupé un radis en tranches pour ajouter du croquant à la salade.",
       "translateList": [
         {
           "label": "Radish",
@@ -37373,9 +37373,9 @@
     },
     {
       "word": "Broccoli",
-      "translate": "Brokoli",
+      "translate": "Brocoli",
       "quiz": "Eating steamed .... is very healthy.",
-      "quizTranslate": "Buharda pişirilmiş brokoli yemek çok sağlıklıdır.",
+      "quizTranslate": "Manger du brocoli cuit à la vapeur est très sain.",
       "translateList": [
         {
           "label": "Broccoli",
@@ -37397,9 +37397,9 @@
     },
     {
       "word": "Cauliflower",
-      "translate": "Karnabahar",
+      "translate": "Chou-fleur",
       "quiz": "She made a delicious .... soup for dinner.",
-      "quizTranslate": "Akşam yemeği için lezzetli bir karnabahar çorbası yaptı.",
+      "quizTranslate": "Elle a fait une délicieuse soupe de chou-fleur pour le dîner.",
       "translateList": [
         {
           "label": "Cauliflower",
@@ -37421,9 +37421,9 @@
     },
     {
       "word": "Celery",
-      "translate": "Kereviz",
+      "translate": "Céleri",
       "quiz": "He added some chopped .... to the salad.",
-      "quizTranslate": "Salataya doğranmış biraz kereviz ekledi.",
+      "quizTranslate": "Il a ajouté du céleri haché à la salade.",
       "translateList": [
         {
           "label": "Celery",
@@ -37445,9 +37445,9 @@
     },
     {
       "word": "Eggplant",
-      "translate": "Patlıcan",
+      "translate": "Aubergine",
       "quiz": "Grilled .... is a popular dish in Mediterranean cuisine.",
-      "quizTranslate": "Izgara patlıcan, Akdeniz mutfağında popüler bir yemektir.",
+      "quizTranslate": "L’aubergine grillée est un plat populaire dans la cuisine méditerranéenne.",
       "translateList": [
         {
           "label": "Eggplant",
@@ -37469,9 +37469,9 @@
     },
     {
       "word": "Zucchini",
-      "translate": "Kabak",
+      "translate": "Courgette",
       "quiz": "She made a delicious .... bread for breakfast.",
-      "quizTranslate": "Kahvaltı için lezzetli bir kabak ekmeği yaptı.",
+      "quizTranslate": "Elle a fait un délicieux pain à la courgette pour le petit-déjeuner.",
       "translateList": [
         {
           "label": "Zucchini",
@@ -37493,9 +37493,9 @@
     },
     {
       "word": "Beetroot",
-      "translate": "Pancar",
+      "translate": "Betterave",
       "quiz": "Drinking fresh .... juice is great for your health.",
-      "quizTranslate": "Taze pancar suyu içmek sağlığınız için harikadır.",
+      "quizTranslate": "Boire du jus de betterave frais est excellent pour la santé.",
       "translateList": [
         {
           "label": "Beetroot",
@@ -37517,9 +37517,9 @@
     },
     {
       "word": "Parsley",
-      "translate": "Maydanoz",
+      "translate": "Persil",
       "quiz": "She sprinkled some fresh .... on top of the soup.",
-      "quizTranslate": "Çorbanın üzerine biraz taze maydanoz serpti.",
+      "quizTranslate": "Elle a saupoudré un peu de persil frais sur la soupe.",
       "translateList": [
         {
           "label": "Parsley",
@@ -37541,9 +37541,9 @@
     },
     {
       "word": "Scallion",
-      "translate": "Taze soğan",
+      "translate": "Ciboule",
       "quiz": "He chopped some .... to add to the omelette.",
-      "quizTranslate": "Omlete eklemek için biraz taze soğan doğradı.",
+      "quizTranslate": "Il a haché de la ciboule pour ajouter à l'omelette.",
       "translateList": [
         {
           "label": "Scallion",
@@ -37565,9 +37565,9 @@
     },
     {
       "word": "Leek",
-      "translate": "Pırasa",
+      "translate": "Poireau",
       "quiz": "She made a delicious .... and potato soup.",
-      "quizTranslate": "Lezzetli bir pırasa ve patates çorbası yaptı.",
+      "quizTranslate": "Elle a fait une délicieuse soupe de poireaux et pommes de terre.",
       "translateList": [
         {
           "label": "Leek",
@@ -37589,9 +37589,9 @@
     },
     {
       "word": "Dill",
-      "translate": "Dereotu",
+      "translate": "Aneth",
       "quiz": "Fresh .... gives a wonderful aroma to fish dishes.",
-      "quizTranslate": "Taze dereotu, balık yemeklerine harika bir aroma verir.",
+      "quizTranslate": "L’aneth frais donne un merveilleux arôme aux plats de poisson.",
       "translateList": [
         {
           "label": "Dill",
@@ -37613,9 +37613,9 @@
     },
     {
       "word": "Lentil",
-      "translate": "Mercimek",
+      "translate": "Lentille",
       "quiz": "She made a delicious .... soup with spices and vegetables.",
-      "quizTranslate": "Baharatlar ve sebzelerle lezzetli bir mercimek çorbası yaptı.",
+      "quizTranslate": "Elle a fait une délicieuse soupe de lentilles avec des épices et des légumes.",
       "translateList": [
         {
           "label": "Lentil",
@@ -37637,9 +37637,9 @@
     },
     {
       "word": "Chickpeas",
-      "translate": "Nohut",
+      "translate": "Pois chiches",
       "quiz": "Hummus is made from mashed .... and tahini.",
-      "quizTranslate": "Humus, ezilmiş nohut ve tahinden yapılır.",
+      "quizTranslate": "Le houmous est fait de pois chiches écrasés et de tahini.",
       "translateList": [
         {
           "label": "Chickpeas",
@@ -37661,9 +37661,9 @@
     },
     {
       "word": "Beans",
-      "translate": "Fasulye",
+      "translate": "Haricots",
       "quiz": "She cooked a pot of .... with tomatoes and onions.",
-      "quizTranslate": "Domates ve soğanla bir tencere fasulye pişirdi.",
+      "quizTranslate": "Elle a cuisiné une marmite de haricots avec des tomates et des oignons.",
       "translateList": [
         {
           "label": "Beans",
@@ -37685,9 +37685,9 @@
     },
     {
       "word": "Pea",
-      "translate": "Bezelye",
+      "translate": "Pois",
       "quiz": "He added fresh .... to the vegetable stew.",
-      "quizTranslate": "Sebze yemeğine taze bezelye ekledi.",
+      "quizTranslate": "Il a ajouté des pois frais au ragoût de légumes.",
       "translateList": [
         {
           "label": "Pea",
@@ -37709,9 +37709,9 @@
     },
     {
       "word": "Sesame",
-      "translate": "Susam",
+      "translate": "Sésame",
       "quiz": "He sprinkled some .... seeds on top of the bread before baking.",
-      "quizTranslate": "Fırına vermeden önce ekmeğin üzerine biraz susam serpti.",
+      "quizTranslate": "Il a saupoudré des graines de sésame sur le pain avant de le cuire.",
       "translateList": [
         {
           "label": "Sesame",
@@ -37733,9 +37733,9 @@
     },
     {
       "word": "Kiwi",
-      "translate": "Kivi",
+      "translate": "Kiwi",
       "quiz": "She peeled a fresh .... and sliced it for the fruit salad.",
-      "quizTranslate": "Taze bir kivi soydu ve meyve salatası için dilimledi.",
+      "quizTranslate": "Elle a épluché un kiwi frais et l'a coupé en tranches pour la salade de fruits.",
       "translateList": [
         {
           "label": "Kiwi",
@@ -37757,9 +37757,9 @@
     },
     {
       "word": "Grater",
-      "translate": "Rende",
+      "translate": "Râpe",
       "quiz": "She used a .... to shred the cheese for the pasta.",
-      "quizTranslate": "Makarna için peyniri rendelemek amacıyla bir rende kullandı.",
+      "quizTranslate": "Elle a utilisé une râpe pour râper le fromage pour les pâtes.",
       "translateList": [
         {
           "label": "Grater",
@@ -37781,9 +37781,9 @@
     },
     {
       "word": "Colander",
-      "translate": "Süzgeç",
+      "translate": "Passoire",
       "quiz": "She poured the pasta into a .... to drain the water.",
-      "quizTranslate": "Makarnanın suyunu süzmek için süzgece döktü.",
+      "quizTranslate": "Elle a versé les pâtes dans une passoire pour égoutter l’eau.",
       "translateList": [
         {
           "label": "Colander",
@@ -37805,9 +37805,9 @@
     },
     {
       "word": "Corkscrew",
-      "translate": "Tirbuşon",
+      "translate": "Tire-bouchon",
       "quiz": "He used a .... to open the bottle of wine.",
-      "quizTranslate": "Şişeyi açmak için bir tirbuşon kullandı.",
+      "quizTranslate": "Il a utilisé un tire-bouchon pour ouvrir la bouteille de vin.",
       "translateList": [
         {
           "label": "Corkscrew",
@@ -37829,9 +37829,9 @@
     },
     {
       "word": "Freezer",
-      "translate": "Dondurucu",
+      "translate": "Congélateur",
       "quiz": "She put the ice cream in the .... to keep it frozen.",
-      "quizTranslate": "Dondurmayı donmuş halde tutmak için dondurucuya koydu.",
+      "quizTranslate": "Elle a mis la glace dans le congélateur pour la garder congelée.",
       "translateList": [
         {
           "label": "Freezer",
@@ -37853,9 +37853,9 @@
     },
     {
       "word": "Kettle",
-      "translate": "Su ısıtıcısı",
+      "translate": "Bouilloire",
       "quiz": "She boiled some water in the .... to make tea.",
-      "quizTranslate": "Çay yapmak için su ısıtıcıda biraz su kaynattı.",
+      "quizTranslate": "Elle a fait bouillir de l'eau dans la bouilloire pour faire du thé.",
       "translateList": [
         {
           "label": "Kettle",
@@ -37877,9 +37877,9 @@
     },
     {
       "word": "Ladle",
-      "translate": "Kepçe",
+      "translate": "Louche",
       "quiz": "She used a large .... to serve the soup.",
-      "quizTranslate": "Çorbayı servis etmek için büyük bir kepçe kullandı.",
+      "quizTranslate": "Elle a utilisé une grande louche pour servir la soupe.",
       "translateList": [
         {
           "label": "Ladle",
@@ -37901,9 +37901,9 @@
     },
     {
       "word": "Napkin",
-      "translate": "Peçete",
+      "translate": "Serviette",
       "quiz": "She placed a folded .... on each plate.",
-      "quizTranslate": "Her tabağın üzerine katlanmış bir peçete koydu.",
+      "quizTranslate": "Elle a placé une serviette pliée sur chaque assiette.",
       "translateList": [
         {
           "label": "Napkin",
@@ -37925,9 +37925,9 @@
     },
     {
       "word": "Pan",
-      "translate": "Tava",
+      "translate": "Poêle",
       "quiz": "She fried the eggs in a non-stick ....",
-      "quizTranslate": "Yumurtaları yapışmaz bir tavada kızarttı.",
+      "quizTranslate": "Elle a fait frire les œufs dans une poêle antiadhésive.",
       "translateList": [
         {
           "label": "Pan",
@@ -37949,9 +37949,9 @@
     },
     {
       "word": "Saucepan",
-      "translate": "Tencere",
+      "translate": "Casserole",
       "quiz": "She boiled pasta in a large ....",
-      "quizTranslate": "Büyük bir tencerede makarna kaynattı.",
+      "quizTranslate": "Elle a fait bouillir des pâtes dans une grande casserole.",
       "translateList": [
         {
           "label": "Saucepan",
@@ -37973,9 +37973,9 @@
     },
     {
       "word": "Tablecloth",
-      "translate": "Masa örtüsü",
+      "translate": "Nappe",
       "quiz": "She spread a clean white .... over the dining table.",
-      "quizTranslate": "Yemek masasının üzerine temiz beyaz bir masa örtüsü serdi.",
+      "quizTranslate": "Elle a étalé une nappe blanche propre sur la table à manger.",
       "translateList": [
         {
           "label": "Tablecloth",
@@ -37997,9 +37997,9 @@
     },
     {
       "word": "Teaspoon",
-      "translate": "Çay kaşığı",
+      "translate": "Cuillère à café",
       "quiz": "She stirred the tea with a small ....",
-      "quizTranslate": "Çayı küçük bir çay kaşığı ile karıştırdı.",
+      "quizTranslate": "Elle a remué le thé avec une petite cuillère à café.",
       "translateList": [
         {
           "label": "Teaspoon",
@@ -38021,9 +38021,9 @@
     },
     {
       "word": "Turtle",
-      "translate": "Kaplumbağa",
+      "translate": "Tortue",
       "quiz": "The .... moved slowly across the sand towards the water.",
-      "quizTranslate": "Kaplumbağa, suya doğru yavaşça kumun üzerinde ilerledi.",
+      "quizTranslate": "La tortue s’est déplacée lentement sur le sable vers l’eau.",
       "translateList": [
         {
           "label": "Turtle",
@@ -38045,9 +38045,9 @@
     },
     {
       "word": "Chameleon",
-      "translate": "Bukalemun",
+      "translate": "Caméléon",
       "quiz": "The .... changed its color to blend with the tree.",
-      "quizTranslate": "Bukalemun, ağaçla uyum sağlamak için rengini değiştirdi.",
+      "quizTranslate": "Le caméléon a changé de couleur pour se fondre avec l’arbre.",
       "translateList": [
         {
           "label": "Chameleon",
@@ -38069,9 +38069,9 @@
     },
     {
       "word": "Rabbit",
-      "translate": "Tavşan",
+      "translate": "Lapin",
       "quiz": "The little .... hopped across the garden and disappeared into the bushes.",
-      "quizTranslate": "Küçük tavşan bahçede zıplayarak çalıların arasına kayboldu.",
+      "quizTranslate": "Le petit lapin a sauté à travers le jardin et a disparu dans les buissons.",
       "translateList": [
         {
           "label": "Rabbit",
@@ -38093,9 +38093,9 @@
     },
     {
       "word": "Monkey",
-      "translate": "Maymun",
+      "translate": "Singe",
       "quiz": "The .... climbed the tree to grab a banana.",
-      "quizTranslate": "Maymun, bir muz almak için ağaca tırmandı.",
+      "quizTranslate": "Le singe a grimpé à l’arbre pour attraper une banane.",
       "translateList": [
         {
           "label": "Monkey",
@@ -38117,9 +38117,9 @@
     },
     {
       "word": "Parrot",
-      "translate": "Papağan",
+      "translate": "Perroquet",
       "quiz": "The .... repeated everything its owner said.",
-      "quizTranslate": "Papağan, sahibinin söylediği her şeyi tekrar etti.",
+      "quizTranslate": "Le perroquet a répété tout ce que son propriétaire disait.",
       "translateList": [
         {
           "label": "Parrot",
@@ -38141,9 +38141,9 @@
     },
     {
       "word": "Canary",
-      "translate": "Kanarya",
+      "translate": "Canari",
       "quiz": "Her .... sang beautifully in the morning.",
-      "quizTranslate": "Kanaryası sabahları güzel bir şekilde şarkı söyledi.",
+      "quizTranslate": "Son canari chantait magnifiquement le matin.",
       "translateList": [
         {
           "label": "Canary",
@@ -38165,9 +38165,9 @@
     },
     {
       "word": "Squirrel",
-      "translate": "Sincap",
+      "translate": "Écureuil",
       "quiz": "The .... collected acorns and stored them for winter.",
-      "quizTranslate": "Sincap, meşe palamutlarını toplayarak kış için sakladı.",
+      "quizTranslate": "L’écureuil a collecté des glands et les a stockés pour l’hiver.",
       "translateList": [
         {
           "label": "Squirrel",
@@ -38189,9 +38189,9 @@
     },
     {
       "word": "Rooster",
-      "translate": "Horoz",
+      "translate": "Coq",
       "quiz": "The .... crowed loudly at sunrise.",
-      "quizTranslate": "Horoz, gün doğumunda yüksek sesle ötüştü.",
+      "quizTranslate": "Le coq a chanté bruyamment au lever du soleil.",
       "translateList": [
         {
           "label": "Rooster",
@@ -38213,9 +38213,9 @@
     },
     {
       "word": "Turkey",
-      "translate": "Hindi",
+      "translate": "Dinde",
       "quiz": "They roasted a large .... for Thanksgiving dinner.",
-      "quizTranslate": "Şükran Günü yemeği için büyük bir hindi kızarttılar.",
+      "quizTranslate": "Ils ont rôti une grande dinde pour le dîner de Thanksgiving.",
       "translateList": [
         {
           "label": "Turkey",
@@ -38237,9 +38237,9 @@
     },
     {
       "word": "Goose",
-      "translate": "Kaz",
+      "translate": "Oie",
       "quiz": "A flock of .... flew over the lake in the evening.",
-      "quizTranslate": "Bir kaz sürüsü akşam gölün üzerinden uçtu.",
+      "quizTranslate": "Un troupeau d’oies a survolé le lac le soir.",
       "translateList": [
         {
           "label": "Goose",
@@ -38261,9 +38261,9 @@
     },
     {
       "word": "Duck",
-      "translate": "Ördek",
+      "translate": "Canard",
       "quiz": "The .... swam gracefully across the pond.",
-      "quizTranslate": "Ördek, gölette zarifçe yüzdü.",
+      "quizTranslate": "Le canard a nagé gracieusement à travers l’étang.",
       "translateList": [
         {
           "label": "Duck",
@@ -38285,9 +38285,9 @@
     },
     {
       "word": "Bull",
-      "translate": "Boğa",
+      "translate": "Taureau",
       "quiz": "The .... ran across the field.",
-      "quizTranslate": "Boğa tarlanın üzerinden koştu.",
+      "quizTranslate": "Le taureau a couru à travers le champ.",
       "translateList": [
         {
           "label": "Bull",
@@ -38309,9 +38309,9 @@
     },
     {
       "word": "Lamb",
-      "translate": "Kuzu",
+      "translate": "Agneau",
       "quiz": "The .... is sleeping under the tree.",
-      "quizTranslate": "Kuzu ağacın altında uyuyor.",
+      "quizTranslate": "L’agneau dort sous l’arbre.",
       "translateList": [
         {
           "label": "Lamb",
@@ -38333,9 +38333,9 @@
     },
     {
       "word": "Goat",
-      "translate": "Keçi",
+      "translate": "Chèvre",
       "quiz": "The .... climbed the rocky hill easily.",
-      "quizTranslate": "Keçi kayalık tepeye kolayca tırmandı.",
+      "quizTranslate": "La chèvre a grimpé facilement la colline rocheuse.",
       "translateList": [
         {
           "label": "Goat",
@@ -38357,9 +38357,9 @@
     },
     {
       "word": "Ram",
-      "translate": "Koç",
+      "translate": "Bélier",
       "quiz": "The .... has strong horns.",
-      "quizTranslate": "Koçun güçlü boynuzları vardır.",
+      "quizTranslate": "Le bélier a de fortes cornes.",
       "translateList": [
         {
           "label": "Ram",
@@ -38381,9 +38381,9 @@
     },
     {
       "word": "Donkey",
-      "translate": "Eşek",
+      "translate": "Âne",
       "quiz": "The .... carried the heavy bags up the hill.",
-      "quizTranslate": "Eşek, ağır çantaları tepeye taşıdı.",
+      "quizTranslate": "L’âne a transporté les sacs lourds en haut de la colline.",
       "translateList": [
         {
           "label": "Donkey",
@@ -38405,9 +38405,9 @@
     },
     {
       "word": "Camel",
-      "translate": "Deve",
+      "translate": "Chameau",
       "quiz": "The .... walked slowly in the hot desert.",
-      "quizTranslate": "Deve, sıcak çölde yavaşça yürüdü.",
+      "quizTranslate": "Le chameau a marché lentement dans le désert chaud.",
       "translateList": [
         {
           "label": "Camel",
@@ -38429,9 +38429,9 @@
     },
     {
       "word": "Pork",
-      "translate": "Domuz eti",
+      "translate": "Porc",
       "quiz": "They do not eat .... in their country.",
-      "quizTranslate": "Onlar ülkelerinde domuz eti yemezler.",
+      "quizTranslate": "Ils ne mangent pas de porc dans leur pays.",
       "translateList": [
         {
           "label": "Pork",
@@ -38453,9 +38453,9 @@
     },
     {
       "word": "Tiger",
-      "translate": "Kaplan",
+      "translate": "Tigre",
       "quiz": "The .... is resting in the shade.",
-      "quizTranslate": "Kaplan gölgede dinleniyor.",
+      "quizTranslate": "Le tigre se repose à l’ombre.",
       "translateList": [
         {
           "label": "Tiger",
@@ -38477,9 +38477,9 @@
     },
     {
       "word": "Bat",
-      "translate": "Yarasa",
+      "translate": "Chauve-souris",
       "quiz": "The .... flew out of the cave at night.",
-      "quizTranslate": "Yarasa gece mağaradan dışarı uçtu.",
+      "quizTranslate": "La chauve-souris est sortie de la grotte la nuit.",
       "translateList": [
         {
           "label": "Bat",
@@ -38501,9 +38501,9 @@
     },
     {
       "word": "Whale",
-      "translate": "Balina",
+      "translate": "Baleine",
       "quiz": "The .... jumped out of the water.",
-      "quizTranslate": "Balina sudan dışarı zıpladı.",
+      "quizTranslate": "La baleine a sauté hors de l’eau.",
       "translateList": [
         {
           "label": "Whale",
@@ -38525,9 +38525,9 @@
     },
     {
       "word": "Dolphin",
-      "translate": "Yunus",
+      "translate": "Dauphin",
       "quiz": "The .... swam close to the boat.",
-      "quizTranslate": "Yunus tekneye yakın yüzdü.",
+      "quizTranslate": "Le dauphin a nagé près du bateau.",
       "translateList": [
         {
           "label": "Dolphin",
@@ -38549,9 +38549,9 @@
     },
     {
       "word": "Wolf",
-      "translate": "Kurt",
+      "translate": "Loup",
       "quiz": "The .... howled in the forest.",
-      "quizTranslate": "Kurt ormanda uludu.",
+      "quizTranslate": "Le loup a hurlé dans la forêt.",
       "translateList": [
         {
           "label": "Wolf",
@@ -38573,9 +38573,9 @@
     },
     {
       "word": "Shark",
-      "translate": "Köpekbalığı",
+      "translate": "Requin",
       "quiz": "The .... swam near the shore.",
-      "quizTranslate": "Köpekbalığı kıyıya yakın yüzdü.",
+      "quizTranslate": "Le requin a nagé près du rivage.",
       "translateList": [
         {
           "label": "Shark",
@@ -38597,9 +38597,9 @@
     },
     {
       "word": "Owl",
-      "translate": "Baykuş",
+      "translate": "Hibou",
       "quiz": "The .... makes a hooting sound at night.",
-      "quizTranslate": "Baykuş gece vakti ötme sesi çıkarır.",
+      "quizTranslate": "Le hibou fait un bruit de hululement la nuit.",
       "translateList": [
         {
           "label": "Owl",
@@ -38621,9 +38621,9 @@
     },
     {
       "word": "Eagle",
-      "translate": "Kartal",
+      "translate": "Aigle",
       "quiz": "The .... flies high in the sky.",
-      "quizTranslate": "Kartal gökyüzünde yükseğe uçar.",
+      "quizTranslate": "L’aigle vole haut dans le ciel.",
       "translateList": [
         {
           "label": "Eagle",
@@ -38645,9 +38645,9 @@
     },
     {
       "word": "Dove",
-      "translate": "Güvercin",
+      "translate": "Colombe",
       "quiz": "The white .... is a symbol of peace.",
-      "quizTranslate": "Beyaz güvercin barışın sembolüdür.",
+      "quizTranslate": "La colombe blanche est un symbole de paix.",
       "translateList": [
         {
           "label": "Dove",
@@ -38669,9 +38669,9 @@
     },
     {
       "word": "Seagull",
-      "translate": "Martı",
+      "translate": "Mouette",
       "quiz": "The .... was flying above the sea.",
-      "quizTranslate": "Martı, denizin üzerinde uçuyordu.",
+      "quizTranslate": "La mouette volait au-dessus de la mer.",
       "translateList": [
         {
           "label": "Seagull",
@@ -38693,9 +38693,9 @@
     },
     {
       "word": "Crow",
-      "translate": "Karga",
+      "translate": "Corbeau",
       "quiz": "The .... sat on the tree and made a loud sound.",
-      "quizTranslate": "Karga ağacın üzerine kondu ve yüksek ses çıkardı.",
+      "quizTranslate": "Le corbeau s'est posé sur l'arbre et a fait un bruit fort.",
       "translateList": [
         {
           "label": "Crow",
@@ -38717,9 +38717,9 @@
     },
     {
       "word": "Woodpecker",
-      "translate": "Ağaçkakan",
+      "translate": "Pic",
       "quiz": "The .... was making a noise on the tree.",
-      "quizTranslate": "Ağaçkakan, ağacın üzerinde ses çıkarıyordu.",
+      "quizTranslate": "Le pic faisait du bruit sur l'arbre.",
       "translateList": [
         {
           "label": "Woodpecker",
@@ -38741,9 +38741,9 @@
     },
     {
       "word": "Crocodile",
-      "translate": "Timsah",
+      "translate": "Crocodile",
       "quiz": "The .... was lying near the river.",
-      "quizTranslate": "Timsah nehrin yakınında yatıyordu.",
+      "quizTranslate": "Le crocodile était allongé près de la rivière.",
       "translateList": [
         {
           "label": "Crocodile",
@@ -38765,9 +38765,9 @@
     },
     {
       "word": "Stork",
-      "translate": "Leylek",
+      "translate": "Cigogne",
       "quiz": "The .... stood in the water looking for fish.",
-      "quizTranslate": "Leylek, suyun içinde durarak balık arıyordu.",
+      "quizTranslate": "La cigogne se tenait dans l'eau en cherchant des poissons.",
       "translateList": [
         {
           "label": "Stork",
@@ -38789,9 +38789,9 @@
     },
     {
       "word": "Swan",
-      "translate": "Kuğu",
+      "translate": "Cygne",
       "quiz": "The .... swam gracefully across the lake.",
-      "quizTranslate": "Kuğu gölde zarifçe yüzdü.",
+      "quizTranslate": "Le cygne nageait gracieusement à travers le lac.",
       "translateList": [
         {
           "label": "Swan",
@@ -38813,9 +38813,9 @@
     },
     {
       "word": "Calculator",
-      "translate": "Hesap makinesi",
+      "translate": "Calculatrice",
       "quiz": "She used a .... to solve the math problem quickly.",
-      "quizTranslate": "Matematik problemini hızlıca çözmek için hesap makinesi kullandı.",
+      "quizTranslate": "Elle a utilisé une calculatrice pour résoudre rapidement le problème de mathématiques.",
       "translateList": [
         {
           "label": "Calculator",
@@ -38837,9 +38837,9 @@
     },
     {
       "word": "Lite",
-      "translate": "Hafif, düşük kalorili",
+      "translate": "Léger",
       "quiz": "I prefer the .... version of the app because it uses less data.",
-      "quizTranslate": "Daha az veri kullandığı için uygulamanın hafif sürümünü tercih ediyorum.",
+      "quizTranslate": "Je préfère la version légère de l'application parce qu'elle utilise moins de données.",
       "translateList": [
         {
           "label": "Lite",
@@ -38861,9 +38861,9 @@
     },
     {
       "word": "Armchair",
-      "translate": "Koltuk",
+      "translate": "Fauteuil",
       "quiz": "He sat in his favorite .... and read a book.",
-      "quizTranslate": "En sevdiği koltuğuna oturdu ve kitap okudu.",
+      "quizTranslate": "Il s'est assis dans son fauteuil préféré et a lu un livre.",
       "translateList": [
         {
           "label": "Armchair",
@@ -38885,9 +38885,9 @@
     },
     {
       "word": "Sofa",
-      "translate": "Kanepe",
+      "translate": "Canapé",
       "quiz": "They bought a new .... for the living room.",
-      "quizTranslate": "Oturma odası için yeni bir kanepe aldılar.",
+      "quizTranslate": "Ils ont acheté un nouveau canapé pour le salon.",
       "translateList": [
         {
           "label": "Sofa",
