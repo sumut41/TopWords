@@ -90,6 +90,13 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                             jsonReader.parseJson(R.raw.words_advanced_it_en)
                         )
                     }
+                    state.nativeLanguageCode == "de" && state.learnLanguageCode == "en" -> {
+                        Triple(
+                            jsonReader.parseJson(R.raw.words_beginner_de_en),
+                            jsonReader.parseJson(R.raw.words_intermediate_de_en),
+                            jsonReader.parseJson(R.raw.words_advanced_de_en)
+                        )
+                    }
                     else -> Triple(null, null, null)
                 }
 
