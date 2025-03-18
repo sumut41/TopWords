@@ -15962,30 +15962,6 @@
       ]
     },
     {
-      "word": "March",
-      "translate": "Marzo",
-      "quiz": "The protest took place in ...., when the weather was starting to warm up.",
-      "quizTranslate": "La protesta si è svolta a marzo, quando il tempo stava iniziando a scaldarsi.",
-      "translateList": [
-        {
-          "label": "March",
-          "isCorrect": true
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        },
-        {
-          "label": "February",
-          "isCorrect": false
-        },
-        {
-          "label": "May",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Marginal",
       "translate": "Marginale",
       "quiz": "The study found that only a .... number of people were affected by the policy change.",

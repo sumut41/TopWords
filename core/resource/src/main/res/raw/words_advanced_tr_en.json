@@ -14498,9 +14498,9 @@
     },
     {
       "word": "Just",
-      "translate": "Adil",
-      "quiz": "The judge made a .... decision based on the evidence presented in court.",
-      "quizTranslate": "Hakim, mahkemede sunulan delillere dayanarak adil bir karar verdi.",
+      "translate": "Sadece, yalnızca, tam",
+      "quiz": "She .... managed to finish the project on time, despite all the challenges she faced.",
+      "quizTranslate": "Tüm karşılaştığı zorluklara rağmen, projeyi zamanında bitirmeyi ancak başarabildi.",
       "translateList": [
         {
           "label": "Just",
@@ -15956,30 +15956,6 @@
         },
         {
           "label": "Document",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "March",
-      "translate": "Mart",
-      "quiz": "The protest took place in ...., when the weather was starting to warm up.",
-      "quizTranslate": "Protesto, havaların ısınmaya başladığı mart ayında gerçekleşti.",
-      "translateList": [
-        {
-          "label": "March",
-          "isCorrect": true
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        },
-        {
-          "label": "February",
-          "isCorrect": false
-        },
-        {
-          "label": "May",
           "isCorrect": false
         }
       ]
