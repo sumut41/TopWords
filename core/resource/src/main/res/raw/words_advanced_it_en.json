@@ -14498,30 +14498,6 @@
       ]
     },
     {
-      "word": "Just",
-      "translate": "Giusto",
-      "quiz": "The judge made a .... decision based on the evidence presented in court.",
-      "quizTranslate": "Il giudice ha preso una decisione giusta basata sulle prove presentate in tribunale.",
-      "translateList": [
-        {
-          "label": "Just",
-          "isCorrect": true
-        },
-        {
-          "label": "Unjust",
-          "isCorrect": false
-        },
-        {
-          "label": "Partial",
-          "isCorrect": false
-        },
-        {
-          "label": "Unfair",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Justification",
       "translate": "Giustificazione",
       "quiz": "The defendant's lawyer provided a strong .... for his client's actions.",

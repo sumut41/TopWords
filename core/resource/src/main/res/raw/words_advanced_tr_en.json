@@ -14497,30 +14497,6 @@
       ]
     },
     {
-      "word": "Just",
-      "translate": "Sadece, yalnızca, tam",
-      "quiz": "She .... managed to finish the project on time, despite all the challenges she faced.",
-      "quizTranslate": "Tüm karşılaştığı zorluklara rağmen, projeyi zamanında bitirmeyi ancak başarabildi.",
-      "translateList": [
-        {
-          "label": "Just",
-          "isCorrect": true
-        },
-        {
-          "label": "Unjust",
-          "isCorrect": false
-        },
-        {
-          "label": "Partial",
-          "isCorrect": false
-        },
-        {
-          "label": "Unfair",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Justification",
       "translate": "Gerekçe",
       "quiz": "The defendant's lawyer provided a strong .... for his client's actions.",
