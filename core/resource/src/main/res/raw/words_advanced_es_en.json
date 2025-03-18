@@ -21098,30 +21098,6 @@
       ]
     },
     {
-      "word": "Rape",
-      "translate": "Violación",
-      "quiz": "The law firm is representing the victim in a high-profile .... case.",
-      "quizTranslate": "El bufete de abogados representa a la víctima en un caso de violación de alto perfil.",
-      "translateList": [
-        {
-          "label": "Rape",
-          "isCorrect": true
-        },
-        {
-          "label": "Assault",
-          "isCorrect": false
-        },
-        {
-          "label": "Harassment",
-          "isCorrect": false
-        },
-        {
-          "label": "Attack",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Ratio",
       "translate": "Proporción",
       "quiz": "The .... of students to teachers in this school is 20 to 1.",
