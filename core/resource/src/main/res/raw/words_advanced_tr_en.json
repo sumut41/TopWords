@@ -24337,30 +24337,6 @@
       ]
     },
     {
-      "word": "Sound",
-      "translate": "Ses",
-      "quiz": "The .... of the waves was soothing.",
-      "quizTranslate": "Dalgaların sesi rahatlatıcıydı.",
-      "translateList": [
-        {
-          "label": "Sound",
-          "isCorrect": true
-        },
-        {
-          "label": "Noise",
-          "isCorrect": false
-        },
-        {
-          "label": "Tone",
-          "isCorrect": false
-        },
-        {
-          "label": "Echo",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Sovereignty",
       "translate": "Egemenlik",
       "quiz": "The country asserted its .... over the disputed territory.",
@@ -24596,30 +24572,6 @@
         },
         {
           "label": "Variety",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Spell",
-      "translate": "Hecelemek",
-      "quiz": "Can you .... your name for me?",
-      "quizTranslate": "Adınızı benim için heceleyebilir misiniz?",
-      "translateList": [
-        {
-          "label": "Spell",
-          "isCorrect": true
-        },
-        {
-          "label": "Write",
-          "isCorrect": false
-        },
-        {
-          "label": "Say",
-          "isCorrect": false
-        },
-        {
-          "label": "Pronounce",
           "isCorrect": false
         }
       ]

@@ -24362,30 +24362,6 @@
       ]
     },
     {
-      "word": "Sound",
-      "translate": "Suono",
-      "quiz": "The .... of the waves was soothing.",
-      "quizTranslate": "Il suono delle onde era rilassante.",
-      "translateList": [
-        {
-          "label": "Sound",
-          "isCorrect": true
-        },
-        {
-          "label": "Noise",
-          "isCorrect": false
-        },
-        {
-          "label": "Tone",
-          "isCorrect": false
-        },
-        {
-          "label": "Echo",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Sovereignty",
       "translate": "Sovranità",
       "quiz": "The country asserted its .... over the disputed territory.",
@@ -24621,30 +24597,6 @@
         },
         {
           "label": "Variety",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Spell",
-      "translate": "Sillabare",
-      "quiz": "Can you .... your name for me?",
-      "quizTranslate": "Puoi sillabare il tuo nome per me?",
-      "translateList": [
-        {
-          "label": "Spell",
-          "isCorrect": true
-        },
-        {
-          "label": "Write",
-          "isCorrect": false
-        },
-        {
-          "label": "Say",
-          "isCorrect": false
-        },
-        {
-          "label": "Pronounce",
           "isCorrect": false
         }
       ]
