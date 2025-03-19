@@ -29907,54 +29907,6 @@
       ]
     },
     {
-      "word": "Leak",
-      "translate": "Fuga",
-      "quiz": "There was a water .... from the broken pipe.",
-      "quizTranslate": "Había una fuga de agua en la tubería rota.",
-      "translateList": [
-        {
-          "label": "Leak",
-          "isCorrect": true
-        },
-        {
-          "label": "Flow",
-          "isCorrect": false
-        },
-        {
-          "label": "Flood",
-          "isCorrect": false
-        },
-        {
-          "label": "Surge",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Leap",
-      "translate": "Salto",
-      "quiz": "The cat made a huge .... from the table to the chair.",
-      "quizTranslate": "El gato dio un gran salto de la mesa a la silla.",
-      "translateList": [
-        {
-          "label": "Leap",
-          "isCorrect": true
-        },
-        {
-          "label": "Jump",
-          "isCorrect": false
-        },
-        {
-          "label": "Fall",
-          "isCorrect": false
-        },
-        {
-          "label": "Climb",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Liberty",
       "translate": "Libertad",
       "quiz": "The country is known for its strong commitment to ....",
@@ -35494,6 +35446,126 @@
         },
         {
           "label": "Valuable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Suffix",
+      "translate": "Sufijo",
+      "quiz": "In English, the word 'happiness' has the .... '-ness' attached to it.",
+      "quizTranslate": "En inglés, la palabra 'happiness' tiene el sufijo '-ness' adjunto.",
+      "translateList": [
+        {
+          "label": "Suffix",
+          "isCorrect": true
+        },
+        {
+          "label": "Prefix",
+          "isCorrect": false
+        },
+        {
+          "label": "Root",
+          "isCorrect": false
+        },
+        {
+          "label": "Base",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Prefix",
+      "translate": "Prefijo",
+      "quiz": "The word 'unhappy' contains the .... 'un-' that means 'not'.",
+      "quizTranslate": "La palabra 'unhappy' contiene el prefijo 'un-', que significa 'no'.",
+      "translateList": [
+        {
+          "label": "Prefix",
+          "isCorrect": true
+        },
+        {
+          "label": "Suffix",
+          "isCorrect": false
+        },
+        {
+          "label": "Root",
+          "isCorrect": false
+        },
+        {
+          "label": "Infix",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Incentive",
+      "translate": "Incentivo",
+      "quiz": "The company offers a financial .... to motivate employees to meet their targets.",
+      "quizTranslate": "La empresa ofrece un incentivo financiero para motivar a los empleados a alcanzar sus objetivos.",
+      "translateList": [
+        {
+          "label": "Incentive",
+          "isCorrect": true
+        },
+        {
+          "label": "Penalty",
+          "isCorrect": false
+        },
+        {
+          "label": "Fine",
+          "isCorrect": false
+        },
+        {
+          "label": "Warning",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cautious",
+      "translate": "Cauteloso, prudente",
+      "quiz": "He was .... about making any major decisions without consulting his team first.",
+      "quizTranslate": "Fue cauteloso al tomar decisiones importantes sin consultar primero a su equipo.",
+      "translateList": [
+        {
+          "label": "Cautious",
+          "isCorrect": true
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        },
+        {
+          "label": "Reckless",
+          "isCorrect": false
+        },
+        {
+          "label": "Impulsive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pernicious",
+      "translate": "Pernicioso, dañino",
+      "quiz": "The .... effects of smoking are well documented and widely known.",
+      "quizTranslate": "Los efectos perniciosos del tabaco están bien documentados y son ampliamente conocidos.",
+      "translateList": [
+        {
+          "label": "Pernicious",
+          "isCorrect": true
+        },
+        {
+          "label": "Beneficial",
+          "isCorrect": false
+        },
+        {
+          "label": "Helpful",
+          "isCorrect": false
+        },
+        {
+          "label": "Mild",
           "isCorrect": false
         }
       ]

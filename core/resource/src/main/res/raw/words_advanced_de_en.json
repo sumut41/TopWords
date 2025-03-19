@@ -29909,55 +29909,6 @@
       ]
     },
     {
-      "word": "Leak",
-      "translate": "Leck",
-      "quiz": "There was a water .... from the broken pipe.",
-      "quizTranslate": "Es gab ein Wasserleck aus dem gebrochenen Rohr.",
-      "translateList": [
-        {
-          "label": "Leak",
-          "isCorrect": true
-        },
-        {
-          "label": "Flow",
-          "isCorrect": false
-        },
-        {
-          "label": "Flood",
-          "isCorrect": false
-        },
-        {
-          "label": "Surge",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Leap",
-      "translate": "Sprung",
-      "quiz": "The cat made a huge .... from the table to the chair.",
-      "quizTranslate": "Die Katze machte einen riesigen Sprung vom Tisch auf den Stuhl.",
-      "translateList": [
-        {
-          "label": "Leap",
-          "isCorrect": true
-        },
-        {
-          "label": "Jump",
-          "isCorrect": false
-        },
-        {
-          "label": "Fall",
-          "isCorrect": false
-        },
-        {
-          "label": "Climb",
-          "isCorrect": false
-        }
-      ]
-    },
-
-    {
       "word": "Liberty",
       "translate": "Freiheit",
       "quiz": "The country is known for its strong commitment to ....",
@@ -35521,6 +35472,126 @@
         },
         {
           "label": "Valuable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Suffix",
+      "translate": "Suffix, Nachsilbe",
+      "quiz": "In English, the word 'happiness' has the .... '-ness' attached to it.",
+      "quizTranslate": "Im Englischen hat das Wort 'happiness' das Suffix '-ness' angehängt.",
+      "translateList": [
+        {
+          "label": "Suffix",
+          "isCorrect": true
+        },
+        {
+          "label": "Prefix",
+          "isCorrect": false
+        },
+        {
+          "label": "Root",
+          "isCorrect": false
+        },
+        {
+          "label": "Base",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Prefix",
+      "translate": "Präfix, Vorsilbe",
+      "quiz": "The word 'unhappy' contains the .... 'un-' that means 'not'.",
+      "quizTranslate": "Das Wort 'unhappy' enthält das Präfix 'un-', das 'nicht' bedeutet.",
+      "translateList": [
+        {
+          "label": "Prefix",
+          "isCorrect": true
+        },
+        {
+          "label": "Suffix",
+          "isCorrect": false
+        },
+        {
+          "label": "Root",
+          "isCorrect": false
+        },
+        {
+          "label": "Infix",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Incentive",
+      "translate": "Anreiz, Ansporn",
+      "quiz": "The company offers a financial .... to motivate employees to meet their targets.",
+      "quizTranslate": "Das Unternehmen bietet einen finanziellen Anreiz, um die Mitarbeiter zu motivieren, ihre Ziele zu erreichen.",
+      "translateList": [
+        {
+          "label": "Incentive",
+          "isCorrect": true
+        },
+        {
+          "label": "Penalty",
+          "isCorrect": false
+        },
+        {
+          "label": "Fine",
+          "isCorrect": false
+        },
+        {
+          "label": "Warning",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cautious",
+      "translate": "Vorsichtig, umsichtig",
+      "quiz": "He was .... about making any major decisions without consulting his team first.",
+      "quizTranslate": "Er war vorsichtig, größere Entscheidungen zu treffen, ohne vorher sein Team zu konsultieren.",
+      "translateList": [
+        {
+          "label": "Cautious",
+          "isCorrect": true
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        },
+        {
+          "label": "Reckless",
+          "isCorrect": false
+        },
+        {
+          "label": "Impulsive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pernicious",
+      "translate": "Schädlich, verderblich",
+      "quiz": "The .... effects of smoking are well documented and widely known.",
+      "quizTranslate": "Die schädlichen Auswirkungen des Rauchens sind gut dokumentiert und weithin bekannt.",
+      "translateList": [
+        {
+          "label": "Pernicious",
+          "isCorrect": true
+        },
+        {
+          "label": "Beneficial",
+          "isCorrect": false
+        },
+        {
+          "label": "Helpful",
+          "isCorrect": false
+        },
+        {
+          "label": "Mild",
           "isCorrect": false
         }
       ]

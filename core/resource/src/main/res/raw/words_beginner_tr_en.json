@@ -38906,6 +38906,246 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Calendar",
+      "translate": "Takvim",
+      "quiz": "You can check the date on the .... in your phone.",
+      "quizTranslate": "Telefonundaki takvimi kontrol edebilirsin.",
+      "translateList": [
+        {
+          "label": "Calendar",
+          "isCorrect": true
+        },
+        {
+          "label": "Clock",
+          "isCorrect": false
+        },
+        {
+          "label": "Diary",
+          "isCorrect": false
+        },
+        {
+          "label": "Schedule",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bookstore",
+      "translate": "Kitapçı",
+      "quiz": "I bought a novel from the local .... yesterday.",
+      "quizTranslate": "Dün yerel kitapçıdan bir roman aldım.",
+      "translateList": [
+        {
+          "label": "Bookstore",
+          "isCorrect": true
+        },
+        {
+          "label": "Library",
+          "isCorrect": false
+        },
+        {
+          "label": "Market",
+          "isCorrect": false
+        },
+        {
+          "label": "Stationery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Puzzle",
+      "translate": "Bulmaca",
+      "quiz": "She loves doing a crossword .... in the morning.",
+      "quizTranslate": "O, sabahları çapraz bulmaca yapmayı çok sever.",
+      "translateList": [
+        {
+          "label": "Puzzle",
+          "isCorrect": true
+        },
+        {
+          "label": "Game",
+          "isCorrect": false
+        },
+        {
+          "label": "Quiz",
+          "isCorrect": false
+        },
+        {
+          "label": "Challenge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Octopus",
+      "translate": "Ahtapot",
+      "quiz": "The .... is known for having eight tentacles.",
+      "quizTranslate": "Ahtapot, sekiz kollu olmasıyla bilinir.",
+      "translateList": [
+        {
+          "label": "Octopus",
+          "isCorrect": true
+        },
+        {
+          "label": "Squid",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        },
+        {
+          "label": "Crab",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Waitress",
+      "translate": "Garson (kadın)",
+      "quiz": "The .... served us our drinks with a smile.",
+      "quizTranslate": "Garson, içeceklerimizi gülümseyerek servis etti.",
+      "translateList": [
+        {
+          "label": "Waitress",
+          "isCorrect": true
+        },
+        {
+          "label": "Cook",
+          "isCorrect": false
+        },
+        {
+          "label": "Bartender",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Trainers",
+      "translate": "Spor ayakkabıları",
+      "quiz": "I bought a new pair of .... for running.",
+      "quizTranslate": "Koşmak için yeni bir çift spor ayakkabısı aldım.",
+      "translateList": [
+        {
+          "label": "Trainers",
+          "isCorrect": true
+        },
+        {
+          "label": "Boots",
+          "isCorrect": false
+        },
+        {
+          "label": "Slippers",
+          "isCorrect": false
+        },
+        {
+          "label": "Sandals",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Toothpaste",
+      "translate": "Diş macunu",
+      "quiz": "Don't forget to put .... on your toothbrush before brushing your teeth.",
+      "quizTranslate": "Dişlerini fırçalamadan önce diş macununu diş fırçana koymayı unutma.",
+      "translateList": [
+        {
+          "label": "Toothpaste",
+          "isCorrect": true
+        },
+        {
+          "label": "Shampoo",
+          "isCorrect": false
+        },
+        {
+          "label": "Soap",
+          "isCorrect": false
+        },
+        {
+          "label": "Lotion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Toothbrush",
+      "translate": "Diş fırçası",
+      "quiz": "Make sure to change your .... regularly.",
+      "quizTranslate": "Diş fırçanı düzenli olarak değiştirdiğinden emin ol.",
+      "translateList": [
+        {
+          "label": "Toothbrush",
+          "isCorrect": true
+        },
+        {
+          "label": "Comb",
+          "isCorrect": false
+        },
+        {
+          "label": "Razor",
+          "isCorrect": false
+        },
+        {
+          "label": "Scissors",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ring",
+      "translate": "Yüzük",
+      "quiz": "She wore a beautiful diamond .... on her finger.",
+      "quizTranslate": "Parmağında güzel bir elmas yüzük vardı.",
+      "translateList": [
+        {
+          "label": "Ring",
+          "isCorrect": true
+        },
+        {
+          "label": "Necklace",
+          "isCorrect": false
+        },
+        {
+          "label": "Bracelet",
+          "isCorrect": false
+        },
+        {
+          "label": "Earring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Restroom",
+      "translate": "Tuvalet",
+      "quiz": "The .... is located on the right side of the hallway.",
+      "quizTranslate": "Tuvalet, koridorun sağ tarafında bulunmaktadır.",
+      "translateList": [
+        {
+          "label": "Restroom",
+          "isCorrect": true
+        },
+        {
+          "label": "Bathroom",
+          "isCorrect": false
+        },
+        {
+          "label": "Kitchen",
+          "isCorrect": false
+        },
+        {
+          "label": "Shower",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
