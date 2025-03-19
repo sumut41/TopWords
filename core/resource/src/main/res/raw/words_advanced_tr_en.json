@@ -34967,6 +34967,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Asset",
+      "translate": "Varlık, değerli şey",
+      "quiz": "His experience in marketing is a valuable .... to the team’s success.",
+      "quizTranslate": "Pazarlama konusundaki deneyimi, takımın başarısı için değerli bir varlıktır.",
+      "translateList": [
+        {
+          "label": "Asset",
+          "isCorrect": true
+        },
+        {
+          "label": "Liability",
+          "isCorrect": false
+        },
+        {
+          "label": "Burden",
+          "isCorrect": false
+        },
+        {
+          "label": "Expense",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

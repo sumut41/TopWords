@@ -34945,6 +34945,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Asset",
+      "translate": "Activo, cosa valiosa",
+      "quiz": "His experience in marketing is a valuable .... to the team’s success.",
+      "quizTranslate": "Su experiencia en marketing es un activo valioso para el éxito del equipo.",
+      "translateList": [
+        {
+          "label": "Asset",
+          "isCorrect": true
+        },
+        {
+          "label": "Liability",
+          "isCorrect": false
+        },
+        {
+          "label": "Burden",
+          "isCorrect": false
+        },
+        {
+          "label": "Expense",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

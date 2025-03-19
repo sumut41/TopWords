@@ -34972,6 +34972,30 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Asset",
+      "translate": "Vermögen, wertvolle Sache",
+      "quiz": "His experience in marketing is a valuable .... to the team’s success.",
+      "quizTranslate": "Seine Erfahrung im Marketing ist ein wertvolles Vermögen für den Erfolg des Teams.",
+      "translateList": [
+        {
+          "label": "Asset",
+          "isCorrect": true
+        },
+        {
+          "label": "Liability",
+          "isCorrect": false
+        },
+        {
+          "label": "Burden",
+          "isCorrect": false
+        },
+        {
+          "label": "Expense",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
