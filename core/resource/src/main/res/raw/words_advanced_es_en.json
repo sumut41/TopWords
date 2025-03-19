@@ -34969,6 +34969,534 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Framework",
+      "translate": "Marco, estructura",
+      "quiz": "The company is developing a new .... for project management to improve efficiency.",
+      "quizTranslate": "La empresa está desarrollando un nuevo marco para la gestión de proyectos para mejorar la eficiencia.",
+      "translateList": [
+        {
+          "label": "Framework",
+          "isCorrect": true
+        },
+        {
+          "label": "System",
+          "isCorrect": false
+        },
+        {
+          "label": "Tool",
+          "isCorrect": false
+        },
+        {
+          "label": "Plan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Imperative",
+      "translate": "Imperativo, obligatorio",
+      "quiz": "It is .... to complete the report by the end of the week.",
+      "quizTranslate": "Es imperativo completar el informe antes del fin de semana.",
+      "translateList": [
+        {
+          "label": "Imperative",
+          "isCorrect": true
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        },
+        {
+          "label": "Voluntary",
+          "isCorrect": false
+        },
+        {
+          "label": "Conditional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Implement",
+      "translate": "Implementar, aplicar",
+      "quiz": "The company plans to .... a new software system next month.",
+      "quizTranslate": "La empresa planea implementar un nuevo sistema de software el próximo mes.",
+      "translateList": [
+        {
+          "label": "Implement",
+          "isCorrect": true
+        },
+        {
+          "label": "Cancel",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Postpone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stimulate",
+      "translate": "Estimular, fomentar",
+      "quiz": "The government's new policies aim to .... economic growth.",
+      "quizTranslate": "Las nuevas políticas del gobierno tienen como objetivo estimular el crecimiento económico.",
+      "translateList": [
+        {
+          "label": "Stimulate",
+          "isCorrect": true
+        },
+        {
+          "label": "Restrict",
+          "isCorrect": false
+        },
+        {
+          "label": "Delay",
+          "isCorrect": false
+        },
+        {
+          "label": "Discourage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sequence",
+      "translate": "Secuencia, orden",
+      "quiz": "The steps in the procedure must be followed in the correct ....",
+      "quizTranslate": "Los pasos en el procedimiento deben seguirse en la secuencia correcta.",
+      "translateList": [
+        {
+          "label": "Sequence",
+          "isCorrect": true
+        },
+        {
+          "label": "Order",
+          "isCorrect": false
+        },
+        {
+          "label": "Choice",
+          "isCorrect": false
+        },
+        {
+          "label": "List",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Savage",
+      "translate": "Salvaje, feroz",
+      "quiz": "The .... animal attacked anyone who came too close.",
+      "quizTranslate": "El animal salvaje atacó a cualquiera que se acercara demasiado.",
+      "translateList": [
+        {
+          "label": "Savage",
+          "isCorrect": true
+        },
+        {
+          "label": "Friendly",
+          "isCorrect": false
+        },
+        {
+          "label": "Timid",
+          "isCorrect": false
+        },
+        {
+          "label": "Gentle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Undertake",
+      "translate": "Emprender, asumir",
+      "quiz": "The company has decided to .... a large-scale project to expand its operations.",
+      "quizTranslate": "La empresa ha decidido emprender un proyecto a gran escala para expandir sus operaciones.",
+      "translateList": [
+        {
+          "label": "Undertake",
+          "isCorrect": true
+        },
+        {
+          "label": "Reject",
+          "isCorrect": false
+        },
+        {
+          "label": "Delay",
+          "isCorrect": false
+        },
+        {
+          "label": "Cancel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Autonomy",
+      "translate": "Autonomía, Independencia",
+      "quiz": "The country gained its .... after years of foreign rule.",
+      "quizTranslate": "El país obtuvo su autonomía después de años de dominio extranjero.",
+      "translateList": [
+        {
+          "label": "Autonomy",
+          "isCorrect": true
+        },
+        {
+          "label": "Independence",
+          "isCorrect": false
+        },
+        {
+          "label": "Control",
+          "isCorrect": false
+        },
+        {
+          "label": "Freedom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Authorize",
+      "translate": "Autorizar, Permitir",
+      "quiz": "Only the manager can .... employees to access the secure system.",
+      "quizTranslate": "Solo el gerente puede autorizar a los empleados a acceder al sistema seguro.",
+      "translateList": [
+        {
+          "label": "Authorize",
+          "isCorrect": true
+        },
+        {
+          "label": "Command",
+          "isCorrect": false
+        },
+        {
+          "label": "Deny",
+          "isCorrect": false
+        },
+        {
+          "label": "Allow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Attribute",
+      "translate": "Atributo, Característica",
+      "quiz": "She is known for her positive .... and strong leadership skills.",
+      "quizTranslate": "Ella es conocida por sus atributos positivos y sus fuertes habilidades de liderazgo.",
+      "translateList": [
+        {
+          "label": "Attribute",
+          "isCorrect": true
+        },
+        {
+          "label": "Trait",
+          "isCorrect": false
+        },
+        {
+          "label": "Appearance",
+          "isCorrect": false
+        },
+        {
+          "label": "Skill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Attendance",
+      "translate": "Asistencia, Participación",
+      "quiz": "The teacher took note of everyone's .... at the meeting.",
+      "quizTranslate": "El maestro tomó nota de la asistencia de todos en la reunión.",
+      "translateList": [
+        {
+          "label": "Attendance",
+          "isCorrect": true
+        },
+        {
+          "label": "Absence",
+          "isCorrect": false
+        },
+        {
+          "label": "Interest",
+          "isCorrect": false
+        },
+        {
+          "label": "Response",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Attain",
+      "translate": "Lograr, Alcanzar",
+      "quiz": "He worked hard to .... his career goals.",
+      "quizTranslate": "Trabajó duro para alcanzar sus objetivos profesionales.",
+      "translateList": [
+        {
+          "label": "Attain",
+          "isCorrect": true
+        },
+        {
+          "label": "Achieve",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Obtain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Asylum",
+      "translate": "Asilo",
+      "quiz": "The refugee was granted .... in the new country.",
+      "quizTranslate": "Al refugiado se le concedió asilo en el nuevo país.",
+      "translateList": [
+        {
+          "label": "Asylum",
+          "isCorrect": true
+        },
+        {
+          "label": "Protection",
+          "isCorrect": false
+        },
+        {
+          "label": "Security",
+          "isCorrect": false
+        },
+        {
+          "label": "Citizenship",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Aspire",
+      "translate": "Aspirar, Desear",
+      "quiz": "She .... to become a successful entrepreneur in the future.",
+      "quizTranslate": "Ella aspira a convertirse en una empresaria exitosa en el futuro.",
+      "translateList": [
+        {
+          "label": "Aspire",
+          "isCorrect": true
+        },
+        {
+          "label": "Desire",
+          "isCorrect": false
+        },
+        {
+          "label": "Achieve",
+          "isCorrect": false
+        },
+        {
+          "label": "Try",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ash",
+      "translate": "Ceniza",
+      "quiz": "The campfire left a pile of .... on the ground.",
+      "quizTranslate": "La fogata dejó un montón de cenizas en el suelo.",
+      "translateList": [
+        {
+          "label": "Ash",
+          "isCorrect": true
+        },
+        {
+          "label": "Smoke",
+          "isCorrect": false
+        },
+        {
+          "label": "Wood",
+          "isCorrect": false
+        },
+        {
+          "label": "Charcoal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Archive",
+      "translate": "Archivar, Archivo",
+      "quiz": "The documents were carefully .... for future reference.",
+      "quizTranslate": "Los documentos fueron archivados cuidadosamente para futuras referencias.",
+      "translateList": [
+        {
+          "label": "Archive",
+          "isCorrect": true
+        },
+        {
+          "label": "Delete",
+          "isCorrect": false
+        },
+        {
+          "label": "Store",
+          "isCorrect": false
+        },
+        {
+          "label": "Send",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Applicable",
+      "translate": "Aplicable, Válido",
+      "quiz": "The new rules are only .... to employees who work full-time.",
+      "quizTranslate": "Las nuevas reglas solo son aplicables a los empleados que trabajan a tiempo completo.",
+      "translateList": [
+        {
+          "label": "Applicable",
+          "isCorrect": true
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        },
+        {
+          "label": "Flexible",
+          "isCorrect": false
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Appetite",
+      "translate": "Apetito, Deseo",
+      "quiz": "He lost his .... after feeling sick for several days.",
+      "quizTranslate": "Perdió el apetito después de sentirse enfermo durante varios días.",
+      "translateList": [
+        {
+          "label": "Appetite",
+          "isCorrect": true
+        },
+        {
+          "label": "Mood",
+          "isCorrect": false
+        },
+        {
+          "label": "Taste",
+          "isCorrect": false
+        },
+        {
+          "label": "Desire",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Anonymous",
+      "translate": "Anónimo",
+      "quiz": "The donation was made by an .... benefactor.",
+      "quizTranslate": "La donación fue hecha por un benefactor anónimo.",
+      "translateList": [
+        {
+          "label": "Anonymous",
+          "isCorrect": true
+        },
+        {
+          "label": "Famous",
+          "isCorrect": false
+        },
+        {
+          "label": "Known",
+          "isCorrect": false
+        },
+        {
+          "label": "Honored",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Angel",
+      "translate": "Ángel, Benefactor",
+      "quiz": "She is an .... for children in need, always helping with charity work.",
+      "quizTranslate": "Ella es un ángel para los niños necesitados, siempre ayudando en obras de caridad.",
+      "translateList": [
+        {
+          "label": "Angel",
+          "isCorrect": true
+        },
+        {
+          "label": "Devil",
+          "isCorrect": false
+        },
+        {
+          "label": "Savior",
+          "isCorrect": false
+        },
+        {
+          "label": "Protector",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Availability",
+      "translate": "Disponibilidad, Accesibilidad",
+      "quiz": "The .... of the product in the store is limited.",
+      "quizTranslate": "La disponibilidad del producto en la tienda es limitada.",
+      "translateList": [
+        {
+          "label": "Availability",
+          "isCorrect": true
+        },
+        {
+          "label": "Demand",
+          "isCorrect": false
+        },
+        {
+          "label": "Popularity",
+          "isCorrect": false
+        },
+        {
+          "label": "Stock",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Authentic",
+      "translate": "Auténtico, Real",
+      "quiz": "The museum exhibits .... artifacts from ancient civilizations.",
+      "quizTranslate": "El museo exhibe artefactos auténticos de civilizaciones antiguas.",
+      "translateList": [
+        {
+          "label": "Authentic",
+          "isCorrect": true
+        },
+        {
+          "label": "Fake",
+          "isCorrect": false
+        },
+        {
+          "label": "Modern",
+          "isCorrect": false
+        },
+        {
+          "label": "Valuable",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
