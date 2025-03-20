@@ -19249,30 +19249,6 @@
       ]
     },
     {
-      "word": "Jacket",
-      "translate": "Ceket",
-      "quiz": "She wore a warm .... in winter.",
-      "quizTranslate": "Kışın sıcak bir ceket giydi.",
-      "translateList": [
-        {
-          "label": "Jacket",
-          "isCorrect": true
-        },
-        {
-          "label": "Coat",
-          "isCorrect": false
-        },
-        {
-          "label": "Sweater",
-          "isCorrect": false
-        },
-        {
-          "label": "Shirt",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Jealous",
       "translate": "Kıskanmak",
       "quiz": "She was .... of her sister's success.",
@@ -38805,6 +38781,54 @@
         },
         {
           "label": "Calm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Express",
+      "translate": "İfade etmek, hızlı",
+      "quiz": "She could not .... her feelings in words.",
+      "quizTranslate": "Duygularını kelimelerle ifade edemedi.",
+      "translateList": [
+        {
+          "label": "Express",
+          "isCorrect": true
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        },
+        {
+          "label": "Suppress",
+          "isCorrect": false
+        },
+        {
+          "label": "Conceal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Include",
+      "translate": "Dahil etmek, içermek",
+      "quiz": "The price of the meal does not .... drinks.",
+      "quizTranslate": "Yemeğin fiyatı içecekleri dahil etmiyor.",
+      "translateList": [
+        {
+          "label": "Include",
+          "isCorrect": true
+        },
+        {
+          "label": "Exclude",
+          "isCorrect": false
+        },
+        {
+          "label": "Offer",
+          "isCorrect": false
+        },
+        {
+          "label": "Consider",
           "isCorrect": false
         }
       ]

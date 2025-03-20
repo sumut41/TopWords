@@ -11119,30 +11119,6 @@
       ]
     },
     {
-      "word": "Express",
-      "translate": "Expresar",
-      "quiz": "She could not .... her feelings in words.",
-      "quizTranslate": "No pudo expresar sus sentimientos con palabras.",
-      "translateList": [
-        {
-          "label": "Express",
-          "isCorrect": true
-        },
-        {
-          "label": "Hold",
-          "isCorrect": false
-        },
-        {
-          "label": "Suppress",
-          "isCorrect": false
-        },
-        {
-          "label": "Conceal",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Face",
       "translate": "Cara",
       "quiz": "She smiled and turned her .... to me.",
@@ -15938,30 +15914,6 @@
         },
         {
           "label": "Palabra",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Learn",
-      "translate": "Aprender",
-      "quiz": "I want to .... English.",
-      "quizTranslate": "Quiero .... inglés.",
-      "translateList": [
-        {
-          "label": "Aprender",
-          "isCorrect": true
-        },
-        {
-          "label": "Enseñar",
-          "isCorrect": false
-        },
-        {
-          "label": "Estudiar",
-          "isCorrect": false
-        },
-        {
-          "label": "Olvidar",
           "isCorrect": false
         }
       ]
@@ -35335,30 +35287,6 @@
       ]
     },
     {
-      "word": "Explain",
-      "translate": "Explicar",
-      "quiz": "Can you .... how to use this new software?",
-      "quizTranslate": "¿Puedes explicar cómo usar este nuevo software?",
-      "translateList": [
-        {
-          "label": "Explain",
-          "isCorrect": true
-        },
-        {
-          "label": "Show",
-          "isCorrect": false
-        },
-        {
-          "label": "Describe",
-          "isCorrect": false
-        },
-        {
-          "label": "Teach",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Extra",
       "translate": "Extra",
       "quiz": "Do you want to add some .... toppings to your pizza?",
@@ -35695,30 +35623,6 @@
       ]
     },
     {
-      "word": "Healthy",
-      "translate": "Saludable",
-      "quiz": "Eating vegetables and fruits is important for staying ....",
-      "quizTranslate": "Comer verduras y frutas es importante para mantenerse saludable.",
-      "translateList": [
-        {
-          "label": "Healthy",
-          "isCorrect": true
-        },
-        {
-          "label": "Sick",
-          "isCorrect": false
-        },
-        {
-          "label": "Tired",
-          "isCorrect": false
-        },
-        {
-          "label": "Weak",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Here",
       "translate": "Aquí",
       "quiz": "I am sitting .... at the table.",
@@ -35839,30 +35743,6 @@
       ]
     },
     {
-      "word": "Include",
-      "translate": "Incluir",
-      "quiz": "The price of the meal does not .... drinks.",
-      "quizTranslate": "El precio de la comida no incluye las bebidas.",
-      "translateList": [
-        {
-          "label": "Include",
-          "isCorrect": true
-        },
-        {
-          "label": "Exclude",
-          "isCorrect": false
-        },
-        {
-          "label": "Offer",
-          "isCorrect": false
-        },
-        {
-          "label": "Consider",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Internet",
       "translate": "Internet",
       "quiz": "She spends most of her time on the ....",
@@ -35887,30 +35767,6 @@
       ]
     },
     {
-      "word": "Introduce",
-      "translate": "Presentar",
-      "quiz": "Let me .... you to my friends.",
-      "quizTranslate": "Déjame presentarte a mis amigos.",
-      "translateList": [
-        {
-          "label": "Introduce",
-          "isCorrect": true
-        },
-        {
-          "label": "Meet",
-          "isCorrect": false
-        },
-        {
-          "label": "Present",
-          "isCorrect": false
-        },
-        {
-          "label": "Greet",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Jacket",
       "translate": "Chaqueta",
       "quiz": "She wore a warm .... because it was cold outside.",
@@ -35930,30 +35786,6 @@
         },
         {
           "label": "Coat",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Join",
-      "translate": "Unirse",
-      "quiz": "Would you like to .... us for dinner?",
-      "quizTranslate": "¿Te gustaría unirte a nosotros para la cena?",
-      "translateList": [
-        {
-          "label": "Join",
-          "isCorrect": true
-        },
-        {
-          "label": "Leave",
-          "isCorrect": false
-        },
-        {
-          "label": "Invite",
-          "isCorrect": false
-        },
-        {
-          "label": "Visit",
           "isCorrect": false
         }
       ]
@@ -36122,30 +35954,6 @@
         },
         {
           "label": "Proposal",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Plant",
-      "translate": "Planta",
-      "quiz": "She has a beautiful .... in her garden.",
-      "quizTranslate": "Ella tiene una planta hermosa en su jardín.",
-      "translateList": [
-        {
-          "label": "Plant",
-          "isCorrect": true
-        },
-        {
-          "label": "Tree",
-          "isCorrect": false
-        },
-        {
-          "label": "Flower",
-          "isCorrect": false
-        },
-        {
-          "label": "Bush",
           "isCorrect": false
         }
       ]

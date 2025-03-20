@@ -19249,30 +19249,6 @@
       ]
     },
     {
-      "word": "Jacket",
-      "translate": "Giacca",
-      "quiz": "She wore a warm .... in winter.",
-      "quizTranslate": "Ha indossato una giacca calda in inverno.",
-      "translateList": [
-        {
-          "label": "Jacket",
-          "isCorrect": true
-        },
-        {
-          "label": "Coat",
-          "isCorrect": false
-        },
-        {
-          "label": "Sweater",
-          "isCorrect": false
-        },
-        {
-          "label": "Shirt",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Jealous",
       "translate": "Gelosia, geloso",
       "quiz": "She was .... of her sister's success.",
@@ -38852,6 +38828,54 @@
         },
         {
           "label": "Calm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Express",
+      "translate": "Esprimere, veloce",
+      "quiz": "She could not .... her feelings in words.",
+      "quizTranslate": "Non riusciva a esprimere i suoi sentimenti a parole.",
+      "translateList": [
+        {
+          "label": "Express",
+          "isCorrect": true
+        },
+        {
+          "label": "Hold",
+          "isCorrect": false
+        },
+        {
+          "label": "Suppress",
+          "isCorrect": false
+        },
+        {
+          "label": "Conceal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Include",
+      "translate": "Includere",
+      "quiz": "The price of the meal does not .... drinks.",
+      "quizTranslate": "Il prezzo del pasto non include le bevande.",
+      "translateList": [
+        {
+          "label": "Include",
+          "isCorrect": true
+        },
+        {
+          "label": "Exclude",
+          "isCorrect": false
+        },
+        {
+          "label": "Offer",
+          "isCorrect": false
+        },
+        {
+          "label": "Consider",
           "isCorrect": false
         }
       ]

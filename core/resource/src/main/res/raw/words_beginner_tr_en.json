@@ -11089,30 +11089,6 @@
       ]
     },
     {
-      "word": "Express",
-      "translate": "İfade etmek, hızlı",
-      "quiz": "She could not .... her feelings in words.",
-      "quizTranslate": "Duygularını kelimelerle ifade edemedi.",
-      "translateList": [
-        {
-          "label": "Express",
-          "isCorrect": true
-        },
-        {
-          "label": "Hold",
-          "isCorrect": false
-        },
-        {
-          "label": "Suppress",
-          "isCorrect": false
-        },
-        {
-          "label": "Conceal",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Face",
       "translate": "Yüz",
       "quiz": "She smiled and turned her .... to me.",
@@ -15908,30 +15884,6 @@
         },
         {
           "label": "Word",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Learn",
-      "translate": "Öğrenmek",
-      "quiz": "I want to .... English.",
-      "quizTranslate": "İngilizce öğrenmek istiyorum.",
-      "translateList": [
-        {
-          "label": "Learn",
-          "isCorrect": true
-        },
-        {
-          "label": "Teach",
-          "isCorrect": false
-        },
-        {
-          "label": "Study",
-          "isCorrect": false
-        },
-        {
-          "label": "Forget",
           "isCorrect": false
         }
       ]
@@ -35308,30 +35260,6 @@
       ]
     },
     {
-      "word": "Explain",
-      "translate": "Açıklamak",
-      "quiz": "Can you .... how to use this new software?",
-      "quizTranslate": "Bu yeni yazılımı nasıl kullanacağımı açıklayabilir misin?",
-      "translateList": [
-        {
-          "label": "Explain",
-          "isCorrect": true
-        },
-        {
-          "label": "Show",
-          "isCorrect": false
-        },
-        {
-          "label": "Describe",
-          "isCorrect": false
-        },
-        {
-          "label": "Teach",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Extra",
       "translate": "Ekstra, ilave",
       "quiz": "Do you want to add some .... toppings to your pizza?",
@@ -35668,30 +35596,6 @@
       ]
     },
     {
-      "word": "Healthy",
-      "translate": "Sağlıklı",
-      "quiz": "Eating vegetables and fruits is important for staying ....",
-      "quizTranslate": "Sebze ve meyve yemek, sağlıklı kalmak için önemlidir.",
-      "translateList": [
-        {
-          "label": "Healthy",
-          "isCorrect": true
-        },
-        {
-          "label": "Sick",
-          "isCorrect": false
-        },
-        {
-          "label": "Tired",
-          "isCorrect": false
-        },
-        {
-          "label": "Weak",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Here",
       "translate": "Burada",
       "quiz": "I am sitting .... at the table.",
@@ -35812,30 +35716,6 @@
       ]
     },
     {
-      "word": "Include",
-      "translate": "Dahil etmek, içermek",
-      "quiz": "The price of the meal does not .... drinks.",
-      "quizTranslate": "Yemeğin fiyatı içecekleri dahil etmiyor.",
-      "translateList": [
-        {
-          "label": "Include",
-          "isCorrect": true
-        },
-        {
-          "label": "Exclude",
-          "isCorrect": false
-        },
-        {
-          "label": "Offer",
-          "isCorrect": false
-        },
-        {
-          "label": "Consider",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Internet",
       "translate": "İnternet",
       "quiz": "She spends most of her time on the ....",
@@ -35860,30 +35740,6 @@
       ]
     },
     {
-      "word": "Introduce",
-      "translate": "Tanıtmak, tanıştırmak",
-      "quiz": "Let me .... you to my friends.",
-      "quizTranslate": "Sizi arkadaşlarımla tanıştırayım.",
-      "translateList": [
-        {
-          "label": "Introduce",
-          "isCorrect": true
-        },
-        {
-          "label": "Meet",
-          "isCorrect": false
-        },
-        {
-          "label": "Present",
-          "isCorrect": false
-        },
-        {
-          "label": "Greet",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Jacket",
       "translate": "Ceket",
       "quiz": "She wore a warm .... because it was cold outside.",
@@ -35903,30 +35759,6 @@
         },
         {
           "label": "Coat",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Join",
-      "translate": "Katılmak",
-      "quiz": "Would you like to .... us for dinner?",
-      "quizTranslate": "Akşam yemeğine bizimle katılmak ister misin?",
-      "translateList": [
-        {
-          "label": "Join",
-          "isCorrect": true
-        },
-        {
-          "label": "Leave",
-          "isCorrect": false
-        },
-        {
-          "label": "Invite",
-          "isCorrect": false
-        },
-        {
-          "label": "Visit",
           "isCorrect": false
         }
       ]
@@ -36095,30 +35927,6 @@
         },
         {
           "label": "Proposal",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Plant",
-      "translate": "Bitki",
-      "quiz": "She has a beautiful .... in her garden.",
-      "quizTranslate": "Bahçesinde güzel bir bitkisi var.",
-      "translateList": [
-        {
-          "label": "Plant",
-          "isCorrect": true
-        },
-        {
-          "label": "Tree",
-          "isCorrect": false
-        },
-        {
-          "label": "Flower",
-          "isCorrect": false
-        },
-        {
-          "label": "Bush",
           "isCorrect": false
         }
       ]
