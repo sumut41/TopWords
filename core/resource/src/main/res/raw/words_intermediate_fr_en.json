@@ -40032,6 +40032,198 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Belly",
+      "translate": "Ventre",
+      "quiz": "She felt a sharp pain in her .... after the long run.",
+      "quizTranslate": "Elle a ressenti une douleur aiguë dans le ventre après la longue course.",
+      "translateList": [
+        {
+          "label": "Belly",
+          "isCorrect": true
+        },
+        {
+          "label": "Chest",
+          "isCorrect": false
+        },
+        {
+          "label": "Back",
+          "isCorrect": false
+        },
+        {
+          "label": "Leg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Intestine",
+      "translate": "Intestin",
+      "quiz": "The small .... is responsible for absorbing nutrients from food.",
+      "quizTranslate": "Le petit intestin est responsable de l'absorption des nutriments des aliments.",
+      "translateList": [
+        {
+          "label": "Intestine",
+          "isCorrect": true
+        },
+        {
+          "label": "Stomach",
+          "isCorrect": false
+        },
+        {
+          "label": "Liver",
+          "isCorrect": false
+        },
+        {
+          "label": "Kidney",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Immune",
+      "translate": "Immunitaire",
+      "quiz": "A strong .... system helps the body fight off infections.",
+      "quizTranslate": "Un système immunitaire fort aide le corps à combattre les infections.",
+      "translateList": [
+        {
+          "label": "Immune",
+          "isCorrect": true
+        },
+        {
+          "label": "Digestive",
+          "isCorrect": false
+        },
+        {
+          "label": "Circulatory",
+          "isCorrect": false
+        },
+        {
+          "label": "Nervous",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pinky",
+      "translate": "Auriculaire",
+      "quiz": "He accidentally broke his .... while playing basketball.",
+      "quizTranslate": "Il s'est accidentellement cassé l'auriculaire en jouant au basket.",
+      "translateList": [
+        {
+          "label": "Pinky",
+          "isCorrect": true
+        },
+        {
+          "label": "Ring finger",
+          "isCorrect": false
+        },
+        {
+          "label": "Middle finger",
+          "isCorrect": false
+        },
+        {
+          "label": "Thumb",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eyelid",
+      "translate": "Paupière",
+      "quiz": "Her .... started to twitch after a long day at work.",
+      "quizTranslate": "Sa paupière a commencé à trembler après une longue journée de travail.",
+      "translateList": [
+        {
+          "label": "Eyelid",
+          "isCorrect": true
+        },
+        {
+          "label": "Eyebrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Nose",
+          "isCorrect": false
+        },
+        {
+          "label": "Lip",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jaw",
+      "translate": "Mâchoire",
+      "quiz": "He clenched his .... in frustration when he lost the game.",
+      "quizTranslate": "Il a serré la mâchoire de frustration lorsqu'il a perdu le match.",
+      "translateList": [
+        {
+          "label": "Jaw",
+          "isCorrect": true
+        },
+        {
+          "label": "Neck",
+          "isCorrect": false
+        },
+        {
+          "label": "Teeth",
+          "isCorrect": false
+        },
+        {
+          "label": "Tongue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Nostril",
+      "translate": "Narine",
+      "quiz": "She felt a tickle in her .... when the dust started to blow.",
+      "quizTranslate": "Elle a ressenti une démangeaison dans sa narine lorsque la poussière a commencé à souffler.",
+      "translateList": [
+        {
+          "label": "Nostril",
+          "isCorrect": true
+        },
+        {
+          "label": "Lip",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouth",
+          "isCorrect": false
+        },
+        {
+          "label": "Cheek",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eyebrow",
+      "translate": "Sourcil",
+      "quiz": "Her .... were perfectly shaped and well-groomed.",
+      "quizTranslate": "Ses sourcils étaient parfaitement formés et bien entretenus.",
+      "translateList": [
+        {
+          "label": "Eyebrow",
+          "isCorrect": true
+        },
+        {
+          "label": "Eyelash",
+          "isCorrect": false
+        },
+        {
+          "label": "Lip",
+          "isCorrect": false
+        },
+        {
+          "label": "Nose",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

@@ -40032,6 +40032,198 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Belly",
+      "translate": "Karın",
+      "quiz": "She felt a sharp pain in her .... after the long run.",
+      "quizTranslate": "Uzun koşudan sonra karın bölgesinde keskin bir ağrı hissetti.",
+      "translateList": [
+        {
+          "label": "Belly",
+          "isCorrect": true
+        },
+        {
+          "label": "Chest",
+          "isCorrect": false
+        },
+        {
+          "label": "Back",
+          "isCorrect": false
+        },
+        {
+          "label": "Leg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Intestine",
+      "translate": "Bağırsak",
+      "quiz": "The small .... is responsible for absorbing nutrients from food.",
+      "quizTranslate": "Küçük bağırsak, yiyeceklerden besin maddelerini emmekten sorumludur.",
+      "translateList": [
+        {
+          "label": "Intestine",
+          "isCorrect": true
+        },
+        {
+          "label": "Stomach",
+          "isCorrect": false
+        },
+        {
+          "label": "Liver",
+          "isCorrect": false
+        },
+        {
+          "label": "Kidney",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Immune",
+      "translate": "Bağışıklık",
+      "quiz": "A strong .... system helps the body fight off infections.",
+      "quizTranslate": "Güçlü bir bağışıklık sistemi, vücudun enfeksiyonlarla savaşmasına yardımcı olur.",
+      "translateList": [
+        {
+          "label": "Immune",
+          "isCorrect": true
+        },
+        {
+          "label": "Digestive",
+          "isCorrect": false
+        },
+        {
+          "label": "Circulatory",
+          "isCorrect": false
+        },
+        {
+          "label": "Nervous",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pinky",
+      "translate": "Serçe parmak",
+      "quiz": "He accidentally broke his .... while playing basketball.",
+      "quizTranslate": "Basketbol oynarken serçe parmağını yanlışlıkla kırdı.",
+      "translateList": [
+        {
+          "label": "Pinky",
+          "isCorrect": true
+        },
+        {
+          "label": "Ring finger",
+          "isCorrect": false
+        },
+        {
+          "label": "Middle finger",
+          "isCorrect": false
+        },
+        {
+          "label": "Thumb",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eyelid",
+      "translate": "Göz kapağı",
+      "quiz": "Her .... started to twitch after a long day at work.",
+      "quizTranslate": "İşten sonra uzun bir günün ardından göz kapağı titremeye başladı.",
+      "translateList": [
+        {
+          "label": "Eyelid",
+          "isCorrect": true
+        },
+        {
+          "label": "Eyebrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Nose",
+          "isCorrect": false
+        },
+        {
+          "label": "Lip",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jaw",
+      "translate": "Çene",
+      "quiz": "He clenched his .... in frustration when he lost the game.",
+      "quizTranslate": "Oyunu kaybettiğinde çenesini sıkıca kapattı.",
+      "translateList": [
+        {
+          "label": "Jaw",
+          "isCorrect": true
+        },
+        {
+          "label": "Neck",
+          "isCorrect": false
+        },
+        {
+          "label": "Teeth",
+          "isCorrect": false
+        },
+        {
+          "label": "Tongue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Nostril",
+      "translate": "Burun deliği",
+      "quiz": "She felt a tickle in her .... when the dust started to blow.",
+      "quizTranslate": "Toz rüzgarı esmeye başladığında burun deliklerinde kaşıntı hissetti.",
+      "translateList": [
+        {
+          "label": "Nostril",
+          "isCorrect": true
+        },
+        {
+          "label": "Lip",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouth",
+          "isCorrect": false
+        },
+        {
+          "label": "Cheek",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eyebrow",
+      "translate": "Kaş",
+      "quiz": "Her .... were perfectly shaped and well-groomed.",
+      "quizTranslate": "Kaşları mükemmel şekilde şekillendirilmiş ve bakımlıydı.",
+      "translateList": [
+        {
+          "label": "Eyebrow",
+          "isCorrect": true
+        },
+        {
+          "label": "Eyelash",
+          "isCorrect": false
+        },
+        {
+          "label": "Lip",
+          "isCorrect": false
+        },
+        {
+          "label": "Nose",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
