@@ -11569,30 +11569,6 @@
       ]
     },
     {
-      "word": "Feather",
-      "translate": "Tüy",
-      "quiz": "A bird's .... helps it to fly.",
-      "quizTranslate": "Bir kuşun tüyü, uçmasına yardımcı olur.",
-      "translateList": [
-        {
-          "label": "Feather",
-          "isCorrect": true
-        },
-        {
-          "label": "Wing",
-          "isCorrect": false
-        },
-        {
-          "label": "Beak",
-          "isCorrect": false
-        },
-        {
-          "label": "Tail",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Fee",
       "translate": "Ücret",
       "quiz": "The entrance .... is $10.",
@@ -37967,30 +37943,6 @@
         },
         {
           "label": "Sparrow",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Squirrel",
-      "translate": "Sincap",
-      "quiz": "The .... collected acorns and stored them for winter.",
-      "quizTranslate": "Sincap, meşe palamutlarını toplayarak kış için sakladı.",
-      "translateList": [
-        {
-          "label": "Squirrel",
-          "isCorrect": true
-        },
-        {
-          "label": "Rabbit",
-          "isCorrect": false
-        },
-        {
-          "label": "Mouse",
-          "isCorrect": false
-        },
-        {
-          "label": "Monkey",
           "isCorrect": false
         }
       ]

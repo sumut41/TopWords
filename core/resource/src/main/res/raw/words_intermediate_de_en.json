@@ -38838,6 +38838,1206 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Squirrel",
+      "translate": "Eichhörnchen",
+      "quiz": "The .... collected acorns and stored them for winter.",
+      "quizTranslate": "Das Eichhörnchen sammelte Eicheln und lagerte sie für den Winter.",
+      "translateList": [
+        {
+          "label": "Squirrel",
+          "isCorrect": true
+        },
+        {
+          "label": "Rabbit",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouse",
+          "isCorrect": false
+        },
+        {
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Feather",
+      "translate": "Feder",
+      "quiz": "A bird's .... helps it to fly.",
+      "quizTranslate": "Die Feder eines Vogels hilft ihm beim Fliegen.",
+      "translateList": [
+        {
+          "label": "Feather",
+          "isCorrect": true
+        },
+        {
+          "label": "Wing",
+          "isCorrect": false
+        },
+        {
+          "label": "Beak",
+          "isCorrect": false
+        },
+        {
+          "label": "Tail",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cage",
+      "translate": "Käfig",
+      "quiz": "The bird is locked inside the .... to keep it safe.",
+      "quizTranslate": "Der Vogel ist zur Sicherheit im Käfig eingeschlossen.",
+      "translateList": [
+        {
+          "label": "Cage",
+          "isCorrect": true
+        },
+        {
+          "label": "Box",
+          "isCorrect": false
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Species",
+      "translate": "Art",
+      "quiz": "There are many different .... of animals in the rainforest.",
+      "quizTranslate": "Im Regenwald gibt es viele verschiedene Tierarten.",
+      "translateList": [
+        {
+          "label": "Species",
+          "isCorrect": true
+        },
+        {
+          "label": "Kinds",
+          "isCorrect": false
+        },
+        {
+          "label": "Types",
+          "isCorrect": false
+        },
+        {
+          "label": "Groups",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Territory",
+      "translate": "Territorium, Gebiet",
+      "quiz": "The lion marks its .... to keep other animals away.",
+      "quizTranslate": "Der Löwe markiert sein Territorium, um andere Tiere fernzuhalten.",
+      "translateList": [
+        {
+          "label": "Territory",
+          "isCorrect": true
+        },
+        {
+          "label": "Land",
+          "isCorrect": false
+        },
+        {
+          "label": "Kingdom",
+          "isCorrect": false
+        },
+        {
+          "label": "Area",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cheetah",
+      "translate": "Gepard",
+      "quiz": "The .... is the fastest land animal in the world.",
+      "quizTranslate": "Der Gepard ist das schnellste Landtier der Welt.",
+      "translateList": [
+        {
+          "label": "Cheetah",
+          "isCorrect": true
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Leopard",
+          "isCorrect": false
+        },
+        {
+          "label": "Jaguar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Leopard",
+      "translate": "Leopard",
+      "quiz": "The .... has spots on its fur and is known for its stealth.",
+      "quizTranslate": "Der Leopard hat Flecken auf seinem Fell und ist für seine Heimlichkeit bekannt.",
+      "translateList": [
+        {
+          "label": "Leopard",
+          "isCorrect": true
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        },
+        {
+          "label": "Cheetah",
+          "isCorrect": false
+        },
+        {
+          "label": "Puma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Puppy",
+      "translate": "Welpe",
+      "quiz": "The .... was very playful and loved to chase after balls.",
+      "quizTranslate": "Der Welpe war sehr verspielt und liebte es, Bällen hinterherzujagen.",
+      "translateList": [
+        {
+          "label": "Puppy",
+          "isCorrect": true
+        },
+        {
+          "label": "Dog",
+          "isCorrect": false
+        },
+        {
+          "label": "Kitten",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reindeer",
+      "translate": "Rentier",
+      "quiz": "The .... are native to the Arctic and are known for their antlers.",
+      "quizTranslate": "Die Rentiere sind in der Arktis beheimatet und für ihr Geweih bekannt.",
+      "translateList": [
+        {
+          "label": "Reindeer",
+          "isCorrect": true
+        },
+        {
+          "label": "Deer",
+          "isCorrect": false
+        },
+        {
+          "label": "Moose",
+          "isCorrect": false
+        },
+        {
+          "label": "Elk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Paw",
+      "translate": "Pfote",
+      "quiz": "The cat walked silently with its soft .... on the floor.",
+      "quizTranslate": "Die Katze lief lautlos mit ihren weichen Pfoten über den Boden.",
+      "translateList": [
+        {
+          "label": "Paw",
+          "isCorrect": true
+        },
+        {
+          "label": "Claw",
+          "isCorrect": false
+        },
+        {
+          "label": "Hoof",
+          "isCorrect": false
+        },
+        {
+          "label": "Foot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Venom",
+      "translate": "Gift",
+      "quiz": "The snake's .... can be deadly if not treated quickly.",
+      "quizTranslate": "Das Gift der Schlange kann tödlich sein, wenn es nicht schnell behandelt wird.",
+      "translateList": [
+        {
+          "label": "Venom",
+          "isCorrect": true
+        },
+        {
+          "label": "Poison",
+          "isCorrect": false
+        },
+        {
+          "label": "Toxin",
+          "isCorrect": false
+        },
+        {
+          "label": "Serum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bark",
+      "translate": "Bellen",
+      "quiz": "The dog started to .... loudly when it saw the mailman.",
+      "quizTranslate": "Der Hund begann laut zu bellen, als er den Postboten sah.",
+      "translateList": [
+        {
+          "label": "Bark",
+          "isCorrect": true
+        },
+        {
+          "label": "Growl",
+          "isCorrect": false
+        },
+        {
+          "label": "Whine",
+          "isCorrect": false
+        },
+        {
+          "label": "Roar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pack",
+      "translate": "Rudel, Paket",
+      "quiz": "The wolves hunted together in a .... to catch their prey.",
+      "quizTranslate": "Die Wölfe jagten zusammen in einem Rudel, um ihre Beute zu fangen.",
+      "translateList": [
+        {
+          "label": "Pack",
+          "isCorrect": true
+        },
+        {
+          "label": "Group",
+          "isCorrect": false
+        },
+        {
+          "label": "Herd",
+          "isCorrect": false
+        },
+        {
+          "label": "Team",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Extinct",
+      "translate": "Ausgestorben",
+      "quiz": "Dinosaurs are an example of animals that are now ....",
+      "quizTranslate": "Dinosaurier sind ein Beispiel für Tiere, die jetzt ausgestorben sind.",
+      "translateList": [
+        {
+          "label": "Extinct",
+          "isCorrect": true
+        },
+        {
+          "label": "Alive",
+          "isCorrect": false
+        },
+        {
+          "label": "Endangered",
+          "isCorrect": false
+        },
+        {
+          "label": "Common",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mammal",
+      "translate": "Säugetier",
+      "quiz": "Humans, cats, and dogs are examples of ....",
+      "quizTranslate": "Menschen, Katzen und Hunde sind Beispiele für Säugetiere.",
+      "translateList": [
+        {
+          "label": "Mammal",
+          "isCorrect": true
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        },
+        {
+          "label": "Reptile",
+          "isCorrect": false
+        },
+        {
+          "label": "Amphibian",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reptile",
+      "translate": "Reptil",
+      "quiz": "Lizards, snakes, and crocodiles are examples of ....",
+      "quizTranslate": "Eidechsen, Schlangen und Krokodile sind Beispiele für Reptilien.",
+      "translateList": [
+        {
+          "label": "Reptile",
+          "isCorrect": true
+        },
+        {
+          "label": "Mammal",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Apron",
+      "translate": "Schürze",
+      "quiz": "She wore an .... while cooking to protect her clothes.",
+      "quizTranslate": "Sie trug eine Schürze beim Kochen, um ihre Kleidung zu schützen.",
+      "translateList": [
+        {
+          "label": "Apron",
+          "isCorrect": true
+        },
+        {
+          "label": "Gloves",
+          "isCorrect": false
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Badge",
+      "translate": "Abzeichen",
+      "quiz": "He wore a .... to show that he was part of the volunteer team.",
+      "quizTranslate": "Er trug ein Abzeichen, um zu zeigen, dass er Teil des Freiwilligenteams war.",
+      "translateList": [
+        {
+          "label": "Badge",
+          "isCorrect": true
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "T-shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bathrobe",
+      "translate": "Bademantel",
+      "quiz": "After the shower, he put on his .... to relax.",
+      "quizTranslate": "Nach der Dusche zog er seinen Bademantel an, um sich zu entspannen.",
+      "translateList": [
+        {
+          "label": "Bathrobe",
+          "isCorrect": true
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cardigan",
+      "translate": "Strickjacke",
+      "quiz": "She wore a cozy .... to stay warm on the chilly evening.",
+      "quizTranslate": "Sie trug eine gemütliche Strickjacke, um sich an dem kühlen Abend warm zu halten.",
+      "translateList": [
+        {
+          "label": "Cardigan",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Helmet",
+      "translate": "Helm",
+      "quiz": "Don't forget to wear your .... while riding a bike.",
+      "quizTranslate": "Vergiss nicht, deinen Helm zu tragen, wenn du Fahrrad fährst.",
+      "translateList": [
+        {
+          "label": "Helmet",
+          "isCorrect": true
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "Cap",
+          "isCorrect": false
+        },
+        {
+          "label": "Gloves",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jersey",
+      "translate": "Trikot",
+      "quiz": "He wore his favorite football .... during the match.",
+      "quizTranslate": "Er trug sein Lieblingsfußballtrikot während des Spiels.",
+      "translateList": [
+        {
+          "label": "Jersey",
+          "isCorrect": true
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Pants",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sandal",
+      "translate": "Sandalette",
+      "quiz": "She wore a pair of .... to the beach.",
+      "quizTranslate": "Sie trug ein Paar Sandaletten zum Strand.",
+      "translateList": [
+        {
+          "label": "Sandal",
+          "isCorrect": true
+        },
+        {
+          "label": "Boot",
+          "isCorrect": false
+        },
+        {
+          "label": "Sneaker",
+          "isCorrect": false
+        },
+        {
+          "label": "Shoe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Vest",
+      "translate": "Weste",
+      "quiz": "He wore a .... over his shirt to complete the outfit.",
+      "quizTranslate": "Er trug eine Weste über seinem Hemd, um das Outfit zu vervollständigen.",
+      "translateList": [
+        {
+          "label": "Vest",
+          "isCorrect": true
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        },
+        {
+          "label": "T-shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fabric",
+      "translate": "Stoff",
+      "quiz": "This shirt is made from high-quality .... that is soft and breathable.",
+      "quizTranslate": "Dieses Hemd ist aus hochwertigem Stoff gefertigt, der weich und atmungsaktiv ist.",
+      "translateList": [
+        {
+          "label": "Fabric",
+          "isCorrect": true
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        },
+        {
+          "label": "Plastic",
+          "isCorrect": false
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Zipper",
+      "translate": "Reißverschluss",
+      "quiz": "The jacket has a metal .... that makes it easy to open and close.",
+      "quizTranslate": "Die Jacke hat einen Metallreißverschluss, der das Öffnen und Schließen erleichtert.",
+      "translateList": [
+        {
+          "label": "Zipper",
+          "isCorrect": true
+        },
+        {
+          "label": "Button",
+          "isCorrect": false
+        },
+        {
+          "label": "Hook",
+          "isCorrect": false
+        },
+        {
+          "label": "Clasp",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silk",
+      "translate": "Seide",
+      "quiz": "She wore a beautiful .... dress to the gala event.",
+      "quizTranslate": "Sie trug ein wunderschönes Seidenkleid zur Gala-Veranstaltung.",
+      "translateList": [
+        {
+          "label": "Silk",
+          "isCorrect": true
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Wool",
+          "isCorrect": false
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lining",
+      "translate": "Futter",
+      "quiz": "The coat has a warm .... to keep you comfortable in cold weather.",
+      "quizTranslate": "Der Mantel hat ein warmes Futter, um dich bei kaltem Wetter warm zu halten.",
+      "translateList": [
+        {
+          "label": "Lining",
+          "isCorrect": true
+        },
+        {
+          "label": "Sleeve",
+          "isCorrect": false
+        },
+        {
+          "label": "Collar",
+          "isCorrect": false
+        },
+        {
+          "label": "Hood",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lace",
+      "translate": "Spitze",
+      "quiz": "The dress was decorated with delicate .... along the neckline.",
+      "quizTranslate": "Das Kleid war mit zarter Spitze am Ausschnitt verziert.",
+      "translateList": [
+        {
+          "label": "Lace",
+          "isCorrect": true
+        },
+        {
+          "label": "Ribbon",
+          "isCorrect": false
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "Beads",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Denim",
+      "translate": "Denim, Jeansstoff",
+      "quiz": "He wore a .... jacket and jeans for the casual outing.",
+      "quizTranslate": "Er trug eine Jeansjacke und eine Jeans für den entspannten Ausflug.",
+      "translateList": [
+        {
+          "label": "Denim",
+          "isCorrect": true
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Silk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Costume",
+      "translate": "Kostüm",
+      "quiz": "She wore a fairy tale .... for the costume party.",
+      "quizTranslate": "Sie trug ein Märchenkostüm für die Kostümparty.",
+      "translateList": [
+        {
+          "label": "Costume",
+          "isCorrect": true
+        },
+        {
+          "label": "Suit",
+          "isCorrect": false
+        },
+        {
+          "label": "Uniform",
+          "isCorrect": false
+        },
+        {
+          "label": "Dress",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Designer",
+      "translate": "Designer",
+      "quiz": "The .... of the dress is famous for her elegant and timeless styles.",
+      "quizTranslate": "Die Designerin des Kleides ist bekannt für ihre eleganten und zeitlosen Stile.",
+      "translateList": [
+        {
+          "label": "Designer",
+          "isCorrect": true
+        },
+        {
+          "label": "Tailor",
+          "isCorrect": false
+        },
+        {
+          "label": "Sewing",
+          "isCorrect": false
+        },
+        {
+          "label": "Pattern",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Modeling",
+      "translate": "Modeln",
+      "quiz": "She started her career in .... and later became an actress.",
+      "quizTranslate": "Sie begann ihre Karriere im Modeln und wurde später Schauspielerin.",
+      "translateList": [
+        {
+          "label": "Modeling",
+          "isCorrect": true
+        },
+        {
+          "label": "Acting",
+          "isCorrect": false
+        },
+        {
+          "label": "Dancing",
+          "isCorrect": false
+        },
+        {
+          "label": "Singing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Outfit",
+      "translate": "Outfit, Kleidung",
+      "quiz": "She wore a casual .... for the trip to the beach.",
+      "quizTranslate": "Sie trug ein lässiges Outfit für den Ausflug zum Strand.",
+      "translateList": [
+        {
+          "label": "Outfit",
+          "isCorrect": true
+        },
+        {
+          "label": "Shoes",
+          "isCorrect": false
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Casual",
+      "translate": "Lässig",
+      "quiz": "He prefers .... clothes like jeans and T-shirts for everyday wear.",
+      "quizTranslate": "Er bevorzugt lässige Kleidung wie Jeans und T-Shirts für den Alltag.",
+      "translateList": [
+        {
+          "label": "Casual",
+          "isCorrect": true
+        },
+        {
+          "label": "Formal",
+          "isCorrect": false
+        },
+        {
+          "label": "Elegant",
+          "isCorrect": false
+        },
+        {
+          "label": "Sporty",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Glamorous",
+      "translate": "Glamourös",
+      "quiz": "She wore a .... dress to the red carpet event.",
+      "quizTranslate": "Sie trug ein glamouröses Kleid zur Veranstaltung auf dem roten Teppich.",
+      "translateList": [
+        {
+          "label": "Glamorous",
+          "isCorrect": true
+        },
+        {
+          "label": "Plain",
+          "isCorrect": false
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Boring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sporty",
+      "translate": "Sportlich",
+      "quiz": "He wore a .... outfit for the hiking trip.",
+      "quizTranslate": "Er trug ein sportliches Outfit für die Wanderung.",
+      "translateList": [
+        {
+          "label": "Sporty",
+          "isCorrect": true
+        },
+        {
+          "label": "Fashionable",
+          "isCorrect": false
+        },
+        {
+          "label": "Elegant",
+          "isCorrect": false
+        },
+        {
+          "label": "Classic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stylish",
+      "translate": "Stilvoll, modisch",
+      "quiz": "She always wears .... clothes that make her stand out in the crowd.",
+      "quizTranslate": "Sie trägt immer stilvolle Kleidung, die sie in der Menge hervorstechen lässt.",
+      "translateList": [
+        {
+          "label": "Stylish",
+          "isCorrect": true
+        },
+        {
+          "label": "Plain",
+          "isCorrect": false
+        },
+        {
+          "label": "Old-fashioned",
+          "isCorrect": false
+        },
+        {
+          "label": "Casual",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wooly",
+      "translate": "Wollig",
+      "quiz": "She wore a soft .... sweater to keep warm during the winter.",
+      "quizTranslate": "Sie trug einen weichen wolligen Pullover, um sich im Winter warm zu halten.",
+      "translateList": [
+        {
+          "label": "Wooly",
+          "isCorrect": true
+        },
+        {
+          "label": "Silk",
+          "isCorrect": false
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Linen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bond",
+      "translate": "Bindung, Verbindung",
+      "quiz": "A strong .... was formed between the two friends during their travels.",
+      "quizTranslate": "Während ihrer Reisen entstand eine starke Bindung zwischen den beiden Freunden.",
+      "translateList": [
+        {
+          "label": "Bond",
+          "isCorrect": true
+        },
+        {
+          "label": "Distance",
+          "isCorrect": false
+        },
+        {
+          "label": "Rift",
+          "isCorrect": false
+        },
+        {
+          "label": "Conflict",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lineage",
+      "translate": "Abstammung, Herkunft",
+      "quiz": "His family has a long .... of successful doctors.",
+      "quizTranslate": "Seine Familie hat eine lange Abstammung erfolgreicher Ärzte.",
+      "translateList": [
+        {
+          "label": "Lineage",
+          "isCorrect": true
+        },
+        {
+          "label": "Background",
+          "isCorrect": false
+        },
+        {
+          "label": "Family",
+          "isCorrect": false
+        },
+        {
+          "label": "Heritage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sibling",
+      "translate": "Geschwister",
+      "quiz": "He has three .... who all live in different countries.",
+      "quizTranslate": "Er hat drei Geschwister, die alle in verschiedenen Ländern leben.",
+      "translateList": [
+        {
+          "label": "Sibling",
+          "isCorrect": true
+        },
+        {
+          "label": "Cousin",
+          "isCorrect": false
+        },
+        {
+          "label": "Parent",
+          "isCorrect": false
+        },
+        {
+          "label": "Child",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inherit",
+      "translate": "Erben",
+      "quiz": "She will .... her grandmother's jewelry after her passing.",
+      "quizTranslate": "Sie wird nach dem Tod ihrer Großmutter deren Schmuck erben.",
+      "translateList": [
+        {
+          "label": "Inherit",
+          "isCorrect": true
+        },
+        {
+          "label": "Earn",
+          "isCorrect": false
+        },
+        {
+          "label": "Borrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Buy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Anatomy",
+      "translate": "Anatomie",
+      "quiz": "The study of human .... is crucial for doctors and medical professionals.",
+      "quizTranslate": "Das Studium der menschlichen Anatomie ist für Ärzte und medizinische Fachkräfte entscheidend.",
+      "translateList": [
+        {
+          "label": "Anatomy",
+          "isCorrect": true
+        },
+        {
+          "label": "Physiology",
+          "isCorrect": false
+        },
+        {
+          "label": "Biology",
+          "isCorrect": false
+        },
+        {
+          "label": "Pathology",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Artery",
+      "translate": "Arterie",
+      "quiz": "The heart pumps blood through the .... to the rest of the body.",
+      "quizTranslate": "Das Herz pumpt das Blut durch die Arterien in den Rest des Körpers.",
+      "translateList": [
+        {
+          "label": "Artery",
+          "isCorrect": true
+        },
+        {
+          "label": "Vein",
+          "isCorrect": false
+        },
+        {
+          "label": "Capillary",
+          "isCorrect": false
+        },
+        {
+          "label": "Nerve",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Blood vessel",
+      "translate": "Blutgefäß",
+      "quiz": "The body has a network of .... that transport blood to different organs.",
+      "quizTranslate": "Der Körper hat ein Netzwerk von Blutgefäßen, das Blut zu verschiedenen Organen transportiert.",
+      "translateList": [
+        {
+          "label": "Blood vessel",
+          "isCorrect": true
+        },
+        {
+          "label": "Nerve",
+          "isCorrect": false
+        },
+        {
+          "label": "Tissue",
+          "isCorrect": false
+        },
+        {
+          "label": "Bone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Scalp",
+      "translate": "Kopfhaut",
+      "quiz": "He massaged his .... after a long day to relax.",
+      "quizTranslate": "Er massierte seine Kopfhaut nach einem langen Tag, um sich zu entspannen.",
+      "translateList": [
+        {
+          "label": "Scalp",
+          "isCorrect": true
+        },
+        {
+          "label": "Hair",
+          "isCorrect": false
+        },
+        {
+          "label": "Forehead",
+          "isCorrect": false
+        },
+        {
+          "label": "Neck",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Collarbone",
+      "translate": "Schlüsselbein",
+      "quiz": "The .... is located just below the neck.",
+      "quizTranslate": "Das Schlüsselbein befindet sich direkt unter dem Hals.",
+      "translateList": [
+        {
+          "label": "Collarbone",
+          "isCorrect": true
+        },
+        {
+          "label": "Spine",
+          "isCorrect": false
+        },
+        {
+          "label": "Elbow",
+          "isCorrect": false
+        },
+        {
+          "label": "Wrist",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Abdomen",
+      "translate": "Bauch",
+      "quiz": "The stomach is located in the .... region of the body.",
+      "quizTranslate": "Der Magen befindet sich im Bauchbereich des Körpers.",
+      "translateList": [
+        {
+          "label": "Abdomen",
+          "isCorrect": true
+        },
+        {
+          "label": "Chest",
+          "isCorrect": false
+        },
+        {
+          "label": "Leg",
+          "isCorrect": false
+        },
+        {
+          "label": "Back",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Digestive",
+      "translate": "Verdauung",
+      "quiz": "The .... system breaks down food into nutrients that the body can absorb.",
+      "quizTranslate": "Das Verdauungssystem zerlegt Nahrung in Nährstoffe, die der Körper aufnehmen kann.",
+      "translateList": [
+        {
+          "label": "Digestive",
+          "isCorrect": true
+        },
+        {
+          "label": "Respiratory",
+          "isCorrect": false
+        },
+        {
+          "label": "Circulatory",
+          "isCorrect": false
+        },
+        {
+          "label": "Muscular",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

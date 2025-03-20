@@ -11570,30 +11570,6 @@
       ]
     },
     {
-      "word": "Feather",
-      "translate": "Feder",
-      "quiz": "A bird's .... helps it to fly.",
-      "quizTranslate": "Die Feder eines Vogels hilft ihm beim Fliegen.",
-      "translateList": [
-        {
-          "label": "Feather",
-          "isCorrect": true
-        },
-        {
-          "label": "Wing",
-          "isCorrect": false
-        },
-        {
-          "label": "Beak",
-          "isCorrect": false
-        },
-        {
-          "label": "Tail",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Fee",
       "translate": "Gebühr",
       "quiz": "The entrance .... is $10.",
@@ -37941,30 +37917,6 @@
         },
         {
           "label": "Sparrow",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Squirrel",
-      "translate": "Eichhörnchen",
-      "quiz": "The .... collected acorns and stored them for winter.",
-      "quizTranslate": "Das Eichhörnchen sammelte Eicheln und lagerte sie für den Winter.",
-      "translateList": [
-        {
-          "label": "Squirrel",
-          "isCorrect": true
-        },
-        {
-          "label": "Rabbit",
-          "isCorrect": false
-        },
-        {
-          "label": "Mouse",
-          "isCorrect": false
-        },
-        {
-          "label": "Monkey",
           "isCorrect": false
         }
       ]

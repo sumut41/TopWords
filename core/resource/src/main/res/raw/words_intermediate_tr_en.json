@@ -25274,9 +25274,9 @@
     },
     {
       "word": "Plain",
-      "translate": "Düz",
+      "translate": "Sade, düz",
       "quiz": "The shirt is .... with no patterns.",
-      "quizTranslate": "Gömlek desensiz düz.",
+      "quizTranslate": "Gömlek desensiz sade.",
       "translateList": [
         {
           "label": "Plain",
@@ -31922,9 +31922,9 @@
     },
     {
       "word": "Striped",
-      "translate": "Şeritli",
+      "translate": "Çizgili, şeritli",
       "quiz": "He wore a .... shirt.",
-      "quizTranslate": "Şeritli bir gömlek giydi.",
+      "quizTranslate": "Çizgili bir gömlek giydi.",
       "translateList": [
         {
           "label": "Striped",
@@ -38829,6 +38829,1206 @@
         },
         {
           "label": "Consider",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Squirrel",
+      "translate": "Sincap",
+      "quiz": "The .... collected acorns and stored them for winter.",
+      "quizTranslate": "Sincap, meşe palamutlarını toplayarak kış için sakladı.",
+      "translateList": [
+        {
+          "label": "Squirrel",
+          "isCorrect": true
+        },
+        {
+          "label": "Rabbit",
+          "isCorrect": false
+        },
+        {
+          "label": "Mouse",
+          "isCorrect": false
+        },
+        {
+          "label": "Monkey",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Feather",
+      "translate": "Tüy",
+      "quiz": "A bird's .... helps it to fly.",
+      "quizTranslate": "Bir kuşun tüyü, uçmasına yardımcı olur.",
+      "translateList": [
+        {
+          "label": "Feather",
+          "isCorrect": true
+        },
+        {
+          "label": "Wing",
+          "isCorrect": false
+        },
+        {
+          "label": "Beak",
+          "isCorrect": false
+        },
+        {
+          "label": "Tail",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cage",
+      "translate": "Kafes",
+      "quiz": "The bird is locked inside the .... to keep it safe.",
+      "quizTranslate": "Kuş, güvenliğini sağlamak için kafeste kilitli.",
+      "translateList": [
+        {
+          "label": "Cage",
+          "isCorrect": true
+        },
+        {
+          "label": "Box",
+          "isCorrect": false
+        },
+        {
+          "label": "Room",
+          "isCorrect": false
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Species",
+      "translate": "Tür",
+      "quiz": "There are many different .... of animals in the rainforest.",
+      "quizTranslate": "Yağmur ormanında birçok farklı hayvan türü vardır.",
+      "translateList": [
+        {
+          "label": "Species",
+          "isCorrect": true
+        },
+        {
+          "label": "Kinds",
+          "isCorrect": false
+        },
+        {
+          "label": "Types",
+          "isCorrect": false
+        },
+        {
+          "label": "Groups",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Territory",
+      "translate": "Bölge, toprak",
+      "quiz": "The lion marks its .... to keep other animals away.",
+      "quizTranslate": "Aslan, diğer hayvanları uzak tutmak için bölgesini işaretler.",
+      "translateList": [
+        {
+          "label": "Territory",
+          "isCorrect": true
+        },
+        {
+          "label": "Land",
+          "isCorrect": false
+        },
+        {
+          "label": "Kingdom",
+          "isCorrect": false
+        },
+        {
+          "label": "Area",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cheetah",
+      "translate": "Çita",
+      "quiz": "The .... is the fastest land animal in the world.",
+      "quizTranslate": "Çita, dünyadaki en hızlı kara hayvanıdır.",
+      "translateList": [
+        {
+          "label": "Cheetah",
+          "isCorrect": true
+        },
+        {
+          "label": "Lion",
+          "isCorrect": false
+        },
+        {
+          "label": "Leopard",
+          "isCorrect": false
+        },
+        {
+          "label": "Jaguar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Leopard",
+      "translate": "Leopar",
+      "quiz": "The .... has spots on its fur and is known for its stealth.",
+      "quizTranslate": "Leoparın kürkünde lekeler vardır ve gizlilikleri ile bilinirler.",
+      "translateList": [
+        {
+          "label": "Leopard",
+          "isCorrect": true
+        },
+        {
+          "label": "Tiger",
+          "isCorrect": false
+        },
+        {
+          "label": "Cheetah",
+          "isCorrect": false
+        },
+        {
+          "label": "Puma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Puppy",
+      "translate": "Yavru köpek",
+      "quiz": "The .... was very playful and loved to chase after balls.",
+      "quizTranslate": "Yavru köpek çok oyuncuydu ve top peşinden koşmayı çok severdi.",
+      "translateList": [
+        {
+          "label": "Puppy",
+          "isCorrect": true
+        },
+        {
+          "label": "Dog",
+          "isCorrect": false
+        },
+        {
+          "label": "Kitten",
+          "isCorrect": false
+        },
+        {
+          "label": "Wolf",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reindeer",
+      "translate": "Ren geyiği",
+      "quiz": "The .... are native to the Arctic and are known for their antlers.",
+      "quizTranslate": "Ren geyikleri Arktik'e özgüdür ve boynuzları ile bilinir.",
+      "translateList": [
+        {
+          "label": "Reindeer",
+          "isCorrect": true
+        },
+        {
+          "label": "Deer",
+          "isCorrect": false
+        },
+        {
+          "label": "Moose",
+          "isCorrect": false
+        },
+        {
+          "label": "Elk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Paw",
+      "translate": "Pençe, pati",
+      "quiz": "The cat walked silently with its soft .... on the floor.",
+      "quizTranslate": "Kedi, yumuşak pençeleriyle sessizce yürüdü.",
+      "translateList": [
+        {
+          "label": "Paw",
+          "isCorrect": true
+        },
+        {
+          "label": "Claw",
+          "isCorrect": false
+        },
+        {
+          "label": "Hoof",
+          "isCorrect": false
+        },
+        {
+          "label": "Foot",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Venom",
+      "translate": "Zehir",
+      "quiz": "The snake's .... can be deadly if not treated quickly.",
+      "quizTranslate": "Yılanın zehiri, hızlı tedavi edilmezse ölümcül olabilir.",
+      "translateList": [
+        {
+          "label": "Venom",
+          "isCorrect": true
+        },
+        {
+          "label": "Poison",
+          "isCorrect": false
+        },
+        {
+          "label": "Toxin",
+          "isCorrect": false
+        },
+        {
+          "label": "Serum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bark",
+      "translate": "Havlamak",
+      "quiz": "The dog started to .... loudly when it saw the mailman.",
+      "quizTranslate": "Köpek, postacıyı gördüğünde yüksek sesle havlamaya başladı.",
+      "translateList": [
+        {
+          "label": "Bark",
+          "isCorrect": true
+        },
+        {
+          "label": "Growl",
+          "isCorrect": false
+        },
+        {
+          "label": "Whine",
+          "isCorrect": false
+        },
+        {
+          "label": "Roar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pack",
+      "translate": "Sürü, paket",
+      "quiz": "The wolves hunted together in a .... to catch their prey.",
+      "quizTranslate": "Kurtlar, avlarını yakalamak için bir sürü halinde avlandılar.",
+      "translateList": [
+        {
+          "label": "Pack",
+          "isCorrect": true
+        },
+        {
+          "label": "Group",
+          "isCorrect": false
+        },
+        {
+          "label": "Herd",
+          "isCorrect": false
+        },
+        {
+          "label": "Team",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Extinct",
+      "translate": "Soyu tükenmiş",
+      "quiz": "Dinosaurs are an example of animals that are now ....",
+      "quizTranslate": "Dinozorlar, şimdi soyu tükenmiş olan hayvanlara örnektir.",
+      "translateList": [
+        {
+          "label": "Extinct",
+          "isCorrect": true
+        },
+        {
+          "label": "Alive",
+          "isCorrect": false
+        },
+        {
+          "label": "Endangered",
+          "isCorrect": false
+        },
+        {
+          "label": "Common",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mammal",
+      "translate": "Memeli",
+      "quiz": "Humans, cats, and dogs are examples of ....",
+      "quizTranslate": "İnsanlar, kediler ve köpekler memelilere örnektir.",
+      "translateList": [
+        {
+          "label": "Mammal",
+          "isCorrect": true
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        },
+        {
+          "label": "Reptile",
+          "isCorrect": false
+        },
+        {
+          "label": "Amphibian",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Reptile",
+      "translate": "Sürüngen",
+      "quiz": "Lizards, snakes, and crocodiles are examples of ....",
+      "quizTranslate": "Kertenkeleler, yılanlar ve timsahlar sürüngenlere örnektir.",
+      "translateList": [
+        {
+          "label": "Reptile",
+          "isCorrect": true
+        },
+        {
+          "label": "Mammal",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        },
+        {
+          "label": "Bird",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Apron",
+      "translate": "Önlük",
+      "quiz": "She wore an .... while cooking to protect her clothes.",
+      "quizTranslate": "Yemek pişirirken kıyafetlerini korumak için bir önlük giydi.",
+      "translateList": [
+        {
+          "label": "Apron",
+          "isCorrect": true
+        },
+        {
+          "label": "Gloves",
+          "isCorrect": false
+        },
+        {
+          "label": "Scarf",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Badge",
+      "translate": "Rozet",
+      "quiz": "He wore a .... to show that he was part of the volunteer team.",
+      "quizTranslate": "Gönüllü ekibin bir parçası olduğunu göstermek için bir rozet taktı.",
+      "translateList": [
+        {
+          "label": "Badge",
+          "isCorrect": true
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "T-shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bathrobe",
+      "translate": "Bornoz",
+      "quiz": "After the shower, he put on his .... to relax.",
+      "quizTranslate": "Duş sonrası rahatlamak için bornozunu giydi.",
+      "translateList": [
+        {
+          "label": "Bathrobe",
+          "isCorrect": true
+        },
+        {
+          "label": "Towel",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cardigan",
+      "translate": "Hırka",
+      "quiz": "She wore a cozy .... to stay warm on the chilly evening.",
+      "quizTranslate": "Serin akşamda sıcak tutmak için rahat bir hırka giydi.",
+      "translateList": [
+        {
+          "label": "Cardigan",
+          "isCorrect": true
+        },
+        {
+          "label": "Jacket",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Helmet",
+      "translate": "Kask",
+      "quiz": "Don't forget to wear your .... while riding a bike.",
+      "quizTranslate": "Bisiklet sürerken kaskını takmayı unutma.",
+      "translateList": [
+        {
+          "label": "Helmet",
+          "isCorrect": true
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "Cap",
+          "isCorrect": false
+        },
+        {
+          "label": "Gloves",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jersey",
+      "translate": "Formalar, tişört",
+      "quiz": "He wore his favorite football .... during the match.",
+      "quizTranslate": "Maç sırasında en sevdiği futbol formasını giydi.",
+      "translateList": [
+        {
+          "label": "Jersey",
+          "isCorrect": true
+        },
+        {
+          "label": "Shirt",
+          "isCorrect": false
+        },
+        {
+          "label": "Pants",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sandal",
+      "translate": "Sandalet",
+      "quiz": "She wore a pair of .... to the beach.",
+      "quizTranslate": "Plaja sandaletlerini giydi.",
+      "translateList": [
+        {
+          "label": "Sandal",
+          "isCorrect": true
+        },
+        {
+          "label": "Boot",
+          "isCorrect": false
+        },
+        {
+          "label": "Sneaker",
+          "isCorrect": false
+        },
+        {
+          "label": "Shoe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Vest",
+      "translate": "Yelek",
+      "quiz": "He wore a .... over his shirt to complete the outfit.",
+      "quizTranslate": "Giysisini tamamlamak için gömleğinin üzerine bir yelek giydi.",
+      "translateList": [
+        {
+          "label": "Vest",
+          "isCorrect": true
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        },
+        {
+          "label": "Sweater",
+          "isCorrect": false
+        },
+        {
+          "label": "T-shirt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Fabric",
+      "translate": "Kumaş",
+      "quiz": "This shirt is made from high-quality .... that is soft and breathable.",
+      "quizTranslate": "Bu gömlek, yumuşak ve nefes alabilen yüksek kaliteli kumaştan yapılmıştır.",
+      "translateList": [
+        {
+          "label": "Fabric",
+          "isCorrect": true
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        },
+        {
+          "label": "Plastic",
+          "isCorrect": false
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Zipper",
+      "translate": "Fermuar, cırt cırt",
+      "quiz": "The jacket has a metal .... that makes it easy to open and close.",
+      "quizTranslate": "Ceketin, açıp kapamayı kolaylaştıran bir metal fermuarı var.",
+      "translateList": [
+        {
+          "label": "Zipper",
+          "isCorrect": true
+        },
+        {
+          "label": "Button",
+          "isCorrect": false
+        },
+        {
+          "label": "Hook",
+          "isCorrect": false
+        },
+        {
+          "label": "Clasp",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Silk",
+      "translate": "İpek",
+      "quiz": "She wore a beautiful .... dress to the gala event.",
+      "quizTranslate": "Gala etkinliğine güzel bir ipek elbise giydi.",
+      "translateList": [
+        {
+          "label": "Silk",
+          "isCorrect": true
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Wool",
+          "isCorrect": false
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lining",
+      "translate": "Astarlama, astar",
+      "quiz": "The coat has a warm .... to keep you comfortable in cold weather.",
+      "quizTranslate": "Ceket, soğuk havalarda seni rahat tutacak sıcak bir astara sahip.",
+      "translateList": [
+        {
+          "label": "Lining",
+          "isCorrect": true
+        },
+        {
+          "label": "Sleeve",
+          "isCorrect": false
+        },
+        {
+          "label": "Collar",
+          "isCorrect": false
+        },
+        {
+          "label": "Hood",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lace",
+      "translate": "Dantel",
+      "quiz": "The dress was decorated with delicate .... along the neckline.",
+      "quizTranslate": "Elbise, yakasında ince dantel ile süslenmişti.",
+      "translateList": [
+        {
+          "label": "Lace",
+          "isCorrect": true
+        },
+        {
+          "label": "Ribbon",
+          "isCorrect": false
+        },
+        {
+          "label": "Thread",
+          "isCorrect": false
+        },
+        {
+          "label": "Beads",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Denim",
+      "translate": "Kot",
+      "quiz": "He wore a .... jacket and jeans for the casual outing.",
+      "quizTranslate": "Rahat bir gezinti için kot ceket ve pantolon giydi.",
+      "translateList": [
+        {
+          "label": "Denim",
+          "isCorrect": true
+        },
+        {
+          "label": "Leather",
+          "isCorrect": false
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Silk",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Costume",
+      "translate": "Kostüm",
+      "quiz": "She wore a fairy tale .... for the costume party.",
+      "quizTranslate": "Kostüm partisinde bir masal kahramanı kostümü giydi.",
+      "translateList": [
+        {
+          "label": "Costume",
+          "isCorrect": true
+        },
+        {
+          "label": "Suit",
+          "isCorrect": false
+        },
+        {
+          "label": "Uniform",
+          "isCorrect": false
+        },
+        {
+          "label": "Dress",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Designer",
+      "translate": "Tasarımcı",
+      "quiz": "The .... of the dress is famous for her elegant and timeless styles.",
+      "quizTranslate": "Elbisenin tasarımcısı, zarif ve zamansız stilleriyle ünlüdür.",
+      "translateList": [
+        {
+          "label": "Designer",
+          "isCorrect": true
+        },
+        {
+          "label": "Tailor",
+          "isCorrect": false
+        },
+        {
+          "label": "Sewing",
+          "isCorrect": false
+        },
+        {
+          "label": "Pattern",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Modeling",
+      "translate": "Modellik",
+      "quiz": "She started her career in .... and later became an actress.",
+      "quizTranslate": "Modellik kariyerine başladı ve sonra oyuncu oldu.",
+      "translateList": [
+        {
+          "label": "Modeling",
+          "isCorrect": true
+        },
+        {
+          "label": "Acting",
+          "isCorrect": false
+        },
+        {
+          "label": "Dancing",
+          "isCorrect": false
+        },
+        {
+          "label": "Singing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Outfit",
+      "translate": "Kıyafet, takım",
+      "quiz": "She wore a casual .... for the trip to the beach.",
+      "quizTranslate": "Plaj gezisi için rahat bir kıyafet giydi.",
+      "translateList": [
+        {
+          "label": "Outfit",
+          "isCorrect": true
+        },
+        {
+          "label": "Shoes",
+          "isCorrect": false
+        },
+        {
+          "label": "Hat",
+          "isCorrect": false
+        },
+        {
+          "label": "Coat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Casual",
+      "translate": "Rahat, gündelik",
+      "quiz": "He prefers .... clothes like jeans and T-shirts for everyday wear.",
+      "quizTranslate": "Günlük giyim için kot pantolon ve tişört gibi rahat kıyafetleri tercih eder.",
+      "translateList": [
+        {
+          "label": "Casual",
+          "isCorrect": true
+        },
+        {
+          "label": "Formal",
+          "isCorrect": false
+        },
+        {
+          "label": "Elegant",
+          "isCorrect": false
+        },
+        {
+          "label": "Sporty",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Glamorous",
+      "translate": "Işıltılı, göz alıcı",
+      "quiz": "She wore a .... dress to the red carpet event.",
+      "quizTranslate": "Kırmızı halı etkinliği için göz alıcı bir elbise giydi.",
+      "translateList": [
+        {
+          "label": "Glamorous",
+          "isCorrect": true
+        },
+        {
+          "label": "Plain",
+          "isCorrect": false
+        },
+        {
+          "label": "Simple",
+          "isCorrect": false
+        },
+        {
+          "label": "Boring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sporty",
+      "translate": "Spor tarzı, sportif",
+      "quiz": "He wore a .... outfit for the hiking trip.",
+      "quizTranslate": "Dağcılık gezisi için sportif bir kıyafet giydi.",
+      "translateList": [
+        {
+          "label": "Sporty",
+          "isCorrect": true
+        },
+        {
+          "label": "Fashionable",
+          "isCorrect": false
+        },
+        {
+          "label": "Elegant",
+          "isCorrect": false
+        },
+        {
+          "label": "Classic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stylish",
+      "translate": "Şık, modaya uygun",
+      "quiz": "She always wears .... clothes that make her stand out in the crowd.",
+      "quizTranslate": "O, her zaman kalabalıkta dikkat çeken şık kıyafetler giyer.",
+      "translateList": [
+        {
+          "label": "Stylish",
+          "isCorrect": true
+        },
+        {
+          "label": "Plain",
+          "isCorrect": false
+        },
+        {
+          "label": "Old-fashioned",
+          "isCorrect": false
+        },
+        {
+          "label": "Casual",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Wooly",
+      "translate": "Yünlü",
+      "quiz": "She wore a soft .... sweater to keep warm during the winter.",
+      "quizTranslate": "Kışın sıcak kalmak için yumuşak bir yünlü kazak giydi.",
+      "translateList": [
+        {
+          "label": "Wooly",
+          "isCorrect": true
+        },
+        {
+          "label": "Silk",
+          "isCorrect": false
+        },
+        {
+          "label": "Cotton",
+          "isCorrect": false
+        },
+        {
+          "label": "Linen",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bond",
+      "translate": "Bağ, bağ kurmak",
+      "quiz": "A strong .... was formed between the two friends during their travels.",
+      "quizTranslate": "İki arkadaş arasında seyahatleri sırasında güçlü bir bağ kuruldu.",
+      "translateList": [
+        {
+          "label": "Bond",
+          "isCorrect": true
+        },
+        {
+          "label": "Distance",
+          "isCorrect": false
+        },
+        {
+          "label": "Rift",
+          "isCorrect": false
+        },
+        {
+          "label": "Conflict",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Lineage",
+      "translate": "Soy, soyluluk",
+      "quiz": "His family has a long .... of successful doctors.",
+      "quizTranslate": "Ailesinin uzun bir başarılı doktorlar soyundan gelmektedir.",
+      "translateList": [
+        {
+          "label": "Lineage",
+          "isCorrect": true
+        },
+        {
+          "label": "Background",
+          "isCorrect": false
+        },
+        {
+          "label": "Family",
+          "isCorrect": false
+        },
+        {
+          "label": "Heritage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sibling",
+      "translate": "Kardeş",
+      "quiz": "He has three .... who all live in different countries.",
+      "quizTranslate": "Üç kardeşi var, hepsi farklı ülkelerde yaşıyor.",
+      "translateList": [
+        {
+          "label": "Sibling",
+          "isCorrect": true
+        },
+        {
+          "label": "Cousin",
+          "isCorrect": false
+        },
+        {
+          "label": "Parent",
+          "isCorrect": false
+        },
+        {
+          "label": "Child",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inherit",
+      "translate": "Miras almak",
+      "quiz": "She will .... her grandmother's jewelry after her passing.",
+      "quizTranslate": "Büyükannesinin vefatından sonra onun takılarını miras alacak.",
+      "translateList": [
+        {
+          "label": "Inherit",
+          "isCorrect": true
+        },
+        {
+          "label": "Earn",
+          "isCorrect": false
+        },
+        {
+          "label": "Borrow",
+          "isCorrect": false
+        },
+        {
+          "label": "Buy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Anatomy",
+      "translate": "Anatomi",
+      "quiz": "The study of human .... is crucial for doctors and medical professionals.",
+      "quizTranslate": "İnsan anatomisinin çalışılması, doktorlar ve tıbbi profesyoneller için çok önemlidir.",
+      "translateList": [
+        {
+          "label": "Anatomy",
+          "isCorrect": true
+        },
+        {
+          "label": "Physiology",
+          "isCorrect": false
+        },
+        {
+          "label": "Biology",
+          "isCorrect": false
+        },
+        {
+          "label": "Pathology",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Artery",
+      "translate": "Atardamar",
+      "quiz": "The heart pumps blood through the .... to the rest of the body.",
+      "quizTranslate": "Kalp, kanı atardamarlar aracılığıyla vücudun geri kalanına pompalar.",
+      "translateList": [
+        {
+          "label": "Artery",
+          "isCorrect": true
+        },
+        {
+          "label": "Vein",
+          "isCorrect": false
+        },
+        {
+          "label": "Capillary",
+          "isCorrect": false
+        },
+        {
+          "label": "Nerve",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Blood vessel",
+      "translate": "Kan damarı",
+      "quiz": "The body has a network of .... that transport blood to different organs.",
+      "quizTranslate": "Vücutta, kanı farklı organlara taşıyan bir kan damarı ağı vardır.",
+      "translateList": [
+        {
+          "label": "Blood vessel",
+          "isCorrect": true
+        },
+        {
+          "label": "Nerve",
+          "isCorrect": false
+        },
+        {
+          "label": "Tissue",
+          "isCorrect": false
+        },
+        {
+          "label": "Bone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Scalp",
+      "translate": "Saç derisi",
+      "quiz": "He massaged his .... after a long day to relax.",
+      "quizTranslate": "Uzun bir günün ardından rahatlamak için saç derisini ovuşturdu.",
+      "translateList": [
+        {
+          "label": "Scalp",
+          "isCorrect": true
+        },
+        {
+          "label": "Hair",
+          "isCorrect": false
+        },
+        {
+          "label": "Forehead",
+          "isCorrect": false
+        },
+        {
+          "label": "Neck",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Collarbone",
+      "translate": "Köprücük kemiği",
+      "quiz": "The .... is located just below the neck.",
+      "quizTranslate": "Köprücük kemiği, boynun hemen altındadır.",
+      "translateList": [
+        {
+          "label": "Collarbone",
+          "isCorrect": true
+        },
+        {
+          "label": "Spine",
+          "isCorrect": false
+        },
+        {
+          "label": "Elbow",
+          "isCorrect": false
+        },
+        {
+          "label": "Wrist",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Abdomen",
+      "translate": "Karın",
+      "quiz": "The stomach is located in the .... region of the body.",
+      "quizTranslate": "Mide, vücudun karın bölgesinde bulunur.",
+      "translateList": [
+        {
+          "label": "Abdomen",
+          "isCorrect": true
+        },
+        {
+          "label": "Chest",
+          "isCorrect": false
+        },
+        {
+          "label": "Leg",
+          "isCorrect": false
+        },
+        {
+          "label": "Back",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Digestive",
+      "translate": "Sindirim",
+      "quiz": "The .... system breaks down food into nutrients that the body can absorb.",
+      "quizTranslate": "Sindirim sistemi, yiyecekleri vücudun emebileceği besin maddelerine ayırır.",
+      "translateList": [
+        {
+          "label": "Digestive",
+          "isCorrect": true
+        },
+        {
+          "label": "Respiratory",
+          "isCorrect": false
+        },
+        {
+          "label": "Circulatory",
+          "isCorrect": false
+        },
+        {
+          "label": "Muscular",
           "isCorrect": false
         }
       ]

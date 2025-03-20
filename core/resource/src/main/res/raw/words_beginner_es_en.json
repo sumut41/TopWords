@@ -11599,30 +11599,6 @@
       ]
     },
     {
-      "word": "Feather",
-      "translate": "Pluma",
-      "quiz": "A bird's .... helps it to fly.",
-      "quizTranslate": "La pluma de un pájaro le ayuda a volar.",
-      "translateList": [
-        {
-          "label": "Feather",
-          "isCorrect": true
-        },
-        {
-          "label": "Wing",
-          "isCorrect": false
-        },
-        {
-          "label": "Beak",
-          "isCorrect": false
-        },
-        {
-          "label": "Tail",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Fee",
       "translate": "Tarifa",
       "quiz": "The entrance .... is $10.",
@@ -37995,30 +37971,6 @@
         },
         {
           "label": "Sparrow",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Squirrel",
-      "translate": "Ardilla",
-      "quiz": "The .... collected acorns and stored them for winter.",
-      "quizTranslate": "La ardilla recogió bellotas y las guardó para el invierno.",
-      "translateList": [
-        {
-          "label": "Squirrel",
-          "isCorrect": true
-        },
-        {
-          "label": "Rabbit",
-          "isCorrect": false
-        },
-        {
-          "label": "Mouse",
-          "isCorrect": false
-        },
-        {
-          "label": "Monkey",
           "isCorrect": false
         }
       ]
