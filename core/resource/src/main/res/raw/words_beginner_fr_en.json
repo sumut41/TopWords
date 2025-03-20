@@ -38906,6 +38906,246 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Calendar",
+      "translate": "Calendrier",
+      "quiz": "You can check the date on the .... in your phone.",
+      "quizTranslate": "Tu peux vérifier la date sur le calendrier de ton téléphone.",
+      "translateList": [
+        {
+          "label": "Calendar",
+          "isCorrect": true
+        },
+        {
+          "label": "Clock",
+          "isCorrect": false
+        },
+        {
+          "label": "Diary",
+          "isCorrect": false
+        },
+        {
+          "label": "Schedule",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Bookstore",
+      "translate": "Librairie",
+      "quiz": "I bought a novel from the local .... yesterday.",
+      "quizTranslate": "J'ai acheté un roman dans la librairie locale hier.",
+      "translateList": [
+        {
+          "label": "Bookstore",
+          "isCorrect": true
+        },
+        {
+          "label": "Library",
+          "isCorrect": false
+        },
+        {
+          "label": "Market",
+          "isCorrect": false
+        },
+        {
+          "label": "Stationery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Puzzle",
+      "translate": "Puzzle, énigme",
+      "quiz": "She loves doing a crossword .... in the morning.",
+      "quizTranslate": "Elle adore faire un mot croisé le matin.",
+      "translateList": [
+        {
+          "label": "Puzzle",
+          "isCorrect": true
+        },
+        {
+          "label": "Game",
+          "isCorrect": false
+        },
+        {
+          "label": "Quiz",
+          "isCorrect": false
+        },
+        {
+          "label": "Challenge",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Octopus",
+      "translate": "Poulpe",
+      "quiz": "The .... is known for having eight tentacles.",
+      "quizTranslate": "Le poulpe est connu pour avoir huit tentacules.",
+      "translateList": [
+        {
+          "label": "Octopus",
+          "isCorrect": true
+        },
+        {
+          "label": "Squid",
+          "isCorrect": false
+        },
+        {
+          "label": "Fish",
+          "isCorrect": false
+        },
+        {
+          "label": "Crab",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Waitress",
+      "translate": "Serveuse",
+      "quiz": "The .... served us our drinks with a smile.",
+      "quizTranslate": "La serveuse nous a servi nos boissons avec un sourire.",
+      "translateList": [
+        {
+          "label": "Waitress",
+          "isCorrect": true
+        },
+        {
+          "label": "Cook",
+          "isCorrect": false
+        },
+        {
+          "label": "Bartender",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Trainers",
+      "translate": "Baskets",
+      "quiz": "I bought a new pair of .... for running.",
+      "quizTranslate": "J'ai acheté une nouvelle paire de baskets pour courir.",
+      "translateList": [
+        {
+          "label": "Trainers",
+          "isCorrect": true
+        },
+        {
+          "label": "Boots",
+          "isCorrect": false
+        },
+        {
+          "label": "Slippers",
+          "isCorrect": false
+        },
+        {
+          "label": "Sandals",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Toothpaste",
+      "translate": "Dentifrice",
+      "quiz": "Don't forget to put .... on your toothbrush before brushing your teeth.",
+      "quizTranslate": "N'oublie pas de mettre du dentifrice sur ta brosse à dents avant de te brosser les dents.",
+      "translateList": [
+        {
+          "label": "Toothpaste",
+          "isCorrect": true
+        },
+        {
+          "label": "Shampoo",
+          "isCorrect": false
+        },
+        {
+          "label": "Soap",
+          "isCorrect": false
+        },
+        {
+          "label": "Lotion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Toothbrush",
+      "translate": "Brosse à dents",
+      "quiz": "Make sure to change your .... regularly.",
+      "quizTranslate": "Assure-toi de changer ta brosse à dents régulièrement.",
+      "translateList": [
+        {
+          "label": "Toothbrush",
+          "isCorrect": true
+        },
+        {
+          "label": "Comb",
+          "isCorrect": false
+        },
+        {
+          "label": "Razor",
+          "isCorrect": false
+        },
+        {
+          "label": "Scissors",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ring",
+      "translate": "Bague",
+      "quiz": "She wore a beautiful diamond .... on her finger.",
+      "quizTranslate": "Elle portait une belle bague en diamant à son doigt.",
+      "translateList": [
+        {
+          "label": "Ring",
+          "isCorrect": true
+        },
+        {
+          "label": "Necklace",
+          "isCorrect": false
+        },
+        {
+          "label": "Bracelet",
+          "isCorrect": false
+        },
+        {
+          "label": "Earring",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Restroom",
+      "translate": "Toilettes",
+      "quiz": "The .... is located on the right side of the hallway.",
+      "quizTranslate": "Les toilettes sont situées sur le côté droit du couloir.",
+      "translateList": [
+        {
+          "label": "Restroom",
+          "isCorrect": true
+        },
+        {
+          "label": "Bathroom",
+          "isCorrect": false
+        },
+        {
+          "label": "Kitchen",
+          "isCorrect": false
+        },
+        {
+          "label": "Shower",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

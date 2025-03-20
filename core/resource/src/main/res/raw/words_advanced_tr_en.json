@@ -14497,30 +14497,6 @@
       ]
     },
     {
-      "word": "Just",
-      "translate": "Adil",
-      "quiz": "The judge made a .... decision based on the evidence presented in court.",
-      "quizTranslate": "Hakim, mahkemede sunulan delillere dayanarak adil bir karar verdi.",
-      "translateList": [
-        {
-          "label": "Just",
-          "isCorrect": true
-        },
-        {
-          "label": "Unjust",
-          "isCorrect": false
-        },
-        {
-          "label": "Partial",
-          "isCorrect": false
-        },
-        {
-          "label": "Unfair",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Justification",
       "translate": "Gerekçe",
       "quiz": "The defendant's lawyer provided a strong .... for his client's actions.",
@@ -15956,30 +15932,6 @@
         },
         {
           "label": "Document",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "March",
-      "translate": "Mart",
-      "quiz": "The protest took place in ...., when the weather was starting to warm up.",
-      "quizTranslate": "Protesto, havaların ısınmaya başladığı mart ayında gerçekleşti.",
-      "translateList": [
-        {
-          "label": "March",
-          "isCorrect": true
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        },
-        {
-          "label": "February",
-          "isCorrect": false
-        },
-        {
-          "label": "May",
           "isCorrect": false
         }
       ]
@@ -21169,30 +21121,6 @@
       ]
     },
     {
-      "word": "Rape",
-      "translate": "Tecavüz",
-      "quiz": "The law firm is representing the victim in a high-profile .... case.",
-      "quizTranslate": "Hukuk firması, yüksek profilli tecavüz davasında mağduru temsil ediyor.",
-      "translateList": [
-        {
-          "label": "Rape",
-          "isCorrect": true
-        },
-        {
-          "label": "Assault",
-          "isCorrect": false
-        },
-        {
-          "label": "Harassment",
-          "isCorrect": false
-        },
-        {
-          "label": "Attack",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Ratio",
       "translate": "Oran",
       "quiz": "The .... of students to teachers in this school is 20 to 1.",
@@ -24409,30 +24337,6 @@
       ]
     },
     {
-      "word": "Sound",
-      "translate": "Ses",
-      "quiz": "The .... of the waves was soothing.",
-      "quizTranslate": "Dalgaların sesi rahatlatıcıydı.",
-      "translateList": [
-        {
-          "label": "Sound",
-          "isCorrect": true
-        },
-        {
-          "label": "Noise",
-          "isCorrect": false
-        },
-        {
-          "label": "Tone",
-          "isCorrect": false
-        },
-        {
-          "label": "Echo",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Sovereignty",
       "translate": "Egemenlik",
       "quiz": "The country asserted its .... over the disputed territory.",
@@ -24668,30 +24572,6 @@
         },
         {
           "label": "Variety",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Spell",
-      "translate": "Hecelemek",
-      "quiz": "Can you .... your name for me?",
-      "quizTranslate": "Adınızı benim için heceleyebilir misiniz?",
-      "translateList": [
-        {
-          "label": "Spell",
-          "isCorrect": true
-        },
-        {
-          "label": "Write",
-          "isCorrect": false
-        },
-        {
-          "label": "Say",
-          "isCorrect": false
-        },
-        {
-          "label": "Pronounce",
           "isCorrect": false
         }
       ]
@@ -30025,54 +29905,6 @@
       ]
     },
     {
-      "word": "Leak",
-      "translate": "Sızıntı; sızdırmak",
-      "quiz": "There was a water .... from the broken pipe.",
-      "quizTranslate": "Kırık borudan su sızıntısı vardı.",
-      "translateList": [
-        {
-          "label": "Leak",
-          "isCorrect": true
-        },
-        {
-          "label": "Flow",
-          "isCorrect": false
-        },
-        {
-          "label": "Flood",
-          "isCorrect": false
-        },
-        {
-          "label": "Surge",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "Leap",
-      "translate": "Sıçramak, sıçrama",
-      "quiz": "The cat made a huge .... from the table to the chair.",
-      "quizTranslate": "Kedinin, masadan sandalyeye yaptığı büyük sıçrama.",
-      "translateList": [
-        {
-          "label": "Leap",
-          "isCorrect": true
-        },
-        {
-          "label": "Jump",
-          "isCorrect": false
-        },
-        {
-          "label": "Fall",
-          "isCorrect": false
-        },
-        {
-          "label": "Climb",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Liberty",
       "translate": "Özgürlük",
       "quiz": "The country is known for its strong commitment to ....",
@@ -35084,6 +34916,678 @@
         },
         {
           "label": "Clothing",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Asset",
+      "translate": "Varlık, değerli şey",
+      "quiz": "His experience in marketing is a valuable .... to the team’s success.",
+      "quizTranslate": "Pazarlama konusundaki deneyimi, takımın başarısı için değerli bir varlıktır.",
+      "translateList": [
+        {
+          "label": "Asset",
+          "isCorrect": true
+        },
+        {
+          "label": "Liability",
+          "isCorrect": false
+        },
+        {
+          "label": "Burden",
+          "isCorrect": false
+        },
+        {
+          "label": "Expense",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Framework",
+      "translate": "Çerçeve, yapı",
+      "quiz": "The company is developing a new .... for project management to improve efficiency.",
+      "quizTranslate": "Şirket, verimliliği artırmak için proje yönetimi için yeni bir yapı geliştiriyor.",
+      "translateList": [
+        {
+          "label": "Framework",
+          "isCorrect": true
+        },
+        {
+          "label": "System",
+          "isCorrect": false
+        },
+        {
+          "label": "Tool",
+          "isCorrect": false
+        },
+        {
+          "label": "Plan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Imperative",
+      "translate": "Zorunlu, emir kipi",
+      "quiz": "It is .... to complete the report by the end of the week.",
+      "quizTranslate": "Raporu haftanın sonuna kadar tamamlamak zorunludur.",
+      "translateList": [
+        {
+          "label": "Imperative",
+          "isCorrect": true
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        },
+        {
+          "label": "Voluntary",
+          "isCorrect": false
+        },
+        {
+          "label": "Conditional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Implement",
+      "translate": "Uygulamak",
+      "quiz": "The company plans to .... a new software system next month.",
+      "quizTranslate": "Şirket, gelecek ay yeni bir yazılım sistemi uygulamayı planlıyor.",
+      "translateList": [
+        {
+          "label": "Implement",
+          "isCorrect": true
+        },
+        {
+          "label": "Cancel",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Postpone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Stimulate",
+      "translate": "Teşvik etmek, uyandırmak",
+      "quiz": "The government's new policies aim to .... economic growth.",
+      "quizTranslate": "Hükümetin yeni politikaları ekonomik büyümeyi teşvik etmeyi amaçlıyor.",
+      "translateList": [
+        {
+          "label": "Stimulate",
+          "isCorrect": true
+        },
+        {
+          "label": "Restrict",
+          "isCorrect": false
+        },
+        {
+          "label": "Delay",
+          "isCorrect": false
+        },
+        {
+          "label": "Discourage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Sequence",
+      "translate": "Sıra, dizilim",
+      "quiz": "The steps in the procedure must be followed in the correct ....",
+      "quizTranslate": "Prosedürdeki adımlar doğru sırayla takip edilmelidir.",
+      "translateList": [
+        {
+          "label": "Sequence",
+          "isCorrect": true
+        },
+        {
+          "label": "Order",
+          "isCorrect": false
+        },
+        {
+          "label": "Choice",
+          "isCorrect": false
+        },
+        {
+          "label": "List",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Savage",
+      "translate": "Vahşi, yırtıcı",
+      "quiz": "The .... animal attacked anyone who came too close.",
+      "quizTranslate": "Vahşi hayvan, fazla yaklaşan herkesi saldırdı.",
+      "translateList": [
+        {
+          "label": "Savage",
+          "isCorrect": true
+        },
+        {
+          "label": "Friendly",
+          "isCorrect": false
+        },
+        {
+          "label": "Timid",
+          "isCorrect": false
+        },
+        {
+          "label": "Gentle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Undertake",
+      "translate": "Üstlenmek, başlamak",
+      "quiz": "The company has decided to .... a large-scale project to expand its operations.",
+      "quizTranslate": "Şirket, operasyonlarını genişletmek için büyük ölçekli bir projeyi üstlenmeye karar verdi.",
+      "translateList": [
+        {
+          "label": "Undertake",
+          "isCorrect": true
+        },
+        {
+          "label": "Reject",
+          "isCorrect": false
+        },
+        {
+          "label": "Delay",
+          "isCorrect": false
+        },
+        {
+          "label": "Cancel",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Autonomy",
+      "translate": "Özerklik, bağımsızlık",
+      "quiz": "The country gained its .... after years of foreign rule.",
+      "quizTranslate": "Ülke, yıllarca süren yabancı egemenliğin ardından özerkliğini kazandı.",
+      "translateList": [
+        {
+          "label": "Autonomy",
+          "isCorrect": true
+        },
+        {
+          "label": "Independence",
+          "isCorrect": false
+        },
+        {
+          "label": "Control",
+          "isCorrect": false
+        },
+        {
+          "label": "Freedom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Authorize",
+      "translate": "Yetki vermek",
+      "quiz": "Only the manager can .... employees to access the secure system.",
+      "quizTranslate": "Yalnızca yönetici, çalışanların güvenli sisteme erişim izni verebilir.",
+      "translateList": [
+        {
+          "label": "Authorize",
+          "isCorrect": true
+        },
+        {
+          "label": "Command",
+          "isCorrect": false
+        },
+        {
+          "label": "Deny",
+          "isCorrect": false
+        },
+        {
+          "label": "Allow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Attribute",
+      "translate": "Nitelik, özellik",
+      "quiz": "She is known for her positive .... and strong leadership skills.",
+      "quizTranslate": "Pozitif nitelikleri ve güçlü liderlik becerileri ile tanınır.",
+      "translateList": [
+        {
+          "label": "Attribute",
+          "isCorrect": true
+        },
+        {
+          "label": "Trait",
+          "isCorrect": false
+        },
+        {
+          "label": "Appearance",
+          "isCorrect": false
+        },
+        {
+          "label": "Skill",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Attendance",
+      "translate": "Devam, katılım",
+      "quiz": "The teacher took note of everyone's .... at the meeting.",
+      "quizTranslate": "Öğretmen, toplantıya herkesin katılımını not aldı.",
+      "translateList": [
+        {
+          "label": "Attendance",
+          "isCorrect": true
+        },
+        {
+          "label": "Absence",
+          "isCorrect": false
+        },
+        {
+          "label": "Interest",
+          "isCorrect": false
+        },
+        {
+          "label": "Response",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Attain",
+      "translate": "Elde etmek, ulaşmak",
+      "quiz": "He worked hard to .... his career goals.",
+      "quizTranslate": "Kariyer hedeflerine ulaşmak için çok çalıştı.",
+      "translateList": [
+        {
+          "label": "Attain",
+          "isCorrect": true
+        },
+        {
+          "label": "Achieve",
+          "isCorrect": false
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Obtain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Asylum",
+      "translate": "Sığınma",
+      "quiz": "The refugee was granted .... in the new country.",
+      "quizTranslate": "Mülteci, yeni ülkede sığınma hakkı kazandı.",
+      "translateList": [
+        {
+          "label": "Asylum",
+          "isCorrect": true
+        },
+        {
+          "label": "Protection",
+          "isCorrect": false
+        },
+        {
+          "label": "Security",
+          "isCorrect": false
+        },
+        {
+          "label": "Citizenship",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Aspire",
+      "translate": "Hedeflemek, arzulamak",
+      "quiz": "She .... to become a successful entrepreneur in the future.",
+      "quizTranslate": "Gelecekte başarılı bir girişimci olmayı hedefliyor.",
+      "translateList": [
+        {
+          "label": "Aspire",
+          "isCorrect": true
+        },
+        {
+          "label": "Desire",
+          "isCorrect": false
+        },
+        {
+          "label": "Achieve",
+          "isCorrect": false
+        },
+        {
+          "label": "Try",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Ash",
+      "translate": "Kül",
+      "quiz": "The campfire left a pile of .... on the ground.",
+      "quizTranslate": "Kampta ateş, yerde bir yığın kül bıraktı.",
+      "translateList": [
+        {
+          "label": "Ash",
+          "isCorrect": true
+        },
+        {
+          "label": "Smoke",
+          "isCorrect": false
+        },
+        {
+          "label": "Wood",
+          "isCorrect": false
+        },
+        {
+          "label": "Charcoal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Archive",
+      "translate": "Arşivlemek, arşiv",
+      "quiz": "The documents were carefully .... for future reference.",
+      "quizTranslate": "Belgeler, gelecekte referans için dikkatlice arşivlendi.",
+      "translateList": [
+        {
+          "label": "Archive",
+          "isCorrect": true
+        },
+        {
+          "label": "Delete",
+          "isCorrect": false
+        },
+        {
+          "label": "Store",
+          "isCorrect": false
+        },
+        {
+          "label": "Send",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Applicable",
+      "translate": "Geçerli, uygulanabilir",
+      "quiz": "The new rules are only .... to employees who work full-time.",
+      "quizTranslate": "Yeni kurallar yalnızca tam zamanlı çalışanlara uygulanabilir.",
+      "translateList": [
+        {
+          "label": "Applicable",
+          "isCorrect": true
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        },
+        {
+          "label": "Flexible",
+          "isCorrect": false
+        },
+        {
+          "label": "Optional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Appetite",
+      "translate": "İştah, arzu",
+      "quiz": "He lost his .... after feeling sick for several days.",
+      "quizTranslate": "Birkaç gün boyunca hasta olduktan sonra iştahını kaybetti.",
+      "translateList": [
+        {
+          "label": "Appetite",
+          "isCorrect": true
+        },
+        {
+          "label": "Mood",
+          "isCorrect": false
+        },
+        {
+          "label": "Taste",
+          "isCorrect": false
+        },
+        {
+          "label": "Desire",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Anonymous",
+      "translate": "Anonim",
+      "quiz": "The donation was made by an .... benefactor.",
+      "quizTranslate": "Bağış, anonim bir hayırsever tarafından yapıldı.",
+      "translateList": [
+        {
+          "label": "Anonymous",
+          "isCorrect": true
+        },
+        {
+          "label": "Famous",
+          "isCorrect": false
+        },
+        {
+          "label": "Known",
+          "isCorrect": false
+        },
+        {
+          "label": "Honored",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Angel",
+      "translate": "Melek, yardımsever kişi",
+      "quiz": "She is an .... for children in need, always helping with charity work.",
+      "quizTranslate": "O, yardıma muhtaç çocuklar için bir melek, her zaman hayır işlerinde yardımcı olur.",
+      "translateList": [
+        {
+          "label": "Angel",
+          "isCorrect": true
+        },
+        {
+          "label": "Devil",
+          "isCorrect": false
+        },
+        {
+          "label": "Savior",
+          "isCorrect": false
+        },
+        {
+          "label": "Protector",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Availability",
+      "translate": "Mevcudiyet, kullanılabilirlik",
+      "quiz": "The .... of the product in the store is limited.",
+      "quizTranslate": "Ürünün mağazada mevcudiyeti sınırlıdır.",
+      "translateList": [
+        {
+          "label": "Availability",
+          "isCorrect": true
+        },
+        {
+          "label": "Demand",
+          "isCorrect": false
+        },
+        {
+          "label": "Popularity",
+          "isCorrect": false
+        },
+        {
+          "label": "Stock",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Authentic",
+      "translate": "Gerçek, özgün",
+      "quiz": "The museum exhibits .... artifacts from ancient civilizations.",
+      "quizTranslate": "Müze, eski uygarlıklardan gerçek eserler sergiliyor.",
+      "translateList": [
+        {
+          "label": "Authentic",
+          "isCorrect": true
+        },
+        {
+          "label": "Fake",
+          "isCorrect": false
+        },
+        {
+          "label": "Modern",
+          "isCorrect": false
+        },
+        {
+          "label": "Valuable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Suffix",
+      "translate": "Ek, son ek",
+      "quiz": "In English, the word 'happiness' has the .... '-ness' attached to it.",
+      "quizTranslate": "İngilizcede, 'happiness' kelimesinin sonuna '-ness' eki eklenmiştir.",
+      "translateList": [
+        {
+          "label": "Suffix",
+          "isCorrect": true
+        },
+        {
+          "label": "Prefix",
+          "isCorrect": false
+        },
+        {
+          "label": "Root",
+          "isCorrect": false
+        },
+        {
+          "label": "Base",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Prefix",
+      "translate": "Önek",
+      "quiz": "The word 'unhappy' contains the .... 'un-' that means 'not'.",
+      "quizTranslate": "'Unhappy' kelimesinde, 'not' anlamına gelen 'un-' öneki vardır.",
+      "translateList": [
+        {
+          "label": "Prefix",
+          "isCorrect": true
+        },
+        {
+          "label": "Suffix",
+          "isCorrect": false
+        },
+        {
+          "label": "Root",
+          "isCorrect": false
+        },
+        {
+          "label": "Infix",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Incentive",
+      "translate": "Teşvik, ödüllendirme",
+      "quiz": "The company offers a financial .... to motivate employees to meet their targets.",
+      "quizTranslate": "Şirket, çalışanların hedeflerine ulaşmalarını sağlamak için finansal teşvikler sunuyor.",
+      "translateList": [
+        {
+          "label": "Incentive",
+          "isCorrect": true
+        },
+        {
+          "label": "Penalty",
+          "isCorrect": false
+        },
+        {
+          "label": "Fine",
+          "isCorrect": false
+        },
+        {
+          "label": "Warning",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Cautious",
+      "translate": "Dikkatli, temkinli",
+      "quiz": "He was .... about making any major decisions without consulting his team first.",
+      "quizTranslate": "Ekip üyelerine danışmadan büyük kararlar almaya temkinliydi.",
+      "translateList": [
+        {
+          "label": "Cautious",
+          "isCorrect": true
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        },
+        {
+          "label": "Reckless",
+          "isCorrect": false
+        },
+        {
+          "label": "Impulsive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pernicious",
+      "translate": "Zararlı, kötü etkileyen",
+      "quiz": "The .... effects of smoking are well documented and widely known.",
+      "quizTranslate": "Sigaranın zararlı etkileri iyi belgelenmiş ve yaygın olarak bilinmektedir.",
+      "translateList": [
+        {
+          "label": "Pernicious",
+          "isCorrect": true
+        },
+        {
+          "label": "Beneficial",
+          "isCorrect": false
+        },
+        {
+          "label": "Helpful",
+          "isCorrect": false
+        },
+        {
+          "label": "Mild",
           "isCorrect": false
         }
       ]
