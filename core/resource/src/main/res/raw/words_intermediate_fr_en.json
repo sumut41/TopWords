@@ -40224,6 +40224,198 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Diversity",
+      "translate": "Diversité",
+      "quiz": "The company's success is largely attributed to its cultural ....",
+      "quizTranslate": "Le succès de l'entreprise est largement attribué à sa diversité culturelle.",
+      "translateList": [
+        {
+          "label": "Diversity",
+          "isCorrect": true
+        },
+        {
+          "label": "Uniformity",
+          "isCorrect": false
+        },
+        {
+          "label": "Simplicity",
+          "isCorrect": false
+        },
+        {
+          "label": "Similarity",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spoiled",
+      "translate": "Gâté",
+      "quiz": "The child became .... after receiving too many toys for his birthday.",
+      "quizTranslate": "L'enfant est devenu gâté après avoir reçu trop de jouets pour son anniversaire.",
+      "translateList": [
+        {
+          "label": "Spoiled",
+          "isCorrect": true
+        },
+        {
+          "label": "Well-behaved",
+          "isCorrect": false
+        },
+        {
+          "label": "Modest",
+          "isCorrect": false
+        },
+        {
+          "label": "Independent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Invincible",
+      "translate": "Invincible",
+      "quiz": "The hero felt .... after his recent victory.",
+      "quizTranslate": "Le héros se sentait invincible après sa récente victoire.",
+      "translateList": [
+        {
+          "label": "Invincible",
+          "isCorrect": true
+        },
+        {
+          "label": "Vulnerable",
+          "isCorrect": false
+        },
+        {
+          "label": "Defeated",
+          "isCorrect": false
+        },
+        {
+          "label": "Weak",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Conscience",
+      "translate": "Conscience",
+      "quiz": "He couldn't live with the guilt, as his .... told him it was wrong.",
+      "quizTranslate": "Il ne pouvait pas vivre avec la culpabilité, car sa conscience lui disait que c'était mal.",
+      "translateList": [
+        {
+          "label": "Conscience",
+          "isCorrect": true
+        },
+        {
+          "label": "Morality",
+          "isCorrect": false
+        },
+        {
+          "label": "Mind",
+          "isCorrect": false
+        },
+        {
+          "label": "Emotion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pet peeve",
+      "translate": "Bête noire",
+      "quiz": "One of my biggest .... is people who chew loudly.",
+      "quizTranslate": "L'une de mes plus grandes bêtes noires est les gens qui mâchent bruyamment.",
+      "translateList": [
+        {
+          "label": "Pet peeve",
+          "isCorrect": true
+        },
+        {
+          "label": "Hobby",
+          "isCorrect": false
+        },
+        {
+          "label": "Interest",
+          "isCorrect": false
+        },
+        {
+          "label": "Passion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mishap",
+      "translate": "Mésaventure",
+      "quiz": "The event was a complete .... due to the unexpected rain.",
+      "quizTranslate": "L'événement a été une véritable mésaventure à cause de la pluie inattendue.",
+      "translateList": [
+        {
+          "label": "Mishap",
+          "isCorrect": true
+        },
+        {
+          "label": "Success",
+          "isCorrect": false
+        },
+        {
+          "label": "Advantage",
+          "isCorrect": false
+        },
+        {
+          "label": "Benefit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jinx",
+      "translate": "Malédiction, poisse",
+      "quiz": "He thought he had a .... after several bad things happened in a row.",
+      "quizTranslate": "Il pensait être maudit après que plusieurs mauvaises choses se soient produites d'affilée.",
+      "translateList": [
+        {
+          "label": "Jinx",
+          "isCorrect": true
+        },
+        {
+          "label": "Luck",
+          "isCorrect": false
+        },
+        {
+          "label": "Blessing",
+          "isCorrect": false
+        },
+        {
+          "label": "Charm",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Spectator",
+      "translate": "Spectateur",
+      "quiz": "The .... cheered loudly during the match.",
+      "quizTranslate": "Les spectateurs ont applaudi bruyamment pendant le match.",
+      "translateList": [
+        {
+          "label": "Spectator",
+          "isCorrect": true
+        },
+        {
+          "label": "Player",
+          "isCorrect": false
+        },
+        {
+          "label": "Coach",
+          "isCorrect": false
+        },
+        {
+          "label": "Referee",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
