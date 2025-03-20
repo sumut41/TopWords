@@ -39174,6 +39174,150 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "January",
+      "translate": "Enero",
+      "quiz": "My birthday is in ....",
+      "quizTranslate": "Mi cumpleaños es en enero.",
+      "translateList": [
+        {
+          "label": "January",
+          "isCorrect": true
+        },
+        {
+          "label": "February",
+          "isCorrect": false
+        },
+        {
+          "label": "March",
+          "isCorrect": false
+        },
+        {
+          "label": "April",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "February",
+      "translate": "Febrero",
+      "quiz": "My birthday is in ....",
+      "quizTranslate": "Mi cumpleaños es en febrero.",
+      "translateList": [
+        {
+          "label": "February",
+          "isCorrect": true
+        },
+        {
+          "label": "January",
+          "isCorrect": false
+        },
+        {
+          "label": "March",
+          "isCorrect": false
+        },
+        {
+          "label": "April",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "June",
+      "translate": "Junio",
+      "quiz": "The event is scheduled for ....",
+      "quizTranslate": "El evento está programado para junio.",
+      "translateList": [
+        {
+          "label": "June",
+          "isCorrect": true
+        },
+        {
+          "label": "May",
+          "isCorrect": false
+        },
+        {
+          "label": "July",
+          "isCorrect": false
+        },
+        {
+          "label": "August",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "July",
+      "translate": "Julio",
+      "quiz": "We are going on vacation in ....",
+      "quizTranslate": "Nos vamos de vacaciones en julio.",
+      "translateList": [
+        {
+          "label": "July",
+          "isCorrect": true
+        },
+        {
+          "label": "August",
+          "isCorrect": false
+        },
+        {
+          "label": "June",
+          "isCorrect": false
+        },
+        {
+          "label": "September",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "October",
+      "translate": "Octubre",
+      "quiz": "My birthday is in ....",
+      "quizTranslate": "Mi cumpleaños es en octubre.",
+      "translateList": [
+        {
+          "label": "October",
+          "isCorrect": true
+        },
+        {
+          "label": "September",
+          "isCorrect": false
+        },
+        {
+          "label": "November",
+          "isCorrect": false
+        },
+        {
+          "label": "December",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "November",
+      "translate": "Noviembre",
+      "quiz": "My birthday is in ....",
+      "quizTranslate": "Mi cumpleaños es en noviembre.",
+      "translateList": [
+        {
+          "label": "November",
+          "isCorrect": true
+        },
+        {
+          "label": "October",
+          "isCorrect": false
+        },
+        {
+          "label": "December",
+          "isCorrect": false
+        },
+        {
+          "label": "September",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

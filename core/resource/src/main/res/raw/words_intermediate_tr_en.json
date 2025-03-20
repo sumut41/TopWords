@@ -2401,30 +2401,6 @@
       ]
     },
     {
-      "word": "August",
-      "translate": "Ağustos",
-      "quiz": "They are planning the trip for ....",
-      "quizTranslate": "Seyahati Ağustos için planlıyorlar.",
-      "translateList": [
-        {
-          "label": "August",
-          "isCorrect": true
-        },
-        {
-          "label": "July",
-          "isCorrect": false
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        },
-        {
-          "label": "October",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Author",
       "translate": "Yazar",
       "quiz": "The .... of the book is very famous.",
@@ -14017,30 +13993,6 @@
       ]
     },
     {
-      "word": "February",
-      "translate": "Şubat",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Benim doğum günüm Şubat'ta.",
-      "translateList": [
-        {
-          "label": "February",
-          "isCorrect": true
-        },
-        {
-          "label": "January",
-          "isCorrect": false
-        },
-        {
-          "label": "March",
-          "isCorrect": false
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Federal",
       "translate": "Federal",
       "quiz": "He works for a .... agency.",
@@ -19321,30 +19273,6 @@
       ]
     },
     {
-      "word": "January",
-      "translate": "Ocak",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Doğum günüm Ocak'ta.",
-      "translateList": [
-        {
-          "label": "January",
-          "isCorrect": true
-        },
-        {
-          "label": "February",
-          "isCorrect": false
-        },
-        {
-          "label": "March",
-          "isCorrect": false
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Jealous",
       "translate": "Kıskanmak",
       "quiz": "She was .... of her sister's success.",
@@ -19508,54 +19436,6 @@
         },
         {
           "label": "Statement",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "July",
-      "translate": "Temmuz",
-      "quiz": "We are going on vacation in ....",
-      "quizTranslate": "Temmuz ayında tatile gidiyoruz.",
-      "translateList": [
-        {
-          "label": "July",
-          "isCorrect": true
-        },
-        {
-          "label": "August",
-          "isCorrect": false
-        },
-        {
-          "label": "June",
-          "isCorrect": false
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "June",
-      "translate": "Haziran",
-      "quiz": "The event is scheduled for ....",
-      "quizTranslate": "Etkinlik Haziran'a planlandı.",
-      "translateList": [
-        {
-          "label": "June",
-          "isCorrect": true
-        },
-        {
-          "label": "May",
-          "isCorrect": false
-        },
-        {
-          "label": "July",
-          "isCorrect": false
-        },
-        {
-          "label": "August",
           "isCorrect": false
         }
       ]
@@ -23809,30 +23689,6 @@
       ]
     },
     {
-      "word": "November",
-      "translate": "Kasım",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Doğum günüm Kasım'da.",
-      "translateList": [
-        {
-          "label": "November",
-          "isCorrect": true
-        },
-        {
-          "label": "October",
-          "isCorrect": false
-        },
-        {
-          "label": "December",
-          "isCorrect": false
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Nor",
       "translate": "Ne de",
       "quiz": "He can .... speak English, nor French.",
@@ -23948,30 +23804,6 @@
         },
         {
           "label": "Visit",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "October",
-      "translate": "Ekim",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Doğum günüm Ekim'de.",
-      "translateList": [
-        {
-          "label": "October",
-          "isCorrect": true
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        },
-        {
-          "label": "November",
-          "isCorrect": false
-        },
-        {
-          "label": "December",
           "isCorrect": false
         }
       ]

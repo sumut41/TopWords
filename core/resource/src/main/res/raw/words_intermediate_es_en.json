@@ -2401,30 +2401,6 @@
       ]
     },
     {
-      "word": "August",
-      "translate": "Agosto",
-      "quiz": "They are planning the trip for ....",
-      "quizTranslate": "Están planeando el viaje para agosto.",
-      "translateList": [
-        {
-          "label": "August",
-          "isCorrect": true
-        },
-        {
-          "label": "July",
-          "isCorrect": false
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        },
-        {
-          "label": "October",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Author",
       "translate": "Autor",
       "quiz": "The .... of the book is very famous.",
@@ -14017,30 +13993,6 @@
       ]
     },
     {
-      "word": "February",
-      "translate": "Febrero",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Mi cumpleaños es en febrero.",
-      "translateList": [
-        {
-          "label": "February",
-          "isCorrect": true
-        },
-        {
-          "label": "January",
-          "isCorrect": false
-        },
-        {
-          "label": "March",
-          "isCorrect": false
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Federal",
       "translate": "Federal",
       "quiz": "He works for a .... agency.",
@@ -19273,30 +19225,6 @@
       ]
     },
     {
-      "word": "January",
-      "translate": "Enero",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Mi cumpleaños es en enero.",
-      "translateList": [
-        {
-          "label": "January",
-          "isCorrect": true
-        },
-        {
-          "label": "February",
-          "isCorrect": false
-        },
-        {
-          "label": "March",
-          "isCorrect": false
-        },
-        {
-          "label": "April",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Jealous",
       "translate": "Celoso",
       "quiz": "She was .... of her sister's success.",
@@ -19460,54 +19388,6 @@
         },
         {
           "label": "Statement",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "July",
-      "translate": "Julio",
-      "quiz": "We are going on vacation in ....",
-      "quizTranslate": "Nos vamos de vacaciones en julio.",
-      "translateList": [
-        {
-          "label": "July",
-          "isCorrect": true
-        },
-        {
-          "label": "August",
-          "isCorrect": false
-        },
-        {
-          "label": "June",
-          "isCorrect": false
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "word": "June",
-      "translate": "Junio",
-      "quiz": "The event is scheduled for ....",
-      "quizTranslate": "El evento está programado para junio.",
-      "translateList": [
-        {
-          "label": "June",
-          "isCorrect": true
-        },
-        {
-          "label": "May",
-          "isCorrect": false
-        },
-        {
-          "label": "July",
-          "isCorrect": false
-        },
-        {
-          "label": "August",
           "isCorrect": false
         }
       ]
@@ -23761,30 +23641,6 @@
       ]
     },
     {
-      "word": "November",
-      "translate": "Noviembre",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Mi cumpleaños es en noviembre.",
-      "translateList": [
-        {
-          "label": "November",
-          "isCorrect": true
-        },
-        {
-          "label": "October",
-          "isCorrect": false
-        },
-        {
-          "label": "December",
-          "isCorrect": false
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Nor",
       "translate": "Ni",
       "quiz": "He can .... speak English, nor French.",
@@ -23905,34 +23761,10 @@
       ]
     },
     {
-      "word": "October",
-      "translate": "Ekim",
-      "quiz": "My birthday is in ....",
-      "quizTranslate": "Doğum günüm Ekim'de.",
-      "translateList": [
-        {
-          "label": "October",
-          "isCorrect": true
-        },
-        {
-          "label": "September",
-          "isCorrect": false
-        },
-        {
-          "label": "November",
-          "isCorrect": false
-        },
-        {
-          "label": "December",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
       "word": "Offence",
-      "translate": "Suç",
+      "translate": "Delito",
       "quiz": "He committed an ....",
-      "quizTranslate": "O bir suç işledi.",
+      "quizTranslate": "Él cometió un delito.",
       "translateList": [
         {
           "label": "Offence",
