@@ -1,9 +1,8 @@
 package com.skyvo.mobile.core.uikit.compose.card
 
 import android.annotation.SuppressLint
-import androidx.compose.animation.core.*
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -11,14 +10,11 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.skyvo.mobile.core.uikit.R
@@ -100,7 +96,6 @@ fun FlashcardStack(
                 Flashcard(
                     item = cardStack[1],
                     modifier = Modifier.scale(0.95f),
-                    cardType = 0,
                     backgroundColor = LocalAppColor.current.colorFlashCardBackground,
                     isFavorite = favoriteStates[cardStack[1].id] ?: false,
                     onFavoriteClick = { itemId, isFavorite ->
@@ -117,11 +112,10 @@ fun FlashcardStack(
             Flashcard(
                 item = currentCard,
                 modifier = Modifier.offset(x = offsetX.value.dp),
-                cardType = cardType,
                 backgroundColor = when (cardType) {
                     0 -> LocalAppColor.current.colorFlashCardBackground
-                    1 -> LocalAppColor.current.colorSuccess
-                    2 -> LocalAppColor.current.colorError
+                    1 -> LocalAppColor.current.colorFlashCardLearnBackground
+                    2 -> LocalAppColor.current.colorSuccess
                     else -> LocalAppColor.current.colorFlashCardBackground
                 },
                 isFavorite = favoriteStates[currentCard.id] ?: false,
@@ -141,7 +135,6 @@ fun FlashcardStack(
 fun Flashcard(
     item: FlashcardItem,
     modifier: Modifier = Modifier,
-    cardType: Int = 0,
     backgroundColor: Color = LocalAppColor.current.colorFlashCardBackground,
     isFavorite: Boolean,
     onFavoriteClick: (Long, Boolean) -> Unit,
@@ -248,87 +241,6 @@ fun Flashcard(
                         contentDescription = "${item.word} speak"
                     )
                 }
-
-                val annotatedString = buildAnnotatedString {
-                    val wordIndex = item.sentence.indexOf(" ${item.word}", ignoreCase = true) + 1
-                    if (wordIndex >= 0) {
-                        append(item.sentence.substring(0, wordIndex))
-
-                        pushStyle(
-                            androidx.compose.ui.text.SpanStyle(
-                                color = if (cardType == 0) {
-                                    LocalAppColor.current.colorError
-                                } else {
-                                    LocalAppColor.current.colorTextMain
-                                },
-                                textDecoration = TextDecoration.Underline
-                            )
-                        )
-                        append(item.sentence.substring(wordIndex, wordIndex + item.word.length))
-                        pop()
-
-                        // Kelimeden sonraki kısım
-                        append(item.sentence.substring(wordIndex + item.word.length))
-                    } else {
-                        // Kelime cümlede yoksa tüm cümleyi normal şekilde göster
-                        append(item.sentence)
-                    }
-                }
-
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(
-                            start = AppDimension.default.dp24,
-                            end = AppDimension.default.dp24,
-                            top = AppDimension.default.dp16,
-                            bottom = AppDimension.default.dp24
-                        )
-                        .background(
-                            color = backgroundColor,
-                            shape = RoundedCornerShape(AppDimension.default.dp10)
-                        )
-                        .border(
-                            width = 1.dp,
-                            color = if (cardType == 0) {
-                                LocalAppColor.current.colorBorder
-                            } else {
-                                backgroundColor
-                            },
-                            shape = RoundedCornerShape(AppDimension.default.dp10)
-                        )
-                        .clip(RoundedCornerShape(AppDimension.default.dp10)),
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    Text(
-                        text = annotatedString,
-                        style = AppTypography.default.bodyPrimary,
-                        color = LocalAppColor.current.colorTextMain,
-                        modifier = Modifier.padding(
-                            top = AppDimension.default.dp16,
-                            start = AppDimension.default.dp16,
-                            end = AppDimension.default.dp16
-                        ),
-                        textAlign = TextAlign.Center
-                    )
-
-                    AppText(
-                        text = item.sentenceTranslate,
-                        style = AppTypography.default.body,
-                        color = if (cardType == 0) {
-                            LocalAppColor.current.colorTextSubtler
-                        } else {
-                            LocalAppColor.current.colorTextMain
-                        },
-                        modifier = Modifier.padding(
-                            top = AppDimension.default.dp8,
-                            start = AppDimension.default.dp16,
-                            end = AppDimension.default.dp16,
-                            bottom = AppDimension.default.dp16
-                        ),
-                        textAlign = TextAlign.Center
-                    )
-                }
             }
         }
     }
@@ -355,7 +267,8 @@ fun FlashcardStackPreview() {
             onSwipeLeft = { isNavigateLeft = false },
             onStackCompleted = { /* Kartlar bittiğinde yapılacak işlem */ },
             onFavoriteClick = {_, _ ->
-            }
+            },
+            onSpeakClick = {}
         )
     }
 }

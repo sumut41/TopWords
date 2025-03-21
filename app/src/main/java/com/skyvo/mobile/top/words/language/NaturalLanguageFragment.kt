@@ -17,6 +17,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.manager.Language
 import com.skyvo.mobile.core.base.navigation.navigateBack
+import com.skyvo.mobile.core.base.util.forceConfiguration
 import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopLongHeader
@@ -26,7 +27,6 @@ import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import dagger.hilt.android.AndroidEntryPoint
-import java.util.Locale
 
 @AndroidEntryPoint
 class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() {
@@ -37,20 +37,6 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
     override fun onComposeCreateView(composeView: ComposeView) {
         composeView.setContent {
             ContentView(viewModel)
-        }
-    }
-
-    private fun forceConfiguration(languageCode: String) {
-        try {
-            val locale = Locale(languageCode)
-            val config = requireContext().resources.configuration
-            config.setLocale(locale)
-            requireContext().resources.updateConfiguration(
-                config,
-                requireContext().resources.displayMetrics
-            )
-        } catch (ex: Exception) {
-            recordException(ex)
         }
     }
 
@@ -73,7 +59,7 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
                     AppPrimaryLargeButton(
                         text = stringResource(com.skyvo.mobile.core.resource.R.string.continue_button),
                         onClick = {
-                            forceConfiguration(state.selectedLanguage?.code.orEmpty())
+                            requireContext().forceConfiguration(state.selectedLanguage?.code.orEmpty())
                             viewModel.next()
                         },
                         modifier = Modifier

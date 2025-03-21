@@ -47,8 +47,8 @@
     <string name="about_us_book_label_first">✔ Her seviyeye uygun metinlerle günlük okuma yap</string>
     <string name="about_us_book_label_second">✔ Öğrendiğin kelimelerin kullanımını gör</string>
     <string name="about_us_book_label_third">✔ Yeni kelimeler öğrenmeye hazır ol</string>
-    <string name="flash_card_title">Bu kelimeyi ne kadar iyi hatırlıyorsun?</string>
-    <string name="not_much">Bilmiyorum</string>
+    <string name="flash_card_title">Bu kelimeyi biliyor musun?</string>
+    <string name="not_much">Öğret</string>
     <string name="i_know">Biliyorum</string>
     <string name="check_answer">Kontrol et</string>
     <string name="type_your_answer">Yanıtınızı yazın</string>

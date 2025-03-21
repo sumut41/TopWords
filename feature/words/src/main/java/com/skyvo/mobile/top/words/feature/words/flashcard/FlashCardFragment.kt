@@ -72,8 +72,8 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                                 .padding(
                                     end = AppDimension.default.dp8
                                 ),
-                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.not_much)
-                        ) { 
+                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.i_know)
+                        ) {
                             isNavigateLeft = true
                         }
 
@@ -83,8 +83,8 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                                 .padding(
                                     start = AppDimension.default.dp8
                                 ),
-                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.i_know)
-                        ) { 
+                            text = stringResource(id = com.skyvo.mobile.core.resource.R.string.not_much)
+                        ) {
                             isNavigateRight = true
                         }
                     }
@@ -97,11 +97,13 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                         isNavigateLeft = isNavigateLeft,
                         onSwipeRight = { item ->
                             isNavigateRight = false
-                            viewModel.markWordAsKnown(item)
+                            speaker.speak(item.word)
+                            viewModel.markWordAsUnknown(item)
                         },
                         onSwipeLeft = { item ->
                             isNavigateLeft = false
-                            viewModel.markWordAsUnknown(item)
+                            speaker.speak(item.word)
+                            viewModel.markWordAsKnown(item)
                         },
                         onStackCompleted = {
                             viewModel.next()

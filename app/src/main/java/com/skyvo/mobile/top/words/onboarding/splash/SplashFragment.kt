@@ -12,6 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
+import com.skyvo.mobile.core.base.util.forceConfiguration
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
@@ -19,7 +20,6 @@ import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import dagger.hilt.android.AndroidEntryPoint
-import java.util.Locale
 
 @AndroidEntryPoint
 class SplashFragment : BaseComposeFragment<SplashViewModel>() {
@@ -33,30 +33,13 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
         }
     }
 
-    private fun forceConfiguration(languageCode: String) {
-        try {
-            val locale = Locale(languageCode)
-            val config = requireContext().resources.configuration
-            config.setLocale(locale)
-            requireContext().resources.updateConfiguration(
-                config,
-                requireContext().resources.displayMetrics
-            )
-        } catch (ex: Exception) {
-            recordException(ex)
-        }
-    }
+
 
     @Composable
     private fun ContentView() {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
-        when(state.nativeLanguageCode) {
-            "tr" -> forceConfiguration("tr")
-            "es" -> forceConfiguration("az")
-            "it" -> forceConfiguration("it")
-            else -> {}
-        }
+        requireContext().forceConfiguration(state.nativeLanguageCode.orEmpty())
 
         AppPrimaryTheme {
             AppScaffold(
@@ -82,7 +65,7 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
                     contentAlignment = Alignment.Center
                 ) {
                     AppText(
-                        text = "Top Language Words",
+                        text = "bleng",
                         modifier = Modifier.fillMaxWidth()
                             .padding(horizontal = AppDimension.default.dp24),
                         textAlign = TextAlign.Center,
