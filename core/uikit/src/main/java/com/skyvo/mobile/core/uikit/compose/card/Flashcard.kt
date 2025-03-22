@@ -140,6 +140,10 @@ fun Flashcard(
     onFavoriteClick: (Long, Boolean) -> Unit,
     onSpeakClick: ((String) -> Unit)? = null
 ) {
+    LaunchedEffect(item) {
+        onSpeakClick?.invoke(item.word)
+    }
+
     Card(
         shape = RoundedCornerShape(24.dp),
         elevation = CardDefaults.cardElevation(8.dp),

@@ -524,8 +524,8 @@ class WordsDashboardFragment : BaseComposeFragment<WordsDashboardViewModel>() {
             AppText(
                 modifier = Modifier.padding(
                     top = AppDimension.default.dp12,
-                    start = AppDimension.default.dp4,
-                    end = AppDimension.default.dp4
+                    start = AppDimension.default.dp2,
+                    end = AppDimension.default.dp2
                 ),
                 text = title,
                 style = AppTypography.default.body,

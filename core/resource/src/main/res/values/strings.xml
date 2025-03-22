@@ -73,4 +73,7 @@
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Complete the sentence!</string>
     <string name="quiz_word_title">Today\'s word completion test!</string>
+    <string name="i_know_word_dialog_message">This word will be removed from your learning list. Do you approve?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

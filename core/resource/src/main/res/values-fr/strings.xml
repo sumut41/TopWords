@@ -73,4 +73,7 @@
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Complétez la phrase!</string>
     <string name="quiz_word_title">Test de complétion de mot du jour!</string>
+    <string name="i_know_word_dialog_message">Ce mot sera supprimé de votre liste d\'apprentissage. Êtes-vous d\'accord?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
 </resources>

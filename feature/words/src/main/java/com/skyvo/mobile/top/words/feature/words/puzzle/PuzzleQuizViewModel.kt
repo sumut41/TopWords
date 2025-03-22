@@ -50,7 +50,7 @@ class PuzzleQuizViewModel @Inject constructor(
             val wordIdList = (wordIds?.split(","))
             wordIdList?.let { list ->
                 list.shuffled().forEach { id ->
-                    wordRepository.getQuizWord(id.toLong()).collect {
+                    wordRepository.getStudyWord(id.toLong()).collect {
                         it?.let { word ->
                             questionList.add(
                                 PuzzleModel(

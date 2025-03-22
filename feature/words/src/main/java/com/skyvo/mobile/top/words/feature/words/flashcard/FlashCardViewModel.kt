@@ -86,22 +86,12 @@ class FlashCardViewModel @Inject constructor(
     fun markWordAsKnown(word: FlashcardItem) {
         viewModelScope.launch {
             wordRepository.markWordAsKnown(word.id, userManager.learnLanguage?.code)
-            setState {
-                copy(
-                    knowCount = knowCount + 1
-                )
-            }
         }
     }
 
     fun markWordAsUnknown(word: FlashcardItem) {
         viewModelScope.launch {
             wordRepository.markWordAsUnKnown(word.id, userManager.learnLanguage?.code)
-            setState {
-                copy(
-                    unKnowCount = unKnowCount + 1
-                )
-            }
         }
     }
 
@@ -117,23 +107,16 @@ class FlashCardViewModel @Inject constructor(
             courseWordRepository.updateCourse(
                 id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = calculateProgress(state.value.items.orEmpty().size, state.value.knowCount)
+                progress = 0.25f
             )
             navigate(
                 navDeepLink = NavDeeplinkDestination.ResultWord(
-                    "Tebrikler!, Kelimeler Bitti."
+                    "Kelimeler Bitti. Öğrenmeye devam edelim."
                 ),
                 popUpTo = true,
                 popUpToInclusive = false,
                 popUpToId = R.id.wordsDashboardFragment
             )
         }
-    }
-
-    private fun calculateProgress(totalWords: Int, knownWords: Int): Float {
-        if (totalWords == 0) return currentProgress
-        val progressIncrement = ((0.25f - currentProgress) * (knownWords.toFloat() / totalWords))
-        currentProgress += progressIncrement
-        return currentProgress
     }
 }

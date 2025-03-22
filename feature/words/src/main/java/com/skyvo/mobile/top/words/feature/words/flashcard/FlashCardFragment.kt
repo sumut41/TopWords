@@ -20,6 +20,7 @@ import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.database.word.WordMockRepository
 import com.skyvo.mobile.core.shared.extension.Pronouncer
+import com.skyvo.mobile.core.uikit.compose.bottomsheet.AppInformationBottomSheet
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.button.AppSecondaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.card.FlashcardStack
@@ -45,6 +46,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
         val state by viewModel.state.collectAsStateWithLifecycle()
         var isNavigateRight by remember { mutableStateOf(false) }
         var isNavigateLeft by remember { mutableStateOf(false) }
+        var isShowWarningDialog by remember { mutableStateOf(false) }
         val speaker = remember { Pronouncer(requireContext(), state.learnLanguageCode.orEmpty()) }
 
         AppPrimaryTheme {
@@ -74,7 +76,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                                 ),
                             text = stringResource(id = com.skyvo.mobile.core.resource.R.string.i_know)
                         ) {
-                            isNavigateLeft = true
+                            isShowWarningDialog = true
                         }
 
                         AppPrimaryLargeButton(
@@ -96,13 +98,13 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                         isNavigateRight = isNavigateRight,
                         isNavigateLeft = isNavigateLeft,
                         onSwipeRight = { item ->
+                            // speaker.speak(item.word)
                             isNavigateRight = false
-                            speaker.speak(item.word)
                             viewModel.markWordAsUnknown(item)
                         },
                         onSwipeLeft = { item ->
+                            // speaker.speak(item.word)
                             isNavigateLeft = false
-                            speaker.speak(item.word)
                             viewModel.markWordAsKnown(item)
                         },
                         onStackCompleted = {
@@ -116,6 +118,25 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                         }
                     )
                 }
+            }
+
+            if (isShowWarningDialog) {
+                AppInformationBottomSheet(
+                    title = stringResource(id = com.skyvo.mobile.core.resource.R.string.i_know),
+                    message = stringResource(id = com.skyvo.mobile.core.resource.R.string.i_know_word_dialog_message),
+                    onDismiss = {
+                        isShowWarningDialog = false
+                    },
+                    secondaryButtonText = stringResource(id = com.skyvo.mobile.core.resource.R.string.no),
+                    onSecondaryButtonClick = {
+                        isShowWarningDialog = false
+                    },
+                    primaryButtonText = stringResource(id = com.skyvo.mobile.core.resource.R.string.yes),
+                    onPrimaryButtonClick = {
+                        isShowWarningDialog = false
+                        isNavigateLeft = true
+                    }
+                )
             }
         }
     }

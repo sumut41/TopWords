@@ -73,4 +73,7 @@
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Cümleyi tamamla!</string>
     <string name="quiz_word_title">Kelime eğzersizi yap!</string>
+    <string name="i_know_word_dialog_message">Bu kelime öğrenme listenden çıkarılacaktır. Onaylıyor musun?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
 </resources>

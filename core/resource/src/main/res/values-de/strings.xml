@@ -48,8 +48,8 @@
     <string name="about_us_book_label_second">✔ Sieh, wie die gelernten Wörter verwendet werden</string>
     <string name="about_us_book_label_third">✔ Bereite dich darauf vor, neue Wörter zu lernen</string>
     <string name="flash_card_title">Wie gut erinnerst du dich an dieses Wort?</string>
-    <string name="not_much">Nicht wirklich</string>
-    <string name="i_know">Ich weiß es</string>
+    <string name="not_much">Ich lerne</string>
+    <string name="i_know">Ich weiß</string>
     <string name="check_answer">Antwort prüfen</string>
     <string name="type_your_answer">Gib deine Antwort ein</string>
     <string name="meaning">(Schreibe die Bedeutung.)</string>
@@ -73,4 +73,7 @@
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Vervollständige den Satz!</string>
     <string name="quiz_word_title">Der heutige Wortergänzungstest!</string>
+    <string name="i_know_word_dialog_message">Dieses Wort wird aus deiner Lernliste entfernt. Bist du damit einverstanden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
 </resources>
