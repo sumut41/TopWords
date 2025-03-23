@@ -11,7 +11,7 @@
     <string name="close_button">Schließen</string>
     <string name="choose_native_language_title">Wähle deine Muttersprache</string>
     <string name="choose_learning_language_title">Welche Sprache möchtest du lernen?</string>
-    <string name="select_level_page_title">Welches Niveau hast du in %s?</string>
+    <string name="select_level_page_title">Welches Niveau hast du in Englisch?</string>
     <string name="level_beginner">Anfänger</string>
     <string name="level_elementary">Grundstufe</string>
     <string name="level_intermediate">Mittelstufe</string>

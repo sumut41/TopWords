@@ -132,8 +132,6 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                         .padding(horizontal = AppDimension.default.dp16),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-
-
                     Box (
                         modifier = Modifier
                             .padding(

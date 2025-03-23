@@ -1,12 +1,16 @@
 package com.skyvo.mobile.top.words.feature.words.sentence
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.stringResource
@@ -80,7 +84,31 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                     }
                 }
             ) {
-                LazyColumn {
+                LazyColumn(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+
+                    item {
+                        Box (
+                            modifier = Modifier
+                                .background(
+                                    color = LocalAppColor.current.colorAnswerError.copy(alpha = 0.8f),
+                                    shape = RoundedCornerShape(AppDimension.default.dp6)
+                                )
+                        ) {
+                            AppText(
+                                text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_sentence_arrange_title),
+                                modifier = Modifier
+                                    .padding(
+                                        vertical = AppDimension.default.dp4,
+                                        horizontal = AppDimension.default.dp16
+                                    ),
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorError
+                            )
+                        }
+                    }
+
                     item {
                         AppText(
                             text = state.currentQuestion?.question.orEmpty(),
@@ -88,6 +116,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                             modifier = Modifier
                                 .fillMaxSize()
                                 .padding(
+                                    top = AppDimension.default.dp32,
                                     start = AppDimension.default.dp16,
                                     end = AppDimension.default.dp16,
                                     bottom = AppDimension.default.dp8
@@ -97,7 +126,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
 
                         AppText(
                             text = "(${state.currentQuestion?.questionTranslate})",
-                            style = AppTypography.default.bodyExtraLarge,
+                            style = AppTypography.default.bodyPrimary,
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(
@@ -116,7 +145,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                                 AppChooseItemComponent(
                                     modifier = Modifier.padding(
                                         horizontal = AppDimension.default.dp16,
-                                        vertical = AppDimension.default.dp8
+                                        vertical = AppDimension.default.dp16
                                     ),
                                     backgroundColor = LocalAppColor.current.colorBackgroundSelected,
                                     text = item.label.orEmpty(),

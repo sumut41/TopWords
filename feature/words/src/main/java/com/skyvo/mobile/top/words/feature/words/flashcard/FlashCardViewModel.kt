@@ -89,12 +89,6 @@ class FlashCardViewModel @Inject constructor(
         }
     }
 
-    fun markWordAsUnknown(word: FlashcardItem) {
-        viewModelScope.launch {
-            wordRepository.markWordAsUnKnown(word.id, userManager.learnLanguage?.code)
-        }
-    }
-
     fun toggleFavorite(itemId: Long, isFavorite: Boolean) {
         viewModelScope.launch {
             wordRepository.markWordAsFavorite(isFavorite, itemId, userManager.learnLanguage?.code)

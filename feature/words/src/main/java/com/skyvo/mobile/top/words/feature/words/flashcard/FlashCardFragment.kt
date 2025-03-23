@@ -97,13 +97,10 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
                         items = it,
                         isNavigateRight = isNavigateRight,
                         isNavigateLeft = isNavigateLeft,
-                        onSwipeRight = { item ->
-                            // speaker.speak(item.word)
+                        onSwipeRight = { _ ->
                             isNavigateRight = false
-                            viewModel.markWordAsUnknown(item)
                         },
                         onSwipeLeft = { item ->
-                            // speaker.speak(item.word)
                             isNavigateLeft = false
                             viewModel.markWordAsKnown(item)
                         },

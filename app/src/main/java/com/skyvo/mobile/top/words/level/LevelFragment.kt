@@ -58,7 +58,7 @@ class LevelFragment : BaseComposeFragment<LevelViewModel>() {
             AppScaffold(
                 header = {
                     AppTopLongHeader(
-                        title = stringResource(com.skyvo.mobile.core.resource.R.string.select_level_page_title, state.learningLanguage.orEmpty()),
+                        title = stringResource(com.skyvo.mobile.core.resource.R.string.select_level_page_title),
                         onBackClickListener = {
                             navigateBack()
                         }

@@ -163,7 +163,7 @@ class SentenceQuizViewModel @Inject constructor(
             courseWordRepository.updateCourse(
                 id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = if (state.value.correctCount >= ((state.value.items?.size ?: 1) - 1) && state.value.unCorrectCount == 0) 0.50f else (if (currentProgress == 0.25f) 0.30f else currentProgress)
+                progress = if (state.value.correctCount >= ((state.value.items?.size ?: 1) - 1)) 0.50f else (if (currentProgress == 0.25f) 0.30f else currentProgress)
             )
             delay(100)
             if (isBack) {

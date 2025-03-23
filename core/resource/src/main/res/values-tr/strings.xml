@@ -11,7 +11,7 @@
     <string name="close_button">Kapat</string>
     <string name="choose_native_language_title">Konuştuğunuz ana dilinizi seçin</string>
     <string name="choose_learning_language_title">Öğrenmek istediğiniz dili seçin</string>
-    <string name="select_level_page_title">Lütfen %s seviyenizi seçin</string>
+    <string name="select_level_page_title">Lütfen ingilizce seviyenizi seçin</string>
     <string name="level_beginner">Temel</string>
     <string name="level_elementary">Başlangıç</string>
     <string name="level_intermediate">Orta</string>

@@ -11,7 +11,7 @@
     <string name="close_button">Cerca</string>
     <string name="choose_native_language_title">Elige tu idioma nativo</string>
     <string name="choose_learning_language_title">¿Qué idioma quieres estudiar?</string>
-    <string name="select_level_page_title">¿Cuál es tu nivel de %s?</string>
+    <string name="select_level_page_title">¿Cuál es tu nivel de inglés?</string>
     <string name="level_beginner">Principiante</string>
     <string name="level_elementary">Elemental</string>
     <string name="level_intermediate">Intermedia</string>
