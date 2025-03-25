@@ -76,4 +76,6 @@
     <string name="i_know_word_dialog_message">Dieses Wort wird aus deiner Lernliste entfernt. Bist du damit einverstanden?</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
+    <string name="quiz_sentence_nail_tag">"%s"</string>
+    <string name="quiz_find_meaning_title">Finden Sie den Sinn!</string>
 </resources>

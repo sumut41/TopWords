@@ -112,7 +112,6 @@ class FindMeaningQuizViewModel @Inject constructor(
                                 SentenceQuizModel(
                                     word = word.word.orEmpty(),
                                     question = word.translate.orEmpty(),
-                                    questionTranslate = "Anlamına uygun seçeneği seç.",
                                     answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()
                                         ?.shuffled()?.shuffled()
                                 )

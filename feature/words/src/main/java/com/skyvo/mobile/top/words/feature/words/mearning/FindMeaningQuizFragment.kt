@@ -23,6 +23,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigateBack
+import com.skyvo.mobile.core.resource.R
 import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.header.AppTopHeader
@@ -137,12 +138,35 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
                     }
                 }
             ) {
-                LazyColumn {
+                LazyColumn(
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
 
                     if (state.isSingleQuiz) {
                         item {
                             AppSpacer(
                                 height = AppDimension.default.dp24
+                            )
+                        }
+                    }
+
+                    item {
+                        Box (
+                            modifier = Modifier
+                                .background(
+                                    color = LocalAppColor.current.colorAnswerError.copy(alpha = 0.8f),
+                                    shape = RoundedCornerShape(AppDimension.default.dp6)
+                                )
+                        ) {
+                            AppText(
+                                text = stringResource(R.string.quiz_find_meaning_title),
+                                modifier = Modifier
+                                    .padding(
+                                        vertical = AppDimension.default.dp4,
+                                        horizontal = AppDimension.default.dp16
+                                    ),
+                                style = AppTypography.default.body,
+                                color = LocalAppColor.current.colorError
                             )
                         }
                     }
@@ -154,24 +178,11 @@ class FindMeaningQuizFragment : BaseComposeFragment<FindMeaningQuizViewModel>() 
                             modifier = Modifier
                                 .fillMaxSize()
                                 .padding(
-                                    start = AppDimension.default.dp16,
-                                    end = AppDimension.default.dp16,
-                                    bottom = AppDimension.default.dp8
-                                ),
-                            textAlign = TextAlign.Center
-                        )
-
-                        AppText(
-                            text = "(${state.currentQuestion?.questionTranslate})",
-                            style = AppTypography.default.bodyExtraLarge,
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .padding(
+                                    top = AppDimension.default.dp32,
                                     start = AppDimension.default.dp16,
                                     end = AppDimension.default.dp16,
                                     bottom = AppDimension.default.dp24
                                 ),
-                            color = LocalAppColor.current.colorTextSubtler,
                             textAlign = TextAlign.Center
                         )
                     }

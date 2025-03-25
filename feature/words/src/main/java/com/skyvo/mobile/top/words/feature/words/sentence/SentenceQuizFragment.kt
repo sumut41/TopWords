@@ -30,6 +30,7 @@ import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
+import com.skyvo.mobile.core.resource.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -97,7 +98,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                                 )
                         ) {
                             AppText(
-                                text = stringResource(com.skyvo.mobile.core.resource.R.string.quiz_sentence_arrange_title),
+                                text = stringResource(R.string.quiz_sentence_arrange_title),
                                 modifier = Modifier
                                     .padding(
                                         vertical = AppDimension.default.dp4,
@@ -111,7 +112,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
 
                     item {
                         AppText(
-                            text = state.currentQuestion?.question.orEmpty(),
+                            text = stringResource(R.string.quiz_sentence_nail_tag, state.currentQuestion?.questionTranslate.orEmpty()),
                             style = AppTypography.default.bodyExtraLargeBold,
                             modifier = Modifier
                                 .fillMaxSize()
@@ -125,8 +126,8 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                         )
 
                         AppText(
-                            text = "(${state.currentQuestion?.questionTranslate})",
-                            style = AppTypography.default.bodyPrimary,
+                            text = state.currentQuestion?.question.orEmpty().replace("....", "_____"),
+                            style = AppTypography.default.bodyExtraLarge,
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(

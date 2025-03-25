@@ -76,4 +76,6 @@
     <string name="i_know_word_dialog_message">Questa parola verrà rimossa dalla tua lista di apprendimento. Approvi?</string>
     <string name="yes">SÌ</string>
     <string name="no">No</string>
+    <string name="quiz_sentence_nail_tag">"%s"</string>
+    <string name="quiz_find_meaning_title">Trova il significato!</string>
 </resources>
