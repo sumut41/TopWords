@@ -98,7 +98,7 @@
     },
     {
       "contentEn": "The Eiffel Tower is one of the most famous landmarks in the world. It is located in Paris, France. The tower was built in 1889 by Gustave Eiffel for the World’s Fair. It is 330 meters tall and made of iron. Many people visit the Eiffel Tower every year. You can go up to the top of the tower by elevator or stairs. From the top, you can see all of Paris. The view is amazing. At night, the tower is covered in lights, and it looks beautiful. The Eiffel Tower is not just a tourist attraction. It is also a symbol of France. People from all over the world come to Paris to see it.",
-      "contentTr": "Eiffel Kulesi, dünyanın en ünlü simgelerinden biridir. Fransa'nın Paris şehrinde bulunur. Kule, 1889 yılında Gustave Eiffel tarafından Dünya Fuarı için inşa edilmiştir. 330 metre yüksekliğindedir ve demirden yapılmıştır. Her yıl birçok insan Eiffel Kulesi’ni ziyaret eder. Kuleye asansörle veya merdivenlerle çıkabilirsiniz. Tepeden Paris’in tamamını görebilirsiniz. Manzara muhteşemdir. Gece, kule ışıklarla kaplanır ve çok güzel görünür. Eiffel Kulesi sadece bir turistik yer değildir. Aynı zamanda Fransa'nın bir sembolüdür. Dünyanın her yerinden insanlar Paris’e gelip onu görür.",
+      "contentIt": "La Torre Eiffel è uno dei monumenti più famosi al mondo. Si trova a Parigi, in Francia. La torre è stata costruita nel 1889 da Gustave Eiffel per l'Esposizione Universale. È alta 330 metri ed è fatta di ferro. Ogni anno molte persone visitano la Torre Eiffel. Si può salire in cima alla torre con l'ascensore o con le scale. Dalla cima si può vedere tutta Parigi. La vista è meravigliosa. Di notte, la torre è illuminata e appare bellissima. La Torre Eiffel non è solo un'attrazione turistica. È anche un simbolo della Francia. Persone da tutto il mondo vengono a Parigi per vederla.",
       "title": "The Eiffel Tower",
       "imageUrl": "https://www.arkitektuel.com/wp-content/uploads/2017/10/eiffel.png",
       "isNew": false,
@@ -108,41 +108,41 @@
       "words": [
         {
           "key": "tower",
-          "value": "kule"
+          "value": "torre"
         },
         {
           "key": "landmark",
-          "value": "simgesel yapı"
+          "value": "monumento"
         },
         {
           "key": "iron",
-          "value": "demir"
+          "value": "ferro"
         },
         {
           "key": "elevator",
-          "value": "asansör"
+          "value": "ascensore"
         },
         {
           "key": "stairs",
-          "value": "merdiven"
+          "value": "scale"
         },
         {
           "key": "view",
-          "value": "manzara"
+          "value": "vista"
         },
         {
           "key": "amazing",
-          "value": "muhteşem"
+          "value": "meraviglioso"
         },
         {
           "key": "symbol",
-          "value": "sembol"
+          "value": "simbolo"
         }
       ]
     },
     {
       "contentEn": "Gardening is a relaxing activity enjoyed by people of all ages. It is a way to connect with nature and create something beautiful. Many people grow flowers, vegetables, or herbs in their gardens. Flowers like roses, tulips, and daisies make gardens colorful and lively. Vegetables such as tomatoes, carrots, and cucumbers provide fresh food for families. Herbs like mint and basil add flavor to meals. Gardening also helps people feel calm and reduces stress.\n\nTo start gardening, you need tools like a shovel, gloves, and a watering can. The first step is to prepare the soil by removing weeds and adding nutrients. Seeds or small plants are then placed in the soil. Regular care, such as watering and protecting the plants from pests, is important for healthy growth. Some people even build small fences to keep animals away from their gardens. Gardening teaches patience because plants take time to grow. It is a rewarding hobby that gives people a sense of achievement and joy.",
-      "contentTr": "Bahçecilik, her yaştan insanın keyif aldığı rahatlatıcı bir aktivitedir. Doğa ile bağlantı kurmanın ve güzel bir şey yaratmanın bir yoludur. Birçok insan bahçelerinde çiçekler, sebzeler veya otlar yetiştirir. Güller, laleler ve papatyalar gibi çiçekler bahçeleri renkli ve canlı yapar. Domates, havuç ve salatalık gibi sebzeler ailelere taze yiyecek sağlar. Nane ve fesleğen gibi otlar yemeklere lezzet katar. Bahçecilik, insanların sakinleşmesine yardımcı olur ve stresi azaltır.\n\nBahçeciliğe başlamak için bir kürek, eldiven ve sulama kabı gibi araçlara ihtiyacınız vardır. İlk adım, toprağı yabani otlardan temizlemek ve besin maddeleri ekleyerek hazırlamaktır. Daha sonra tohumlar veya küçük bitkiler toprağa yerleştirilir. Düzenli bakım, yani sulama ve bitkileri zararlılardan koruma, sağlıklı büyüme için önemlidir. Bazı insanlar bahçelerini hayvanlardan korumak için küçük çitler bile yapar. Bahçecilik, sabrı öğretir çünkü bitkiler büyümek için zamana ihtiyaç duyar. İnsanlara başarı ve mutluluk hissi veren ödüllendirici bir hobidir.",
+      "contentIt": "Il giardinaggio è un'attività rilassante apprezzata da persone di tutte le età. È un modo per connettersi con la natura e creare qualcosa di bello. Molte persone coltivano fiori, verdure o erbe nei loro giardini. Fiori come rose, tulipani e margherite rendono i giardini colorati e vivaci. Verdure come pomodori, carote e cetrioli offrono cibo fresco per le famiglie. Erbe come menta e basilico aggiungono sapore ai pasti. Il giardinaggio aiuta anche le persone a sentirsi calme e a ridurre lo stress.\n\nPer iniziare a fare giardinaggio, servono attrezzi come una pala, dei guanti e un annaffiatoio. Il primo passo è preparare il terreno rimuovendo le erbacce e aggiungendo sostanze nutritive. I semi o le piantine vengono poi messi nel terreno. Cure regolari, come l'irrigazione e la protezione delle piante dai parassiti, sono importanti per una crescita sana. Alcune persone costruiscono anche piccole recinzioni per tenere lontani gli animali dai loro giardini. Il giardinaggio insegna la pazienza perché le piante richiedono tempo per crescere. È un hobby gratificante che dona alle persone un senso di realizzazione e gioia.",
       "title": "Gardening for Beginners",
       "imageUrl": "https://cdn.shopify.com/s/files/1/2318/5061/files/Gardening_with_Family.jpg?v=1575880787",
       "isNew": false,
@@ -152,105 +152,105 @@
       "words": [
         {
           "key": "Gardening",
-          "value": "bahçecilik"
+          "value": "giardinaggio"
         },
         {
           "key": "relaxing",
-          "value": "rahatlatıcı"
+          "value": "rilassante"
         },
         {
           "key": "nature",
-          "value": "doğa"
+          "value": "natura"
         },
         {
           "key": "flower",
-          "value": "çiçek"
+          "value": "fiore"
         },
         {
           "key": "vegetable",
-          "value": "sebze"
+          "value": "verdura"
         },
         {
           "key": "herb",
-          "value": "ot"
+          "value": "erba aromatica"
         },
         {
           "key": "rose",
-          "value": "gül"
+          "value": "rosa"
         },
         {
           "key": "tulip",
-          "value": "lale"
+          "value": "tulipano"
         },
         {
           "key": "daisy",
-          "value": "papatya"
+          "value": "margherita"
         },
         {
           "key": "tomato",
-          "value": "domates"
+          "value": "pomodoro"
         },
         {
           "key": "carrot",
-          "value": "havuç"
+          "value": "carota"
         },
         {
           "key": "cucumber",
-          "value": "salatalık"
+          "value": "cetriolo"
         },
         {
           "key": "mint",
-          "value": "nane"
+          "value": "menta"
         },
         {
           "key": "basil",
-          "value": "fesleğen"
+          "value": "basilico"
         },
         {
           "key": "stress",
-          "value": "stres"
+          "value": "stress"
         },
         {
           "key": "shovel",
-          "value": "kürek"
+          "value": "pala"
         },
         {
           "key": "glove",
-          "value": "eldiven"
+          "value": "guanto"
         },
         {
           "key": "watering can",
-          "value": "sulama kabı"
+          "value": "annaffiatoio"
         },
         {
           "key": "soil",
-          "value": "toprak"
+          "value": "terreno"
         },
         {
           "key": "weed",
-          "value": "yabani ot"
+          "value": "erbaccia"
         },
         {
           "key": "Seed",
-          "value": "tohum"
+          "value": "seme"
         },
         {
           "key": "pest",
-          "value": "zararlı"
+          "value": "parassita"
         },
         {
           "key": "fence",
-          "value": "çit"
+          "value": "recinzione"
         },
         {
           "key": "patience",
-          "value": "sabır"
+          "value": "pazienza"
         }
       ]
     },
     {
       "contentEn": "Animals are an important part of life on Earth. They live in many places, such as forests, oceans, deserts, and mountains. Some animals, like dogs and cats, live with humans as pets. These animals bring joy and companionship to people. Wild animals, on the other hand, live in nature and include lions, elephants, and dolphins. Each animal plays a special role in the ecosystem. Bees, for example, help plants grow by carrying pollen. Birds, such as eagles and parrots, add beauty to the world with their colors and songs.\n\nTaking care of animals is essential for a healthy planet. Many species are endangered because of deforestation, pollution, and hunting. Zoos also play a role in educating people about wildlife. People can learn how animals live, what they eat, and why they are important. Additionally, adopting a pet is a great way to support animals. It is important to provide them with proper food, water, and shelter. By caring for animals, we show respect for nature and all living things.",
-      "contentTr": "Hayvanlar, Dünya üzerindeki yaşamın önemli bir parçasıdır. Ormanlar, okyanuslar, çöller ve dağlar gibi birçok yerde yaşarlar. Köpekler ve kediler gibi bazı hayvanlar evcil hayvan olarak insanlarla birlikte yaşar. Bu hayvanlar insanlara neşe ve dostluk getirir. Diğer yandan, vahşi hayvanlar doğada yaşar ve aslanlar, filler ve yunuslar gibi türleri içerir. Her hayvan ekosistemde özel bir rol oynar. Örneğin arılar, polen taşıyarak bitkilerin büyümesine yardımcı olur. Kartal ve papağan gibi kuşlar, renkleri ve şarkılarıyla dünyaya güzellik katar.\n\nHayvanlara bakmak, sağlıklı bir gezegen için çok önemlidir. Deforestasyon, kirlilik ve avlanma nedeniyle birçok tür tehlike altındadır. Habitatları korumak ve hayvan sığınakları yaratmak onların hayatta kalmasına yardımcı olabilir. Hayvanat bahçeleri de vahşi yaşam hakkında insanları eğitmede rol oynar. İnsanlar, hayvanların nasıl yaşadıklarını, ne yediklerini ve neden önemli olduklarını öğrenebilir. Ayrıca, bir hayvan sahiplenmek hayvanları desteklemenin harika bir yoludur. Onlara uygun yiyecek, su ve barınak sağlamak önemlidir. Hayvanlara bakarak, doğaya ve tüm canlılara saygı göstermiş oluruz.",
+      "contentIt": "Gli animali sono una parte importante della vita sulla Terra. Vivono in molti luoghi, come foreste, oceani, deserti e montagne. Alcuni animali, come cani e gatti, vivono con gli esseri umani come animali domestici. Questi animali portano gioia e compagnia alle persone. Gli animali selvatici, invece, vivono in natura e includono leoni, elefanti e delfini. Ogni animale svolge un ruolo speciale nell'ecosistema. Le api, ad esempio, aiutano le piante a crescere trasportando il polline. Gli uccelli, come le aquile e i pappagalli, aggiungono bellezza al mondo con i loro colori e canti.\n\nPrendersi cura degli animali è essenziale per un pianeta sano. Molte specie sono in pericolo a causa della deforestazione, dell'inquinamento e della caccia. Anche gli zoo svolgono un ruolo nell'educare le persone sulla fauna selvatica. Le persone possono imparare come vivono gli animali, cosa mangiano e perché sono importanti. Inoltre, adottare un animale domestico è un ottimo modo per supportare gli animali. È importante fornire loro cibo, acqua e un riparo adeguati. Prendendoci cura degli animali, mostriamo rispetto per la natura e tutti gli esseri viventi.",
       "title": "The Importance of Animals",
       "imageUrl": "https://res.cloudinary.com/jerrick/image/upload/v1678529191/640c52a778e5fa001d0aace9.jpg",
       "isNew": false,
@@ -260,105 +260,105 @@
       "words": [
         {
           "key": "Animal",
-          "value": "hayvan"
+          "value": "animale"
         },
         {
           "key": "Earth",
-          "value": "Dünya"
+          "value": "Terra"
         },
         {
           "key": "forest",
-          "value": "orman"
+          "value": "foresta"
         },
         {
           "key": "ocean",
-          "value": "okyanus"
+          "value": "oceano"
         },
         {
           "key": "desert",
-          "value": "çöl"
+          "value": "deserto"
         },
         {
           "key": "mountain",
-          "value": "dağ"
+          "value": "montagna"
         },
         {
           "key": "pet",
-          "value": "evcil hayvan"
+          "value": "animale domestico"
         },
         {
           "key": "joy",
-          "value": "neşe"
+          "value": "gioia"
         },
         {
           "key": "companion",
-          "value": "arkadaş, eşlik eden"
+          "value": "compagno"
         },
         {
           "key": "Wild",
-          "value": "vahşi"
+          "value": "selvaggio"
         },
         {
           "key": "nature",
-          "value": "doğa"
+          "value": "natura"
         },
         {
           "key": "ecosystem",
-          "value": "ekosistem"
+          "value": "ecosistema"
         },
         {
           "key": "bee",
-          "value": "arı"
+          "value": "ape"
         },
         {
           "key": "pollen",
-          "value": "polen"
+          "value": "polline"
         },
         {
           "key": "Bird",
-          "value": "kuş"
+          "value": "uccello"
         },
         {
           "key": "endangered",
-          "value": "tehlike altında"
+          "value": "in pericolo"
         },
         {
           "key": "deforestation",
-          "value": "ormanların yok edilmesi"
+          "value": "deforestazione"
         },
         {
           "key": "pollution",
-          "value": "kirlilik"
+          "value": "inquinamento"
         },
         {
           "key": "hunting",
-          "value": "avlanma"
+          "value": "caccia"
         },
         {
           "key": "sanctuary",
-          "value": "sığınak"
+          "value": "rifugio"
         },
         {
           "key": "wildlife",
-          "value": "vahşi yaşam"
+          "value": "fauna selvatica"
         },
         {
           "key": "adopt",
-          "value": "sahiplenmek"
+          "value": "adottare"
         },
         {
           "key": "shelter",
-          "value": "barınak"
+          "value": "riparo"
         },
         {
           "key": "respect",
-          "value": "saygı"
+          "value": "rispetto"
         }
       ]
     },
     {
       "contentEn": "Artificial intelligence (AI) is a technology that is changing the world. It allows machines to think, learn, and solve problems like humans. AI is used in many areas of life, such as healthcare, education, and transportation. For example, in healthcare, AI can help doctors find diseases faster by analyzing medical images. In education, smart systems can create personalized learning plans for students. Self-driving cars, which use AI, can make transportation safer and more efficient. AI is also behind voice assistants like Siri and Alexa, which help people with daily tasks.\n\nDespite its many benefits, AI also brings challenges. One concern is that AI might replace human jobs. Many tasks that were once done by people are now performed by machines. This can lead to unemployment and require workers to learn new skills. Another challenge is ensuring that AI systems are fair and unbiased. If not carefully designed, AI could make unfair decisions, such as denying a loan to someone based on incomplete data. People and governments are working to address these issues by creating rules and guidelines for AI development. As AI continues to grow, it is important to use it responsibly to make life better for everyone.",
-      "contentTr": "Yapay zeka (AI), dünyayı değiştiren bir teknolojidir. Makinelerin insanlar gibi düşünmesine, öğrenmesine ve sorun çözmesine olanak tanır. AI, sağlık, eğitim ve ulaşım gibi hayatın birçok alanında kullanılmaktadır. Örneğin, sağlıkta AI, tıbbi görüntüleri analiz ederek doktorların hastalıkları daha hızlı bulmasına yardımcı olabilir. Eğitimde, akıllı sistemler öğrenciler için kişiselleştirilmiş öğrenme planları oluşturabilir. AI kullanan sürücüsüz arabalar, ulaşımı daha güvenli ve verimli hale getirebilir. AI ayrıca Siri ve Alexa gibi sesli asistanların arkasındaki teknolojidir ve insanlara günlük görevlerinde yardımcı olur.\n\nBirçok faydasına rağmen, AI aynı zamanda zorluklar da getirir. Bir endişe, AI'nın insan işlerini değiştirebileceğidir. Bir zamanlar insanlar tarafından yapılan birçok iş artık makineler tarafından gerçekleştirilmektedir. Bu durum işsizliğe yol açabilir ve çalışanların yeni beceriler öğrenmesini gerektirebilir. Bir diğer zorluk ise AI sistemlerinin adil ve tarafsız olmasını sağlamaktır. Dikkatli bir şekilde tasarlanmazsa, AI eksik verilere dayanarak adil olmayan kararlar alabilir, örneğin birine kredi vermemek gibi. İnsanlar ve hükümetler, AI geliştirme için kurallar ve yönergeler oluşturarak bu sorunları çözmeye çalışıyor. AI büyümeye devam ettikçe, hayatı herkes için daha iyi hale getirmek adına sorumlu bir şekilde kullanılması önemlidir.",
+      "contentIt": "L'intelligenza artificiale (IA) è una tecnologia che sta cambiando il mondo. Permette alle macchine di pensare, apprendere e risolvere problemi come gli esseri umani. L'IA viene utilizzata in molti ambiti della vita, come la sanità, l'istruzione e i trasporti. Ad esempio, nella sanità, l'IA può aiutare i medici a individuare più velocemente le malattie analizzando le immagini mediche. Nell'istruzione, i sistemi intelligenti possono creare piani di apprendimento personalizzati per gli studenti. Le auto a guida autonoma, che usano l'IA, possono rendere i trasporti più sicuri ed efficienti. L'IA è anche alla base degli assistenti vocali come Siri e Alexa, che aiutano le persone nelle attività quotidiane.\n\nNonostante i suoi numerosi vantaggi, l'IA porta anche delle sfide. Una preoccupazione è che l'IA possa sostituire i lavori umani. Molti compiti che un tempo venivano svolti dalle persone sono ora eseguiti dalle macchine. Questo può portare alla disoccupazione e richiedere ai lavoratori di apprendere nuove competenze. Un'altra sfida è garantire che i sistemi IA siano equi e imparziali. Se non progettati con attenzione, potrebbero prendere decisioni ingiuste, come negare un prestito a qualcuno basandosi su dati incompleti. Le persone e i governi stanno lavorando per affrontare questi problemi creando regole e linee guida per lo sviluppo dell'IA. Man mano che l'IA continua a crescere, è importante usarla in modo responsabile per migliorare la vita di tutti.",
       "title": "The Impact of Artificial Intelligence",
       "imageUrl": "https://www.arquimea.com/wp-content/uploads/2023/09/ai-post1.jpg",
       "isNew": false,
@@ -368,109 +368,109 @@
       "words": [
         {
           "key": "Artificial intelligence",
-          "value": "yapay zeka"
+          "value": "intelligenza artificiale"
         },
         {
           "key": "technology",
-          "value": "teknoloji"
+          "value": "tecnologia"
         },
         {
           "key": "machine",
-          "value": "makine"
+          "value": "macchina"
         },
         {
           "key": "think",
-          "value": "düşünmek"
+          "value": "pensare"
         },
         {
           "key": "learn",
-          "value": "öğrenmek"
+          "value": "imparare"
         },
         {
           "key": "solve",
-          "value": "çözmek"
+          "value": "risolvere"
         },
         {
           "key": "problem",
-          "value": "sorun"
+          "value": "problema"
         },
         {
           "key": "healthcare",
-          "value": "sağlık hizmetleri"
+          "value": "sanità"
         },
         {
           "key": "education",
-          "value": "eğitim"
+          "value": "istruzione"
         },
         {
           "key": "transportation",
-          "value": "ulaşım"
+          "value": "trasporti"
         },
         {
           "key": "medical",
-          "value": "tıbbi"
+          "value": "medico"
         },
         {
           "key": "personalized",
-          "value": "kişiselleştirilmiş"
+          "value": "personalizzato"
         },
         {
           "key": "self-driving",
-          "value": "sürücüsüz"
+          "value": "a guida autonoma"
         },
         {
           "key": "efficient",
-          "value": "verimli"
+          "value": "efficiente"
         },
         {
           "key": "voice assistant",
-          "value": "sesli asistan"
+          "value": "assistente vocale"
         },
         {
           "key": "task",
-          "value": "görev"
+          "value": "compito"
         },
         {
           "key": "challenge",
-          "value": "zorluk"
+          "value": "sfida"
         },
         {
           "key": "replace",
-          "value": "değiştirmek"
+          "value": "sostituire"
         },
         {
           "key": "unemployment",
-          "value": "işsizlik"
+          "value": "disoccupazione"
         },
         {
           "key": "skill",
-          "value": "beceri"
+          "value": "competenza"
         },
         {
           "key": "fair",
-          "value": "adil"
+          "value": "equo"
         },
         {
           "key": "unbiased",
-          "value": "tarafsız"
+          "value": "imparziale"
         },
         {
           "key": "guideline",
-          "value": "yönerge"
+          "value": "linea guida"
         },
         {
           "key": "responsibly",
-          "value": "sorumluluğunu bilerek"
+          "value": "responsabilmente"
         },
         {
           "key": "grow",
-          "value": "büyüme"
+          "value": "crescere"
         }
       ]
     },
     {
       "contentEn": "Nature is all around us. It includes trees, rivers, mountains, animals, and the air we breathe. Nature provides us with food, water, and shelter. Without it, life would not be possible. Forests are often called the lungs of the Earth because they produce oxygen and clean the air. Rivers and lakes give us fresh water to drink and use. The sun, wind, and rain are also important parts of nature. They help plants grow and provide energy for our daily lives.\n\nProtecting nature is very important. Many forests are being cut down for wood and farming. This leads to habitat loss for animals and less clean air for humans. Pollution from factories and cars also harms the environment. It is our job to take care of the planet. Recycling, planting trees, and using less plastic can make a big difference. For example, carrying a reusable bag instead of a plastic one reduces waste. Walking or cycling instead of driving helps reduce air pollution. Everyone can do small things to help nature, and together, these actions can create a healthier planet for future generations.",
-      "contentTr": "Doğa, çevremizdeki her şeydir. Ağaçlar, nehirler, dağlar, hayvanlar ve soluduğumuz hava doğayı oluşturur. Doğa bize yiyecek, su ve barınak sağlar. Onsuz, hayat mümkün olmazdı. Ormanlar, genellikle Dünya’nın akciğerleri olarak adlandırılır çünkü oksijen üretir ve havayı temizler. Nehirler ve göller, içmek ve kullanmak için temiz su sağlar. Güneş, rüzgar ve yağmur da doğanın önemli parçalarıdır. Bitkilerin büyümesine yardımcı olur ve günlük hayatımız için enerji sağlar.\n\nDoğayı korumak çok önemlidir. Birçok orman, odun ve tarım için kesilmektedir. Bu durum, hayvanlar için yaşam alanı kaybına ve insanlar için daha az temiz havaya yol açar. Fabrikalar ve arabalar tarafından yayılan kirlilik de çevreye zarar verir. Gezegene bakmak bizim görevimizdir. Geri dönüşüm yapmak, ağaç dikmek ve daha az plastik kullanmak büyük bir fark yaratabilir. Örneğin, plastik bir torba yerine tekrar kullanılabilir bir çanta taşımak atıkları azaltır. Araba yerine yürümek veya bisiklet kullanmak, hava kirliliğini azaltmaya yardımcı olur. Herkes doğaya yardım etmek için küçük şeyler yapabilir ve birlikte bu eylemler, gelecek nesiller için daha sağlıklı bir gezegen yaratabilir.",
+      "contentIt": "La natura è tutto intorno a noi. Include alberi, fiumi, montagne, animali e l'aria che respiriamo. La natura ci fornisce cibo, acqua e riparo. Senza di essa, la vita non sarebbe possibile. Le foreste sono spesso chiamate i polmoni della Terra perché producono ossigeno e puliscono l'aria. I fiumi e i laghi ci forniscono acqua dolce da bere e da usare. Il sole, il vento e la pioggia sono anche parti importanti della natura. Aiutano le piante a crescere e forniscono energia per la nostra vita quotidiana.\n\nProteggere la natura è molto importante. Molte foreste vengono abbattute per il legno e l'agricoltura. Questo porta alla perdita di habitat per gli animali e a meno aria pulita per gli esseri umani. L'inquinamento proveniente da fabbriche e automobili danneggia anche l'ambiente. È nostro dovere prenderci cura del pianeta. Riciclare, piantare alberi e usare meno plastica può fare una grande differenza. Ad esempio, portare una borsa riutilizzabile invece di una di plastica riduce i rifiuti. Camminare o andare in bicicletta invece di guidare aiuta a ridurre l'inquinamento dell'aria. Tutti possono fare piccole cose per aiutare la natura e insieme queste azioni possono creare un pianeta più sano per le generazioni future.",
       "title": "The Beauty and Importance of Nature",
       "imageUrl": "https://thumbs.dreamstime.com/b/beauty-nature-importance-preserving-environment-289909057.jpg",
       "isNew": false,
@@ -480,109 +480,109 @@
       "words": [
         {
           "key": "Nature",
-          "value": "doğa"
+          "value": "natura"
         },
         {
           "key": "tree",
-          "value": "ağaç"
+          "value": "albero"
         },
         {
           "key": "river",
-          "value": "nehir"
+          "value": "fiume"
         },
         {
           "key": "mountain",
-          "value": "dağ"
+          "value": "montagna"
         },
         {
           "key": "animal",
-          "value": "hayvan"
+          "value": "animale"
         },
         {
           "key": "breathe",
-          "value": "nefes almak"
+          "value": "respirare"
         },
         {
           "key": "Forest",
-          "value": "orman"
+          "value": "foresta"
         },
         {
           "key": "oxygen",
-          "value": "oksijen"
+          "value": "ossigeno"
         },
         {
           "key": "clean",
-          "value": "temiz"
+          "value": "pulito"
         },
         {
           "key": "lake",
-          "value": "göl"
+          "value": "lago"
         },
         {
           "key": "energy",
-          "value": "enerji"
+          "value": "energia"
         },
         {
           "key": "Protect",
-          "value": "korumak"
+          "value": "proteggere"
         },
         {
           "key": "pollution",
-          "value": "kirlilik"
+          "value": "inquinamento"
         },
         {
           "key": "Recycling",
-          "value": "geri dönüşüm"
+          "value": "riciclaggio"
         },
         {
           "key": "plastic",
-          "value": "plastik"
+          "value": "plastica"
         },
         {
           "key": "waste",
-          "value": "atık"
+          "value": "rifiuto"
         },
         {
           "key": "air",
-          "value": "hava"
+          "value": "aria"
         },
         {
           "key": "healthier",
-          "value": "daha sağlıklı"
+          "value": "più sano"
         },
         {
           "key": "planet",
-          "value": "gezegen"
+          "value": "pianeta"
         },
         {
           "key": "generation",
-          "value": "nesil"
+          "value": "generazione"
         },
         {
           "key": "reduce",
-          "value": "azaltmak"
+          "value": "ridurre"
         },
         {
           "key": "habitat",
-          "value": "yaşam alanı"
+          "value": "habitat"
         },
         {
           "key": "future",
-          "value": "gelecek"
+          "value": "futuro"
         },
         {
           "key": "cycling",
-          "value": "bisiklete binme"
+          "value": "andare in bicicletta"
         },
         {
           "key": "reuse",
-          "value": "yeniden kullanmak"
+          "value": "riutilizzare"
         }
       ]
     },
     {
       "contentEn": "Sports are an important part of our lives. They keep us healthy and teach us teamwork and discipline. There are many kinds of sports, such as football, basketball, tennis, and swimming. Some people like to watch sports, while others enjoy playing them. Football is one of the most popular sports in the world. It is played by two teams, each with eleven players. The goal is to score by kicking the ball into the opponent’s net. Basketball is another exciting sport. Players work together to score points by throwing the ball into a hoop. Sports like these not only improve our physical fitness but also bring people together.\n\nIn addition to traditional sports, new activities are becoming popular. For example, yoga and Pilates are great for relaxing and building strength. Adventure sports like rock climbing and surfing offer thrills and challenges. E-sports, or electronic sports, are also gaining attention. These are video game competitions where players compete at a high level. No matter the type of sport, they all require practice and dedication. Participating in sports can help people reduce stress and make new friends. Schools and communities often encourage children to join sports teams because they promote healthy habits and social skills. Whether you play for fun or competition, sports are a great way to enjoy life and stay active.",
-      "contentTr": "Sporlar hayatımızın önemli bir parçasıdır. Bizi sağlıklı tutar ve takım çalışması ile disiplin öğretir. Futbol, basketbol, tenis ve yüzme gibi birçok spor türü vardır. Bazı insanlar sporları izlemeyi severken, diğerleri oynamaktan hoşlanır. Futbol, dünyanın en popüler sporlarından biridir. İki takım tarafından oynanır ve her takımda on bir oyuncu bulunur. Amaç, topu rakip kaleye vurarak gol atmaktır. Basketbol, bir başka heyecan verici spordur. Oyuncular, topu çembere atarak puan kazanmak için birlikte çalışır. Bu tür sporlar sadece fiziksel sağlığımızı geliştirmekle kalmaz, aynı zamanda insanları bir araya getirir.\n\nGeleneksel sporlara ek olarak, yeni aktiviteler de popüler hale geliyor. Örneğin, yoga ve Pilates rahatlamak ve güçlenmek için harikadır. Kaya tırmanışı ve sörf gibi macera sporları heyecan ve zorluklar sunar. E-sporlar veya elektronik sporlar da dikkat çekiyor. Bunlar, oyuncuların yüksek seviyede rekabet ettiği video oyun yarışmalarıdır. Spor türü ne olursa olsun, hepsi pratik ve adanmışlık gerektirir. Spora katılmak, insanlara stresi azaltma ve yeni arkadaşlar edinme konusunda yardımcı olabilir. Okullar ve topluluklar genellikle çocukları spor takımlarına katılmaya teşvik eder çünkü sağlıklı alışkanlıkları ve sosyal becerileri destekler. İster eğlence ister rekabet için oynayın, sporlar hayatın tadını çıkarmanın ve aktif kalmanın harika bir yoludur.",
+      "contentIt": "Lo sport è una parte importante della nostra vita. Ci mantiene in salute e ci insegna il lavoro di squadra e la disciplina. Esistono molti tipi di sport, come il calcio, il basket, il tennis e il nuoto. Alcune persone amano guardare lo sport, mentre altre preferiscono praticarlo. Il calcio è uno degli sport più popolari al mondo. Si gioca tra due squadre, ognuna composta da undici giocatori. L'obiettivo è segnare calciando la palla nella rete avversaria. Il basket è un altro sport emozionante. I giocatori collaborano per fare punti lanciando la palla nel canestro. Sport come questi non solo migliorano la nostra forma fisica, ma uniscono anche le persone.\n\nOltre agli sport tradizionali, stanno diventando popolari anche nuove attività. Ad esempio, lo yoga e il Pilates sono ottimi per rilassarsi e rafforzarsi. Sport avventurosi come l'arrampicata e il surf offrono emozioni e sfide. Anche gli e-sport, o sport elettronici, stanno attirando l'attenzione. Si tratta di competizioni di videogiochi in cui i giocatori si sfidano ad alto livello. Indipendentemente dal tipo di sport, tutti richiedono pratica e dedizione. Partecipare a uno sport può aiutare a ridurre lo stress e a fare nuove amicizie. Le scuole e le comunità spesso incoraggiano i bambini a unirsi a squadre sportive perché promuovono abitudini sane e abilità sociali. Che tu giochi per divertimento o per competizione, lo sport è un ottimo modo per godersi la vita e rimanere attivi.",
       "title": "The Joy of Sports",
       "imageUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/4898/images/Zv4vXR8Qcu94A0AugUnQ_AdobeStock_77446709.jpeg",
       "isNew": false,
@@ -592,39 +592,39 @@
       "words": [
         {
           "key": "Sport",
-          "value": "spor"
+          "value": "sport"
         },
         {
           "key": "healthy",
-          "value": "sağlıklı"
+          "value": "sano"
         },
         {
           "key": "teamwork",
-          "value": "takım çalışması"
+          "value": "lavoro di squadra"
         },
         {
           "key": "discipline",
-          "value": "disiplin"
+          "value": "disciplina"
         },
         {
           "key": "football",
-          "value": "futbol"
+          "value": "calcio"
         },
         {
           "key": "basketball",
-          "value": "basketbol"
+          "value": "basket"
         },
         {
           "key": "tennis",
-          "value": "tenis"
+          "value": "tennis"
         },
         {
           "key": "swimming",
-          "value": "yüzme"
+          "value": "nuoto"
         },
         {
           "key": "player",
-          "value": "oyuncu"
+          "value": "giocatore"
         },
         {
           "key": "goal",
@@ -632,69 +632,69 @@
         },
         {
           "key": "opponent",
-          "value": "rakip"
+          "value": "avversario"
         },
         {
           "key": "hoop",
-          "value": "çember"
+          "value": "canestro"
         },
         {
           "key": "fitness",
-          "value": "zindelik"
+          "value": "forma fisica"
         },
         {
           "key": "adventure",
-          "value": "macera"
+          "value": "avventura"
         },
         {
           "key": "rock climbing",
-          "value": "kaya tırmanışı"
+          "value": "arrampicata"
         },
         {
           "key": "surfing",
-          "value": "sörf"
+          "value": "surf"
         },
         {
           "key": "E-sports",
-          "value": "e-sporlar"
+          "value": "e-sport"
         },
         {
           "key": "competition",
-          "value": "yarışma"
+          "value": "competizione"
         },
         {
           "key": "practice",
-          "value": "pratik"
+          "value": "allenamento"
         },
         {
           "key": "dedication",
-          "value": "adanmışlık"
+          "value": "dedizione"
         },
         {
           "key": "stress",
-          "value": "stres"
+          "value": "stress"
         },
         {
           "key": "friend",
-          "value": "arkadaş"
+          "value": "amico"
         },
         {
           "key": "community",
-          "value": "topluluk"
+          "value": "comunità"
         },
         {
           "key": "habit",
-          "value": "alışkanlık"
+          "value": "abitudine"
         },
         {
           "key": "active",
-          "value": "aktif"
+          "value": "attivo"
         }
       ]
     },
     {
       "contentEn": "The Ancient Egyptian civilization is one of the oldest and most fascinating in the world. It began around 3100 BC along the Nile River in northeastern Africa. The Egyptians built great pyramids, temples, and tombs, leaving behind impressive monuments that still exist today. They developed a unique writing system called hieroglyphs, which used pictures and symbols to represent words and ideas. Pharaohs, the rulers of Egypt, were considered gods, and they were buried in elaborate tombs with treasures to take into the afterlife.\n\nThe Egyptians were skilled in many areas. They created a calendar based on the lunar and solar cycles, which helped them plan their agricultural activities. They also made advancements in medicine, mathematics, and engineering. The famous pyramids of Giza, including the Great Pyramid, were built with incredible precision using simple tools. These accomplishments continue to amaze people today. The Nile River was essential to the survival of the Egyptians. It provided water for drinking, irrigation for crops, and a means of transportation.\n\nAlthough the Ancient Egyptian civilization eventually declined, its legacy lives on. Today, Egypt is known for its rich history, and many people travel to visit the ancient pyramids, temples, and monuments. The culture, art, and science of Ancient Egypt continue to inspire historians, archaeologists, and artists all over the world. The mysteries of the pyramids and the life of the pharaohs still capture the imagination of people today.",
-      "contentTr": "Eski Mısır uygarlığı, dünyadaki en eski ve en ilginç uygarlıklardan biridir. MÖ 3100 civarında, Afrika'nın kuzeydoğusunda Nil Nehri boyunca başlamıştır. Mısırlılar, büyük piramitler, tapınaklar ve mezarlar inşa ederek günümüze kadar varlığını sürdüren etkileyici anıtlar bırakmışlardır. Ayrıca, kelimeleri ve fikirleri temsil etmek için resimler ve semboller kullanan eşsiz bir yazı sistemi olan hiyeroglifleri geliştirmişlerdir. Mısır'ın hükümdarları olan firavunlar, tanrı olarak kabul edilirlerdi ve öbür dünyaya gidecekleri zenginliklerle donatılmış büyük mezarlara gömülürlerdi.\n\nMısırlılar birçok alanda yetenekliydiler. Tarımsal faaliyetlerini planlamak için ay ve güneş döngülerine dayalı bir takvim oluşturmuşlardı. Ayrıca tıp, matematik ve mühendislik alanlarında da ilerlemeler kaydetmişlerdir. Giza'daki ünlü piramitler, Büyük Piramit dahil olmak üzere, basit aletler kullanılarak inanılmaz bir hassasiyetle inşa edilmiştir. Bu başarılar günümüzde hala insanları etkilemektedir. Nil Nehri, Mısırlıların hayatta kalması için çok önemliydi. Onlara içme suyu, ürünler için sulama ve taşımacılık imkanı sağlıyordu.\n\nEski Mısır uygarlığı nihayetinde gerilemiş olsa da, mirası devam etmektedir. Bugün Mısır, zengin tarihiyle tanınmaktadır ve birçok insan antik piramitleri, tapınakları ve anıtları görmek için seyahat etmektedir. Eski Mısır'ın kültürü, sanatı ve bilimi, dünya çapındaki tarihçiler, arkeologlar ve sanatçılar üzerinde ilham verici bir etkiye sahiptir. Piramitlerin gizemleri ve firavunların yaşamı, günümüzde hala insanların hayal gücünü etkilemektedir.",
+      "contentIt": "La civiltà dell'Antico Egitto è una delle più antiche e affascinanti del mondo. Ebbe inizio intorno al 3100 a.C. lungo il fiume Nilo, nel nord-est dell'Africa. Gli egizi costruirono grandi piramidi, templi e tombe, lasciando monumenti impressionanti che esistono ancora oggi. Svilupparono un sistema di scrittura unico chiamato geroglifici, che utilizzava immagini e simboli per rappresentare parole e idee. I faraoni, i sovrani dell'Egitto, erano considerati dei e venivano sepolti in tombe elaborate con tesori da portare nell'aldilà.\n\nGli egizi erano abili in molti campi. Crearono un calendario basato sui cicli lunari e solari, che li aiutava a pianificare le attività agricole. Fecero anche progressi nella medicina, nella matematica e nell'ingegneria. Le famose piramidi di Giza, inclusa la Grande Piramide, furono costruite con incredibile precisione usando strumenti semplici. Questi risultati continuano ad affascinare le persone ancora oggi. Il fiume Nilo era essenziale per la sopravvivenza degli egizi. Forniva acqua potabile, irrigazione per le coltivazioni e un mezzo di trasporto.\n\nAnche se la civiltà dell'Antico Egitto alla fine declinò, la sua eredità vive ancora. Oggi, l'Egitto è conosciuto per la sua ricca storia e molte persone viaggiano per visitare le antiche piramidi, i templi e i monumenti. La cultura, l'arte e la scienza dell'Antico Egitto continuano a ispirare storici, archeologi e artisti in tutto il mondo. I misteri delle piramidi e la vita dei faraoni affascinano ancora oggi l'immaginazione delle persone.",
       "title": "The Ancient Egyptian Civilization",
       "imageUrl": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/egypt-tours-and-trips.jpg",
       "isNew": false,
@@ -704,109 +704,109 @@
       "words": [
         {
           "key": "civilization",
-          "value": "uygarlık"
+          "value": "civiltà"
         },
         {
           "key": "Ancient",
-          "value": "eski"
+          "value": "antico"
         },
         {
           "key": "pyramid",
-          "value": "piramit"
+          "value": "piramide"
         },
         {
           "key": "temple",
-          "value": "tapınak"
+          "value": "tempio"
         },
         {
           "key": "tomb",
-          "value": "mezar"
+          "value": "tomba"
         },
         {
           "key": "hieroglyph",
-          "value": "hiyeroglif"
+          "value": "geroglifico"
         },
         {
           "key": "Pharaoh",
-          "value": "firavun"
+          "value": "faraone"
         },
         {
           "key": "treasure",
-          "value": "hazine"
+          "value": "tesoro"
         },
         {
           "key": "afterlife",
-          "value": "öbür dünya"
+          "value": "aldilà"
         },
         {
           "key": "calendar",
-          "value": "takvim"
+          "value": "calendario"
         },
         {
           "key": "lunar",
-          "value": "ay"
+          "value": "lunare"
         },
         {
           "key": "solar",
-          "value": "güneş"
+          "value": "solare"
         },
         {
           "key": "agriculture",
-          "value": "tarım"
+          "value": "agricoltura"
         },
         {
           "key": "medicine",
-          "value": "tıp"
+          "value": "medicina"
         },
         {
           "key": "mathematics",
-          "value": "matematik"
+          "value": "matematica"
         },
         {
           "key": "engineering",
-          "value": "mühendislik"
+          "value": "ingegneria"
         },
         {
           "key": "precision",
-          "value": "hassasiyet"
+          "value": "precisione"
         },
         {
           "key": "transportation",
-          "value": "taşıma"
+          "value": "trasporto"
         },
         {
           "key": "legacy",
-          "value": "miras"
+          "value": "eredità"
         },
         {
           "key": "history",
-          "value": "tarih"
+          "value": "storia"
         },
         {
           "key": "art",
-          "value": "sanat"
+          "value": "arte"
         },
         {
           "key": "archaeologist",
-          "value": "arkeolog"
+          "value": "archeologo"
         },
         {
           "key": "mystery",
-          "value": "gizem"
+          "value": "mistero"
         },
         {
           "key": "imagination",
-          "value": "hayal gücü"
+          "value": "immaginazione"
         },
         {
           "key": "monument",
-          "value": "anıt"
+          "value": "monumento"
         }
       ]
     },
     {
       "contentEn": "Geography is the study of the Earth's landscapes, environments, and the ways in which humans interact with them. It helps us understand the world we live in, from the tallest mountains to the deepest oceans. Geographers study the physical features of the Earth, such as mountains, rivers, and forests, as well as human-made features like cities, roads, and buildings. By examining these features, geographers can predict patterns of climate, weather, and human behavior.\n\nOne of the most important parts of geography is the study of maps. Maps help us understand the location of places and the distance between them. They show the world in a simple and clear way. There are different types of maps, such as physical maps, which show landforms and natural features, and political maps, which display borders and countries. Understanding geography is important for understanding the world’s history and the relationships between different regions.\n\nGeography also plays a role in solving global challenges. Issues like climate change, pollution, and the availability of resources are all connected to geography. For example, the melting of polar ice caps affects sea levels and weather patterns worldwide. Geographers can study these issues to help find solutions and create plans for sustainable development. By learning geography, we gain the tools to protect our planet and plan for a better future.",
-      "contentTr": "Coğrafya, Dünya'nın manzaralarını, çevrelerini ve insanların bunlarla nasıl etkileşimde bulunduğunu inceleyen bir bilim dalıdır. Yaşadığımız dünyayı anlamamıza yardımcı olur, en yüksek dağlardan en derin okyanuslara kadar her şeyi kapsar. Coğrafyacılar, Dünya'nın fiziksel özelliklerini, dağlar, nehirler ve ormanlar gibi, aynı zamanda şehirler, yollar ve binalar gibi insan yapımı özellikleri inceler. Bu özellikleri inceleyerek, coğrafyacılar iklim, hava durumu ve insan davranışlarının desenlerini tahmin edebilirler.\n\nCoğrafyanın en önemli bölümlerinden biri, harita incelemektir. Haritalar, yerlerin konumunu ve bunlar arasındaki mesafeyi anlamamıza yardımcı olur. Dünyayı basit ve net bir şekilde gösterirler. Farklı türde haritalar vardır; fiziksel haritalar, kara şekilleri ve doğal özellikleri gösterirken, politik haritalar sınırları ve ülkeleri gösterir. Coğrafyayı anlamak, Dünya'nın tarihini ve farklı bölgeler arasındaki ilişkileri anlamak için önemlidir.\n\nCoğrafya aynı zamanda küresel zorlukları çözmekte de rol oynar. İklim değişikliği, kirlilik ve kaynakların kullanımı gibi sorunlar coğrafyayla bağlantılıdır. Örneğin, kutup buzullarının erimesi, deniz seviyelerini ve hava durumunu dünya çapında etkiler. Coğrafyacılar bu sorunları inceleyerek çözümler bulmaya ve sürdürülebilir kalkınma planları oluşturmayı yardımcı olabilirler. Coğrafya öğrenerek, gezegenimizi korumak ve daha iyi bir gelecek için plan yapmak için araçlar edinmiş oluruz.",
+      "contentIt": "La geografia è lo studio dei paesaggi della Terra, degli ambienti e dei modi in cui gli esseri umani interagiscono con essi. Ci aiuta a comprendere il mondo in cui viviamo, dalle montagne più alte agli oceani più profondi. I geografi studiano le caratteristiche fisiche della Terra, come montagne, fiumi e foreste, così come le caratteristiche artificiali come città, strade e edifici. Esaminando queste caratteristiche, i geografi possono prevedere modelli di clima, tempo atmosferico e comportamento umano.\n\nUna delle parti più importanti della geografia è lo studio delle mappe. Le mappe ci aiutano a comprendere la posizione dei luoghi e la distanza tra di essi. Mostrano il mondo in modo semplice e chiaro. Esistono diversi tipi di mappe, come le mappe fisiche, che mostrano le forme del territorio e le caratteristiche naturali, e le mappe politiche, che mostrano i confini e i paesi. Comprendere la geografia è importante per capire la storia del mondo e le relazioni tra le diverse regioni.\n\nLa geografia svolge anche un ruolo nella risoluzione delle sfide globali. Problemi come il cambiamento climatico, l'inquinamento e la disponibilità delle risorse sono tutti collegati alla geografia. Ad esempio, lo scioglimento delle calotte polari influisce sui livelli del mare e sui modelli meteorologici in tutto il mondo. I geografi possono studiare questi problemi per trovare soluzioni e creare piani per uno sviluppo sostenibile. Imparando la geografia, otteniamo gli strumenti per proteggere il nostro pianeta e pianificare un futuro migliore.",
       "title": "The Importance of Geography",
       "imageUrl": "https://www.s4d4c.eu/wp-content/uploads/2020/12/geography-1000x667.jpg",
       "isNew": false,
@@ -816,109 +816,109 @@
       "words": [
         {
           "key": "Geography",
-          "value": "coğrafya"
+          "value": "geografia"
         },
         {
           "key": "landscape",
-          "value": "manzara"
+          "value": "paesaggio"
         },
         {
           "key": "environment",
-          "value": "çevre"
+          "value": "ambiente"
         },
         {
           "key": "mountain",
-          "value": "dağ"
+          "value": "montagna"
         },
         {
           "key": "river",
-          "value": "nehir"
+          "value": "fiume"
         },
         {
           "key": "forest",
-          "value": "orman"
+          "value": "foresta"
         },
         {
           "key": "city",
-          "value": "şehir"
+          "value": "città"
         },
         {
           "key": "road",
-          "value": "yol"
+          "value": "strada"
         },
         {
           "key": "building",
-          "value": "bina"
+          "value": "edificio"
         },
         {
           "key": "climate",
-          "value": "iklim"
+          "value": "clima"
         },
         {
           "key": "weather",
-          "value": "hava durumu"
+          "value": "tempo atmosferico"
         },
         {
           "key": "map",
-          "value": "harita"
+          "value": "mappa"
         },
         {
           "key": "location",
-          "value": "konum"
+          "value": "posizione"
         },
         {
           "key": "physical map",
-          "value": "fiziksel harita"
+          "value": "mappa fisica"
         },
         {
           "key": "political map",
-          "value": "politik harita"
+          "value": "mappa politica"
         },
         {
           "key": "border",
-          "value": "sınır"
+          "value": "confine"
         },
         {
           "key": "country",
-          "value": "ülke"
+          "value": "paese"
         },
         {
           "key": "climate change",
-          "value": "iklim değişikliği"
+          "value": "cambiamento climatico"
         },
         {
           "key": "pollution",
-          "value": "kirlilik"
+          "value": "inquinamento"
         },
         {
           "key": "resources",
-          "value": "kaynaklar"
+          "value": "risorse"
         },
         {
           "key": "sea level",
-          "value": "deniz seviyesi"
+          "value": "livello del mare"
         },
         {
           "key": "sustainable development",
-          "value": "sürdürülebilir kalkınma"
+          "value": "sviluppo sostenibile"
         },
         {
           "key": "plan",
-          "value": "plan"
+          "value": "piano"
         },
         {
           "key": "future",
-          "value": "gelecek"
+          "value": "futuro"
         },
         {
           "key": "tool",
-          "value": "araç"
+          "value": "strumento"
         }
       ]
     },
     {
       "contentEn": "Football is one of the most popular sports in the world, and many clubs have millions of fans. One famous football club is Barcelona, a team from Spain. Barcelona was founded in 1899 and is known for its exciting playing style. The team plays in the Spanish La Liga, one of the top football leagues in the world. Barcelona’s home stadium is called Camp Nou, and it is one of the largest football stadiums in Europe. The club has many great players, such as Lionel Messi, who is often considered one of the best players of all time.\n\nBarcelona has won many important trophies, including the UEFA Champions League and La Liga titles. The club is famous for its youth academy, La Masia, where young players are trained to become professional footballers. The team has a strong fan base, and supporters are very passionate about their club. Barcelona has also had great success in international competitions, and they are one of the most successful football clubs in the world. Every time Barcelona plays, fans fill the stadium to watch their team in action.",
-      "contentTr": "Futbol, dünyadaki en popüler sporlardan biridir ve birçok kulübün milyonlarca taraftarı vardır. Ünlü futbol kulüplerinden biri de İspanya'dan Barcelona'dır. Barcelona, 1899 yılında kurulmuştur ve heyecan verici oyun tarzıyla tanınır. Takım, dünyadaki en iyi futbol liglerinden biri olan İspanyol La Liga'da oynar. Barcelona'nın ev sahibi olduğu stadyum Camp Nou olarak adlandırılır ve Avrupa'nın en büyük futbol stadyumlarından biridir. Kulübün Lionel Messi gibi birçok büyük oyuncusu vardır; Messi, sıkça tüm zamanların en iyi oyuncularından biri olarak kabul edilir.\n\nBarcelona, UEFA Şampiyonlar Ligi ve La Liga şampiyonlukları gibi birçok önemli kupa kazanmıştır. Kulüp, genç oyuncuların profesyonel futbolcu olabilmesi için eğitim aldığı La Masia isimli gençlik akademisiyle ünlüdür. Takımın güçlü bir taraftar kitlesi vardır ve taraftarlar kulüpleri için çok tutkuludur. Barcelona, uluslararası yarışmalarda da büyük başarılar elde etmiştir ve dünyadaki en başarılı futbol kulüplerinden biridir. Barcelona her oynadığında, taraftarlar stadyumu doldurur ve takımlarını izlerler.",
+      "contentIt": "Il calcio è uno degli sport più popolari al mondo e molti club hanno milioni di tifosi. Uno dei club più famosi è il Barcellona, una squadra della Spagna. Il Barcellona è stato fondato nel 1899 ed è noto per il suo stile di gioco emozionante. La squadra gioca nella Liga spagnola, uno dei principali campionati di calcio al mondo. Lo stadio di casa del Barcellona si chiama Camp Nou ed è uno dei più grandi stadi di calcio d’Europa. Il club ha avuto molti grandi giocatori, come Lionel Messi, spesso considerato uno dei migliori calciatori di tutti i tempi.\n\nIl Barcellona ha vinto molti trofei importanti, inclusa la UEFA Champions League e i titoli della Liga. Il club è famoso per la sua accademia giovanile, La Masia, dove i giovani giocatori vengono formati per diventare calciatori professionisti. La squadra ha una forte base di tifosi e i sostenitori sono molto appassionati del loro club. Il Barcellona ha avuto anche grandi successi nelle competizioni internazionali ed è uno dei club di calcio di maggior successo al mondo. Ogni volta che il Barcellona gioca, i tifosi riempiono lo stadio per guardare la loro squadra in azione.",
       "title": "FC Barcelona: A Famous Football Club",
       "imageUrl": "https://i0.wp.com/barcablog.com/wp-content/uploads/2012/05/ronaldinho-lionel-messi-samuel-etoo-barcelona-barcablog-barca-blog-barcelona-barcelona-barcablog-barca-blog-barcelona-barcelona-barcablog-barca-blog-barcelona.jpg",
       "isNew": false,
@@ -928,105 +928,105 @@
       "words": [
         {
           "key": "Football",
-          "value": "futbol"
+          "value": "calcio"
         },
         {
           "key": "popular",
-          "value": "popüler"
+          "value": "popolare"
         },
         {
           "key": "club",
-          "value": "kulüp"
+          "value": "club"
         },
         {
           "key": "team",
-          "value": "takım"
+          "value": "squadra"
         },
         {
           "key": "Spain",
-          "value": "İspanya"
+          "value": "Spagna"
         },
         {
           "key": "founded",
-          "value": "kurulmak"
+          "value": "fondato"
         },
         {
           "key": "playing style",
-          "value": "oyun tarzı"
+          "value": "stile di gioco"
         },
         {
           "key": "league",
-          "value": "lig"
+          "value": "campionato"
         },
         {
           "key": "stadium",
-          "value": "stadyum"
+          "value": "stadio"
         },
         {
           "key": "player",
-          "value": "oyuncu"
+          "value": "giocatore"
         },
         {
           "key": "trophy",
-          "value": "kupa"
+          "value": "trofeo"
         },
         {
           "key": "title",
-          "value": "şampiyonluk"
+          "value": "titolo"
         },
         {
           "key": "youth academy",
-          "value": "gençlik akademisi"
+          "value": "accademia giovanile"
         },
         {
           "key": "trained",
-          "value": "eğitilmek"
+          "value": "formato"
         },
         {
           "key": "professional",
-          "value": "profesyonel"
+          "value": "professionista"
         },
         {
           "key": "success",
-          "value": "başarı"
+          "value": "successo"
         },
         {
           "key": "supporter",
-          "value": "taraftar"
+          "value": "sostenitore"
         },
         {
           "key": "fan base",
-          "value": "taraftar kitlesi"
+          "value": "base di tifosi"
         },
         {
           "key": "passionate",
-          "value": "tutkulu"
+          "value": "appassionato"
         },
         {
           "key": "international",
-          "value": "uluslararası"
+          "value": "internazionale"
         },
         {
           "key": "competition",
-          "value": "yarışma"
+          "value": "competizione"
         },
         {
           "key": "fill",
-          "value": "doldurmak"
+          "value": "riempire"
         },
         {
           "key": "watch",
-          "value": "izlemek"
+          "value": "guardare"
         },
         {
           "key": "action",
-          "value": "hareket"
+          "value": "azione"
         }
       ]
     },
     {
       "contentEn": "The sea is a beautiful and important part of nature. It covers about 70% of the Earth’s surface. The sea is home to many animals, such as fish, whales, and sharks. People also love the sea for swimming, sailing, and relaxing on the beach. The sea has many different types of water, from calm waves to strong storms. The sea is important for the weather and the environment. It helps to control the Earth’s temperature and provides oxygen. Many people depend on the sea for food and jobs. Fishermen catch fish, and boats carry goods across the sea.\n\nThe sea also has many secrets. Scientists are still studying the sea to learn more about its plants, animals, and underwater life. The sea can be dangerous, too. Strong waves and storms can be dangerous for boats and swimmers. But the sea is also beautiful and peaceful. Many people visit the sea to relax and enjoy the view. Some people even live near the sea to be close to nature and the peaceful environment. The sea will always be a special place for humans and animals alike.",
-      "contentTr": "Deniz, doğanın güzel ve önemli bir parçasıdır. Dünya yüzeyinin yaklaşık %70'ini kaplar. Deniz, balıklar, balinalar ve köpekbalıkları gibi birçok hayvana ev sahipliği yapar. İnsanlar da yüzme, yelken yapma ve plajda dinlenme gibi aktiviteler için denizi sever. Deniz, sakin dalgalardan güçlü fırtınalara kadar birçok farklı su türüne sahiptir. Deniz, hava durumu ve çevre için önemlidir. Dünya'nın sıcaklık dengesini kontrol etmeye yardımcı olur ve oksijen sağlar. Birçok insan denize yiyecek ve iş için bağımlıdır. Balıkçılar balık yakalar, tekneler ise deniz üzerinden yük taşır.\n\nDenizin birçok sırrı da vardır. Bilim insanları, denizin bitkilerini, hayvanlarını ve su altı yaşamını daha iyi anlamak için denizi incelemeye devam etmektedir. Deniz aynı zamanda tehlikeli olabilir. Güçlü dalgalar ve fırtınalar, tekneler ve yüzücüler için tehlikeli olabilir. Ama deniz aynı zamanda güzel ve huzurludur. Birçok insan denizi ziyaret eder, rahatlar ve manzaranın keyfini çıkarır. Bazı insanlar doğaya ve huzurlu çevreye yakın olmak için deniz kenarında bile yaşarlar. Deniz, insanlar ve hayvanlar için her zaman özel bir yer olacaktır.",
+      "contentIt": "Il mare è una parte bella e importante della natura. Copre circa il 70% della superficie terrestre. Il mare è la casa di molti animali, come pesci, balene e squali. Le persone amano anche il mare per nuotare, navigare e rilassarsi sulla spiaggia. Il mare ha molti tipi diversi di acque, dalle onde calme alle forti tempeste. Il mare è importante per il clima e l’ambiente. Aiuta a controllare la temperatura della Terra e fornisce ossigeno. Molte persone dipendono dal mare per il cibo e il lavoro. I pescatori pescano, e le barche trasportano merci attraverso il mare.\n\nIl mare ha anche molti segreti. Gli scienziati stanno ancora studiando il mare per saperne di più sulle sue piante, animali e sulla vita sottomarina. Il mare può essere anche pericoloso. Onde forti e tempeste possono essere pericolose per le barche e i nuotatori. Ma il mare è anche bello e tranquillo. Molte persone visitano il mare per rilassarsi e godersi il panorama. Alcune persone vivono persino vicino al mare per essere più vicine alla natura e a un ambiente sereno. Il mare sarà sempre un luogo speciale per gli esseri umani e per gli animali.",
       "title": "The Sea: A Beautiful and Important Part of Nature",
       "imageUrl": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/GreenSeaTurtle.JPG?crop=0%2C107%2C2000%2C1100&wid=4000&hei=2200&scl=0.5",
       "isNew": false,
@@ -1036,149 +1036,149 @@
       "words": [
         {
           "key": "sea",
-          "value": "deniz"
+          "value": "mare"
         },
         {
           "key": "beautiful",
-          "value": "güzel"
+          "value": "bello"
         },
         {
           "key": "important",
-          "value": "önemli"
+          "value": "importante"
         },
         {
           "key": "cover",
-          "value": "kaplamak"
+          "value": "coprire"
         },
         {
           "key": "surface",
-          "value": "yüzey"
+          "value": "superficie"
         },
         {
           "key": "home",
-          "value": "ev"
+          "value": "casa"
         },
         {
           "key": "animal",
-          "value": "hayvan"
+          "value": "animale"
         },
         {
           "key": "fish",
-          "value": "balık"
+          "value": "pesce"
         },
         {
           "key": "whale",
-          "value": "balina"
+          "value": "balena"
         },
         {
           "key": "shark",
-          "value": "köpekbalığı"
+          "value": "squalo"
         },
         {
           "key": "love",
-          "value": "sevmek"
+          "value": "amare"
         },
         {
           "key": "swimming",
-          "value": "yüzme"
+          "value": "nuotare"
         },
         {
           "key": "sailing",
-          "value": "yelken"
+          "value": "navigare"
         },
         {
           "key": "relaxing",
-          "value": "dinlenmek"
+          "value": "rilassarsi"
         },
         {
           "key": "beach",
-          "value": "plaj"
+          "value": "spiaggia"
         },
         {
           "key": "calm",
-          "value": "sakin"
+          "value": "calmo"
         },
         {
           "key": "wave",
-          "value": "dalga"
+          "value": "onda"
         },
         {
           "key": "storm",
-          "value": "fırtına"
+          "value": "tempesta"
         },
         {
           "key": "control",
-          "value": "kontrol etmek"
+          "value": "controllare"
         },
         {
           "key": "temperature",
-          "value": "sıcaklık"
+          "value": "temperatura"
         },
         {
           "key": "oxygen",
-          "value": "oksijen"
+          "value": "ossigeno"
         },
         {
           "key": "depend",
-          "value": "bağımlı olmak"
+          "value": "dipendere"
         },
         {
           "key": "food",
-          "value": "yiyecek"
+          "value": "cibo"
         },
         {
           "key": "job",
-          "value": "iş"
+          "value": "lavoro"
         },
         {
           "key": "fisherman",
-          "value": "balıkçı"
+          "value": "pescatore"
         },
         {
           "key": "catch",
-          "value": "yakalamak"
+          "value": "catturare"
         },
         {
           "key": "boat",
-          "value": "tekne"
+          "value": "barca"
         },
         {
           "key": "dangerous",
-          "value": "tehlikeli"
+          "value": "pericoloso"
         },
         {
           "key": "study",
-          "value": "çalışmak"
+          "value": "studiare"
         },
         {
           "key": "underwater",
-          "value": "su altı"
+          "value": "sottomarino"
         },
         {
           "key": "visit",
-          "value": "ziyaret etmek"
+          "value": "visitare"
         },
         {
           "key": "relax",
-          "value": "rahatlamak"
+          "value": "rilassarsi"
         },
         {
           "key": "peaceful",
-          "value": "huzurlu"
+          "value": "tranquillo"
         },
         {
           "key": "environment",
-          "value": "çevre"
+          "value": "ambiente"
         },
         {
           "key": "special",
-          "value": "özel"
+          "value": "speciale"
         }
       ]
     },
     {
       "contentEn": "The weather is an important part of our daily lives. It affects what we wear, what we do, and how we feel. In many places, the weather changes with the seasons. For example, in winter, it is cold and sometimes snowy. People wear warm clothes like coats and hats. In spring, the weather becomes warmer, and flowers start to bloom. People enjoy spending time outside. Summer is the hottest season. People go to the beach to swim and relax. In autumn, the weather becomes cooler, and leaves fall from the trees. People prepare for the cold months ahead.\n\nWeather can also be different in various parts of the world. In some places, it is always warm, while in others, it is always cold. Some places have a lot of rain, and others are very dry. Weather affects many things, like the food we eat and the activities we do. For example, people in cold places may eat hot soups to stay warm, while people in hot places may drink cold drinks to cool down. Understanding the weather helps us plan our day and stay comfortable.",
-      "contentTr": "Hava durumu, günlük yaşamımızın önemli bir parçasıdır. Ne giyeceğimizi, ne yapacağımızı ve nasıl hissedeceğimizi etkiler. Birçok yerde hava durumu mevsimlere göre değişir. Örneğin, kışın soğuk ve bazen kar yağar. İnsanlar kaban ve şapka gibi sıcak giysiler giyer. İlkbaharda hava ısınmaya başlar ve çiçekler açar. İnsanlar dışarıda vakit geçirmekten keyif alır. Yaz en sıcak mevsimdir. İnsanlar yüzmek ve dinlenmek için plaja gider. Sonbaharda hava serinler ve ağaçlardan yapraklar düşer. İnsanlar soğuk aylara hazırlanır.\n\nHava durumu, dünyanın farklı yerlerinde de farklı olabilir. Bazı yerlerde her zaman sıcaktır, diğerlerinde ise her zaman soğuktur. Bazı yerlerde çok yağmur yağar, diğerleri ise çok kuraktır. Hava durumu, yediğimiz yiyecekleri ve yaptığımız aktiviteleri etkiler. Örneğin, soğuk yerlerde insanlar sıcak kalmak için sıcak çorbalar içebilirken, sıcak yerlerde insanlar serinlemek için soğuk içecekler içebilir. Hava durumunu anlamak, günümüzü planlamamıza ve rahat kalmamıza yardımcı olur.",
+      "contentIt": "Il tempo è una parte importante della nostra vita quotidiana. Influenza ciò che indossiamo, cosa facciamo e come ci sentiamo. In molti luoghi, il tempo cambia con le stagioni. Ad esempio, in inverno fa freddo e a volte nevica. Le persone indossano vestiti caldi come cappotti e cappelli. In primavera, il tempo diventa più caldo e i fiori iniziano a sbocciare. Le persone amano passare il tempo all'aperto. L'estate è la stagione più calda. Le persone vanno in spiaggia per nuotare e rilassarsi. In autunno, il tempo si rinfresca e le foglie cadono dagli alberi. Le persone si preparano per i mesi freddi.\n\nIl tempo può anche essere diverso in varie parti del mondo. In alcuni luoghi è sempre caldo, mentre in altri è sempre freddo. Alcuni posti hanno molta pioggia, altri sono molto secchi. Il tempo influisce su molte cose, come il cibo che mangiamo e le attività che svolgiamo. Ad esempio, le persone che vivono in luoghi freddi possono mangiare zuppe calde per mantenersi caldi, mentre chi vive in luoghi caldi può bere bevande fredde per rinfrescarsi. Capire il tempo ci aiuta a pianificare la giornata e a restare comodi.",
       "title": "The Weather and Its Effects",
       "imageUrl": "https://www.learnenglish.de/images/weather/weather.jpeg",
       "isNew": false,
@@ -1188,145 +1188,145 @@
       "words": [
         {
           "key": "weather",
-          "value": "hava durumu"
+          "value": "tempo"
         },
         {
           "key": "important",
-          "value": "önemli"
+          "value": "importante"
         },
         {
           "key": "daily",
-          "value": "günlük"
+          "value": "quotidiano"
         },
         {
           "key": "affect",
-          "value": "etkilemek"
+          "value": "influenzare"
         },
         {
           "key": "wear",
-          "value": "giymek"
+          "value": "indossare"
         },
         {
           "key": "season",
-          "value": "mevsim"
+          "value": "stagione"
         },
         {
           "key": "winter",
-          "value": "kış"
+          "value": "inverno"
         },
         {
           "key": "cold",
-          "value": "soğuk"
+          "value": "freddo"
         },
         {
           "key": "snowy",
-          "value": "karlı"
+          "value": "nevoso"
         },
         {
           "key": "coat",
-          "value": "kaban"
+          "value": "cappotto"
         },
         {
           "key": "spring",
-          "value": "ilkbahar"
+          "value": "primavera"
         },
         {
           "key": "warmer",
-          "value": "daha sıcak"
+          "value": "più caldo"
         },
         {
           "key": "bloom",
-          "value": "açmak"
+          "value": "sbocciare"
         },
         {
           "key": "outside",
-          "value": "dışarı"
+          "value": "all'aperto"
         },
         {
           "key": "Summer",
-          "value": "yaz"
+          "value": "estate"
         },
         {
           "key": "hottest",
-          "value": "en sıcak"
+          "value": "più caldo"
         },
         {
           "key": "beach",
-          "value": "plaj"
+          "value": "spiaggia"
         },
         {
           "key": "autumn",
-          "value": "sonbahar"
+          "value": "autunno"
         },
         {
           "key": "cooler",
-          "value": "daha serin"
+          "value": "più fresco"
         },
         {
           "key": "leaves",
-          "value": "yapraklar"
+          "value": "foglie"
         },
         {
           "key": "fall",
-          "value": "düşmek"
+          "value": "cadere"
         },
         {
           "key": "prepare",
-          "value": "hazırlanmak"
+          "value": "prepararsi"
         },
         {
           "key": "different",
-          "value": "farklı"
+          "value": "diverso"
         },
         {
           "key": "always",
-          "value": "her zaman"
+          "value": "sempre"
         },
         {
           "key": "rain",
-          "value": "yağmur"
+          "value": "pioggia"
         },
         {
           "key": "dry",
-          "value": "kurak"
+          "value": "secco"
         },
         {
           "key": "affects",
-          "value": "etkiler"
+          "value": "influenza"
         },
         {
           "key": "food",
-          "value": "yiyecek"
+          "value": "cibo"
         },
         {
           "key": "activities",
-          "value": "aktiviteler"
+          "value": "attività"
         },
         {
           "key": "soup",
-          "value": "çorba"
+          "value": "zuppa"
         },
         {
           "key": "drink",
-          "value": "içmek"
+          "value": "bere"
         },
         {
           "key": "cold drinks",
-          "value": "soğuk içecekler"
+          "value": "bevande fredde"
         },
         {
           "key": "plan",
-          "value": "planlamak"
+          "value": "pianificare"
         },
         {
           "key": "comfortable",
-          "value": "rahat"
+          "value": "comodo"
         }
       ]
     },
     {
       "contentEn": "The dog is a very popular pet around the world. People love dogs because they are friendly and loyal. They are good companions and can help with many tasks. Dogs can live in many different places, such as houses, apartments, and farms. They come in many sizes, colors, and shapes. Some dogs are very small, while others are big. Dogs need food, water, exercise, and love from their owners. They are also great for playing games and going for walks. Many people enjoy spending time with their dogs every day.\n\nDogs are very smart and can learn many things. They can be trained to do tricks, help people with disabilities, or even work with the police. Some dogs are used to help farmers on farms. They help protect animals and property. Dogs are not only pets but also helpers in many different jobs. They are known for their great sense of smell and hearing, which is why they can do important jobs.",
-      "contentTr": "Köpek, dünya çapında çok popüler bir evcil hayvandır. İnsanlar köpekleri çünkü onlar dost canlısı ve sadıktırlar. İyi arkadaşlardır ve birçok görevde yardımcı olabilirler. Köpekler, evlerde, dairelerde ve çiftliklerde gibi birçok farklı yerde yaşayabilirler. Birçok boyut, renk ve şekle sahiptirler. Bazı köpekler çok küçüktür, diğerleri ise büyüktür. Köpeklerin yiyecek, su, egzersiz ve sahiplerinden sevgiye ihtiyaçları vardır. Ayrıca oyun oynamak ve yürüyüşe çıkmak için harikadırlar. Birçok insan her gün köpekleriyle vakit geçirmekten keyif alır.\n\nKöpekler çok zekidir ve birçok şey öğrenebilirler. Numara yapmayı, engelli insanlara yardımcı olmayı ya da hatta polisle çalışmayı öğrenebilirler. Bazı köpekler çiftliklerde çiftçilere yardımcı olmak için kullanılır. Hayvanları ve mülkleri korumaya yardımcı olurlar. Köpekler sadece evcil hayvanlar değil, aynı zamanda birçok farklı işte yardımcıdırlar. Harika koku alma ve işitme yetenekleriyle tanınırlar, bu yüzden önemli işlerde görev alabilirler.",
+      "contentIt": "Il cane è un animale domestico molto popolare in tutto il mondo. Le persone amano i cani perché sono amichevoli e fedeli. Sono ottimi compagni e possono aiutare in molte attività. I cani possono vivere in molti luoghi diversi, come case, appartamenti e fattorie. Esistono in molte dimensioni, colori e forme. Alcuni cani sono molto piccoli, mentre altri sono grandi. I cani hanno bisogno di cibo, acqua, esercizio fisico e amore dai loro proprietari. Sono anche fantastici per giocare e fare passeggiate. Molte persone amano passare il tempo con i propri cani ogni giorno.\n\nI cani sono molto intelligenti e possono imparare molte cose. Possono essere addestrati per fare trucchi, aiutare le persone con disabilità o anche lavorare con la polizia. Alcuni cani sono usati per aiutare gli agricoltori nelle fattorie. Aiutano a proteggere gli animali e le proprietà. I cani non sono solo animali domestici, ma anche aiutanti in molti lavori diversi. Sono noti per il loro grande senso dell'olfatto e dell'udito, ed è per questo che possono svolgere lavori importanti.",
       "title": "Dogs as Pets and Helpers",
       "imageUrl": "https://agedcareguide-assets.imgix.net/news/articles/wp/29_6_21-Assistance-Dogs.jpg?fm=pjpg",
       "isNew": false,
@@ -1336,141 +1336,141 @@
       "words": [
         {
           "key": "dog",
-          "value": "köpek"
+          "value": "cane"
         },
         {
           "key": "popular",
-          "value": "popüler"
+          "value": "popolare"
         },
         {
           "key": "pet",
-          "value": "evcil hayvan"
+          "value": "animale domestico"
         },
         {
           "key": "world",
-          "value": "dünya"
+          "value": "mondo"
         },
         {
           "key": "friendly",
-          "value": "dost canlısı"
+          "value": "amichevole"
         },
         {
           "key": "loyal",
-          "value": "sadık"
+          "value": "fedele"
         },
         {
           "key": "companion",
-          "value": "arkadaş"
+          "value": "compagno"
         },
         {
           "key": "tasks",
-          "value": "görevler"
+          "value": "compiti"
         },
         {
           "key": "house",
-          "value": "ev"
+          "value": "casa"
         },
         {
           "key": "apartment",
-          "value": "daire"
+          "value": "appartamento"
         },
         {
           "key": "farm",
-          "value": "çiftlik"
+          "value": "fattoria"
         },
         {
           "key": "size",
-          "value": "boyut"
+          "value": "dimensione"
         },
         {
           "key": "color",
-          "value": "renk"
+          "value": "colore"
         },
         {
           "key": "shape",
-          "value": "şekil"
+          "value": "forma"
         },
         {
           "key": "small",
-          "value": "küçük"
+          "value": "piccolo"
         },
         {
           "key": "big",
-          "value": "büyük"
+          "value": "grande"
         },
         {
           "key": "food",
-          "value": "yiyecek"
+          "value": "cibo"
         },
         {
           "key": "water",
-          "value": "su"
+          "value": "acqua"
         },
         {
           "key": "exercise",
-          "value": "egzersiz"
+          "value": "esercizio"
         },
         {
           "key": "love",
-          "value": "sevgi"
+          "value": "amore"
         },
         {
           "key": "owner",
-          "value": "sahip"
+          "value": "proprietario"
         },
         {
           "key": "game",
-          "value": "oyun"
+          "value": "gioco"
         },
         {
           "key": "walk",
-          "value": "yürüyüş"
+          "value": "passeggiata"
         },
         {
           "key": "smart",
-          "value": "zeki"
+          "value": "intelligente"
         },
         {
           "key": "train",
-          "value": "eğitmek"
+          "value": "addestrare"
         },
         {
           "key": "help",
-          "value": "yardım"
+          "value": "aiutare"
         },
         {
           "key": "disabilities",
-          "value": "engeller"
+          "value": "disabilità"
         },
         {
           "key": "police",
-          "value": "polis"
+          "value": "polizia"
         },
         {
           "key": "farmer",
-          "value": "çiftçi"
+          "value": "agricoltore"
         },
         {
           "key": "protect",
-          "value": "korumak"
+          "value": "proteggere"
         },
         {
           "key": "property",
-          "value": "mülk"
+          "value": "proprietà"
         },
         {
           "key": "smell",
-          "value": "koku"
+          "value": "olfatto"
         },
         {
           "key": "hearing",
-          "value": "işitme"
+          "value": "udito"
         }
       ]
     },
     {
       "contentEn": "The sun is very important for life on Earth. It gives us light and heat. Without the sun, plants, animals, and humans would not survive. The sun helps plants grow, and plants give us food. The sun is also important for making the weather. In the morning, the sun rises, and at night, it sets. People like to spend time outside when the sun is shining. Sometimes, the sun can be too hot, so we need to wear sunscreen and hats to protect our skin.\n\nThe sun is a big ball of fire. It is very far from the Earth, but it still has a lot of energy. The sun’s light travels to Earth and makes the day bright. The sun is also important for helping us see things. Without the sun, we would live in darkness. Many animals also use the sun to find food and navigate their way around. The sun is very special, and we need to take care of it.",
-      "contentTr": "Güneş, Dünya'daki yaşam için çok önemlidir. Bize ışık ve ısı verir. Güneş olmadan bitkiler, hayvanlar ve insanlar hayatta kalamazdı. Güneş, bitkilerin büyümesine yardımcı olur ve bitkiler bize yiyecek verir. Güneş aynı zamanda havanın oluşmasında da önemlidir. Sabahları güneş doğar, gece ise batar. İnsanlar güneş parladığında dışarıda vakit geçirmekten hoşlanır. Bazen güneş çok sıcak olabilir, bu yüzden cildimizi korumak için güneş kremi ve şapka giymeliyiz.\n\nGüneş, büyük bir ateş topudur. Dünya'dan çok uzaktadır, ancak hala çok fazla enerjisi vardır. Güneşin ışığı Dünya'ya gelir ve günü aydınlatır. Güneş ayrıca şeyleri görmemize yardımcı olmak için de önemlidir. Güneş olmasaydı karanlıkta yaşardık. Birçok hayvan da yiyecek bulmak ve yollarını bulmak için güneşi kullanır. Güneş çok özeldir ve ona iyi bakmalıyız.",
+      "contentIt": "Il sole è molto importante per la vita sulla Terra. Ci dà luce e calore. Senza il sole, piante, animali e esseri umani non sopravviverebbero. Il sole aiuta le piante a crescere, e le piante ci danno cibo. Il sole è anche importante per creare il clima. Al mattino il sole sorge, e di notte tramonta. Le persone amano passare del tempo all'aperto quando il sole splende. A volte il sole può essere troppo caldo, quindi dobbiamo indossare la crema solare e un cappello per proteggere la pelle.\n\nIl sole è una grande palla di fuoco. È molto lontano dalla Terra, ma ha comunque molta energia. La luce del sole arriva sulla Terra e rende il giorno luminoso. Il sole è anche importante per aiutarci a vedere le cose. Senza il sole vivremmo nell'oscurità. Molti animali usano anche il sole per trovare cibo e orientarsi. Il sole è molto speciale e dobbiamo prendercene cura.",
       "title": "The Sun and Its Importance",
       "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2018/07/SolarFull_SeanDoran_2880FullwidthLede.jpg",
       "isNew": false,
@@ -1480,133 +1480,133 @@
       "words": [
         {
           "key": "sun",
-          "value": "güneş"
+          "value": "sole"
         },
         {
           "key": "important",
-          "value": "önemli"
+          "value": "importante"
         },
         {
           "key": "light",
-          "value": "ışık"
+          "value": "luce"
         },
         {
           "key": "heat",
-          "value": "ısı"
+          "value": "calore"
         },
         {
           "key": "survive",
-          "value": "hayatta kalmak"
+          "value": "sopravvivere"
         },
         {
           "key": "plants",
-          "value": "bitkiler"
+          "value": "piante"
         },
         {
           "key": "animals",
-          "value": "hayvanlar"
+          "value": "animali"
         },
         {
           "key": "humans",
-          "value": "insanlar"
+          "value": "esseri umani"
         },
         {
           "key": "grow",
-          "value": "büyümek"
+          "value": "crescere"
         },
         {
           "key": "food",
-          "value": "yiyecek"
+          "value": "cibo"
         },
         {
           "key": "weather",
-          "value": "hava"
+          "value": "clima"
         },
         {
           "key": "morning",
-          "value": "sabah"
+          "value": "mattina"
         },
         {
           "key": "rise",
-          "value": "doğmak"
+          "value": "sorgere"
         },
         {
           "key": "night",
-          "value": "gece"
+          "value": "notte"
         },
         {
           "key": "sets",
-          "value": "batmak"
+          "value": "tramonta"
         },
         {
           "key": "outside",
-          "value": "dışarı"
+          "value": "all'aperto"
         },
         {
           "key": "shine",
-          "value": "parlamak"
+          "value": "splendere"
         },
         {
           "key": "hot",
-          "value": "sıcak"
+          "value": "caldo"
         },
         {
           "key": "wear",
-          "value": "giymek"
+          "value": "indossare"
         },
         {
           "key": "sunscreen",
-          "value": "güneş kremi"
+          "value": "crema solare"
         },
         {
           "key": "hat",
-          "value": "şapka"
+          "value": "cappello"
         },
         {
           "key": "skin",
-          "value": "cilt"
+          "value": "pelle"
         },
         {
           "key": "ball",
-          "value": "top"
+          "value": "palla"
         },
         {
           "key": "fire",
-          "value": "ateş"
+          "value": "fuoco"
         },
         {
           "key": "far",
-          "value": "uzak"
+          "value": "lontano"
         },
         {
           "key": "energy",
-          "value": "enerji"
+          "value": "energia"
         },
         {
           "key": "day",
-          "value": "gün"
+          "value": "giorno"
         },
         {
           "key": "bright",
-          "value": "parlak"
+          "value": "luminoso"
         },
         {
           "key": "see",
-          "value": "görmek"
+          "value": "vedere"
         },
         {
           "key": "darkness",
-          "value": "karanlık"
+          "value": "oscurità"
         },
         {
           "key": "navigate",
-          "value": "yol bulmak"
+          "value": "orientarsi"
         }
       ]
     },
     {
       "contentEn": "Birds are fascinating animals that can be found all over the world. They are known for their feathers and ability to fly. Some birds can fly very high, while others stay closer to the ground. Birds eat a variety of foods such as seeds, insects, and small animals. They use their beaks to find food and build nests. Many birds migrate, traveling long distances to find warmer places in the winter. Birds come in all sizes, from tiny hummingbirds to large eagles. They are beautiful creatures that help keep nature in balance.\n\nBirds have special features that help them survive in different environments. Their wings are strong and help them fly through the air. Some birds, like penguins, cannot fly but are excellent swimmers. Birds also have good eyesight, which helps them find food and avoid danger. The song of a bird is a pleasant sound that many people enjoy. In many cultures, birds are seen as symbols of freedom and peace.",
-      "contentTr": "Kuşlar, dünyanın her yerinde bulunabilen ilginç hayvanlardır. Tüyleri ve uçma yetenekleri ile tanınırlar. Bazı kuşlar çok yüksek uçabilirken, diğerleri yere daha yakın kalır. Kuşlar, tohumlar, böcekler ve küçük hayvanlar gibi birçok farklı şey yerler. Yiyecek bulmak ve yuva yapmak için gagalarını kullanırlar. Birçok kuş göç eder, kışın daha sıcak yerler bulmak için uzun mesafeler katederler. Kuşlar, minik sinek kuşlarından büyük kartallara kadar her boyda olabilirler. Doğayı dengede tutmaya yardımcı olan güzel canlılardır.\n\nKuşlar, farklı ortamlar içinde hayatta kalmalarına yardımcı olan özel özelliklere sahiptir. Kanatları güçlüdür ve havada uçmalarına yardımcı olur. Penguenler gibi bazı kuşlar uçamaz, ancak mükemmel yüzücüdürler. Kuşlar ayrıca iyi bir görme yeteneğine sahiptir, bu da yiyecek bulmalarına ve tehlikelerden kaçınmalarına yardımcı olur. Bir kuşun şarkısı, birçok insanın hoşlandığı hoş bir sestir. Birçok kültürde, kuşlar özgürlük ve barışın sembolleri olarak görülür.",
+      "contentIt": "Gli uccelli sono animali affascinanti che si trovano in tutto il mondo. Sono noti per le loro piume e la capacità di volare. Alcuni uccelli possono volare molto in alto, mentre altri rimangono più vicini al suolo. Gli uccelli mangiano una varietà di alimenti come semi, insetti e piccoli animali. Usano il becco per trovare il cibo e costruire i nidi. Molti uccelli migrano, viaggiando per lunghe distanze alla ricerca di luoghi più caldi in inverno. Gli uccelli esistono in tutte le dimensioni, dai minuscoli colibrì alle grandi aquile. Sono creature bellissime che aiutano a mantenere l’equilibrio della natura.\n\nGli uccelli hanno caratteristiche speciali che li aiutano a sopravvivere in ambienti diversi. Le loro ali sono forti e li aiutano a volare nell’aria. Alcuni uccelli, come i pinguini, non possono volare ma sono ottimi nuotatori. Gli uccelli hanno anche una buona vista, che li aiuta a trovare il cibo e ad evitare i pericoli. Il canto di un uccello è un suono piacevole che molte persone apprezzano. In molte culture, gli uccelli sono visti come simboli di libertà e pace.",
       "title": "Birds: Fascinating Creatures",
       "imageUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1warLQ.img?w=768&h=432&m=6",
       "isNew": false,
@@ -1616,125 +1616,121 @@
       "words": [
         {
           "key": "Birds",
-          "value": "kuşlar"
+          "value": "uccelli"
         },
         {
           "key": "fascinating",
-          "value": "ilginç"
+          "value": "affascinante"
         },
         {
           "key": "animals",
-          "value": "hayvanlar"
+          "value": "animali"
         },
         {
           "key": "feathers",
-          "value": "tüyler"
+          "value": "piume"
         },
         {
           "key": "fly",
-          "value": "uçmak"
+          "value": "volare"
         },
         {
           "key": "high",
-          "value": "yüksek"
+          "value": "alto"
         },
         {
           "key": "ground",
-          "value": "yer"
+          "value": "terra"
         },
         {
           "key": "eat",
-          "value": "yemek"
+          "value": "mangiare"
         },
         {
           "key": "seeds",
-          "value": "tohumlar"
+          "value": "semi"
         },
         {
           "key": "insects",
-          "value": "böcekler"
+          "value": "insetti"
         },
         {
           "key": "small",
-          "value": "küçük"
-        },
-        {
-          "key": "animals",
-          "value": "hayvanlar"
+          "value": "piccolo"
         },
         {
           "key": "beaks",
-          "value": "gagalar"
+          "value": "becchi"
         },
         {
           "key": "nests",
-          "value": "yuvalar"
+          "value": "nidi"
         },
         {
           "key": "migrate",
-          "value": "göç etmek"
+          "value": "migrare"
         },
         {
           "key": "distances",
-          "value": "mesafeler"
+          "value": "distanze"
         },
         {
           "key": "warmer",
-          "value": "daha sıcak"
+          "value": "più caldo"
         },
         {
           "key": "sizes",
-          "value": "boyutlar"
+          "value": "dimensioni"
         },
         {
           "key": "hummingbirds",
-          "value": "sinek kuşları"
+          "value": "colibrì"
         },
         {
           "key": "eagles",
-          "value": "kartallar"
+          "value": "aquile"
         },
         {
           "key": "beautiful",
-          "value": "güzel"
+          "value": "bello"
         },
         {
           "key": "balance",
-          "value": "denge"
+          "value": "equilibrio"
         },
         {
           "key": "survive",
-          "value": "hayatta kalmak"
+          "value": "sopravvivere"
         },
         {
           "key": "wings",
-          "value": "kanatlar"
+          "value": "ali"
         },
         {
           "key": "swimmers",
-          "value": "yüzücüler"
+          "value": "nuotatori"
         },
         {
           "key": "eyesight",
-          "value": "görme yeteneği"
+          "value": "vista"
         },
         {
           "key": "song",
-          "value": "şarkı"
+          "value": "canto"
         },
         {
           "key": "freedom",
-          "value": "özgürlük"
+          "value": "libertà"
         },
         {
           "key": "peace",
-          "value": "barış"
+          "value": "pace"
         }
       ]
     },
     {
       "contentEn": "Inflation is when the prices of goods and services rise over time. This means that the money you have will not buy as much as before. Inflation can happen for many reasons, like when there is too much money in the economy or when the cost of materials goes up. Inflation affects everyone, especially people who do not have a lot of money. They may find it harder to buy food, clothes, and other things. Governments try to control inflation by making rules about money and prices.\n\nIn some countries, inflation is very high, and the cost of living becomes too expensive. In other countries, inflation is low, and people can buy more with their money. It is important for governments to manage inflation well so that everyone can live comfortably. When inflation is too high, it can cause problems like job loss and lower wages. So, managing inflation is a key part of a country’s economy.",
-      "contentTr": "Enflasyon, mal ve hizmet fiyatlarının zamanla artmasıdır. Bu, sahip olduğunuz paranın eskisi kadar çok şey almayacağı anlamına gelir. Enflasyon, ekonomide fazla para olduğunda veya malzeme maliyetleri arttığında gibi birçok nedenden dolayı olabilir. Enflasyon herkesi etkiler, özellikle çok parası olmayan insanları. Gıda, giysi ve diğer şeyleri almak daha zor olabilir. Hükümetler, para ve fiyatlarla ilgili kurallar koyarak enflasyonu kontrol etmeye çalışır.\n\nBazı ülkelerde enflasyon çok yüksektir ve yaşam maliyeti çok pahalı hale gelir. Diğer ülkelerde ise enflasyon düşüktür ve insanlar paralarıyla daha fazla şey alabilirler. Hükümetlerin enflasyonu iyi yönetmeleri önemlidir, böylece herkes rahatça yaşayabilir. Enflasyon çok yüksek olduğunda, iş kaybı ve düşük maaşlar gibi problemler ortaya çıkabilir. Bu yüzden, enflasyonu yönetmek, bir ülkenin ekonomisinin ana parçasıdır.",
+      "contentIt": "L'inflazione è quando i prezzi dei beni e dei servizi aumentano nel tempo. Questo significa che il denaro che hai non può comprare quanto prima. L'inflazione può verificarsi per molte ragioni, ad esempio quando c'è troppo denaro nell'economia o quando aumentano i costi dei materiali. L'inflazione colpisce tutti, soprattutto le persone che non hanno molti soldi. Potrebbero trovare più difficile comprare cibo, vestiti e altre cose. I governi cercano di controllare l'inflazione stabilendo regole su denaro e prezzi.\n\nIn alcuni paesi, l'inflazione è molto alta e il costo della vita diventa troppo caro. In altri paesi, l'inflazione è bassa e le persone possono comprare di più con il loro denaro. È importante che i governi gestiscano bene l'inflazione affinché tutti possano vivere comodamente. Quando l'inflazione è troppo alta, può causare problemi come la perdita di lavoro e salari più bassi. Quindi, gestire l'inflazione è una parte fondamentale dell'economia di un paese.",
       "title": "Inflation and Prices",
       "imageUrl": "https://i.cbc.ca/1.6362279.1690827774!/fileImage/httpImage/inflation.jpg",
       "isNew": false,
@@ -1744,69 +1740,69 @@
       "words": [
         {
           "key": "Inflation",
-          "value": "enflasyon"
+          "value": "inflazione"
         },
         {
           "key": "prices",
-          "value": "fiyatlar"
+          "value": "prezzi"
         },
         {
           "key": "goods",
-          "value": "mallar"
+          "value": "beni"
         },
         {
           "key": "services",
-          "value": "hizmetler"
+          "value": "servizi"
         },
         {
           "key": "money",
-          "value": "para"
+          "value": "denaro"
         },
         {
           "key": "economy",
-          "value": "ekonomi"
+          "value": "economia"
         },
         {
           "key": "material",
-          "value": "malzeme"
+          "value": "materiale"
         },
         {
           "key": "affect",
-          "value": "etkilemek"
+          "value": "influenzare"
         },
         {
           "key": "expensive",
-          "value": "pahalı"
+          "value": "costoso"
         },
         {
           "key": "buy",
-          "value": "almak"
+          "value": "comprare"
         },
         {
           "key": "rules",
-          "value": "kurallar"
+          "value": "regole"
         },
         {
           "key": "living",
-          "value": "yaşam"
+          "value": "vita"
         },
         {
           "key": "comfortable",
-          "value": "rahat"
+          "value": "comodo"
         },
         {
           "key": "job",
-          "value": "iş"
+          "value": "lavoro"
         },
         {
           "key": "wages",
-          "value": "maaşlar"
+          "value": "salari"
         }
       ]
     },
     {
       "contentEn": "Traditional food is an important part of every culture. Each country has its own special dishes that are passed down from generation to generation. In many countries, families gather together to enjoy these traditional meals. For example, in Italy, people eat pasta and pizza, which are famous around the world. In Japan, sushi is a popular dish made with rice and fish. Traditional food is not just about eating; it is a way of celebrating a culture’s history and traditions. It also brings people together to share meals and memories.\n\nFood is a big part of festivals and celebrations. During holidays, special foods are prepared, like turkey for Thanksgiving in the United States or sweets for Diwali in India. Traditional food helps people feel connected to their ancestors and heritage. It is an important part of a country’s identity. Eating traditional food is a way to honor the past and enjoy the present.",
-      "contentTr": "Geleneksel yemekler, her kültürün önemli bir parçasıdır. Her ülkenin, kuşaktan kuşağa aktarılan özel yemekleri vardır. Birçok ülkede, aileler bu geleneksel yemekleri birlikte yemek için toplanır. Örneğin, İtalya'da insanlar dünyada ünlü olan makarna ve pizza yerler. Japonya'da ise sushi, pirinç ve balıktan yapılan popüler bir yemektir. Geleneksel yemekler, sadece yemek yemekle ilgili değildir; bir kültürün tarihini ve geleneklerini kutlamanın bir yoludur. Ayrıca, insanları bir araya getirerek yemekler ve anılar paylaşmalarına yardımcı olur.\n\nYemekler, festivaller ve kutlamalar için büyük bir yer tutar. Tatil günlerinde, özel yemekler hazırlanır, örneğin Amerika Birleşik Devletleri'nde Şükran Günü'nde hindi, Hindistan'da ise Diwali için tatlılar hazırlanır. Geleneksel yemekler, insanlara atalarına ve miraslarına bağlanma duygusu verir. Bir ülkenin kimliğinin önemli bir parçasıdır. Geleneksel yemekleri yemek, geçmişi onurlandırmak ve şimdiki zamanı kutlamak için bir yoldur.",
+      "contentIt": "Il cibo tradizionale è una parte importante di ogni cultura. Ogni paese ha i suoi piatti speciali che vengono tramandati di generazione in generazione. In molti paesi, le famiglie si riuniscono per gustare questi pasti tradizionali. Ad esempio, in Italia si mangiano pasta e pizza, famosi in tutto il mondo. In Giappone, il sushi è un piatto popolare fatto con riso e pesce. Il cibo tradizionale non è solo questione di mangiare; è un modo per celebrare la storia e le tradizioni di una cultura. Inoltre, riunisce le persone per condividere pasti e ricordi.\n\nIl cibo è una parte fondamentale di festival e celebrazioni. Durante le festività si preparano cibi speciali, come il tacchino per il Giorno del Ringraziamento negli Stati Uniti o i dolci per il Diwali in India. Il cibo tradizionale aiuta le persone a sentirsi connesse con i loro antenati e il loro patrimonio culturale. È una parte importante dell'identità di un paese. Mangiare cibo tradizionale è un modo per onorare il passato e godere del presente.",
       "title": "Traditional Food Around the World",
       "imageUrl": "https://cdn.tasteatlas.com/static/map_entire2.png?m=facebook",
       "isNew": false,
@@ -1816,67 +1812,67 @@
       "words": [
         {
           "key": "Traditional",
-          "value": "geleneksel"
+          "value": "tradizionale"
         },
         {
           "key": "food",
-          "value": "yemek"
+          "value": "cibo"
         },
         {
           "key": "culture",
-          "value": "kültür"
+          "value": "cultura"
         },
         {
           "key": "special",
-          "value": "özel"
+          "value": "speciale"
         },
         {
           "key": "dishes",
-          "value": "yemekler"
+          "value": "piatti"
         },
         {
           "key": "generation",
-          "value": "kuşak"
+          "value": "generazione"
         },
         {
           "key": "family",
-          "value": "aile"
+          "value": "famiglia"
         },
         {
           "key": "gather",
-          "value": "toplanmak"
+          "value": "riunirsi"
         },
         {
           "key": "eat",
-          "value": "yemek yemek"
+          "value": "mangiare"
         },
         {
           "key": "example",
-          "value": "örnek"
+          "value": "esempio"
         },
         {
           "key": "famous",
-          "value": "ünlü"
+          "value": "famoso"
         },
         {
           "key": "rice",
-          "value": "pirinç"
+          "value": "riso"
         },
         {
           "key": "fish",
-          "value": "balık"
+          "value": "pesce"
         },
         {
           "key": "celebrate",
-          "value": "kutlamak"
+          "value": "celebrare"
         },
         {
           "key": "history",
-          "value": "tarih"
+          "value": "storia"
         },
         {
           "key": "tradition",
-          "value": "gelenek"
+          "value": "tradizione"
         },
         {
           "key": "festival",
@@ -1884,29 +1880,29 @@
         },
         {
           "key": "holiday",
-          "value": "tatil"
+          "value": "vacanza"
         },
         {
           "key": "prepared",
-          "value": "hazırlanmış"
+          "value": "preparato"
         },
         {
           "key": "connected",
-          "value": "bağlantılı"
+          "value": "connesso"
         },
         {
           "key": "identity",
-          "value": "kimlik"
+          "value": "identità"
         },
         {
           "key": "honor",
-          "value": "onurlandırmak"
+          "value": "onorare"
         }
       ]
     },
     {
       "contentEn": "Climate change is a serious issue affecting the world. It happens because of pollution from factories and cars. When we burn things like coal and oil, harmful gases go into the air, making the planet warmer. This causes problems like hotter temperatures, melting ice, and stronger storms. Some areas are becoming too hot, while others face heavy rain and floods. To help stop climate change, we need to reduce pollution. We can do this by using less energy, driving less, and recycling. Countries are also trying to use clean energy, like wind and solar power, to help the environment.",
-      "contentTr": "İklim değişikliği, dünyayı etkileyen ciddi bir sorundur. Fabrikalardan ve araçlardan gelen kirlilik nedeniyle olur. Kömür ve petrol gibi şeyler yaktığımızda zararlı gazlar havaya karışır ve gezegenin ısınmasına neden olur. Bu, daha sıcak hava, eriyen buzullar ve daha güçlü fırtınalar gibi sorunlara yol açar. Bazı bölgeler çok sıcak hale gelirken, diğerleri ağır yağmur ve sel ile karşılaşıyor. İklim değişikliğini durdurmak için, kirliliği azaltmalıyız. Bunu daha az enerji kullanarak, daha az araba kullanarak ve geri dönüştürerek yapabiliriz. Ülkeler, çevreyi korumak için rüzgar ve güneş enerjisi gibi temiz enerji kullanmaya çalışıyorlar.",
+      "contentIt": "Il cambiamento climatico è un problema serio che colpisce il mondo. Succede a causa dell'inquinamento proveniente da fabbriche e automobili. Quando bruciamo cose come carbone e petrolio, gas nocivi entrano nell'aria, riscaldando il pianeta. Questo causa problemi come temperature più alte, scioglimento dei ghiacci e tempeste più forti. Alcune aree stanno diventando troppo calde, mentre altre affrontano piogge intense e inondazioni. Per aiutare a fermare il cambiamento climatico, dobbiamo ridurre l'inquinamento. Possiamo farlo usando meno energia, guidando di meno e riciclando. I paesi stanno anche cercando di utilizzare energia pulita, come quella eolica e solare, per aiutare l'ambiente.",
       "title": "Climate Change: A Global Problem",
       "imageUrl": "https://miro.medium.com/v2/resize:fit:1080/1*t3keC7vIITHzPf1aGs54jg.jpeg",
       "isNew": false,
@@ -1916,119 +1912,119 @@
       "words": [
         {
           "key": "Climate",
-          "value": "iklim"
+          "value": "clima"
         },
         {
           "key": "change",
-          "value": "değişiklik"
+          "value": "cambiamento"
         },
         {
           "key": "serious",
-          "value": "ciddi"
+          "value": "serio"
         },
         {
           "key": "issue",
-          "value": "sorun"
+          "value": "problema"
         },
         {
           "key": "affecting",
-          "value": "etkileyen"
+          "value": "che colpisce"
         },
         {
           "key": "world",
-          "value": "dünya"
+          "value": "mondo"
         },
         {
           "key": "pollution",
-          "value": "kirlilik"
+          "value": "inquinamento"
         },
         {
           "key": "factories",
-          "value": "fabrikalar"
+          "value": "fabbriche"
         },
         {
           "key": "cars",
-          "value": "arabalar"
+          "value": "automobili"
         },
         {
           "key": "burn",
-          "value": "yakmak"
+          "value": "bruciare"
         },
         {
           "key": "coal",
-          "value": "kömür"
+          "value": "carbone"
         },
         {
           "key": "oil",
-          "value": "petrol"
+          "value": "petrolio"
         },
         {
           "key": "harmful",
-          "value": "zararlı"
+          "value": "nocivo"
         },
         {
           "key": "gases",
-          "value": "gazlar"
+          "value": "gas"
         },
         {
           "key": "air",
-          "value": "hava"
+          "value": "aria"
         },
         {
           "key": "warmer",
-          "value": "daha sıcak"
+          "value": "più caldo"
         },
         {
           "key": "temperatures",
-          "value": "sıcaklıklar"
+          "value": "temperature"
         },
         {
           "key": "melting",
-          "value": "erime"
+          "value": "scioglimento"
         },
         {
           "key": "ice",
-          "value": "buz"
+          "value": "ghiaccio"
         },
         {
           "key": "stronger",
-          "value": "daha güçlü"
+          "value": "più forti"
         },
         {
           "key": "storms",
-          "value": "fırtınalar"
+          "value": "tempeste"
         },
         {
           "key": "areas",
-          "value": "bölgeler"
+          "value": "aree"
         },
         {
           "key": "floods",
-          "value": "seller"
+          "value": "inondazioni"
         },
         {
           "key": "reduce",
-          "value": "azaltmak"
+          "value": "ridurre"
         },
         {
           "key": "energy",
-          "value": "enerji"
+          "value": "energia"
         },
         {
           "key": "recycling",
-          "value": "geri dönüşüm"
+          "value": "riciclaggio"
         },
         {
           "key": "clean",
-          "value": "temiz"
+          "value": "pulita"
         },
         {
           "key": "wind",
-          "value": "rüzgar"
+          "value": "vento"
         },
         {
           "key": "solar",
-          "value": "güneş"
+          "value": "solare"
         }
       ]
     }
