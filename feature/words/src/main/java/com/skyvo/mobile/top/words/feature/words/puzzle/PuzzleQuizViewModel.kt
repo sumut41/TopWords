@@ -164,7 +164,7 @@ class PuzzleQuizViewModel @Inject constructor(
             courseWordRepository.updateCourse(
                 id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = if (state.value.correctCount >= ((state.value.wordList?.size ?: 1) - 1)) 1f else (if (currentProgress == 0.75f) 0.80f else currentProgress)
+                progress = if (state.value.correctCount >= ((state.value.wordList?.size ?: 1) - 1)) 1f else (if (currentProgress == 0.80f) 0.90f else currentProgress)
             )
             delay(100)
             if (isBack) {

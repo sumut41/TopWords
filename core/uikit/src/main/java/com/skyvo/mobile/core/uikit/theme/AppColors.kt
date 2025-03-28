@@ -64,7 +64,8 @@ data class AppCoreColorScheme(
     val colorBeginner: Color = Color.Unspecified,
     val colorIntermediate: Color = Color.Unspecified,
     val colorAdvanced: Color = Color.Unspecified,
-    val colorTextLevelCard: Color = Color.Unspecified
+    val colorTextLevelCard: Color = Color.Unspecified,
+    val colorHighLightRed: Color = Color.Unspecified,
 )
 
 val AppLightColors = AppCoreColorScheme(
@@ -128,7 +129,8 @@ val AppLightColors = AppCoreColorScheme(
     colorBeginner = Color(0xFFE6F5F3),
     colorIntermediate = Color(0xFFE6F7FE),
     colorAdvanced = Color(0xFFFAF0ED),
-    colorTextLevelCard = Color(0xFF31363F)
+    colorTextLevelCard = Color(0xFF31363F),
+    colorHighLightRed = Color(0xFFD73245),
 )
 
 val AppDarkColors = AppCoreColorScheme(
@@ -192,7 +194,8 @@ val AppDarkColors = AppCoreColorScheme(
     colorBeginner = Color(0xFFE3316F),
     colorIntermediate = Color(0xFF197BEF),
     colorAdvanced = Color(0xFF965FFD),
-    colorTextLevelCard = Color(0xFFFFFFFE)
+    colorTextLevelCard = Color(0xFFFFFFFE),
+    colorHighLightRed = Color(0xFF810919),
 )
 
 val LocalAppColor = staticCompositionLocalOf { AppCoreColorScheme() }

@@ -1,15 +1,12 @@
 package com.skyvo.mobile.top.words.feature.words.mearning
 
-import android.os.Bundle
 import androidx.lifecycle.viewModelScope
 import com.skyvo.mobile.core.base.manager.AppWordTranslateItem
-import com.skyvo.mobile.core.base.manager.LevelType
-import com.skyvo.mobile.core.base.manager.UserManager
 import com.skyvo.mobile.core.base.navigation.NavDeeplinkDestination
 import com.skyvo.mobile.core.base.viewmodel.BaseComposeViewModel
 import com.skyvo.mobile.core.database.course.CourseWordRepository
+import com.skyvo.mobile.core.database.word.WordEntity
 import com.skyvo.mobile.core.database.word.WordRepository
-import com.skyvo.mobile.core.shared.extension.convertJsonToList
 import com.skyvo.mobile.top.words.feature.words.R
 import com.skyvo.mobile.top.words.feature.words.sentence.SentenceQuizModel
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -18,69 +15,20 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class FindMeaningQuizViewModel @Inject constructor(
+class ReverseMeaningQuizViewModel @Inject constructor(
     private val courseWordRepository: CourseWordRepository,
-    private val wordRepository: WordRepository,
-    private val userManager: UserManager
-) : BaseComposeViewModel<FindMeaningQuizUIState>() {
+    private val wordRepository: WordRepository
+) : BaseComposeViewModel<ReverseMeaningQuizUIState>() {
 
     private var currentProgress: Float = 0.0f
     private var isSingleJustQuiz: Boolean = false
 
-    override fun setInitialState(): FindMeaningQuizUIState {
-        return FindMeaningQuizUIState()
+    override fun setInitialState(): ReverseMeaningQuizUIState {
+        return ReverseMeaningQuizUIState()
     }
 
-    override fun fetchExtras(extra: Bundle) {
-        super.fetchExtras(extra)
-        with(FindMeaningQuizFragmentArgs.fromBundle(extra)) {
-            isSingleJustQuiz = isSingleQuiz
-            if (isSingleQuiz) {
-                getRandomLearnWord()
-            } else {
-                getCurrentCourse()
-            }
-        }
-    }
-
-    private fun getRandomLearnWord() {
-        setState {
-            copy(
-                isSingleQuiz = true
-            )
-        }
-        val questionList: ArrayList<SentenceQuizModel> = arrayListOf()
-        viewModelScope.launch {
-            showLoading()
-            wordRepository.getRandomLevelWordList(
-                level = getLevel().orEmpty(),
-                languageCode = userManager.learnLanguage?.code.orEmpty()
-            ).collect {
-                it?.forEach { word ->
-                    questionList.add(
-                        SentenceQuizModel(
-                            word = word.word.orEmpty(),
-                            question = word.translate.orEmpty(),
-                            questionTranslate = "Anlamına uygun seçeneği seç.",
-                            answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()
-                                ?.shuffled()?.shuffled()
-                        )
-                    )
-                }
-
-                questionList.shuffled().shuffled()
-                setState {
-                    copy(
-                        wordIdListSize = questionList.size,
-                        items = questionList,
-                        unCorrectCount = 0,
-                        currentQuestion = questionList.first()
-                    )
-                }
-            }
-
-            removeAllLoading()
-        }
+    init {
+        getCurrentCourse()
     }
 
     private fun getCurrentCourse() {
@@ -103,34 +51,57 @@ class FindMeaningQuizViewModel @Inject constructor(
     private fun getWordList(wordIds: String?) {
         viewModelScope.launch {
             val questionList: ArrayList<SentenceQuizModel> = arrayListOf()
+            val wordList: ArrayList<WordEntity> = arrayListOf()
             val wordIdList = (wordIds?.split(","))
-            wordIdList?.let { list ->
-                list.shuffled().forEach { id ->
-                    wordRepository.getStudyWord(id.toLong()).collect {
-                        it?.let { word ->
-                            questionList.add(
-                                SentenceQuizModel(
-                                    word = word.word.orEmpty(),
-                                    question = word.translate.orEmpty(),
-                                    answerList = word.translateList?.convertJsonToList<AppWordTranslateItem>()
-                                        ?.shuffled()?.shuffled()
-                                )
-                            )
-                        }
+            wordIdList?.forEach { id ->
+                wordRepository.getStudyWord(id.toLong()).collect {
+                    it?.let { word ->
+                        wordList.add(word)
                     }
                 }
-                questionList.shuffled().shuffled()
-                setState {
-                    copy(
-                        wordIdListSize = wordIdList.size,
-                        items = questionList,
-                        unCorrectCount = wordIdList.size - questionList.size,
-                        currentQuestion = questionList.first()
-                    )
-                }
             }
-            removeAllLoading()
+
+            wordList.forEach { word ->
+                questionList.add(
+                    SentenceQuizModel(
+                        word = word.translate.orEmpty(),
+                        question = word.word.orEmpty(),
+                        answerList = getAnswerList(wordList, word.translate.orEmpty()).shuffled().shuffled()
+                    )
+                )
+            }
+
+            questionList.shuffled().shuffled()
+            setState {
+                copy(
+                    wordIdListSize = wordIdList.orEmpty().size,
+                    items = questionList,
+                    unCorrectCount = wordIdList.orEmpty().size - questionList.size,
+                    currentQuestion = questionList.first()
+                )
+            }
         }
+        removeAllLoading()
+    }
+
+    private fun getAnswerList(wordList: ArrayList<WordEntity>, word: String): List<AppWordTranslateItem> {
+        val list: ArrayList<AppWordTranslateItem> = arrayListOf()
+
+        wordList.filter { x -> x.translate != word }.shuffled().take(3).forEach {
+            list.add(
+                AppWordTranslateItem(
+                    label = it.translate,
+                    isCorrect = false
+                )
+            )
+        }
+        list.add(
+            AppWordTranslateItem(
+                label = word,
+                isCorrect = true
+            )
+        )
+        return list
     }
 
     fun selectAnswer(answer: String, isCorrect: Boolean?) {
@@ -227,7 +198,7 @@ class FindMeaningQuizViewModel @Inject constructor(
                     isStart = true,
                     progress = if (state.value.correctCount >= ((state.value.items?.size
                             ?: 1) - 1) && state.value.unCorrectCount == 0
-                    ) 0.40f else (if (currentProgress == 0.20f) 0.30f else currentProgress)
+                    ) 0.60f else (if (currentProgress == 0.40f) 0.50f else currentProgress)
                 )
                 delay(100)
                 if (isBack) {
@@ -243,15 +214,6 @@ class FindMeaningQuizViewModel @Inject constructor(
                     )
                 }
             }
-        }
-    }
-
-    private fun getLevel(): String? {
-        return when (userManager.customerLevel?.type) {
-            "A1", "A2" -> LevelType.BEGINNER.key
-            "B1", "B2" -> LevelType.INTERMEDIATE.key
-            "C1", "C2" -> LevelType.ADVANCED.key
-            else -> LevelType.BEGINNER.key
         }
     }
 }

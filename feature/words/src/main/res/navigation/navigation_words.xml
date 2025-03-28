@@ -64,6 +64,9 @@
         <action
             android:id="@+id/action_statusFragment_to_puzzleQuizFragment"
             app:destination="@id/puzzleQuizFragment" />
+        <action
+            android:id="@+id/action_statusFragment_to_reverseMeaningQuizFragment"
+            app:destination="@id/reverseMeaningQuizFragment" />
 
     </fragment>
     <fragment
@@ -80,6 +83,9 @@
         <action
             android:id="@+id/action_findMeaningQuizFragment_to_puzzleQuizFragment"
             app:destination="@id/puzzleQuizFragment" />
+        <action
+            android:id="@+id/action_findMeaningQuizFragment_to_reverseMeaningQuizFragment"
+            app:destination="@id/reverseMeaningQuizFragment" />
     </fragment>
     <fragment
         android:id="@+id/puzzleQuizFragment"
@@ -124,6 +130,9 @@
             app:destination="@id/puzzleQuizFragment"
             app:popUpTo="@id/wordsDashboardFragment"
             app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_resultWordFragment_to_reverseMeaningQuizFragment"
+            app:destination="@id/reverseMeaningQuizFragment" />
 
     </fragment>
 
@@ -140,5 +149,9 @@
         android:id="@+id/sentenceArrangeFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.sentence.SentenceArrangeFragment"
         android:label="SentenceArrangeFragment" />
+    <fragment
+        android:id="@+id/reverseMeaningQuizFragment"
+        android:name="com.skyvo.mobile.top.words.feature.words.mearning.ReverseMeaningQuizFragment"
+        android:label="ReverseMeaningQuizFragment" />
 
 </navigation>

@@ -33,39 +33,53 @@ class StatusViewModel @Inject constructor(
                         )
                     }
                     delay(100)
-                    if (course.progress < 0.25f) {
+                    if (course.progress < 0.20f) {
                         setState {
                             copy(
                                 isWordCardCompleted = false,
                                 isBlankFillQuizCompleted = false,
                                 isTranslateQuizCompleted = false,
-                                isWriteQuizCompleted = false
+                                isWriteQuizCompleted = false,
+                                isReverseQuizCompleted = false
                             )
                         }
-                    } else  if (course.progress < 0.50f) {
+                    } else  if (course.progress < 0.40f) {
                         setState {
                             copy(
                                 isWordCardCompleted = true,
+                                isReverseQuizCompleted = false,
                                 isBlankFillQuizCompleted = false,
                                 isTranslateQuizCompleted = false,
                                 isWriteQuizCompleted = false
                             )
                         }
-                    } else  if (course.progress < 0.70f) {
+                    } else  if (course.progress < 0.60f) {
                         setState {
                             copy(
                                 isWordCardCompleted = true,
-                                isBlankFillQuizCompleted = true,
-                                isTranslateQuizCompleted = false,
-                                isWriteQuizCompleted = false
+                                isTranslateQuizCompleted = true,
+                                isBlankFillQuizCompleted = false,
+                                isWriteQuizCompleted = false,
+                                isReverseQuizCompleted = false
                             )
                         }
-                    } else  if (course.progress > 0.70f && course.progress < 1f) {
+                    } else  if (course.progress < 0.80f) {
                         setState {
                             copy(
                                 isWordCardCompleted = true,
-                                isBlankFillQuizCompleted = true,
                                 isTranslateQuizCompleted = true,
+                                isBlankFillQuizCompleted = false,
+                                isWriteQuizCompleted = false,
+                                isReverseQuizCompleted = true
+                            )
+                        }
+                    } else  if (course.progress > 0.80f && course.progress < 1f) {
+                        setState {
+                            copy(
+                                isWordCardCompleted = true,
+                                isBlankFillQuizCompleted = false,
+                                isTranslateQuizCompleted = true,
+                                isReverseQuizCompleted = true,
                                 isWriteQuizCompleted = false
                             )
                         }
@@ -75,7 +89,8 @@ class StatusViewModel @Inject constructor(
                                 isWordCardCompleted = true,
                                 isBlankFillQuizCompleted = true,
                                 isTranslateQuizCompleted = true,
-                                isWriteQuizCompleted = true
+                                isWriteQuizCompleted = true,
+                                isReverseQuizCompleted = true
                             )
                         }
                     }
@@ -86,12 +101,14 @@ class StatusViewModel @Inject constructor(
 
     fun next() {
         val progress = state.value.currentCourse?.progress ?: 0f
-        if (progress < 0.25f) {
+        if (progress < 0.20f) {
             navigate(StatusFragmentDirections.actionStatusFragmentToFlashCardFragment())
-        } else if (progress < 0.50f) {
-            navigate(StatusFragmentDirections.actionStatusFragmentToSentenceQuizFragment())
-        } else if (progress < 0.75f) {
+        } else if (progress < 0.40f) {
             navigate(StatusFragmentDirections.actionStatusFragmentToFindMeaningQuizFragment())
+        } else if (progress < 0.60f) {
+            navigate(StatusFragmentDirections.actionStatusFragmentToReverseMeaningQuizFragment())
+        } else if (progress < 0.80f) {
+            navigate(StatusFragmentDirections.actionStatusFragmentToSentenceQuizFragment())
         } else if (progress < 1f){
             navigate(StatusFragmentDirections.actionStatusFragmentToPuzzleQuizFragment())
         } else {

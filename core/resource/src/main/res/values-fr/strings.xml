@@ -22,7 +22,7 @@
     <string name="goal_daily_min">%s min/jour</string>
     <string name="goal_start_learning_button">Commencer l\'apprentissage</string>
     <string name="data_loader_loading_title">le chargement</string>
-    <string name="data_loader_description">Nous organisons le cours %s pour vous.</string>
+    <string name="data_loader_description">Nous organisons le cours anglais pour vous.</string>
     <string name="books_title">LIVRES</string>
     <string name="search">Rechercher</string>
     <string name="books_search_fragment_title">Recherche de livres</string>
@@ -76,6 +76,7 @@
     <string name="i_know_word_dialog_message">Ce mot sera supprimé de votre liste d\'apprentissage. Êtes-vous d\'accord?</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
-    <string name="quiz_sentence_nail_tag">"%s"</string>
+    <string name="quiz_sentence_nail_tag">\"%s\"</string>
     <string name="quiz_find_meaning_title">Trouvez le sens !</string>
+    <string name="reverse_meaning_label">Signification inversée</string>
 </resources>

@@ -101,7 +101,7 @@ class FlashCardViewModel @Inject constructor(
             courseWordRepository.updateCourse(
                 id = state.value.courseId ?: 0L,
                 isStart = true,
-                progress = 0.25f
+                progress = 0.20f
             )
             navigate(
                 navDeepLink = NavDeeplinkDestination.ResultWord(

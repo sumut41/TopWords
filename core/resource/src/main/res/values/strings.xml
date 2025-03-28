@@ -22,7 +22,7 @@
     <string name="goal_daily_min">%s min/day</string>
     <string name="goal_start_learning_button">Start learning</string>
     <string name="data_loader_loading_title">Loading.</string>
-    <string name="data_loader_description">We organize the %s course for you.</string>
+    <string name="data_loader_description">We organize the english course for you.</string>
     <string name="books_title">BOOKS</string>
     <string name="search">Search</string>
     <string name="books_search_fragment_title">Book Search</string>
@@ -69,13 +69,14 @@
     <string name="advanced_title">Advanced</string>
     <string name="intermediate_title">Intermediate</string>
     <string name="beginner_title">Beginner</string>
-    <string name="top_words">Bleng</string>
+    <string name="top_words">vocaboost</string>
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Complete the sentence!</string>
     <string name="quiz_word_title">Today\'s word completion test!</string>
     <string name="i_know_word_dialog_message">This word will be removed from your learning list. Do you approve?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="quiz_sentence_nail_tag">"%s"</string>
+    <string name="quiz_sentence_nail_tag">\"%s\"</string>
     <string name="quiz_find_meaning_title">Find the meaning!</string>
+    <string name="reverse_meaning_label">Reverse Meaning</string>
 </resources>

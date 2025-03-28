@@ -7,6 +7,7 @@ data class StatusUIState (
     val currentCourse: CourseWordEntity? = null,
     val isWordCardCompleted: Boolean = false,
     val isWriteQuizCompleted: Boolean = false,
+    val isReverseQuizCompleted: Boolean = false,
     val isTranslateQuizCompleted: Boolean = false,
     val isBlankFillQuizCompleted: Boolean = false
 ): UIState

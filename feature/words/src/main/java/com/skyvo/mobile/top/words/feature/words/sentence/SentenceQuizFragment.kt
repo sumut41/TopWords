@@ -1,11 +1,19 @@
 package com.skyvo.mobile.top.words.feature.words.sentence
 
+import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInHorizontally
+import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.animation.with
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -44,6 +52,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
         }
     }
 
+    @OptIn(ExperimentalAnimationApi::class)
     @Composable
     private fun ContentView(viewModel: SentenceQuizViewModel) {
 
@@ -57,7 +66,7 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
             }
         }
 
-        val speaker = remember { Pronouncer(requireContext(), state.learnLanguageCode.orEmpty()) }
+        val speaker = remember { Pronouncer(requireContext()) }
 
         AppPrimaryTheme {
             AppScaffold(
@@ -85,75 +94,93 @@ class SentenceQuizFragment : BaseComposeFragment<SentenceQuizViewModel>() {
                     }
                 }
             ) {
-                LazyColumn(
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-
-                    item {
-                        Box (
-                            modifier = Modifier
-                                .background(
-                                    color = LocalAppColor.current.colorAnswerError.copy(alpha = 0.8f),
-                                    shape = RoundedCornerShape(AppDimension.default.dp6)
-                                )
+                if (state.currentQuestion != null) {
+                    AnimatedContent(
+                        targetState = state.currentQuestion,
+                        transitionSpec = {
+                            slideInHorizontally(
+                                animationSpec = tween(500)
+                            ) { width -> width } with
+                                    slideOutHorizontally(
+                                        animationSpec = tween(500)
+                                    ) { width -> -width } + fadeOut(animationSpec = tween(300))
+                        },
+                        label = "QuestionSlideHorizontal"
+                    ) { currentQuestion ->
+                        LazyColumn(
+                            horizontalAlignment = Alignment.CenterHorizontally
                         ) {
-                            AppText(
-                                text = stringResource(R.string.quiz_sentence_arrange_title),
-                                modifier = Modifier
-                                    .padding(
-                                        vertical = AppDimension.default.dp4,
-                                        horizontal = AppDimension.default.dp16
-                                    ),
-                                style = AppTypography.default.body,
-                                color = LocalAppColor.current.colorError
-                            )
-                        }
-                    }
-
-                    item {
-                        AppText(
-                            text = stringResource(R.string.quiz_sentence_nail_tag, state.currentQuestion?.questionTranslate.orEmpty()),
-                            style = AppTypography.default.bodyExtraLargeBold,
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .padding(
-                                    top = AppDimension.default.dp32,
-                                    start = AppDimension.default.dp16,
-                                    end = AppDimension.default.dp16,
-                                    bottom = AppDimension.default.dp8
-                                ),
-                            textAlign = TextAlign.Center
-                        )
-
-                        AppText(
-                            text = state.currentQuestion?.question.orEmpty().replace("....", "_____"),
-                            style = AppTypography.default.bodyExtraLarge,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(
-                                    start = AppDimension.default.dp16,
-                                    end = AppDimension.default.dp16,
-                                    bottom = AppDimension.default.dp24
-                                ),
-                            color = LocalAppColor.current.colorTextSubtler,
-                            textAlign = TextAlign.Center
-                        )
-                    }
-
-                    state.currentQuestion?.let {
-                        item {
-                            it.answerList?.forEach { item ->
-                                AppChooseItemComponent(
-                                    modifier = Modifier.padding(
-                                        horizontal = AppDimension.default.dp16,
-                                        vertical = AppDimension.default.dp16
-                                    ),
-                                    backgroundColor = LocalAppColor.current.colorBackgroundSelected,
-                                    text = item.label.orEmpty(),
-                                    isSelected = state.selectAnswer == item.label
+                            item {
+                                Box(
+                                    modifier = Modifier
+                                        .background(
+                                            color = LocalAppColor.current.colorAnswerError.copy(
+                                                alpha = 0.8f
+                                            ),
+                                            shape = RoundedCornerShape(AppDimension.default.dp6)
+                                        )
                                 ) {
-                                    speaker.speak(item.label.orEmpty())
-                                    viewModel.selectAnswer(item.label.orEmpty(), item.isCorrect)
+                                    AppText(
+                                        text = stringResource(R.string.quiz_sentence_arrange_title),
+                                        modifier = Modifier
+                                            .padding(
+                                                vertical = AppDimension.default.dp4,
+                                                horizontal = AppDimension.default.dp16
+                                            ),
+                                        style = AppTypography.default.body,
+                                        color = LocalAppColor.current.colorHighLightRed
+                                    )
+                                }
+                            }
+
+                            item {
+                                AppText(
+                                    text = stringResource(
+                                        R.string.quiz_sentence_nail_tag,
+                                        currentQuestion?.questionTranslate.orEmpty()
+                                    ),
+                                    style = AppTypography.default.bodyExtraLargeBold,
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .padding(
+                                            top = AppDimension.default.dp32,
+                                            start = AppDimension.default.dp16,
+                                            end = AppDimension.default.dp16,
+                                            bottom = AppDimension.default.dp16
+                                        ),
+                                    textAlign = TextAlign.Center
+                                )
+
+                                AppText(
+                                    text = currentQuestion?.question.orEmpty()
+                                        .replace("....", "_____"),
+                                    style = AppTypography.default.bodyExtraLarge,
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(
+                                            start = AppDimension.default.dp16,
+                                            end = AppDimension.default.dp16,
+                                            bottom = AppDimension.default.dp24
+                                        ),
+                                    color = LocalAppColor.current.colorTextSubtler,
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+
+                            currentQuestion?.let {
+                                items(it.answerList.orEmpty()) { item ->
+                                    AppChooseItemComponent(
+                                        modifier = Modifier.padding(
+                                            horizontal = AppDimension.default.dp16,
+                                            vertical = AppDimension.default.dp8
+                                        ),
+                                        backgroundColor = LocalAppColor.current.colorBackgroundSelected,
+                                        text = item.label.orEmpty(),
+                                        isSelected = state.selectAnswer == item.label
+                                    ) {
+                                        speaker.speak(item.label.orEmpty())
+                                        viewModel.selectAnswer(item.label.orEmpty(), item.isCorrect)
+                                    }
                                 }
                             }
                         }

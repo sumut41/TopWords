@@ -38,7 +38,7 @@ class FavoriteWordFragment: BaseComposeFragment<FavoriteWordViewModel>() {
     private fun ContentView(viewModel: FavoriteWordViewModel) {
         val state by viewModel.state.collectAsStateWithLifecycle()
         val context = LocalContext.current
-        val speaker = remember { Pronouncer(context, state.learnLanguageCode.orEmpty()) }
+        val speaker = remember { Pronouncer(context) }
 
         AppPrimaryTheme {
             AppScaffold (

@@ -150,7 +150,7 @@ class SentenceArrangeFragment : BaseComposeFragment<SentenceArrangeViewModel>() 
                                     horizontal = AppDimension.default.dp16
                                 ),
                             style = AppTypography.default.body,
-                            color = LocalAppColor.current.colorError
+                            color = LocalAppColor.current.colorHighLightRed
                         )
                     }
 

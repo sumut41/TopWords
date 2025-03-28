@@ -148,7 +148,7 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                     AnimatedPreloader(modifier = Modifier.size(200.dp))
 
                     AppText(
-                        text = stringResource(com.skyvo.mobile.core.resource.R.string.data_loader_loading_title),
+                        text = stringResource(R.string.data_loader_loading_title),
                         modifier = Modifier.padding(
                             top = AppDimension.default.dp24,
                             start = AppDimension.default.dp16,
@@ -158,7 +158,7 @@ class DataLoaderFragment: BaseComposeFragment<DataLoaderViewModel>() {
                     )
 
                     AppText(
-                        text = stringResource(com.skyvo.mobile.core.resource.R.string.data_loader_description, state.language.orEmpty()),
+                        text = stringResource(R.string.data_loader_description),
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(

@@ -79,29 +79,36 @@ class StatusFragment : BaseComposeFragment<StatusViewModel>() {
                     StepView(
                         text = stringResource(id = com.skyvo.mobile.core.resource.R.string.words_card_label),
                         isCompleted = state.isWordCardCompleted,
-                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.25f,
+                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.20f,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_words
                     )
 
                     StepView(
-                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.fill_blanks_label),
-                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.50f && state.isWordCardCompleted,
-                        isCompleted = state.isBlankFillQuizCompleted,
-                        icon = com.skyvo.mobile.core.uikit.R.drawable.ic_write
-                    )
-
-                    StepView(
                         text = stringResource(id = com.skyvo.mobile.core.resource.R.string.find_meaning_label),
-                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.75f && state.isBlankFillQuizCompleted,
+                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.40f && state.isWordCardCompleted,
                         isCompleted = state.isTranslateQuizCompleted,
                         icon = com.skyvo.mobile.core.uikit.R.drawable.ic_meaning
                     )
 
                     StepView(
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.reverse_meaning_label),
+                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.60f && state.isTranslateQuizCompleted,
+                        isCompleted = state.isReverseQuizCompleted,
+                        icon = com.skyvo.mobile.core.uikit.R.drawable.ic_meaning
+                    )
+
+                    StepView(
+                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.fill_blanks_label),
+                        isCurrent = (state.currentCourse?.progress ?: 0f) < 0.80f && state.isReverseQuizCompleted,
+                        isCompleted = state.isBlankFillQuizCompleted,
+                        icon = com.skyvo.mobile.core.uikit.R.drawable.ic_denden
+                    )
+
+                    StepView(
                         text = stringResource(id = com.skyvo.mobile.core.resource.R.string.write_word_label),
-                        isCurrent = (state.currentCourse?.progress ?: 0f) < 1f && state.isTranslateQuizCompleted,
+                        isCurrent = (state.currentCourse?.progress ?: 0f) < 1f && state.isBlankFillQuizCompleted,
                         isCompleted = state.isWriteQuizCompleted,
-                        icon = com.skyvo.mobile.core.uikit.R.drawable.ic_denden,
+                        icon = com.skyvo.mobile.core.uikit.R.drawable.ic_write,
                         dividerVisible = false
                     )
 

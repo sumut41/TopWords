@@ -5,13 +5,13 @@ import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import java.util.Locale
 
-class Pronouncer(context: Context, private val languageCode: String) {
+class Pronouncer(context: Context) {
     private var tts: TextToSpeech? = null
 
     init {
         tts = TextToSpeech(context) { status ->
             if (status == TextToSpeech.SUCCESS) {
-                val locale = getLocaleFromCode(languageCode)
+                val locale = Locale.ENGLISH
                 tts?.language = locale
             }
         }
@@ -29,23 +29,6 @@ class Pronouncer(context: Context, private val languageCode: String) {
                 // Hata oluştu
             }
         })
-    }
-
-    private fun getLocaleFromCode(code: String): Locale {
-        return when (code) {
-            "en" -> Locale.ENGLISH
-            "fr" -> Locale.FRENCH
-            "de" -> Locale.GERMAN
-            "it" -> Locale.ITALY
-            "ja" -> Locale.JAPAN
-            "zh" -> Locale.CHINESE
-            "el" -> Locale("el", "GR")
-            "az" -> Locale("az", "AZ")
-            "ru" -> Locale("ru", "RU")
-            "es" -> Locale("es", "ES")
-            "tr" -> Locale("tr", "TR")
-            else -> Locale.ENGLISH
-        }
     }
 
     fun speak(text: String) {

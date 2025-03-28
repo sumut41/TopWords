@@ -47,7 +47,7 @@ class FlashCardFragment: BaseComposeFragment<FlashCardViewModel>() {
         var isNavigateRight by remember { mutableStateOf(false) }
         var isNavigateLeft by remember { mutableStateOf(false) }
         var isShowWarningDialog by remember { mutableStateOf(false) }
-        val speaker = remember { Pronouncer(requireContext(), state.learnLanguageCode.orEmpty()) }
+        val speaker = remember { Pronouncer(requireContext()) }
 
         AppPrimaryTheme {
             AppScaffold(

@@ -61,12 +61,14 @@ class WordResultViewModel @Inject constructor(
             navigate(NavDeeplinkDestination.WordsDashboard)
         } else {
             val progress = state.value.progress
-            if (progress < 0.25f) {
+            if (progress < 0.20f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToFlashCardFragment())
-            } else if (progress < 0.50f) {
-                navigate(WordResultFragmentDirections.actionResultWordFragmentToSentenceQuizFragment())
-            } else if (progress < 0.75f) {
+            } else if (progress < 0.40f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToFindMeaningQuizFragment())
+            } else if (progress < 0.60f) {
+                navigate(WordResultFragmentDirections.actionResultWordFragmentToReverseMeaningQuizFragment())
+            } else if (progress < 0.80f) {
+                navigate(WordResultFragmentDirections.actionResultWordFragmentToSentenceQuizFragment())
             } else if (progress < 1f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToPuzzleQuizFragment())
             } else {
