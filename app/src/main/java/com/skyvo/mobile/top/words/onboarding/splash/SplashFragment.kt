@@ -55,7 +55,7 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
                             text = "SKYVO",
                             textAlign = TextAlign.Center,
                             color = LocalAppColor.current.primary,
-                            style = AppTypography.default.logoTextStyle
+                            style = AppTypography.default.goldman
                         )
                     }
                 }
@@ -64,14 +64,25 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
                 ) {
-                    AppText(
-                        text = "vocaboost",
-                        modifier = Modifier.fillMaxWidth()
-                            .padding(horizontal = AppDimension.default.dp24),
-                        textAlign = TextAlign.Center,
-                        color = LocalAppColor.current.colorTextMain,
-                        style = AppTypography.default.bigLargeTitleBold
-                    )
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        AppText(
+                            text = "vocaboost",
+                            modifier = Modifier.fillMaxWidth()
+                                .padding(horizontal = AppDimension.default.dp24),
+                            textAlign = TextAlign.Center,
+                            color = LocalAppColor.current.colorTextMain,
+                            style = AppTypography.default.logoText
+                        )
+                        AppText(
+                            text = "leagning english",
+                            modifier = Modifier.fillMaxWidth(),
+                            textAlign = TextAlign.Center,
+                            color = LocalAppColor.current.colorTextMain,
+                            style = AppTypography.default.bodyExtraLarge
+                        )
+                    }
                 }
             }
         }

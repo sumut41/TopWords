@@ -11,6 +11,10 @@ class AppFonts {
             Font(R.font.goldman_regular, FontWeight.Normal),
         )
 
+        val Baloo = FontFamily(
+            Font(R.font.baloo, FontWeight.Bold),
+        )
+
         val Inter = FontFamily(
             Font(R.font.inter_bold, FontWeight.Bold),
             Font(R.font.inter_semi_bold, FontWeight.SemiBold),
