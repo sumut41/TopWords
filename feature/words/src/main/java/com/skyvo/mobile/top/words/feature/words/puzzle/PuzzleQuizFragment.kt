@@ -35,7 +35,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.graphicsLayer
+import com.skyvo.mobile.core.resource.R
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 
 @AndroidEntryPoint
@@ -74,6 +74,29 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                         modifier = Modifier.fillMaxSize(),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
+                        item {
+                            Box(
+                                modifier = Modifier
+                                    .background(
+                                        color = LocalAppColor.current.colorAnswerError.copy(
+                                            alpha = 0.8f
+                                        ),
+                                        shape = RoundedCornerShape(AppDimension.default.dp6)
+                                    )
+                            ) {
+                                AppText(
+                                    text = stringResource(R.string.meaning),
+                                    modifier = Modifier
+                                        .padding(
+                                            vertical = AppDimension.default.dp4,
+                                            horizontal = AppDimension.default.dp16
+                                        ),
+                                    style = AppTypography.default.body,
+                                    color = LocalAppColor.current.colorHighLightRed
+                                )
+                            }
+                        }
+
                         item("translate") {
                             AppText(
                                 text = state.currentQuestion?.translate.orEmpty(),
@@ -86,20 +109,6 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                                         end = AppDimension.default.dp16,
                                         bottom = AppDimension.default.dp8
                                     ),
-                                textAlign = TextAlign.Center
-                            )
-
-                            AppText(
-                                text = stringResource(id = com.skyvo.mobile.core.resource.R.string.meaning),
-                                style = AppTypography.default.bodyExtraLarge,
-                                modifier = Modifier
-                                    .fillMaxSize()
-                                    .padding(
-                                        start = AppDimension.default.dp16,
-                                        end = AppDimension.default.dp16,
-                                        bottom = AppDimension.default.dp24
-                                    ),
-                                color = LocalAppColor.current.colorTextSubtler,
                                 textAlign = TextAlign.Center
                             )
 

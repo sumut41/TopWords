@@ -52,7 +52,7 @@
     <string name="i_know">Ich weiß</string>
     <string name="check_answer">Antwort prüfen</string>
     <string name="type_your_answer">Gib deine Antwort ein</string>
-    <string name="meaning">(Schreibe die Bedeutung.)</string>
+    <string name="meaning">Finde das Wort!</string>
     <string name="words_card_label">Wortkarten</string>
     <string name="fill_blanks_label">Lücken füllen</string>
     <string name="find_meaning_label">Bedeutung finden</string>

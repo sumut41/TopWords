@@ -52,7 +52,7 @@
     <string name="i_know">Biliyorum</string>
     <string name="check_answer">Kontrol et</string>
     <string name="type_your_answer">Yanıtınızı yazın</string>
-    <string name="meaning">(Anlamını yaz.)</string>
+    <string name="meaning">Kelimeyi tamamla!</string>
     <string name="words_card_label">Kelime Kartları</string>
     <string name="fill_blanks_label">Boşlukları Doldur</string>
     <string name="find_meaning_label">Anlamını Bul</string>
