@@ -1,0 +1,3524 @@
+{
+  "books": [
+    {
+      "contentEn": "The journey of renewable energy began decades ago when people realized the negative effects of fossil fuels. Burning coal, oil, and gas not only pollutes the air but also contributes to climate change. To combat these issues, scientists and engineers have developed cleaner and more sustainable energy sources like solar, wind, and hydropower.\n\nSolar energy, for instance, harnesses the power of the sun to generate electricity. Solar panels are becoming increasingly popular due to their efficiency and decreasing costs. Many countries now offer incentives to encourage households and businesses to install solar systems, making it an accessible option for many.\n\nSimilarly, wind energy has gained significant attention. Wind turbines, often located in windy areas or offshore, produce electricity by converting kinetic energy from the wind. These massive structures are a testament to human innovation, and their contribution to the global energy supply continues to grow. Despite some challenges, such as their impact on local wildlife and high initial costs, wind energy remains a vital part of the shift towards a greener future.\n\nHydropower, another renewable source, relies on the movement of water. Large dams, built across rivers, generate electricity by using the flow of water to spin turbines. This method is highly efficient but can have environmental consequences, such as disrupting local ecosystems. However, advancements in technology are helping to minimize these effects.\n\nThe adoption of renewable energy is crucial in addressing the climate crisis. By investing in cleaner energy, we can reduce greenhouse gas emissions and create a more sustainable planet for future generations. The road ahead may be challenging, but the benefits of renewable energy far outweigh the difficulties.",
+      "contentDe": "Die Reise der erneuerbaren Energien begann vor Jahrzehnten, als die Menschen die negativen Auswirkungen fossiler Brennstoffe erkannten. Das Verbrennen von Kohle, Öl und Gas verschmutzt nicht nur die Luft, sondern trägt auch zum Klimawandel bei. Um diese Probleme zu bekämpfen, haben Wissenschaftler und Ingenieure sauberere und nachhaltigere Energiequellen wie Solar-, Wind- und Wasserkraft entwickelt.\n\nSolarenergie nutzt zum Beispiel die Kraft der Sonne, um Strom zu erzeugen. Solarpanels werden aufgrund ihrer Effizienz und der sinkenden Kosten immer beliebter. Viele Länder bieten nun Anreize, um Haushalte und Unternehmen zur Installation von Solaranlagen zu ermutigen, was sie zu einer zugänglichen Option für viele macht.\n\nÄhnlich hat auch die Windenergie große Aufmerksamkeit erlangt. Windturbinen, die oft in windreichen Gebieten oder auf See stehen, erzeugen Strom, indem sie die kinetische Energie des Windes umwandeln. Diese gewaltigen Strukturen sind ein Beweis für menschliche Innovationskraft, und ihr Beitrag zur globalen Energieversorgung wächst weiter. Trotz einiger Herausforderungen, wie etwa Auswirkungen auf die lokale Tierwelt und hohe Anfangskosten, bleibt Windenergie ein wichtiger Bestandteil des Wandels hin zu einer grüneren Zukunft.\n\nWasserkraft, eine weitere erneuerbare Energiequelle, nutzt die Bewegung von Wasser. Große Dämme, die über Flüsse gebaut werden, erzeugen Strom, indem sie den Wasserfluss nutzen, um Turbinen anzutreiben. Diese Methode ist sehr effizient, kann jedoch ökologische Folgen haben, wie die Störung lokaler Ökosysteme. Fortschritte in der Technologie helfen jedoch, diese Auswirkungen zu minimieren.\n\nDie Nutzung erneuerbarer Energien ist entscheidend, um die Klimakrise zu bewältigen. Durch Investitionen in sauberere Energiequellen können wir Treibhausgasemissionen reduzieren und einen nachhaltigeren Planeten für zukünftige Generationen schaffen. Der Weg dorthin mag herausfordernd sein, aber die Vorteile der erneuerbaren Energie überwiegen bei Weitem die Schwierigkeiten.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBBqX5ARrJR6GZ1ohqi0PeMCuyS0hmY8t_w&s",
+      "title": "Renewable Energy: A Cleaner Future",
+      "level": "B2",
+      "min": "3 min",
+      "isNew": false,
+      "genre": "Environment",
+      "words": [
+        {
+          "key": "renewable",
+          "value": "erneuerbar"
+        },
+        {
+          "key": "fossil fuels",
+          "value": "fossile Brennstoffe"
+        },
+        {
+          "key": "pollution",
+          "value": "Verschmutzung"
+        },
+        {
+          "key": "climate change",
+          "value": "Klimawandel"
+        },
+        {
+          "key": "sustainable",
+          "value": "nachhaltig"
+        },
+        {
+          "key": "solar",
+          "value": "Solar"
+        },
+        {
+          "key": "wind",
+          "value": "Wind"
+        },
+        {
+          "key": "hydropower",
+          "value": "Wasserkraft"
+        },
+        {
+          "key": "electricity",
+          "value": "Strom"
+        },
+        {
+          "key": "panels",
+          "value": "Paneele"
+        },
+        {
+          "key": "incentives",
+          "value": "Anreize"
+        },
+        {
+          "key": "households",
+          "value": "Haushalte"
+        },
+        {
+          "key": "turbines",
+          "value": "Turbinen"
+        },
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "kinetic energy",
+          "value": "kinetische Energie"
+        },
+        {
+          "key": "greenhouse gas",
+          "value": "Treibhausgas"
+        },
+        {
+          "key": "emissions",
+          "value": "Emissionen"
+        },
+        {
+          "key": "ecosystem",
+          "value": "Ökosystem"
+        },
+        {
+          "key": "advanced",
+          "value": "fortschrittlich"
+        },
+        {
+          "key": "investing",
+          "value": "investieren"
+        },
+        {
+          "key": "decreasing costs",
+          "value": "sinkende Kosten"
+        },
+        {
+          "key": "environmental consequences",
+          "value": "ökologische Folgen"
+        },
+        {
+          "key": "global energy supply",
+          "value": "globale Energieversorgung"
+        },
+        {
+          "key": "efficiency",
+          "value": "Effizienz"
+        },
+        {
+          "key": "advancements",
+          "value": "Fortschritte"
+        },
+        {
+          "key": "crucial",
+          "value": "entscheidend"
+        },
+        {
+          "key": "negative effects",
+          "value": "negative Auswirkungen"
+        },
+        {
+          "key": "reduce",
+          "value": "reduzieren"
+        },
+        {
+          "key": "combating",
+          "value": "Bekämpfung"
+        },
+        {
+          "key": "accessible",
+          "value": "zugänglich"
+        }
+      ]
+    },
+    {
+      "content": "The world of artificial intelligence (AI) has evolved rapidly over the last decade, transforming industries and reshaping how we live and work. AI-powered tools are now part of everyday life, from voice assistants like Alexa and Siri to personalized recommendations on streaming platforms. But how does AI work, and what does the future hold for this groundbreaking technology?\n\nAt its core, AI mimics human intelligence through algorithms and data. Machine learning, a subset of AI, allows systems to learn and improve without explicit programming. For example, spam filters in email platforms use machine learning to recognize and block unwanted messages by analyzing patterns in the data. Similarly, facial recognition software relies on vast amounts of data to identify individuals accurately.\n\nDespite its remarkable advancements, AI has challenges and ethical concerns. One significant issue is data privacy. As AI systems rely on enormous datasets, questions arise about how this data is collected and used. Additionally, there are fears that AI could lead to job displacement as automation becomes more prevalent. However, experts argue that while some jobs may disappear, AI will also create new opportunities in fields like robotics, healthcare, and education.\n\nLooking ahead, the potential of AI is limitless. Innovations like autonomous vehicles and advanced medical diagnostics promise to improve efficiency and save lives. However, it is crucial to ensure that AI is developed responsibly, with careful consideration of its societal and ethical implications. By doing so, we can harness the power of AI to benefit humanity while minimizing potential risks.",
+      "contentDe": "Die Welt der künstlichen Intelligenz (KI) hat sich im letzten Jahrzehnt rasant entwickelt, Branchen verändert und unsere Lebens- und Arbeitsweise neu gestaltet. KI-gestützte Werkzeuge sind heute Teil des Alltags, von Sprachassistenten wie Alexa und Siri bis hin zu personalisierten Empfehlungen auf Streaming-Plattformen. Aber wie funktioniert KI und was bringt die Zukunft für diese bahnbrechende Technologie?\n\nIm Kern ahmt KI die menschliche Intelligenz durch Algorithmen und Daten nach. Maschinelles Lernen, ein Teilgebiet der KI, ermöglicht es Systemen, ohne explizite Programmierung zu lernen und sich zu verbessern. Beispielsweise verwenden Spam-Filter in E-Mail-Plattformen maschinelles Lernen, um unerwünschte Nachrichten anhand von Mustern in den Daten zu erkennen und zu blockieren. Ebenso verlässt sich Gesichtserkennungssoftware auf große Datenmengen, um Personen genau zu identifizieren.\n\nTrotz bemerkenswerter Fortschritte bringt KI Herausforderungen und ethische Bedenken mit sich. Ein wesentliches Thema ist der Datenschutz. Da KI-Systeme auf riesige Datensätze angewiesen sind, stellt sich die Frage, wie diese Daten gesammelt und verwendet werden. Außerdem gibt es Befürchtungen, dass KI durch zunehmende Automatisierung zu Arbeitsplatzverlusten führen könnte. Experten argumentieren jedoch, dass zwar einige Berufe verschwinden, KI aber auch neue Möglichkeiten in Bereichen wie Robotik, Gesundheitswesen und Bildung schaffen wird.\n\nDer Blick in die Zukunft zeigt: Das Potenzial von KI ist grenzenlos. Innovationen wie autonome Fahrzeuge und fortschrittliche medizinische Diagnostik versprechen mehr Effizienz und Lebensrettung. Es ist jedoch entscheidend, dass KI verantwortungsvoll entwickelt wird, mit sorgfältiger Berücksichtigung ihrer gesellschaftlichen und ethischen Auswirkungen. So können wir die Kraft der KI zum Wohl der Menschheit nutzen und mögliche Risiken minimieren.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQFiYOgyUO1xx2z7umpczwvmIa5nIQLmQbw&s",
+      "title": "The Rise of Artificial Intelligence",
+      "level": "B2",
+      "min": "3 min",
+      "isNew": false,
+      "genre": "Technology",
+      "words": [
+        {
+          "key": "artificial intelligence",
+          "value": "künstliche Intelligenz"
+        },
+        {
+          "key": "evolved",
+          "value": "sich entwickelt"
+        },
+        {
+          "key": "industries",
+          "value": "Branchen"
+        },
+        {
+          "key": "voice assistants",
+          "value": "Sprachassistenten"
+        },
+        {
+          "key": "personalized",
+          "value": "personalisiert"
+        },
+        {
+          "key": "recommendations",
+          "value": "Empfehlungen"
+        },
+        {
+          "key": "transforming",
+          "value": "verändern"
+        },
+        {
+          "key": "streaming platforms",
+          "value": "Streaming-Plattformen"
+        },
+        {
+          "key": "groundbreaking",
+          "value": "bahnbrechend"
+        },
+        {
+          "key": "machine learning",
+          "value": "maschinelles Lernen"
+        },
+        {
+          "key": "algorithms",
+          "value": "Algorithmen"
+        },
+        {
+          "key": "explicit programming",
+          "value": "explizite Programmierung"
+        },
+        {
+          "key": "spam filters",
+          "value": "Spamfilter"
+        },
+        {
+          "key": "facial recognition",
+          "value": "Gesichtserkennung"
+        },
+        {
+          "key": "datasets",
+          "value": "Datensätze"
+        },
+        {
+          "key": "data privacy",
+          "value": "Datenschutz"
+        },
+        {
+          "key": "automation",
+          "value": "Automatisierung"
+        },
+        {
+          "key": "job displacement",
+          "value": "Verlust von Arbeitsplätzen"
+        },
+        {
+          "key": "robotics",
+          "value": "Robotik"
+        },
+        {
+          "key": "healthcare",
+          "value": "Gesundheitswesen"
+        },
+        {
+          "key": "education",
+          "value": "Bildung"
+        },
+        {
+          "key": "autonomous vehicles",
+          "value": "autonome Fahrzeuge"
+        },
+        {
+          "key": "diagnostics",
+          "value": "Diagnostik"
+        },
+        {
+          "key": "efficiency",
+          "value": "Effizienz"
+        },
+        {
+          "key": "ethical implications",
+          "value": "ethische Auswirkungen"
+        },
+        {
+          "key": "responsibly",
+          "value": "verantwortungsvoll"
+        },
+        {
+          "key": "societal",
+          "value": "gesellschaftlich"
+        },
+        {
+          "key": "minimizing",
+          "value": "minimieren"
+        },
+        {
+          "key": "harness",
+          "value": "nutzen"
+        },
+        {
+          "key": "potential risks",
+          "value": "potenzielle Risiken"
+        },
+        {
+          "key": "recognize",
+          "value": "erkennen"
+        }
+      ]
+    },
+    {
+      "content": "The history of space exploration is a tale of ambition, innovation, and extraordinary human courage. Since the launch of Sputnik 1 in 1957, humanity has achieved remarkable milestones in its quest to understand the universe. From the Apollo 11 moon landing to the establishment of the International Space Station (ISS), each step represents a leap forward in our collective knowledge and capabilities.\n\nSpace exploration began as a race between nations, with the United States and the Soviet Union competing for dominance during the Cold War. The launch of Yuri Gagarin into orbit in 1961 marked the first human journey into space, a moment of immense pride for the Soviet Union. In response, the United States dedicated significant resources to its space program, culminating in Neil Armstrong's historic moonwalk in 1969. This rivalry not only spurred technological advancements but also inspired a generation to look to the stars.\n\nToday, space exploration is no longer limited to government agencies like NASA or Roscosmos. Private companies, such as SpaceX and Blue Origin, are pioneering new frontiers with reusable rockets and plans for interplanetary travel. These innovations have reduced the cost of space missions, making it more feasible to pursue ambitious projects like colonizing Mars. Meanwhile, scientists are using space telescopes and robotic probes to study distant planets, galaxies, and even the origins of the universe.\n\nDespite these achievements, space exploration poses significant challenges. The cost of missions remains high, and the risks to astronauts' safety are ever-present. Moreover, the environmental impact of rocket launches and the growing problem of space debris must be addressed. Nevertheless, the potential rewards of exploring the cosmos, from scientific discoveries to the possibility of finding extraterrestrial life, make it a pursuit worth continuing. With international collaboration and responsible practices, humanity can ensure that its journey into space benefits all of humankind.",
+      "contentDe": "Die Geschichte der Weltraumforschung ist eine Erzählung von Ehrgeiz, Innovation und außergewöhnlichem menschlichen Mut. Seit dem Start von Sputnik 1 im Jahr 1957 hat die Menschheit bemerkenswerte Meilensteine auf ihrer Suche nach dem Verständnis des Universums erreicht. Von der Mondlandung von Apollo 11 bis zur Errichtung der Internationalen Raumstation (ISS) stellt jeder Schritt einen Fortschritt in unserem gemeinsamen Wissen und unseren Fähigkeiten dar.\n\nDie Weltraumforschung begann als ein Wettlauf zwischen Nationen, wobei die Vereinigten Staaten und die Sowjetunion während des Kalten Krieges um die Vorherrschaft konkurrierten. Der Start von Juri Gagarin in den Orbit im Jahr 1961 markierte die erste Reise eines Menschen ins All – ein Moment großen Stolzes für die Sowjetunion. Als Reaktion darauf stellte die Vereinigten Staaten erhebliche Mittel für ihr Raumfahrtprogramm bereit, das 1969 in Neil Armstrongs historischem Mondspaziergang gipfelte. Diese Rivalität förderte nicht nur den technologischen Fortschritt, sondern inspirierte auch eine Generation dazu, zu den Sternen zu blicken.\n\nHeute ist die Weltraumforschung nicht mehr nur auf staatliche Organisationen wie die NASA oder Roskosmos beschränkt. Private Unternehmen wie SpaceX und Blue Origin erschließen mit wiederverwendbaren Raketen und Plänen für interplanetare Reisen neue Horizonte. Diese Innovationen haben die Kosten für Weltraummissionen gesenkt und machen es realistischer, ehrgeizige Projekte wie die Kolonisierung des Mars zu verfolgen. Währenddessen nutzen Wissenschaftler Weltraumteleskope und robotische Sonden, um ferne Planeten, Galaxien und sogar den Ursprung des Universums zu erforschen.\n\nTrotz dieser Errungenschaften stellt die Weltraumforschung erhebliche Herausforderungen dar. Die Kosten für Missionen bleiben hoch und die Risiken für die Sicherheit der Astronauten sind stets präsent. Zudem müssen die Umweltauswirkungen von Raketenstarts und das zunehmende Problem von Weltraumschrott angegangen werden. Dennoch machen die potenziellen Belohnungen der Erforschung des Kosmos – von wissenschaftlichen Entdeckungen bis zur Möglichkeit, außerirdisches Leben zu finden – sie zu einem lohnenswerten Unterfangen. Durch internationale Zusammenarbeit und verantwortungsbewusste Praktiken kann die Menschheit sicherstellen, dass ihre Reise ins All der gesamten Menschheit zugutekommt.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3wykEpI5_jsdJfJtRGkKMsmNI2bIKt2XL9Q&s",
+      "title": "The History and Future of Space Exploration",
+      "level": "B1",
+      "min": "4 min",
+      "isNew": false,
+      "genre": "Science",
+      "words": [
+        {
+          "key": "space exploration",
+          "value": "Weltraumforschung"
+        },
+        {
+          "key": "ambition",
+          "value": "Ehrgeiz"
+        },
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "courage",
+          "value": "Mut"
+        },
+        {
+          "key": "remarkable",
+          "value": "bemerkenswert"
+        },
+        {
+          "key": "moon landing",
+          "value": "Mondlandung"
+        },
+        {
+          "key": "capabilities",
+          "value": "Fähigkeiten"
+        },
+        {
+          "key": "orbit",
+          "value": "Orbit"
+        },
+        {
+          "key": "resources",
+          "value": "Ressourcen"
+        },
+        {
+          "key": "technological advancements",
+          "value": "technologischer Fortschritt"
+        },
+        {
+          "key": "reusable rockets",
+          "value": "wiederverwendbare Raketen"
+        },
+        {
+          "key": "interplanetary travel",
+          "value": "interplanetare Reisen"
+        },
+        {
+          "key": "feasible",
+          "value": "realistisch"
+        },
+        {
+          "key": "colonizing",
+          "value": "Kolonisierung"
+        },
+        {
+          "key": "telescopes",
+          "value": "Teleskope"
+        },
+        {
+          "key": "probes",
+          "value": "Sonden"
+        },
+        {
+          "key": "galaxies",
+          "value": "Galaxien"
+        },
+        {
+          "key": "extraterrestrial life",
+          "value": "außerirdisches Leben"
+        },
+        {
+          "key": "international collaboration",
+          "value": "internationale Zusammenarbeit"
+        },
+        {
+          "key": "responsible practices",
+          "value": "verantwortungsbewusste Praktiken"
+        },
+        {
+          "key": "missions",
+          "value": "Missionen"
+        },
+        {
+          "key": "astronauts",
+          "value": "Astronauten"
+        },
+        {
+          "key": "space debris",
+          "value": "Weltraumschrott"
+        },
+        {
+          "key": "risks",
+          "value": "Risiken"
+        },
+        {
+          "key": "scientific discoveries",
+          "value": "wissenschaftliche Entdeckungen"
+        },
+        {
+          "key": "pursuit",
+          "value": "Unterfangen"
+        },
+        {
+          "key": "benefits",
+          "value": "Vorteile"
+        },
+        {
+          "key": "environmental impact",
+          "value": "Umweltauswirkungen"
+        }
+      ]
+    },
+    {
+      "content": "In the modern world, social media has become a cornerstone of communication, entertainment, and even business. Platforms like Facebook, Instagram, and Twitter connect billions of people, enabling them to share their thoughts, photos, and experiences in real-time. While these platforms have revolutionized how we interact, they also come with a variety of challenges and concerns.\n\nOne major issue is the impact of social media on mental health. Studies have shown that excessive use of these platforms can lead to anxiety, depression, and feelings of inadequacy. The constant exposure to curated, often idealized images of other people's lives can create unrealistic expectations and lead to a negative self-image. Parents, educators, and psychologists have been working together to raise awareness about these risks and promote healthier usage habits.\n\nAnother significant challenge is the spread of misinformation. With billions of users sharing content daily, it has become increasingly difficult to distinguish between credible information and false narratives. Fake news can influence public opinion, spark conflicts, and even interfere in political processes. To combat this, many platforms have introduced fact-checking systems and algorithms to identify and reduce the visibility of false content.\n\nDespite these challenges, social media also offers incredible opportunities. Small businesses use it as a cost-effective way to reach customers, artists and creators showcase their work to global audiences, and grassroots movements gain visibility to drive social change. The key is to balance its benefits and risks, ensuring that these tools are used responsibly and positively contribute to society.",
+      "contentDe": "In der modernen Welt ist Social Media zu einem Grundpfeiler der Kommunikation, Unterhaltung und sogar der Geschäftswelt geworden. Plattformen wie Facebook, Instagram und Twitter verbinden Milliarden von Menschen und ermöglichen es ihnen, ihre Gedanken, Fotos und Erfahrungen in Echtzeit zu teilen. Während diese Plattformen unsere Art der Interaktion revolutioniert haben, bringen sie auch eine Vielzahl von Herausforderungen und Bedenken mit sich.\n\nEin zentrales Problem ist die Auswirkung von Social Media auf die psychische Gesundheit. Studien haben gezeigt, dass übermäßige Nutzung dieser Plattformen zu Angstzuständen, Depressionen und Gefühlen der Unzulänglichkeit führen kann. Die ständige Konfrontation mit sorgfältig kuratierten und oft idealisierten Bildern aus dem Leben anderer kann unrealistische Erwartungen wecken und ein negatives Selbstbild fördern. Eltern, Pädagogen und Psychologen arbeiten gemeinsam daran, das Bewusstsein für diese Risiken zu schärfen und gesündere Nutzungsmuster zu fördern.\n\nEine weitere bedeutende Herausforderung ist die Verbreitung von Fehlinformationen. Da täglich Milliarden von Nutzern Inhalte teilen, wird es zunehmend schwieriger, zwischen glaubwürdigen Informationen und falschen Erzählungen zu unterscheiden. Fake News können die öffentliche Meinung beeinflussen, Konflikte auslösen und sogar politische Prozesse stören. Um dem entgegenzuwirken, haben viele Plattformen Faktenprüfsysteme und Algorithmen eingeführt, um falsche Inhalte zu erkennen und ihre Sichtbarkeit zu verringern.\n\nTrotz dieser Herausforderungen bietet Social Media auch erstaunliche Chancen. Kleine Unternehmen nutzen es als kostengünstige Möglichkeit, Kunden zu erreichen, Künstler und Kreative präsentieren ihre Werke einem globalen Publikum, und basisdemokratische Bewegungen gewinnen an Sichtbarkeit, um sozialen Wandel voranzutreiben. Der Schlüssel liegt darin, Nutzen und Risiken in Einklang zu bringen und sicherzustellen, dass diese Werkzeuge verantwortungsvoll genutzt werden und positiv zur Gesellschaft beitragen.",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/8244f3f6-8193-4568-8689-b3bf3170f30d/SM1.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280",
+      "title": "The Dual Impact of Social Media",
+      "level": "B2",
+      "genre": "Technology",
+      "isNew": false,
+      "min": "3 min",
+      "words": [
+        {
+          "key": "social media",
+          "value": "soziale Medien"
+        },
+        {
+          "key": "communication",
+          "value": "Kommunikation"
+        },
+        {
+          "key": "entertainment",
+          "value": "Unterhaltung"
+        },
+        {
+          "key": "business",
+          "value": "Geschäftswelt"
+        },
+        {
+          "key": "revolutionized",
+          "value": "revolutioniert"
+        },
+        {
+          "key": "mental health",
+          "value": "psychische Gesundheit"
+        },
+        {
+          "key": "anxiety",
+          "value": "Angstzustände"
+        },
+        {
+          "key": "depression",
+          "value": "Depression"
+        },
+        {
+          "key": "self-image",
+          "value": "Selbstbild"
+        },
+        {
+          "key": "awareness",
+          "value": "Bewusstsein"
+        },
+        {
+          "key": "misinformation",
+          "value": "Fehlinformation"
+        },
+        {
+          "key": "credible",
+          "value": "glaubwürdig"
+        },
+        {
+          "key": "false narratives",
+          "value": "falsche Erzählungen"
+        },
+        {
+          "key": "fake news",
+          "value": "Fake News"
+        },
+        {
+          "key": "public opinion",
+          "value": "öffentliche Meinung"
+        },
+        {
+          "key": "fact-checking",
+          "value": "Faktenprüfung"
+        },
+        {
+          "key": "visibility",
+          "value": "Sichtbarkeit"
+        },
+        {
+          "key": "opportunities",
+          "value": "Chancen"
+        },
+        {
+          "key": "cost-effective",
+          "value": "kostengünstig"
+        },
+        {
+          "key": "grassroots movements",
+          "value": "basisdemokratische Bewegungen"
+        },
+        {
+          "key": "balance",
+          "value": "Gleichgewicht"
+        },
+        {
+          "key": "risks",
+          "value": "Risiken"
+        },
+        {
+          "key": "responsibly",
+          "value": "verantwortungsvoll"
+        },
+        {
+          "key": "society",
+          "value": "Gesellschaft"
+        },
+        {
+          "key": "algorithms",
+          "value": "Algorithmen"
+        },
+        {
+          "key": "Small businesses",
+          "value": "kleine Unternehmen"
+        },
+        {
+          "key": "creators",
+          "value": "Kreative"
+        },
+        {
+          "key": "global audiences",
+          "value": "globales Publikum"
+        },
+        {
+          "key": "social change",
+          "value": "sozialer Wandel"
+        }
+      ]
+    },
+    {
+      "content": "Climate change is one of the most pressing challenges facing our world today. Over the past century, human activities, such as burning fossil fuels and deforestation, have significantly increased the concentration of greenhouse gases in the atmosphere. This has resulted in rising global temperatures, melting ice caps, and more frequent extreme weather events.\n\nOne of the major consequences of climate change is the disruption of ecosystems. As temperatures rise, many species are forced to migrate to cooler areas to survive, while others face extinction. Coral reefs, which support a vast array of marine life, are particularly vulnerable. The phenomenon known as coral bleaching occurs when water temperatures become too high, causing corals to expel the algae that give them their vibrant colors and energy.\n\nOn the human front, climate change poses significant risks to agriculture and food security. Changing weather patterns, such as prolonged droughts and unpredictable rainfall, make farming increasingly difficult in many regions. Coastal communities are also at risk due to rising sea levels, which threaten homes and livelihoods. Despite these challenges, there is hope. Renewable energy sources, reforestation projects, and international agreements like the Paris Accord are steps in the right direction to mitigate the effects of climate change.",
+      "contentDe": "Der Klimawandel ist eine der dringendsten Herausforderungen, mit denen unsere Welt heute konfrontiert ist. Im vergangenen Jahrhundert haben menschliche Aktivitäten wie das Verbrennen fossiler Brennstoffe und die Abholzung die Konzentration von Treibhausgasen in der Atmosphäre erheblich erhöht. Dies hat zu steigenden globalen Temperaturen, schmelzenden Eiskappen und häufigeren extremen Wetterereignissen geführt.\n\nEine der wichtigsten Folgen des Klimawandels ist die Störung von Ökosystemen. Mit steigenden Temperaturen sind viele Arten gezwungen, in kühlere Gebiete zu migrieren, um zu überleben, während andere vom Aussterben bedroht sind. Korallenriffe, die eine Vielzahl von Meereslebewesen beherbergen, sind besonders gefährdet. Das als Korallenbleiche bekannte Phänomen tritt auf, wenn die Wassertemperaturen zu hoch werden und die Korallen die Algen abstoßen, die ihnen ihre leuchtenden Farben und Energie verleihen.\n\nAus menschlicher Sicht birgt der Klimawandel erhebliche Risiken für die Landwirtschaft und die Ernährungssicherheit. Veränderte Wetterbedingungen wie langanhaltende Dürren und unvorhersehbare Niederschläge erschweren die Landwirtschaft in vielen Regionen zunehmend. Küstenregionen sind ebenfalls gefährdet, da der steigende Meeresspiegel Häuser und Lebensgrundlagen bedroht. Trotz dieser Herausforderungen gibt es Hoffnung. Erneuerbare Energiequellen, Wiederaufforstungsprojekte und internationale Abkommen wie das Pariser Abkommen sind Schritte in die richtige Richtung, um die Auswirkungen des Klimawandels zu mildern.",
+      "imageUrl": "https://i.ytimg.com/vi/kejjjQt1Bo0/maxresdefault.jpg",
+      "title": "The Ripple Effects of Climate Change",
+      "level": "B2",
+      "genre": "Environment",
+      "isNew": false,
+      "min": "3 min",
+      "words": [
+        {
+          "key": "pressing challenges",
+          "value": "dringende Herausforderungen"
+        },
+        {
+          "key": "fossil fuels",
+          "value": "fossile Brennstoffe"
+        },
+        {
+          "key": "deforestation",
+          "value": "Abholzung"
+        },
+        {
+          "key": "significantly",
+          "value": "erheblich"
+        },
+        {
+          "key": "greenhouse gases",
+          "value": "Treibhausgase"
+        },
+        {
+          "key": "global temperatures",
+          "value": "globale Temperaturen"
+        },
+        {
+          "key": "ice caps",
+          "value": "Eiskappen"
+        },
+        {
+          "key": "extreme weather",
+          "value": "extremes Wetter"
+        },
+        {
+          "key": "consequences",
+          "value": "Folgen"
+        },
+        {
+          "key": "disruption",
+          "value": "Störung"
+        },
+        {
+          "key": "species",
+          "value": "Arten"
+        },
+        {
+          "key": "migrate",
+          "value": "migrieren"
+        },
+        {
+          "key": "extinction",
+          "value": "Aussterben"
+        },
+        {
+          "key": "Coral reefs",
+          "value": "Korallenriffe"
+        },
+        {
+          "key": "marine life",
+          "value": "Meeresleben"
+        },
+        {
+          "key": "coral bleaching",
+          "value": "Korallenbleiche"
+        },
+        {
+          "key": "algae",
+          "value": "Algen"
+        },
+        {
+          "key": "agriculture",
+          "value": "Landwirtschaft"
+        },
+        {
+          "key": "droughts",
+          "value": "Dürren"
+        },
+        {
+          "key": "unpredictable",
+          "value": "unvorhersehbar"
+        },
+        {
+          "key": "Coastal communities",
+          "value": "Küstenregionen"
+        },
+        {
+          "key": "sea levels",
+          "value": "Meeresspiegel"
+        },
+        {
+          "key": "livelihoods",
+          "value": "Lebensgrundlagen"
+        },
+        {
+          "key": "Renewable energy",
+          "value": "erneuerbare Energie"
+        },
+        {
+          "key": "reforestation",
+          "value": "Wiederaufforstung"
+        },
+        {
+          "key": "international agreements",
+          "value": "internationale Abkommen"
+        },
+        {
+          "key": "mitigate",
+          "value": "mildern"
+        },
+        {
+          "key": "phenomenon",
+          "value": "Phänomen"
+        },
+        {
+          "key": "vulnerable",
+          "value": "gefährdet"
+        }
+      ]
+    },
+    {
+      "content": "The Taj Mahal, located in Agra, India, is one of the most iconic monuments in the world. Built between 1632 and 1653, it was commissioned by the Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. Often referred to as a symbol of eternal love, the Taj Mahal attracts millions of visitors every year.\n\nConstructed entirely of white marble, the monument is an architectural masterpiece that blends elements of Persian, Islamic, and Indian styles. Its central dome, which rises to a height of about 73 meters, is surrounded by four minarets. Intricate carvings, inlaid semi-precious stones, and verses from the Quran adorn the walls, showcasing the exquisite craftsmanship of the artisans who worked on it.\n\nThe Taj Mahal is not just a stunning piece of architecture but also a UNESCO World Heritage Site. It stands as a testament to the rich cultural heritage of India and the deep emotions that inspired its creation. Over the years, it has faced challenges like pollution and the effects of time, but restoration efforts continue to preserve its beauty for future generations.",
+      "contentDe": "Das Taj Mahal in Agra, Indien, ist eines der bekanntesten Denkmäler der Welt. Es wurde zwischen 1632 und 1653 erbaut und vom Mogulkaiser Shah Jahan zum Gedenken an seine geliebte Frau Mumtaz Mahal in Auftrag gegeben. Oft als Symbol ewiger Liebe bezeichnet, zieht das Taj Mahal jedes Jahr Millionen von Besuchern an.\n\nDas vollständig aus weißem Marmor errichtete Bauwerk ist ein architektonisches Meisterwerk, das Elemente der persischen, islamischen und indischen Stile vereint. Seine zentrale Kuppel, die etwa 73 Meter hoch ist, wird von vier Minaretten umgeben. Aufwendige Schnitzereien, eingelegte Halbedelsteine und Verse aus dem Koran schmücken die Wände und zeigen das außergewöhnliche handwerkliche Können der beteiligten Kunsthandwerker.\n\nDas Taj Mahal ist nicht nur ein atemberaubendes architektonisches Werk, sondern auch ein UNESCO-Weltkulturerbe. Es steht als Zeugnis für das reiche kulturelle Erbe Indiens und die tiefen Gefühle, die seine Entstehung inspirierten. Im Laufe der Jahre war es Herausforderungen wie Verschmutzung und dem Zahn der Zeit ausgesetzt, doch Restaurierungsmaßnahmen tragen weiterhin dazu bei, seine Schönheit für zukünftige Generationen zu bewahren.",
+      "imageUrl": "https://www.visittnt.com/blog/wp-content/uploads/2016/01/Love-Symbols-Wallpaper.jpg",
+      "title": "The Taj Mahal: A Symbol of Love",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "3 min",
+      "words": [
+        {
+          "key": "monument",
+          "value": "Denkmal"
+        },
+        {
+          "key": "iconic",
+          "value": "ikonisch"
+        },
+        {
+          "key": "commissioned",
+          "value": "in Auftrag gegeben"
+        },
+        {
+          "key": "beloved",
+          "value": "geliebt"
+        },
+        {
+          "key": "eternal",
+          "value": "ewig"
+        },
+        {
+          "key": "marble",
+          "value": "Marmor"
+        },
+        {
+          "key": "architectural",
+          "value": "architektonisch"
+        },
+        {
+          "key": "dome",
+          "value": "Kuppel"
+        },
+        {
+          "key": "minarets",
+          "value": "Minarette"
+        },
+        {
+          "key": "carvings",
+          "value": "Schnitzereien"
+        },
+        {
+          "key": "semi-precious",
+          "value": "Halbedel"
+        },
+        {
+          "key": "craftsmanship",
+          "value": "Handwerkskunst"
+        },
+        {
+          "key": "pollution",
+          "value": "Verschmutzung"
+        },
+        {
+          "key": "restoration",
+          "value": "Restaurierung"
+        },
+        {
+          "key": "testament",
+          "value": "Zeugnis"
+        },
+        {
+          "key": "visitors",
+          "value": "Besucher"
+        },
+        {
+          "key": "adorn",
+          "value": "schmücken"
+        },
+        {
+          "key": "blend",
+          "value": "Vereinigung"
+        },
+        {
+          "key": "central",
+          "value": "zentral"
+        },
+        {
+          "key": "rich",
+          "value": "reich"
+        },
+        {
+          "key": "creation",
+          "value": "Schöpfung"
+        },
+        {
+          "key": "future",
+          "value": "Zukunft"
+        },
+        {
+          "key": "elements",
+          "value": "Elemente"
+        },
+        {
+          "key": "heritage site",
+          "value": "Weltkulturerbe"
+        },
+        {
+          "key": "beauty",
+          "value": "Schönheit"
+        },
+        {
+          "key": "challenging",
+          "value": "herausfordernd"
+        },
+        {
+          "key": "unique",
+          "value": "einzigartig"
+        }
+      ]
+    },
+    {
+      "content": "Soccer, also known as football in most countries, is the most popular sport in the world. Played by over 250 million people in more than 200 nations, it has a universal appeal that transcends borders and cultures. The game involves two teams of eleven players each, competing to score goals by getting the ball into the opposing team’s net. With simple rules and minimal equipment, soccer can be played almost anywhere, making it accessible to people of all ages and backgrounds.\n\nThe history of soccer dates back to ancient times, with various forms of the game played in China, Greece, and Rome. However, modern soccer as we know it today was formalized in England during the mid-19th century. The establishment of the Football Association in 1863 marked the beginning of standardized rules, leading to the global phenomenon we see today. Major tournaments such as the FIFA World Cup and UEFA Champions League attract millions of fans and generate immense excitement worldwide.\n\nSoccer is not just about physical skill but also strategy, teamwork, and passion. Players must coordinate their movements, anticipate their opponents, and work together to achieve their goals. Whether played professionally in massive stadiums or casually in local parks, soccer brings people together and fosters a sense of community. Its global reach and ability to unite people from different walks of life make it much more than just a sport.",
+      "contentDe": "Fußball, in den meisten Ländern auch als Football bekannt, ist die beliebteste Sportart der Welt. Über 250 Millionen Menschen in mehr als 200 Ländern spielen diesen Sport, der eine universelle Anziehungskraft besitzt, die Grenzen und Kulturen überwindet. Das Spiel besteht aus zwei Mannschaften mit jeweils elf Spielern, die versuchen, Tore zu erzielen, indem sie den Ball ins gegnerische Netz befördern. Mit einfachen Regeln und minimaler Ausrüstung kann Fußball fast überall gespielt werden und ist für Menschen jeden Alters und Hintergrunds zugänglich.\n\nDie Geschichte des Fußballs reicht bis in die Antike zurück, wobei verschiedene Formen des Spiels in China, Griechenland und Rom gespielt wurden. Der moderne Fußball, wie wir ihn heute kennen, wurde jedoch Mitte des 19. Jahrhunderts in England formalisiert. Die Gründung des Fußballverbands im Jahr 1863 markierte den Beginn einheitlicher Regeln und führte zum globalen Phänomen, das wir heute erleben. Große Turniere wie die FIFA-Weltmeisterschaft und die UEFA Champions League ziehen Millionen von Fans an und sorgen weltweit für enorme Begeisterung.\n\nFußball geht nicht nur um körperliche Fähigkeiten, sondern auch um Strategie, Teamarbeit und Leidenschaft. Spieler müssen ihre Bewegungen koordinieren, ihre Gegner einschätzen und zusammenarbeiten, um ihre Ziele zu erreichen. Ob professionell in riesigen Stadien oder informell in örtlichen Parks gespielt – Fußball bringt Menschen zusammen und fördert ein Gemeinschaftsgefühl. Seine weltweite Reichweite und die Fähigkeit, Menschen aus verschiedenen Lebensbereichen zu vereinen, machen ihn zu weit mehr als nur einem Sport.",
+      "title": "The Global Game of Soccer",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQGH88zCh7-Zhg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1707278795821?e=2147483647&v=beta&t=1WRHGLH8P6k_GZ0TQ_glYH-wzmutUwmi5PiEp7owBfY",
+      "isNew": true,
+      "level": "B1",
+      "min": "3 min",
+      "genre": "Sports",
+      "words": [
+        {
+          "key": "Soccer",
+          "value": "Fußball"
+        },
+        {
+          "key": "football",
+          "value": "Fußball"
+        },
+        {
+          "key": "net",
+          "value": "Tor"
+        },
+        {
+          "key": "team",
+          "value": "Mannschaft"
+        },
+        {
+          "key": "player",
+          "value": "Spieler"
+        },
+        {
+          "key": "score",
+          "value": "punkten"
+        },
+        {
+          "key": "equipment",
+          "value": "Ausrüstung"
+        },
+        {
+          "key": "accessible",
+          "value": "zugänglich"
+        },
+        {
+          "key": "ancient",
+          "value": "antik"
+        },
+        {
+          "key": "standardized",
+          "value": "standardisiert"
+        },
+        {
+          "key": "phenomenon",
+          "value": "Phänomen"
+        },
+        {
+          "key": "tournament",
+          "value": "Turnier"
+        },
+        {
+          "key": "strategy",
+          "value": "Strategie"
+        },
+        {
+          "key": "teamwork",
+          "value": "Teamarbeit"
+        },
+        {
+          "key": "passion",
+          "value": "Leidenschaft"
+        },
+        {
+          "key": "coordinate",
+          "value": "koordinieren"
+        },
+        {
+          "key": "anticipate",
+          "value": "vorausahnen"
+        },
+        {
+          "key": "community",
+          "value": "Gemeinschaft"
+        },
+        {
+          "key": "reach",
+          "value": "Reichweite"
+        },
+        {
+          "key": "fans",
+          "value": "Fans"
+        },
+        {
+          "key": "stadium",
+          "value": "Stadion"
+        },
+        {
+          "key": "rules",
+          "value": "Regeln"
+        },
+        {
+          "key": "formalized",
+          "value": "formalisiert"
+        },
+        {
+          "key": "excitement",
+          "value": "Begeisterung"
+        },
+        {
+          "key": "casually",
+          "value": "informell"
+        },
+        {
+          "key": "movement",
+          "value": "Bewegung"
+        },
+        {
+          "key": "global",
+          "value": "global"
+        },
+        {
+          "key": "appeal",
+          "value": "Anziehungskraft"
+        },
+        {
+          "key": "transcend",
+          "value": "überwinden"
+        },
+        {
+          "key": "cultural",
+          "value": "kulturell"
+        }
+      ]
+    },
+    {
+      "content": "The Northern Lights, also known as the Aurora Borealis, are one of nature's most spectacular displays. These vibrant light patterns can be seen in polar regions, primarily in the Arctic and Antarctic. The lights occur when charged particles from the sun collide with Earth's atmosphere, creating dazzling displays of green, pink, and purple hues. People from around the world travel to locations such as Norway, Iceland, and Canada to witness this breathtaking phenomenon.\n\nThe science behind the Aurora Borealis lies in the interaction between the solar wind and Earth's magnetic field. The sun continuously emits particles, which form the solar wind. When these particles encounter Earth's magnetic field, they are funneled toward the poles, where they interact with gases in the atmosphere, like oxygen and nitrogen. This interaction produces energy in the form of colorful light. The intensity and colors of the auroras depend on the types of gases and the solar activity at the time.\n\nViewing the Northern Lights requires patience and the right conditions. The best time to see them is during the winter months when nights are longer and skies are clearer. Locations with minimal light pollution provide the ideal environment for spotting the auroras. Many cultures have myths and legends about the Northern Lights. For example, in Norse mythology, the lights were believed to be reflections from the shields of the Valkyries. Today, they remain a source of inspiration for artists, scientists, and travelers alike.",
+      "contentDe": "Die Nordlichter, auch bekannt als Aurora Borealis, gehören zu den spektakulärsten Naturphänomenen. Diese lebhaften Lichtmuster sind in den Polarregionen zu sehen, hauptsächlich in der Arktis und Antarktis. Die Lichter entstehen, wenn geladene Teilchen von der Sonne mit der Erdatmosphäre kollidieren und dabei atemberaubende grüne, pinke und violette Farbtöne erzeugen. Menschen aus aller Welt reisen zu Orten wie Norwegen, Island und Kanada, um dieses faszinierende Phänomen zu erleben.\n\nDie Wissenschaft hinter der Aurora Borealis liegt in der Wechselwirkung zwischen dem Sonnenwind und dem Magnetfeld der Erde. Die Sonne sendet kontinuierlich Teilchen aus, die den Sonnenwind bilden. Wenn diese Teilchen auf das Magnetfeld der Erde treffen, werden sie zu den Polen geleitet, wo sie mit Gasen in der Atmosphäre wie Sauerstoff und Stickstoff reagieren. Diese Reaktion erzeugt Energie in Form von farbigem Licht. Die Intensität und Farben der Polarlichter hängen von der Art der Gase und der Sonnenaktivität ab.\n\nUm die Nordlichter zu sehen, braucht man Geduld und die richtigen Bedingungen. Die beste Zeit für eine Sichtung ist im Winter, wenn die Nächte länger und der Himmel klarer ist. Orte mit wenig Lichtverschmutzung bieten die idealen Voraussetzungen, um die Lichter zu beobachten. Viele Kulturen haben Mythen und Legenden über die Nordlichter. In der nordischen Mythologie beispielsweise glaubte man, dass das Licht die Reflexionen der Schilde der Walküren seien. Heute sind die Nordlichter weiterhin eine Inspirationsquelle für Künstler, Wissenschaftler und Reisende.",
+      "words": [
+        {
+          "key": "Northern Lights",
+          "value": "Nordlichter"
+        },
+        {
+          "key": "polar regions",
+          "value": "Polarregionen"
+        },
+        {
+          "key": "Antarctic",
+          "value": "Antarktis"
+        },
+        {
+          "key": "charged particles",
+          "value": "geladene Teilchen"
+        },
+        {
+          "key": "solar wind",
+          "value": "Sonnenwind"
+        },
+        {
+          "key": "magnetic field",
+          "value": "Magnetfeld"
+        },
+        {
+          "key": "energy",
+          "value": "Energie"
+        },
+        {
+          "key": "light pollution",
+          "value": "Lichtverschmutzung"
+        },
+        {
+          "key": "myths",
+          "value": "Mythen"
+        },
+        {
+          "key": "legends",
+          "value": "Legenden"
+        },
+        {
+          "key": "Norse mythology",
+          "value": "nordische Mythologie"
+        },
+        {
+          "key": "hues",
+          "value": "Farbtöne"
+        },
+        {
+          "key": "phenomenon",
+          "value": "Phänomen"
+        },
+        {
+          "key": "inspiration",
+          "value": "Inspiration"
+        },
+        {
+          "key": "scientists",
+          "value": "Wissenschaftler"
+        },
+        {
+          "key": "travelers",
+          "value": "Reisende"
+        },
+        {
+          "key": "atmosphere",
+          "value": "Atmosphäre"
+        },
+        {
+          "key": "collision",
+          "value": "Kollision"
+        },
+        {
+          "key": "reflections",
+          "value": "Reflexionen"
+        },
+        {
+          "key": "intensity",
+          "value": "Intensität"
+        },
+        {
+          "key": "conditions",
+          "value": "Bedingungen"
+        },
+        {
+          "key": "breathtaking",
+          "value": "atemberaubend"
+        },
+        {
+          "key": "display",
+          "value": "Darstellung"
+        },
+        {
+          "key": "clear skies",
+          "value": "klarer Himmel"
+        }
+      ],
+      "title": "The Mesmerizing Northern Lights",
+      "imageUrl": "https://worldwildschooling.com/wp-content/uploads/2024/03/Mesmerizing-Northern-Lights-Viewing-Spots-in-the-World-Abisko-Sweden_%C2%A9-Dimitri-Tymchenko_Shutterstock_2431203975-1024x576.jpg",
+      "isNew": true,
+      "level": "B2",
+      "genre": "Nature",
+      "min": "4 min"
+    },
+    {
+      "content": "Mahatma Gandhi, often referred to as the Father of the Nation in India, was a leader who inspired millions with his philosophy of non-violence and civil disobedience. Born in 1869 in Porbandar, India, Gandhi studied law in London and later worked in South Africa, where he witnessed racial discrimination. These experiences shaped his beliefs and led to his commitment to fighting for equality and justice. \n\nGandhi returned to India in 1915 and soon became a prominent figure in the Indian independence movement. His methods of peaceful protest, including boycotts, marches, and hunger strikes, became symbols of resistance against British rule. The Salt March of 1930, in particular, gained international attention. This 240-mile march was a protest against the British monopoly on salt, demonstrating Gandhi's ability to mobilize people and inspire action without resorting to violence. \n\nGandhi's influence extended far beyond India's borders. His teachings inspired civil rights leaders such as Martin Luther King Jr. and Nelson Mandela. Gandhi emphasized the power of truth, simplicity, and self-reliance, encouraging people to live harmoniously and respect all living beings. Tragically, he was assassinated in 1948, but his legacy endures as a testament to the power of peaceful resistance and moral leadership.",
+      "contentDe": "Mahatma Gandhi, oft als Vater der Nation in Indien bezeichnet, war ein Anführer, der Millionen mit seiner Philosophie der Gewaltlosigkeit und des zivilen Ungehorsams inspirierte. Geboren 1869 in Porbandar, Indien, studierte Gandhi Jura in London und arbeitete später in Südafrika, wo er Zeuge von Rassendiskriminierung wurde. Diese Erfahrungen prägten seine Überzeugungen und führten zu seinem Engagement für Gleichheit und Gerechtigkeit.\n\nGandhi kehrte 1915 nach Indien zurück und wurde bald eine prominente Figur in der indischen Unabhängigkeitsbewegung. Seine Methoden des friedlichen Protests, darunter Boykotte, Märsche und Hungerstreiks, wurden zu Symbolen des Widerstands gegen die britische Herrschaft. Besonders der Salzmarsch von 1930 erregte internationale Aufmerksamkeit. Dieser 240-Meilen-Marsch war ein Protest gegen das britische Salzmonopol und zeigte Gandhis Fähigkeit, Menschen zu mobilisieren und zum Handeln zu inspirieren, ohne auf Gewalt zurückzugreifen.\n\nGandhis Einfluss reichte weit über Indiens Grenzen hinaus. Seine Lehren inspirierten Bürgerrechtsführer wie Martin Luther King Jr. und Nelson Mandela. Gandhi betonte die Kraft der Wahrheit, der Einfachheit und der Selbstgenügsamkeit und ermutigte die Menschen, harmonisch zu leben und allen Lebewesen Respekt entgegenzubringen. Tragischerweise wurde er 1948 ermordet, aber sein Vermächtnis lebt weiter als Beweis für die Macht des friedlichen Widerstands und der moralischen Führung.",
+      "words": [
+        {
+          "key": "philosophy",
+          "value": "Philosophie"
+        },
+        {
+          "key": "non-violence",
+          "value": "Gewaltlosigkeit"
+        },
+        {
+          "key": "civil disobedience",
+          "value": "ziviler Ungehorsam"
+        },
+        {
+          "key": "equality",
+          "value": "Gleichheit"
+        },
+        {
+          "key": "justice",
+          "value": "Gerechtigkeit"
+        },
+        {
+          "key": "independence",
+          "value": "Unabhängigkeit"
+        },
+        {
+          "key": "protest",
+          "value": "Protest"
+        },
+        {
+          "key": "boycott",
+          "value": "Boykott"
+        },
+        {
+          "key": "hunger strike",
+          "value": "Hungerstreik"
+        },
+        {
+          "key": "monopoly",
+          "value": "Monopol"
+        },
+        {
+          "key": "truth",
+          "value": "Wahrheit"
+        },
+        {
+          "key": "simplicity",
+          "value": "Einfachheit"
+        },
+        {
+          "key": "self-reliance",
+          "value": "Selbstgenügsamkeit"
+        },
+        {
+          "key": "harmoniously",
+          "value": "harmonisch"
+        },
+        {
+          "key": "legacy",
+          "value": "Vermächtnis"
+        },
+        {
+          "key": "resistance",
+          "value": "Widerstand"
+        },
+        {
+          "key": "leadership",
+          "value": "Führung"
+        },
+        {
+          "key": "commitment",
+          "value": "Engagement"
+        },
+        {
+          "key": "discrimination",
+          "value": "Diskriminierung"
+        },
+        {
+          "key": "mobilize",
+          "value": "mobilisieren"
+        },
+        {
+          "key": "influence",
+          "value": "Einfluss"
+        },
+        {
+          "key": "Tragically",
+          "value": "Tragischerweise"
+        },
+        {
+          "key": "prominent",
+          "value": "prominent"
+        },
+        {
+          "key": "attention",
+          "value": "Aufmerksamkeit"
+        },
+        {
+          "key": "teachings",
+          "value": "Lehren"
+        },
+        {
+          "key": "inspire",
+          "value": "inspirieren"
+        },
+        {
+          "key": "assassinated",
+          "value": "ermordet"
+        },
+        {
+          "key": "border",
+          "value": "Grenze"
+        },
+        {
+          "key": "emphasized",
+          "value": "betonte"
+        },
+        {
+          "key": "truthful",
+          "value": "wahrhaftig"
+        },
+        {
+          "key": "coexist",
+          "value": "koexistieren"
+        },
+        {
+          "key": "symbol",
+          "value": "Symbol"
+        },
+        {
+          "key": "witnessed",
+          "value": "bezeugte"
+        }
+      ],
+      "imageUrl": "https://jgi-design-live.s3.amazonaws.com/knowledgeumacademy.in/uploads/blog/dc85ad578c28809462efa8e1d6328f95.jpg",
+      "title": "Mahatma Gandhi: The Legacy of Non-Violence",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Healthy eating is essential for maintaining a balanced lifestyle. It not only improves physical health but also supports mental well-being. A well-rounded diet includes a variety of foods such as fruits, vegetables, whole grains, and proteins. For instance, eating leafy greens like spinach can boost your immune system, while fruits such as oranges provide essential vitamins. \n\nOne important aspect of healthy eating is portion control. Overeating, even with nutritious foods, can lead to weight gain and other health problems. It is crucial to listen to your body's hunger cues and avoid consuming more than necessary. Additionally, drinking plenty of water throughout the day is key to staying hydrated and supporting digestion. \n\nIn today's fast-paced world, many people rely on processed foods, which are often high in sugar and unhealthy fats. Preparing meals at home is a great way to ensure you are eating wholesome ingredients. Cooking with family or friends can also make the process enjoyable and strengthen relationships. By adopting healthy eating habits, you can lead a more energetic and fulfilling life.",
+      "contentDe": "Gesunde Ernährung ist entscheidend für die Aufrechterhaltung eines ausgewogenen Lebensstils. Sie verbessert nicht nur die körperliche Gesundheit, sondern unterstützt auch das mentale Wohlbefinden. Eine ausgewogene Ernährung umfasst eine Vielzahl von Lebensmitteln wie Obst, Gemüse, Vollkornprodukte und Proteine. Zum Beispiel kann der Verzehr von grünem Blattgemüse wie Spinat das Immunsystem stärken, während Früchte wie Orangen wichtige Vitamine liefern.\n\nEin wichtiger Aspekt gesunder Ernährung ist die Portionskontrolle. Übermäßiges Essen, selbst bei nährstoffreichen Lebensmitteln, kann zu Gewichtszunahme und anderen Gesundheitsproblemen führen. Es ist wichtig, auf die Hungersignale des Körpers zu achten und nicht mehr zu essen als nötig. Außerdem ist es entscheidend, über den Tag verteilt ausreichend Wasser zu trinken, um hydriert zu bleiben und die Verdauung zu unterstützen.\n\nIn der heutigen schnelllebigen Welt verlassen sich viele Menschen auf verarbeitete Lebensmittel, die oft reich an Zucker und ungesunden Fetten sind. Mahlzeiten zu Hause zuzubereiten ist eine großartige Möglichkeit, sicherzustellen, dass man gesunde Zutaten zu sich nimmt. Das Kochen mit Familie oder Freunden kann den Prozess zudem unterhaltsam machen und Beziehungen stärken. Durch die Annahme gesunder Essgewohnheiten kann man ein energiegeladeneres und erfüllteres Leben führen.",
+      "words": [
+        {
+          "key": "maintaining",
+          "value": "aufrechterhalten"
+        },
+        {
+          "key": "improve",
+          "value": "verbessern"
+        },
+        {
+          "key": "balanced",
+          "value": "ausgewogen"
+        },
+        {
+          "key": "lifestyle",
+          "value": "Lebensstil"
+        },
+        {
+          "key": "well-being",
+          "value": "Wohlbefinden"
+        },
+        {
+          "key": "variety",
+          "value": "Vielfalt"
+        },
+        {
+          "key": "immune system",
+          "value": "Immunsystem"
+        },
+        {
+          "key": "portion",
+          "value": "Portion"
+        },
+        {
+          "key": "Overeating",
+          "value": "Überessen"
+        },
+        {
+          "key": "hydrated",
+          "value": "hydriert"
+        },
+        {
+          "key": "digestion",
+          "value": "Verdauung"
+        },
+        {
+          "key": "processed foods",
+          "value": "verarbeitete Lebensmittel"
+        },
+        {
+          "key": "ingredients",
+          "value": "Zutaten"
+        },
+        {
+          "key": "fulfilling",
+          "value": "erfüllend"
+        },
+        {
+          "key": "nutritious",
+          "value": "nahrhaft"
+        },
+        {
+          "key": "hunger cues",
+          "value": "Hungersignale"
+        },
+        {
+          "key": "energetic",
+          "value": "energiegeladen"
+        },
+        {
+          "key": "relationships",
+          "value": "Beziehungen"
+        },
+        {
+          "key": "strengthen",
+          "value": "stärken"
+        },
+        {
+          "key": "adopting",
+          "value": "annehmen"
+        },
+        {
+          "key": "essential",
+          "value": "entscheidend"
+        },
+        {
+          "key": "leafy greens",
+          "value": "grünes Blattgemüse"
+        }
+      ],
+      "imageUrl": "https://www.healthcareradius.in/cloud/2022/01/25/34Daw0cy-healthy-eating-1200x675.jpg",
+      "title": "Healthy Eating Habits",
+      "level": "B1",
+      "genre": "Health",
+      "isNew": false,
+      "min": "2 min"
+    },
+    {
+      "content": "Traditional music is a vital part of many cultures around the world. It connects people to their history and provides a sense of identity. For example, in Ireland, folk music with instruments like the fiddle and flute is an essential part of social gatherings. Similarly, in India, classical music such as Hindustani and Carnatic has been practiced for centuries, often used in spiritual ceremonies. \n\nTraditional music often reflects the lifestyle, beliefs, and environment of a community. In Africa, drumming is not only a form of music but also a means of communication and storytelling. The rhythms can symbolize unity and are often passed down through generations. In South America, genres like samba and tango capture the vibrant and emotional spirit of the people, showcasing their creativity and passion. \n\nIn today's world, traditional music faces challenges from modern genres and digital platforms. However, efforts are being made to preserve these art forms. Music festivals, cultural events, and educational programs play a significant role in keeping traditions alive. For instance, workshops that teach young people to play traditional instruments ensure that these practices will not be forgotten. Traditional music continues to inspire artists and serves as a bridge between the past and the present.",
+      "contentDe": "Traditionelle Musik ist ein wesentlicher Bestandteil vieler Kulturen auf der ganzen Welt. Sie verbindet Menschen mit ihrer Geschichte und vermittelt ein Gefühl von Identität. In Irland zum Beispiel ist Volksmusik mit Instrumenten wie der Geige und der Flöte ein unverzichtbarer Teil gesellschaftlicher Zusammenkünfte. Ähnlich wird in Indien klassische Musik wie Hindustani und Carnatic seit Jahrhunderten praktiziert und oft bei spirituellen Zeremonien verwendet.\n\nTraditionelle Musik spiegelt oft den Lebensstil, die Überzeugungen und die Umwelt einer Gemeinschaft wider. In Afrika ist das Trommeln nicht nur eine Musikform, sondern auch ein Mittel zur Kommunikation und zum Geschichtenerzählen. Die Rhythmen können Einheit symbolisieren und werden häufig über Generationen weitergegeben. In Südamerika fangen Musikrichtungen wie Samba und Tango den lebendigen und emotionalen Geist der Menschen ein und zeigen deren Kreativität und Leidenschaft.\n\nIn der heutigen Welt steht traditionelle Musik vor Herausforderungen durch moderne Genres und digitale Plattformen. Dennoch werden Anstrengungen unternommen, um diese Kunstformen zu bewahren. Musikfestivals, kulturelle Veranstaltungen und Bildungsprogramme spielen eine bedeutende Rolle dabei, Traditionen lebendig zu halten. Workshops, in denen junge Menschen das Spielen traditioneller Instrumente erlernen, sorgen dafür, dass diese Praktiken nicht in Vergessenheit geraten. Traditionelle Musik inspiriert weiterhin Künstler und dient als Brücke zwischen Vergangenheit und Gegenwart.",
+      "words": [
+        {
+          "key": "vital",
+          "value": "wesentlich"
+        },
+        {
+          "key": "identity",
+          "value": "Identität"
+        },
+        {
+          "key": "fiddle",
+          "value": "Geige"
+        },
+        {
+          "key": "spiritual",
+          "value": "spirituell"
+        },
+        {
+          "key": "beliefs",
+          "value": "Überzeugungen"
+        },
+        {
+          "key": "community",
+          "value": "Gemeinschaft"
+        },
+        {
+          "key": "drumming",
+          "value": "Trommeln"
+        },
+        {
+          "key": "communication",
+          "value": "Kommunikation"
+        },
+        {
+          "key": "storytelling",
+          "value": "Geschichtenerzählen"
+        },
+        {
+          "key": "rhythms",
+          "value": "Rhythmen"
+        },
+        {
+          "key": "generations",
+          "value": "Generationen"
+        },
+        {
+          "key": "vibrant",
+          "value": "lebendig"
+        },
+        {
+          "key": "preserve",
+          "value": "bewahren"
+        },
+        {
+          "key": "festivals",
+          "value": "Festivals"
+        },
+        {
+          "key": "educational",
+          "value": "pädagogisch"
+        },
+        {
+          "key": "workshops",
+          "value": "Workshops"
+        },
+        {
+          "key": "instruments",
+          "value": "Instrumente"
+        },
+        {
+          "key": "practices",
+          "value": "Praktiken"
+        },
+        {
+          "key": "forgotten",
+          "value": "vergessen"
+        },
+        {
+          "key": "bridge",
+          "value": "Brücke"
+        }
+      ],
+      "imageUrl": "https://npr.brightspotcdn.com/dims4/default/f74c320/2147483647/strip/true/crop/1696x928+0+0/resize/880x482!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2F2e%2F831bc34d4da4a6e740e0add391f1%2Fjoy-bennett-old-songs-2022.png",
+      "title": "The Joy of Traditional Music",
+      "level": "B1",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "The Great Wall of China is one of the most remarkable architectural achievements in history. Stretching over 13,000 miles, it winds across deserts, mountains, and plains, demonstrating the ingenuity and determination of ancient Chinese civilizations. Built primarily during the Ming Dynasty, the wall served as a fortification against invasions from northern tribes, such as the Mongols. Its construction involved millions of workers, including soldiers, laborers, and prisoners. \n\nThe wall is not a single continuous structure but a series of walls and fortifications connected over time. Materials like bricks, tamped earth, and wood were used depending on the region's resources. Watchtowers were strategically placed along the wall to allow guards to monitor large areas and signal potential attacks using smoke during the day and fire at night. This system ensured that information could travel quickly across vast distances. \n\nToday, the Great Wall is a UNESCO World Heritage Site and attracts millions of tourists every year. It symbolizes strength, unity, and perseverance, serving as a testament to China's rich history and cultural heritage. However, the wall faces challenges from natural erosion and human activities. Conservation efforts are ongoing to preserve this magnificent structure for future generations. Visiting the Great Wall is a memorable experience, offering breathtaking views and a chance to connect with a piece of human history.",
+      "contentDe": "Die Chinesische Mauer ist eines der bemerkenswertesten architektonischen Meisterwerke der Geschichte. Sie erstreckt sich über mehr als 13.000 Meilen und schlängelt sich durch Wüsten, Berge und Ebenen – ein Beweis für den Einfallsreichtum und die Entschlossenheit der alten chinesischen Zivilisationen. Hauptsächlich während der Ming-Dynastie erbaut, diente die Mauer als Befestigung gegen Invasionen nördlicher Stämme wie der Mongolen. Am Bau waren Millionen von Menschen beteiligt, darunter Soldaten, Arbeiter und Gefangene.\n\nDie Mauer ist keine durchgehende Struktur, sondern besteht aus einer Reihe von Mauern und Befestigungen, die im Laufe der Zeit miteinander verbunden wurden. Materialien wie Ziegel, gestampfte Erde und Holz wurden je nach Ressourcen der Region verwendet. Wachtürme wurden strategisch entlang der Mauer platziert, damit Wächter große Gebiete überwachen und mögliche Angriffe tagsüber mit Rauch und nachts mit Feuer signalisieren konnten. Dieses System stellte sicher, dass Informationen schnell über weite Entfernungen weitergegeben werden konnten.\n\nHeute ist die Chinesische Mauer ein UNESCO-Weltkulturerbe und zieht jedes Jahr Millionen von Touristen an. Sie symbolisiert Stärke, Einheit und Durchhaltevermögen und ist ein Zeugnis für Chinas reiche Geschichte und kulturelles Erbe. Allerdings ist die Mauer durch natürliche Erosion und menschliche Aktivitäten gefährdet. Erhaltungsmaßnahmen sind im Gange, um dieses großartige Bauwerk für zukünftige Generationen zu bewahren. Ein Besuch der Großen Mauer ist ein unvergessliches Erlebnis, das atemberaubende Ausblicke bietet und die Möglichkeit gibt, mit einem Stück Menschheitsgeschichte in Verbindung zu treten.",
+      "words": [
+        {
+          "key": "remarkable",
+          "value": "bemerkenswert"
+        },
+        {
+          "key": "architectural",
+          "value": "architektonisch"
+        },
+        {
+          "key": "achievement",
+          "value": "Errungenschaft"
+        },
+        {
+          "key": "fortification",
+          "value": "Befestigung"
+        },
+        {
+          "key": "invasion",
+          "value": "Invasion"
+        },
+        {
+          "key": "ingenuity",
+          "value": "Einfallsreichtum"
+        },
+        {
+          "key": "determination",
+          "value": "Entschlossenheit"
+        },
+        {
+          "key": "civilization",
+          "value": "Zivilisation"
+        },
+        {
+          "key": "laborers",
+          "value": "Arbeiter"
+        },
+        {
+          "key": "prisoners",
+          "value": "Gefangene"
+        },
+        {
+          "key": "continuous",
+          "value": "durchgehend"
+        },
+        {
+          "key": "fortifications",
+          "value": "Befestigungen"
+        },
+        {
+          "key": "resources",
+          "value": "Ressourcen"
+        },
+        {
+          "key": "watchtowers",
+          "value": "Wachtürme"
+        },
+        {
+          "key": "signal",
+          "value": "signalisieren"
+        },
+        {
+          "key": "attacks",
+          "value": "Angriffe"
+        },
+        {
+          "key": "conservation",
+          "value": "Erhaltung"
+        },
+        {
+          "key": "erosion",
+          "value": "Erosion"
+        },
+        {
+          "key": "perseverance",
+          "value": "Durchhaltevermögen"
+        },
+        {
+          "key": "testament",
+          "value": "Zeugnis"
+        },
+        {
+          "key": "symbolize",
+          "value": "symbolisieren"
+        },
+        {
+          "key": "vast",
+          "value": "weitläufig"
+        },
+        {
+          "key": "memorable",
+          "value": "unvergesslich"
+        },
+        {
+          "key": "breathtaking",
+          "value": "atemberaubend"
+        },
+        {
+          "key": "magnificent",
+          "value": "großartig"
+        },
+        {
+          "key": "heritage",
+          "value": "Erbe"
+        },
+        {
+          "key": "natural erosion",
+          "value": "natürliche Erosion"
+        },
+        {
+          "key": "human activities",
+          "value": "menschliche Aktivitäten"
+        }
+      ],
+      "imageUrl": "https://cxgveiouca.cloudimg.io/familyhotelfinder.com/wp-content/uploads/Beijing-Great-Wall-of-China1-SH.jpg?w=960&h=540&func=cover",
+      "title": "The Great Wall of China",
+      "level": "B1",
+      "genre": "History",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Cricket is one of the most popular sports in the world, enjoyed by millions across continents. Originating in England in the 16th century, it has grown into a global phenomenon with passionate fans in countries like India, Australia, and South Africa. Cricket matches are played between two teams, each consisting of eleven players. The game is known for its unique rules, diverse formats, and thrilling moments that captivate audiences. \n\nOne of the most distinctive aspects of cricket is its three formats: Test matches, One Day Internationals (ODIs), and Twenty20 (T20). Test cricket, the oldest and most traditional format, can last up to five days and is a true test of endurance and skill. ODIs are faster-paced, lasting just one day, and are highly popular for international tournaments like the Cricket World Cup. The T20 format, introduced more recently, is even shorter and focuses on entertainment, attracting a younger audience with its dynamic playstyle. \n\nCricket also holds cultural and historical significance in many regions. In India, for instance, cricket is almost a religion, with legendary players like Sachin Tendulkar inspiring generations. The sport has also served as a platform for unity, bringing people together regardless of their background. Despite its traditional roots, cricket has evolved with technology, incorporating innovations like Decision Review Systems (DRS) and Hawk-Eye to enhance fairness and accuracy. For fans, the thrill of watching a batsman hit a six or a bowler take a wicket remains unparalleled, making cricket more than just a sport – it is a celebration of talent, strategy, and teamwork.",
+      "contentDe": "Cricket ist eine der beliebtesten Sportarten der Welt und wird von Millionen Menschen auf verschiedenen Kontinenten geliebt. Ursprünglich im 16. Jahrhundert in England entstanden, hat es sich zu einem globalen Phänomen mit leidenschaftlichen Fans in Ländern wie Indien, Australien und Südafrika entwickelt. Cricket-Spiele werden zwischen zwei Teams mit jeweils elf Spielern gespielt. Das Spiel ist bekannt für seine einzigartigen Regeln, vielfältigen Formate und spannenden Momente, die das Publikum fesseln.\n\nEine der markantesten Eigenschaften von Cricket sind seine drei Formate: Testspiele, One-Day Internationals (ODIs) und Twenty20 (T20). Test Cricket, das älteste und traditionellste Format, kann bis zu fünf Tage dauern und stellt eine echte Prüfung für Ausdauer und Können dar. ODIs sind schneller und dauern nur einen Tag, besonders beliebt bei internationalen Turnieren wie dem Cricket World Cup. Das T20-Format, das erst kürzlich eingeführt wurde, ist noch kürzer und legt den Fokus auf Unterhaltung, wobei es durch seinen dynamischen Spielstil ein jüngeres Publikum anspricht.\n\nCricket hat auch kulturelle und historische Bedeutung in vielen Regionen. In Indien zum Beispiel ist Cricket fast wie eine Religion, und legendäre Spieler wie Sachin Tendulkar haben Generationen inspiriert. Der Sport dient auch als Plattform für Einheit, indem er Menschen unabhängig von ihrem Hintergrund zusammenbringt. Trotz seiner traditionellen Wurzeln hat sich Cricket durch Technologie weiterentwickelt, mit Innovationen wie dem Decision Review System (DRS) und Hawk-Eye, um Fairness und Genauigkeit zu verbessern. Für Fans ist die Spannung, wenn ein Schlagmann einen Sechser schlägt oder ein Bowler ein Wicket nimmt, unvergleichlich – Cricket ist mehr als nur ein Sport, es ist eine Feier von Talent, Strategie und Teamarbeit.",
+      "words": [
+        {
+          "key": "originating",
+          "value": "ursprünglich entstanden"
+        },
+        {
+          "key": "phenomenon",
+          "value": "Phänomen"
+        },
+        {
+          "key": "passionate",
+          "value": "leidenschaftlich"
+        },
+        {
+          "key": "distinctive",
+          "value": "markant"
+        },
+        {
+          "key": "endurance",
+          "value": "Ausdauer"
+        },
+        {
+          "key": "tournament",
+          "value": "Turnier"
+        },
+        {
+          "key": "dynamic",
+          "value": "dynamisch"
+        },
+        {
+          "key": "cultural",
+          "value": "kulturell"
+        },
+        {
+          "key": "historical",
+          "value": "historisch"
+        },
+        {
+          "key": "legendary",
+          "value": "legendär"
+        },
+        {
+          "key": "generations",
+          "value": "Generationen"
+        },
+        {
+          "key": "unity",
+          "value": "Einheit"
+        },
+        {
+          "key": "background",
+          "value": "Hintergrund"
+        },
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "accuracy",
+          "value": "Genauigkeit"
+        },
+        {
+          "key": "thrilling",
+          "value": "spannend"
+        },
+        {
+          "key": "batsman",
+          "value": "Schlagmann"
+        },
+        {
+          "key": "bowler",
+          "value": "Bowler"
+        },
+        {
+          "key": "celebration",
+          "value": "Feier"
+        },
+        {
+          "key": "one-day international",
+          "value": "One-Day International"
+        },
+        {
+          "key": "hawk-eye",
+          "value": "Hawk-Eye"
+        },
+        {
+          "key": "decision review system",
+          "value": "Decision Review System"
+        },
+        {
+          "key": "six",
+          "value": "Sechser"
+        },
+        {
+          "key": "global",
+          "value": "global"
+        },
+        {
+          "key": "sportsmanship",
+          "value": "Sportgeist"
+        }
+      ],
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGGqprdCtyD2IIM8b6Qsl7vgh_DPf3PcPmQ&s",
+      "title": "The Fascination of Cricket",
+      "level": "B1",
+      "genre": "Sports",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Turkish cuisine is one of the most diverse and delicious culinary traditions in the world. It has been shaped by centuries of cultural exchange, with influences from Central Asia, the Middle East, the Mediterranean, and the Balkans. Turkish dishes are known for their rich flavors, fresh ingredients, and unique combinations. One of the key features of Turkish food is the emphasis on using fresh vegetables, herbs, and spices to create balanced and healthy meals. \n\nSome of the most popular dishes in Turkish cuisine include kebabs, mezes, and soups. Kebabs, such as the famous 'döner' and 'shish kebab,' are made with marinated meat, often lamb or chicken, that is grilled to perfection. Mezes are small appetizers served with bread, and they feature a wide variety of flavors, such as hummus, baba ghanoush, and yogurt-based dips. Soups, like 'lentil soup' and 'yogurt soup,' are often enjoyed as starters and are known for their comforting and hearty flavors. \n\nDesserts in Turkish cuisine are also highly regarded. 'Baklava' is one of the most famous Turkish desserts, made from layers of thin pastry filled with crushed nuts and sweet syrup. Other popular sweets include 'künefe,' a cheese pastry soaked in syrup, and 'lokum,' also known as Turkish delight, which is made from sugar, starch, and flavors like rosewater and lemon. Turkish tea and coffee are also an integral part of the culture, often served with sweets as a symbol of hospitality. Turkish cuisine is not only about the food itself but also about the joy of sharing meals with loved ones and enjoying the company of family and friends.",
+      "contentDe": "Die türkische Küche gehört zu den vielfältigsten und köstlichsten kulinarischen Traditionen der Welt. Sie wurde über Jahrhunderte hinweg durch kulturellen Austausch geprägt, mit Einflüssen aus Zentralasien, dem Nahen Osten, dem Mittelmeerraum und dem Balkan. Türkische Gerichte sind bekannt für ihre reichhaltigen Aromen, frischen Zutaten und einzigartigen Kombinationen. Ein zentrales Merkmal der türkischen Küche ist die Betonung auf der Verwendung frischer Gemüse, Kräuter und Gewürze, um ausgewogene und gesunde Mahlzeiten zu kreieren.\n\nZu den beliebtesten Gerichten der türkischen Küche gehören Kebabs, Meze und Suppen. Kebabs wie der berühmte Döner oder Schisch Kebab bestehen aus mariniertem Fleisch – meist Lamm oder Huhn – das perfekt gegrillt wird. Meze sind kleine Vorspeisen, die mit Brot serviert werden und eine große Vielfalt an Aromen bieten, darunter Hummus, Baba Ghanoush und Joghurt-Dips. Suppen wie Linsensuppe oder Joghurtsuppe werden oft als Vorspeise genossen und sind für ihre wohltuenden und herzhaften Geschmäcker bekannt.\n\nAuch die Desserts der türkischen Küche sind sehr geschätzt. Baklava ist eines der bekanntesten türkischen Desserts, bestehend aus dünnen Teigschichten, die mit gehackten Nüssen gefüllt und mit süßem Sirup überzogen sind. Weitere beliebte Süßspeisen sind Künefe – ein mit Sirup getränktes Käsegebäck – sowie Lokum, auch als Türkischer Honig bekannt, das aus Zucker, Stärke und Aromen wie Rosenwasser und Zitrone besteht. Türkischer Tee und Kaffee sind ebenfalls ein fester Bestandteil der Kultur und werden oft zusammen mit Süßigkeiten als Zeichen der Gastfreundschaft gereicht. Die türkische Küche dreht sich nicht nur ums Essen selbst, sondern auch um die Freude, Mahlzeiten mit seinen Liebsten zu teilen und die Gesellschaft von Familie und Freunden zu genießen.",
+      "words": [
+        {
+          "key": "cuisine",
+          "value": "Küche"
+        },
+        {
+          "key": "diverse",
+          "value": "vielfältig"
+        },
+        {
+          "key": "culinary",
+          "value": "kulinarisch"
+        },
+        {
+          "key": "traditions",
+          "value": "Traditionen"
+        },
+        {
+          "key": "influences",
+          "value": "Einflüsse"
+        },
+        {
+          "key": "ingredients",
+          "value": "Zutaten"
+        },
+        {
+          "key": "unique",
+          "value": "einzigartig"
+        },
+        {
+          "key": "combination",
+          "value": "Kombination"
+        },
+        {
+          "key": "vegetables",
+          "value": "Gemüse"
+        },
+        {
+          "key": "herbs",
+          "value": "Kräuter"
+        },
+        {
+          "key": "spices",
+          "value": "Gewürze"
+        },
+        {
+          "key": "balanced",
+          "value": "ausgewogen"
+        },
+        {
+          "key": "healthy",
+          "value": "gesund"
+        },
+        {
+          "key": "kebabs",
+          "value": "Kebabs"
+        },
+        {
+          "key": "mezes",
+          "value": "Meze"
+        },
+        {
+          "key": "appetizers",
+          "value": "Vorspeisen"
+        },
+        {
+          "key": "hummus",
+          "value": "Hummus"
+        },
+        {
+          "key": "yogurt-based dips",
+          "value": "Joghurt-Dips"
+        },
+        {
+          "key": "soups",
+          "value": "Suppen"
+        },
+        {
+          "key": "Lentil soup",
+          "value": "Linsensuppe"
+        },
+        {
+          "key": "Yogurt soup",
+          "value": "Joghurtsuppe"
+        },
+        {
+          "key": "Desserts",
+          "value": "Desserts"
+        },
+        {
+          "key": "pastry",
+          "value": "Gebäck"
+        },
+        {
+          "key": "nuts",
+          "value": "Nüsse"
+        },
+        {
+          "key": "syrup",
+          "value": "Sirup"
+        },
+        {
+          "key": "rosewater",
+          "value": "Rosenwasser"
+        },
+        {
+          "key": "lemon",
+          "value": "Zitrone"
+        },
+        {
+          "key": "tea",
+          "value": "Tee"
+        },
+        {
+          "key": "coffee",
+          "value": "Kaffee"
+        },
+        {
+          "key": "hospitality",
+          "value": "Gastfreundschaft"
+        }
+      ],
+      "imageUrl": "https://visitturkey.in/wp-content/uploads/2015/05/the-rich-heritage-of-turkish-cuisine.webp",
+      "title": "Turkish Cuisine: A Rich Tradition",
+      "level": "B1",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "The oceans are one of the most important natural resources on Earth. They cover about 71% of the planet’s surface and are essential for the survival of all living organisms. Oceans play a significant role in regulating the Earth's climate by absorbing heat and distributing it around the planet. They are also home to an incredible diversity of marine life, ranging from microscopic plankton to the largest animal on Earth, the blue whale.\n\nOceans provide numerous benefits to humans, including food, transportation, and recreational opportunities. Fish and other marine animals are a vital source of food for millions of people worldwide. Additionally, oceans serve as major trade routes, with ships transporting goods across the globe. Coastal areas also attract tourists, offering beautiful beaches and opportunities for activities like swimming, surfing, and diving.\n\nHowever, the oceans are facing several threats. Pollution, especially plastic waste, is a growing concern. Oceans are also affected by overfishing, which threatens the balance of marine ecosystems. Climate change is contributing to rising sea levels and the warming of ocean waters, which can disrupt weather patterns and harm marine life. Efforts to protect the oceans are essential, and it is crucial to raise awareness about their importance and the need to preserve them for future generations.",
+      "contentDe": "Die Ozeane gehören zu den wichtigsten natürlichen Ressourcen der Erde. Sie bedecken etwa 71 % der Erdoberfläche und sind für das Überleben aller Lebewesen von entscheidender Bedeutung. Ozeane spielen eine wesentliche Rolle bei der Regulierung des Erdklimas, indem sie Wärme aufnehmen und rund um den Planeten verteilen. Zudem beherbergen sie eine unglaubliche Vielfalt an Meereslebewesen – von mikroskopisch kleinen Plankton bis hin zum größten Tier der Erde, dem Blauwal.\n\nDie Ozeane bieten den Menschen zahlreiche Vorteile, darunter Nahrung, Transport und Freizeitmöglichkeiten. Fische und andere Meerestiere sind für Millionen von Menschen weltweit eine lebenswichtige Nahrungsquelle. Darüber hinaus dienen Ozeane als wichtige Handelsrouten, über die Waren weltweit per Schiff transportiert werden. Küstengebiete ziehen ebenfalls Touristen an und bieten schöne Strände sowie Möglichkeiten zum Schwimmen, Surfen und Tauchen.\n\nDoch die Ozeane sind mit verschiedenen Bedrohungen konfrontiert. Verschmutzung, insbesondere durch Plastikmüll, ist ein wachsendes Problem. Auch die Überfischung wirkt sich negativ aus und gefährdet das Gleichgewicht der marinen Ökosysteme. Der Klimawandel trägt zum Anstieg des Meeresspiegels und zur Erwärmung der Ozeane bei, was Wetterverhältnisse stören und Meereslebewesen schädigen kann. Der Schutz der Ozeane ist daher von größter Bedeutung, und es ist wichtig, das Bewusstsein für ihre Bedeutung zu stärken und sie für künftige Generationen zu bewahren.",
+      "words": [
+        {
+          "key": "oceans",
+          "value": "Ozeane"
+        },
+        {
+          "key": "natural resources",
+          "value": "natürliche Ressourcen"
+        },
+        {
+          "key": "Earth",
+          "value": "Erde"
+        },
+        {
+          "key": "survival",
+          "value": "Überleben"
+        },
+        {
+          "key": "climate",
+          "value": "Klima"
+        },
+        {
+          "key": "heat",
+          "value": "Wärme"
+        },
+        {
+          "key": "marine life",
+          "value": "Meeresleben"
+        },
+        {
+          "key": "plankton",
+          "value": "Plankton"
+        },
+        {
+          "key": "blue whale",
+          "value": "Blauwal"
+        },
+        {
+          "key": "benefits",
+          "value": "Vorteile"
+        },
+        {
+          "key": "food",
+          "value": "Nahrung"
+        },
+        {
+          "key": "transportation",
+          "value": "Transport"
+        },
+        {
+          "key": "recreational",
+          "value": "Freizeit-"
+        },
+        {
+          "key": "trade routes",
+          "value": "Handelsrouten"
+        },
+        {
+          "key": "fishing",
+          "value": "Fischerei"
+        },
+        {
+          "key": "pollution",
+          "value": "Verschmutzung"
+        },
+        {
+          "key": "plastic waste",
+          "value": "Plastikmüll"
+        },
+        {
+          "key": "overfishing",
+          "value": "Überfischung"
+        },
+        {
+          "key": "ecosystems",
+          "value": "Ökosysteme"
+        },
+        {
+          "key": "climate change",
+          "value": "Klimawandel"
+        },
+        {
+          "key": "sea levels",
+          "value": "Meeresspiegel"
+        },
+        {
+          "key": "warming",
+          "value": "Erwärmung"
+        },
+        {
+          "key": "disrupt",
+          "value": "stören"
+        },
+        {
+          "key": "preserve",
+          "value": "bewahren"
+        },
+        {
+          "key": "generations",
+          "value": "Generationen"
+        }
+      ],
+      "imageUrl": "https://news.clemson.edu/wp-content/uploads/2023/06/ocean-1130x636.jpg",
+      "title": "The Importance of Oceans",
+      "level": "B1",
+      "genre": "Environment",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "The concept of saving money is essential in today's fast-paced world. Saving not only helps individuals manage unexpected financial challenges but also allows them to invest in their future. A proper savings plan starts with budgeting, where income and expenses are analyzed to allocate a portion for savings.\n\nOne of the primary reasons for saving money is to build an emergency fund. Unexpected events such as medical emergencies, car repairs, or sudden job loss can disrupt financial stability. Having savings ensures that these situations can be managed without taking on excessive debt.\n\nSavings also enable people to achieve long-term goals, such as buying a house, funding education, or starting a business. Investments play a critical role in growing savings over time. By investing in assets like stocks, bonds, or mutual funds, individuals can potentially earn returns that exceed standard bank interest rates.\n\nMoreover, saving money teaches financial discipline. It encourages individuals to prioritize needs over wants and make thoughtful spending decisions. This habit, when developed early, can lead to a more secure and stress-free life.\n\nIn conclusion, saving money is not just about putting aside cash; it is about creating a financial foundation for a stable and prosperous future. Whether it is for emergencies, long-term goals, or peace of mind, the habit of saving is invaluable.",
+      "contentDe": "Das Konzept des Geldsparens ist in der heutigen schnelllebigen Welt von entscheidender Bedeutung. Sparen hilft nicht nur dabei, unerwartete finanzielle Herausforderungen zu bewältigen, sondern ermöglicht es auch, in die eigene Zukunft zu investieren. Ein sinnvoller Sparplan beginnt mit der Haushaltsplanung, bei der Einnahmen und Ausgaben analysiert und ein Teil für das Sparen eingeplant wird.\n\nEiner der Hauptgründe für das Sparen ist der Aufbau eines Notfallfonds. Unerwartete Ereignisse wie medizinische Notfälle, Autoreparaturen oder plötzlicher Arbeitsplatzverlust können die finanzielle Stabilität gefährden. Ein Sparguthaben stellt sicher, dass solche Situationen ohne übermäßige Verschuldung bewältigt werden können.\n\nSparen ermöglicht es Menschen auch, langfristige Ziele zu erreichen, wie z. B. den Kauf eines Hauses, die Finanzierung der Ausbildung oder die Gründung eines Unternehmens. Investitionen spielen dabei eine wichtige Rolle, um das Ersparte im Laufe der Zeit zu vermehren. Durch Investitionen in Vermögenswerte wie Aktien, Anleihen oder Investmentfonds können potenziell höhere Renditen erzielt werden als mit klassischen Bankzinsen.\n\nDarüber hinaus lehrt das Sparen finanzielle Disziplin. Es ermutigt dazu, Bedürfnisse über Wünsche zu stellen und überlegte Ausgabenentscheidungen zu treffen. Wird diese Gewohnheit früh entwickelt, kann sie zu einem sichereren und stressfreieren Leben führen.\n\nZusammenfassend lässt sich sagen, dass Geld zu sparen nicht nur bedeutet, Bargeld beiseitezulegen, sondern ein finanzielles Fundament für eine stabile und wohlhabende Zukunft zu schaffen. Ob für Notfälle, langfristige Ziele oder innere Ruhe – die Gewohnheit zu sparen ist von unschätzbarem Wert.",
+      "words": [
+        {
+          "key": "saving",
+          "value": "Sparen"
+        },
+        {
+          "key": "budgeting",
+          "value": "Haushaltsplanung"
+        },
+        {
+          "key": "expenses",
+          "value": "Ausgaben"
+        },
+        {
+          "key": "income",
+          "value": "Einkommen"
+        },
+        {
+          "key": "emergency fund",
+          "value": "Notfallfonds"
+        },
+        {
+          "key": "financial challenges",
+          "value": "finanzielle Herausforderungen"
+        },
+        {
+          "key": "Investment",
+          "value": "Investition"
+        },
+        {
+          "key": "long-term goals",
+          "value": "langfristige Ziele"
+        },
+        {
+          "key": "financial stability",
+          "value": "finanzielle Stabilität"
+        },
+        {
+          "key": "debt",
+          "value": "Schulden"
+        },
+        {
+          "key": "assets",
+          "value": "Vermögenswerte"
+        },
+        {
+          "key": "stocks",
+          "value": "Aktien"
+        },
+        {
+          "key": "bonds",
+          "value": "Anleihen"
+        },
+        {
+          "key": "mutual funds",
+          "value": "Investmentfonds"
+        },
+        {
+          "key": "returns",
+          "value": "Renditen"
+        },
+        {
+          "key": "interest rates",
+          "value": "Zinssätze"
+        },
+        {
+          "key": "financial discipline",
+          "value": "finanzielle Disziplin"
+        },
+        {
+          "key": "prioritize",
+          "value": "priorisieren"
+        },
+        {
+          "key": "thoughtful spending",
+          "value": "überlegte Ausgaben"
+        },
+        {
+          "key": "secure",
+          "value": "sicher"
+        },
+        {
+          "key": "stress-free",
+          "value": "stressfrei"
+        },
+        {
+          "key": "prosperous",
+          "value": "wohlhabend"
+        },
+        {
+          "key": "foundation",
+          "value": "Fundament"
+        },
+        {
+          "key": "peace of mind",
+          "value": "innere Ruhe"
+        },
+        {
+          "key": "cash",
+          "value": "Bargeld"
+        },
+        {
+          "key": "financial habits",
+          "value": "finanzielle Gewohnheiten"
+        },
+        {
+          "key": "unexpected events",
+          "value": "unerwartete Ereignisse"
+        },
+        {
+          "key": "car repairs",
+          "value": "Autoreparaturen"
+        },
+        {
+          "key": "medical emergencies",
+          "value": "medizinische Notfälle"
+        },
+        {
+          "key": "house builder",
+          "value": "Hausbauer"
+        },
+        {
+          "key": "welfare",
+          "value": "Wohlergehen"
+        }
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D12AQGrshxQWcB5SQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1657274263761?e=2147483647&v=beta&t=7o4Jdv4L_HqlzTg31KQs1scoUx-EAVdeaMjdzgXzOkI",
+      "title": "The Importance of Saving Money",
+      "level": "B2",
+      "genre": "Economy",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Space exploration has been one of humanity's most fascinating achievements. Over the decades, humans have developed advanced technology to study the vast universe. From the first moon landing to robotic missions on Mars, space exploration continues to push the boundaries of science and engineering.\n\nThe first significant milestone in space exploration occurred in 1969 when NASA's Apollo 11 mission successfully landed humans on the Moon. This event demonstrated that with determination and innovation, humans could achieve what once seemed impossible. Astronauts Neil Armstrong and Buzz Aldrin became the first people to walk on the lunar surface, inspiring millions worldwide.\n\nToday, space exploration focuses on understanding planets, stars, and galaxies. Missions like NASA's Perseverance rover on Mars aim to uncover clues about the planet's past, including signs of ancient life. Similarly, telescopes like the James Webb Space Telescope provide detailed images of distant galaxies, helping scientists understand the origins of the universe.\n\nPrivate companies have also entered the field of space exploration. Companies like SpaceX and Blue Origin are working on making space travel more accessible and affordable. SpaceX's reusable rockets have revolutionized how missions are launched, reducing costs significantly. This progress has paved the way for the possibility of humans colonizing other planets in the future.\n\nSpace exploration not only satisfies human curiosity but also contributes to technological advancements. Innovations developed for space missions often benefit life on Earth, such as satellite technology, medical devices, and renewable energy solutions. The ongoing exploration of space demonstrates humanity's relentless pursuit of knowledge and its desire to understand its place in the cosmos.",
+      "contentDe": "Die Erforschung des Weltraums gehört zu den faszinierendsten Errungenschaften der Menschheit. Im Laufe der Jahrzehnte haben Menschen fortschrittliche Technologien entwickelt, um das weite Universum zu erforschen. Von der ersten Mondlandung bis zu robotergestützten Missionen auf dem Mars überschreitet die Weltraumforschung weiterhin die Grenzen von Wissenschaft und Technik.\n\nDer erste bedeutende Meilenstein der Weltraumforschung fand 1969 statt, als die Apollo-11-Mission der NASA erfolgreich Menschen auf dem Mond landete. Dieses Ereignis zeigte, dass mit Entschlossenheit und Innovation das einst Unmögliche möglich werden kann. Die Astronauten Neil Armstrong und Buzz Aldrin waren die ersten Menschen, die auf der Mondoberfläche gingen und Millionen weltweit inspirierten.\n\nHeute konzentriert sich die Weltraumforschung auf das Verständnis von Planeten, Sternen und Galaxien. Missionen wie der Perseverance-Rover der NASA auf dem Mars sollen Hinweise auf die Vergangenheit des Planeten liefern, einschließlich Spuren von früherem Leben. Teleskope wie das James-Webb-Weltraumteleskop liefern detaillierte Bilder entfernter Galaxien und helfen Wissenschaftlern, den Ursprung des Universums zu verstehen.\n\nAuch private Unternehmen sind in die Weltraumforschung eingestiegen. Firmen wie SpaceX und Blue Origin arbeiten daran, Raumfahrt zugänglicher und kostengünstiger zu machen. Die wiederverwendbaren Raketen von SpaceX haben die Art und Weise, wie Missionen gestartet werden, revolutioniert und die Kosten erheblich gesenkt. Diese Fortschritte ebnen den Weg für die Möglichkeit, dass Menschen in Zukunft andere Planeten besiedeln.\n\nDie Weltraumforschung stillt nicht nur die menschliche Neugier, sondern trägt auch zu technologischen Fortschritten bei. Innovationen, die für Raumfahrtmissionen entwickelt wurden, kommen oft auch dem Leben auf der Erde zugute – wie Satellitentechnologie, medizinische Geräte und Lösungen für erneuerbare Energien. Die fortlaufende Erforschung des Weltraums zeigt den unermüdlichen Drang der Menschheit nach Wissen und das Streben, ihren Platz im Kosmos zu verstehen.",
+      "words": [
+        {
+          "key": "Space exploration",
+          "value": "Weltraumforschung"
+        },
+        {
+          "key": "universe",
+          "value": "Universum"
+        },
+        {
+          "key": "moon landing",
+          "value": "Mondlandung"
+        },
+        {
+          "key": "robotic missions",
+          "value": "robotergestützte Missionen"
+        },
+        {
+          "key": "lunar surface",
+          "value": "Mondoberfläche"
+        },
+        {
+          "key": "galaxy",
+          "value": "Galaxie"
+        },
+        {
+          "key": "origin",
+          "value": "Ursprung"
+        },
+        {
+          "key": "exploration",
+          "value": "Erforschung"
+        },
+        {
+          "key": "reusable rockets",
+          "value": "wiederverwendbare Raketen"
+        },
+        {
+          "key": "colonizing",
+          "value": "Besiedlung"
+        },
+        {
+          "key": "technological advancements",
+          "value": "technologische Fortschritte"
+        },
+        {
+          "key": "satellite technology",
+          "value": "Satellitentechnologie"
+        },
+        {
+          "key": "medical devices",
+          "value": "medizinische Geräte"
+        },
+        {
+          "key": "renewable energy",
+          "value": "erneuerbare Energie"
+        },
+        {
+          "key": "curiosity",
+          "value": "Neugier"
+        },
+        {
+          "key": "cosmos",
+          "value": "Kosmos"
+        },
+        {
+          "key": "boundaries",
+          "value": "Grenzen"
+        },
+        {
+          "key": "engineering",
+          "value": "Ingenieurwesen"
+        },
+        {
+          "key": "knowledge",
+          "value": "Wissen"
+        },
+        {
+          "key": "determination",
+          "value": "Entschlossenheit"
+        },
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "significant",
+          "value": "bedeutend"
+        },
+        {
+          "key": "accessible",
+          "value": "zugänglich"
+        },
+        {
+          "key": "affordable",
+          "value": "kostengünstig"
+        }
+      ],
+      "imageUrl": "https://img.freepik.com/premium-photo/futuristic-space-exploration-scene-with-astronauts-futuristic-spacecraft-embodying-humanity-s-quest-knowledge-beyond-earth-generative-ai_372999-17546.jpg",
+      "title": "Space Exploration: Humanity's Quest for Knowledge",
+      "level": "B2",
+      "genre": "Science",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Forests are one of the most vital ecosystems on Earth. They cover about 31% of the planet’s land area and provide countless benefits to humans and wildlife. From producing oxygen to supporting biodiversity, forests play a crucial role in maintaining ecological balance.\n\nOne of the most important functions of forests is oxygen production. Trees absorb carbon dioxide during photosynthesis and release oxygen into the atmosphere. This process helps combat climate change by reducing greenhouse gases. Additionally, forests act as carbon sinks, storing large amounts of carbon in their biomass and soil.\n\nForests are also home to more than 80% of terrestrial species. They provide shelter, food, and breeding grounds for countless animals, plants, and fungi. This biodiversity is essential for ecosystem health and resilience. Losing forests leads to the extinction of species and disrupts food chains, threatening the balance of nature.\n\nAnother key role of forests is protecting the water cycle. Trees regulate rainfall patterns, prevent soil erosion, and maintain water quality. Forested areas often serve as watersheds, providing clean drinking water to millions of people. Without forests, water sources would become polluted, and many communities would face water shortages.\n\nForests also have significant social and economic value. Millions of people depend on forests for their livelihoods, including those involved in agriculture, forestry, and tourism. Forest products like timber, fruits, and medicinal plants are essential resources for industries and local communities.\n\nUnfortunately, deforestation remains a major threat. Human activities like logging, agriculture, and urbanization lead to the loss of millions of hectares of forests every year. Protecting forests requires global cooperation, sustainable practices, and reforestation efforts. By preserving forests, we ensure a healthier planet for future generations.",
+      "contentDe": "Wälder gehören zu den wichtigsten Ökosystemen der Erde. Sie bedecken etwa 31 % der Landfläche unseres Planeten und bieten unzählige Vorteile für Menschen und Wildtiere. Von der Sauerstoffproduktion bis zur Unterstützung der Biodiversität spielen Wälder eine entscheidende Rolle für das ökologische Gleichgewicht.\n\nEine der wichtigsten Funktionen der Wälder ist die Produktion von Sauerstoff. Bäume nehmen während der Photosynthese Kohlendioxid auf und geben Sauerstoff in die Atmosphäre ab. Dieser Prozess hilft, den Klimawandel zu bekämpfen, indem er Treibhausgase reduziert. Zudem fungieren Wälder als Kohlenstoffsenken, indem sie große Mengen an Kohlenstoff in ihrer Biomasse und im Boden speichern.\n\nWälder sind auch Lebensraum für über 80 % der terrestrischen Arten. Sie bieten Schutz, Nahrung und Brutstätten für zahllose Tiere, Pflanzen und Pilze. Diese Biodiversität ist entscheidend für die Gesundheit und Widerstandsfähigkeit von Ökosystemen. Der Verlust von Wäldern führt zum Aussterben von Arten und unterbricht Nahrungsketten – was das Gleichgewicht der Natur bedroht.\n\nEine weitere wichtige Rolle der Wälder ist der Schutz des Wasserkreislaufs. Bäume regulieren Niederschlagsmuster, verhindern Bodenerosion und sichern die Wasserqualität. Bewaldete Gebiete dienen oft als Wassereinzugsgebiete und versorgen Millionen Menschen mit sauberem Trinkwasser. Ohne Wälder würden Wasserquellen verschmutzt und viele Gemeinden mit Wasserknappheit konfrontiert.\n\nWälder haben auch großen sozialen und wirtschaftlichen Wert. Millionen Menschen sind für ihren Lebensunterhalt auf Wälder angewiesen – etwa in der Landwirtschaft, Forstwirtschaft und im Tourismus. Waldprodukte wie Holz, Früchte und Heilpflanzen sind unverzichtbare Ressourcen für Industrie und lokale Gemeinschaften.\n\nLeider stellt die Entwaldung weiterhin eine große Bedrohung dar. Menschliche Aktivitäten wie Abholzung, Landwirtschaft und Urbanisierung führen jedes Jahr zum Verlust von Millionen Hektar Wald. Der Schutz der Wälder erfordert globale Zusammenarbeit, nachhaltige Praktiken und Aufforstungsmaßnahmen. Indem wir Wälder bewahren, sichern wir einen gesünderen Planeten für zukünftige Generationen.",
+      "words": [
+        {
+          "key": "countless",
+          "value": "unzählige"
+        },
+        {
+          "key": "biodiversity",
+          "value": "Biodiversität"
+        },
+        {
+          "key": "photosynthesis",
+          "value": "Photosynthese"
+        },
+        {
+          "key": "greenhouse gases",
+          "value": "Treibhausgase"
+        },
+        {
+          "key": "agriculture",
+          "value": "Landwirtschaft"
+        },
+        {
+          "key": "biomass",
+          "value": "Biomasse"
+        },
+        {
+          "key": "species",
+          "value": "Arten"
+        },
+        {
+          "key": "extinction",
+          "value": "Aussterben"
+        },
+        {
+          "key": "food chain",
+          "value": "Nahrungskette"
+        },
+        {
+          "key": "water cycle",
+          "value": "Wasserkreislauf"
+        },
+        {
+          "key": "rainfall patterns",
+          "value": "Niederschlagsmuster"
+        },
+        {
+          "key": "soil erosion",
+          "value": "Bodenerosion"
+        },
+        {
+          "key": "watershed",
+          "value": "Wassereinzugsgebiet"
+        },
+        {
+          "key": "polluted",
+          "value": "verschmutzt"
+        },
+        {
+          "key": "shortage",
+          "value": "Knappheit"
+        },
+        {
+          "key": "livelihood",
+          "value": "Lebensunterhalt"
+        },
+        {
+          "key": "timber",
+          "value": "Holz"
+        },
+        {
+          "key": "medicinal plants",
+          "value": "Heilpflanzen"
+        },
+        {
+          "key": "logging",
+          "value": "Abholzung"
+        },
+        {
+          "key": "urbanization",
+          "value": "Urbanisierung"
+        },
+        {
+          "key": "reforestation",
+          "value": "Aufforstung"
+        },
+        {
+          "key": "deforestation",
+          "value": "Entwaldung"
+        },
+        {
+          "key": "sustainable",
+          "value": "nachhaltig"
+        },
+        {
+          "key": "preserve",
+          "value": "bewahren"
+        },
+        {
+          "key": "terrestrial",
+          "value": "terrestrisch"
+        },
+        {
+          "key": "habitat",
+          "value": "Lebensraum"
+        },
+        {
+          "key": "ecological balance",
+          "value": "ökologisches Gleichgewicht"
+        },
+        {
+          "key": "resources",
+          "value": "Ressourcen"
+        }
+      ],
+      "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*8CAqAvU0c-E1aj2W7dOzyQ.jpeg",
+      "title": "The Importance of Forests",
+      "level": "B2",
+      "genre": "Nature",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Volcanoes are some of the most powerful natural forces on Earth. They are mountains that allow hot lava, gases, and ash to escape from deep inside the Earth. Volcanoes can be both beautiful and dangerous. They have shaped our planet for millions of years and continue to do so today.\n\nA volcano erupts when pressure builds up inside the Earth. The pressure is caused by the heat of molten rock, called magma. When magma finds a way to the surface, it flows out as lava. Some eruptions are gentle, with lava flowing slowly. Others are explosive, shooting ash and rocks into the sky. These explosive eruptions can be very dangerous to people and animals nearby.\n\nThere are three main types of volcanoes: active, dormant, and extinct. Active volcanoes erupt regularly or have erupted recently. Dormant volcanoes have not erupted for a long time but could still erupt in the future. Extinct volcanoes are no longer expected to erupt.\n\nVolcanoes can be found all over the world, but many are located near the edges of tectonic plates. These plates are large pieces of the Earth’s crust that move very slowly. When they collide or move apart, magma can rise to the surface, creating a volcano. Some famous volcanoes include Mount Vesuvius in Italy, Mount Fuji in Japan, and Mount St. Helens in the United States.\n\nVolcanoes are both destructive and creative. While eruptions can destroy towns and forests, they also create new land. Lava cools and hardens to form rock, which eventually becomes part of the landscape. Volcanic soil is very fertile, making it good for farming. Despite their dangers, volcanoes are an important part of Earth’s natural processes.",
+      "contentDe": "Vulkane gehören zu den mächtigsten Naturkräften der Erde. Es sind Berge, durch die heiße Lava, Gase und Asche aus dem Erdinneren entweichen können. Vulkane können sowohl schön als auch gefährlich sein. Sie haben unseren Planeten über Millionen von Jahren geformt und tun dies auch heute noch.\n\nEin Vulkan bricht aus, wenn sich im Inneren der Erde Druck aufbaut. Der Druck entsteht durch die Hitze von geschmolzenem Gestein, das Magma genannt wird. Wenn das Magma einen Weg an die Oberfläche findet, fließt es als Lava heraus. Einige Ausbrüche sind sanft, wobei Lava langsam fließt. Andere sind explosiv und schleudern Asche und Gestein in den Himmel. Diese explosiven Ausbrüche können für Menschen und Tiere in der Nähe sehr gefährlich sein.\n\nEs gibt drei Haupttypen von Vulkanen: aktiv, schlafend und erloschen. Aktive Vulkane brechen regelmäßig aus oder sind kürzlich ausgebrochen. Schlafende Vulkane sind seit langer Zeit nicht ausgebrochen, könnten aber in Zukunft wieder aktiv werden. Erloschene Vulkane werden voraussichtlich nicht mehr ausbrechen.\n\nVulkane gibt es auf der ganzen Welt, aber viele befinden sich an den Rändern tektonischer Platten. Diese Platten sind große Teile der Erdkruste, die sich sehr langsam bewegen. Wenn sie kollidieren oder sich voneinander entfernen, kann Magma an die Oberfläche steigen und einen Vulkan bilden. Zu den berühmtesten Vulkanen gehören der Vesuv in Italien, der Fuji in Japan und der Mount St. Helens in den Vereinigten Staaten.\n\nVulkane sind sowohl zerstörerisch als auch schöpferisch. Während Ausbrüche Städte und Wälder zerstören können, schaffen sie auch neues Land. Abgekühlte Lava verhärtet sich zu Gestein, das schließlich Teil der Landschaft wird. Vulkanischer Boden ist sehr fruchtbar und eignet sich gut für die Landwirtschaft. Trotz ihrer Gefahren sind Vulkane ein wichtiger Bestandteil der natürlichen Prozesse der Erde.",
+      "words": [
+        {
+          "key": "Volcano",
+          "value": "Vulkan"
+        },
+        {
+          "key": "eruption",
+          "value": "Ausbruch"
+        },
+        {
+          "key": "lava",
+          "value": "Lava"
+        },
+        {
+          "key": "ash",
+          "value": "Asche"
+        },
+        {
+          "key": "magma",
+          "value": "Magma"
+        },
+        {
+          "key": "molten rock",
+          "value": "geschmolzenes Gestein"
+        },
+        {
+          "key": "tectonic plates",
+          "value": "tektonische Platten"
+        },
+        {
+          "key": "collide",
+          "value": "kollidieren"
+        },
+        {
+          "key": "dormant",
+          "value": "schlafend"
+        },
+        {
+          "key": "extinct",
+          "value": "erloschen"
+        },
+        {
+          "key": "pressure",
+          "value": "Druck"
+        },
+        {
+          "key": "fertile",
+          "value": "fruchtbar"
+        },
+        {
+          "key": "destructive",
+          "value": "zerstörerisch"
+        },
+        {
+          "key": "creative",
+          "value": "schöpferisch"
+        },
+        {
+          "key": "landscape",
+          "value": "Landschaft"
+        },
+        {
+          "key": "crust",
+          "value": "Kruste"
+        },
+        {
+          "key": "natural forces",
+          "value": "Naturkräfte"
+        },
+        {
+          "key": "soil",
+          "value": "Boden"
+        },
+        {
+          "key": "collision",
+          "value": "Kollision"
+        },
+        {
+          "key": "rise",
+          "value": "aufsteigen"
+        },
+        {
+          "key": "surface",
+          "value": "Oberfläche"
+        },
+        {
+          "key": "dangerous",
+          "value": "gefährlich"
+        },
+        {
+          "key": "natural processes",
+          "value": "natürliche Prozesse"
+        },
+        {
+          "key": "explode",
+          "value": "explodieren"
+        },
+        {
+          "key": "destroy",
+          "value": "zerstören"
+        },
+        {
+          "key": "hardens",
+          "value": "verhärtet sich"
+        }
+      ],
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFQExNVboyzPyrQR_CDv45AAU7OGNfGQNffg&s",
+      "title": "Understanding Volcanoes",
+      "level": "B1",
+      "genre": "Geography",
+      "isNew": false,
+      "min": "2 min"
+    },
+    {
+      "content": "Basketball is one of the most popular sports in the world, played by millions of people across all ages and skill levels. Invented in 1891 by James Naismith, the sport has grown into a global phenomenon, with professional leagues and international tournaments attracting massive audiences.\n\nThe game is played on a rectangular court by two teams, each consisting of five players. The objective is to score points by shooting the ball through the opposing team’s hoop. A standard basketball game lasts 40 minutes in professional leagues or 48 minutes in the NBA, divided into quarters. The team with the most points at the end of the game wins.\n\nBasketball requires a unique combination of physical and mental skills. Players must be quick, agile, and have excellent hand-eye coordination. Shooting, dribbling, passing, and rebounding are fundamental skills, but strategy and teamwork are equally important. Successful teams rely on precise communication and understanding between players to execute plays and defend against opponents effectively.\n\nThe NBA, the National Basketball Association, is the most famous basketball league globally. It has been home to some of the greatest players in history, such as Michael Jordan, Kobe Bryant, and LeBron James. These players have become icons, inspiring millions of fans worldwide. Women’s basketball is also growing rapidly, with the WNBA (Women’s National Basketball Association) showcasing incredible talent and promoting gender equality in sports.\n\nBasketball also plays a significant role in culture and community. Many young people, especially in urban areas, find inspiration on the basketball court. It teaches discipline, teamwork, and perseverance while providing an outlet for creativity and self-expression. Street basketball, in particular, has become a symbol of urban culture, influencing music, fashion, and lifestyle.\n\nIn conclusion, basketball is more than just a sport; it is a global cultural phenomenon. It connects people across borders, promotes physical health, and teaches valuable life lessons. Whether played professionally or casually, basketball continues to capture the hearts of millions, making it one of the most influential sports in the world.",
+      "contentDe": "Basketball ist eine der beliebtesten Sportarten der Welt und wird von Millionen Menschen jeden Alters und jeder Spielstärke gespielt.\nDas Spiel wurde 1891 von James Naismith erfunden und hat sich zu einem globalen Phänomen entwickelt, mit professionellen Ligen und internationalen Turnieren, die ein großes Publikum anziehen.\n\nDas Spiel wird auf einem rechteckigen Spielfeld von zwei Teams gespielt, die jeweils aus fünf Spielern bestehen.\nZiel ist es, Punkte zu erzielen, indem man den Ball durch den Korb der gegnerischen Mannschaft wirft.\nEin Standard-Basketballspiel dauert in professionellen Ligen 40 Minuten oder in der NBA 48 Minuten und ist in Viertel unterteilt.\nDas Team mit den meisten Punkten am Ende des Spiels gewinnt.\n\nBasketball erfordert eine einzigartige Kombination aus körperlichen und geistigen Fähigkeiten.\nSpieler müssen schnell, agil und in der Lage sein, ihre Hand-Auge-Koordination perfekt zu nutzen.\nWerfen, Dribbeln, Passen und Rebounden sind grundlegende Fähigkeiten, aber auch Strategie und Teamarbeit sind genauso wichtig.\nErfolgreiche Teams verlassen sich auf präzise Kommunikation und gegenseitiges Verständnis, um Spielzüge auszuführen und Gegner effektiv zu verteidigen.\n\nDie NBA, die National Basketball Association, ist die bekannteste Basketballliga der Welt.\nSie war die Heimat einiger der größten Spieler der Geschichte, wie Michael Jordan, Kobe Bryant und LeBron James.\nDiese Spieler sind zu Ikonen geworden und haben weltweit Millionen von Fans inspiriert.\nAuch der Frauenbasketball wächst rasant, wobei die WNBA (Women’s National Basketball Association) unglaubliche Talente zeigt und die Gleichstellung der Geschlechter im Sport fördert.\n\nBasketball spielt auch eine bedeutende Rolle in Kultur und Gemeinschaft.\nViele junge Menschen, insbesondere in städtischen Gebieten, finden auf dem Basketballfeld Inspiration.\nEs lehrt Disziplin, Teamarbeit und Durchhaltevermögen und bietet gleichzeitig einen kreativen und ausdrucksstarken Ausgleich.\nStreetball ist besonders zum Symbol der urbanen Kultur geworden und beeinflusst Musik, Mode und Lebensstil.\n\nZusammenfassend ist Basketball mehr als nur ein Sport; es ist ein globales kulturelles Phänomen.\nEs verbindet Menschen über Grenzen hinweg, fördert die körperliche Gesundheit und vermittelt wichtige Lebenslektionen.\nOb professionell oder zum Spaß gespielt – Basketball begeistert weiterhin Millionen von Menschen und ist eine der einflussreichsten Sportarten der Welt.",
+      "words": [
+        {
+          "key": "teamwork",
+          "value": "Teamarbeit"
+        },
+        {
+          "key": "discipline",
+          "value": "Disziplin"
+        },
+        {
+          "key": "coordination",
+          "value": "Koordination"
+        },
+        {
+          "key": "strategy",
+          "value": "Strategie"
+        },
+        {
+          "key": "dribble",
+          "value": "dribbeln"
+        },
+        {
+          "key": "precise",
+          "value": "präzise"
+        },
+        {
+          "key": "court",
+          "value": "Spielfeld"
+        },
+        {
+          "key": "hoop",
+          "value": "Korb"
+        },
+        {
+          "key": "quarter",
+          "value": "Viertel"
+        },
+        {
+          "key": "global",
+          "value": "global"
+        },
+        {
+          "key": "phenomenon",
+          "value": "Phänomen"
+        },
+        {
+          "key": "audiences",
+          "value": "Zuschauer"
+        },
+        {
+          "key": "inspiration",
+          "value": "Inspiration"
+        },
+        {
+          "key": "urban",
+          "value": "urban"
+        },
+        {
+          "key": "casually",
+          "value": "gelegentlich"
+        },
+        {
+          "key": "perseverance",
+          "value": "Durchhaltevermögen"
+        },
+        {
+          "key": "icon",
+          "value": "Ikone"
+        },
+        {
+          "key": "promote",
+          "value": "fördern"
+        },
+        {
+          "key": "equality",
+          "value": "Gleichberechtigung"
+        },
+        {
+          "key": "outlet",
+          "value": "Ausdrucksmöglichkeit"
+        },
+        {
+          "key": "culture",
+          "value": "Kultur"
+        },
+        {
+          "key": "influential",
+          "value": "einflussreich"
+        },
+        {
+          "key": "famous",
+          "value": "berühmt"
+        },
+        {
+          "key": "talent",
+          "value": "Talent"
+        },
+        {
+          "key": "mental skills",
+          "value": "mentale Fähigkeiten"
+        },
+        {
+          "key": "physical health",
+          "value": "körperliche Gesundheit"
+        },
+        {
+          "key": "execution",
+          "value": "Ausführung"
+        },
+        {
+          "key": "defend",
+          "value": "verteidigen"
+        },
+        {
+          "key": "shooting",
+          "value": "werfen"
+        }
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4E12AQGoIb1Iw78kfg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702388645409?e=2147483647&v=beta&t=N0evc5tJRCxTAvsV5LnIXPsE-fdH6BXnOdW-JHY5PWI",
+      "title": "The Game of Basketball: Beyond the Court",
+      "level": "B2",
+      "genre": "Sports",
+      "isNew": false,
+      "min": "5 min"
+    },
+    {
+      "content": "The history of the automobile is a story of innovation, determination, and technological progress. The first automobiles were developed in the late 19th century, powered by steam engines. However, it was the internal combustion engine that revolutionized personal transportation, making cars practical and accessible to the general public.\n\nOne of the most significant milestones in automotive history was the introduction of the assembly line by Henry Ford in 1913. This innovation drastically reduced production costs and time, enabling the mass production of affordable cars. The Model T, produced by Ford, became the symbol of accessible personal transportation, allowing millions of Americans to own a car for the first time. It wasn’t just a technological achievement but also a cultural shift, changing the way people lived and worked.\n\nAs cars became more popular, they started to evolve. Manufacturers competed to produce faster, safer, and more reliable vehicles. By the mid-20th century, cars were equipped with features like automatic transmissions, air conditioning, and radios. The post-World War II era also saw a boom in car culture, particularly in the United States. Highways were constructed, and suburban life flourished, driven by the convenience of owning a car.\n\nToday, the automotive industry is undergoing another major transformation with the rise of electric and autonomous vehicles. Companies like Tesla, as well as traditional manufacturers, are investing heavily in electric cars to reduce greenhouse gas emissions. Self-driving technology is also advancing rapidly, promising a future where transportation is safer and more efficient. These innovations highlight how the industry continues to adapt to societal needs and environmental challenges.\n\nIn conclusion, the automobile has come a long way since its invention. It has not only revolutionized transportation but also shaped economies, cultures, and lifestyles worldwide. The future of the automobile promises even greater changes, with sustainability and technology at the forefront of its evolution.",
+      "contentDe": "Die Geschichte des Automobils ist eine Geschichte von Innovation, Entschlossenheit und technologischem Fortschritt. Die ersten Automobile wurden im späten 19. Jahrhundert entwickelt und von Dampfmaschinen angetrieben. Doch es war der Verbrennungsmotor, der den Individualverkehr revolutionierte und Autos für die breite Öffentlichkeit praktisch und zugänglich machte.\n\nEiner der bedeutendsten Meilensteine in der Automobilgeschichte war die Einführung des Fließbands durch Henry Ford im Jahr 1913. Diese Innovation senkte drastisch die Produktionskosten und -zeit, wodurch die Massenproduktion erschwinglicher Autos möglich wurde. Das von Ford produzierte Modell T wurde zum Symbol für den zugänglichen Individualverkehr und ermöglichte es Millionen von Amerikanern, erstmals ein Auto zu besitzen. Es war nicht nur ein technologischer Fortschritt, sondern auch ein kultureller Wandel, der die Lebens- und Arbeitsweise der Menschen veränderte.\n\nMit zunehmender Beliebtheit begannen sich Autos weiterzuentwickeln. Hersteller konkurrierten darum, schnellere, sicherere und zuverlässigere Fahrzeuge zu produzieren. Mitte des 20. Jahrhunderts waren Autos mit Automatikgetriebe, Klimaanlage und Radios ausgestattet. Die Zeit nach dem Zweiten Weltkrieg erlebte besonders in den Vereinigten Staaten einen Boom der Autokultur. Autobahnen wurden gebaut, und das Leben in Vororten blühte dank der Bequemlichkeit des Autobesitzes auf.\n\nHeute erlebt die Automobilindustrie mit dem Aufstieg von Elektro- und autonomen Fahrzeugen einen weiteren großen Wandel. Unternehmen wie Tesla sowie traditionelle Hersteller investieren stark in Elektroautos, um Treibhausgasemissionen zu reduzieren. Auch die selbstfahrende Technologie entwickelt sich rasant weiter und verspricht eine sicherere und effizientere Zukunft des Verkehrs. Diese Innovationen zeigen, wie sich die Branche weiterhin an gesellschaftliche Bedürfnisse und ökologische Herausforderungen anpasst.\n\nZusammenfassend lässt sich sagen, dass das Automobil seit seiner Erfindung einen langen Weg zurückgelegt hat. Es hat nicht nur den Verkehr revolutioniert, sondern auch weltweit Wirtschaft, Kultur und Lebensstile geprägt. Die Zukunft des Automobils verspricht noch größere Veränderungen, mit Nachhaltigkeit und Technologie im Mittelpunkt seiner Entwicklung.",
+      "words": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "transportation",
+          "value": "Transport"
+        },
+        {
+          "key": "mass production",
+          "value": "Massenproduktion"
+        },
+        {
+          "key": "affordable",
+          "value": "erschwinglich"
+        },
+        {
+          "key": "assembly line",
+          "value": "Fließband"
+        },
+        {
+          "key": "internal combustion engine",
+          "value": "Verbrennungsmotor"
+        },
+        {
+          "key": "emissions",
+          "value": "Emissionen"
+        },
+        {
+          "key": "self-driving",
+          "value": "autonomes Fahren"
+        },
+        {
+          "key": "sustainability",
+          "value": "Nachhaltigkeit"
+        },
+        {
+          "key": "greenhouse gas",
+          "value": "Treibhausgas"
+        },
+        {
+          "key": "reliable",
+          "value": "zuverlässig"
+        },
+        {
+          "key": "evolution",
+          "value": "Entwicklung"
+        },
+        {
+          "key": "cultural shift",
+          "value": "kultureller Wandel"
+        },
+        {
+          "key": "suburban",
+          "value": "vorstädtisch"
+        },
+        {
+          "key": "boom",
+          "value": "Boom"
+        },
+        {
+          "key": "electric vehicle",
+          "value": "Elektrofahrzeug"
+        },
+        {
+          "key": "highway",
+          "value": "Autobahn"
+        },
+        {
+          "key": "advancement",
+          "value": "Fortschritt"
+        },
+        {
+          "key": "economic impact",
+          "value": "wirtschaftlicher Einfluss"
+        },
+        {
+          "key": "revolutionize",
+          "value": "revolutionieren"
+        },
+        {
+          "key": "global impact",
+          "value": "globaler Einfluss"
+        },
+        {
+          "key": "technological progress",
+          "value": "technologischer Fortschritt"
+        },
+        {
+          "key": "affect",
+          "value": "beeinflussen"
+        },
+        {
+          "key": "invest",
+          "value": "investieren"
+        },
+        {
+          "key": "adapt",
+          "value": "anpassen"
+        }
+      ],
+      "imageUrl": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2024/02/26101045/design-evolution-cover.png",
+      "title": "The Evolution of the Automobile",
+      "level": "B2",
+      "genre": "Technology",
+      "isNew": false,
+      "min": "5 min"
+    },
+    {
+      "content": "Festivals are an important part of every culture around the world. They bring people together to celebrate traditions, history, and community. One of the most colorful and joyful festivals is Diwali, also known as the Festival of Lights. It is celebrated in India and many other countries by millions of people.\n\nDiwali marks the victory of light over darkness and good over evil. People clean their homes, wear new clothes, and decorate with lamps called diyas. These small oil lamps are placed around homes, temples, and streets to create a beautiful and welcoming atmosphere. Fireworks and colorful rangoli designs made with powders or flowers are also an important part of the celebrations.\n\nFood plays a central role during Diwali. Families prepare special sweets and dishes to share with friends and neighbors. One popular sweet is gulab jamun, which is made of milk solids and soaked in syrup. Sharing food symbolizes love, unity, and happiness.\n\nDiwali is not just about fun and celebration; it is also a time for reflection and giving. Many people donate food, clothes, and money to those in need. It is believed that helping others brings good fortune and happiness.\n\nFestivals like Diwali remind us of the importance of family, kindness, and tradition. They teach us to celebrate our differences and to come together as a community. Whether it is lighting a diya or sharing a meal, every small act during Diwali carries a message of love and hope.",
+      "contentDe": "Feste sind ein wichtiger Bestandteil jeder Kultur auf der Welt. Sie bringen Menschen zusammen, um Traditionen, Geschichte und Gemeinschaft zu feiern. Eines der farbenfrohsten und fröhlichsten Feste ist Diwali, auch bekannt als das Lichterfest. Es wird in Indien und vielen anderen Ländern von Millionen Menschen gefeiert.\n\nDiwali symbolisiert den Sieg des Lichts über die Dunkelheit und des Guten über das Böse. Die Menschen reinigen ihre Häuser, ziehen neue Kleidung an und schmücken sie mit Lampen, die Diyas genannt werden. Diese kleinen Öllampen werden um Häuser, Tempel und Straßen platziert und schaffen eine schöne und einladende Atmosphäre. Feuerwerk und farbenfrohe Rangoli-Muster aus Pulver oder Blumen sind ebenfalls ein wichtiger Teil der Feierlichkeiten.\n\nEssen spielt während Diwali eine zentrale Rolle. Familien bereiten spezielle Süßigkeiten und Gerichte zu, die sie mit Freunden und Nachbarn teilen. Eine beliebte Süßigkeit ist Gulab Jamun, die aus Milchfeststoffen hergestellt und in Sirup eingeweicht wird. Das Teilen von Essen symbolisiert Liebe, Einheit und Glück.\n\nDiwali ist nicht nur ein Fest der Freude und des Feierns, sondern auch eine Zeit der Besinnung und des Gebens. Viele Menschen spenden Lebensmittel, Kleidung und Geld an Bedürftige. Es wird geglaubt, dass Hilfe für andere Glück und Wohlstand bringt.\n\nFeste wie Diwali erinnern uns an die Bedeutung von Familie, Freundlichkeit und Tradition. Sie lehren uns, unsere Unterschiede zu feiern und als Gemeinschaft zusammenzukommen. Ob man eine Diya anzündet oder ein Essen teilt – jede kleine Handlung während Diwali trägt eine Botschaft der Liebe und Hoffnung.",
+      "words": [
+        {
+          "key": "community",
+          "value": "Gemeinschaft"
+        },
+        {
+          "key": "darkness",
+          "value": "Dunkelheit"
+        },
+        {
+          "key": "evil",
+          "value": "Böse"
+        },
+        {
+          "key": "decorate",
+          "value": "dekorieren"
+        },
+        {
+          "key": "lamp",
+          "value": "Lampe"
+        },
+        {
+          "key": "diyas",
+          "value": "Diyas"
+        },
+        {
+          "key": "Fireworks",
+          "value": "Feuerwerk"
+        },
+        {
+          "key": "rangoli",
+          "value": "Rangoli"
+        },
+        {
+          "key": "sweets",
+          "value": "Süßigkeiten"
+        },
+        {
+          "key": "share",
+          "value": "teilen"
+        },
+        {
+          "key": "reflection",
+          "value": "Besinnung"
+        },
+        {
+          "key": "donate",
+          "value": "spenden"
+        },
+        {
+          "key": "hope",
+          "value": "Hoffnung"
+        },
+        {
+          "key": "love",
+          "value": "Liebe"
+        },
+        {
+          "key": "kindness",
+          "value": "Freundlichkeit"
+        },
+        {
+          "key": "symbolize",
+          "value": "symbolisieren"
+        },
+        {
+          "key": "victory",
+          "value": "Sieg"
+        },
+        {
+          "key": "prepare",
+          "value": "vorbereiten"
+        },
+        {
+          "key": "happiness",
+          "value": "Glück"
+        },
+        {
+          "key": "reflect",
+          "value": "nachdenken"
+        },
+        {
+          "key": "culture",
+          "value": "Kultur"
+        },
+        {
+          "key": "atmosphere",
+          "value": "Atmosphäre"
+        },
+        {
+          "key": "celebrate",
+          "value": "feiern"
+        },
+        {
+          "key": "fortune",
+          "value": "Glück"
+        },
+        {
+          "key": "act",
+          "value": "Handlung"
+        }
+      ],
+      "imageUrl": "https://www.icnnational.com/wp-content/uploads/Diwali-2.webp",
+      "title": "The Festival of Lights: Diwali",
+      "level": "B1",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Mountains are among the most fascinating natural formations on Earth. They have been a source of inspiration, challenge, and mystery for centuries. Whether used for climbing, skiing, or simply enjoying their breathtaking views, mountains hold a special place in human history and culture. One of the most famous mountain ranges is the Himalayas, home to Mount Everest, the tallest peak in the world.\n\nMountains form when tectonic plates collide or shift, causing the Earth's crust to rise. This process can take millions of years. Some mountains, like the Rockies or the Andes, are relatively young, geologically speaking. Others, such as the Appalachian Mountains, are ancient and have been eroded over time, making them less sharp but no less significant.\n\nMountains play a crucial role in Earth's ecosystems. They are home to diverse flora and fauna that have adapted to harsh conditions. Snow-capped peaks act as natural water reservoirs, feeding rivers and supporting agriculture in surrounding regions. However, these ecosystems are fragile. Climate change is causing glaciers to melt at alarming rates, threatening both biodiversity and water resources.\n\nMountains are also deeply tied to human culture. Many religions consider them sacred. For instance, Mount Kailash in Tibet is regarded as a holy site in Hinduism, Buddhism, Jainism, and Bon. Mount Fuji in Japan holds a similar spiritual significance. Moreover, mountains have inspired art, literature, and music throughout history.\n\nAdventure seekers often flock to mountains for hiking, rock climbing, and extreme sports. However, these activities require skill, preparation, and respect for nature. Many climbers face challenges such as altitude sickness, unpredictable weather, and physical exhaustion. Despite these risks, the allure of reaching the summit continues to draw people worldwide.\n\nIn addition to their beauty and cultural importance, mountains have economic value. They attract millions of tourists each year, boosting local economies. Mountain regions are also rich in natural resources, including minerals and forests. However, overexploitation poses significant environmental challenges.\n\nMountains remind us of the power and beauty of nature. They stand as symbols of endurance, strength, and the human spirit's desire to overcome obstacles. Protecting these majestic formations is not just an environmental necessity but also a way to preserve their cultural and historical significance for future generations.",
+      "contentDe": "Berge gehören zu den faszinierendsten Naturformationen der Erde. Seit Jahrhunderten sind sie eine Quelle der Inspiration, der Herausforderung und des Geheimnisses. Ob zum Klettern, Skifahren oder einfach zum Genießen ihrer atemberaubenden Ausblicke – Berge nehmen einen besonderen Platz in der Geschichte und Kultur der Menschheit ein. Eine der bekanntesten Gebirgsketten ist der Himalaya mit dem Mount Everest, dem höchsten Gipfel der Welt.\n\nBerge entstehen, wenn tektonische Platten kollidieren oder sich verschieben, wodurch sich die Erdkruste hebt. Dieser Prozess kann Millionen von Jahren dauern. Einige Gebirge, wie die Rocky Mountains oder die Anden, sind geologisch gesehen relativ jung. Andere, wie die Appalachen, sind sehr alt und wurden im Laufe der Zeit abgetragen, wodurch sie weniger scharf, aber nicht weniger bedeutsam sind.\n\nBerge spielen eine entscheidende Rolle in den Ökosystemen der Erde. Sie beherbergen eine vielfältige Flora und Fauna, die sich an raue Bedingungen angepasst hat. Schneegekronte Gipfel dienen als natürliche Wasserspeicher, speisen Flüsse und unterstützen die Landwirtschaft in den umliegenden Regionen. Diese Ökosysteme sind jedoch empfindlich. Der Klimawandel lässt Gletscher in alarmierendem Tempo schmelzen und bedroht sowohl die Biodiversität als auch die Wasserressourcen.\n\nBerge sind auch eng mit der menschlichen Kultur verbunden. Viele Religionen betrachten sie als heilig. Zum Beispiel gilt der Berg Kailash in Tibet als heiliger Ort im Hinduismus, Buddhismus, Jainismus und Bon. Der Mount Fuji in Japan besitzt eine ähnliche spirituelle Bedeutung. Darüber hinaus haben Berge im Laufe der Geschichte Kunst, Literatur und Musik inspiriert.\n\nAbenteuersuchende strömen oft in die Berge zum Wandern, Klettern und für Extremsportarten. Diese Aktivitäten erfordern jedoch Können, Vorbereitung und Respekt gegenüber der Natur. Viele Bergsteiger stehen vor Herausforderungen wie Höhenkrankheit, unvorhersehbarem Wetter und körperlicher Erschöpfung. Trotz dieser Risiken zieht der Reiz des Gipfels weiterhin Menschen aus aller Welt an.\n\nNeben ihrer Schönheit und kulturellen Bedeutung haben Berge auch einen wirtschaftlichen Wert. Sie ziehen jedes Jahr Millionen von Touristen an und stärken die lokalen Volkswirtschaften. Bergregionen sind auch reich an natürlichen Ressourcen, darunter Mineralien und Wälder. Übernutzung stellt jedoch erhebliche ökologische Herausforderungen dar.\n\nBerge erinnern uns an die Kraft und Schönheit der Natur. Sie stehen als Symbole für Ausdauer, Stärke und das menschliche Streben, Hindernisse zu überwinden. Der Schutz dieser majestätischen Formationen ist nicht nur eine ökologische Notwendigkeit, sondern auch ein Weg, ihre kulturelle und historische Bedeutung für zukünftige Generationen zu bewahren.",
+      "words": [
+        {
+          "key": "formation",
+          "value": "Formation"
+        },
+        {
+          "key": "tectonic plates",
+          "value": "tektonische Platten"
+        },
+        {
+          "key": "erosion",
+          "value": "Erosion"
+        },
+        {
+          "key": "flora",
+          "value": "Flora"
+        },
+        {
+          "key": "fauna",
+          "value": "Fauna"
+        },
+        {
+          "key": "reservoir",
+          "value": "Speicher"
+        },
+        {
+          "key": "biodiversity",
+          "value": "Biodiversität"
+        },
+        {
+          "key": "glacier",
+          "value": "Gletscher"
+        },
+        {
+          "key": "altitude sickness",
+          "value": "Höhenkrankheit"
+        },
+        {
+          "key": "summit",
+          "value": "Gipfel"
+        },
+        {
+          "key": "natural resource",
+          "value": "natürliche Ressource"
+        },
+        {
+          "key": "sacred",
+          "value": "heilig"
+        },
+        {
+          "key": "religion",
+          "value": "Religion"
+        },
+        {
+          "key": "endurance",
+          "value": "Ausdauer"
+        },
+        {
+          "key": "strength",
+          "value": "Stärke"
+        },
+        {
+          "key": "overcome",
+          "value": "überwinden"
+        },
+        {
+          "key": "harsh",
+          "value": "rau"
+        },
+        {
+          "key": "extreme sports",
+          "value": "Extremsportarten"
+        },
+        {
+          "key": "overexploitation",
+          "value": "Übernutzung"
+        },
+        {
+          "key": "tourism",
+          "value": "Tourismus"
+        },
+        {
+          "key": "economy",
+          "value": "Wirtschaft"
+        },
+        {
+          "key": "weather",
+          "value": "Wetter"
+        },
+        {
+          "key": "preserve",
+          "value": "bewahren"
+        },
+        {
+          "key": "future generations",
+          "value": "zukünftige Generationen"
+        },
+        {
+          "key": "obstacle",
+          "value": "Hindernis"
+        },
+        {
+          "key": "majestic",
+          "value": "majestätisch"
+        },
+        {
+          "key": "ancient",
+          "value": "antik"
+        },
+        {
+          "key": "geology",
+          "value": "Geologie"
+        },
+        {
+          "key": "symbolize",
+          "value": "symbolisieren"
+        },
+        {
+          "key": "challenge",
+          "value": "Herausforderung"
+        },
+        {
+          "key": "unpredictable",
+          "value": "unvorhersehbar"
+        }
+      ],
+      "imageUrl": "https://i0.wp.com/christianpublishinghouse.co/wp-content/uploads/2024/02/Majesty-of-Mountains-HEADER-1200x675-01.jpg?fit=1200%2C675&ssl=1",
+      "title": "The Majesty of Mountains",
+      "level": "B2",
+      "genre": "Nature",
+      "isNew": false,
+      "min": "7 min"
+    },
+    {
+      "content": "The history of the printing press is one of humanity's most significant technological advancements. Before its invention, books were copied by hand, a laborious and time-consuming process that limited the availability of knowledge to the wealthy and educated elite. The invention of the printing press changed everything, revolutionizing communication and laying the foundation for the modern world.\n\nThe printing press was invented by Johannes Gutenberg in the mid-15th century in Germany. Gutenberg's innovation combined movable type, ink, and a press mechanism to produce books more quickly and efficiently than ever before. His most famous work, the Gutenberg Bible, is considered a masterpiece of early printing. This invention democratized knowledge, making books more affordable and accessible to a broader audience.\n\nThe spread of printed materials had profound effects on society. One of the most significant impacts was on education. With more books available, literacy rates began to rise. Schools and universities grew in number, and people from diverse backgrounds gained access to knowledge previously reserved for the privileged few. The printing press also facilitated the rapid spread of new ideas, fueling movements like the Renaissance and the Reformation.\n\nIn addition to education, the printing press revolutionized communication. Newspapers and pamphlets became common, allowing people to stay informed about local and global events. Governments used printed materials to share laws and decrees, while businesses utilized them for advertisements. This newfound ability to communicate efficiently played a key role in shaping political and economic systems.\n\nDespite its many benefits, the printing press also had challenges. The rapid spread of information sometimes led to the dissemination of false or biased content, a problem that persists even today in digital media. However, the overall impact of the printing press remains overwhelmingly positive.\n\nIn conclusion, the printing press is a cornerstone of modern society. It transformed education, communication, and culture, paving the way for a more informed and connected world. Its legacy continues to influence how we share and access information today.",
+      "contentDe": "Die Geschichte der Druckpresse ist eine der bedeutendsten technologischen Errungenschaften der Menschheit. Vor ihrer Erfindung wurden Bücher von Hand abgeschrieben – ein mühsamer und zeitaufwändiger Prozess, der Wissen auf wohlhabende und gebildete Eliten beschränkte. Die Erfindung der Druckpresse veränderte alles, revolutionierte die Kommunikation und legte den Grundstein für die moderne Welt.\n\nDie Druckpresse wurde Mitte des 15. Jahrhunderts von Johannes Gutenberg in Deutschland erfunden. Gutenbergs Innovation kombinierte bewegliche Lettern, Tinte und einen Pressmechanismus, um Bücher schneller und effizienter als je zuvor herzustellen. Sein berühmtestes Werk, die Gutenberg-Bibel, gilt als Meisterwerk des frühen Buchdrucks. Diese Erfindung demokratisierte das Wissen, indem sie Bücher erschwinglicher und für ein breiteres Publikum zugänglich machte.\n\nDie Verbreitung gedruckter Materialien hatte tiefgreifende Auswirkungen auf die Gesellschaft. Eine der wichtigsten Veränderungen betraf die Bildung. Da mehr Bücher verfügbar waren, stieg die Alphabetisierungsrate. Schulen und Universitäten nahmen zu, und Menschen aus unterschiedlichen sozialen Schichten erhielten Zugang zu Wissen, das zuvor nur wenigen vorbehalten war. Die Druckpresse erleichterte auch die rasche Verbreitung neuer Ideen und trug zu Bewegungen wie der Renaissance und der Reformation bei.\n\nNeben der Bildung revolutionierte die Druckpresse auch die Kommunikation. Zeitungen und Flugblätter wurden weit verbreitet, wodurch Menschen über lokale und globale Ereignisse informiert blieben. Regierungen nutzten gedruckte Materialien zur Verbreitung von Gesetzen und Verordnungen, Unternehmen für Werbung. Diese neue Fähigkeit, effizient zu kommunizieren, spielte eine entscheidende Rolle bei der Gestaltung politischer und wirtschaftlicher Systeme.\n\nTrotz ihrer vielen Vorteile brachte die Druckpresse auch Herausforderungen mit sich. Die schnelle Verbreitung von Informationen führte manchmal zur Verbreitung falscher oder voreingenommener Inhalte – ein Problem, das auch heute noch in digitalen Medien existiert. Dennoch bleibt die Gesamtwirkung der Druckpresse überwiegend positiv.\n\nZusammenfassend lässt sich sagen, dass die Druckpresse ein Eckpfeiler der modernen Gesellschaft ist. Sie hat Bildung, Kommunikation und Kultur verändert und den Weg für eine besser informierte und vernetzte Welt geebnet. Ihr Vermächtnis beeinflusst weiterhin, wie wir Informationen teilen und darauf zugreifen.",
+      "words": [
+        {
+          "key": "printing press",
+          "value": "Druckpresse"
+        },
+        {
+          "key": "knowledge",
+          "value": "Wissen"
+        },
+        {
+          "key": "elite",
+          "value": "Elite"
+        },
+        {
+          "key": "revolutionize",
+          "value": "revolutionieren"
+        },
+        {
+          "key": "movable type",
+          "value": "bewegliche Lettern"
+        },
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "accessible",
+          "value": "zugänglich"
+        },
+        {
+          "key": "literacy",
+          "value": "Alphabetisierung"
+        },
+        {
+          "key": "Renaissance",
+          "value": "Renaissance"
+        },
+        {
+          "key": "Reformation",
+          "value": "Reformation"
+        },
+        {
+          "key": "pamphlet",
+          "value": "Flugblatt"
+        },
+        {
+          "key": "advertisement",
+          "value": "Anzeige"
+        },
+        {
+          "key": "decree",
+          "value": "Verordnung"
+        },
+        {
+          "key": "education",
+          "value": "Bildung"
+        },
+        {
+          "key": "society",
+          "value": "Gesellschaft"
+        },
+        {
+          "key": "communication",
+          "value": "Kommunikation"
+        },
+        {
+          "key": "transform",
+          "value": "verändern"
+        },
+        {
+          "key": "bias",
+          "value": "Voreingenommenheit"
+        },
+        {
+          "key": "false",
+          "value": "falsch"
+        },
+        {
+          "key": "accessible",
+          "value": "zugänglich"
+        },
+        {
+          "key": "legacy",
+          "value": "Vermächtnis"
+        },
+        {
+          "key": "foundations",
+          "value": "Grundlagen"
+        },
+        {
+          "key": "spread",
+          "value": "Verbreitung"
+        },
+        {
+          "key": "efficiently",
+          "value": "effizient"
+        },
+        {
+          "key": "profound",
+          "value": "tiefgreifend"
+        },
+        {
+          "key": "impact",
+          "value": "Auswirkung"
+        },
+        {
+          "key": "connected",
+          "value": "verbunden"
+        },
+        {
+          "key": "education",
+          "value": "Ausbildung"
+        },
+        {
+          "key": "dissemination",
+          "value": "Verbreitung"
+        },
+        {
+          "key": "modern society",
+          "value": "moderne Gesellschaft"
+        },
+        {
+          "key": "challenge",
+          "value": "Herausforderung"
+        },
+        {
+          "key": "privileged",
+          "value": "privilegiert"
+        },
+        {
+          "key": "transformative",
+          "value": "transformativ"
+        }
+      ],
+      "imageUrl": "https://cdn.britannica.com/89/171689-138-FCD8F373/history-printing-press-work-discussion-Johannes-Gutenberg.jpg?w=800&h=450&c=crop",
+      "title": "The Invention of the Printing Press",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "7 min"
+    },
+    {
+      "content": "Airplanes have revolutionized how people travel. Before the invention of airplanes, long-distance travel was slow and exhausting. It took weeks or even months to cross oceans by ship. Today, airplanes allow people to travel thousands of miles in just a few hours. They have made the world more connected and accessible.\n\nThe first successful powered flight was made by the Wright brothers in 1903. Their plane, called the Wright Flyer, flew for only 12 seconds. Despite this short flight, it was a huge achievement and marked the beginning of modern aviation. Over time, airplanes became faster, safer, and more comfortable.\n\nModern airplanes are complex machines that use advanced technology. They are designed to be lightweight but strong. Airplanes are equipped with powerful engines that lift them into the sky and allow them to fly at high speeds. Inside the cabin, passengers can enjoy comfortable seating, entertainment, and meals, even on long flights.\n\nAir travel has many advantages. It is the fastest way to travel long distances. Airplanes are also the best option for reaching remote locations, such as islands or isolated regions. Additionally, air travel supports global trade by transporting goods quickly between countries.\n\nHowever, air travel has some disadvantages too. Airplane tickets can be expensive, especially for international flights. Airports can be crowded, and passengers often face long lines and security checks. Furthermore, airplanes contribute to air pollution and carbon emissions, which affect the environment.\n\nDespite these challenges, airplanes remain an essential part of modern life. They have transformed the way people live, work, and explore the world. As technology continues to improve, airplanes will likely become even more efficient and environmentally friendly in the future.",
+      "contentDe": "Flugzeuge haben die Art und Weise, wie Menschen reisen, revolutioniert. Vor der Erfindung von Flugzeugen war das Reisen über lange Strecken langsam und anstrengend. Es dauerte Wochen oder sogar Monate, um Ozeane mit dem Schiff zu überqueren. Heute ermöglichen Flugzeuge den Menschen, Tausende von Meilen in nur wenigen Stunden zu reisen. Sie haben die Welt stärker vernetzt und zugänglicher gemacht.\n\nDer erste erfolgreiche Motorflug wurde 1903 von den Gebrüdern Wright durchgeführt. Ihr Flugzeug, der Wright Flyer, flog nur 12 Sekunden lang. Trotz dieses kurzen Fluges war es ein großer Erfolg und markierte den Beginn der modernen Luftfahrt. Im Laufe der Zeit wurden Flugzeuge schneller, sicherer und komfortabler.\n\nModerne Flugzeuge sind komplexe Maschinen, die fortschrittliche Technologie nutzen. Sie sind so konzipiert, dass sie leicht, aber stark sind. Flugzeuge sind mit leistungsstarken Triebwerken ausgestattet, die sie in den Himmel heben und ihnen ermöglichen, mit hohen Geschwindigkeiten zu fliegen. Im Inneren der Kabine können Passagiere auch auf langen Flügen bequeme Sitze, Unterhaltung und Mahlzeiten genießen.\n\nDas Fliegen hat viele Vorteile. Es ist der schnellste Weg, lange Strecken zurückzulegen. Flugzeuge sind auch die beste Option, um abgelegene Orte wie Inseln oder isolierte Regionen zu erreichen. Darüber hinaus unterstützt der Luftverkehr den globalen Handel, indem er Waren schnell zwischen Ländern transportiert.\n\nAllerdings hat das Fliegen auch einige Nachteile. Flugtickets können teuer sein, insbesondere für internationale Flüge. Flughäfen können überfüllt sein und Passagiere stehen oft vor langen Warteschlangen und Sicherheitskontrollen. Außerdem tragen Flugzeuge zur Luftverschmutzung und zu CO₂-Emissionen bei, die die Umwelt belasten.\n\nTrotz dieser Herausforderungen bleiben Flugzeuge ein wesentlicher Bestandteil des modernen Lebens. Sie haben die Art und Weise verändert, wie Menschen leben, arbeiten und die Welt erkunden. Da sich die Technologie weiterentwickelt, werden Flugzeuge in Zukunft wahrscheinlich noch effizienter und umweltfreundlicher werden.",
+      "words": [
+        {
+          "key": "Airplane",
+          "value": "Flugzeug"
+        },
+        {
+          "key": "flight",
+          "value": "Flug"
+        },
+        {
+          "key": "long-distance",
+          "value": "Langstrecke"
+        },
+        {
+          "key": "connected",
+          "value": "verbunden"
+        },
+        {
+          "key": "aviation",
+          "value": "Luftfahrt"
+        },
+        {
+          "key": "technology",
+          "value": "Technologie"
+        },
+        {
+          "key": "engine",
+          "value": "Triebwerk"
+        },
+        {
+          "key": "cabin",
+          "value": "Kabine"
+        },
+        {
+          "key": "passenger",
+          "value": "Passagier"
+        },
+        {
+          "key": "comfortable",
+          "value": "bequem"
+        },
+        {
+          "key": "trade",
+          "value": "Handel"
+        },
+        {
+          "key": "goods",
+          "value": "Waren"
+        },
+        {
+          "key": "carbon emissions",
+          "value": "CO₂-Emissionen"
+        },
+        {
+          "key": "pollution",
+          "value": "Verschmutzung"
+        },
+        {
+          "key": "efficient",
+          "value": "effizient"
+        },
+        {
+          "key": "international",
+          "value": "international"
+        },
+        {
+          "key": "remote",
+          "value": "abgelegen"
+        },
+        {
+          "key": "explore",
+          "value": "erkunden"
+        },
+        {
+          "key": "transform",
+          "value": "verändern"
+        },
+        {
+          "key": "revolutionize",
+          "value": "revolutionieren"
+        },
+        {
+          "key": "security",
+          "value": "Sicherheit"
+        },
+        {
+          "key": "modern",
+          "value": "modern"
+        },
+        {
+          "key": "invention",
+          "value": "Erfindung"
+        },
+        {
+          "key": "urbanization",
+          "value": "Urbanisierung"
+        },
+        {
+          "key": "transport",
+          "value": "transportieren"
+        }
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQGj0mGFpDAkJQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1699896248356?e=2147483647&v=beta&t=D9iSafZdsdGkvHHpw5PNjDDJw1BqfZAq9iQ-GRTHLCA",
+      "title": "The Impact of Airplanes on Modern Life",
+      "level": "B1",
+      "genre": "Technology",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Mount Nemrut, located in southeastern Turkey, is a UNESCO World Heritage Site known for its extraordinary historical and cultural significance. Standing at an altitude of 2,134 meters, it is home to the fascinating remnants of the Kingdom of Commagene, an ancient civilization that thrived over 2,000 years ago.\n\nThe site is famous for its colossal statues that represent gods, eagles, lions, and King Antiochus I, who ruled the kingdom. These statues, carved from limestone, are arranged around a large burial mound believed to be the tomb of King Antiochus. The heads of the statues have fallen from their bodies over time and now lie scattered across the terraces, adding a mysterious charm to the site.\n\nOne of the most captivating aspects of Mount Nemrut is the sunrise and sunset. Visitors from around the world come to witness the golden light illuminating the statues and the surrounding landscape. This breathtaking view makes it a popular destination for both history enthusiasts and nature lovers.\n\nThe construction of the site is considered a remarkable achievement of ancient engineering. The burial mound is composed of thousands of small stones, carefully placed to create a pyramid-like structure. This design has preserved the site for centuries, even under challenging weather conditions.\n\nMount Nemrut offers a glimpse into the religious and political life of the Commagene Kingdom. The inscriptions found on the site provide valuable insights into the beliefs and aspirations of the ancient people, showcasing their desire to bridge the cultures of East and West.\n\nToday, Mount Nemrut continues to be a symbol of cultural heritage and a testament to human creativity. It invites visitors to explore its rich history, enjoy its natural beauty, and reflect on the legacy of the civilizations that once called it home.",
+      "contentDe": "Der Berg Nemrut im Südosten der Türkei ist eine UNESCO-Welterbestätte, die für ihre außergewöhnliche historische und kulturelle Bedeutung bekannt ist. Mit einer Höhe von 2.134 Metern beherbergt er die faszinierenden Überreste des Königreichs Kommagene, einer antiken Zivilisation, die vor über 2.000 Jahren blühte.\n\nDie Stätte ist berühmt für ihre kolossalen Statuen, die Götter, Adler, Löwen und König Antiochos I. darstellen, der das Königreich regierte. Diese aus Kalkstein gehauenen Statuen sind um einen großen Grabhügel angeordnet, von dem angenommen wird, dass er das Grab von König Antiochos ist. Die Köpfe der Statuen sind im Laufe der Zeit von ihren Körpern gefallen und liegen nun über die Terrassen verstreut, was der Stätte einen geheimnisvollen Charme verleiht.\n\nEiner der faszinierendsten Aspekte des Berges Nemrut ist der Sonnenaufgang und Sonnenuntergang. Besucher aus aller Welt kommen, um das goldene Licht zu erleben, das die Statuen und die umliegende Landschaft beleuchtet. Diese atemberaubende Aussicht macht ihn zu einem beliebten Ziel für Geschichtsinteressierte und Naturliebhaber.\n\nDer Bau der Stätte gilt als bemerkenswerte Leistung antiker Ingenieurskunst. Der Grabhügel besteht aus Tausenden kleiner Steine, die sorgfältig zu einer pyramidenartigen Struktur angeordnet wurden. Dieses Design hat die Stätte über Jahrhunderte hinweg erhalten, selbst bei schwierigen Wetterbedingungen.\n\nDer Berg Nemrut bietet einen Einblick in das religiöse und politische Leben des Königreichs Kommagene. Die an der Stätte gefundenen Inschriften liefern wertvolle Einblicke in die Überzeugungen und Bestrebungen der antiken Bevölkerung und zeigen ihren Wunsch, die Kulturen des Ostens und des Westens zu verbinden.\n\nHeute bleibt der Berg Nemrut ein Symbol des kulturellen Erbes und ein Zeugnis menschlicher Kreativität. Er lädt Besucher ein, seine reiche Geschichte zu erkunden, seine natürliche Schönheit zu genießen und über das Erbe der Zivilisationen nachzudenken, die ihn einst Heimat nannten.",
+      "words": [
+        {
+          "key": "altitude",
+          "value": "Höhe"
+        },
+        {
+          "key": "heritage",
+          "value": "Erbe"
+        },
+        {
+          "key": "civilization",
+          "value": "Zivilisation"
+        },
+        {
+          "key": "colossal",
+          "value": "kolossal"
+        },
+        {
+          "key": "statue",
+          "value": "Statue"
+        },
+        {
+          "key": "ancient",
+          "value": "antik"
+        },
+        {
+          "key": "kingdom",
+          "value": "Königreich"
+        },
+        {
+          "key": "burial mound",
+          "value": "Grabhügel"
+        },
+        {
+          "key": "terrace",
+          "value": "Terrasse"
+        },
+        {
+          "key": "sunrise",
+          "value": "Sonnenaufgang"
+        },
+        {
+          "key": "sunset",
+          "value": "Sonnenuntergang"
+        },
+        {
+          "key": "pyramid-like",
+          "value": "pyramidenartig"
+        },
+        {
+          "key": "inscription",
+          "value": "Inschrift"
+        },
+        {
+          "key": "legacy",
+          "value": "Vermächtnis"
+        },
+        {
+          "key": "creativity",
+          "value": "Kreativität"
+        },
+        {
+          "key": "testament",
+          "value": "Zeugnis"
+        },
+        {
+          "key": "political",
+          "value": "politisch"
+        },
+        {
+          "key": "religious",
+          "value": "religiös"
+        },
+        {
+          "key": "belief",
+          "value": "Glaube"
+        },
+        {
+          "key": "aspiration",
+          "value": "Bestrebung"
+        },
+        {
+          "key": "weather condition",
+          "value": "Wetterbedingung"
+        },
+        {
+          "key": "mystery",
+          "value": "Geheimnis"
+        },
+        {
+          "key": "cultural significance",
+          "value": "kulturelle Bedeutung"
+        }
+      ],
+      "imageUrl": "https://www.anatoliatravelservices.com/img/rehber/adiyaman-home-of-mount-nemrut.jpg",
+      "title": "Mount Nemrut: A Historical Marvel",
+      "level": "B2",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Native Americans, often referred to as Indigenous peoples, are the original inhabitants of the Americas. They have lived on the continent for thousands of years, developing diverse cultures, languages, and traditions. Despite centuries of change and challenges, Native Americans continue to play an important role in the cultural and historical identity of the United States.\n\nBefore the arrival of Europeans, Native American tribes thrived across North and South America. Each tribe had its unique way of life, influenced by the environment in which they lived. For example, the Plains tribes, such as the Sioux and Cheyenne, relied heavily on buffalo for food, clothing, and tools. Meanwhile, tribes like the Iroquois in the northeastern forests built longhouses and practiced agriculture, growing crops such as corn, beans, and squash.\n\nArt, music, and storytelling were essential aspects of Native American culture. Many tribes used oral traditions to pass down their history and values from generation to generation. Storytelling often included myths and legends that explained the origins of the world, nature, and their spiritual beliefs. Traditional music, played with drums and flutes, was central to ceremonies and rituals, reflecting their connection to the land and spirituality.\n\nHowever, Native Americans faced significant hardships with the arrival of European settlers. Colonization, wars, and forced removals disrupted their lives and led to the loss of land and resources. Policies such as the Trail of Tears and the establishment of reservations caused immense suffering. Many Indigenous peoples were also forced to abandon their languages and cultural practices due to assimilation efforts.\n\nDespite these challenges, Native Americans have worked tirelessly to preserve their heritage. Today, there are over 500 federally recognized tribes in the United States, each with its own government and traditions. Native American communities celebrate their culture through powwows, dances, and festivals, which serve as a reminder of their resilience and rich history.\n\nIn conclusion, Native Americans are a vital part of the history and identity of the Americas. Their traditions and contributions continue to enrich society, reminding us of the importance of preserving and respecting cultural diversity.",
+      "contentDe": "Die Ureinwohner Amerikas, oft als indigene Völker bezeichnet, sind die ursprünglichen Bewohner des amerikanischen Kontinents. Seit Tausenden von Jahren leben sie dort und haben vielfältige Kulturen, Sprachen und Traditionen entwickelt. Trotz Jahrhunderten voller Veränderungen und Herausforderungen spielen die Ureinwohner weiterhin eine bedeutende Rolle in der kulturellen und historischen Identität der Vereinigten Staaten.\n\nVor der Ankunft der Europäer blühten die Stämme der Ureinwohner in Nord- und Südamerika. Jeder Stamm hatte eine eigene Lebensweise, die von der Umgebung beeinflusst wurde. So waren die Stämme der Prärie, wie die Sioux und Cheyenne, stark auf Bisons für Nahrung, Kleidung und Werkzeuge angewiesen. Stämme wie die Irokesen in den nordöstlichen Wäldern bauten Langhäuser und betrieben Landwirtschaft mit Mais, Bohnen und Kürbis.\n\nKunst, Musik und Geschichtenerzählen waren zentrale Elemente der Kultur der Ureinwohner. Viele Stämme nutzten mündliche Überlieferungen, um ihre Geschichte und Werte von Generation zu Generation weiterzugeben. Dabei wurden oft Mythen und Legenden erzählt, die den Ursprung der Welt, der Natur und ihrer spirituellen Überzeugungen erklärten. Traditionelle Musik mit Trommeln und Flöten spielte eine zentrale Rolle bei Zeremonien und Ritualen und spiegelte ihre Verbundenheit mit dem Land und der Spiritualität wider.\n\nMit der Ankunft europäischer Siedler mussten die Ureinwohner jedoch schwere Schicksale erleiden. Kolonisierung, Kriege und Zwangsumsiedlungen zerstörten ihr Leben und führten zu Land- und Ressourcenverlusten. Maßnahmen wie der „Trail of Tears“ und die Einrichtung von Reservaten verursachten großes Leid. Viele indigene Völker wurden zudem gezwungen, ihre Sprache und kulturellen Praktiken aufzugeben.\n\nTrotz dieser Herausforderungen bemühen sich die Ureinwohner unermüdlich, ihr Erbe zu bewahren. Heute gibt es in den USA über 500 bundesstaatlich anerkannte Stämme mit eigenen Regierungen und Traditionen. Sie feiern ihre Kultur durch Powwows, Tänze und Feste, die an ihre Widerstandskraft und ihre reiche Geschichte erinnern.\n\nZusammenfassend sind die Ureinwohner Amerikas ein wesentlicher Bestandteil der Geschichte und Identität des Kontinents. Ihre Traditionen und Beiträge bereichern die Gesellschaft und erinnern uns daran, wie wichtig es ist, kulturelle Vielfalt zu bewahren und zu respektieren.",
+      "words": [
+        {
+          "key": "Indigenous",
+          "value": "indigen"
+        },
+        {
+          "key": "tribe",
+          "value": "Stamm"
+        },
+        {
+          "key": "heritage",
+          "value": "Erbe"
+        },
+        {
+          "key": "oral traditions",
+          "value": "mündliche Überlieferungen"
+        },
+        {
+          "key": "myth",
+          "value": "Mythos"
+        },
+        {
+          "key": "legend",
+          "value": "Legende"
+        },
+        {
+          "key": "spirituality",
+          "value": "Spiritualität"
+        },
+        {
+          "key": "buffalo",
+          "value": "Bison"
+        },
+        {
+          "key": "reservation",
+          "value": "Reservat"
+        },
+        {
+          "key": "assimilation",
+          "value": "Assimilation"
+        },
+        {
+          "key": "powwow",
+          "value": "Powwow (indigenes Fest)"
+        },
+        {
+          "key": "resilience",
+          "value": "Widerstandskraft"
+        },
+        {
+          "key": "diversity",
+          "value": "Vielfalt"
+        },
+        {
+          "key": "ceremony",
+          "value": "Zeremonie"
+        },
+        {
+          "key": "ritual",
+          "value": "Ritual"
+        },
+        {
+          "key": "settler",
+          "value": "Siedler"
+        },
+        {
+          "key": "colonization",
+          "value": "Kolonisierung"
+        },
+        {
+          "key": "land loss",
+          "value": "Landverlust"
+        },
+        {
+          "key": "cultural practices",
+          "value": "kulturelle Praktiken"
+        },
+        {
+          "key": "agriculture",
+          "value": "Landwirtschaft"
+        },
+        {
+          "key": "longhouse",
+          "value": "Langhaus"
+        },
+        {
+          "key": "resources",
+          "value": "Ressourcen"
+        },
+        {
+          "key": "connection",
+          "value": "Verbindung"
+        },
+        {
+          "key": "identity",
+          "value": "Identität"
+        },
+        {
+          "key": "festival",
+          "value": "Festival"
+        },
+        {
+          "key": "historical",
+          "value": "historisch"
+        },
+        {
+          "key": "instrument",
+          "value": "Instrument"
+        },
+        {
+          "key": "generations",
+          "value": "Generationen"
+        }
+      ],
+      "imageUrl": "https://www.tarihiolaylar.com/img/tarihiolaylar/tarihi_olaylar_kizilderili-jpg_508156292_1424781012.jpg",
+      "title": "The Legacy of Native Americans",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Economics is the study of how societies use limited resources to meet their needs and wants. It plays a crucial role in shaping policies and determining the well-being of people. By understanding the principles of economics, individuals and governments can make informed decisions that affect their lives and the global community.\n\nOne key concept in economics is supply and demand. Supply refers to how much of a product or service is available, while demand represents how much people want it. When demand is high but supply is low, prices often increase. On the other hand, if supply exceeds demand, prices usually decrease. This balance helps determine the value of goods and services in a market.\n\nAnother important aspect of economics is inflation. Inflation occurs when the prices of goods and services rise over time, reducing the purchasing power of money. A small, steady rate of inflation is generally considered healthy for an economy, as it encourages spending and investment. However, high inflation can lead to economic instability, making it harder for people to afford basic necessities.\n\nEconomics also examines unemployment, which measures how many people in a society are without jobs but are actively seeking work. High unemployment rates can weaken an economy, as fewer people earn income and contribute to consumer spending. Governments often implement policies to create jobs and reduce unemployment, such as investing in infrastructure or offering tax incentives to businesses.\n\nGlobal trade is another crucial element of economics. Countries trade goods and services to benefit from resources and expertise that they may lack domestically. For example, a country rich in natural resources might export raw materials while importing advanced technology. Trade agreements and tariffs play a significant role in shaping these exchanges, impacting economies worldwide.\n\nIn conclusion, economics influences many aspects of daily life, from the prices we pay for products to the policies that shape our future. Understanding economic principles allows individuals and nations to navigate challenges and opportunities, creating a better and more prosperous society.",
+      "contentDe": "Wirtschaft ist die Wissenschaft davon, wie Gesellschaften begrenzte Ressourcen nutzen, um ihre Bedürfnisse und Wünsche zu erfüllen. Sie spielt eine entscheidende Rolle bei der Gestaltung von politischen Maßnahmen und der Bestimmung des Wohlergehens der Menschen. Durch das Verständnis wirtschaftlicher Prinzipien können Einzelpersonen und Regierungen fundierte Entscheidungen treffen, die ihr Leben und die globale Gemeinschaft beeinflussen.\n\nEin zentrales Konzept in der Wirtschaft ist Angebot und Nachfrage. Angebot bezieht sich darauf, wie viel von einem Produkt oder einer Dienstleistung verfügbar ist, während Nachfrage zeigt, wie sehr Menschen es haben wollen. Wenn die Nachfrage hoch, aber das Angebot gering ist, steigen die Preise häufig. Umgekehrt sinken die Preise in der Regel, wenn das Angebot die Nachfrage übersteigt. Dieses Gleichgewicht hilft, den Wert von Gütern und Dienstleistungen auf einem Markt zu bestimmen.\n\nEin weiterer wichtiger Aspekt der Wirtschaft ist die Inflation. Inflation tritt auf, wenn die Preise für Waren und Dienstleistungen im Laufe der Zeit steigen, wodurch die Kaufkraft des Geldes sinkt. Eine kleine, stabile Inflationsrate wird im Allgemeinen als gesund für eine Wirtschaft angesehen, da sie Ausgaben und Investitionen fördert. Eine hohe Inflation kann jedoch zur wirtschaftlichen Instabilität führen und es den Menschen erschweren, sich grundlegende Bedürfnisse zu leisten.\n\nDie Wirtschaft untersucht auch die Arbeitslosigkeit, die misst, wie viele Menschen in einer Gesellschaft arbeitslos sind, aber aktiv nach Arbeit suchen. Hohe Arbeitslosigkeit kann eine Wirtschaft schwächen, da weniger Menschen Einkommen erzielen und zum Konsum beitragen. Regierungen ergreifen häufig Maßnahmen, um Arbeitsplätze zu schaffen und die Arbeitslosigkeit zu senken, zum Beispiel durch Investitionen in Infrastruktur oder Steueranreize für Unternehmen.\n\nDer globale Handel ist ein weiterer entscheidender Bestandteil der Wirtschaft. Länder handeln mit Waren und Dienstleistungen, um von Ressourcen und Fachwissen zu profitieren, die ihnen möglicherweise im Inland fehlen. Zum Beispiel könnte ein Land mit vielen natürlichen Ressourcen Rohstoffe exportieren und dafür fortschrittliche Technologie importieren. Handelsabkommen und Zölle spielen eine wichtige Rolle bei der Gestaltung dieses Austauschs und beeinflussen Volkswirtschaften weltweit.\n\nZusammenfassend lässt sich sagen, dass die Wirtschaft viele Aspekte des täglichen Lebens beeinflusst – von den Preisen, die wir für Produkte zahlen, bis hin zu den politischen Maßnahmen, die unsere Zukunft formen. Das Verständnis wirtschaftlicher Prinzipien ermöglicht es Einzelpersonen und Nationen, Herausforderungen und Chancen zu meistern und eine bessere, wohlhabendere Gesellschaft zu schaffen.",
+      "words": [
+        {
+          "key": "resources",
+          "value": "Ressourcen"
+        },
+        {
+          "key": "supply",
+          "value": "Angebot"
+        },
+        {
+          "key": "demand",
+          "value": "Nachfrage"
+        },
+        {
+          "key": "market",
+          "value": "Markt"
+        },
+        {
+          "key": "inflation",
+          "value": "Inflation"
+        },
+        {
+          "key": "purchasing power",
+          "value": "Kaufkraft"
+        },
+        {
+          "key": "investment",
+          "value": "Investition"
+        },
+        {
+          "key": "unemployment",
+          "value": "Arbeitslosigkeit"
+        },
+        {
+          "key": "consumer spending",
+          "value": "Konsumausgaben"
+        },
+        {
+          "key": "infrastructure",
+          "value": "Infrastruktur"
+        },
+        {
+          "key": "tax incentives",
+          "value": "Steueranreize"
+        },
+        {
+          "key": "Global trade",
+          "value": "Welthandel"
+        },
+        {
+          "key": "export",
+          "value": "Export"
+        },
+        {
+          "key": "trade agreement",
+          "value": "Handelsabkommen"
+        },
+        {
+          "key": "tariff",
+          "value": "Zoll"
+        },
+        {
+          "key": "economic stability",
+          "value": "wirtschaftliche Stabilität"
+        },
+        {
+          "key": "policy",
+          "value": "Politik"
+        },
+        {
+          "key": "prosperity",
+          "value": "Wohlstand"
+        },
+        {
+          "key": "society",
+          "value": "Gesellschaft"
+        },
+        {
+          "key": "balance",
+          "value": "Gleichgewicht"
+        },
+        {
+          "key": "value",
+          "value": "Wert"
+        },
+        {
+          "key": "principle",
+          "value": "Prinzip"
+        },
+        {
+          "key": "opportunity",
+          "value": "Chance"
+        },
+        {
+          "key": "challenge",
+          "value": "Herausforderung"
+        },
+        {
+          "key": "development",
+          "value": "Entwicklung"
+        },
+        {
+          "key": "natural resources",
+          "value": "natürliche Ressourcen"
+        },
+        {
+          "key": "advanced technology",
+          "value": "fortschrittliche Technologie"
+        }
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Economics.jpg/640px-Economics.jpg",
+      "title": "The Fundamentals of Economics",
+      "level": "B2",
+      "genre": "Economy",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Africa is a vast and diverse continent, known for its rich history, culture, and natural beauty. It is the second-largest continent in the world, covering over 30 million square kilometers. Africa is home to over 1.2 billion people, representing a wide variety of ethnic groups, languages, and religions. Its diversity is reflected not only in its people but also in its landscapes, wildlife, and traditions.\n\nThe continent is famous for its incredible natural wonders, including the Sahara Desert, the Nile River, and the Serengeti National Park. The Sahara Desert is the largest hot desert in the world, stretching across several countries in North Africa. It is a land of vast sand dunes and ancient oases, providing a unique environment for those who live and travel through it.\n\nThe Nile River, one of the longest rivers in the world, flows through northeastern Africa. It has been a lifeline for civilizations in Egypt and Sudan for thousands of years, providing water, transportation, and fertile land for agriculture. The river has played an important role in the development of African culture and economy.\n\nThe Serengeti National Park in Tanzania is one of the most famous wildlife reserves in the world. It is home to the annual Great Migration, where millions of wildebeest, zebras, and gazelles travel across the park in search of food and water. This migration is one of the most spectacular wildlife events on the planet, attracting visitors from around the world.\n\nIn addition to its natural beauty, Africa is known for its rich cultural heritage. The continent is home to many different languages, traditions, and religions. From the vibrant music and dance of West Africa to the ancient art and architecture of Egypt, Africa’s cultural diversity is truly remarkable. Each country and region has its own unique history, and together they create a tapestry of traditions that have shaped the world’s history.\n\nAfrica is also a continent of great challenges. Despite its immense resources, many African countries face issues such as poverty, political instability, and lack of access to education and healthcare. However, the people of Africa continue to show resilience and hope as they work towards a better future. The continent’s rich cultural and natural resources remain a source of inspiration and strength for its people.",
+      "contentDe": "Afrika ist ein riesiger und vielfältiger Kontinent, bekannt für seine reiche Geschichte, Kultur und natürliche Schönheit. Es ist der zweitgrößte Kontinent der Welt und umfasst über 30 Millionen Quadratkilometer. In Afrika leben über 1,2 Milliarden Menschen, die eine große Vielfalt an ethnischen Gruppen, Sprachen und Religionen repräsentieren. Diese Vielfalt zeigt sich nicht nur in den Menschen, sondern auch in Landschaften, Tierwelt und Traditionen.\n\nDer Kontinent ist berühmt für seine unglaublichen Naturwunder, darunter die Sahara, der Nil und der Serengeti-Nationalpark. Die Sahara ist die größte heiße Wüste der Welt und erstreckt sich über mehrere Länder Nordafrikas. Es ist ein Land aus riesigen Sanddünen und alten Oasen und bietet eine einzigartige Umgebung für diejenigen, die dort leben oder reisen.\n\nDer Nil, einer der längsten Flüsse der Welt, fließt durch Nordostafrika. Er war über Jahrtausende hinweg eine Lebensader für Zivilisationen in Ägypten und Sudan und bietet Wasser, Transport und fruchtbares Land für die Landwirtschaft. Der Fluss spielte eine wichtige Rolle in der Entwicklung der afrikanischen Kultur und Wirtschaft.\n\nDer Serengeti-Nationalpark in Tansania ist eines der bekanntesten Wildreservate der Welt. Er beherbergt die jährliche Große Migration, bei der Millionen von Gnus, Zebras und Gazellen auf der Suche nach Nahrung und Wasser durch den Park ziehen. Diese Migration ist eines der spektakulärsten Naturereignisse auf dem Planeten und zieht Besucher aus der ganzen Welt an.\n\nNeben seiner natürlichen Schönheit ist Afrika auch für sein reiches kulturelles Erbe bekannt. Der Kontinent beherbergt viele verschiedene Sprachen, Traditionen und Religionen. Von der lebhaften Musik und dem Tanz Westafrikas bis zur alten Kunst und Architektur Ägyptens ist Afrikas kulturelle Vielfalt wirklich bemerkenswert. Jedes Land und jede Region hat eine eigene Geschichte, zusammen ergeben sie ein Mosaik von Traditionen, das die Weltgeschichte mitgeprägt hat.\n\nAfrika ist auch ein Kontinent großer Herausforderungen. Trotz seiner enormen Ressourcen stehen viele afrikanische Länder vor Problemen wie Armut, politischer Instabilität und mangelndem Zugang zu Bildung und Gesundheitsversorgung. Doch die Menschen in Afrika zeigen weiterhin Widerstandskraft und Hoffnung, während sie an einer besseren Zukunft arbeiten. Die reichen kulturellen und natürlichen Ressourcen des Kontinents bleiben eine Quelle der Inspiration und Stärke für sein Volk.",
+      "words": [
+        {
+          "key": "continent",
+          "value": "Kontinent"
+        },
+        {
+          "key": "diverse",
+          "value": "vielfältig"
+        },
+        {
+          "key": "heritage",
+          "value": "Erbe"
+        },
+        {
+          "key": "civilizations",
+          "value": "Zivilisationen"
+        },
+        {
+          "key": "resources",
+          "value": "Ressourcen"
+        },
+        {
+          "key": "migration",
+          "value": "Migration"
+        },
+        {
+          "key": "wildlife",
+          "value": "Wildtiere"
+        },
+        {
+          "key": "famine",
+          "value": "Hungersnot"
+        },
+        {
+          "key": "traditions",
+          "value": "Traditionen"
+        },
+        {
+          "key": "culture",
+          "value": "Kultur"
+        },
+        {
+          "key": "language",
+          "value": "Sprache"
+        },
+        {
+          "key": "ethnic groups",
+          "value": "ethnische Gruppen"
+        },
+        {
+          "key": "agriculture",
+          "value": "Landwirtschaft"
+        },
+        {
+          "key": "fertile",
+          "value": "fruchtbar"
+        },
+        {
+          "key": "healthcare",
+          "value": "Gesundheitsversorgung"
+        },
+        {
+          "key": "resilience",
+          "value": "Widerstandskraft"
+        },
+        {
+          "key": "political instability",
+          "value": "politische Instabilität"
+        },
+        {
+          "key": "poverty",
+          "value": "Armut"
+        },
+        {
+          "key": "landscape",
+          "value": "Landschaft"
+        },
+        {
+          "key": "natural wonders",
+          "value": "Naturwunder"
+        },
+        {
+          "key": "inspiration",
+          "value": "Inspiration"
+        },
+        {
+          "key": "strength",
+          "value": "Stärke"
+        },
+        {
+          "key": "tradition",
+          "value": "Tradition"
+        },
+        {
+          "key": "challenge",
+          "value": "Herausforderung"
+        },
+        {
+          "key": "unity",
+          "value": "Einheit"
+        },
+        {
+          "key": "celebrate",
+          "value": "feiern"
+        },
+        {
+          "key": "tapestry",
+          "value": "Wandteppich"
+        }
+      ],
+      "imageUrl": "https://wmo.int/sites/default/files/2023-09/AdobeStock_259889990.jpeg",
+      "title": "Africa: A Land of Diversity and Beauty",
+      "level": "B2",
+      "genre": "Cultural",
+      "isNew": false,
+      "min": "4 min"
+    }
+  ]
+}

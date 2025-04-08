@@ -1,0 +1,3524 @@
+{
+  "books": [
+    {
+      "content": "The journey of renewable energy began decades ago when people realized the negative effects of fossil fuels. Burning coal, oil, and gas not only pollutes the air but also contributes to climate change. To combat these issues, scientists and engineers have developed cleaner and more sustainable energy sources like solar, wind, and hydropower.\n\nSolar energy, for instance, harnesses the power of the sun to generate electricity. Solar panels are becoming increasingly popular due to their efficiency and decreasing costs. Many countries now offer incentives to encourage households and businesses to install solar systems, making it an accessible option for many.\n\nSimilarly, wind energy has gained significant attention. Wind turbines, often located in windy areas or offshore, produce electricity by converting kinetic energy from the wind. These massive structures are a testament to human innovation, and their contribution to the global energy supply continues to grow. Despite some challenges, such as their impact on local wildlife and high initial costs, wind energy remains a vital part of the shift towards a greener future.\n\nHydropower, another renewable source, relies on the movement of water. Large dams, built across rivers, generate electricity by using the flow of water to spin turbines. This method is highly efficient but can have environmental consequences, such as disrupting local ecosystems. However, advancements in technology are helping to minimize these effects.\n\nThe adoption of renewable energy is crucial in addressing the climate crisis. By investing in cleaner energy, we can reduce greenhouse gas emissions and create a more sustainable planet for future generations. The road ahead may be challenging, but the benefits of renewable energy far outweigh the difficulties.",
+      "contentTr": "Yenilenebilir enerji yolculuğu, insanların fosil yakıtların olumsuz etkilerini fark etmesiyle onlarca yıl önce başladı. Kömür, petrol ve gaz yakmak sadece havayı kirletmekle kalmaz, aynı zamanda iklim değişikliğine de katkıda bulunur. Bu sorunlarla mücadele etmek için bilim insanları ve mühendisler güneş, rüzgar ve hidroelektrik gibi daha temiz ve sürdürülebilir enerji kaynakları geliştirdiler.\n\nÖrneğin güneş enerjisi, elektrik üretmek için güneşin gücünü kullanır. Güneş panelleri, verimlilikleri ve düşen maliyetleri sayesinde giderek daha popüler hale geliyor. Birçok ülke, evleri ve işletmeleri güneş enerjisi sistemleri kurmaya teşvik etmek için teşvikler sunuyor, bu da güneş enerjisini birçok kişi için ulaşılabilir bir seçenek haline getiriyor.\n\nBenzer şekilde, rüzgar enerjisi de büyük ilgi gördü. Rüzgar türbinleri, genellikle rüzgarlı bölgelerde veya açık denizlerde yer alır ve rüzgarın kinetik enerjisini elektriğe dönüştürerek çalışır. Bu devasa yapılar, insan yeniliğinin bir kanıtıdır ve küresel enerji arzına katkıları büyümeye devam etmektedir. Yerel vahşi yaşama etkileri ve yüksek başlangıç maliyetleri gibi bazı zorluklara rağmen, rüzgar enerjisi daha yeşil bir geleceğe geçişin hayati bir parçası olmaya devam ediyor.\n\nBir diğer yenilenebilir kaynak olan hidroelektrik, suyun hareketine dayanır. Nehirler üzerinde inşa edilen büyük barajlar, türbinleri döndürmek için suyun akışını kullanarak elektrik üretir. Bu yöntem son derece verimlidir, ancak yerel ekosistemleri bozmak gibi çevresel sonuçlara da yol açabilir. Ancak teknolojideki ilerlemeler bu etkileri en aza indirmeye yardımcı olmaktadır.\n\nYenilenebilir enerji kullanımı, iklim krizini ele almak için çok önemlidir. Daha temiz enerjiye yatırım yaparak sera gazı emisyonlarını azaltabilir ve gelecek nesiller için daha sürdürülebilir bir gezegen yaratabiliriz. Önümüzdeki yol zorlu olabilir, ancak yenilenebilir enerjinin faydaları, zorluklardan çok daha ağır basmaktadır.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBBqX5ARrJR6GZ1ohqi0PeMCuyS0hmY8t_w&s",
+      "title": "Renewable Energy: A Cleaner Future",
+      "level": "B2",
+      "min": "3 min",
+      "isNew": false,
+      "genre": "Environment",
+      "words": [
+        {
+          "key": "renewable",
+          "value": "yenilenebilir"
+        },
+        {
+          "key": "fossil fuels",
+          "value": "fosil yakıtlar"
+        },
+        {
+          "key": "pollution",
+          "value": "kirlilik"
+        },
+        {
+          "key": "climate change",
+          "value": "iklim değişikliği"
+        },
+        {
+          "key": "sustainable",
+          "value": "sürdürülebilir"
+        },
+        {
+          "key": "solar",
+          "value": "güneş"
+        },
+        {
+          "key": "wind",
+          "value": "rüzgar"
+        },
+        {
+          "key": "hydropower",
+          "value": "hidroelektrik"
+        },
+        {
+          "key": "electricity",
+          "value": "elektrik"
+        },
+        {
+          "key": "panels",
+          "value": "paneller"
+        },
+        {
+          "key": "incentives",
+          "value": "teşvikler"
+        },
+        {
+          "key": "households",
+          "value": "haneler"
+        },
+        {
+          "key": "turbines",
+          "value": "türbinler"
+        },
+        {
+          "key": "innovation",
+          "value": "yenilik"
+        },
+        {
+          "key": "kinetic energy",
+          "value": "kinetik enerji"
+        },
+        {
+          "key": "greenhouse gas",
+          "value": "sera gazı"
+        },
+        {
+          "key": "emissions",
+          "value": "emisyonlar"
+        },
+        {
+          "key": "ecosystem",
+          "value": "ekosistem"
+        },
+        {
+          "key": "advanced",
+          "value": "ileri"
+        },
+        {
+          "key": "investing",
+          "value": "yatırım yapma"
+        },
+        {
+          "key": "decreasing costs",
+          "value": "düşen maliyetler"
+        },
+        {
+          "key": "environmental consequences",
+          "value": "çevresel sonuçlar"
+        },
+        {
+          "key": "global energy supply",
+          "value": "küresel enerji arzı"
+        },
+        {
+          "key": "efficiency",
+          "value": "verimlilik"
+        },
+        {
+          "key": "advancements",
+          "value": "ilerlemeler"
+        },
+        {
+          "key": "crucial",
+          "value": "önemli"
+        },
+        {
+          "key": "negative effects",
+          "value": "olumsuz etkiler"
+        },
+        {
+          "key": "reduce",
+          "value": "azaltmak"
+        },
+        {
+          "key": "combating",
+          "value": "mücadele etme"
+        },
+        {
+          "key": "accessible",
+          "value": "erişilebilir"
+        }
+      ]
+    },
+    {
+      "content": "The world of artificial intelligence (AI) has evolved rapidly over the last decade, transforming industries and reshaping how we live and work. AI-powered tools are now part of everyday life, from voice assistants like Alexa and Siri to personalized recommendations on streaming platforms. But how does AI work, and what does the future hold for this groundbreaking technology?\n\nAt its core, AI mimics human intelligence through algorithms and data. Machine learning, a subset of AI, allows systems to learn and improve without explicit programming. For example, spam filters in email platforms use machine learning to recognize and block unwanted messages by analyzing patterns in the data. Similarly, facial recognition software relies on vast amounts of data to identify individuals accurately.\n\nDespite its remarkable advancements, AI has challenges and ethical concerns. One significant issue is data privacy. As AI systems rely on enormous datasets, questions arise about how this data is collected and used. Additionally, there are fears that AI could lead to job displacement as automation becomes more prevalent. However, experts argue that while some jobs may disappear, AI will also create new opportunities in fields like robotics, healthcare, and education.\n\nLooking ahead, the potential of AI is limitless. Innovations like autonomous vehicles and advanced medical diagnostics promise to improve efficiency and save lives. However, it is crucial to ensure that AI is developed responsibly, with careful consideration of its societal and ethical implications. By doing so, we can harness the power of AI to benefit humanity while minimizing potential risks.",
+      "contentTr": "Yapay zeka (AI) dünyası, son on yılda hızla gelişerek endüstrileri dönüştürdü ve yaşam ve çalışma biçimimizi yeniden şekillendirdi. Alexa ve Siri gibi sesli asistanlardan, yayın platformlarındaki kişiselleştirilmiş önerilere kadar AI destekli araçlar artık günlük yaşamın bir parçası. Peki, AI nasıl çalışır ve bu çığır açan teknolojinin geleceğinde ne var?\n\nTemel olarak, AI, algoritmalar ve veriler aracılığıyla insan zekasını taklit eder. AI'nın bir alt kümesi olan makine öğrenimi, sistemlerin açıkça programlanmadan öğrenmesini ve gelişmesini sağlar. Örneğin, e-posta platformlarındaki spam filtreleri, istenmeyen mesajları tanımak ve engellemek için verilerdeki kalıpları analiz ederek makine öğrenimini kullanır. Benzer şekilde, yüz tanıma yazılımı bireyleri doğru bir şekilde tanımlamak için büyük miktarda veriye güvenir.\n\nOlağanüstü ilerlemelerine rağmen, AI, zorluklar ve etik endişeler de barındırıyor. Önemli bir konu, veri gizliliğidir. AI sistemleri büyük veri kümelerine bağımlı olduğundan, bu verilerin nasıl toplandığı ve kullanıldığı konusunda sorular ortaya çıkıyor. Ek olarak, otomasyon daha yaygın hale geldikçe AI'nın iş kaybına yol açabileceği korkuları var. Ancak uzmanlar, bazı işler ortadan kalksa da AI'nın robotik, sağlık hizmetleri ve eğitim gibi alanlarda yeni fırsatlar yaratacağını savunuyor.\n\nİleriye baktığımızda, AI'nın potansiyeli sınırsızdır. Otonom araçlar ve gelişmiş tıbbi teşhisler gibi yenilikler, verimliliği artırmayı ve hayat kurtarmayı vaat ediyor. Ancak, AI'nın toplumsal ve etik etkileri dikkatlice düşünülerek sorumlu bir şekilde geliştirilmesi çok önemlidir. Bu şekilde, AI'nın gücünü insanlık yararına kullanabilir ve olası riskleri en aza indirebiliriz.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQFiYOgyUO1xx2z7umpczwvmIa5nIQLmQbw&s",
+      "title": "The Rise of Artificial Intelligence",
+      "level": "B2",
+      "min": "3 min",
+      "isNew": false,
+      "genre": "Technology",
+      "words": [
+        {
+          "key": "artificial intelligence",
+          "value": "yapay zeka"
+        },
+        {
+          "key": "evolved",
+          "value": "evrimleşti"
+        },
+        {
+          "key": "industries",
+          "value": "endüstriler"
+        },
+        {
+          "key": "voice assistants",
+          "value": "sesli asistanlar"
+        },
+        {
+          "key": "personalized",
+          "value": "kişiselleştirilmiş"
+        },
+        {
+          "key": "recommendations",
+          "value": "öneriler"
+        },
+        {
+          "key": "transforming",
+          "value": "dönüştürme"
+        },
+        {
+          "key": "streaming platforms",
+          "value": "yayın platformları"
+        },
+        {
+          "key": "groundbreaking",
+          "value": "çığır açan"
+        },
+        {
+          "key": "machine learning",
+          "value": "makine öğrenimi"
+        },
+        {
+          "key": "algorithms",
+          "value": "algoritmalar"
+        },
+        {
+          "key": "explicit programming",
+          "value": "açık programlama"
+        },
+        {
+          "key": "spam filters",
+          "value": "spam filtreleri"
+        },
+        {
+          "key": "facial recognition",
+          "value": "yüz tanıma"
+        },
+        {
+          "key": "datasets",
+          "value": "veri kümeleri"
+        },
+        {
+          "key": "data privacy",
+          "value": "veri gizliliği"
+        },
+        {
+          "key": "automation",
+          "value": "otomasyon"
+        },
+        {
+          "key": "job displacement",
+          "value": "iş kaybı"
+        },
+        {
+          "key": "robotics",
+          "value": "robotik"
+        },
+        {
+          "key": "healthcare",
+          "value": "sağlık hizmetleri"
+        },
+        {
+          "key": "education",
+          "value": "eğitim"
+        },
+        {
+          "key": "autonomous vehicles",
+          "value": "otonom araçlar"
+        },
+        {
+          "key": "diagnostics",
+          "value": "teşhis"
+        },
+        {
+          "key": "efficiency",
+          "value": "verimlilik"
+        },
+        {
+          "key": "ethical implications",
+          "value": "etik etkiler"
+        },
+        {
+          "key": "responsibly",
+          "value": "sorumlu bir şekilde"
+        },
+        {
+          "key": "societal",
+          "value": "toplumsal"
+        },
+        {
+          "key": "minimizing",
+          "value": "en aza indirme"
+        },
+        {
+          "key": "harness",
+          "value": "kullanmak"
+        },
+        {
+          "key": "potential risks",
+          "value": "potansiyel riskler"
+        },
+        {
+          "key": "recognize",
+          "value": "tanımak"
+        }
+      ]
+    },
+    {
+      "content": "The history of space exploration is a tale of ambition, innovation, and extraordinary human courage. Since the launch of Sputnik 1 in 1957, humanity has achieved remarkable milestones in its quest to understand the universe. From the Apollo 11 moon landing to the establishment of the International Space Station (ISS), each step represents a leap forward in our collective knowledge and capabilities.\n\nSpace exploration began as a race between nations, with the United States and the Soviet Union competing for dominance during the Cold War. The launch of Yuri Gagarin into orbit in 1961 marked the first human journey into space, a moment of immense pride for the Soviet Union. In response, the United States dedicated significant resources to its space program, culminating in Neil Armstrong's historic moonwalk in 1969. This rivalry not only spurred technological advancements but also inspired a generation to look to the stars.\n\nToday, space exploration is no longer limited to government agencies like NASA or Roscosmos. Private companies, such as SpaceX and Blue Origin, are pioneering new frontiers with reusable rockets and plans for interplanetary travel. These innovations have reduced the cost of space missions, making it more feasible to pursue ambitious projects like colonizing Mars. Meanwhile, scientists are using space telescopes and robotic probes to study distant planets, galaxies, and even the origins of the universe.\n\nDespite these achievements, space exploration poses significant challenges. The cost of missions remains high, and the risks to astronauts' safety are ever-present. Moreover, the environmental impact of rocket launches and the growing problem of space debris must be addressed. Nevertheless, the potential rewards of exploring the cosmos, from scientific discoveries to the possibility of finding extraterrestrial life, make it a pursuit worth continuing. With international collaboration and responsible practices, humanity can ensure that its journey into space benefits all of humankind.",
+      "contentTr": "Uzay keşfinin tarihi, hırs, yenilik ve olağanüstü insan cesaretinin bir hikayesidir. 1957'de Sputnik 1'in fırlatılmasından bu yana, insanlık evreni anlama yolunda dikkat çekici dönüm noktalarına ulaşmıştır. Apollo 11'in Ay'a inişinden Uluslararası Uzay İstasyonu'nun (ISS) kurulmasına kadar her adım, ortak bilgi ve yeteneklerimizde bir sıçramayı temsil ediyor.\n\nUzay keşfi, başlangıçta Amerika Birleşik Devletleri ve Sovyetler Birliği'nin Soğuk Savaş sırasında üstünlük için yarıştığı bir rekabet olarak başladı. 1961'de Yuri Gagarin'in yörüngeye fırlatılması, Sovyetler Birliği için muazzam bir gurur anı olan, uzaya yapılan ilk insan yolculuğunu işaret etti. Buna yanıt olarak, Amerika Birleşik Devletleri, 1969'da Neil Armstrong'un tarihi Ay yürüyüşüyle sonuçlanan uzay programına önemli kaynaklar ayırdı. Bu rekabet yalnızca teknolojik ilerlemeyi teşvik etmekle kalmadı, aynı zamanda bir neslin yıldızlara bakmasını sağladı.\n\nBugün, uzay keşfi artık yalnızca NASA veya Roscosmos gibi devlet kurumlarıyla sınırlı değil. SpaceX ve Blue Origin gibi özel şirketler, yeniden kullanılabilir roketler ve gezegenler arası seyahat planlarıyla yeni ufuklar açıyor. Bu yenilikler, uzay görevlerinin maliyetini düşürdü ve Mars'ı kolonileştirmek gibi iddialı projelerin peşine düşmeyi daha uygulanabilir hale getirdi. Bu arada, bilim insanları uzay teleskopları ve robotik sondalar kullanarak uzak gezegenleri, galaksileri ve hatta evrenin kökenlerini inceliyorlar.\n\nTüm bu başarılarına rağmen, uzay keşfi önemli zorluklar barındırıyor. Görevlerin maliyeti yüksek kalmaya devam ediyor ve astronotların güvenliğiyle ilgili riskler her zaman mevcut. Ayrıca, roket fırlatmalarının çevresel etkisi ve uzay enkazı sorunu ele alınmalıdır. Bununla birlikte, bilimsel keşiflerden dünya dışı yaşam bulma olasılığına kadar, evreni keşfetmenin potansiyel ödülleri, onu devam ettirilmeye değer bir çaba haline getiriyor. Uluslararası işbirliği ve sorumlu uygulamalarla, insanlık uzaya olan yolculuğunun tüm insanlığa fayda sağlamasını sağlayabilir.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3wykEpI5_jsdJfJtRGkKMsmNI2bIKt2XL9Q&s",
+      "title": "The History and Future of Space Exploration",
+      "level": "B1",
+      "min": "4 min",
+      "isNew": false,
+      "genre": "Science",
+      "words": [
+        {
+          "key": "space exploration",
+          "value": "uzay keşfi"
+        },
+        {
+          "key": "ambition",
+          "value": "hırs"
+        },
+        {
+          "key": "innovation",
+          "value": "yenilik"
+        },
+        {
+          "key": "courage",
+          "value": "cesaret"
+        },
+        {
+          "key": "remarkable",
+          "value": "dikkat çekici"
+        },
+        {
+          "key": "moon landing",
+          "value": "Ay'a iniş"
+        },
+        {
+          "key": "capabilities",
+          "value": "yetenekler"
+        },
+        {
+          "key": "orbit",
+          "value": "yörünge"
+        },
+        {
+          "key": "resources",
+          "value": "kaynaklar"
+        },
+        {
+          "key": "technological advancements",
+          "value": "teknolojik ilerlemeler"
+        },
+        {
+          "key": "reusable rockets",
+          "value": "yeniden kullanılabilir roketler"
+        },
+        {
+          "key": "interplanetary travel",
+          "value": "gezegenler arası seyahat"
+        },
+        {
+          "key": "feasible",
+          "value": "uygulanabilir"
+        },
+        {
+          "key": "colonizing",
+          "value": "kolonileştirme"
+        },
+        {
+          "key": "telescopes",
+          "value": "teleskoplar"
+        },
+        {
+          "key": "probes",
+          "value": "sondalar"
+        },
+        {
+          "key": "galaxies",
+          "value": "galaksiler"
+        },
+        {
+          "key": "extraterrestrial life",
+          "value": "dünya dışı yaşam"
+        },
+        {
+          "key": "international collaboration",
+          "value": "uluslararası işbirliği"
+        },
+        {
+          "key": "responsible practices",
+          "value": "sorumlu uygulamalar"
+        },
+        {
+          "key": "missions",
+          "value": "görevler"
+        },
+        {
+          "key": "astronauts",
+          "value": "astronotlar"
+        },
+        {
+          "key": "space debris",
+          "value": "uzay enkazı"
+        },
+        {
+          "key": "risks",
+          "value": "riskler"
+        },
+        {
+          "key": "scientific discoveries",
+          "value": "bilimsel keşifler"
+        },
+        {
+          "key": "pursuit",
+          "value": "çaba"
+        },
+        {
+          "key": "benefits",
+          "value": "faydalar"
+        },
+        {
+          "key": "environmental impact",
+          "value": "çevresel etki"
+        }
+      ]
+    },
+    {
+      "content": "In the modern world, social media has become a cornerstone of communication, entertainment, and even business. Platforms like Facebook, Instagram, and Twitter connect billions of people, enabling them to share their thoughts, photos, and experiences in real-time. While these platforms have revolutionized how we interact, they also come with a variety of challenges and concerns.\n\nOne major issue is the impact of social media on mental health. Studies have shown that excessive use of these platforms can lead to anxiety, depression, and feelings of inadequacy. The constant exposure to curated, often idealized images of other people's lives can create unrealistic expectations and lead to a negative self-image. Parents, educators, and psychologists have been working together to raise awareness about these risks and promote healthier usage habits.\n\nAnother significant challenge is the spread of misinformation. With billions of users sharing content daily, it has become increasingly difficult to distinguish between credible information and false narratives. Fake news can influence public opinion, spark conflicts, and even interfere in political processes. To combat this, many platforms have introduced fact-checking systems and algorithms to identify and reduce the visibility of false content.\n\nDespite these challenges, social media also offers incredible opportunities. Small businesses use it as a cost-effective way to reach customers, artists and creators showcase their work to global audiences, and grassroots movements gain visibility to drive social change. The key is to balance its benefits and risks, ensuring that these tools are used responsibly and positively contribute to society.",
+      "contentTr": "Modern dünyada, sosyal medya iletişim, eğlence ve hatta iş dünyasının temel taşlarından biri haline gelmiştir. Facebook, Instagram ve Twitter gibi platformlar, milyarlarca insanı bir araya getirerek düşüncelerini, fotoğraflarını ve deneyimlerini gerçek zamanlı olarak paylaşmalarını sağlıyor. Bu platformlar, etkileşim biçimimizi devrimleştirirken aynı zamanda çeşitli zorlukları ve endişeleri de beraberinde getiriyor.\n\nAna sorunlardan biri, sosyal medyanın ruh sağlığı üzerindeki etkisidir. Araştırmalar, bu platformların aşırı kullanımının kaygı, depresyon ve yetersizlik duygularına yol açabileceğini göstermiştir. Diğer insanların hayatlarının idealize edilmiş görüntülerine sürekli maruz kalmak, gerçek dışı beklentiler yaratabilir ve olumsuz bir öz imaj oluşturabilir. Aileler, eğitimciler ve psikologlar bu riskler hakkında farkındalığı artırmak ve daha sağlıklı kullanım alışkanlıklarını teşvik etmek için birlikte çalışmaktadır.\n\nBir diğer önemli zorluk, yanlış bilginin yayılmasıdır. Milyarlarca kullanıcı günlük olarak içerik paylaştığı için güvenilir bilgilerle yanlış anlatılar arasında ayrım yapmak giderek zorlaşmıştır. Sahte haberler, kamuoyunu etkileyebilir, çatışmaları tetikleyebilir ve hatta siyasi süreçlere müdahale edebilir. Bununla mücadele etmek için birçok platform, yanlış içeriğin görünürlüğünü azaltmak amacıyla doğrulama sistemleri ve algoritmalar tanıtmıştır.\n\nBu zorluklara rağmen, sosyal medya inanılmaz fırsatlar sunuyor. Küçük işletmeler, müşterilere ulaşmak için uygun maliyetli bir yol olarak kullanırken, sanatçılar ve yaratıcılar eserlerini küresel izleyicilere sergiliyor, tabandan gelen hareketler ise sosyal değişimi teşvik etmek için görünürlük kazanıyor. Anahtar, bu araçların sorumlu bir şekilde kullanılmasını ve topluma olumlu bir şekilde katkıda bulunmasını sağlamaktır.",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/8244f3f6-8193-4568-8689-b3bf3170f30d/SM1.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280",
+      "title": "The Dual Impact of Social Media",
+      "level": "B2",
+      "genre": "Technology",
+      "isNew": false,
+      "min": "3 min",
+      "words": [
+        {
+          "key": "social media",
+          "value": "sosyal medya"
+        },
+        {
+          "key": "communication",
+          "value": "iletişim"
+        },
+        {
+          "key": "entertainment",
+          "value": "eğlence"
+        },
+        {
+          "key": "business",
+          "value": "iş dünyası"
+        },
+        {
+          "key": "revolutionized",
+          "value": "devrim yarattı"
+        },
+        {
+          "key": "mental health",
+          "value": "ruh sağlığı"
+        },
+        {
+          "key": "anxiety",
+          "value": "kaygı"
+        },
+        {
+          "key": "depression",
+          "value": "depresyon"
+        },
+        {
+          "key": "self-image",
+          "value": "öz imaj"
+        },
+        {
+          "key": "awareness",
+          "value": "farkındalık"
+        },
+        {
+          "key": "misinformation",
+          "value": "yanlış bilgi"
+        },
+        {
+          "key": "credible",
+          "value": "güvenilir"
+        },
+        {
+          "key": "false narratives",
+          "value": "yanlış anlatılar"
+        },
+        {
+          "key": "fake news",
+          "value": "sahte haber"
+        },
+        {
+          "key": "public opinion",
+          "value": "kamuoyu"
+        },
+        {
+          "key": "fact-checking",
+          "value": "doğrulama"
+        },
+        {
+          "key": "visibility",
+          "value": "görünürlük"
+        },
+        {
+          "key": "opportunities",
+          "value": "fırsatlar"
+        },
+        {
+          "key": "cost-effective",
+          "value": "maliyet açısından uygun"
+        },
+        {
+          "key": "grassroots movements",
+          "value": "tabandan gelen hareketler"
+        },
+        {
+          "key": "balance",
+          "value": "denge"
+        },
+        {
+          "key": "risks",
+          "value": "riskler"
+        },
+        {
+          "key": "responsibly",
+          "value": "sorumlu bir şekilde"
+        },
+        {
+          "key": "society",
+          "value": "toplum"
+        },
+        {
+          "key": "algorithms",
+          "value": "algoritmalar"
+        },
+        {
+          "key": "Small businesses",
+          "value": "küçük işletmeler"
+        },
+        {
+          "key": "creators",
+          "value": "yaratıcılar"
+        },
+        {
+          "key": "global audiences",
+          "value": "küresel izleyiciler"
+        },
+        {
+          "key": "social change",
+          "value": "sosyal değişim"
+        }
+      ]
+    },
+    {
+      "content": "Climate change is one of the most pressing challenges facing our world today. Over the past century, human activities, such as burning fossil fuels and deforestation, have significantly increased the concentration of greenhouse gases in the atmosphere. This has resulted in rising global temperatures, melting ice caps, and more frequent extreme weather events.\n\nOne of the major consequences of climate change is the disruption of ecosystems. As temperatures rise, many species are forced to migrate to cooler areas to survive, while others face extinction. Coral reefs, which support a vast array of marine life, are particularly vulnerable. The phenomenon known as coral bleaching occurs when water temperatures become too high, causing corals to expel the algae that give them their vibrant colors and energy.\n\nOn the human front, climate change poses significant risks to agriculture and food security. Changing weather patterns, such as prolonged droughts and unpredictable rainfall, make farming increasingly difficult in many regions. Coastal communities are also at risk due to rising sea levels, which threaten homes and livelihoods. Despite these challenges, there is hope. Renewable energy sources, reforestation projects, and international agreements like the Paris Accord are steps in the right direction to mitigate the effects of climate change.",
+      "contentTr": "İklim değişikliği, günümüzde dünyanın karşı karşıya olduğu en acil sorunlardan biridir. Geçtiğimiz yüzyılda, fosil yakıtların yakılması ve ormansızlaşma gibi insan faaliyetleri, atmosfere salınan sera gazlarının yoğunluğunu önemli ölçüde artırmıştır. Bunun sonucunda, küresel sıcaklıklar yükselmiş, buzullar erimiş ve daha sık aşırı hava olayları yaşanmıştır.\n\nİklim değişikliğinin en büyük sonuçlarından biri ekosistemlerin bozulmasıdır. Sıcaklıklar arttıkça, birçok tür hayatta kalmak için daha serin bölgelere göç etmek zorunda kalırken, bazıları yok olma tehlikesiyle karşı karşıya kalır. Deniz yaşamını destekleyen mercan resifleri özellikle savunmasızdır. Mercan beyazlaması olarak bilinen fenomen, su sıcaklıklarının çok yüksek olduğunda meydana gelir ve mercanların, onlara enerji ve renk sağlayan algleri dışarı atmasına neden olur.\n\nİnsani açıdan bakıldığında, iklim değişikliği tarım ve gıda güvenliği için önemli riskler oluşturur. Uzun süren kuraklıklar ve öngörülemez yağışlar gibi değişen hava koşulları, birçok bölgede tarımı giderek zorlaştırmaktadır. Kıyı toplulukları ise yükselen deniz seviyeleri nedeniyle evlerini ve geçim kaynaklarını kaybetme riski altındadır. Bu zorluklara rağmen, umut vardır. Yenilenebilir enerji kaynakları, ağaçlandırma projeleri ve Paris Anlaşması gibi uluslararası anlaşmalar, iklim değişikliğinin etkilerini hafifletmek için doğru yönde atılmış adımlardır.",
+      "imageUrl": "https://i.ytimg.com/vi/kejjjQt1Bo0/maxresdefault.jpg",
+      "title": "The Ripple Effects of Climate Change",
+      "level": "B2",
+      "genre": "Environment",
+      "isNew": false,
+      "min": "3 min",
+      "words": [
+        {
+          "key": "pressing challenges",
+          "value": "acil sorunlar"
+        },
+        {
+          "key": "fossil fuels",
+          "value": "fosil yakıtlar"
+        },
+        {
+          "key": "deforestation",
+          "value": "ormansızlaşma"
+        },
+        {
+          "key": "significantly",
+          "value": "önemli ölçüde"
+        },
+        {
+          "key": "greenhouse gases",
+          "value": "sera gazları"
+        },
+        {
+          "key": "global temperatures",
+          "value": "küresel sıcaklıklar"
+        },
+        {
+          "key": "ice caps",
+          "value": "buzullar"
+        },
+        {
+          "key": "extreme weather",
+          "value": "aşırı hava olayları"
+        },
+        {
+          "key": "consequences",
+          "value": "sonuçlar"
+        },
+        {
+          "key": "disruption",
+          "value": "bozulma"
+        },
+        {
+          "key": "species",
+          "value": "türler"
+        },
+        {
+          "key": "migrate",
+          "value": "göç etmek"
+        },
+        {
+          "key": "extinction",
+          "value": "yok olma"
+        },
+        {
+          "key": "Coral reefs",
+          "value": "mercan resifleri"
+        },
+        {
+          "key": "marine life",
+          "value": "deniz yaşamı"
+        },
+        {
+          "key": "coral bleaching",
+          "value": "mercan beyazlaması"
+        },
+        {
+          "key": "algae",
+          "value": "algler"
+        },
+        {
+          "key": "agriculture",
+          "value": "tarım"
+        },
+        {
+          "key": "droughts",
+          "value": "kuraklıklar"
+        },
+        {
+          "key": "unpredictable",
+          "value": "öngörülemez"
+        },
+        {
+          "key": "Coastal communities",
+          "value": "kıyı toplulukları"
+        },
+        {
+          "key": "sea levels",
+          "value": "deniz seviyeleri"
+        },
+        {
+          "key": "livelihoods",
+          "value": "geçim kaynakları"
+        },
+        {
+          "key": "Renewable energy",
+          "value": "yenilenebilir enerji"
+        },
+        {
+          "key": "reforestation",
+          "value": "ağaçlandırma"
+        },
+        {
+          "key": "international agreements",
+          "value": "uluslararası anlaşmalar"
+        },
+        {
+          "key": "mitigate",
+          "value": "hafifletmek"
+        },
+        {
+          "key": "phenomenon",
+          "value": "fenomen"
+        },
+        {
+          "key": "vulnerable",
+          "value": "savunmasız"
+        }
+      ]
+    },
+    {
+      "content": "The Taj Mahal, located in Agra, India, is one of the most iconic monuments in the world. Built between 1632 and 1653, it was commissioned by the Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. Often referred to as a symbol of eternal love, the Taj Mahal attracts millions of visitors every year.\n\nConstructed entirely of white marble, the monument is an architectural masterpiece that blends elements of Persian, Islamic, and Indian styles. Its central dome, which rises to a height of about 73 meters, is surrounded by four minarets. Intricate carvings, inlaid semi-precious stones, and verses from the Quran adorn the walls, showcasing the exquisite craftsmanship of the artisans who worked on it.\n\nThe Taj Mahal is not just a stunning piece of architecture but also a UNESCO World Heritage Site. It stands as a testament to the rich cultural heritage of India and the deep emotions that inspired its creation. Over the years, it has faced challenges like pollution and the effects of time, but restoration efforts continue to preserve its beauty for future generations.",
+      "contentTr": "Hindistan'ın Agra kentinde bulunan Tac Mahal, dünyanın en ikonik anıtlarından biridir. 1632 ile 1653 yılları arasında inşa edilen bu yapı, Babür İmparatoru Şah Cihan tarafından sevgili eşi Mümtaz Mahal'in anısına yaptırılmıştır. Genellikle sonsuz aşkın bir sembolü olarak anılan Tac Mahal, her yıl milyonlarca ziyaretçiyi kendine çeker.\n\nTamamen beyaz mermerden inşa edilmiş olan anıt, Fars, İslam ve Hint tarzlarının unsurlarını harmanlayan bir mimari şaheserdir. Yaklaşık 73 metre yüksekliğe ulaşan merkezi kubbesi, dört minare ile çevrilidir. Duvarlarda yer alan ince oymalar, kakma yarı değerli taşlar ve Kuran'dan alınan ayetler, bu yapıyı inşa eden zanaatkarların eşsiz işçiliğini gözler önüne serer.\n\nTac Mahal, yalnızca göz alıcı bir mimari eser değil, aynı zamanda bir UNESCO Dünya Mirası Alanıdır. Hindistan'ın zengin kültürel mirasının ve bu yapının yaratılmasına ilham veren derin duyguların bir kanıtı olarak durmaktadır. Yıllar içinde kirlilik ve zamanın etkileri gibi zorluklarla karşılaşsa da, restorasyon çalışmaları gelecekteki nesiller için güzelliğini korumaya devam etmektedir.",
+      "imageUrl": "https://www.visittnt.com/blog/wp-content/uploads/2016/01/Love-Symbols-Wallpaper.jpg",
+      "title": "The Taj Mahal: A Symbol of Love",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "3 min",
+      "words": [
+        {
+          "key": "monument",
+          "value": "anıt"
+        },
+        {
+          "key": "iconic",
+          "value": "sembolik"
+        },
+        {
+          "key": "commissioned",
+          "value": "sipariş edilmiş"
+        },
+        {
+          "key": "beloved",
+          "value": "sevgili"
+        },
+        {
+          "key": "eternal",
+          "value": "sonsuz"
+        },
+        {
+          "key": "marble",
+          "value": "mermer"
+        },
+        {
+          "key": "architectural",
+          "value": "mimari"
+        },
+        {
+          "key": "dome",
+          "value": "kubbe"
+        },
+        {
+          "key": "minarets",
+          "value": "minareler"
+        },
+        {
+          "key": "carvings",
+          "value": "oymalar"
+        },
+        {
+          "key": "semi-precious",
+          "value": "yarı değerli"
+        },
+        {
+          "key": "craftsmanship",
+          "value": "zanaat"
+        },
+        {
+          "key": "pollution",
+          "value": "kirlilik"
+        },
+        {
+          "key": "restoration",
+          "value": "restorasyon"
+        },
+        {
+          "key": "testament",
+          "value": "kanıt"
+        },
+        {
+          "key": "visitors",
+          "value": "ziyaretçiler"
+        },
+        {
+          "key": "adorn",
+          "value": "süslemek"
+        },
+        {
+          "key": "blend",
+          "value": "karışım"
+        },
+        {
+          "key": "central",
+          "value": "merkezi"
+        },
+        {
+          "key": "rich",
+          "value": "zengin"
+        },
+        {
+          "key": "creation",
+          "value": "yaratma"
+        },
+        {
+          "key": "future",
+          "value": "gelecek"
+        },
+        {
+          "key": "elements",
+          "value": "unsurlar"
+        },
+        {
+          "key": "heritage site",
+          "value": "miras alanı"
+        },
+        {
+          "key": "beauty",
+          "value": "güzellik"
+        },
+        {
+          "key": "challenging",
+          "value": "zorlu"
+        },
+        {
+          "key": "unique",
+          "value": "eşsiz"
+        }
+      ]
+    },
+    {
+      "content": "Soccer, also known as football in most countries, is the most popular sport in the world. Played by over 250 million people in more than 200 nations, it has a universal appeal that transcends borders and cultures. The game involves two teams of eleven players each, competing to score goals by getting the ball into the opposing team’s net. With simple rules and minimal equipment, soccer can be played almost anywhere, making it accessible to people of all ages and backgrounds.\n\nThe history of soccer dates back to ancient times, with various forms of the game played in China, Greece, and Rome. However, modern soccer as we know it today was formalized in England during the mid-19th century. The establishment of the Football Association in 1863 marked the beginning of standardized rules, leading to the global phenomenon we see today. Major tournaments such as the FIFA World Cup and UEFA Champions League attract millions of fans and generate immense excitement worldwide.\n\nSoccer is not just about physical skill but also strategy, teamwork, and passion. Players must coordinate their movements, anticipate their opponents, and work together to achieve their goals. Whether played professionally in massive stadiums or casually in local parks, soccer brings people together and fosters a sense of community. Its global reach and ability to unite people from different walks of life make it much more than just a sport.",
+      "contentTr": "Çoğu ülkede futbol olarak bilinen soccer, dünyanın en popüler sporudur. 200'den fazla ülkede 250 milyondan fazla kişi tarafından oynanan bu spor, sınırları ve kültürleri aşan evrensel bir çekiciliğe sahiptir. Oyun, her biri on bir oyuncudan oluşan iki takımın, topu karşı takımın kalesine sokarak gol atmaya çalışmasıyla oynanır. Basit kuralları ve minimum ekipman gereksinimi sayesinde futbol neredeyse her yerde oynanabilir ve her yaştan ve geçmişten insan için erişilebilir bir spordur.\n\nFutbolun tarihi antik çağlara kadar uzanır. Çin, Yunanistan ve Roma'da oyunun çeşitli biçimleri oynanmıştır. Ancak bugün bildiğimiz modern futbol, 19. yüzyılın ortalarında İngiltere'de resmileştirilmiştir. 1863'te Futbol Federasyonu'nun kurulması, standart kuralların başlangıcını işaret ederek, günümüzdeki küresel fenomene yol açmıştır. FIFA Dünya Kupası ve UEFA Şampiyonlar Ligi gibi büyük turnuvalar, milyonlarca hayranı çekmekte ve dünya çapında büyük bir heyecan yaratmaktadır.\n\nFutbol sadece fiziksel beceriyle ilgili değil, aynı zamanda strateji, takım çalışması ve tutkuyla da ilgilidir. Oyuncular, hareketlerini koordine etmeli, rakiplerini tahmin etmeli ve hedeflerine ulaşmak için birlikte çalışmalıdır. Profesyonel olarak büyük stadyumlarda veya yerel parklarda gayri resmi olarak oynansa da futbol, insanları bir araya getirir ve topluluk duygusunu teşvik eder. Küresel erişimi ve farklı hayat görüşlerinden insanları birleştirme yeteneğiyle, futbol sadece bir spor olmaktan çok daha fazlasıdır.",
+      "title": "The Global Game of Soccer",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQGH88zCh7-Zhg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1707278795821?e=2147483647&v=beta&t=1WRHGLH8P6k_GZ0TQ_glYH-wzmutUwmi5PiEp7owBfY",
+      "isNew": true,
+      "level": "B1",
+      "min": "3 min",
+      "genre": "Sports",
+      "words": [
+        {
+          "key": "Soccer",
+          "value": "futbol"
+        },
+        {
+          "key": "football",
+          "value": "futbol"
+        },
+        {
+          "key": "net",
+          "value": "kale ağı"
+        },
+        {
+          "key": "team",
+          "value": "takım"
+        },
+        {
+          "key": "player",
+          "value": "oyuncu"
+        },
+        {
+          "key": "score",
+          "value": "skor yapmak"
+        },
+        {
+          "key": "equipment",
+          "value": "ekipman"
+        },
+        {
+          "key": "accessible",
+          "value": "erişilebilir"
+        },
+        {
+          "key": "ancient",
+          "value": "antik"
+        },
+        {
+          "key": "standardized",
+          "value": "standartlaştırılmış"
+        },
+        {
+          "key": "phenomenon",
+          "value": "fenomen"
+        },
+        {
+          "key": "tournament",
+          "value": "turnuva"
+        },
+        {
+          "key": "strategy",
+          "value": "strateji"
+        },
+        {
+          "key": "teamwork",
+          "value": "takım çalışması"
+        },
+        {
+          "key": "passion",
+          "value": "tutku"
+        },
+        {
+          "key": "coordinate",
+          "value": "koordinasyon sağlamak"
+        },
+        {
+          "key": "anticipate",
+          "value": "tahmin etmek"
+        },
+        {
+          "key": "community",
+          "value": "topluluk"
+        },
+        {
+          "key": "reach",
+          "value": "erişim"
+        },
+        {
+          "key": "fans",
+          "value": "hayranlar"
+        },
+        {
+          "key": "stadium",
+          "value": "stadyum"
+        },
+        {
+          "key": "rules",
+          "value": "kurallar"
+        },
+        {
+          "key": "formalized",
+          "value": "resmileştirilmiş"
+        },
+        {
+          "key": "excitement",
+          "value": "heyecan"
+        },
+        {
+          "key": "casually",
+          "value": "gayri resmi şekilde"
+        },
+        {
+          "key": "movement",
+          "value": "hareket"
+        },
+        {
+          "key": "global",
+          "value": "küresel"
+        },
+        {
+          "key": "appeal",
+          "value": "çekicilik"
+        },
+        {
+          "key": "transcend",
+          "value": "aşmak"
+        },
+        {
+          "key": "cultural",
+          "value": "kültürel"
+        }
+      ]
+    },
+    {
+      "content": "The Northern Lights, also known as the Aurora Borealis, are one of nature's most spectacular displays. These vibrant light patterns can be seen in polar regions, primarily in the Arctic and Antarctic. The lights occur when charged particles from the sun collide with Earth's atmosphere, creating dazzling displays of green, pink, and purple hues. People from around the world travel to locations such as Norway, Iceland, and Canada to witness this breathtaking phenomenon.\n\nThe science behind the Aurora Borealis lies in the interaction between the solar wind and Earth's magnetic field. The sun continuously emits particles, which form the solar wind. When these particles encounter Earth's magnetic field, they are funneled toward the poles, where they interact with gases in the atmosphere, like oxygen and nitrogen. This interaction produces energy in the form of colorful light. The intensity and colors of the auroras depend on the types of gases and the solar activity at the time.\n\nViewing the Northern Lights requires patience and the right conditions. The best time to see them is during the winter months when nights are longer and skies are clearer. Locations with minimal light pollution provide the ideal environment for spotting the auroras. Many cultures have myths and legends about the Northern Lights. For example, in Norse mythology, the lights were believed to be reflections from the shields of the Valkyries. Today, they remain a source of inspiration for artists, scientists, and travelers alike.",
+      "contentTr": "Kuzey Işıkları, diğer adıyla Aurora Borealis, doğanın en muhteşem gösterilerinden biridir. Bu canlı ışık desenleri, genellikle Kuzey Kutbu ve Antarktika gibi kutup bölgelerinde görülebilir. Işıklar, güneşten gelen yüklü parçacıkların Dünya atmosferiyle çarpışması sonucu ortaya çıkar ve yeşil, pembe ve mor tonlarında büyüleyici görüntüler oluşturur. Dünya genelinden insanlar, bu nefes kesici fenomene tanık olmak için Norveç, İzlanda ve Kanada gibi yerlere seyahat ederler.\n\nAurora Borealis'in arkasındaki bilim, güneş rüzgarı ile Dünya'nın manyetik alanı arasındaki etkileşime dayanır. Güneş sürekli olarak parçacıklar yayar ve bu parçacıklar güneş rüzgarını oluşturur. Bu parçacıklar Dünya'nın manyetik alanıyla karşılaştığında, kutuplara yönlendirilir ve atmosferdeki oksijen ve azot gibi gazlarla etkileşime girer. Bu etkileşim, renkli ışıklar şeklinde enerji üretir. Auroraların yoğunluğu ve renkleri, gaz türlerine ve o anki güneş aktivitesine bağlıdır.\n\nKuzey Işıklarını görmek sabır ve doğru koşullar gerektirir. Onları görmek için en iyi zaman, gecelerin daha uzun ve havanın daha açık olduğu kış aylarıdır. Minimum ışık kirliliğine sahip yerler, auroraları görmek için ideal bir ortam sağlar. Birçok kültürde Kuzey Işıkları hakkında efsaneler ve mitler bulunmaktadır. Örneğin, İskandinav mitolojisinde, ışıkların Valkyrie'lerin kalkanlarından yansıdığına inanılırdı. Günümüzde, Kuzey Işıkları sanatçılar, bilim insanları ve gezginler için ilham kaynağı olmaya devam etmektedir.",
+      "words": [
+        {
+          "key": "Northern Lights",
+          "value": "Kuzey Işıkları"
+        },
+        {
+          "key": "polar regions",
+          "value": "kutuplar"
+        },
+        {
+          "key": "Antarctic",
+          "value": "Antarktika"
+        },
+        {
+          "key": "charged particles",
+          "value": "yüklü parçacıklar"
+        },
+        {
+          "key": "solar wind",
+          "value": "güneş rüzgarı"
+        },
+        {
+          "key": "magnetic field",
+          "value": "manyetik alan"
+        },
+        {
+          "key": "energy",
+          "value": "enerji"
+        },
+        {
+          "key": "light pollution",
+          "value": "ışık kirliliği"
+        },
+        {
+          "key": "myths",
+          "value": "mitlerefsaneler"
+        },
+        {
+          "key": "legends",
+          "value": "efsaneler"
+        },
+        {
+          "key": "Norse mythology",
+          "value": "İskandinav mitolojisi"
+        },
+        {
+          "key": "hues",
+          "value": "tonlar"
+        },
+        {
+          "key": "phenomenon",
+          "value": "fenomen"
+        },
+        {
+          "key": "inspiration",
+          "value": "ilham"
+        },
+        {
+          "key": "scientists",
+          "value": "bilim insanları"
+        },
+        {
+          "key": "travelers",
+          "value": "gezginler"
+        },
+        {
+          "key": "atmosphere",
+          "value": "atmosfer"
+        },
+        {
+          "key": "collision",
+          "value": "çarpışma"
+        },
+        {
+          "key": "reflections",
+          "value": "yansımalar"
+        },
+        {
+          "key": "intensity",
+          "value": "yoğunluk"
+        },
+        {
+          "key": "conditions",
+          "value": "koşullar"
+        },
+        {
+          "key": "breathtaking",
+          "value": "nefes kesici"
+        },
+        {
+          "key": "display",
+          "value": "gösteri"
+        },
+        {
+          "key": "clear skies",
+          "value": "açık gökyüzü"
+        }
+      ],
+      "title": "The Mesmerizing Northern Lights",
+      "imageUrl": "https://worldwildschooling.com/wp-content/uploads/2024/03/Mesmerizing-Northern-Lights-Viewing-Spots-in-the-World-Abisko-Sweden_%C2%A9-Dimitri-Tymchenko_Shutterstock_2431203975-1024x576.jpg",
+      "isNew": true,
+      "level": "B2",
+      "genre": "Nature",
+      "min": "4 min"
+    },
+    {
+      "content": "Mahatma Gandhi, often referred to as the Father of the Nation in India, was a leader who inspired millions with his philosophy of non-violence and civil disobedience. Born in 1869 in Porbandar, India, Gandhi studied law in London and later worked in South Africa, where he witnessed racial discrimination. These experiences shaped his beliefs and led to his commitment to fighting for equality and justice. \n\nGandhi returned to India in 1915 and soon became a prominent figure in the Indian independence movement. His methods of peaceful protest, including boycotts, marches, and hunger strikes, became symbols of resistance against British rule. The Salt March of 1930, in particular, gained international attention. This 240-mile march was a protest against the British monopoly on salt, demonstrating Gandhi's ability to mobilize people and inspire action without resorting to violence. \n\nGandhi's influence extended far beyond India's borders. His teachings inspired civil rights leaders such as Martin Luther King Jr. and Nelson Mandela. Gandhi emphasized the power of truth, simplicity, and self-reliance, encouraging people to live harmoniously and respect all living beings. Tragically, he was assassinated in 1948, but his legacy endures as a testament to the power of peaceful resistance and moral leadership.",
+      "contentTr": "Mahatma Gandhi, Hindistan'da Ulusun Babası olarak anılan ve milyonlara ilham veren şiddet karşıtı ve sivil itaatsizlik felsefesiyle tanınan bir liderdi. 1869 yılında Hindistan'ın Porbandar şehrinde doğan Gandhi, Londra'da hukuk okudu ve daha sonra Güney Afrika'da çalıştı. Burada karşılaştığı ırk ayrımcılığı, inançlarını şekillendirdi ve eşitlik ve adalet için mücadeleye olan bağlılığını artırdı. \n\nGandhi, 1915'te Hindistan'a döndü ve kısa sürede Hindistan bağımsızlık hareketinde önde gelen bir figür haline geldi. Barışçıl protesto yöntemleri, boykotlar, yürüyüşler ve açlık grevleri gibi, İngiliz yönetimine karşı direnişin sembolleri oldu. Özellikle 1930'daki Tuz Yürüyüşü uluslararası dikkat çekti. Bu 240 millik yürüyüş, İngilizlerin tuz üzerindeki tekelini protesto ediyordu ve Gandhi'nin insanları şiddete başvurmadan harekete geçirme yeteneğini gösteriyordu. \n\nGandhi'nin etkisi Hindistan'ın sınırlarını aştı. Öğretileri Martin Luther King Jr. ve Nelson Mandela gibi sivil haklar liderlerine ilham verdi. Gandhi, doğruluk, sadelik ve öz yeterlilik gücünü vurguladı ve insanları uyum içinde yaşamaya ve tüm canlılara saygı göstermeye teşvik etti. Ne yazık ki 1948'de suikasta uğradı, ancak mirası, barışçıl direniş ve ahlaki liderliğin gücünün bir kanıtı olarak yaşamaya devam ediyor.",
+      "words": [
+        {
+          "key": "philosophy",
+          "value": "felsefe"
+        },
+        {
+          "key": "non-violence",
+          "value": "şiddet karşıtlığı"
+        },
+        {
+          "key": "civil disobedience",
+          "value": "sivil itaatsizlik"
+        },
+        {
+          "key": "equality",
+          "value": "eşitlik"
+        },
+        {
+          "key": "justice",
+          "value": "adalet"
+        },
+        {
+          "key": "independence",
+          "value": "bağımsızlık"
+        },
+        {
+          "key": "protest",
+          "value": "protesto"
+        },
+        {
+          "key": "boycott",
+          "value": "boykot"
+        },
+        {
+          "key": "hunger strike",
+          "value": "açlık grevi"
+        },
+        {
+          "key": "monopoly",
+          "value": "tekel"
+        },
+        {
+          "key": "truth",
+          "value": "doğruluk"
+        },
+        {
+          "key": "simplicity",
+          "value": "sadeliği"
+        },
+        {
+          "key": "self-reliance",
+          "value": "öz yeterlilik"
+        },
+        {
+          "key": "harmoniously",
+          "value": "uyum içinde"
+        },
+        {
+          "key": "legacy",
+          "value": "miras"
+        },
+        {
+          "key": "resistance",
+          "value": "direniş"
+        },
+        {
+          "key": "leadership",
+          "value": "liderlik"
+        },
+        {
+          "key": "commitment",
+          "value": "bağlılık"
+        },
+        {
+          "key": "discrimination",
+          "value": "ayrımcılık"
+        },
+        {
+          "key": "mobilize",
+          "value": "harekete geçirmek"
+        },
+        {
+          "key": "influence",
+          "value": "etki"
+        },
+        {
+          "key": "Tragically",
+          "value": "trajik bir şekilde"
+        },
+        {
+          "key": "prominent",
+          "value": "öne çıkan"
+        },
+        {
+          "key": "attention",
+          "value": "dikkat"
+        },
+        {
+          "key": "teachings",
+          "value": "öğretiler"
+        },
+        {
+          "key": "inspire",
+          "value": "ilham vermek"
+        },
+        {
+          "key": "assassinated",
+          "value": "suikasta uğramak"
+        },
+        {
+          "key": "border",
+          "value": "sınır"
+        },
+        {
+          "key": "emphasized",
+          "value": "vurguladı"
+        },
+        {
+          "key": "truthful",
+          "value": "dürüst"
+        },
+        {
+          "key": "coexist",
+          "value": "birlikte yaşamak"
+        },
+        {
+          "key": "symbol",
+          "value": "sembol"
+        },
+        {
+          "key": "witnessed",
+          "value": "tanık oldu"
+        }
+      ],
+      "imageUrl": "https://jgi-design-live.s3.amazonaws.com/knowledgeumacademy.in/uploads/blog/dc85ad578c28809462efa8e1d6328f95.jpg",
+      "title": "Mahatma Gandhi: The Legacy of Non-Violence",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Healthy eating is essential for maintaining a balanced lifestyle. It not only improves physical health but also supports mental well-being. A well-rounded diet includes a variety of foods such as fruits, vegetables, whole grains, and proteins. For instance, eating leafy greens like spinach can boost your immune system, while fruits such as oranges provide essential vitamins. \n\nOne important aspect of healthy eating is portion control. Overeating, even with nutritious foods, can lead to weight gain and other health problems. It is crucial to listen to your body's hunger cues and avoid consuming more than necessary. Additionally, drinking plenty of water throughout the day is key to staying hydrated and supporting digestion. \n\nIn today's fast-paced world, many people rely on processed foods, which are often high in sugar and unhealthy fats. Preparing meals at home is a great way to ensure you are eating wholesome ingredients. Cooking with family or friends can also make the process enjoyable and strengthen relationships. By adopting healthy eating habits, you can lead a more energetic and fulfilling life.",
+      "contentTr": "Sağlıklı beslenme, dengeli bir yaşam tarzını sürdürmek için gereklidir. Sadece fiziksel sağlığı iyileştirmekle kalmaz, aynı zamanda zihinsel refahı da destekler. Dengeli bir diyet, meyveler, sebzeler, tam tahıllar ve proteinler gibi çeşitli yiyecekleri içerir. Örneğin, ıspanak gibi yapraklı yeşillikler bağışıklık sisteminizi güçlendirebilirken, portakal gibi meyveler önemli vitaminler sağlar. \n\nSağlıklı beslenmenin önemli bir yönü porsiyon kontrolüdür. Besleyici yiyeceklerle bile olsa aşırı yemek, kilo alımı ve diğer sağlık sorunlarına yol açabilir. Vücudunuzun açlık sinyallerini dinlemek ve gerektiğinden fazlasını tüketmekten kaçınmak çok önemlidir. Ayrıca, gün boyunca bol su içmek, susuz kalmamak ve sindirimi desteklemek için önemlidir. \n\nGünümüzün hızlı tempolu dünyasında, birçok insan şeker ve sağlıksız yağlar açısından zengin işlenmiş gıdalara güveniyor. Evde yemek hazırlamak, sağlıklı malzemeler tükettiğinizden emin olmanın harika bir yoludur. Aile veya arkadaşlarla yemek yapmak süreci eğlenceli hale getirebilir ve ilişkileri güçlendirebilir. Sağlıklı beslenme alışkanlıklarını benimseyerek, daha enerjik ve tatmin edici bir yaşam sürebilirsiniz.",
+      "words": [
+        {
+          "key": "maintaining",
+          "value": "sürdürmek"
+        },
+        {
+          "key": "improve",
+          "value": "iyileştirmek"
+        },
+        {
+          "key": "balanced",
+          "value": "dengeli"
+        },
+        {
+          "key": "lifestyle",
+          "value": "yaşam tarzı"
+        },
+        {
+          "key": "well-being",
+          "value": "refah"
+        },
+        {
+          "key": "variety",
+          "value": "çeşitlilik"
+        },
+        {
+          "key": "immune system",
+          "value": "bağışıklık sistemi"
+        },
+        {
+          "key": "portion",
+          "value": "porsiyon"
+        },
+        {
+          "key": "Overeating",
+          "value": "aşırı yeme"
+        },
+        {
+          "key": "hydrated",
+          "value": "susuz kalmama"
+        },
+        {
+          "key": "digestion",
+          "value": "sindirim"
+        },
+        {
+          "key": "processed foods",
+          "value": "işlenmiş gıdalar"
+        },
+        {
+          "key": "ingredients",
+          "value": "malzemeler"
+        },
+        {
+          "key": "fulfilling",
+          "value": "tatmin edici"
+        },
+        {
+          "key": "nutritious",
+          "value": "besleyici"
+        },
+        {
+          "key": "hunger cues",
+          "value": "açlık sinyalleri"
+        },
+        {
+          "key": "energetic",
+          "value": "enerjik"
+        },
+        {
+          "key": "relationships",
+          "value": "ilişkiler"
+        },
+        {
+          "key": "strengthen",
+          "value": "güçlendirmek"
+        },
+        {
+          "key": "adopting",
+          "value": "benimsemek"
+        },
+        {
+          "key": "essential",
+          "value": "gerekli"
+        },
+        {
+          "key": "leafy greens",
+          "value": "yeşil yapraklı sebzeler"
+        }
+      ],
+      "imageUrl": "https://www.healthcareradius.in/cloud/2022/01/25/34Daw0cy-healthy-eating-1200x675.jpg",
+      "title": "Healthy Eating Habits",
+      "level": "B1",
+      "genre": "Health",
+      "isNew": false,
+      "min": "2 min"
+    },
+    {
+      "content": "Traditional music is a vital part of many cultures around the world. It connects people to their history and provides a sense of identity. For example, in Ireland, folk music with instruments like the fiddle and flute is an essential part of social gatherings. Similarly, in India, classical music such as Hindustani and Carnatic has been practiced for centuries, often used in spiritual ceremonies. \n\nTraditional music often reflects the lifestyle, beliefs, and environment of a community. In Africa, drumming is not only a form of music but also a means of communication and storytelling. The rhythms can symbolize unity and are often passed down through generations. In South America, genres like samba and tango capture the vibrant and emotional spirit of the people, showcasing their creativity and passion. \n\nIn today's world, traditional music faces challenges from modern genres and digital platforms. However, efforts are being made to preserve these art forms. Music festivals, cultural events, and educational programs play a significant role in keeping traditions alive. For instance, workshops that teach young people to play traditional instruments ensure that these practices will not be forgotten. Traditional music continues to inspire artists and serves as a bridge between the past and the present.",
+      "contentTr": "Geleneksel müzik, dünyadaki birçok kültürün önemli bir parçasıdır. İnsanları tarihleriyle bağlar ve kimlik duygusu sağlar. Örneğin, İrlanda'da keman ve flüt gibi enstrümanlarla yapılan halk müziği, sosyal etkinliklerin vazgeçilmez bir parçasıdır. Benzer şekilde, Hindistan'da Hindustani ve Carnatic gibi klasik müzik türleri yüzyıllardır uygulanmakta ve genellikle ruhani törenlerde kullanılmaktadır. \n\nGeleneksel müzik, bir toplumun yaşam tarzını, inançlarını ve çevresini yansıtır. Afrika'da davul çalmak sadece bir müzik türü değil, aynı zamanda bir iletişim ve hikaye anlatma aracıdır. Ritimler birliği simgeler ve genellikle nesiller boyunca aktarılır. Güney Amerika'da samba ve tango gibi türler, insanların canlı ve duygusal ruhunu yansıtarak yaratıcılıklarını ve tutkularını sergiler. \n\nGünümüzde, geleneksel müzik modern türler ve dijital platformlarla rekabet etmektedir. Ancak, bu sanat formlarını korumak için çabalar sarf edilmektedir. Müzik festivalleri, kültürel etkinlikler ve eğitim programları geleneklerin canlı tutulmasında önemli bir rol oynamaktadır. Örneğin, gençlere geleneksel enstrümanları çalmayı öğreten atölye çalışmaları, bu uygulamaların unutulmamasını sağlar. Geleneksel müzik, sanatçılara ilham vermeye devam etmekte ve geçmiş ile bugün arasında bir köprü görevi görmektedir.",
+      "words": [
+        {
+          "key": "vital",
+          "value": "hayati"
+        },
+        {
+          "key": "identity",
+          "value": "kimlik"
+        },
+        {
+          "key": "fiddle",
+          "value": "keman"
+        },
+        {
+          "key": "spiritual",
+          "value": "manevi"
+        },
+        {
+          "key": "beliefs",
+          "value": "inançlar"
+        },
+        {
+          "key": "community",
+          "value": "toplum"
+        },
+        {
+          "key": "drumming",
+          "value": "davul çalma"
+        },
+        {
+          "key": "communication",
+          "value": "iletişim"
+        },
+        {
+          "key": "storytelling",
+          "value": "hikaye anlatımı"
+        },
+        {
+          "key": "rhythms",
+          "value": "ritimler"
+        },
+        {
+          "key": "generations",
+          "value": "nesiller"
+        },
+        {
+          "key": "vibrant",
+          "value": "canlı"
+        },
+        {
+          "key": "preserve",
+          "value": "korumak"
+        },
+        {
+          "key": "festivals",
+          "value": "festivaller"
+        },
+        {
+          "key": "educational",
+          "value": "eğitici"
+        },
+        {
+          "key": "workshops",
+          "value": "atölyeler"
+        },
+        {
+          "key": "instruments",
+          "value": "enstrümanlar"
+        },
+        {
+          "key": "practices",
+          "value": "uygulamalar"
+        },
+        {
+          "key": "forgotten",
+          "value": "unutulmuş"
+        },
+        {
+          "key": "bridge",
+          "value": "köprü"
+        }
+      ],
+      "imageUrl": "https://npr.brightspotcdn.com/dims4/default/f74c320/2147483647/strip/true/crop/1696x928+0+0/resize/880x482!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2F2e%2F831bc34d4da4a6e740e0add391f1%2Fjoy-bennett-old-songs-2022.png",
+      "title": "The Joy of Traditional Music",
+      "level": "B1",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "The Great Wall of China is one of the most remarkable architectural achievements in history. Stretching over 13,000 miles, it winds across deserts, mountains, and plains, demonstrating the ingenuity and determination of ancient Chinese civilizations. Built primarily during the Ming Dynasty, the wall served as a fortification against invasions from northern tribes, such as the Mongols. Its construction involved millions of workers, including soldiers, laborers, and prisoners. \n\nThe wall is not a single continuous structure but a series of walls and fortifications connected over time. Materials like bricks, tamped earth, and wood were used depending on the region's resources. Watchtowers were strategically placed along the wall to allow guards to monitor large areas and signal potential attacks using smoke during the day and fire at night. This system ensured that information could travel quickly across vast distances. \n\nToday, the Great Wall is a UNESCO World Heritage Site and attracts millions of tourists every year. It symbolizes strength, unity, and perseverance, serving as a testament to China's rich history and cultural heritage. However, the wall faces challenges from natural erosion and human activities. Conservation efforts are ongoing to preserve this magnificent structure for future generations. Visiting the Great Wall is a memorable experience, offering breathtaking views and a chance to connect with a piece of human history.",
+      "contentTr": "Çin Seddi, tarihteki en dikkat çekici mimari başarılarından biridir. 13.000 milden fazla uzanan bu yapı, çöller, dağlar ve ovalar boyunca kıvrılarak antik Çin uygarlıklarının yaratıcılığını ve kararlılığını gösterir. Ana olarak Ming Hanedanlığı döneminde inşa edilen duvar, Moğollar gibi kuzey kabilelerinden gelen istilalara karşı bir savunma hattı olarak hizmet etti. İnşasında askerler, işçiler ve mahkumlar dahil milyonlarca kişi görev aldı. \n\nDuvar, tek bir sürekli yapı değil, zamanla birbirine bağlanan duvarlar ve tahkimatlardan oluşur. Tuğla, sıkıştırılmış toprak ve ahşap gibi malzemeler, bölgenin kaynaklarına bağlı olarak kullanılmıştır. Gözetleme kuleleri, geniş alanları izlemek ve gündüzleri dumanla, geceleri ise ateşle olası saldırıları bildirmek için stratejik olarak yerleştirilmiştir. Bu sistem, bilgilerin geniş mesafelere hızla ulaşmasını sağladı. \n\nBugün, Çin Seddi bir UNESCO Dünya Mirası Alanı olup her yıl milyonlarca turisti kendine çekmektedir. Güç, birlik ve azmin bir sembolü olarak, Çin'in zengin tarihine ve kültürel mirasına tanıklık eder. Ancak, duvar doğal aşınma ve insan faaliyetlerinden kaynaklanan zorluklarla karşı karşıyadır. Bu muhteşem yapıyı gelecek nesiller için korumak amacıyla çalışmalar devam etmektedir. Çin Seddi'ni ziyaret etmek, nefes kesici manzaralar sunar ve insanlık tarihinden bir parçayla bağ kurma fırsatı sağlar.",
+      "words": [
+        {
+          "key": "remarkable",
+          "value": "dikkat çekici"
+        },
+        {
+          "key": "architectural",
+          "value": "mimari"
+        },
+        {
+          "key": "achievement",
+          "value": "başarı"
+        },
+        {
+          "key": "fortification",
+          "value": "tahkimat"
+        },
+        {
+          "key": "invasion",
+          "value": "istila"
+        },
+        {
+          "key": "ingenuity",
+          "value": "yaratıcılık"
+        },
+        {
+          "key": "determination",
+          "value": "kararlılık"
+        },
+        {
+          "key": "civilization",
+          "value": "uygarlık"
+        },
+        {
+          "key": "laborers",
+          "value": "işçiler"
+        },
+        {
+          "key": "prisoners",
+          "value": "mahkumlar"
+        },
+        {
+          "key": "continuous",
+          "value": "sürekli"
+        },
+        {
+          "key": "fortifications",
+          "value": "tahkimatlar"
+        },
+        {
+          "key": "resources",
+          "value": "kaynaklar"
+        },
+        {
+          "key": "watchtowers",
+          "value": "gözetleme kuleleri"
+        },
+        {
+          "key": "signal",
+          "value": "işaret vermek"
+        },
+        {
+          "key": "attacks",
+          "value": "saldırılar"
+        },
+        {
+          "key": "conservation",
+          "value": "koruma"
+        },
+        {
+          "key": "erosion",
+          "value": "aşınma"
+        },
+        {
+          "key": "perseverance",
+          "value": "azim"
+        },
+        {
+          "key": "testament",
+          "value": "tanıklık"
+        },
+        {
+          "key": "symbolize",
+          "value": "sembolize etmek"
+        },
+        {
+          "key": "vast",
+          "value": "geniş"
+        },
+        {
+          "key": "memorable",
+          "value": "unutulmaz"
+        },
+        {
+          "key": "breathtaking",
+          "value": "nefes kesici"
+        },
+        {
+          "key": "magnificent",
+          "value": "muazzam"
+        },
+        {
+          "key": "heritage",
+          "value": "miras"
+        },
+        {
+          "key": "natural erosion",
+          "value": "doğal aşınma"
+        },
+        {
+          "key": "human activities",
+          "value": "insan faaliyetleri"
+        }
+      ],
+      "imageUrl": "https://cxgveiouca.cloudimg.io/familyhotelfinder.com/wp-content/uploads/Beijing-Great-Wall-of-China1-SH.jpg?w=960&h=540&func=cover",
+      "title": "The Great Wall of China",
+      "level": "B1",
+      "genre": "History",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Cricket is one of the most popular sports in the world, enjoyed by millions across continents. Originating in England in the 16th century, it has grown into a global phenomenon with passionate fans in countries like India, Australia, and South Africa. Cricket matches are played between two teams, each consisting of eleven players. The game is known for its unique rules, diverse formats, and thrilling moments that captivate audiences. \n\nOne of the most distinctive aspects of cricket is its three formats: Test matches, One Day Internationals (ODIs), and Twenty20 (T20). Test cricket, the oldest and most traditional format, can last up to five days and is a true test of endurance and skill. ODIs are faster-paced, lasting just one day, and are highly popular for international tournaments like the Cricket World Cup. The T20 format, introduced more recently, is even shorter and focuses on entertainment, attracting a younger audience with its dynamic playstyle. \n\nCricket also holds cultural and historical significance in many regions. In India, for instance, cricket is almost a religion, with legendary players like Sachin Tendulkar inspiring generations. The sport has also served as a platform for unity, bringing people together regardless of their background. Despite its traditional roots, cricket has evolved with technology, incorporating innovations like Decision Review Systems (DRS) and Hawk-Eye to enhance fairness and accuracy. For fans, the thrill of watching a batsman hit a six or a bowler take a wicket remains unparalleled, making cricket more than just a sport – it is a celebration of talent, strategy, and teamwork.",
+      "contentTr": "Kriket, dünya çapında milyonlarca kişi tarafından sevilen en popüler sporlardan biridir. 16. yüzyılda İngiltere'de ortaya çıkan bu spor, Hindistan, Avustralya ve Güney Afrika gibi ülkelerde tutkulu hayranlarıyla küresel bir fenomene dönüşmüştür. Kriket maçları, her biri on bir oyuncudan oluşan iki takım arasında oynanır. Oyun, benzersiz kuralları, çeşitli formatları ve izleyicileri büyüleyen heyecan verici anlarıyla tanınır. \n\nKriketin en ayırt edici özelliklerinden biri, üç formatı olmasıdır: Test maçları, Bir Günlük Uluslararası Maçlar (ODI'ler) ve Yirmi20 (T20). En eski ve en geleneksel format olan test kriket, beş güne kadar sürebilir ve dayanıklılık ile yeteneğin gerçek bir sınavıdır. ODI'ler ise daha hızlı tempolu olup sadece bir gün sürer ve Kriket Dünya Kupası gibi uluslararası turnuvalar için oldukça popülerdir. Daha yakın zamanda tanıtılan T20 formatı, daha kısa sürede oynanır ve dinamik oyun tarzıyla genç bir izleyici kitlesini çeker. \n\nKriket, birçok bölgede kültürel ve tarihsel öneme de sahiptir. Örneğin Hindistan'da, kriket neredeyse bir din gibidir ve Sachin Tendulkar gibi efsanevi oyuncular nesilleri etkilemiştir. Spor aynı zamanda köklerini teknolojiyle birleştirerek Adil Oyun Karar Sistemi (DRS) ve Hawk-Eye gibi yenilikler sayesinde adalet ve doğruluğu artırmıştır. Hayranlar için, bir vurucunun altıya vuruş yapması ya da bir atıcının wicket alması izlenmesi eşsiz bir heyecan sunar. Kriket sadece bir spor değil, yetenek, strateji ve takım ruhunun bir kutlamasıdır.",
+      "words": [
+        {
+          "key": "originating",
+          "value": "köken"
+        },
+        {
+          "key": "phenomenon",
+          "value": "fenomen"
+        },
+        {
+          "key": "passionate",
+          "value": "tutkulu"
+        },
+        {
+          "key": "distinctive",
+          "value": "ayırt edici"
+        },
+        {
+          "key": "endurance",
+          "value": "dayanıklılık"
+        },
+        {
+          "key": "tournament",
+          "value": "turnuva"
+        },
+        {
+          "key": "dynamic",
+          "value": "dinamik"
+        },
+        {
+          "key": "cultural",
+          "value": "kültürel"
+        },
+        {
+          "key": "historical",
+          "value": "tarihsel"
+        },
+        {
+          "key": "legendary",
+          "value": "efsanevi"
+        },
+        {
+          "key": "generations",
+          "value": "nesiller"
+        },
+        {
+          "key": "unity",
+          "value": "birlik"
+        },
+        {
+          "key": "background",
+          "value": "arka plan"
+        },
+        {
+          "key": "innovation",
+          "value": "yenilik"
+        },
+        {
+          "key": "accuracy",
+          "value": "doğruluk"
+        },
+        {
+          "key": "thrilling",
+          "value": "heyecan verici"
+        },
+        {
+          "key": "batsman",
+          "value": "vurucu"
+        },
+        {
+          "key": "bowler",
+          "value": "atıcısı"
+        },
+        {
+          "key": "celebration",
+          "value": "kutlama"
+        },
+        {
+          "key": "one-day international",
+          "value": "bir günlük uluslararası"
+        },
+        {
+          "key": "hawk-eye",
+          "value": "şahin gözü"
+        },
+        {
+          "key": "decision review system",
+          "value": "karar inceleme sistemi"
+        },
+        {
+          "key": "six",
+          "value": "altılık vuruş"
+        },
+        {
+          "key": "global",
+          "value": "küresel"
+        },
+        {
+          "key": "sportsmanship",
+          "value": "sporculuk"
+        }
+      ],
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGGqprdCtyD2IIM8b6Qsl7vgh_DPf3PcPmQ&s",
+      "title": "The Fascination of Cricket",
+      "level": "B1",
+      "genre": "Sports",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Turkish cuisine is one of the most diverse and delicious culinary traditions in the world. It has been shaped by centuries of cultural exchange, with influences from Central Asia, the Middle East, the Mediterranean, and the Balkans. Turkish dishes are known for their rich flavors, fresh ingredients, and unique combinations. One of the key features of Turkish food is the emphasis on using fresh vegetables, herbs, and spices to create balanced and healthy meals. \n\nSome of the most popular dishes in Turkish cuisine include kebabs, mezes, and soups. Kebabs, such as the famous 'döner' and 'shish kebab,' are made with marinated meat, often lamb or chicken, that is grilled to perfection. Mezes are small appetizers served with bread, and they feature a wide variety of flavors, such as hummus, baba ghanoush, and yogurt-based dips. Soups, like 'lentil soup' and 'yogurt soup,' are often enjoyed as starters and are known for their comforting and hearty flavors. \n\nDesserts in Turkish cuisine are also highly regarded. 'Baklava' is one of the most famous Turkish desserts, made from layers of thin pastry filled with crushed nuts and sweet syrup. Other popular sweets include 'künefe,' a cheese pastry soaked in syrup, and 'lokum,' also known as Turkish delight, which is made from sugar, starch, and flavors like rosewater and lemon. Turkish tea and coffee are also an integral part of the culture, often served with sweets as a symbol of hospitality. Turkish cuisine is not only about the food itself but also about the joy of sharing meals with loved ones and enjoying the company of family and friends.",
+      "contentTr": "Türk mutfağı, dünyadaki en çeşitli ve lezzetli mutfak geleneklerinden biridir. Yüzyıllar süren kültürel etkileşimler sayesinde Orta Asya, Orta Doğu, Akdeniz ve Balkanlar'dan etkiler almıştır. Türk yemekleri, zengin tatları, taze malzemeleri ve eşsiz kombinasyonlarıyla bilinir. Türk mutfağının en önemli özelliklerinden biri, dengeli ve sağlıklı yemekler hazırlamak için taze sebzeler, otlar ve baharatlar kullanılmasıdır. \n\nTürk mutfağındaki en popüler yemeklerden bazıları kebaplar, mezeler ve çorbalardır. 'Döner' ve 'şiş kebap' gibi ünlü kebaplar, genellikle marine edilmiş etin, genellikle kuzu ya da tavuk etinin mükemmel şekilde pişirilmesiyle yapılır. Mezeler, ekmekle servis edilen küçük başlangıç yemekleridir ve humus, baba ganoush ve yoğurtlu mezeler gibi çeşitli tatları içerir. 'Mercimek çorbası' ve 'yoğurt çorbası' gibi çorbalar, başlangıç olarak sıklıkla tüketilir ve rahatlatıcı ve doyurucu tatlarıyla tanınır. \n\nTürk mutfağındaki tatlılar da oldukça ünlüdür. 'Baklava', ince hamur katmanları arasına dövülmüş fındık ve tatlı şerbet konarak yapılan en ünlü Türk tatlısıdır. Diğer popüler tatlılar arasında şerbetle ıslatılmış bir peynirli hamur tatlısı olan 'künefe' ve şeker, nişasta ve gül suyu gibi aromalarla yapılan 'lokum' (Türk lokumu) bulunur. Türk çayı ve kahvesi de kültürün ayrılmaz bir parçasıdır, genellikle tatlılarla birlikte misafirperverliğin bir simgesi olarak sunulur. Türk mutfağı, sadece yemeklerden ibaret değil, aynı zamanda sevdiklerinizle yemek paylaşmanın ve aile ve arkadaşlarla birlikte olmanın keyfini çıkarmaktır.",
+      "words": [
+        {
+          "key": "cuisine",
+          "value": "mutfak"
+        },
+        {
+          "key": "diverse",
+          "value": "çeşitli"
+        },
+        {
+          "key": "culinary",
+          "value": "mutfakla ilgili"
+        },
+        {
+          "key": "traditions",
+          "value": "gelenekler"
+        },
+        {
+          "key": "influences",
+          "value": "etkiler"
+        },
+        {
+          "key": "ingredients",
+          "value": "malzemeler"
+        },
+        {
+          "key": "unique",
+          "value": "eşsiz"
+        },
+        {
+          "key": "combination",
+          "value": "kombinasyon"
+        },
+        {
+          "key": "vegetables",
+          "value": "sebzeler"
+        },
+        {
+          "key": "herbs",
+          "value": "otlar"
+        },
+        {
+          "key": "spices",
+          "value": "baharatlar"
+        },
+        {
+          "key": "balanced",
+          "value": "dengeli"
+        },
+        {
+          "key": "healthy",
+          "value": "sağlıklı"
+        },
+        {
+          "key": "kebabs",
+          "value": "kebaplar"
+        },
+        {
+          "key": "mezes",
+          "value": "mezeler"
+        },
+        {
+          "key": "appetizers",
+          "value": "başlangıçlar"
+        },
+        {
+          "key": "hummus",
+          "value": "humus"
+        },
+        {
+          "key": "yogurt-based dips",
+          "value": "yoğurtlu mezeler"
+        },
+        {
+          "key": "soups",
+          "value": "çorbalar"
+        },
+        {
+          "key": "Lentil soup",
+          "value": "mercimek çorbası"
+        },
+        {
+          "key": "Yogurt soup",
+          "value": "yoğurt çorbası"
+        },
+        {
+          "key": "Desserts",
+          "value": "tatlılar"
+        },
+        {
+          "key": "pastry",
+          "value": "hamur"
+        },
+        {
+          "key": "nuts",
+          "value": "fındık"
+        },
+        {
+          "key": "syrup",
+          "value": "şerbet"
+        },
+        {
+          "key": "rosewater",
+          "value": "gül suyu"
+        },
+        {
+          "key": "lemon",
+          "value": "limon"
+        },
+        {
+          "key": "tea",
+          "value": "çay"
+        },
+        {
+          "key": "coffee",
+          "value": "kahve"
+        },
+        {
+          "key": "hospitality",
+          "value": "misafirperverlik"
+        }
+      ],
+      "imageUrl": "https://visitturkey.in/wp-content/uploads/2015/05/the-rich-heritage-of-turkish-cuisine.webp",
+      "title": "Turkish Cuisine: A Rich Tradition",
+      "level": "B1",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "The oceans are one of the most important natural resources on Earth. They cover about 71% of the planet’s surface and are essential for the survival of all living organisms. Oceans play a significant role in regulating the Earth's climate by absorbing heat and distributing it around the planet. They are also home to an incredible diversity of marine life, ranging from microscopic plankton to the largest animal on Earth, the blue whale.\n\nOceans provide numerous benefits to humans, including food, transportation, and recreational opportunities. Fish and other marine animals are a vital source of food for millions of people worldwide. Additionally, oceans serve as major trade routes, with ships transporting goods across the globe. Coastal areas also attract tourists, offering beautiful beaches and opportunities for activities like swimming, surfing, and diving.\n\nHowever, the oceans are facing several threats. Pollution, especially plastic waste, is a growing concern. Oceans are also affected by overfishing, which threatens the balance of marine ecosystems. Climate change is contributing to rising sea levels and the warming of ocean waters, which can disrupt weather patterns and harm marine life. Efforts to protect the oceans are essential, and it is crucial to raise awareness about their importance and the need to preserve them for future generations.",
+      "contentTr": "Okyanuslar, Dünya üzerindeki en önemli doğal kaynaklardan biridir. Gezegenin yüzeyinin yaklaşık %71'ini kaplar ve tüm canlıların hayatta kalması için hayati öneme sahiptir. Okyanuslar, Dünya'nın iklimini düzenlemede önemli bir rol oynar, ısıyı emerek gezegenin etrafına dağıtırlar. Ayrıca, mikroskobik planktonlardan Dünya'daki en büyük hayvan olan mavi balinaya kadar inanılmaz bir deniz yaşamı çeşitliliğine ev sahipliği yaparlar.\n\nOkyanuslar, insanlara yiyecek, ulaşım ve eğlence fırsatları gibi pek çok fayda sağlar. Balık ve diğer deniz hayvanları, dünya çapında milyonlarca insan için hayati bir gıda kaynağıdır. Ayrıca, okyanuslar büyük ticaret yolları olarak hizmet eder ve gemiler dünya çapında mal taşır. Kıyı bölgeleri de turistleri çeker, güzel plajlar ve yüzme, sörf ve dalış gibi etkinlikler için fırsatlar sunar.\n\nAncak okyanuslar bir dizi tehdit ile karşı karşıyadır. Kirlilik, özellikle plastik atık, artan bir endişe kaynağıdır. Okyanuslar ayrıca, deniz ekosistemlerinin dengesini tehdit eden aşırı avlanmadan etkilenmektedir. İklim değişikliği, deniz seviyelerinin yükselmesine ve okyanus sularının ısınmasına katkıda bulunarak hava durumunu bozabilir ve deniz yaşamını zarara uğratabilir. Okyanusları korumak için çabalar çok önemlidir ve onların önemini ve gelecek nesiller için korunmalarının gerekliliğini vurgulamak çok önemlidir.",
+      "words": [
+        {
+          "key": "oceans",
+          "value": "okyanuslar"
+        },
+        {
+          "key": "natural resources",
+          "value": "doğal kaynaklar"
+        },
+        {
+          "key": "Earth",
+          "value": "Dünya"
+        },
+        {
+          "key": "survival",
+          "value": "hayatta kalma"
+        },
+        {
+          "key": "climate",
+          "value": "iklim"
+        },
+        {
+          "key": "heat",
+          "value": "ısı"
+        },
+        {
+          "key": "marine life",
+          "value": "deniz yaşamı"
+        },
+        {
+          "key": "plankton",
+          "value": "plankton"
+        },
+        {
+          "key": "blue whale",
+          "value": "mavi balina"
+        },
+        {
+          "key": "benefits",
+          "value": "faydalar"
+        },
+        {
+          "key": "food",
+          "value": "yiyecek"
+        },
+        {
+          "key": "transportation",
+          "value": "ulaşım"
+        },
+        {
+          "key": "recreational",
+          "value": "eğlence"
+        },
+        {
+          "key": "trade routes",
+          "value": "ticaret yolları"
+        },
+        {
+          "key": "fishing",
+          "value": "balıkçılık"
+        },
+        {
+          "key": "pollution",
+          "value": "kirlenme"
+        },
+        {
+          "key": "plastic waste",
+          "value": "plastik atık"
+        },
+        {
+          "key": "overfishing",
+          "value": "aşırı avlanma"
+        },
+        {
+          "key": "ecosystems",
+          "value": "ekosistemler"
+        },
+        {
+          "key": "climate change",
+          "value": "iklim değişikliği"
+        },
+        {
+          "key": "sea levels",
+          "value": "deniz seviyeleri"
+        },
+        {
+          "key": "warming",
+          "value": "ısınma"
+        },
+        {
+          "key": "disrupt",
+          "value": "bozmak"
+        },
+        {
+          "key": "preserve",
+          "value": "korumak"
+        },
+        {
+          "key": "generations",
+          "value": "nesiller"
+        }
+      ],
+      "imageUrl": "https://news.clemson.edu/wp-content/uploads/2023/06/ocean-1130x636.jpg",
+      "title": "The Importance of Oceans",
+      "level": "B1",
+      "genre": "Environment",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "The concept of saving money is essential in today's fast-paced world. Saving not only helps individuals manage unexpected financial challenges but also allows them to invest in their future. A proper savings plan starts with budgeting, where income and expenses are analyzed to allocate a portion for savings.\n\nOne of the primary reasons for saving money is to build an emergency fund. Unexpected events such as medical emergencies, car repairs, or sudden job loss can disrupt financial stability. Having savings ensures that these situations can be managed without taking on excessive debt.\n\nSavings also enable people to achieve long-term goals, such as buying a house, funding education, or starting a business. Investments play a critical role in growing savings over time. By investing in assets like stocks, bonds, or mutual funds, individuals can potentially earn returns that exceed standard bank interest rates.\n\nMoreover, saving money teaches financial discipline. It encourages individuals to prioritize needs over wants and make thoughtful spending decisions. This habit, when developed early, can lead to a more secure and stress-free life.\n\nIn conclusion, saving money is not just about putting aside cash; it is about creating a financial foundation for a stable and prosperous future. Whether it is for emergencies, long-term goals, or peace of mind, the habit of saving is invaluable.",
+      "contentTr": "Para biriktirme kavramı, günümüzün hızlı tempolu dünyasında çok önemlidir. Birikim yapmak, bireylerin beklenmedik finansal zorluklarla başa çıkmasına yardımcı olur ve geleceğe yatırım yapmalarını sağlar. Doğru bir birikim planı, gelir ve giderlerin analiz edilerek bir kısmının birikime ayrıldığı bir bütçeleme ile başlar.\n\nPara biriktirmenin temel nedenlerinden biri, acil durum fonu oluşturmaktır. Tıbbi acil durumlar, araba tamirleri veya ani iş kaybı gibi beklenmedik olaylar finansal istikrarı bozabilir. Birikim yaparak, bu tür durumların aşırı borçlanma olmadan yönetilmesi sağlanır.\n\nBirikimler aynı zamanda ev satın alma, eğitim masraflarını karşılama veya bir iş kurma gibi uzun vadeli hedeflere ulaşmayı mümkün kılar. Yatırımlar, birikimlerin zamanla büyümesinde önemli bir rol oynar. Hisse senetleri, tahviller veya yatırım fonları gibi varlıklara yatırım yaparak, bireyler standart banka faiz oranlarının üzerinde getiriler elde edebilir.\n\nAyrıca, para biriktirmek finansal disiplini öğretir. Bireyleri ihtiyaçları önceliklendirmeye ve düşünceli harcama kararları almaya teşvik eder. Bu alışkanlık, erken yaşta geliştirildiğinde, daha güvenli ve stressiz bir hayata yol açabilir.\n\nSonuç olarak, para biriktirmek sadece nakit biriktirmek değil, aynı zamanda istikrarlı ve refah dolu bir gelecek için bir finansal temel oluşturmaktır. İster acil durumlar için olsun, ister uzun vadeli hedefler veya huzur için, birikim yapma alışkanlığı paha biçilmezdir.",
+      "words": [
+        {
+          "key": "saving",
+          "value": "birikim"
+        },
+        {
+          "key": "budgeting",
+          "value": "bütçeleme"
+        },
+        {
+          "key": "expenses",
+          "value": "giderler"
+        },
+        {
+          "key": "income",
+          "value": "gelir"
+        },
+        {
+          "key": "emergency fund",
+          "value": "acil durum fonu"
+        },
+        {
+          "key": "financial challenges",
+          "value": "finansal zorluklar"
+        },
+        {
+          "key": "Investment",
+          "value": "yatırım"
+        },
+        {
+          "key": "long-term goals",
+          "value": "uzun vadeli hedefler"
+        },
+        {
+          "key": "financial stability",
+          "value": "finansal istikrar"
+        },
+        {
+          "key": "debt",
+          "value": "borç"
+        },
+        {
+          "key": "assets",
+          "value": "varlıklar"
+        },
+        {
+          "key": "stocks",
+          "value": "hisse senetleri"
+        },
+        {
+          "key": "bonds",
+          "value": "tahviller"
+        },
+        {
+          "key": "mutual funds",
+          "value": "yatırım fonları"
+        },
+        {
+          "key": "returns",
+          "value": "getiriler"
+        },
+        {
+          "key": "interest rates",
+          "value": "faiz oranları"
+        },
+        {
+          "key": "financial discipline",
+          "value": "finansal disiplin"
+        },
+        {
+          "key": "prioritize",
+          "value": "önceliklendirmek"
+        },
+        {
+          "key": "thoughtful spending",
+          "value": "düşünceli harcama"
+        },
+        {
+          "key": "secure",
+          "value": "güvenli"
+        },
+        {
+          "key": "stress-free",
+          "value": "stressiz"
+        },
+        {
+          "key": "prosperous",
+          "value": "refah dolu"
+        },
+        {
+          "key": "foundation",
+          "value": "temel"
+        },
+        {
+          "key": "peace of mind",
+          "value": "iç huzur"
+        },
+        {
+          "key": "cash",
+          "value": "nakit"
+        },
+        {
+          "key": "financial habits",
+          "value": "finansal alışkanlıklar"
+        },
+        {
+          "key": "unexpected events",
+          "value": "beklenmedik olaylar"
+        },
+        {
+          "key": "car repairs",
+          "value": "araba tamirleri"
+        },
+        {
+          "key": "medical emergencies",
+          "value": "tıbbi acil durumlar"
+        },
+        {
+          "key": "house builder",
+          "value": "ev yapımcısı"
+        },
+        {
+          "key": "welfare",
+          "value": "refah"
+        }
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4D12AQGrshxQWcB5SQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1657274263761?e=2147483647&v=beta&t=7o4Jdv4L_HqlzTg31KQs1scoUx-EAVdeaMjdzgXzOkI",
+      "title": "The Importance of Saving Money",
+      "level": "B2",
+      "genre": "Economy",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Space exploration has been one of humanity's most fascinating achievements. Over the decades, humans have developed advanced technology to study the vast universe. From the first moon landing to robotic missions on Mars, space exploration continues to push the boundaries of science and engineering.\n\nThe first significant milestone in space exploration occurred in 1969 when NASA's Apollo 11 mission successfully landed humans on the Moon. This event demonstrated that with determination and innovation, humans could achieve what once seemed impossible. Astronauts Neil Armstrong and Buzz Aldrin became the first people to walk on the lunar surface, inspiring millions worldwide.\n\nToday, space exploration focuses on understanding planets, stars, and galaxies. Missions like NASA's Perseverance rover on Mars aim to uncover clues about the planet's past, including signs of ancient life. Similarly, telescopes like the James Webb Space Telescope provide detailed images of distant galaxies, helping scientists understand the origins of the universe.\n\nPrivate companies have also entered the field of space exploration. Companies like SpaceX and Blue Origin are working on making space travel more accessible and affordable. SpaceX's reusable rockets have revolutionized how missions are launched, reducing costs significantly. This progress has paved the way for the possibility of humans colonizing other planets in the future.\n\nSpace exploration not only satisfies human curiosity but also contributes to technological advancements. Innovations developed for space missions often benefit life on Earth, such as satellite technology, medical devices, and renewable energy solutions. The ongoing exploration of space demonstrates humanity's relentless pursuit of knowledge and its desire to understand its place in the cosmos.",
+      "contentTr": "Uzay keşfi, insanlığın en büyüleyici başarılarından biri olmuştur. On yıllar boyunca, insanlar, uçsuz bucaksız evreni incelemek için gelişmiş teknolojiler geliştirmiştir. İlk Ay inişinden Mars'taki robotik görevlere kadar uzay keşfi, bilim ve mühendisliğin sınırlarını zorlamaya devam etmektedir.\n\nUzay keşfindeki ilk önemli dönüm noktası, 1969 yılında NASA'nın Apollo 11 göreviyle insanların Ay'a başarılı bir şekilde iniş yapmasıyla gerçekleşti. Bu olay, azim ve yenilikle bir zamanlar imkansız görünen şeylerin başarılabileceğini gösterdi. Astronotlar Neil Armstrong ve Buzz Aldrin, Ay yüzeyinde yürüyen ilk insanlar olarak dünya çapında milyonları etkiledi.\n\nGünümüzde, uzay keşfi gezegenleri, yıldızları ve galaksileri anlamaya odaklanmaktadır. NASA'nın Perseverance gezgini gibi görevler, gezegenin geçmişine dair ipuçlarını, özellikle de antik yaşam izlerini ortaya çıkarmayı amaçlamaktadır. Benzer şekilde, James Webb Uzay Teleskobu gibi teleskoplar, uzak galaksilerin detaylı görüntülerini sağlayarak bilim insanlarının evrenin kökenlerini anlamalarına yardımcı olmaktadır.\n\nÖzel şirketler de uzay keşfi alanına girmiştir. SpaceX ve Blue Origin gibi şirketler, uzay seyahatini daha erişilebilir ve uygun maliyetli hale getirmek için çalışmaktadır. SpaceX'in yeniden kullanılabilir roketleri, görevlerin nasıl başlatıldığını devrim niteliğinde değiştirmiş, maliyetleri önemli ölçüde azaltmıştır. Bu ilerlemeler, gelecekte insanların diğer gezegenleri kolonileştirme olasılığına zemin hazırlamıştır.\n\nUzay keşfi, sadece insan merakını tatmin etmekle kalmaz, aynı zamanda teknolojik gelişmelere de katkıda bulunur. Uzay görevleri için geliştirilen yenilikler, Dünya'daki yaşamı da olumlu yönde etkilemektedir; örneğin uydu teknolojisi, tıbbi cihazlar ve yenilenebilir enerji çözümleri. Uzayın devam eden keşfi, insanlığın bilgiye olan bitmeyen arzusunu ve kozmostaki yerini anlama isteğini göstermektedir.",
+      "words": [
+        {
+          "key": "Space exploration",
+          "value": "uzay keşfi"
+        },
+        {
+          "key": "universe",
+          "value": "evren"
+        },
+        {
+          "key": "moon landing",
+          "value": "Ay inişi"
+        },
+        {
+          "key": "robotic missions",
+          "value": "robotik görevler"
+        },
+        {
+          "key": "lunar surface",
+          "value": "Ay yüzeyi"
+        },
+        {
+          "key": "galaxy",
+          "value": "galaksi"
+        },
+        {
+          "key": "origin",
+          "value": "köken"
+        },
+        {
+          "key": "exploration",
+          "value": "keşif"
+        },
+        {
+          "key": "reusable rockets",
+          "value": "yeniden kullanılabilir roketler"
+        },
+        {
+          "key": "colonizing",
+          "value": "kolonileştirme"
+        },
+        {
+          "key": "technological advancements",
+          "value": "teknolojik ilerlemeler"
+        },
+        {
+          "key": "satellite technology",
+          "value": "uydu teknolojisi"
+        },
+        {
+          "key": "medical devices",
+          "value": "tıbbi cihazlar"
+        },
+        {
+          "key": "renewable energy",
+          "value": "yenilenebilir enerji"
+        },
+        {
+          "key": "curiosity",
+          "value": "merak"
+        },
+        {
+          "key": "cosmos",
+          "value": "kozmos"
+        },
+        {
+          "key": "boundaries",
+          "value": "sınırlar"
+        },
+        {
+          "key": "engineering",
+          "value": "mühendislik"
+        },
+        {
+          "key": "knowledge",
+          "value": "bilgi"
+        },
+        {
+          "key": "determination",
+          "value": "kararlılık"
+        },
+        {
+          "key": "innovation",
+          "value": "yenilik"
+        },
+        {
+          "key": "significant",
+          "value": "önemli"
+        },
+        {
+          "key": "accessible",
+          "value": "erişilebilir"
+        },
+        {
+          "key": "affordable",
+          "value": "uygun maliyetli"
+        }
+      ],
+      "imageUrl": "https://img.freepik.com/premium-photo/futuristic-space-exploration-scene-with-astronauts-futuristic-spacecraft-embodying-humanity-s-quest-knowledge-beyond-earth-generative-ai_372999-17546.jpg",
+      "title": "Space Exploration: Humanity's Quest for Knowledge",
+      "level": "B2",
+      "genre": "Science",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Forests are one of the most vital ecosystems on Earth. They cover about 31% of the planet’s land area and provide countless benefits to humans and wildlife. From producing oxygen to supporting biodiversity, forests play a crucial role in maintaining ecological balance.\n\nOne of the most important functions of forests is oxygen production. Trees absorb carbon dioxide during photosynthesis and release oxygen into the atmosphere. This process helps combat climate change by reducing greenhouse gases. Additionally, forests act as carbon sinks, storing large amounts of carbon in their biomass and soil.\n\nForests are also home to more than 80% of terrestrial species. They provide shelter, food, and breeding grounds for countless animals, plants, and fungi. This biodiversity is essential for ecosystem health and resilience. Losing forests leads to the extinction of species and disrupts food chains, threatening the balance of nature.\n\nAnother key role of forests is protecting the water cycle. Trees regulate rainfall patterns, prevent soil erosion, and maintain water quality. Forested areas often serve as watersheds, providing clean drinking water to millions of people. Without forests, water sources would become polluted, and many communities would face water shortages.\n\nForests also have significant social and economic value. Millions of people depend on forests for their livelihoods, including those involved in agriculture, forestry, and tourism. Forest products like timber, fruits, and medicinal plants are essential resources for industries and local communities.\n\nUnfortunately, deforestation remains a major threat. Human activities like logging, agriculture, and urbanization lead to the loss of millions of hectares of forests every year. Protecting forests requires global cooperation, sustainable practices, and reforestation efforts. By preserving forests, we ensure a healthier planet for future generations.",
+      "contentTr": "Ormanlar, Dünya üzerindeki en önemli ekosistemlerden biridir. Kara alanlarının yaklaşık %31’ini kaplar ve insanlara ve vahşi yaşama sayısız fayda sağlar. Oksijen üretiminden biyoçeşitliliği desteklemeye kadar, ormanlar ekolojik dengeyi korumada hayati bir rol oynar.\n\nOrmanların en önemli işlevlerinden biri oksijen üretimidir. Ağaçlar, fotosentez sırasında karbondioksiti emer ve atmosfere oksijen salar. Bu süreç, sera gazlarını azaltarak iklim değişikliğiyle mücadeleye yardımcı olur. Ayrıca, ormanlar karbon yutakları olarak işlev görür ve biyokütlelerinde ve topraklarında büyük miktarda karbon depolar.\n\nOrmanlar, aynı zamanda karasal türlerin %80’inden fazlasına ev sahipliği yapar. Sayısız hayvan, bitki ve mantar için barınak, yiyecek ve üreme alanları sağlar. Bu biyoçeşitlilik, ekosistem sağlığı ve dayanıklılığı için gereklidir. Ormanların kaybı, türlerin yok olmasına ve besin zincirlerinin bozulmasına neden olarak doğanın dengesini tehdit eder.\n\nOrmanların bir diğer önemli rolü su döngüsünü korumaktır. Ağaçlar, yağış düzenlerini düzenler, toprak erozyonunu önler ve su kalitesini korur. Ormanlık alanlar genellikle su havzaları olarak işlev görür ve milyonlarca insana temiz içme suyu sağlar. Ormanlar olmadan, su kaynakları kirlenir ve birçok topluluk su kıtlığıyla karşı karşıya kalır.\n\nOrmanlar ayrıca önemli sosyal ve ekonomik değerlere sahiptir. Milyonlarca insan, tarım, ormancılık ve turizm gibi sektörlerde ormanlara dayalı olarak geçimini sağlar. Kereste, meyve ve tıbbi bitkiler gibi orman ürünleri, sanayi ve yerel topluluklar için vazgeçilmez kaynaklardır.\n\nNe yazık ki, ormansızlaşma büyük bir tehdit olmaya devam etmektedir. Ormancılık, tarım ve kentleşme gibi insan faaliyetleri, her yıl milyonlarca hektar ormanın yok olmasına neden olur. Ormanları korumak, küresel iş birliği, sürdürülebilir uygulamalar ve ağaçlandırma çabaları gerektirir. Ormanları koruyarak, gelecekteki nesiller için daha sağlıklı bir gezegen garanti altına alabiliriz.",
+      "words": [
+        {
+          "key": "countless",
+          "value": "sayısız"
+        },
+        {
+          "key": "biodiversity",
+          "value": "biyoçeşitlilik"
+        },
+        {
+          "key": "photosynthesis",
+          "value": "fotosentez"
+        },
+        {
+          "key": "greenhouse gases",
+          "value": "sera gazları"
+        },
+        {
+          "key": "agriculture",
+          "value": "tarım"
+        },
+        {
+          "key": "biomass",
+          "value": "biyokütle"
+        },
+        {
+          "key": "species",
+          "value": "türler"
+        },
+        {
+          "key": "extinction",
+          "value": "yok oluş"
+        },
+        {
+          "key": "food chain",
+          "value": "besin zinciri"
+        },
+        {
+          "key": "water cycle",
+          "value": "su döngüsü"
+        },
+        {
+          "key": "rainfall patterns",
+          "value": "yağış düzenleri"
+        },
+        {
+          "key": "soil erosion",
+          "value": "toprak erozyonu"
+        },
+        {
+          "key": "watershed",
+          "value": "su havzası"
+        },
+        {
+          "key": "polluted",
+          "value": "kirli"
+        },
+        {
+          "key": "shortage",
+          "value": "kıtlık"
+        },
+        {
+          "key": "livelihood",
+          "value": "geçim kaynağı"
+        },
+        {
+          "key": "timber",
+          "value": "kereste"
+        },
+        {
+          "key": "medicinal plants",
+          "value": "tıbbi bitkiler"
+        },
+        {
+          "key": "logging",
+          "value": "ağaç kesimi"
+        },
+        {
+          "key": "urbanization",
+          "value": "kentleşme"
+        },
+        {
+          "key": "reforestation",
+          "value": "ağaçlandırma"
+        },
+        {
+          "key": "deforestation",
+          "value": "ormansızlaşma"
+        },
+        {
+          "key": "sustainable",
+          "value": "sürdürülebilir"
+        },
+        {
+          "key": "preserve",
+          "value": "korumak"
+        },
+        {
+          "key": "terrestrial",
+          "value": "karasal"
+        },
+        {
+          "key": "habitat",
+          "value": "yaşam alanı"
+        },
+        {
+          "key": "ecological balance",
+          "value": "ekolojik denge"
+        },
+        {
+          "key": "resources",
+          "value": "kaynaklar"
+        }
+      ],
+      "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*8CAqAvU0c-E1aj2W7dOzyQ.jpeg",
+      "title": "The Importance of Forests",
+      "level": "B2",
+      "genre": "Nature",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Volcanoes are some of the most powerful natural forces on Earth. They are mountains that allow hot lava, gases, and ash to escape from deep inside the Earth. Volcanoes can be both beautiful and dangerous. They have shaped our planet for millions of years and continue to do so today.\n\nA volcano erupts when pressure builds up inside the Earth. The pressure is caused by the heat of molten rock, called magma. When magma finds a way to the surface, it flows out as lava. Some eruptions are gentle, with lava flowing slowly. Others are explosive, shooting ash and rocks into the sky. These explosive eruptions can be very dangerous to people and animals nearby.\n\nThere are three main types of volcanoes: active, dormant, and extinct. Active volcanoes erupt regularly or have erupted recently. Dormant volcanoes have not erupted for a long time but could still erupt in the future. Extinct volcanoes are no longer expected to erupt.\n\nVolcanoes can be found all over the world, but many are located near the edges of tectonic plates. These plates are large pieces of the Earth’s crust that move very slowly. When they collide or move apart, magma can rise to the surface, creating a volcano. Some famous volcanoes include Mount Vesuvius in Italy, Mount Fuji in Japan, and Mount St. Helens in the United States.\n\nVolcanoes are both destructive and creative. While eruptions can destroy towns and forests, they also create new land. Lava cools and hardens to form rock, which eventually becomes part of the landscape. Volcanic soil is very fertile, making it good for farming. Despite their dangers, volcanoes are an important part of Earth’s natural processes.",
+      "contentTr": "Volkanlar, Dünya üzerindeki en güçlü doğal kuvvetlerden biridir. Bunlar, derin yer altından gelen sıcak lav, gaz ve külün dışarı çıkmasına izin veren dağlardır. Volkanlar hem güzel hem de tehlikeli olabilir. Milyonlarca yıldır gezegenimizi şekillendirdiler ve bugün de bunu yapmaya devam ediyorlar.\n\nBir volkan, Dünya’nın içinde basınç oluştuğunda patlar. Bu basınç, magma denilen erimiş kayaların ısısı nedeniyle oluşur. Magma yüzeye çıkacak bir yol bulduğunda, lav olarak dışarı akar. Bazı patlamalar hafiftir ve lav yavaşça akar. Diğerleri ise kül ve kayaları gökyüzüne fırlatan şiddetli patlamalardır. Bu tür patlamalar, çevredeki insanlar ve hayvanlar için çok tehlikeli olabilir.\n\nÜç ana volkan türü vardır: aktif, uykuda ve sönmüş. Aktif volkanlar düzenli olarak ya da yakın zamanda patlamış olanlardır. Uykuda olan volkanlar uzun süredir patlamamış olabilir ama gelecekte patlama riski taşır. Sönmüş volkanların ise artık patlaması beklenmez.\n\nVolkanlar dünya genelinde bulunabilir, ancak çoğu tektonik plakaların kenarlarına yakındır. Bu plakalar, Dünya’nın kabuğunun çok yavaş hareket eden büyük parçalarıdır. Çarpıştıklarında veya ayrıldıklarında, magma yüzeye yükselerek bir volkan oluşturabilir. Bazı ünlü volkanlar arasında İtalya’daki Vezüv Yanardağı, Japonya’daki Fuji Dağı ve Amerika Birleşik Devletleri’ndeki St. Helens Dağı bulunur.\n\nVolkanlar hem yıkıcı hem de yaratıcıdır. Patlamalar şehirleri ve ormanları yok edebilirken, aynı zamanda yeni topraklar oluşturur. Lav soğuyup sertleşerek kaya haline gelir ve sonunda manzaranın bir parçası olur. Volkanik toprak çok verimlidir ve tarım için uygundur. Tehlikelerine rağmen, volkanlar Dünya’nın doğal süreçlerinin önemli bir parçasıdır.",
+      "words": [
+        {
+          "key": "Volcano",
+          "value": "volkan"
+        },
+        {
+          "key": "eruption",
+          "value": "patlama"
+        },
+        {
+          "key": "lava",
+          "value": "lav"
+        },
+        {
+          "key": "ash",
+          "value": "kül"
+        },
+        {
+          "key": "magma",
+          "value": "magma"
+        },
+        {
+          "key": "molten rock",
+          "value": "erimiş kaya"
+        },
+        {
+          "key": "tectonic plates",
+          "value": "tektonik plakalar"
+        },
+        {
+          "key": "collide",
+          "value": "çarpışmak"
+        },
+        {
+          "key": "dormant",
+          "value": "uykuda"
+        },
+        {
+          "key": "extinct",
+          "value": "sönmüş"
+        },
+        {
+          "key": "pressure",
+          "value": "basınç"
+        },
+        {
+          "key": "fertile",
+          "value": "verimli"
+        },
+        {
+          "key": "destructive",
+          "value": "yıkıcı"
+        },
+        {
+          "key": "creative",
+          "value": "yaratıcı"
+        },
+        {
+          "key": "landscape",
+          "value": "manzara"
+        },
+        {
+          "key": "crust",
+          "value": "kabuk"
+        },
+        {
+          "key": "natural forces",
+          "value": "doğal kuvvetler"
+        },
+        {
+          "key": "soil",
+          "value": "toprak"
+        },
+        {
+          "key": "collision",
+          "value": "çarpışma"
+        },
+        {
+          "key": "rise",
+          "value": "yükselmek"
+        },
+        {
+          "key": "surface",
+          "value": "yüzey"
+        },
+        {
+          "key": "dangerous",
+          "value": "tehlikeli"
+        },
+        {
+          "key": "natural processes",
+          "value": "doğal süreçler"
+        },
+        {
+          "key": "explode",
+          "value": "patlamak"
+        },
+        {
+          "key": "destroy",
+          "value": "yok etmek"
+        },
+        {
+          "key": "hardens",
+          "value": "sertleşmek"
+        }
+      ],
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFQExNVboyzPyrQR_CDv45AAU7OGNfGQNffg&s",
+      "title": "Understanding Volcanoes",
+      "level": "B1",
+      "genre": "Geography",
+      "isNew": false,
+      "min": "2 min"
+    },
+    {
+      "content": "Basketball is one of the most popular sports in the world, played by millions of people across all ages and skill levels. Invented in 1891 by James Naismith, the sport has grown into a global phenomenon, with professional leagues and international tournaments attracting massive audiences.\n\nThe game is played on a rectangular court by two teams, each consisting of five players. The objective is to score points by shooting the ball through the opposing team’s hoop. A standard basketball game lasts 40 minutes in professional leagues or 48 minutes in the NBA, divided into quarters. The team with the most points at the end of the game wins.\n\nBasketball requires a unique combination of physical and mental skills. Players must be quick, agile, and have excellent hand-eye coordination. Shooting, dribbling, passing, and rebounding are fundamental skills, but strategy and teamwork are equally important. Successful teams rely on precise communication and understanding between players to execute plays and defend against opponents effectively.\n\nThe NBA, the National Basketball Association, is the most famous basketball league globally. It has been home to some of the greatest players in history, such as Michael Jordan, Kobe Bryant, and LeBron James. These players have become icons, inspiring millions of fans worldwide. Women’s basketball is also growing rapidly, with the WNBA (Women’s National Basketball Association) showcasing incredible talent and promoting gender equality in sports.\n\nBasketball also plays a significant role in culture and community. Many young people, especially in urban areas, find inspiration on the basketball court. It teaches discipline, teamwork, and perseverance while providing an outlet for creativity and self-expression. Street basketball, in particular, has become a symbol of urban culture, influencing music, fashion, and lifestyle.\n\nIn conclusion, basketball is more than just a sport; it is a global cultural phenomenon. It connects people across borders, promotes physical health, and teaches valuable life lessons. Whether played professionally or casually, basketball continues to capture the hearts of millions, making it one of the most influential sports in the world.",
+      "contentTr": "Basketbol, her yaştan ve yetenek seviyesinden milyonlarca insanın oynadığı, dünyanın en popüler sporlarından biridir. 1891 yılında James Naismith tarafından icat edilen bu spor, profesyonel ligler ve uluslararası turnuvalarla büyük bir fenomen haline gelmiştir.\n\nOyun, dikdörtgen bir sahada, her biri beş oyuncudan oluşan iki takım arasında oynanır. Amaç, topu rakip takımın potasından geçirerek sayı kazanmaktır. Profesyonel liglerde standart bir basketbol maçı 40 dakika, NBA’de ise 48 dakika sürer ve çeyrekler halinde oynanır. Maç sonunda en çok sayıya sahip olan takım galip gelir.\n\nBasketbol, fiziksel ve zihinsel becerilerin eşsiz bir kombinasyonunu gerektirir. Oyuncular hızlı, çevik ve mükemmel el-göz koordinasyonuna sahip olmalıdır. Şut atma, top sürme, pas verme ve ribaund alma temel becerilerdir; ancak strateji ve takım çalışması da bir o kadar önemlidir. Başarılı takımlar, oyuncular arasında hassas bir iletişim ve anlayışa dayanarak oyun planlarını uygular ve rakiplerine karşı etkili bir şekilde savunma yapar.\n\nNBA, yani Ulusal Basketbol Birliği, dünya çapında en ünlü basketbol ligidir. Bu lig, Michael Jordan, Kobe Bryant ve LeBron James gibi tarihin en büyük oyuncularına ev sahipliği yapmıştır. Bu oyuncular, dünya genelinde milyonlarca hayrana ilham veren ikonlar haline gelmiştir. Kadın basketbolu da hızla büyümektedir ve Kadınlar Ulusal Basketbol Birliği (WNBA), inanılmaz yetenekleri sergileyerek sporda cinsiyet eşitliğini teşvik etmektedir.\n\nBasketbol, kültür ve topluluk açısından da önemli bir rol oynar. Özellikle şehirlerde birçok genç insan, basketbol sahasında ilham bulur. Basketbol, disiplin, takım çalışması ve azim öğretirken, aynı zamanda yaratıcılık ve kendini ifade etme fırsatı sunar. Sokak basketbolu, müzik, moda ve yaşam tarzını etkileyerek şehir kültürünün bir sembolü haline gelmiştir.\n\nSonuç olarak, basketbol sadece bir spor değil, küresel bir kültürel fenomendir. İnsanları sınırların ötesinde birleştirir, fiziksel sağlığı teşvik eder ve değerli yaşam dersleri öğretir. İster profesyonel olarak ister keyif için oynansın, basketbol milyonların kalbini kazanmaya devam ederek dünyanın en etkili sporlarından biri olmayı sürdürmektedir.",
+      "words": [
+        {
+          "key": "teamwork",
+          "value": "takım çalışması"
+        },
+        {
+          "key": "discipline",
+          "value": "disiplin"
+        },
+        {
+          "key": "coordination",
+          "value": "koordinasyon"
+        },
+        {
+          "key": "strategy",
+          "value": "strateji"
+        },
+        {
+          "key": "dribble",
+          "value": "top sürmek"
+        },
+        {
+          "key": "precise",
+          "value": "hassas"
+        },
+        {
+          "key": "court",
+          "value": "saha"
+        },
+        {
+          "key": "hoop",
+          "value": "pot"
+        },
+        {
+          "key": "quarter",
+          "value": "çeyrek"
+        },
+        {
+          "key": "global",
+          "value": "küresel"
+        },
+        {
+          "key": "phenomenon",
+          "value": "fenomen"
+        },
+        {
+          "key": "audiences",
+          "value": "seyirciler"
+        },
+        {
+          "key": "inspiration",
+          "value": "ilham"
+        },
+        {
+          "key": "urban",
+          "value": "kentsel"
+        },
+        {
+          "key": "casually",
+          "value": "günlük olarak"
+        },
+        {
+          "key": "perseverance",
+          "value": "azim"
+        },
+        {
+          "key": "icon",
+          "value": "ikon"
+        },
+        {
+          "key": "promote",
+          "value": "teşvik etmek"
+        },
+        {
+          "key": "equality",
+          "value": "eşitlik"
+        },
+        {
+          "key": "outlet",
+          "value": "çıkış noktası"
+        },
+        {
+          "key": "culture",
+          "value": "kültür"
+        },
+        {
+          "key": "influential",
+          "value": "etkili"
+        },
+        {
+          "key": "famous",
+          "value": "ünlü"
+        },
+        {
+          "key": "talent",
+          "value": "yetenek"
+        },
+        {
+          "key": "mental skills",
+          "value": "zihinsel beceriler"
+        },
+        {
+          "key": "physical health",
+          "value": "fiziksel sağlık"
+        },
+        {
+          "key": "execution",
+          "value": "uygulama"
+        },
+        {
+          "key": "defend",
+          "value": "savunmak"
+        },
+        {
+          "key": "shooting",
+          "value": "şut çekmek"
+        }
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D4E12AQGoIb1Iw78kfg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702388645409?e=2147483647&v=beta&t=N0evc5tJRCxTAvsV5LnIXPsE-fdH6BXnOdW-JHY5PWI",
+      "title": "The Game of Basketball: Beyond the Court",
+      "level": "B2",
+      "genre": "Sports",
+      "isNew": false,
+      "min": "5 min"
+    },
+    {
+      "content": "The history of the automobile is a story of innovation, determination, and technological progress. The first automobiles were developed in the late 19th century, powered by steam engines. However, it was the internal combustion engine that revolutionized personal transportation, making cars practical and accessible to the general public.\n\nOne of the most significant milestones in automotive history was the introduction of the assembly line by Henry Ford in 1913. This innovation drastically reduced production costs and time, enabling the mass production of affordable cars. The Model T, produced by Ford, became the symbol of accessible personal transportation, allowing millions of Americans to own a car for the first time. It wasn’t just a technological achievement but also a cultural shift, changing the way people lived and worked.\n\nAs cars became more popular, they started to evolve. Manufacturers competed to produce faster, safer, and more reliable vehicles. By the mid-20th century, cars were equipped with features like automatic transmissions, air conditioning, and radios. The post-World War II era also saw a boom in car culture, particularly in the United States. Highways were constructed, and suburban life flourished, driven by the convenience of owning a car.\n\nToday, the automotive industry is undergoing another major transformation with the rise of electric and autonomous vehicles. Companies like Tesla, as well as traditional manufacturers, are investing heavily in electric cars to reduce greenhouse gas emissions. Self-driving technology is also advancing rapidly, promising a future where transportation is safer and more efficient. These innovations highlight how the industry continues to adapt to societal needs and environmental challenges.\n\nIn conclusion, the automobile has come a long way since its invention. It has not only revolutionized transportation but also shaped economies, cultures, and lifestyles worldwide. The future of the automobile promises even greater changes, with sustainability and technology at the forefront of its evolution.",
+      "contentTr": "Otomobilin tarihi, yenilik, azim ve teknolojik ilerlemenin hikayesidir. İlk otomobiller 19. yüzyılın sonlarında buharlı motorlarla geliştirilmiştir. Ancak, içten yanmalı motor, otomobilleri pratik ve genel halk için erişilebilir hale getirerek kişisel taşımacılığı devrimleştirmiştir.\n\nOtomotiv tarihindeki en önemli dönüm noktalarından biri, Henry Ford'un 1913 yılında montaj hattını tanıtmasıydı. Bu yenilik, üretim maliyetlerini ve süresini önemli ölçüde azalttı ve uygun fiyatlı arabaların seri üretimini mümkün kıldı. Ford tarafından üretilen Model T, milyonlarca Amerikalının ilk kez araba sahibi olmasına olanak tanıyarak erişilebilir kişisel taşımacılığın simgesi haline geldi. Bu yalnızca teknolojik bir başarı değil, aynı zamanda insanların yaşam ve çalışma biçimini değiştiren kültürel bir dönüşümdü.\n\nArabalar daha popüler hale geldikçe, gelişmeye başladılar. Üreticiler, daha hızlı, daha güvenli ve daha güvenilir araçlar üretmek için yarıştı. Yirminci yüzyılın ortalarına gelindiğinde, otomobiller otomatik vites, klima ve radyo gibi özelliklerle donatılmıştı. İkinci Dünya Savaşı sonrası dönem, özellikle Amerika Birleşik Devletleri'nde otomobil kültüründe bir patlamaya tanık oldu. Otoyollar inşa edildi ve banliyö hayatı, araba sahipliğinin getirdiği kolaylıkla gelişti.\n\nGünümüzde otomotiv sektörü, elektrikli ve otonom araçların yükselişiyle başka bir büyük dönüşüm geçiriyor. Tesla gibi şirketler ve geleneksel üreticiler, sera gazı emisyonlarını azaltmak için elektrikli araçlara büyük yatırımlar yapıyor. Otonom sürüş teknolojisi de hızla ilerleyerek taşımacılığın daha güvenli ve verimli olacağı bir gelecek vaat ediyor. Bu yenilikler, sektörün toplumsal ihtiyaçlara ve çevresel zorluklara nasıl uyum sağlamaya devam ettiğini göstermektedir.\n\nSonuç olarak, otomobil icadından bu yana uzun bir yol kat etti. Sadece taşımacılığı devrimleştirmekle kalmamış, aynı zamanda dünya çapında ekonomileri, kültürleri ve yaşam tarzlarını şekillendirmiştir. Otomobilin geleceği, sürdürülebilirlik ve teknolojinin evrimin ön saflarında olduğu daha büyük değişiklikler vaat ediyor.",
+      "words": [
+        {
+          "key": "innovation",
+          "value": "yenilik"
+        },
+        {
+          "key": "transportation",
+          "value": "taşımacılık"
+        },
+        {
+          "key": "mass production",
+          "value": "seri üretim"
+        },
+        {
+          "key": "affordable",
+          "value": "uygun fiyatlı"
+        },
+        {
+          "key": "assembly line",
+          "value": "montaj hattı"
+        },
+        {
+          "key": "internal combustion engine",
+          "value": "içten yanmalı motor"
+        },
+        {
+          "key": "emissions",
+          "value": "emisyonlar"
+        },
+        {
+          "key": "self-driving",
+          "value": "otonom sürüş"
+        },
+        {
+          "key": "sustainability",
+          "value": "sürdürülebilirlik"
+        },
+        {
+          "key": "greenhouse gas",
+          "value": "sera gazı"
+        },
+        {
+          "key": "reliable",
+          "value": "güvenilir"
+        },
+        {
+          "key": "evolution",
+          "value": "evrim"
+        },
+        {
+          "key": "cultural shift",
+          "value": "kültürel değişim"
+        },
+        {
+          "key": "suburban",
+          "value": "banliyö"
+        },
+        {
+          "key": "boom",
+          "value": "patlama"
+        },
+        {
+          "key": "electric vehicle",
+          "value": "elektrikli araç"
+        },
+        {
+          "key": "highway",
+          "value": "otoyol"
+        },
+        {
+          "key": "advancement",
+          "value": "ilerleme"
+        },
+        {
+          "key": "economic impact",
+          "value": "ekonomik etki"
+        },
+        {
+          "key": "revolutionize",
+          "value": "devrim yapmak"
+        },
+        {
+          "key": "global impact",
+          "value": "küresel etki"
+        },
+        {
+          "key": "technological progress",
+          "value": "teknolojik ilerleme"
+        },
+        {
+          "key": "affect",
+          "value": "etkilemek"
+        },
+        {
+          "key": "invest",
+          "value": "yatırım yapmak"
+        },
+        {
+          "key": "adapt",
+          "value": "uyum sağlamak"
+        }
+      ],
+      "imageUrl": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2024/02/26101045/design-evolution-cover.png",
+      "title": "The Evolution of the Automobile",
+      "level": "B2",
+      "genre": "Technology",
+      "isNew": false,
+      "min": "5 min"
+    },
+    {
+      "content": "Festivals are an important part of every culture around the world. They bring people together to celebrate traditions, history, and community. One of the most colorful and joyful festivals is Diwali, also known as the Festival of Lights. It is celebrated in India and many other countries by millions of people.\n\nDiwali marks the victory of light over darkness and good over evil. People clean their homes, wear new clothes, and decorate with lamps called diyas. These small oil lamps are placed around homes, temples, and streets to create a beautiful and welcoming atmosphere. Fireworks and colorful rangoli designs made with powders or flowers are also an important part of the celebrations.\n\nFood plays a central role during Diwali. Families prepare special sweets and dishes to share with friends and neighbors. One popular sweet is gulab jamun, which is made of milk solids and soaked in syrup. Sharing food symbolizes love, unity, and happiness.\n\nDiwali is not just about fun and celebration; it is also a time for reflection and giving. Many people donate food, clothes, and money to those in need. It is believed that helping others brings good fortune and happiness.\n\nFestivals like Diwali remind us of the importance of family, kindness, and tradition. They teach us to celebrate our differences and to come together as a community. Whether it is lighting a diya or sharing a meal, every small act during Diwali carries a message of love and hope.",
+      "contentTr": "Festivaller, dünya çapında her kültürün önemli bir parçasıdır. İnsanları bir araya getirerek gelenekleri, tarihi ve topluluğu kutlamalarını sağlar. En renkli ve neşeli festivallerden biri, Işık Festivali olarak da bilinen Diwali'dir. Hindistan'da ve birçok diğer ülkede milyonlarca insan tarafından kutlanır.\n\nDiwali, ışığın karanlığa ve iyiliğin kötülüğe karşı zaferini simgeler. İnsanlar evlerini temizler, yeni kıyafetler giyer ve diyas adı verilen lambalarla süsler. Bu küçük yağ lambaları evlerde, tapınaklarda ve sokaklarda yerleştirilerek güzel ve sıcak bir atmosfer yaratır. Havai fişekler ve renkli rangoli desenleri de kutlamaların önemli bir parçasıdır. Rangoli, genellikle renkli tozlar veya çiçeklerle yapılır.\n\nDiwali'de yiyecekler merkezi bir rol oynar. Aileler, arkadaşları ve komşularıyla paylaşmak için özel tatlılar ve yemekler hazırlar. Popüler bir tatlı olan gulab jamun, süt katılarından yapılır ve şuruba batırılır. Yiyecek paylaşmak, sevgi, birlik ve mutluluğun bir sembolüdür.\n\nDiwali sadece eğlence ve kutlamadan ibaret değildir; aynı zamanda düşünme ve verme zamanıdır. Birçok insan, ihtiyaç sahiplerine yiyecek, kıyafet ve para bağışlar. Başkalarına yardım etmenin, iyi şans ve mutluluk getirdiğine inanılır.\n\nDiwali gibi festivaller, bize aile, nezaket ve geleneğin önemini hatırlatır. Farklılıklarımızı kutlamayı ve topluluk olarak bir araya gelmeyi öğretir. İster bir diya yakmak ister bir yemek paylaşmak olsun, Diwali sırasında yapılan her küçük eylem sevgi ve umut mesajı taşır.",
+      "words": [
+        {
+          "key": "community",
+          "value": "topluluk"
+        },
+        {
+          "key": "darkness",
+          "value": "karanlık"
+        },
+        {
+          "key": "evil",
+          "value": "kötülük"
+        },
+        {
+          "key": "decorate",
+          "value": "süslemek"
+        },
+        {
+          "key": "lamp",
+          "value": "lamba"
+        },
+        {
+          "key": "diyas",
+          "value": "diyas"
+        },
+        {
+          "key": "Fireworks",
+          "value": "havaifişekler"
+        },
+        {
+          "key": "rangoli",
+          "value": "rangoli"
+        },
+        {
+          "key": "sweets",
+          "value": "tatlılar"
+        },
+        {
+          "key": "share",
+          "value": "paylaşmak"
+        },
+        {
+          "key": "reflection",
+          "value": "düşünme"
+        },
+        {
+          "key": "donate",
+          "value": "bağışlamak"
+        },
+        {
+          "key": "hope",
+          "value": "umut"
+        },
+        {
+          "key": "love",
+          "value": "sevgi"
+        },
+        {
+          "key": "kindness",
+          "value": "nezaket"
+        },
+        {
+          "key": "symbolize",
+          "value": "sembolize etmek"
+        },
+        {
+          "key": "victory",
+          "value": "zafer"
+        },
+        {
+          "key": "prepare",
+          "value": "hazırlamak"
+        },
+        {
+          "key": "happiness",
+          "value": "mutluluk"
+        },
+        {
+          "key": "reflect",
+          "value": "düşünmek"
+        },
+        {
+          "key": "culture",
+          "value": "kültür"
+        },
+        {
+          "key": "atmosphere",
+          "value": "atmosfer"
+        },
+        {
+          "key": "celebrate",
+          "value": "kutlamak"
+        },
+        {
+          "key": "fortune",
+          "value": "şans"
+        },
+        {
+          "key": "act",
+          "value": "eylem"
+        }
+      ],
+      "imageUrl": "https://www.icnnational.com/wp-content/uploads/Diwali-2.webp",
+      "title": "The Festival of Lights: Diwali",
+      "level": "B1",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Mountains are among the most fascinating natural formations on Earth. They have been a source of inspiration, challenge, and mystery for centuries. Whether used for climbing, skiing, or simply enjoying their breathtaking views, mountains hold a special place in human history and culture. One of the most famous mountain ranges is the Himalayas, home to Mount Everest, the tallest peak in the world.\n\nMountains form when tectonic plates collide or shift, causing the Earth's crust to rise. This process can take millions of years. Some mountains, like the Rockies or the Andes, are relatively young, geologically speaking. Others, such as the Appalachian Mountains, are ancient and have been eroded over time, making them less sharp but no less significant.\n\nMountains play a crucial role in Earth's ecosystems. They are home to diverse flora and fauna that have adapted to harsh conditions. Snow-capped peaks act as natural water reservoirs, feeding rivers and supporting agriculture in surrounding regions. However, these ecosystems are fragile. Climate change is causing glaciers to melt at alarming rates, threatening both biodiversity and water resources.\n\nMountains are also deeply tied to human culture. Many religions consider them sacred. For instance, Mount Kailash in Tibet is regarded as a holy site in Hinduism, Buddhism, Jainism, and Bon. Mount Fuji in Japan holds a similar spiritual significance. Moreover, mountains have inspired art, literature, and music throughout history.\n\nAdventure seekers often flock to mountains for hiking, rock climbing, and extreme sports. However, these activities require skill, preparation, and respect for nature. Many climbers face challenges such as altitude sickness, unpredictable weather, and physical exhaustion. Despite these risks, the allure of reaching the summit continues to draw people worldwide.\n\nIn addition to their beauty and cultural importance, mountains have economic value. They attract millions of tourists each year, boosting local economies. Mountain regions are also rich in natural resources, including minerals and forests. However, overexploitation poses significant environmental challenges.\n\nMountains remind us of the power and beauty of nature. They stand as symbols of endurance, strength, and the human spirit's desire to overcome obstacles. Protecting these majestic formations is not just an environmental necessity but also a way to preserve their cultural and historical significance for future generations.",
+      "contentTr": "Dağlar, Dünya'daki en büyüleyici doğal oluşumlardan biridir. Yüzyıllardır insanlara ilham kaynağı olmuş, meydan okumalar sunmuş ve gizem barındırmıştır. Tırmanış, kayak ya da sadece nefes kesici manzaralarını izlemek için kullanılsın, dağlar insanlık tarihinin ve kültürünün özel bir parçasını oluşturur. Dünyanın en ünlü dağ zincirlerinden biri, Everest Dağı'na ev sahipliği yapan Himalayalardır.\n\nDağlar, tektonik plakaların çarpışması veya hareket etmesiyle oluşur ve bu süreç milyonlarca yıl sürebilir. Kaya Dağları veya And Dağları gibi bazı dağlar, jeolojik olarak nispeten gençtir. Diğerleri, örneğin Appalachian Dağları, antiktir ve zamanla aşınarak daha az keskin ama bir o kadar önemli hale gelmiştir.\n\nDağlar, Dünya'nın ekosistemlerinde hayati bir rol oynar. Zorlu koşullara uyum sağlamış çeşitli bitki ve hayvan türlerine ev sahipliği yapar. Karla kaplı zirveler, doğal su rezervuarları olarak görev yapar, nehirleri besler ve çevre bölgelerde tarımı destekler. Ancak bu ekosistemler kırılgandır. İklim değişikliği, buzulların alarm verici bir hızla erimesine neden olarak biyolojik çeşitliliği ve su kaynaklarını tehdit ediyor.\n\nDağlar, insan kültürüyle de derin bağlara sahiptir. Birçok din, onları kutsal kabul eder. Örneğin, Tibet'teki Kailash Dağı, Hinduizm, Budizm, Jainizm ve Bon inançlarında kutsal bir alan olarak görülür. Japonya'daki Fuji Dağı da benzer bir ruhsal öneme sahiptir. Ayrıca, tarih boyunca dağlar sanat, edebiyat ve müziğe ilham vermiştir.\n\nMaceraperestler, genellikle dağlarda yürüyüş, kaya tırmanışı ve ekstrem sporlar için toplanır. Ancak bu aktiviteler beceri, hazırlık ve doğaya saygı gerektirir. Birçok dağcı, irtifa hastalığı, tahmin edilemez hava koşulları ve fiziksel tükenmişlik gibi zorluklarla karşılaşır. Bu risklere rağmen, zirveye ulaşma cazibesi dünya çapında insanları kendine çeker.\n\nGüzellikleri ve kültürel önemi dışında, dağların ekonomik değeri de vardır. Her yıl milyonlarca turist çeker ve yerel ekonomileri canlandırır. Dağ bölgeleri, mineraller ve ormanlar dahil olmak üzere doğal kaynaklar açısından da zengindir. Ancak, aşırı kullanım önemli çevresel sorunlara yol açabilir.\n\nDağlar, doğanın gücünü ve güzelliğini hatırlatır. Direnç, güç ve insan ruhunun zorlukları aşma isteğinin sembolü olarak dururlar. Bu muhteşem oluşumları korumak, sadece çevresel bir gereklilik değil, aynı zamanda onların kültürel ve tarihi önemini gelecek nesiller için muhafaza etmenin bir yoludur.",
+      "words": [
+        {
+          "key": "formation",
+          "value": "oluşum"
+        },
+        {
+          "key": "tectonic plates",
+          "value": "tektonik plakalar"
+        },
+        {
+          "key": "erosion",
+          "value": "erozyon"
+        },
+        {
+          "key": "flora",
+          "value": "bitki örtüsü"
+        },
+        {
+          "key": "fauna",
+          "value": "hayvan topluluğu"
+        },
+        {
+          "key": "reservoir",
+          "value": "rezervuar"
+        },
+        {
+          "key": "biodiversity",
+          "value": "biyolojik çeşitlilik"
+        },
+        {
+          "key": "glacier",
+          "value": "buzul"
+        },
+        {
+          "key": "altitude sickness",
+          "value": "irtifa hastalığı"
+        },
+        {
+          "key": "summit",
+          "value": "zirve"
+        },
+        {
+          "key": "natural resource",
+          "value": "doğal kaynak"
+        },
+        {
+          "key": "sacred",
+          "value": "kutsal"
+        },
+        {
+          "key": "religion",
+          "value": "din"
+        },
+        {
+          "key": "endurance",
+          "value": "dayanıklılık"
+        },
+        {
+          "key": "strength",
+          "value": "güç"
+        },
+        {
+          "key": "overcome",
+          "value": "üstesinden gelmek"
+        },
+        {
+          "key": "harsh",
+          "value": "sert"
+        },
+        {
+          "key": "extreme sports",
+          "value": "ekstrem sporlar"
+        },
+        {
+          "key": "overexploitation",
+          "value": "aşırı kullanım"
+        },
+        {
+          "key": "tourism",
+          "value": "turizm"
+        },
+        {
+          "key": "economy",
+          "value": "ekonomi"
+        },
+        {
+          "key": "weather",
+          "value": "hava durumu"
+        },
+        {
+          "key": "preserve",
+          "value": "korumak"
+        },
+        {
+          "key": "future generations",
+          "value": "gelecek nesiller"
+        },
+        {
+          "key": "obstacle",
+          "value": "engel"
+        },
+        {
+          "key": "majestic",
+          "value": "heybetli"
+        },
+        {
+          "key": "ancient",
+          "value": "antik"
+        },
+        {
+          "key": "geology",
+          "value": "jeoloji"
+        },
+        {
+          "key": "symbolize",
+          "value": "sembolize etmek"
+        },
+        {
+          "key": "challenge",
+          "value": "meydan okuma"
+        },
+        {
+          "key": "unpredictable",
+          "value": "öngörülemez"
+        }
+      ],
+      "imageUrl": "https://i0.wp.com/christianpublishinghouse.co/wp-content/uploads/2024/02/Majesty-of-Mountains-HEADER-1200x675-01.jpg?fit=1200%2C675&ssl=1",
+      "title": "The Majesty of Mountains",
+      "level": "B2",
+      "genre": "Nature",
+      "isNew": false,
+      "min": "7 min"
+    },
+    {
+      "content": "The history of the printing press is one of humanity's most significant technological advancements. Before its invention, books were copied by hand, a laborious and time-consuming process that limited the availability of knowledge to the wealthy and educated elite. The invention of the printing press changed everything, revolutionizing communication and laying the foundation for the modern world.\n\nThe printing press was invented by Johannes Gutenberg in the mid-15th century in Germany. Gutenberg's innovation combined movable type, ink, and a press mechanism to produce books more quickly and efficiently than ever before. His most famous work, the Gutenberg Bible, is considered a masterpiece of early printing. This invention democratized knowledge, making books more affordable and accessible to a broader audience.\n\nThe spread of printed materials had profound effects on society. One of the most significant impacts was on education. With more books available, literacy rates began to rise. Schools and universities grew in number, and people from diverse backgrounds gained access to knowledge previously reserved for the privileged few. The printing press also facilitated the rapid spread of new ideas, fueling movements like the Renaissance and the Reformation.\n\nIn addition to education, the printing press revolutionized communication. Newspapers and pamphlets became common, allowing people to stay informed about local and global events. Governments used printed materials to share laws and decrees, while businesses utilized them for advertisements. This newfound ability to communicate efficiently played a key role in shaping political and economic systems.\n\nDespite its many benefits, the printing press also had challenges. The rapid spread of information sometimes led to the dissemination of false or biased content, a problem that persists even today in digital media. However, the overall impact of the printing press remains overwhelmingly positive.\n\nIn conclusion, the printing press is a cornerstone of modern society. It transformed education, communication, and culture, paving the way for a more informed and connected world. Its legacy continues to influence how we share and access information today.",
+      "contentTr": "Matbaanın tarihi, insanlığın en önemli teknolojik gelişmelerinden biridir. Matbaanın icadından önce kitaplar elle kopyalanıyordu; bu zahmetli ve zaman alıcı süreç, bilginin yalnızca zengin ve eğitimli elit kesime ulaşmasını sağlıyordu. Matbaanın icadı ise her şeyi değiştirdi; iletişimi devrimleştirerek modern dünyanın temellerini attı.\n\nMatbaa, On beşinci yüzyılın ortalarında Almanya'da Johannes Gutenberg tarafından icat edildi. Gutenberg'in yeniliği, hareketli harf, mürekkep ve baskı mekanizmasını bir araya getirerek kitapların daha hızlı ve verimli bir şekilde üretilmesini sağladı. Onun en ünlü eseri olan Gutenberg İncili, erken dönem baskıcılığın bir başyapıtı olarak kabul edilir. Bu buluş, bilgiyi demokratikleştirerek kitapları daha uygun fiyatlı ve geniş kitlelere ulaşılabilir hale getirdi.\n\nBasılı materyallerin yayılması, toplum üzerinde derin etkiler yarattı. En önemli etkilerden biri eğitim üzerindeydi. Daha fazla kitabın mevcut olmasıyla okuryazarlık oranları artmaya başladı. Okullar ve üniversiteler çoğaldı ve farklı geçmişlerden gelen insanlar, önceden yalnızca ayrıcalıklı azınlığa sunulan bilgiye erişim kazandı. Matbaa aynı zamanda Rönesans ve Reform gibi hareketleri ateşleyerek yeni fikirlerin hızlı bir şekilde yayılmasını sağladı.\n\nEğitim dışında matbaa, iletişimi de devrimleştirdi. Gazeteler ve broşürler yaygınlaştı ve insanlar yerel ve küresel olaylardan haberdar olabildi. Hükümetler yasaları ve kararları paylaşmak için basılı materyalleri kullandı, işletmeler ise reklamlar için bu materyallere başvurdu. Bu yeni iletişim kapasitesi, siyasi ve ekonomik sistemlerin şekillenmesinde önemli bir rol oynadı.\n\nTüm faydalarına rağmen matbaanın da bazı zorlukları vardı. Bilginin hızlı yayılması, bazen yanlış veya taraflı içeriklerin yayılmasına yol açtı. Ancak, matbaanın genel etkisi ezici bir şekilde olumludur.\n\nSonuç olarak matbaa, modern toplumun temel taşlarından biridir. Eğitimi, iletişimi ve kültürü dönüştürerek daha bilgili ve bağlantılı bir dünya için zemin hazırlamıştır. Mirası, bugün bilgiyi nasıl paylaştığımız ve eriştiğimiz konusunda etkisini sürdürmeye devam etmektedir.",
+      "words": [
+        {
+          "key": "printing press",
+          "value": "matbaa"
+        },
+        {
+          "key": "knowledge",
+          "value": "bilgi"
+        },
+        {
+          "key": "elite",
+          "value": "elit"
+        },
+        {
+          "key": "revolutionize",
+          "value": "devrimleştirmek"
+        },
+        {
+          "key": "movable type",
+          "value": "hareketli harf"
+        },
+        {
+          "key": "innovation",
+          "value": "yenilik"
+        },
+        {
+          "key": "accessible",
+          "value": "erişilebilir"
+        },
+        {
+          "key": "literacy",
+          "value": "okuryazarlık"
+        },
+        {
+          "key": "Renaissance",
+          "value": "Rönesans"
+        },
+        {
+          "key": "Reformation",
+          "value": "Reform"
+        },
+        {
+          "key": "pamphlet",
+          "value": "broşür"
+        },
+        {
+          "key": "advertisement",
+          "value": "reklam"
+        },
+        {
+          "key": "decree",
+          "value": "kararname"
+        },
+        {
+          "key": "education",
+          "value": "eğitim"
+        },
+        {
+          "key": "society",
+          "value": "toplum"
+        },
+        {
+          "key": "communication",
+          "value": "iletişim"
+        },
+        {
+          "key": "transform",
+          "value": "dönüştürmek"
+        },
+        {
+          "key": "bias",
+          "value": "taraflılık"
+        },
+        {
+          "key": "false",
+          "value": "yanlış"
+        },
+        {
+          "key": "accessible",
+          "value": "erişilebilir"
+        },
+        {
+          "key": "legacy",
+          "value": "miras"
+        },
+        {
+          "key": "foundations",
+          "value": "temeller"
+        },
+        {
+          "key": "spread",
+          "value": "yayılma"
+        },
+        {
+          "key": "efficiently",
+          "value": "verimli bir şekilde"
+        },
+        {
+          "key": "profound",
+          "value": "derin"
+        },
+        {
+          "key": "impact",
+          "value": "etki"
+        },
+        {
+          "key": "connected",
+          "value": "bağlantılı"
+        },
+        {
+          "key": "dissemination",
+          "value": "yayılma"
+        },
+        {
+          "key": "education",
+          "value": "eğitim"
+        },
+        {
+          "key": "modern society",
+          "value": "modern toplum"
+        },
+        {
+          "key": "challenge",
+          "value": "zorluk"
+        },
+        {
+          "key": "privileged",
+          "value": "ayrıcalıklı"
+        },
+        {
+          "key": "transformative",
+          "value": "dönüştürücü"
+        }
+      ],
+      "imageUrl": "https://cdn.britannica.com/89/171689-138-FCD8F373/history-printing-press-work-discussion-Johannes-Gutenberg.jpg?w=800&h=450&c=crop",
+      "title": "The Invention of the Printing Press",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "7 min"
+    },
+    {
+      "content": "Airplanes have revolutionized how people travel. Before the invention of airplanes, long-distance travel was slow and exhausting. It took weeks or even months to cross oceans by ship. Today, airplanes allow people to travel thousands of miles in just a few hours. They have made the world more connected and accessible.\n\nThe first successful powered flight was made by the Wright brothers in 1903. Their plane, called the Wright Flyer, flew for only 12 seconds. Despite this short flight, it was a huge achievement and marked the beginning of modern aviation. Over time, airplanes became faster, safer, and more comfortable.\n\nModern airplanes are complex machines that use advanced technology. They are designed to be lightweight but strong. Airplanes are equipped with powerful engines that lift them into the sky and allow them to fly at high speeds. Inside the cabin, passengers can enjoy comfortable seating, entertainment, and meals, even on long flights.\n\nAir travel has many advantages. It is the fastest way to travel long distances. Airplanes are also the best option for reaching remote locations, such as islands or isolated regions. Additionally, air travel supports global trade by transporting goods quickly between countries.\n\nHowever, air travel has some disadvantages too. Airplane tickets can be expensive, especially for international flights. Airports can be crowded, and passengers often face long lines and security checks. Furthermore, airplanes contribute to air pollution and carbon emissions, which affect the environment.\n\nDespite these challenges, airplanes remain an essential part of modern life. They have transformed the way people live, work, and explore the world. As technology continues to improve, airplanes will likely become even more efficient and environmentally friendly in the future.",
+      "contentTr": "Uçaklar, insanların seyahat etme şeklini tamamen değiştirdi. Uçakların icadından önce, uzun mesafeli seyahatler yavaş ve yorucuydu. Okyanusları gemiyle geçmek haftalar hatta aylar alıyordu. Günümüzde uçaklar, insanların binlerce mil uzağa sadece birkaç saat içinde seyahat etmesine olanak tanıyor. Bu, dünyayı daha bağlantılı ve ulaşılabilir hale getirdi.\n\nİlk başarılı motorlu uçuş, Wright kardeşler tarafından 1903 yılında gerçekleştirildi. Wright Flyer adını verdikleri uçak, sadece 12 saniye uçtu. Bu kısa uçuşa rağmen, büyük bir başarıydı ve modern havacılığın başlangıcını işaret ediyordu. Zamanla uçaklar daha hızlı, daha güvenli ve daha konforlu hale geldi.\n\nModern uçaklar, ileri teknoloji kullanan karmaşık makinelerdir. Hafif ama dayanıklı olacak şekilde tasarlanmıştır. Uçaklar, güçlü motorlarla donatılmıştır ve bu motorlar onları gökyüzüne kaldırır ve yüksek hızlarda uçmalarını sağlar. Kabin içinde, yolcular uzun uçuşlarda bile rahat koltukların, eğlencenin ve yemeklerin keyfini çıkarabilir.\n\nHava yolculuğunun birçok avantajı vardır. Uzun mesafeleri seyahat etmenin en hızlı yoludur. Ayrıca, adalar veya izole bölgeler gibi uzak yerlere ulaşmak için en iyi seçenektir. Ek olarak, hava yolculuğu, malların ülkeler arasında hızlı bir şekilde taşınmasını sağlayarak küresel ticarete destek olur.\n\nBununla birlikte, hava yolculuğunun bazı dezavantajları da vardır. Uçak biletleri, özellikle uluslararası uçuşlar için pahalı olabilir. Havalimanları kalabalık olabilir ve yolcular genellikle uzun kuyruklar ve güvenlik kontrolleriyle karşılaşır. Ayrıca, uçaklar çevreyi etkileyen hava kirliliği ve karbon emisyonlarına katkıda bulunur.\n\nBu zorluklara rağmen, uçaklar modern yaşamın vazgeçilmez bir parçası olmaya devam ediyor. İnsanların yaşama, çalışma ve dünyayı keşfetme şeklini dönüştürdü. Teknoloji ilerlemeye devam ettikçe, uçakların daha verimli ve çevre dostu hale gelmesi muhtemeldir.",
+      "words": [
+        {
+          "key": "Airplane",
+          "value": "uçak"
+        },
+        {
+          "key": "flight",
+          "value": "uçuş"
+        },
+        {
+          "key": "long-distance",
+          "value": "uzun mesafe"
+        },
+        {
+          "key": "connected",
+          "value": "bağlantılı"
+        },
+        {
+          "key": "aviation",
+          "value": "havacılık"
+        },
+        {
+          "key": "technology",
+          "value": "teknoloji"
+        },
+        {
+          "key": "engine",
+          "value": "motor"
+        },
+        {
+          "key": "cabin",
+          "value": "kabin"
+        },
+        {
+          "key": "passenger",
+          "value": "yolcu"
+        },
+        {
+          "key": "comfortable",
+          "value": "rahat"
+        },
+        {
+          "key": "trade",
+          "value": "ticaret"
+        },
+        {
+          "key": "goods",
+          "value": "mallar"
+        },
+        {
+          "key": "carbon emissions",
+          "value": "karbon emisyonları"
+        },
+        {
+          "key": "pollution",
+          "value": "kirlilik"
+        },
+        {
+          "key": "efficient",
+          "value": "verimli"
+        },
+        {
+          "key": "international",
+          "value": "uluslararası"
+        },
+        {
+          "key": "remote",
+          "value": "uzak"
+        },
+        {
+          "key": "explore",
+          "value": "keşfetmek"
+        },
+        {
+          "key": "transform",
+          "value": "dönüştürmek"
+        },
+        {
+          "key": "revolutionize",
+          "value": "devrim yaratmak"
+        },
+        {
+          "key": "security",
+          "value": "güvenlik"
+        },
+        {
+          "key": "modern",
+          "value": "modern"
+        },
+        {
+          "key": "invention",
+          "value": "icat"
+        },
+        {
+          "key": "urbanization",
+          "value": "kentleşme"
+        },
+        {
+          "key": "transport",
+          "value": "taşımak"
+        }
+      ],
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQGj0mGFpDAkJQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1699896248356?e=2147483647&v=beta&t=D9iSafZdsdGkvHHpw5PNjDDJw1BqfZAq9iQ-GRTHLCA",
+      "title": "The Impact of Airplanes on Modern Life",
+      "level": "B1",
+      "genre": "Technology",
+      "isNew": false,
+      "min": "3 min"
+    },
+    {
+      "content": "Mount Nemrut, located in southeastern Turkey, is a UNESCO World Heritage Site known for its extraordinary historical and cultural significance. Standing at an altitude of 2,134 meters, it is home to the fascinating remnants of the Kingdom of Commagene, an ancient civilization that thrived over 2,000 years ago.\n\nThe site is famous for its colossal statues that represent gods, eagles, lions, and King Antiochus I, who ruled the kingdom. These statues, carved from limestone, are arranged around a large burial mound believed to be the tomb of King Antiochus. The heads of the statues have fallen from their bodies over time and now lie scattered across the terraces, adding a mysterious charm to the site.\n\nOne of the most captivating aspects of Mount Nemrut is the sunrise and sunset. Visitors from around the world come to witness the golden light illuminating the statues and the surrounding landscape. This breathtaking view makes it a popular destination for both history enthusiasts and nature lovers.\n\nThe construction of the site is considered a remarkable achievement of ancient engineering. The burial mound is composed of thousands of small stones, carefully placed to create a pyramid-like structure. This design has preserved the site for centuries, even under challenging weather conditions.\n\nMount Nemrut offers a glimpse into the religious and political life of the Commagene Kingdom. The inscriptions found on the site provide valuable insights into the beliefs and aspirations of the ancient people, showcasing their desire to bridge the cultures of East and West.\n\nToday, Mount Nemrut continues to be a symbol of cultural heritage and a testament to human creativity. It invites visitors to explore its rich history, enjoy its natural beauty, and reflect on the legacy of the civilizations that once called it home.",
+      "contentTr": "Türkiye'nin güneydoğusunda yer alan Nemrut Dağı, olağanüstü tarihi ve kültürel önemi nedeniyle UNESCO Dünya Mirası Listesi'nde yer almaktadır. 2134 metre rakıma sahip olan dağ, iki bin yıldan daha uzun bir süre önce var olmuş Kommagene Krallığı'nın büyüleyici kalıntılarına ev sahipliği yapmaktadır.\n\nNemrut Dağı, tanrıları, kartalları, aslanları ve Kral Birinci Antiochus'u temsil eden devasa heykelleriyle ünlüdür. Kireçtaşından oyulan bu heykeller, Kral Antiochus’un mezarı olduğuna inanılan büyük bir tümülüs etrafında dizilmiştir. Zamanla heykellerin başları vücutlarından ayrılmış ve teraslara dağılmış, siteye gizemli bir cazibe katmıştır.\n\nNemrut Dağı’nın en büyüleyici yönlerinden biri gün doğumu ve gün batımıdır. Dünyanın dört bir yanından ziyaretçiler, heykelleri ve çevresindeki manzarayı aydınlatan altın ışığı izlemek için gelir. Bu nefes kesici manzara, tarihi meraklıları ve doğa severler için popüler bir destinasyon haline gelmiştir.\n\nSitenin inşası, antik mühendisliğin dikkat çekici bir başarısı olarak kabul edilmektedir. Tümülüs, piramit benzeri bir yapı oluşturmak için dikkatlice yerleştirilmiş binlerce küçük taşla yapılmıştır. Bu tasarım, zorlu hava koşullarına rağmen bölgenin yüzyıllar boyunca korunmasını sağlamıştır.\n\nNemrut Dağı, Kommagene Krallığı’nın dini ve siyasi yaşamına bir pencere sunmaktadır. Sitede bulunan yazıtlar, antik halkın inançlarına ve hayallerine dair değerli bilgiler sağlar ve Doğu ile Batı’nın kültürlerini birleştirme arzusunu ortaya koyar.\n\nGünümüzde Nemrut Dağı, kültürel mirasın bir sembolü ve insan yaratıcılığının bir kanıtı olmaya devam etmektedir. Ziyaretçileri, zengin tarihini keşfetmeye, doğal güzelliklerinin tadını çıkarmaya ve bir zamanlar bu bölgeye ev sahipliği yapan medeniyetlerin mirası üzerine düşünmeye davet etmektedir.",
+      "words": [
+        {
+          "key": "altitude",
+          "value": "yükseklik"
+        },
+        {
+          "key": "heritage",
+          "value": "miras"
+        },
+        {
+          "key": "civilization",
+          "value": "medeniyet"
+        },
+        {
+          "key": "colossal",
+          "value": "devasa"
+        },
+        {
+          "key": "statue",
+          "value": "heykel"
+        },
+        {
+          "key": "ancient",
+          "value": "antik"
+        },
+        {
+          "key": "kingdom",
+          "value": "krallık"
+        },
+        {
+          "key": "burial mound",
+          "value": "tümülüs"
+        },
+        {
+          "key": "terrace",
+          "value": "teras"
+        },
+        {
+          "key": "sunrise",
+          "value": "gün doğumu"
+        },
+        {
+          "key": "sunset",
+          "value": "gün batımı"
+        },
+        {
+          "key": "pyramid-like",
+          "value": "piramit benzeri"
+        },
+        {
+          "key": "inscription",
+          "value": "yazıt"
+        },
+        {
+          "key": "legacy",
+          "value": "miras"
+        },
+        {
+          "key": "creativity",
+          "value": "yaratıcılık"
+        },
+        {
+          "key": "testament",
+          "value": "kanıt"
+        },
+        {
+          "key": "political",
+          "value": "siyasi"
+        },
+        {
+          "key": "religious",
+          "value": "dini"
+        },
+        {
+          "key": "belief",
+          "value": "inanç"
+        },
+        {
+          "key": "aspiration",
+          "value": "arzu"
+        },
+        {
+          "key": "weather condition",
+          "value": "hava durumu"
+        },
+        {
+          "key": "mystery",
+          "value": "gizem"
+        },
+        {
+          "key": "cultural significance",
+          "value": "kültürel önem"
+        }
+      ],
+      "imageUrl": "https://www.anatoliatravelservices.com/img/rehber/adiyaman-home-of-mount-nemrut.jpg",
+      "title": "Mount Nemrut: A Historical Marvel",
+      "level": "B2",
+      "genre": "Culture",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Native Americans, often referred to as Indigenous peoples, are the original inhabitants of the Americas. They have lived on the continent for thousands of years, developing diverse cultures, languages, and traditions. Despite centuries of change and challenges, Native Americans continue to play an important role in the cultural and historical identity of the United States.\n\nBefore the arrival of Europeans, Native American tribes thrived across North and South America. Each tribe had its unique way of life, influenced by the environment in which they lived. For example, the Plains tribes, such as the Sioux and Cheyenne, relied heavily on buffalo for food, clothing, and tools. Meanwhile, tribes like the Iroquois in the northeastern forests built longhouses and practiced agriculture, growing crops such as corn, beans, and squash.\n\nArt, music, and storytelling were essential aspects of Native American culture. Many tribes used oral traditions to pass down their history and values from generation to generation. Storytelling often included myths and legends that explained the origins of the world, nature, and their spiritual beliefs. Traditional music, played with drums and flutes, was central to ceremonies and rituals, reflecting their connection to the land and spirituality.\n\nHowever, Native Americans faced significant hardships with the arrival of European settlers. Colonization, wars, and forced removals disrupted their lives and led to the loss of land and resources. Policies such as the Trail of Tears and the establishment of reservations caused immense suffering. Many Indigenous peoples were also forced to abandon their languages and cultural practices due to assimilation efforts.\n\nDespite these challenges, Native Americans have worked tirelessly to preserve their heritage. Today, there are over 500 federally recognized tribes in the United States, each with its own government and traditions. Native American communities celebrate their culture through powwows, dances, and festivals, which serve as a reminder of their resilience and rich history.\n\nIn conclusion, Native Americans are a vital part of the history and identity of the Americas. Their traditions and contributions continue to enrich society, reminding us of the importance of preserving and respecting cultural diversity.",
+      "contentTr": "Genellikle Amerikanın Yerlileri olarak adlandırılan Kızılderililer, Amerika kıtalarının ilk sakinleridir. Binlerce yıl boyunca kıtada yaşamış, çeşitli kültürler, diller ve gelenekler geliştirmişlerdir. Yüzyıllar süren değişim ve zorluklara rağmen, Kızılderililer Amerika Birleşik Devletleri'nin kültürel ve tarihi kimliğinde önemli bir rol oynamaya devam etmektedir.\n\nAvrupalılar gelmeden önce, Kızılderili kabileleri Kuzey ve Güney Amerika’da gelişmiş bir yaşam sürüyordu. Her kabile, yaşadıkları çevreden etkilenen kendine özgü bir yaşam tarzına sahipti. Örneğin, Sioux ve Cheyenne gibi Ovalar kabileleri, yiyecek, giysi ve aletler için büyük ölçüde bufaloya dayanıyordu. Diğer yandan, kuzeydoğudaki ormanlık alanlarda yaşayan İroquois gibi kabileler, uzun evler inşa ediyor ve mısır, fasulye ve kabak gibi ürünler yetiştirerek tarım yapıyordu.\n\nSanat, müzik ve hikâye anlatımı, Kızılderili kültürünün temel unsurlarıydı. Pek çok kabile, tarihlerini ve değerlerini nesilden nesile aktarmak için sözlü gelenekleri kullanıyordu. Hikâye anlatımı genellikle dünyanın, doğanın ve manevi inançlarının kökenlerini açıklayan mitler ve efsaneleri içeriyordu. Davul ve flüt gibi enstrümanlarla çalınan geleneksel müzik, törenler ve ritüellerin merkezinde yer alır, toprağa ve maneviyata olan bağlılıklarını yansıtırdı.\n\nAncak, Avrupalı yerleşimcilerin gelişiyle Kızılderililer büyük zorluklarla karşılaştı. Sömürgeleştirme, savaşlar ve zorla göç ettirme, yaşamlarını alt üst ederek toprak ve kaynak kaybına neden oldu. Gözyaşı Yolu gibi politikalar ve rezervasyonların kurulması büyük acılar yaşattı. Ayrıca, birçok Yerli Halk, asimilasyon çabaları nedeniyle dillerini ve kültürel uygulamalarını terk etmek zorunda kaldı.\n\nTüm bu zorluklara rağmen, Kızılderililer miraslarını korumak için yorulmadan çalıştılar. Günümüzde, Amerika Birleşik Devletleri'nde 500'den fazla federal olarak tanınan kabile bulunmaktadır ve her birinin kendi hükümeti ve gelenekleri vardır. Kızılderili toplulukları, kültürlerini powwowlar, danslar ve festivallerle kutlar; bu etkinlikler onların direncini ve zengin tarihini hatırlatır.\n\nSonuç olarak, Kızılderililer Amerika kıtalarının tarih ve kimliğinin hayati bir parçasıdır. Gelenekleri ve katkıları, kültürel çeşitliliği korumanın ve saygı göstermenin önemini bize hatırlatarak toplumu zenginleştirmeye devam etmektedir.",
+      "words": [
+        {
+          "key": "Indigenous",
+          "value": "yerli"
+        },
+        {
+          "key": "tribe",
+          "value": "kabile"
+        },
+        {
+          "key": "heritage",
+          "value": "miras"
+        },
+        {
+          "key": "oral traditions",
+          "value": "sözlü gelenekler"
+        },
+        {
+          "key": "myth",
+          "value": "mit"
+        },
+        {
+          "key": "legend",
+          "value": "efsane"
+        },
+        {
+          "key": "spirituality",
+          "value": "maneviyat"
+        },
+        {
+          "key": "buffalo",
+          "value": "bufalo"
+        },
+        {
+          "key": "reservation",
+          "value": "rezervasyon bölgesi"
+        },
+        {
+          "key": "assimilation",
+          "value": "asimilasyon"
+        },
+        {
+          "key": "powwow",
+          "value": "powwow (Kızılderili toplantısı)"
+        },
+        {
+          "key": "resilience",
+          "value": "dayanıklılık"
+        },
+        {
+          "key": "diversity",
+          "value": "çeşitlilik"
+        },
+        {
+          "key": "ceremony",
+          "value": "tören"
+        },
+        {
+          "key": "ritual",
+          "value": "ritüel"
+        },
+        {
+          "key": "settler",
+          "value": "yerleşimci"
+        },
+        {
+          "key": "colonization",
+          "value": "sömürgeleştirme"
+        },
+        {
+          "key": "land loss",
+          "value": "toprak kaybı"
+        },
+        {
+          "key": "cultural practices",
+          "value": "kültürel uygulamalar"
+        },
+        {
+          "key": "agriculture",
+          "value": "tarım"
+        },
+        {
+          "key": "longhouse",
+          "value": "uzun ev"
+        },
+        {
+          "key": "resources",
+          "value": "kaynaklar"
+        },
+        {
+          "key": "connection",
+          "value": "bağlantı"
+        },
+        {
+          "key": "identity",
+          "value": "kimlik"
+        },
+        {
+          "key": "festival",
+          "value": "festival"
+        },
+        {
+          "key": "historical",
+          "value": "tarihi"
+        },
+        {
+          "key": "instrument",
+          "value": "enstrüman"
+        },
+        {
+          "key": "generations",
+          "value": "nesiller"
+        }
+      ],
+      "imageUrl": "https://www.tarihiolaylar.com/img/tarihiolaylar/tarihi_olaylar_kizilderili-jpg_508156292_1424781012.jpg",
+      "title": "The Legacy of Native Americans",
+      "level": "B2",
+      "genre": "History",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Economics is the study of how societies use limited resources to meet their needs and wants. It plays a crucial role in shaping policies and determining the well-being of people. By understanding the principles of economics, individuals and governments can make informed decisions that affect their lives and the global community.\n\nOne key concept in economics is supply and demand. Supply refers to how much of a product or service is available, while demand represents how much people want it. When demand is high but supply is low, prices often increase. On the other hand, if supply exceeds demand, prices usually decrease. This balance helps determine the value of goods and services in a market.\n\nAnother important aspect of economics is inflation. Inflation occurs when the prices of goods and services rise over time, reducing the purchasing power of money. A small, steady rate of inflation is generally considered healthy for an economy, as it encourages spending and investment. However, high inflation can lead to economic instability, making it harder for people to afford basic necessities.\n\nEconomics also examines unemployment, which measures how many people in a society are without jobs but are actively seeking work. High unemployment rates can weaken an economy, as fewer people earn income and contribute to consumer spending. Governments often implement policies to create jobs and reduce unemployment, such as investing in infrastructure or offering tax incentives to businesses.\n\nGlobal trade is another crucial element of economics. Countries trade goods and services to benefit from resources and expertise that they may lack domestically. For example, a country rich in natural resources might export raw materials while importing advanced technology. Trade agreements and tariffs play a significant role in shaping these exchanges, impacting economies worldwide.\n\nIn conclusion, economics influences many aspects of daily life, from the prices we pay for products to the policies that shape our future. Understanding economic principles allows individuals and nations to navigate challenges and opportunities, creating a better and more prosperous society.",
+      "contentTr": "Ekonomi, toplumların sınırlı kaynakları ihtiyaçlarını ve isteklerini karşılamak için nasıl kullandığını inceleyen bir bilim dalıdır. Politikaların şekillendirilmesinde ve insanların refahının belirlenmesinde hayati bir rol oynar. Ekonomi ilkelerini anlamak, bireylerin ve hükümetlerin yaşamlarını ve küresel toplumu etkileyen bilinçli kararlar almasına yardımcı olabilir.\n\nEkonomideki temel kavramlardan biri arz ve taleptir. Arz, bir ürün veya hizmetin ne kadar mevcut olduğunu ifade ederken, talep insanların onu ne kadar istediğini temsil eder. Talep yüksek, ancak arz düşük olduğunda, fiyatlar genellikle artar. Öte yandan, arz talebi aştığında fiyatlar genellikle düşer. Bu denge, bir piyasada mal ve hizmetlerin değerini belirlemeye yardımcı olur.\n\nEkonominin bir diğer önemli yönü ise enflasyondur. Enflasyon, mal ve hizmetlerin fiyatlarının zamanla artması ve paranın alım gücünün azalması durumudur. Küçük ve istikrarlı bir enflasyon oranı genellikle bir ekonomi için sağlıklı kabul edilir, çünkü harcamaları ve yatırımları teşvik eder. Ancak, yüksek enflasyon ekonomik istikrarsızlığa yol açabilir ve insanların temel ihtiyaçlarını karşılamasını zorlaştırabilir.\n\nEkonomi, aynı zamanda işsizlik oranlarını da inceler. İşsizlik, bir toplumda kaç kişinin işsiz olduğunu ancak aktif olarak iş aradığını ölçer. Yüksek işsizlik oranları bir ekonomiyi zayıflatabilir, çünkü daha az insan gelir elde eder ve tüketici harcamalarına katkıda bulunur. Hükümetler, altyapı yatırımları yapmak veya işletmelere vergi teşvikleri sunmak gibi politikalar uygulayarak işsizliği azaltmaya çalışır.\n\nKüresel ticaret, ekonominin bir diğer önemli unsurudur. Ülkeler, sahip olmadıkları kaynaklardan ve uzmanlıklardan faydalanmak için mal ve hizmet ticareti yapar. Örneğin, doğal kaynaklar açısından zengin bir ülke, ham madde ihraç ederken ileri teknoloji ithal edebilir. Ticaret anlaşmaları ve tarifeler, bu değişimlerin şekillenmesinde önemli bir rol oynar ve dünya ekonomilerini etkiler.\n\nSonuç olarak, ekonomi, günlük yaşamın birçok yönünü etkiler; ödediğimiz fiyatlardan geleceğimizi şekillendiren politikalara kadar. Ekonomik ilkeleri anlamak, bireylerin ve ulusların zorluklar ve fırsatlar arasında yön bulmasını sağlar, daha iyi ve daha müreffeh bir toplum yaratır.",
+      "words": [
+        {
+          "key": "resources",
+          "value": "kaynaklar"
+        },
+        {
+          "key": "supply",
+          "value": "arz"
+        },
+        {
+          "key": "demand",
+          "value": "talep"
+        },
+        {
+          "key": "market",
+          "value": "piyasa"
+        },
+        {
+          "key": "inflation",
+          "value": "enflasyon"
+        },
+        {
+          "key": "purchasing power",
+          "value": "alım gücü"
+        },
+        {
+          "key": "investment",
+          "value": "yatırım"
+        },
+        {
+          "key": "unemployment",
+          "value": "işsizlik"
+        },
+        {
+          "key": "consumer spending",
+          "value": "tüketici harcamaları"
+        },
+        {
+          "key": "infrastructure",
+          "value": "altyapı"
+        },
+        {
+          "key": "tax incentives",
+          "value": "vergi teşvikleri"
+        },
+        {
+          "key": "Global trade",
+          "value": "küresel ticaret"
+        },
+        {
+          "key": "export",
+          "value": "ihracat"
+        },
+        {
+          "key": "trade agreement",
+          "value": "ticaret anlaşması"
+        },
+        {
+          "key": "tariff",
+          "value": "gümrük vergisi"
+        },
+        {
+          "key": "economic stability",
+          "value": "ekonomik istikrar"
+        },
+        {
+          "key": "policy",
+          "value": "politika"
+        },
+        {
+          "key": "prosperity",
+          "value": "refah"
+        },
+        {
+          "key": "society",
+          "value": "toplum"
+        },
+        {
+          "key": "balance",
+          "value": "denge"
+        },
+        {
+          "key": "value",
+          "value": "değer"
+        },
+        {
+          "key": "principle",
+          "value": "ilke"
+        },
+        {
+          "key": "opportunity",
+          "value": "fırsat"
+        },
+        {
+          "key": "challenge",
+          "value": "zorluk"
+        },
+        {
+          "key": "development",
+          "value": "gelişim"
+        },
+        {
+          "key": "natural resources",
+          "value": "doğal kaynaklar"
+        },
+        {
+          "key": "advanced technology",
+          "value": "ileri teknoloji"
+        }
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Economics.jpg/640px-Economics.jpg",
+      "title": "The Fundamentals of Economics",
+      "level": "B2",
+      "genre": "Economy",
+      "isNew": false,
+      "min": "4 min"
+    },
+    {
+      "content": "Africa is a vast and diverse continent, known for its rich history, culture, and natural beauty. It is the second-largest continent in the world, covering over 30 million square kilometers. Africa is home to over 1.2 billion people, representing a wide variety of ethnic groups, languages, and religions. Its diversity is reflected not only in its people but also in its landscapes, wildlife, and traditions.\n\nThe continent is famous for its incredible natural wonders, including the Sahara Desert, the Nile River, and the Serengeti National Park. The Sahara Desert is the largest hot desert in the world, stretching across several countries in North Africa. It is a land of vast sand dunes and ancient oases, providing a unique environment for those who live and travel through it.\n\nThe Nile River, one of the longest rivers in the world, flows through northeastern Africa. It has been a lifeline for civilizations in Egypt and Sudan for thousands of years, providing water, transportation, and fertile land for agriculture. The river has played an important role in the development of African culture and economy.\n\nThe Serengeti National Park in Tanzania is one of the most famous wildlife reserves in the world. It is home to the annual Great Migration, where millions of wildebeest, zebras, and gazelles travel across the park in search of food and water. This migration is one of the most spectacular wildlife events on the planet, attracting visitors from around the world.\n\nIn addition to its natural beauty, Africa is known for its rich cultural heritage. The continent is home to many different languages, traditions, and religions. From the vibrant music and dance of West Africa to the ancient art and architecture of Egypt, Africa’s cultural diversity is truly remarkable. Each country and region has its own unique history, and together they create a tapestry of traditions that have shaped the world’s history.\n\nAfrica is also a continent of great challenges. Despite its immense resources, many African countries face issues such as poverty, political instability, and lack of access to education and healthcare. However, the people of Africa continue to show resilience and hope as they work towards a better future. The continent’s rich cultural and natural resources remain a source of inspiration and strength for its people.",
+      "contentTr": "Afrika, zengin tarihi, kültürü ve doğal güzellikleri ile bilinen geniş ve çeşitli bir kıtadır. Dünyanın ikinci en büyük kıtası olan Afrika, 30 milyon kilometrekareyi aşan bir alanı kaplamaktadır. Afrika, 1.2 milyardan fazla insana ev sahipliği yapmaktadır ve bu insanlar geniş bir etnik grup, dil ve dini çeşitliliği temsil etmektedir. Kıtadaki çeşitlilik, sadece insanlarda değil, aynı zamanda manzaralarında, vahşi yaşamında ve geleneklerinde de kendini gösterir.\n\nKıta, inanılmaz doğal harikalarıyla ünlüdür. Bunlar arasında Sahra Çölü, Nil Nehri ve Serengeti Ulusal Parkı yer alır. Sahra Çölü, dünyanın en büyük sıcak çölüdür ve Kuzey Afrika'daki birkaç ülkeden geçer. Geniş kum tepeleri ve eski vaha alanları ile bu bölge, burada yaşayanlar ve seyahat edenler için benzersiz bir ortam sunmaktadır.\n\nNil Nehri, dünyadaki en uzun nehirlerden birisidir ve kuzeydoğu Afrika'dan akar. Mısır ve Sudan’daki medeniyetler için binlerce yıl boyunca bir yaşam kaynağı olmuştur; su, ulaşım ve tarım için verimli toprak sağlamaktadır. Nehir, Afrika kültürünün ve ekonomisinin gelişiminde önemli bir rol oynamıştır.\n\nTanzanya'daki Serengeti Ulusal Parkı, dünyanın en ünlü vahşi yaşam koruma alanlarından biridir. Burada her yıl Büyük Göç meydana gelir. Milyonlarca ceylan, zürafa ve zebranın yiyecek ve su arayarak park boyunca göç ettiği bu olay, dünyanın en muazzam vahşi yaşam olaylarından biridir ve dünya çapında ziyaretçileri cezbetmektedir.\n\nDoğal güzelliklerinin yanı sıra, Afrika, zengin kültürel mirasıyla da tanınır. Kıta, birçok farklı dil, gelenek ve dini barındırmaktadır. Batı Afrika'nın canlı müziği ve dansından, Mısır’ın eski sanat ve mimarisine kadar, Afrika’nın kültürel çeşitliliği gerçekten dikkat çekicidir. Her ülke ve bölge kendine özgü bir tarihe sahiptir ve bu, dünyanın tarihini şekillendiren gelenekler mozaiği oluşturur.\n\nAfrika aynı zamanda büyük zorluklarla karşı karşıya bir kıtadır. Büyük kaynaklara sahip olmasına rağmen, birçok Afrika ülkesi yoksulluk, siyasi istikrarsızlık ve eğitim ve sağlık hizmetlerine erişim gibi sorunlarla mücadele etmektedir. Ancak, Afrika halkı, daha iyi bir gelecek için çalışmalarına devam ederken direnç ve umut göstermektedir. Kıtanın zengin kültürel ve doğal kaynakları, halkı için ilham ve güç kaynağı olmaya devam etmektedir.",
+      "words": [
+        {
+          "key": "continent",
+          "value": "kıta"
+        },
+        {
+          "key": "diverse",
+          "value": "çeşitli"
+        },
+        {
+          "key": "heritage",
+          "value": "miras"
+        },
+        {
+          "key": "civilizations",
+          "value": "medeniyetler"
+        },
+        {
+          "key": "resources",
+          "value": "kaynaklar"
+        },
+        {
+          "key": "migration",
+          "value": "göç"
+        },
+        {
+          "key": "wildlife",
+          "value": "vahşi yaşam"
+        },
+        {
+          "key": "famine",
+          "value": "kıtlık"
+        },
+        {
+          "key": "traditions",
+          "value": "gelenekler"
+        },
+        {
+          "key": "culture",
+          "value": "kültür"
+        },
+        {
+          "key": "language",
+          "value": "dil"
+        },
+        {
+          "key": "ethnic groups",
+          "value": "etnik gruplar"
+        },
+        {
+          "key": "agriculture",
+          "value": "tarım"
+        },
+        {
+          "key": "fertile",
+          "value": "verimli"
+        },
+        {
+          "key": "healthcare",
+          "value": "sağlık hizmetleri"
+        },
+        {
+          "key": "resilience",
+          "value": "direnç"
+        },
+        {
+          "key": "political instability",
+          "value": "siyasi istikrarsızlık"
+        },
+        {
+          "key": "poverty",
+          "value": "yoksulluk"
+        },
+        {
+          "key": "landscape",
+          "value": "manzara"
+        },
+        {
+          "key": "natural wonders",
+          "value": "doğal harikalar"
+        },
+        {
+          "key": "inspiration",
+          "value": "ilham"
+        },
+        {
+          "key": "strength",
+          "value": "güç"
+        },
+        {
+          "key": "tradition",
+          "value": "gelenek"
+        },
+        {
+          "key": "challenge",
+          "value": "zorluk"
+        },
+        {
+          "key": "unity",
+          "value": "birlik"
+        },
+        {
+          "key": "celebrate",
+          "value": "kutlamak"
+        },
+        {
+          "key": "tapestry",
+          "value": "halı"
+        }
+      ],
+      "imageUrl": "https://wmo.int/sites/default/files/2023-09/AdobeStock_259889990.jpeg",
+      "title": "Africa: A Land of Diversity and Beauty",
+      "level": "B2",
+      "genre": "Cultural",
+      "isNew": false,
+      "min": "4 min"
+    }
+  ]
+}
