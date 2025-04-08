@@ -2877,6 +2877,10 @@
           "value": "falsch"
         },
         {
+          "key": "accessible",
+          "value": "zugänglich"
+        },
+        {
           "key": "legacy",
           "value": "Vermächtnis"
         },
@@ -2903,6 +2907,10 @@
         {
           "key": "connected",
           "value": "verbunden"
+        },
+        {
+          "key": "education",
+          "value": "Ausbildung"
         },
         {
           "key": "dissemination",
