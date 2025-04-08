@@ -41,6 +41,7 @@ data class AppDimension(
     val dp70: Dp,
     val dp72: Dp,
     val dp80: Dp,
+    val dp84: Dp,
     val dp100: Dp,
     val dp128: Dp,
 ) {
@@ -83,6 +84,7 @@ data class AppDimension(
             dp70 = 70.dp,
             dp72 = 72.dp,
             dp80 = 80.dp,
+            dp84 = 84.dp,
             dp100 = 100.dp,
             dp128 = 128.dp,
         )

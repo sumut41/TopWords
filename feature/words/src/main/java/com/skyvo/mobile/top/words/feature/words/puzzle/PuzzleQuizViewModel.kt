@@ -11,6 +11,12 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+data class LetterCount(
+    val letter: Char,
+    var remainingCount: Int,
+    val totalCount: Int
+)
+
 @HiltViewModel
 class PuzzleQuizViewModel @Inject constructor(
     private val courseWordRepository: CourseWordRepository,
@@ -18,6 +24,7 @@ class PuzzleQuizViewModel @Inject constructor(
 ) : BaseComposeViewModel<PuzzleQuizUIState>() {
 
     private var currentProgress: Float = 0.0f
+    private var letterCounts: MutableMap<Char, LetterCount> = mutableMapOf()
 
     override fun setInitialState(): PuzzleQuizUIState {
         return PuzzleQuizUIState()
@@ -27,7 +34,38 @@ class PuzzleQuizViewModel @Inject constructor(
         getCurrentCourse()
     }
 
-    private fun getCurrentCourse() {
+    private fun initializeLetterCounts(word: String) {
+        letterCounts.clear()
+        
+        // Önce harfleri karıştır
+        val shuffledWord = word.toList()
+            .shuffled() // İlk karıştırma
+            .shuffled() // İkinci karıştırma
+            .joinToString("")
+            .reversed() // Ters çevir
+            .toList()
+            .shuffled() // Son bir karıştırma daha
+            .distinct() // Tekrar eden harfleri teke indir
+        
+        // Her harf için toplam sayıyı hesapla
+        word.forEach { char ->
+            val count = word.count { it == char }
+            if (!letterCounts.containsKey(char)) {
+                letterCounts[char] = LetterCount(char, count, count)
+            }
+        }
+
+        // Karıştırılmış sırada harfleri state'e ekle
+        setState {
+            copy(
+                availableLetters = shuffledWord.mapNotNull { char -> 
+                    letterCounts[char]
+                }
+            )
+        }
+    }
+
+    fun getCurrentCourse() {
         viewModelScope.launch {
             showLoading()
             courseWordRepository.getCurrentCourse().collect {
@@ -70,6 +108,7 @@ class PuzzleQuizViewModel @Inject constructor(
                         currentQuestion = questionList.first()
                     )
                 }
+                state.value.currentQuestion?.word?.let { initializeLetterCounts(it) }
             }
             removeAllLoading()
         }
@@ -93,6 +132,55 @@ class PuzzleQuizViewModel @Inject constructor(
         }
     }
 
+    fun addLetter(letter: Char) {
+        val currentWord = state.value.currentQuestion?.word.orEmpty()
+        val currentAnswer = state.value.selectAnswer.orEmpty()
+        
+        letterCounts[letter]?.let { letterCount ->
+            if (letterCount.remainingCount > 0 && currentAnswer.length < currentWord.length) {
+                letterCount.remainingCount--
+                setState {
+                    copy(
+                        selectAnswer = currentAnswer + letter,
+                        buttonEnable = (currentAnswer + letter).length == currentWord.length,
+                        availableLetters = letterCounts.values.toList()
+                    )
+                }
+            }
+        }
+    }
+
+    fun removeLetterAt(index: Int) {
+        val currentAnswer = state.value.selectAnswer.orEmpty()
+        if (index < currentAnswer.length) {
+            val removedLetter = currentAnswer[index]
+            letterCounts[removedLetter]?.let { letterCount ->
+                letterCount.remainingCount++
+                val newAnswer = currentAnswer.removeRange(index, index + 1)
+                setState {
+                    copy(
+                        selectAnswer = newAnswer,
+                        buttonEnable = newAnswer.length == state.value.currentQuestion?.word?.length,
+                        availableLetters = letterCounts.values.toList()
+                    )
+                }
+            }
+        }
+    }
+
+    fun checkAnswer() {
+        val currentWord = state.value.currentQuestion?.word.orEmpty()
+        val currentAnswer = state.value.selectAnswer.orEmpty()
+
+        if (currentWord.lowercase().trim() == currentAnswer.lowercase().trim()) {
+            correct()
+        } else {
+            unCorrect()
+        }
+
+        nextQuestion()
+    }
+
     fun nextQuestion() {
         viewModelScope.launch {
             delay(120)
@@ -101,7 +189,8 @@ class PuzzleQuizViewModel @Inject constructor(
                     copy(
                         showAnswer = false,
                         nextCount = 0,
-                        selectIndex = selectIndex + 1
+                        selectIndex = selectIndex + 1,
+                        selectAnswer = ""
                     )
                 }
                 delay(250)
@@ -109,13 +198,15 @@ class PuzzleQuizViewModel @Inject constructor(
                 if (index >= (state.value.wordList?.size ?: 0)) {
                     next()
                 } else {
+                    val nextWord = state.value.wordList?.get(index)
                     setState {
                         copy(
                             showAnswer = false,
-                            selectAnswer = null,
-                            currentQuestion = wordList?.get(index)
+                            selectAnswer = "",
+                            currentQuestion = nextWord
                         )
                     }
+                    nextWord?.word?.let { initializeLetterCounts(it) }
                 }
             } else {
                 setState {
@@ -130,32 +221,6 @@ class PuzzleQuizViewModel @Inject constructor(
                     )
                 }
             }
-        }
-    }
-
-    fun checkAnswer() {
-        val answerList = state.value.currentQuestion?.word?.split(",")
-        if (answerList != null) {
-            for (item in answerList) {
-                if (item.lowercase().trim() == state.value.selectAnswer?.lowercase()?.trim()) {
-                    correct()
-                } else {
-                    unCorrect()
-                }
-            }
-        } else {
-            unCorrect()
-        }
-
-        nextQuestion()
-    }
-
-    fun updateAnswer(answer: String) {
-        setState {
-            copy(
-                selectAnswer = answer,
-                buttonEnable = answer.isNotEmpty()
-            )
         }
     }
 

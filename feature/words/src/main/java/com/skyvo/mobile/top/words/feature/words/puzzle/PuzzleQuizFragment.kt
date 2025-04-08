@@ -1,27 +1,21 @@
 package com.skyvo.mobile.top.words.feature.words.puzzle
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.focus.FocusRequester
-import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.ComposeView
-import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
@@ -38,7 +32,11 @@ import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.delay
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.graphicsLayer
+import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 
 @AndroidEntryPoint
 class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
@@ -54,24 +52,12 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
     @Composable
     private fun ContentView(viewModel: PuzzleQuizViewModel) {
         val state by viewModel.state.collectAsStateWithLifecycle()
-        val keyboardController = LocalSoftwareKeyboardController.current
-        val focusRequester = remember { FocusRequester() }
 
         if (state.nextCount == 1) {
             if (state.playSoundType == 0) {
                 SoundEffect(requireContext()).playSuccess()
             } else {
                 SoundEffect(requireContext()).playError()
-            }
-        }
-
-        LaunchedEffect(state.nextCount) {
-            if (state.nextCount == 1) {
-                keyboardController?.hide()
-            } else {
-                delay(150)
-                keyboardController?.show()
-                focusRequester.requestFocus()
             }
         }
 
@@ -117,47 +103,22 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                                 textAlign = TextAlign.Center
                             )
 
-                            OutlinedTextField(
-                                value = state.selectAnswer.orEmpty(),
-                                onValueChange = { viewModel.updateAnswer(it) },
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(
-                                        start = AppDimension.default.dp32,
-                                        end = AppDimension.default.dp32,
-                                        top = AppDimension.default.dp48
-                                    )
-                                    .focusRequester(focusRequester),
-                                textStyle = AppTypography.default.bigLargeTitleBold.copy(
-                                    fontWeight = FontWeight.SemiBold,
-                                    textAlign = TextAlign.Center,
-                                    color = LocalAppColor.current.colorTextMain.copy(alpha = 0.65f)
-                                ),
-                                placeholder = {
-                                    AppText(
-                                        text = stringResource(id = com.skyvo.mobile.core.resource.R.string.type_your_answer),
-                                        style = AppTypography.default.bodyLarge,
-                                        color = LocalAppColor.current.colorTextSubtler.copy(alpha = 0.7f),
-                                        modifier = Modifier.fillMaxWidth(),
-                                        textAlign = TextAlign.Center
-                                    )
-                                },
-                                colors = OutlinedTextFieldDefaults.colors(
-                                    focusedBorderColor = Color.Transparent,
-                                    unfocusedBorderColor = Color.Transparent,
-                                    focusedContainerColor = Color.Transparent,
-                                    unfocusedContainerColor = Color.Transparent,
-                                    cursorColor = LocalAppColor.current.colorTextMain
-                                ),
-                                keyboardOptions = KeyboardOptions(
-                                    imeAction = ImeAction.Done
-                                ),
-                                keyboardActions = KeyboardActions(
-                                    onDone = {
-                                        viewModel.nextQuestion()
-                                    }
-                                ),
-                                singleLine = true
+                            AppSpacer(height = AppDimension.default.dp56)
+
+                            // Üstteki boş kutucuklar
+                            EmptyLetterBoxes(
+                                word = state.currentQuestion?.word.orEmpty(),
+                                filledWord = state.selectAnswer.orEmpty()
+                            )
+
+                            AppSpacer(height = AppDimension.default.dp84)
+
+                            // Alttaki karıştırılmış harfler
+                            ShuffledLetterBoxes(
+                                word = state.currentQuestion?.word.orEmpty(),
+                                onLetterClick = { letter ->
+                                    viewModel.addLetter(letter)
+                                }
                             )
                         }
                     }
@@ -172,7 +133,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                         if (state.nextCount != 1) {
                             AppPrimaryLargeButton(
                                 text = stringResource(id = com.skyvo.mobile.core.resource.R.string.check_answer),
-                                enabled = state.selectAnswer.isNullOrEmpty().not()
+                                enabled = state.selectAnswer?.length == state.currentQuestion?.word?.length
                             ) {
                                 viewModel.checkAnswer()
                             }
@@ -191,6 +152,125 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
         }
     }
 
+    @Composable
+    private fun EmptyLetterBoxes(word: String, filledWord: String) {
+        val spacing = 8.dp
+        val maxBoxSize = 45.dp
+        val horizontalPadding = AppDimension.default.dp16
+
+        BoxWithConstraints(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = horizontalPadding)
+        ) {
+            val availableWidth = maxWidth - horizontalPadding * 2
+            val boxSize =
+                minOf(maxBoxSize, (availableWidth - (spacing * (word.length - 1))) / word.length)
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                word.forEachIndexed { index, _ ->
+                    Box(
+                        modifier = Modifier
+                            .size(boxSize)
+                            .background(
+                                color = LocalAppColor.current.colorBackgroundSelected,
+                                shape = RoundedCornerShape(AppDimension.default.dp10)
+                            )
+                            .border(
+                                width = 1.dp,
+                                color = LocalAppColor.current.colorBorder,
+                                shape = RoundedCornerShape(AppDimension.default.dp10)
+                            )
+                            .clip(RoundedCornerShape(AppDimension.default.dp10))
+                            .clickable(
+                                enabled = index < filledWord.length
+                            ) {
+                                viewModel.removeLetterAt(index)
+                            },
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        AppText(
+                            text = if (index < filledWord.length) filledWord[index].toString()
+                                .lowercase() else "",
+                            style = AppTypography.default.bodyBold,
+                            color = LocalAppColor.current.colorTextMain
+                        )
+                    }
+                    if (index < word.length - 1) {
+                        Spacer(modifier = Modifier.width(spacing))
+                    }
+                }
+            }
+        }
+    }
+
+    @Composable
+    private fun ShuffledLetterBoxes(word: String, onLetterClick: (Char) -> Unit) {
+        val spacing = 8.dp
+        val maxBoxSize = 45.dp
+        val horizontalPadding = AppDimension.default.dp16
+        val state by viewModel.state.collectAsStateWithLifecycle()
+        val availableLetters = state.availableLetters.filter { it.remainingCount > 0 }
+
+        BoxWithConstraints(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = horizontalPadding)
+        ) {
+            val availableWidth = maxWidth - horizontalPadding * 2
+            val boxSize = minOf(
+                maxBoxSize,
+                (availableWidth - (spacing * (availableLetters.size - 1))) / availableLetters.size
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                availableLetters.forEach { letterCount ->
+                    val interactionSource = remember { MutableInteractionSource() }
+                    val isPressed by interactionSource.collectIsPressedAsState()
+
+                    Box(
+                        modifier = Modifier
+                            .size(boxSize)
+                            .background(
+                                color = LocalAppColor.current.colorBackgroundSelected,
+                                shape = RoundedCornerShape(AppDimension.default.dp10)
+                            )
+                            .border(
+                                width = 1.dp,
+                                color = LocalAppColor.current.colorBorder,
+                                shape = RoundedCornerShape(AppDimension.default.dp10)
+                            )
+                            .clip(RoundedCornerShape(AppDimension.default.dp10))
+                            .clickable(
+                                interactionSource = interactionSource,
+                                indication = null
+                            ) {
+                                onLetterClick(letterCount.letter)
+                            },
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        AppText(
+                            text = letterCount.letter.toString().lowercase(),
+                            style = AppTypography.default.bodyLarge,
+                            color = LocalAppColor.current.colorTextMain
+                        )
+                    }
+                    if (letterCount != availableLetters.last()) {
+                        Spacer(modifier = Modifier.width(spacing))
+                    }
+                }
+            }
+        }
+    }
+
     @Preview
     @Composable
     private fun Preview() {
@@ -198,6 +278,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
             CourseWordMockRepository(),
             WordMockRepository()
         )
+        vm.getCurrentCourse()
         ContentView(vm)
     }
 }

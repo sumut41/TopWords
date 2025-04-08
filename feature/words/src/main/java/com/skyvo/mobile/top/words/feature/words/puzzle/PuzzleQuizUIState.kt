@@ -13,5 +13,6 @@ data class PuzzleQuizUIState (
     val nextCount: Int = 0,
     val correctCount: Int = 0,
     val unCorrectCount: Int = 0,
-    val playSoundType: Int = 0
+    val playSoundType: Int = 0,
+    val availableLetters: List<LetterCount> = emptyList()
 ): UIState
