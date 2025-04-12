@@ -3427,20 +3427,12 @@
           "value": "zentraler Bestandteil"
         },
         {
-          "key": "modern transportation landscape",
-          "value": "moderne Verkehrswelt"
-        },
-        {
           "key": "sustainable",
           "value": "nachhaltig"
         },
         {
           "key": "rechargeable batteries",
           "value": "wiederaufladbare Batterien"
-        },
-        {
-          "key": "zero tailpipe emissions",
-          "value": "null Auspuffemissionen"
         },
         {
           "key": "carbon footprint",
@@ -3455,10 +3447,6 @@
           "value": "Effizienz"
         },
         {
-          "key": "internal combustion engines",
-          "value": "Verbrennungsmotoren"
-        },
-        {
           "key": "operating costs",
           "value": "Betriebskosten"
         },
@@ -3469,10 +3457,6 @@
         {
           "key": "instant torque",
           "value": "sofortiges Drehmoment"
-        },
-        {
-          "key": "smoother driving experience",
-          "value": "sanfteres Fahrerlebnis"
         },
         {
           "key": "battery progress",
@@ -3499,40 +3483,12 @@
           "value": "Ladeinfrastruktur"
         },
         {
-          "key": "range anxiety",
-          "value": "Reichweitenangst"
-        },
-        {
-          "key": "viable option",
-          "value": "praktikable Option"
-        },
-        {
-          "key": "environmental benefits",
-          "value": "Umweltvorteile"
-        },
-        {
-          "key": "energy diversification",
-          "value": "Diversifizierung der Energiequellen"
-        },
-        {
-          "key": "energy security",
-          "value": "Energiesicherheit"
-        },
-        {
           "key": "recycling",
           "value": "Recycling"
         },
         {
           "key": "repurposing",
           "value": "Wiederverwendung"
-        },
-        {
-          "key": "environmental impact",
-          "value": "Umweltauswirkung"
-        },
-        {
-          "key": "government incentives",
-          "value": "staatliche Anreize"
         },
         {
           "key": "tax credits",
@@ -3563,22 +3519,6 @@
           "value": "Investition"
         },
         {
-          "key": "charging infrastructure expansion",
-          "value": "Ausbau der Ladeinfrastruktur"
-        },
-        {
-          "key": "research and development",
-          "value": "Forschung und Entwicklung"
-        },
-        {
-          "key": "market growth",
-          "value": "Marktwachstum"
-        },
-        {
-          "key": "initial cost",
-          "value": "Anschaffungskosten"
-        },
-        {
           "key": "battery production",
           "value": "Batterieproduktion"
         },
@@ -3607,24 +3547,12 @@
           "value": "Kompatibilität"
         },
         {
-          "key": "coordinated efforts",
-          "value": "koordinierte Maßnahmen"
-        },
-        {
           "key": "global future",
           "value": "globale Zukunft"
         },
         {
           "key": "innovation",
           "value": "Innovation"
-        },
-        {
-          "key": "economic growth",
-          "value": "wirtschaftliches Wachstum"
-        },
-        {
-          "key": "automotive industry",
-          "value": "Automobilindustrie"
         },
         {
           "key": "mitigate",
@@ -3634,10 +3562,6 @@
           "key": "transition",
           "value": "Übergang"
         },
-        {
-          "key": "infrastructure expands",
-          "value": "Infrastrukturausbau"
-        }
       ]
     }
   ]

@@ -3539,20 +3539,12 @@
           "value": "dönüm noktası bileşen"
         },
         {
-          "key": "modern transportation landscape",
-          "value": "modern ulaşım manzarası"
-        },
-        {
           "key": "sustainable",
           "value": "sürdürülebilir"
         },
         {
           "key": "rechargeable batteries",
           "value": "şarj edilebilir bataryalar"
-        },
-        {
-          "key": "zero tailpipe emissions",
-          "value": "sıfır egzoz emisyonu"
         },
         {
           "key": "carbon footprint",
@@ -3565,10 +3557,6 @@
         {
           "key": "efficiency",
           "value": "verimlilik"
-        },
-        {
-          "key": "internal combustion engines",
-          "value": "içten yanmalı motorlar"
         },
         {
           "key": "operating costs",
@@ -3609,26 +3597,6 @@
         {
           "key": "charging infrastructure",
           "value": "şarj altyapısı"
-        },
-        {
-          "key": "range anxiety",
-          "value": "menzil kaygısı"
-        },
-        {
-          "key": "viable option",
-          "value": "uygun seçenek"
-        },
-        {
-          "key": "environmental benefits",
-          "value": "çevresel faydalar"
-        },
-        {
-          "key": "energy diversification",
-          "value": "enerji çeşitliliği"
-        },
-        {
-          "key": "energy security",
-          "value": "enerji güvenliği"
         },
         {
           "key": "recycling",
@@ -3675,22 +3643,6 @@
           "value": "yatırım"
         },
         {
-          "key": "charging infrastructure expansion",
-          "value": "şarj altyapısının genişlemesi"
-        },
-        {
-          "key": "research and development",
-          "value": "araştırma ve geliştirme"
-        },
-        {
-          "key": "market growth",
-          "value": "pazar büyümesi"
-        },
-        {
-          "key": "initial cost",
-          "value": "ilk maliyet"
-        },
-        {
           "key": "battery production",
           "value": "batarya üretimi"
         },
@@ -3731,14 +3683,6 @@
           "value": "yenilik"
         },
         {
-          "key": "economic growth",
-          "value": "ekonomik büyüme"
-        },
-        {
-          "key": "automotive industry",
-          "value": "otomotiv endüstrisi"
-        },
-        {
           "key": "mitigate",
           "value": "hafifletmek"
         },
@@ -3746,10 +3690,6 @@
           "key": "transition",
           "value": "geçiş"
         },
-        {
-          "key": "infrastructure expands",
-          "value": "altyapı genişledikçe"
-        }
       ]
     }
   ]
