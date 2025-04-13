@@ -1851,30 +1851,6 @@
           "value": "diagnóstico"
         },
         {
-          "key": "personalized treatment",
-          "value": "tratamiento personalizado"
-        },
-        {
-          "key": "machine learning algorithms",
-          "value": "algoritmos de aprendizaje automático"
-        },
-        {
-          "key": "data analytics",
-          "value": "análisis de datos"
-        },
-        {
-          "key": "disease detection",
-          "value": "detección de enfermedades"
-        },
-        {
-          "key": "patient outcomes",
-          "value": "resultados de los pacientes"
-        },
-        {
-          "key": "medical imaging",
-          "value": "imagenología médica"
-        },
-        {
           "key": "radiographs",
           "value": "radiografías"
         },
@@ -1889,38 +1865,6 @@
         {
           "key": "anomalies",
           "value": "anomalías"
-        },
-        {
-          "key": "early-stage cancers",
-          "value": "cánceres en etapas tempranas"
-        },
-        {
-          "key": "diagnostic precision",
-          "value": "precisión diagnóstica"
-        },
-        {
-          "key": "decision-making process",
-          "value": "proceso de toma de decisiones"
-        },
-        {
-          "key": "personalized medicine",
-          "value": "medicina personalizada"
-        },
-        {
-          "key": "genetic information",
-          "value": "información genética"
-        },
-        {
-          "key": "lifestyle factors",
-          "value": "factores de estilo de vida"
-        },
-        {
-          "key": "environmental data",
-          "value": "datos ambientales"
-        },
-        {
-          "key": "tailor treatment plans",
-          "value": "adaptar planes de tratamiento"
         },
         {
           "key": "efficacy",
@@ -2167,46 +2111,6 @@
           "value": "milenios"
         },
         {
-          "key": "dynamic confluence",
-          "value": "confluencia dinámica"
-        },
-        {
-          "key": "architectural marvels",
-          "value": "maravillas arquitectónicas"
-        },
-        {
-          "key": "diverse traditions",
-          "value": "tradiciones diversas"
-        },
-        {
-          "key": "vibrant socio-economic landscape",
-          "value": "paisaje socioeconómico vibrante"
-        },
-        {
-          "key": "strategic location",
-          "value": "ubicación estratégica"
-        },
-        {
-          "key": "Bosphorus Strait",
-          "value": "estrecho del Bósforo"
-        },
-        {
-          "key": "pivotal hub",
-          "value": "centro clave"
-        },
-        {
-          "key": "trade and commerce",
-          "value": "comercio y negocios"
-        },
-        {
-          "key": "maritime passage",
-          "value": "paso marítimo"
-        },
-        {
-          "key": "bridging continents",
-          "value": "unión de continentes"
-        },
-        {
           "key": "bazaars",
           "value": "bazares"
         },
@@ -2233,46 +2137,6 @@
         {
           "key": "travelers",
           "value": "viajeros"
-        },
-        {
-          "key": "living museum",
-          "value": "museo viviente"
-        },
-        {
-          "key": "historical periods",
-          "value": "períodos históricos"
-        },
-        {
-          "key": "architectural styles",
-          "value": "estilos arquitectónicos"
-        },
-        {
-          "key": "layered history",
-          "value": "historia estratificada"
-        },
-        {
-          "key": "religious significance",
-          "value": "importancia religiosa"
-        },
-        {
-          "key": "Ottoman-era palaces",
-          "value": "palacios de la era otomana"
-        },
-        {
-          "key": "Byzantine churches",
-          "value": "iglesias bizantinas"
-        },
-        {
-          "key": "modern skyscrapers",
-          "value": "rascacielos modernos"
-        },
-        {
-          "key": "heritage preservation",
-          "value": "preservación del patrimonio"
-        },
-        {
-          "key": "contemporary developments",
-          "value": "desarrollos contemporáneos"
         },
         {
           "key": "diversity",

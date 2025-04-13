@@ -1851,30 +1851,6 @@
           "value": "Diagnostik"
         },
         {
-          "key": "personalized treatment",
-          "value": "personalisierte Behandlung"
-        },
-        {
-          "key": "machine learning algorithms",
-          "value": "Algorithmen des maschinellen Lernens"
-        },
-        {
-          "key": "data analytics",
-          "value": "Datenanalyse"
-        },
-        {
-          "key": "disease detection",
-          "value": "Krankheitserkennung"
-        },
-        {
-          "key": "patient outcomes",
-          "value": "Behandlungsergebnisse"
-        },
-        {
-          "key": "medical imaging",
-          "value": "medizinische Bildgebung"
-        },
-        {
           "key": "radiographs",
           "value": "Röntgenaufnahmen"
         },
@@ -1889,38 +1865,6 @@
         {
           "key": "anomalies",
           "value": "Anomalien"
-        },
-        {
-          "key": "early-stage cancers",
-          "value": "Krebs im Frühstadium"
-        },
-        {
-          "key": "diagnostic precision",
-          "value": "diagnostische Genauigkeit"
-        },
-        {
-          "key": "decision-making process",
-          "value": "Entscheidungsprozess"
-        },
-        {
-          "key": "personalized medicine",
-          "value": "personalisierte Medizin"
-        },
-        {
-          "key": "genetic information",
-          "value": "genetische Informationen"
-        },
-        {
-          "key": "lifestyle factors",
-          "value": "Lebensstilfaktoren"
-        },
-        {
-          "key": "environmental data",
-          "value": "Umweltdaten"
-        },
-        {
-          "key": "tailor treatment plans",
-          "value": "Behandlungspläne anpassen"
         },
         {
           "key": "efficacy",
@@ -2167,46 +2111,6 @@
           "value": "Jahrtausende"
         },
         {
-          "key": "dynamic confluence",
-          "value": "dynamisches Zusammenfließen"
-        },
-        {
-          "key": "architectural marvels",
-          "value": "architektonische Wunder"
-        },
-        {
-          "key": "diverse traditions",
-          "value": "vielfältige Traditionen"
-        },
-        {
-          "key": "vibrant socio-economic landscape",
-          "value": "lebendige sozioökonomische Landschaft"
-        },
-        {
-          "key": "strategic location",
-          "value": "strategische Lage"
-        },
-        {
-          "key": "Bosphorus Strait",
-          "value": "Bosporus"
-        },
-        {
-          "key": "pivotal hub",
-          "value": "zentraler Knotenpunkt"
-        },
-        {
-          "key": "trade and commerce",
-          "value": "Handel und Wirtschaft"
-        },
-        {
-          "key": "maritime passage",
-          "value": "Seeweg"
-        },
-        {
-          "key": "bridging continents",
-          "value": "Verbindung von Kontinenten"
-        },
-        {
           "key": "bazaars",
           "value": "Basare"
         },
@@ -2233,46 +2137,6 @@
         {
           "key": "travelers",
           "value": "Reisende"
-        },
-        {
-          "key": "living museum",
-          "value": "lebendiges Museum"
-        },
-        {
-          "key": "historical periods",
-          "value": "historische Epochen"
-        },
-        {
-          "key": "architectural styles",
-          "value": "Architekturstile"
-        },
-        {
-          "key": "layered history",
-          "value": "vielschichtige Geschichte"
-        },
-        {
-          "key": "religious significance",
-          "value": "religiöse Bedeutung"
-        },
-        {
-          "key": "Ottoman-era palaces",
-          "value": "osmanische Paläste"
-        },
-        {
-          "key": "Byzantine churches",
-          "value": "byzantinische Kirchen"
-        },
-        {
-          "key": "modern skyscrapers",
-          "value": "moderne Wolkenkratzer"
-        },
-        {
-          "key": "heritage preservation",
-          "value": "Erhalt des Erbes"
-        },
-        {
-          "key": "contemporary developments",
-          "value": "zeitgenössische Entwicklungen"
         },
         {
           "key": "diversity",

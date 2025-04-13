@@ -1851,30 +1851,6 @@
           "value": "tanı koyma"
         },
         {
-          "key": "personalized treatment",
-          "value": "kişiselleştirilmiş tedavi"
-        },
-        {
-          "key": "machine learning algorithms",
-          "value": "makine öğrenimi algoritmaları"
-        },
-        {
-          "key": "data analytics",
-          "value": "veri analitiği"
-        },
-        {
-          "key": "disease detection",
-          "value": "hastalık tespiti"
-        },
-        {
-          "key": "patient outcomes",
-          "value": "hasta sonuçları"
-        },
-        {
-          "key": "medical imaging",
-          "value": "tıbbi görüntüleme"
-        },
-        {
           "key": "radiographs",
           "value": "radyografiler"
         },
@@ -1889,38 +1865,6 @@
         {
           "key": "anomalies",
           "value": "anomali"
-        },
-        {
-          "key": "early-stage cancers",
-          "value": "erken evre kanserler"
-        },
-        {
-          "key": "diagnostic precision",
-          "value": "tanısal doğruluk"
-        },
-        {
-          "key": "decision-making process",
-          "value": "karar verme süreci"
-        },
-        {
-          "key": "personalized medicine",
-          "value": "kişiselleştirilmiş tıp"
-        },
-        {
-          "key": "genetic information",
-          "value": "genetik bilgi"
-        },
-        {
-          "key": "lifestyle factors",
-          "value": "yaşam tarzı faktörleri"
-        },
-        {
-          "key": "environmental data",
-          "value": "çevresel veri"
-        },
-        {
-          "key": "tailor treatment plans",
-          "value": "tedavi planlarını özelleştirmek"
         },
         {
           "key": "efficacy",
@@ -2167,46 +2111,6 @@
           "value": "binyıllar"
         },
         {
-          "key": "dynamic confluence",
-          "value": "dinamik birleşim"
-        },
-        {
-          "key": "architectural marvels",
-          "value": "mimari harikalar"
-        },
-        {
-          "key": "diverse traditions",
-          "value": "çeşitli gelenekler"
-        },
-        {
-          "key": "vibrant socio-economic landscape",
-          "value": "canlı sosyo-ekonomik peyzaj"
-        },
-        {
-          "key": "strategic location",
-          "value": "stratejik konum"
-        },
-        {
-          "key": "Bosphorus Strait",
-          "value": "Boğaziçi"
-        },
-        {
-          "key": "pivotal hub",
-          "value": "kritik merkez"
-        },
-        {
-          "key": "trade and commerce",
-          "value": "ticaret ve ticaret"
-        },
-        {
-          "key": "maritime passage",
-          "value": "deniz yolu geçişi"
-        },
-        {
-          "key": "bridging continents",
-          "value": "kıtaları birbirine bağlama"
-        },
-        {
           "key": "bazaars",
           "value": "çarşılar"
         },
@@ -2233,46 +2137,6 @@
         {
           "key": "travelers",
           "value": "gezginler"
-        },
-        {
-          "key": "living museum",
-          "value": "yaşayan müze"
-        },
-        {
-          "key": "historical periods",
-          "value": "tarihi dönemler"
-        },
-        {
-          "key": "architectural styles",
-          "value": "mimari stiller"
-        },
-        {
-          "key": "layered history",
-          "value": "katmanlı tarih"
-        },
-        {
-          "key": "religious significance",
-          "value": "dini önem"
-        },
-        {
-          "key": "Ottoman-era palaces",
-          "value": "Osmanlı dönemi sarayları"
-        },
-        {
-          "key": "Byzantine churches",
-          "value": "Bizans kiliseleri"
-        },
-        {
-          "key": "modern skyscrapers",
-          "value": "modern gökdelenler"
-        },
-        {
-          "key": "heritage preservation",
-          "value": "miras koruma"
-        },
-        {
-          "key": "contemporary developments",
-          "value": "çağdaş gelişmeler"
         },
         {
           "key": "diversity",
