@@ -69,7 +69,7 @@
     <string name="advanced_title">Advanced</string>
     <string name="intermediate_title">Intermediate</string>
     <string name="beginner_title">Beginner</string>
-    <string name="top_words">vocaboost</string>
+    <string name="top_words">Top Words</string>
     <string name="word_count">3000</string>
     <string name="quiz_sentence_arrange_title">Complete the sentence!</string>
     <string name="quiz_word_title">Today\'s word completion test!</string>

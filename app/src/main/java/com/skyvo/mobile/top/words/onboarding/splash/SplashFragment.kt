@@ -68,7 +68,7 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         AppText(
-                            text = "vocaboost",
+                            text = "TOP WORDS",
                             modifier = Modifier.fillMaxWidth()
                                 .padding(horizontal = AppDimension.default.dp24),
                             textAlign = TextAlign.Center,

@@ -38,7 +38,7 @@ class NaturalLanguageViewModel @Inject constructor(
                 name = "English",
                 icon = R.drawable.ic_flag_en
             )
-            navigate(NaturalLanguageFragmentDirections.actionNaturalLanguageFragmentToLevelFragment())
+            navigate(NaturalLanguageFragmentDirections.actionNaturalLanguageFragmentToStartScreenFragment())
         }
     }
 } 

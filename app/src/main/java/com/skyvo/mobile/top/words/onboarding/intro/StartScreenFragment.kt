@@ -106,7 +106,7 @@ class StartScreenFragment : BaseComposeFragment<StartScreenViewModel>() {
                             icon = if (pagerState.currentPage == pageCount - 1) R.drawable.ic_lightning else null,
                             onClick = {
                                 if (pagerState.currentPage == pageCount - 1) {
-                                    navigate(StartScreenFragmentDirections.actionStartScreenFragmentToNaturalLanguageFragment())
+                                    navigate(StartScreenFragmentDirections.actionStartScreenFragmentToLevelFragment())
                                 } else {
                                     scope.launch {
                                         pagerState.animateScrollToPage(pagerState.currentPage.plus(1))

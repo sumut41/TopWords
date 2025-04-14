@@ -38,8 +38,8 @@ data class AppTypography(
             goldman = TextStyle(
                 fontFamily = AppFonts.Goldman,
                 fontWeight = FontWeight.Normal,
-                fontSize = 30.sp,
-                lineHeight = 36.sp,
+                fontSize = 24.sp,
+                lineHeight = 28.sp,
                 letterSpacing = 0.2.sp,
             ),
             logoText = TextStyle(

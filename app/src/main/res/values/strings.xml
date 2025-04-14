@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Vocaboost</string>
+    <string name="app_name">Top Words</string>
     <string name="default_notification_channel_name">Default App Custom Channel</string>
     <string name="default_notification_channel_id">default_app_channel_id</string>
     <string name="tab_bar_menu_home_title">Ana Sayfa</string>

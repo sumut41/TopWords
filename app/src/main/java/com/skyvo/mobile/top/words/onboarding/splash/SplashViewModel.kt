@@ -36,7 +36,7 @@ class SplashViewModel @Inject constructor(
                 if (userManager.isCompletedSetup) {
                     navigate(NavDeeplinkDestination.WordsDashboard)
                 } else {
-                    navigate(SplashFragmentDirections.actionSplashFragmentToStartScreenFragment())
+                    navigate(SplashFragmentDirections.actionSplashFragmentToNaturalLanguageFragment())
                 }
             }
         }
