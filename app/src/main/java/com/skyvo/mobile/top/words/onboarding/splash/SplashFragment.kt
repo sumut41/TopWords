@@ -7,6 +7,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.fragment.app.viewModels
@@ -76,11 +77,11 @@ class SplashFragment : BaseComposeFragment<SplashViewModel>() {
                             style = AppTypography.default.logoText
                         )
                         AppText(
-                            text = "leagning english",
+                            text = stringResource(com.skyvo.mobile.core.resource.R.string.learning_english),
                             modifier = Modifier.fillMaxWidth(),
                             textAlign = TextAlign.Center,
-                            color = LocalAppColor.current.colorTextMain,
-                            style = AppTypography.default.bodyExtraLarge
+                            color = LocalAppColor.current.colorTextSubtler,
+                            style = AppTypography.default.bodyLarge
                         )
                     }
                 }

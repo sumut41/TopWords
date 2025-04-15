@@ -29,8 +29,8 @@
     <string name="menu_fragment_title">MENU</string>
     <string name="about_us_menu_card_title">Hakkımızda</string>
     <string name="about_us_menu_card_label">Uygulama hakkında bilgilere buradan ulaşabilirsiniz.</string>
-    <string name="learned_words_title">Öğrenilmiş Kelimeler</string>
-    <string name="learned_words_label">Öğrendiğin tüm kelimeler burada</string>
+    <string name="learned_words_title">Bildiğim Kelimeler</string>
+    <string name="learned_words_label">Daha önceden bildiğin kelimeler</string>
     <string name="favourite_words_title">Favorilenmiş Kelimeler</string>
     <string name="favourite_words_label">En sevdiğiniz kelimeleri gruplar halinde görün</string>
     <string name="rate_us_title">Bizi değerlendirin</string>
@@ -79,4 +79,5 @@
     <string name="quiz_sentence_nail_tag">\"%s\"</string>
     <string name="quiz_find_meaning_title">Anlamını bul!</string>
     <string name="reverse_meaning_label">Kelimeyi Bul</string>
+    <string name="learning_english">+3000 Kelimeyle İngilizce Ögren!</string>
 </resources>
