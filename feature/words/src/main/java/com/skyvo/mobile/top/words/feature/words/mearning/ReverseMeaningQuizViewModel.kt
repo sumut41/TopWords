@@ -76,7 +76,6 @@ class ReverseMeaningQuizViewModel @Inject constructor(
                 copy(
                     wordIdListSize = wordIdList.orEmpty().size,
                     items = questionList,
-                    unCorrectCount = wordIdList.orEmpty().size - questionList.size,
                     currentQuestion = questionList.first()
                 )
             }
@@ -130,7 +129,6 @@ class ReverseMeaningQuizViewModel @Inject constructor(
     private fun unCorrect() {
         setState {
             copy(
-                unCorrectCount = unCorrectCount + 1,
                 playSoundType = 1
             )
         }
@@ -182,10 +180,7 @@ class ReverseMeaningQuizViewModel @Inject constructor(
                 navigateBack()
             } else {
                 navigate(
-                    navDeepLink = NavDeeplinkDestination.ResultWord(
-                        title = "Süpersin, devam!",
-                        isQuiz = true
-                    ),
+                    navDeepLink = NavDeeplinkDestination.ResultWord(isQuiz = true),
                     popUpTo = true,
                     popUpToInclusive = false,
                     popUpToId = R.id.wordsDashboardFragment
@@ -197,17 +192,14 @@ class ReverseMeaningQuizViewModel @Inject constructor(
                     id = state.value.courseId ?: 0L,
                     isStart = true,
                     progress = if (state.value.correctCount >= ((state.value.items?.size
-                            ?: 1) - 1) && state.value.unCorrectCount == 0
-                    ) 0.60f else (if (currentProgress == 0.40f) 0.50f else currentProgress)
+                            ?: 1) - 1)) 0.60f else (if (currentProgress == 0.40f) 0.50f else currentProgress)
                 )
-                delay(100)
+                delay(200)
                 if (isBack) {
                     navigateBack()
                 } else {
                     navigate(
-                        navDeepLink = NavDeeplinkDestination.ResultWord(
-                            "Harika gidiyorsun!"
-                        ),
+                        navDeepLink = NavDeeplinkDestination.ResultWord(),
                         popUpTo = true,
                         popUpToInclusive = false,
                         popUpToId = R.id.wordsDashboardFragment

@@ -14,15 +14,13 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
@@ -37,19 +35,15 @@ import com.skyvo.mobile.core.base.navigation.navigateBack
 import com.skyvo.mobile.core.database.course.CourseWordMockRepository
 import com.skyvo.mobile.core.resource.SoundEffect
 import com.skyvo.mobile.core.uikit.compose.button.AppPrimaryLargeButton
-import com.skyvo.mobile.core.uikit.compose.button.AppSecondaryLargeButton
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
-import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.theme.AppDimension
 import com.skyvo.mobile.core.uikit.theme.AppPrimaryTheme
 import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
-import com.skyvo.mobile.core.uikit.util.UI_EMPTY
-import com.skyvo.mobile.top.words.feature.words.R
+import com.skyvo.mobile.core.resource.R
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.delay
 
 @AndroidEntryPoint
 class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
@@ -66,16 +60,8 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
     private fun ContentView(viewModel: WordResultViewModel) {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
-        var animatedText by remember { mutableStateOf(String.UI_EMPTY) }
-        val title = state.headerText
-
         LaunchedEffect(Unit) {
             SoundEffect(requireContext()).playCompleted()
-            delay(300)
-            title.forEachIndexed { index, _ ->
-                delay(90)
-                animatedText = title.substring(0, index + 1)
-            }
         }
 
         AppPrimaryTheme {
@@ -152,11 +138,36 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
                         )
 
                         AppText(
-                            text = animatedText,
+                            text = when(state.progress) {
+                                0.20f -> stringResource(R.string.result_first_title)
+                                0.40f -> stringResource(R.string.result_second_title)
+                                0.60f -> stringResource(R.string.result_thirt_title)
+                                0.80f -> stringResource(R.string.result_fourth_title)
+                                1f -> stringResource(R.string.result_finale_title)
+                                else -> stringResource(R.string.result_default_title)
+                            },
                             modifier = Modifier
                                 .padding(top = AppDimension.default.dp48),
-                            style = AppTypography.default.brandTitle,
-                            color = LocalAppColor.current.primary
+                            textAlign = TextAlign.Center,
+                            style = AppTypography.default.bodyExtraLargeBold,
+                            color = LocalAppColor.current.colorTextMain
+                        )
+
+                        AppText(
+                            text = when(state.progress) {
+                                0.20f -> stringResource(R.string.result_first_message)
+                                0.40f -> stringResource(R.string.result_second_message)
+                                0.60f -> stringResource(R.string.result_thirt_message)
+                                0.80f -> stringResource(R.string.result_fourth_message)
+                                1f -> stringResource(R.string.result_finale_message)
+                                else -> stringResource(R.string.result_default_message)
+                            },
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(top = AppDimension.default.dp16),
+                            style = AppTypography.default.bodyPrimary,
+                            color = LocalAppColor.current.colorTextSubtler,
+                            textAlign = TextAlign.Center
                         )
                     }
                 }

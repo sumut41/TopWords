@@ -80,4 +80,18 @@
     <string name="quiz_find_meaning_title">Find the meaning!</string>
     <string name="reverse_meaning_label">Reverse Meaning</string>
     <string name="learning_english">Learn English with +3000 words</string>
+
+    <string name="result_first_title">Great Start!</string>
+    <string name="result_second_title">Keep Going, You\'re Doing Great!</string>
+    <string name="result_thirt_title">Halfway There!</string>
+    <string name="result_fourth_title">One Last Step!</string>
+    <string name="result_finale_title">Congratulations, Course Completed!</string>
+    <string name="result_default_title">You\'re Awesome!</string>
+
+    <string name="result_first_message">You\'ve successfully completed the first step. Ready to continue with the next quiz?</string>
+    <string name="result_second_message">You\'re making progress! Keep improving by choosing the correct word.</string>
+    <string name="result_thirt_message">You\'ve passed the halfway mark! Ready to find the missing word in the sentence?</string>
+    <string name="result_fourth_message">You\'re so close to the end! Now it\'s time to put the words together in the correct order.</string>
+    <string name="result_finale_message">Excellent work! Start a new course to discover even more words.</string>
+    <string name="result_default_message">Your word journey continues. See you in the next test!</string>
 </resources>

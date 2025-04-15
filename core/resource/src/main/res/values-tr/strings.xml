@@ -53,7 +53,7 @@
     <string name="check_answer">Kontrol et</string>
     <string name="type_your_answer">Yanıtınızı yazın</string>
     <string name="meaning">Kelimeyi tamamla!</string>
-    <string name="words_card_label">Kelime Kartları</string>
+    <string name="words_card_label">Kelime Öğren</string>
     <string name="fill_blanks_label">Boşlukları Doldur</string>
     <string name="find_meaning_label">Anlamını Bul</string>
     <string name="write_word_label">Kelimeyi Yaz</string>
@@ -80,4 +80,18 @@
     <string name="quiz_find_meaning_title">Anlamını bul!</string>
     <string name="reverse_meaning_label">Kelimeyi Bul</string>
     <string name="learning_english">+3000 Kelimeyle İngilizce Ögren!</string>
+
+    <string name="result_first_title">Harika Başlangıç!</string>
+    <string name="result_second_title">Devam Et, Harikasın!</string>
+    <string name="result_thirt_title">Yarısı Tamam!</string>
+    <string name="result_fourth_title">Son Bir Adım!</string>
+    <string name="result_finale_title">Tebrikler, Kurs Tamamlandı!</string>
+    <string name="result_default_title">Süpersin!</string>
+
+    <string name="result_first_message">İlk adımı başarıyla tamamladın. Şimdi sıradaki quizle devam etmeye hazır mısın?</string>
+    <string name="result_second_message">İlerliyorsun! Doğru kelimeyi seçerek becerilerini geliştirmeye devam et.</string>
+    <string name="result_thirt_message">Yarısını geçtin! Cümlelerde eksik kelimeyi bulmaya hazır mısın?</string>
+    <string name="result_fourth_message">Finale çok az kaldı. Şimdi kelimeleri doğru sıralamayla birleştirme zamanı!</string>
+    <string name="result_finale_message">Mükemmel iş çıkardın! Yeni bir kursla daha fazla kelime keşfet!</string>
+    <string name="result_default_message">Kelime serüvenin devam ediyor. Bir sonraki testte görüşmek üzere!</string>
 </resources>

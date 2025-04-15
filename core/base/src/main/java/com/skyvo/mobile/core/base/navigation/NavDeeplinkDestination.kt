@@ -27,10 +27,9 @@ sealed class NavDeeplinkDestination(
     )
 
     data class ResultWord(
-        val title: String,
         val isQuiz: Boolean = false
     ): NavDeeplinkDestination(
-        _deeplink = "result-word?title=$title/isQuiz=$isQuiz"
+        _deeplink = "result-word?isQuiz=$isQuiz"
     )
 
     data object WordsDashboard: NavDeeplinkDestination(

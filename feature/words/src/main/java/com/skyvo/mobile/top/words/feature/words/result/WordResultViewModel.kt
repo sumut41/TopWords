@@ -26,19 +26,9 @@ class WordResultViewModel @Inject constructor(
     override fun fetchExtras(extra: Bundle) {
         super.fetchExtras(extra)
         with(WordResultFragmentArgs.fromBundle(extra)) {
-            setup(title.orEmpty())
             isQuizFrom = isQuiz
+            getCurrentCourse()
         }
-    }
-
-    private fun setup(title: String) {
-        setState {
-            copy(
-                headerText = title,
-                language = userManager.learnLanguage?.name
-            )
-        }
-        getCurrentCourse()
     }
 
     private fun getCurrentCourse() {
@@ -48,7 +38,8 @@ class WordResultViewModel @Inject constructor(
                     setState {
                         copy(
                             courseId = course.id,
-                            progress = course.progress
+                            progress = course.progress,
+                            language = userManager.learnLanguage?.name
                         )
                     }
                 }
@@ -63,13 +54,13 @@ class WordResultViewModel @Inject constructor(
             val progress = state.value.progress
             if (progress < 0.20f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToFlashCardFragment())
-            } else if (progress < 0.40f) {
+            } else if (progress < 0.30f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToFindMeaningQuizFragment())
-            } else if (progress < 0.60f) {
+            } else if (progress < 0.50f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToReverseMeaningQuizFragment())
-            } else if (progress < 0.80f) {
+            } else if (progress < 0.70f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToSentenceQuizFragment())
-            } else if (progress < 1f) {
+            } else if (progress < 0.90f) {
                 navigate(WordResultFragmentDirections.actionResultWordFragmentToPuzzleQuizFragment())
             } else {
                 nextCourse()

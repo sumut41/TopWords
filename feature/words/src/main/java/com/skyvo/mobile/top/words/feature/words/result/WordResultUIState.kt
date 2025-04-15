@@ -5,6 +5,5 @@ import com.skyvo.mobile.core.base.viewmodel.UIState
 data class WordResultUIState (
     val language: String? = null,
     val courseId: Long = 1,
-    val headerText: String = "",
     val progress: Float = 0f
 ): UIState

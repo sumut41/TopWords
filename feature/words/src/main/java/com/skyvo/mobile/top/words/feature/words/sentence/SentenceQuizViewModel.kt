@@ -78,7 +78,6 @@ class SentenceQuizViewModel @Inject constructor(
                     copy(
                         wordIdListSize = wordIdList.size,
                         items = questionList,
-                        unCorrectCount = wordIdList.size - questionList.size,
                         currentQuestion = questionList.first()
                     )
                 }
@@ -113,7 +112,6 @@ class SentenceQuizViewModel @Inject constructor(
     private fun unCorrect() {
         setState {
             copy(
-                unCorrectCount = unCorrectCount + 1,
                 playSoundType = 1
             )
         }
@@ -165,14 +163,12 @@ class SentenceQuizViewModel @Inject constructor(
                 isStart = true,
                 progress = if (state.value.correctCount >= ((state.value.items?.size ?: 1) - 1)) 0.80f else (if (currentProgress == 0.60f) 0.70f else currentProgress)
             )
-            delay(100)
+            delay(200)
             if (isBack) {
                 navigateBack()
             } else {
                 navigate(
-                    navDeepLink = NavDeeplinkDestination.ResultWord(
-                        "Süpersin!"
-                    ),
+                    navDeepLink = NavDeeplinkDestination.ResultWord(),
                     popUpTo = true,
                     popUpToInclusive = false,
                     popUpToId = R.id.wordsDashboardFragment

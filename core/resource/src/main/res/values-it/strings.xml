@@ -80,4 +80,18 @@
     <string name="quiz_find_meaning_title">Trova il significato!</string>
     <string name="reverse_meaning_label">Significato inverso</string>
     <string name="learning_english">Impara l\'inglese con +3000 parole</string>
+
+    <string name="result_first_title">Ottimo inizio!</string>
+    <string name="result_second_title">Continua così, sei bravissimo!</string>
+    <string name="result_thirt_title">Sei a metà strada!</string>
+    <string name="result_fourth_title">Ancora un ultimo passo!</string>
+    <string name="result_finale_title">Complimenti, corso completato!</string>
+    <string name="result_default_title">Sei fantastico!</string>
+
+    <string name="result_first_message">Hai completato con successo il primo passo. Sei pronto per il prossimo quiz?</string>
+    <string name="result_second_message">Stai facendo grandi progressi! Continua a migliorare scegliendo la parola giusta.</string>
+    <string name="result_thirt_message">Hai superato la metà! Pronto a trovare la parola mancante nella frase?</string>
+    <string name="result_fourth_message">Sei vicinissimo al traguardo! Ora è il momento di mettere le parole nel giusto ordine.</string>
+    <string name="result_finale_message">Ottimo lavoro! Inizia un nuovo corso per scoprire ancora più parole.</string>
+    <string name="result_default_message">La tua avventura con le parole continua. Ci vediamo al prossimo test!</string>
 </resources>

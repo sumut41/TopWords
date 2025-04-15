@@ -80,4 +80,18 @@
     <string name="quiz_find_meaning_title">Finden Sie den Sinn!</string>
     <string name="reverse_meaning_label">Umgekehrte Bedeutung</string>
     <string name="learning_english">Lernen Sie Englisch mit über 3000 Wörtern</string>
+
+    <string name="result_first_title">Toller Start!</string>
+    <string name="result_second_title">Weiter so, du machst das super!</string>
+    <string name="result_thirt_title">Schon die Hälfte geschafft!</string>
+    <string name="result_fourth_title">Nur noch ein Schritt!</string>
+    <string name="result_finale_title">Glückwunsch, Kurs abgeschlossen!</string>
+    <string name="result_default_title">Du bist großartig!</string>
+
+    <string name="result_first_message">Du hast den ersten Schritt geschafft. Bist du bereit für das nächste Quiz?</string>
+    <string name="result_second_message">Du machst Fortschritte! Übe weiter, indem du das richtige Wort auswählst.</string>
+    <string name="result_thirt_message">Mehr als die Hälfte ist geschafft! Jetzt geht’s weiter mit fehlenden Wörtern im Satz.</string>
+    <string name="result_fourth_message">Das Ziel ist ganz nah! Jetzt gilt es, die Wörter in der richtigen Reihenfolge zu ordnen.</string>
+    <string name="result_finale_message">Großartige Arbeit! Starte einen neuen Kurs und lerne noch mehr Wörter.</string>
+    <string name="result_default_message">Dein Wort-Abenteuer geht weiter. Bis zum nächsten Test!</string>
 </resources>

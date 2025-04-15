@@ -80,4 +80,18 @@
     <string name="quiz_find_meaning_title">Trouvez le sens !</string>
     <string name="reverse_meaning_label">Signification inversée</string>
     <string name="learning_english">Apprenez l\'anglais avec +3000 mots</string>
+
+    <string name="result_first_title">Super début!</string>
+    <string name="result_second_title">Continue comme ça, tu es génial!</string>
+    <string name="result_thirt_title">Tu as fait la moitié du chemin!</string>
+    <string name="result_fourth_title">Encore un dernier effort!</string>
+    <string name="result_finale_title">Félicitations, cours terminé!</string>
+    <string name="result_default_title">Tu es incroyable!</string>
+
+    <string name="result_first_message">Tu as franchi la première étape. Prêt(e) pour le prochain quiz?</string>
+    <string name="result_second_message">Tu progresses bien! Continue à t\'exercer en choisissant le bon mot.</string>
+    <string name="result_thirt_message">Tu as passé la moitié! Prêt(e) à trouver le mot manquant dans la phrase?</string>
+    <string name="result_fourth_message">Tu es presque au bout! Il est temps d’assembler les mots dans le bon ordre.</string>
+    <string name="result_finale_message">Excellent travail! Commence un nouveau cours pour découvrir encore plus de mots.</string>
+    <string name="result_default_message">Ton aventure avec les mots continue. À très bientôt pour le prochain test!</string>
 </resources>

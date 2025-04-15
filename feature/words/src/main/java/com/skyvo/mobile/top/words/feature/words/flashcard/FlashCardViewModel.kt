@@ -104,9 +104,7 @@ class FlashCardViewModel @Inject constructor(
                 progress = 0.20f
             )
             navigate(
-                navDeepLink = NavDeeplinkDestination.ResultWord(
-                    "Kelimeler Bitti. Öğrenmeye devam edelim."
-                ),
+                navDeepLink = NavDeeplinkDestination.ResultWord(),
                 popUpTo = true,
                 popUpToInclusive = false,
                 popUpToId = R.id.wordsDashboardFragment

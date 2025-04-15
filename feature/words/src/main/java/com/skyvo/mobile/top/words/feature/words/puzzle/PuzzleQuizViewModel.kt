@@ -126,7 +126,6 @@ class PuzzleQuizViewModel @Inject constructor(
     private fun unCorrect() {
         setState {
             copy(
-                unCorrectCount = unCorrectCount + 1,
                 playSoundType = 1
             )
         }
@@ -231,14 +230,12 @@ class PuzzleQuizViewModel @Inject constructor(
                 isStart = true,
                 progress = if (state.value.correctCount >= ((state.value.wordList?.size ?: 1) - 1)) 1f else (if (currentProgress == 0.80f) 0.90f else currentProgress)
             )
-            delay(100)
+            delay(200)
             if (isBack) {
                 navigateBack()
             } else {
                 navigate(
-                    navDeepLink = NavDeeplinkDestination.ResultWord(
-                        "Oooo ${state.value.courseId}. Ders Bitti!"
-                    ),
+                    navDeepLink = NavDeeplinkDestination.ResultWord(),
                     popUpTo = true,
                     popUpToInclusive = false,
                     popUpToId = R.id.wordsDashboardFragment

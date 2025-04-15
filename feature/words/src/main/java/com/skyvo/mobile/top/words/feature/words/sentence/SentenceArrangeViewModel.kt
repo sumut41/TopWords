@@ -77,10 +77,7 @@ class SentenceArrangeViewModel @Inject constructor(
                 setupSentence()
             } else {
                 navigate(
-                    navDeepLink = NavDeeplinkDestination.ResultWord(
-                        title = "Harikasın, bitirdin!",
-                        isQuiz = true
-                    ),
+                    navDeepLink = NavDeeplinkDestination.ResultWord(isQuiz = true),
                     popUpTo = true,
                     popUpToInclusive = false,
                     popUpToId = R.id.wordsDashboardFragment
@@ -171,10 +168,7 @@ class SentenceArrangeViewModel @Inject constructor(
             setupSentence()
         } else {
             navigate(
-                navDeepLink = NavDeeplinkDestination.ResultWord(
-                    title = "Harikasın, bitirdin!",
-                    isQuiz = true
-                ),
+                navDeepLink = NavDeeplinkDestination.ResultWord(isQuiz = true),
                 popUpTo = true,
                 popUpToInclusive = false,
                 popUpToId = R.id.wordsDashboardFragment

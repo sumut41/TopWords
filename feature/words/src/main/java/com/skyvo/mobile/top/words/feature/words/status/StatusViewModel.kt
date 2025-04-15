@@ -113,9 +113,7 @@ class StatusViewModel @Inject constructor(
             navigate(StatusFragmentDirections.actionStatusFragmentToPuzzleQuizFragment())
         } else {
             navigate(
-                navDeepLink = NavDeeplinkDestination.ResultWord(
-                    "Oooo ${state.value.currentCourse?.id}. Ders Bitti!"
-                ),
+                navDeepLink = NavDeeplinkDestination.ResultWord(),
                 popUpTo = true,
                 popUpToInclusive = false,
                 popUpToId = R.id.wordsDashboardFragment

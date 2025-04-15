@@ -96,12 +96,7 @@
         android:id="@+id/resultWordFragment"
         android:name="com.skyvo.mobile.top.words.feature.words.result.WordResultFragment"
         android:label="WordResultFragment">
-        <deepLink app:uri="top-words://result-word?title={title}/isQuiz={isQuiz}" />
-
-        <argument
-            android:name="title"
-            app:argType="string"
-            app:nullable="true"/>
+        <deepLink app:uri="top-words://result-word?isQuiz={isQuiz}" />
 
         <argument
             android:name="isQuiz"
