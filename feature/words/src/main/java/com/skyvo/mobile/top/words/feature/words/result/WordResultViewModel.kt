@@ -27,7 +27,15 @@ class WordResultViewModel @Inject constructor(
         super.fetchExtras(extra)
         with(WordResultFragmentArgs.fromBundle(extra)) {
             isQuizFrom = isQuiz
-            getCurrentCourse()
+            if (isQuizFrom.not()) {
+                getCurrentCourse()
+            } else {
+                setState {
+                    copy(
+                        isSingleQuiz = true
+                    )
+                }
+            }
         }
     }
 

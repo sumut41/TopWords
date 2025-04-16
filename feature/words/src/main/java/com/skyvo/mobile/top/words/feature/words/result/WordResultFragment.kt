@@ -131,11 +131,19 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
                     Column (
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        SuccessAnimation(
-                            modifier = Modifier
-                                .padding(top = AppDimension.default.dp40)
-                                .size(210.dp)
-                        )
+                        if (state.isSingleQuiz) {
+                            LessonAnimation(
+                                modifier = Modifier
+                                    .padding(top = AppDimension.default.dp16)
+                                    .size(250.dp)
+                            )
+                        } else {
+                            SuccessAnimation(
+                                modifier = Modifier
+                                    .padding(top = AppDimension.default.dp40)
+                                    .size(210.dp)
+                            )
+                        }
 
                         AppText(
                             text = when(state.progress) {
@@ -164,7 +172,11 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
                             },
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(top = AppDimension.default.dp16),
+                                .padding(
+                                    top = AppDimension.default.dp16,
+                                    start = AppDimension.default.dp16,
+                                    end = AppDimension.default.dp16
+                                ),
                             style = AppTypography.default.bodyPrimary,
                             color = LocalAppColor.current.colorTextSubtler,
                             textAlign = TextAlign.Center
@@ -173,6 +185,29 @@ class WordResultFragment : BaseComposeFragment<WordResultViewModel>() {
                 }
             }
         }
+    }
+
+    @Composable
+    fun LessonAnimation(modifier: Modifier = Modifier) {
+        val preloaderLottieComposition by rememberLottieComposition(
+            LottieCompositionSpec.RawRes(
+                com.skyvo.mobile.core.resource.R.raw.lesson_complete
+            )
+        )
+
+        val preloaderProgress by animateLottieCompositionAsState(
+            preloaderLottieComposition,
+            iterations = 4,
+            isPlaying = true,
+            restartOnPlay = false,
+        )
+
+
+        LottieAnimation(
+            composition = preloaderLottieComposition,
+            progress = preloaderProgress,
+            modifier = modifier
+        )
     }
 
     @Composable
