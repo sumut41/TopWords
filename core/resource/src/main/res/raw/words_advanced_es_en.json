@@ -35569,6 +35569,222 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Resilient",
+      "translate": "Resiliente, resistente",
+      "quiz": "Despite all the setbacks, she remained .... and kept pursuing her goals.",
+      "quizTranslate": "A pesar de todos los contratiempos, se mantuvo resistente y siguió persiguiendo sus metas.",
+      "translateList": [
+        {
+          "label": "Resilient",
+          "isCorrect": true
+        },
+        {
+          "label": "Weak",
+          "isCorrect": false
+        },
+        {
+          "label": "Fragile",
+          "isCorrect": false
+        },
+        {
+          "label": "Sensitive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Diligent",
+      "translate": "Diligente, trabajador",
+      "quiz": "He is known for being a .... worker who always completes tasks on time.",
+      "quizTranslate": "Es conocido por ser un trabajador diligente que siempre completa las tareas a tiempo.",
+      "translateList": [
+        {
+          "label": "Diligent",
+          "isCorrect": true
+        },
+        {
+          "label": "Lazy",
+          "isCorrect": false
+        },
+        {
+          "label": "Unreliable",
+          "isCorrect": false
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Hypocrite",
+      "translate": "Hipócrita",
+      "quiz": "He was criticized for being a ...., preaching about honesty but lying in his personal life.",
+      "quizTranslate": "Fue criticado por ser un hipócrita, predicando sobre honestidad pero mintiendo en su vida personal.",
+      "translateList": [
+        {
+          "label": "Hypocrite",
+          "isCorrect": true
+        },
+        {
+          "label": "Truth-teller",
+          "isCorrect": false
+        },
+        {
+          "label": "Hero",
+          "isCorrect": false
+        },
+        {
+          "label": "Leader",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Malevolent",
+      "translate": "Malévolo, maligno",
+      "quiz": "The .... forces in the story tried to destroy the peaceful village.",
+      "quizTranslate": "Las fuerzas malévolas en la historia intentaron destruir el pueblo pacífico.",
+      "translateList": [
+        {
+          "label": "Malevolent",
+          "isCorrect": true
+        },
+        {
+          "label": "Kind",
+          "isCorrect": false
+        },
+        {
+          "label": "Gentle",
+          "isCorrect": false
+        },
+        {
+          "label": "Benevolent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Intuition",
+      "translate": "Intuición",
+      "quiz": "Her .... told her that something was wrong, even before she saw the evidence.",
+      "quizTranslate": "Su intuición le dijo que algo estaba mal, incluso antes de ver la evidencia.",
+      "translateList": [
+        {
+          "label": "Intuition",
+          "isCorrect": true
+        },
+        {
+          "label": "Logic",
+          "isCorrect": false
+        },
+        {
+          "label": "Reasoning",
+          "isCorrect": false
+        },
+        {
+          "label": "Evidence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pragmatic",
+      "translate": "Pragmático, práctico",
+      "quiz": "His .... approach to problem-solving made him highly effective in his job.",
+      "quizTranslate": "Su enfoque pragmático para resolver problemas lo hizo muy efectivo en su trabajo.",
+      "translateList": [
+        {
+          "label": "Pragmatic",
+          "isCorrect": true
+        },
+        {
+          "label": "Idealistic",
+          "isCorrect": false
+        },
+        {
+          "label": "Theoretical",
+          "isCorrect": false
+        },
+        {
+          "label": "Unrealistic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eloquent",
+      "translate": "Elocuente, expresivo",
+      "quiz": "She gave an .... speech that moved everyone in the room.",
+      "quizTranslate": "Ella dio un discurso elocuente que conmovió a todos en la sala.",
+      "translateList": [
+        {
+          "label": "Eloquent",
+          "isCorrect": true
+        },
+        {
+          "label": "Clumsy",
+          "isCorrect": false
+        },
+        {
+          "label": "Inarticulate",
+          "isCorrect": false
+        },
+        {
+          "label": "Unclear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Complacent",
+      "translate": "Complaciente, autosatisfecho",
+      "quiz": "He became .... after winning one small award, and stopped improving his skills.",
+      "quizTranslate": "Se volvió complaciente después de ganar un pequeño premio y dejó de mejorar sus habilidades.",
+      "translateList": [
+        {
+          "label": "Complacent",
+          "isCorrect": true
+        },
+        {
+          "label": "Ambitious",
+          "isCorrect": false
+        },
+        {
+          "label": "Motivated",
+          "isCorrect": false
+        },
+        {
+          "label": "Discontent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Contradictory",
+      "translate": "Contradictorio",
+      "quiz": "The witness gave .... statements during the trial, causing confusion.",
+      "quizTranslate": "El testigo dio declaraciones contradictorias durante el juicio, causando confusión.",
+      "translateList": [
+        {
+          "label": "Contradictory",
+          "isCorrect": true
+        },
+        {
+          "label": "Consistent",
+          "isCorrect": false
+        },
+        {
+          "label": "Logical",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

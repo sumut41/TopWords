@@ -37,7 +37,6 @@ class DataLoaderViewModel @Inject constructor(
 
     private var beginnerBookList: List<AppBook>? = listOf()
     private var intermediateBookList: List<AppBook>? = listOf()
-    private var advancedBookList: List<AppBook>? = listOf()
 
     private var beginnerWordList: List<AppWord>? = listOf()
     private var intermediateWordList: List<AppWord>? = listOf()
@@ -90,10 +89,6 @@ class DataLoaderViewModel @Inject constructor(
 
             intermediateBookList = remoteConfigManager.getString(
                 "books_intermediate_${nativeLanguageCode}_$learnLanguageCode"
-            ).toModel<AppBookParentModel>()?.books
-
-            advancedBookList = remoteConfigManager.getString(
-                "books_advanced_${nativeLanguageCode}_$learnLanguageCode"
             ).toModel<AppBookParentModel>()?.books
 
             onComplete.invoke(true)
@@ -223,11 +218,7 @@ class DataLoaderViewModel @Inject constructor(
     private fun saveBook() {
         viewModelScope.launch(Dispatchers.IO) {
             try {
-                // Tüm kitapları tek seferde kaydet
-                val allBooks = (beginnerBook().orEmpty() +
-                              intermediateBook().orEmpty() +
-                              advancedBook().orEmpty())
-
+                val allBooks = (beginnerBook().orEmpty() + intermediateBook().orEmpty())
                 bookRepository.insertAll(allBooks)
                 userManager.isCompletedSetup = true
 
@@ -262,24 +253,6 @@ class DataLoaderViewModel @Inject constructor(
         return intermediateBookList?.map { book ->
             BookEntity(
                 categoryLevel = LevelType.INTERMEDIATE.key,
-                level = book.level,
-                languageCode = userManager.learnLanguage?.code,
-                content = book.content,
-                contentTr = book.contentTr,
-                title = book.title,
-                min = book.min,
-                genre = book.genre,
-                isNew = book.isNew,
-                imageUrl = book.imageUrl,
-                words = book.words.toJson()
-            )
-        }
-    }
-
-    private fun advancedBook(): List<BookEntity>? {
-        return advancedBookList?.map { book ->
-            BookEntity(
-                categoryLevel = LevelType.ADVANCED.key,
                 level = book.level,
                 languageCode = userManager.learnLanguage?.code,
                 content = book.content,

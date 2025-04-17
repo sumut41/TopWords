@@ -35591,6 +35591,222 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Resilient",
+      "translate": "Dirençli, dayanaklı",
+      "quiz": "Despite all the setbacks, she remained .... and kept pursuing her goals.",
+      "quizTranslate": "Tüm engellemelere rağmen, dirençli kaldı ve hedeflerini takip etmeye devam etti.",
+      "translateList": [
+        {
+          "label": "Resilient",
+          "isCorrect": true
+        },
+        {
+          "label": "Weak",
+          "isCorrect": false
+        },
+        {
+          "label": "Fragile",
+          "isCorrect": false
+        },
+        {
+          "label": "Sensitive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Diligent",
+      "translate": "Çalışkan, gayretli",
+      "quiz": "He is known for being a .... worker who always completes tasks on time.",
+      "quizTranslate": "Zamanında her zaman görevleri tamamlayan çalışkan bir işçi olarak tanınır.",
+      "translateList": [
+        {
+          "label": "Diligent",
+          "isCorrect": true
+        },
+        {
+          "label": "Lazy",
+          "isCorrect": false
+        },
+        {
+          "label": "Unreliable",
+          "isCorrect": false
+        },
+        {
+          "label": "Careless",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Hypocrite",
+      "translate": "İkiyüzlü",
+      "quiz": "He was criticized for being a ...., preaching about honesty but lying in his personal life.",
+      "quizTranslate": "Dürüstlükten bahsedip kişisel hayatında yalan söyleyen biri olduğu için eleştirildi.",
+      "translateList": [
+        {
+          "label": "Hypocrite",
+          "isCorrect": true
+        },
+        {
+          "label": "Truth-teller",
+          "isCorrect": false
+        },
+        {
+          "label": "Hero",
+          "isCorrect": false
+        },
+        {
+          "label": "Leader",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Malevolent",
+      "translate": "Kötü niyetli, zararlı",
+      "quiz": "The .... forces in the story tried to destroy the peaceful village.",
+      "quizTranslate": "Hikayede kötü niyetli güçler, barışçıl köyü yok etmeye çalıştı.",
+      "translateList": [
+        {
+          "label": "Malevolent",
+          "isCorrect": true
+        },
+        {
+          "label": "Kind",
+          "isCorrect": false
+        },
+        {
+          "label": "Gentle",
+          "isCorrect": false
+        },
+        {
+          "label": "Benevolent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Intuition",
+      "translate": "Sezgi",
+      "quiz": "Her .... told her that something was wrong, even before she saw the evidence.",
+      "quizTranslate": "Sezgisi, kanıtı görmeden önce bile bir şeylerin ters gittiğini ona söyledi.",
+      "translateList": [
+        {
+          "label": "Intuition",
+          "isCorrect": true
+        },
+        {
+          "label": "Logic",
+          "isCorrect": false
+        },
+        {
+          "label": "Reasoning",
+          "isCorrect": false
+        },
+        {
+          "label": "Evidence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Pragmatic",
+      "translate": "Pratik, faydacı",
+      "quiz": "His .... approach to problem-solving made him highly effective in his job.",
+      "quizTranslate": "Problem çözmeye yönelik pratik yaklaşımı, işinde son derece etkili olmasını sağladı.",
+      "translateList": [
+        {
+          "label": "Pragmatic",
+          "isCorrect": true
+        },
+        {
+          "label": "Idealistic",
+          "isCorrect": false
+        },
+        {
+          "label": "Theoretical",
+          "isCorrect": false
+        },
+        {
+          "label": "Unrealistic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Eloquent",
+      "translate": "Etkili ve güzel konuşan",
+      "quiz": "She gave an .... speech that moved everyone in the room.",
+      "quizTranslate": "Etkileyici bir konuşma yaptı ve odadaki herkesi etkiledi.",
+      "translateList": [
+        {
+          "label": "Eloquent",
+          "isCorrect": true
+        },
+        {
+          "label": "Clumsy",
+          "isCorrect": false
+        },
+        {
+          "label": "Inarticulate",
+          "isCorrect": false
+        },
+        {
+          "label": "Unclear",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Complacent",
+      "translate": "Kendini beğenmiş, memnuniyet duyan",
+      "quiz": "He became .... after winning one small award, and stopped improving his skills.",
+      "quizTranslate": "Bir küçük ödül kazandıktan sonra kendini beğenmiş hale geldi ve becerilerini geliştirmeyi bıraktı.",
+      "translateList": [
+        {
+          "label": "Complacent",
+          "isCorrect": true
+        },
+        {
+          "label": "Ambitious",
+          "isCorrect": false
+        },
+        {
+          "label": "Motivated",
+          "isCorrect": false
+        },
+        {
+          "label": "Discontent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Contradictory",
+      "translate": "Çelişkili",
+      "quiz": "The witness gave .... statements during the trial, causing confusion.",
+      "quizTranslate": "Tanık, duruşma sırasında çelişkili ifadeler verdi ve kafa karışıklığına neden oldu.",
+      "translateList": [
+        {
+          "label": "Contradictory",
+          "isCorrect": true
+        },
+        {
+          "label": "Consistent",
+          "isCorrect": false
+        },
+        {
+          "label": "Logical",
+          "isCorrect": false
+        },
+        {
+          "label": "Clear",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
