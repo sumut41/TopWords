@@ -13,8 +13,12 @@ open class BookRepository @Inject constructor(
         bookDao.insertAll(list)
     }
 
+    fun getBookAllList(languageCode: String): Flow<List<BookEntity>?> = flow {
+        emit(bookDao.getBookAllList(languageCode))
+    }.flowOn(Dispatchers.IO)
+
     fun getBookList(level: String?, languageCode: String): Flow<List<BookEntity>?> = flow {
-        emit(bookDao.getBookList(level, languageCode))
+        emit(bookDao.getBookLevelList(level, languageCode))
     }.flowOn(Dispatchers.IO)
 
     fun getBookDetail(bookId: Long): Flow<BookEntity?> = flow {

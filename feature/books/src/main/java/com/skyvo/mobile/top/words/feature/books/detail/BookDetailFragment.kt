@@ -272,7 +272,7 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                         } else {
                             AppText(
                                 modifier = Modifier.padding(horizontal = AppDimension.default.dp16),
-                                text = state.book?.contentTr.orEmpty(),
+                                text = state.book?.contentTranslate.orEmpty(),
                                 style = AppTypography.default.bodyExtraLarge,
                             )
                         }

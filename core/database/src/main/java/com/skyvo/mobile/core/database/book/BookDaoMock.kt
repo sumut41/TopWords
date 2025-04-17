@@ -5,7 +5,11 @@ class BookDaoMock: BookDao {
         TODO("Not yet implemented")
     }
 
-    override suspend fun getBookList(level: String?, languageCode: String): List<BookEntity>? {
+    override suspend fun getBookAllList(languageCode: String): List<BookEntity>? {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun getBookLevelList(level: String?, languageCode: String): List<BookEntity>? {
         TODO("Not yet implemented")
     }
 

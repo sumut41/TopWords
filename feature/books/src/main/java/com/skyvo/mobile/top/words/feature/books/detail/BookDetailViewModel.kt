@@ -35,7 +35,7 @@ class BookDetailViewModel @Inject constructor(
                         copy(
                             book = AppBook(
                                 content = item.content,
-                                contentTr = item.contentTr,
+                                contentTranslate = item.contentTr,
                                 title = item.title,
                                 imageUrl = item.imageUrl,
                                 isNew = item.isNew,
@@ -76,7 +76,7 @@ class BookDetailViewModel @Inject constructor(
                 }
             } ?: emptyList()
 
-            val translations = book?.contentTr?.let {
+            val translations = book?.contentTranslate?.let {
                 it.split(".").mapNotNull { s ->
                     s.trim().takeIf { it.isNotEmpty() }?.plus(".")
                 }
@@ -96,7 +96,7 @@ class BookDetailViewModel @Inject constructor(
                 val sentences = book.content.orEmpty().split(".").mapNotNull { s ->
                     s.trim().takeIf { it.isNotEmpty() }?.plus(".")
                 }
-                val translations = book.contentTr.orEmpty().split(".").mapNotNull { s ->
+                val translations = book.contentTranslate.orEmpty().split(".").mapNotNull { s ->
                     s.trim().takeIf { it.isNotEmpty() }?.plus(".")
                 }
                 val index = sentences.indexOf(sentence)

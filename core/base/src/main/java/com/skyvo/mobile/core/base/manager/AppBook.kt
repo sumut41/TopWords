@@ -7,7 +7,7 @@ data class AppBookParentModel (
 data class AppBook (
     val id: Long? = null,
     val content: String? = null,
-    val contentTr: String? = null,
+    val contentTranslate: String? = null,
     val title: String? = null,
     val imageUrl: String? = null,
     val isNew: Boolean? = false,

@@ -30,14 +30,12 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
-import com.skyvo.mobile.core.base.manager.LevelType
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.R
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.layout.AppBookCard
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
-import com.skyvo.mobile.core.uikit.compose.tabrow.AppTabRow
 import com.skyvo.mobile.core.uikit.compose.text.AppText
 import com.skyvo.mobile.core.uikit.compose.widget.Book
 import com.skyvo.mobile.core.uikit.compose.widget.KeyValue
@@ -72,7 +70,6 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
     fun BooksDashboardView(
         state: BooksDashboardUIState,
     ) {
-        val tabTitles = listOf("Beginner", "Intermediate", "Advanced")
         val screenHeight = LocalConfiguration.current.screenHeightDp.dp
 
         AppPrimaryTheme(
@@ -113,17 +110,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                         shape = RoundedCornerShape(AppDimension.default.dp10)
                                     )
                                     .clickable {
-                                        val level: String = when (state.selectedTabIndex) {
-                                            BooksDashboardTypeEnum.BEGINNER -> LevelType.BEGINNER.key.orEmpty()
-                                            BooksDashboardTypeEnum.INTERMEDIATE -> LevelType.INTERMEDIATE.key.orEmpty()
-                                            BooksDashboardTypeEnum.ADVANCED -> LevelType.ADVANCED.key.orEmpty()
-                                            else -> LevelType.BEGINNER.key.orEmpty()
-                                        }
-                                        navigate(
-                                            BooksDashboardFragmentDirections.actionBooksDashboardFragmentToBooksSearchFragment(
-                                                level
-                                            )
-                                        )
+                                      // filter
                                     },
                                 contentAlignment = Alignment.Center
                             ) {
@@ -135,18 +122,9 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                 )
                             }
                         }
-                        AppTabRow(
-                            modifier = Modifier
-                                .padding(horizontal = AppDimension.default.dp8),
-                            selectedIndex = state.selectedTabIndex,
-                            items = tabTitles,
-                            onSelectionChange = {
-                                viewModel.updateTabIndex(it)
-                            }
-                        )
                     }
                 },
-                paddingValues = PaddingValues(top = AppDimension.default.dp100)
+                paddingValues = PaddingValues(top = AppDimension.default.dp56)
             ) {
                 LazyColumn {
                     item {
@@ -159,7 +137,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                         LazyVerticalGrid(
                             columns = GridCells.Fixed(2),
                             modifier = Modifier
-                                .height(screenHeight * 0.85f)
+                                .height(screenHeight * 0.90f)
                                 .padding(horizontal = AppDimension.default.dp8),
                             contentPadding = PaddingValues(8.dp),
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -172,7 +150,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                 AppBookCard(
                                     book = Book(
                                         contentEn = book.content.orEmpty(),
-                                        contentTr = book.contentTr.orEmpty(),
+                                        contentTr = book.contentTranslate.orEmpty(),
                                         words = book.words?.map {
                                             KeyValue(
                                                 key = it.key.orEmpty(),

@@ -5,5 +5,4 @@ import com.skyvo.mobile.core.base.viewmodel.UIState
 
 data class BooksDashboardUIState(
     val showBookList: List<AppBook>? = emptyList(),
-    val selectedTabIndex: Int = -1
 ) : UIState
