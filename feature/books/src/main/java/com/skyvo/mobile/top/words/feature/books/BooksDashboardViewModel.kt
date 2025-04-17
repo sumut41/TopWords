@@ -17,7 +17,7 @@ class BooksDashboardViewModel @Inject constructor(
     private val bookRepository: BookRepository
 ) : BaseComposeViewModel<BooksDashboardUIState>() {
 
-    private var beginnerBookList: List<AppBook>? = null
+    private var bookList: List<AppBook>? = null
 
     override fun setInitialState(): BooksDashboardUIState {
         return BooksDashboardUIState()
@@ -31,8 +31,8 @@ class BooksDashboardViewModel @Inject constructor(
         viewModelScope.launch {
             bookRepository.getBookAllList(
                 languageCode = userManager.learnLanguage?.code.orEmpty()
-            ).collect { bookList ->
-                beginnerBookList = bookList?.map {
+            ).collect { list ->
+                bookList = list?.map {
                     AppBook(
                         id = it.id,
                         title = it.title.orEmpty(),
@@ -48,10 +48,44 @@ class BooksDashboardViewModel @Inject constructor(
                 }
                 setState {
                     copy(
-                        showBookList = beginnerBookList
+                        showBookList = bookList
                     )
                 }
             }
+        }
+    }
+
+    fun updateFilterIndex(index: Int) {
+        if (index > 0) {
+            filterBookList(index)
+        } else {
+            setState {
+                copy(
+                    selectFilterIndex = index,
+                    showBookList = bookList
+                )
+            }
+        }
+    }
+
+    private fun filterBookList(index: Int) {
+        val books: ArrayList<AppBook> = arrayListOf()
+
+        bookList?.forEach { book ->
+            if (index == 1 && (book.level.orEmpty().contains("A1") || book.level.orEmpty().contains("A2"))) {
+                books.add(book)
+            } else if (index == 2 && (book.level.orEmpty().contains("B1") || book.level.orEmpty().contains("B2"))) {
+                books.add(book)
+            } else if (index == 3 && (book.level.orEmpty().contains("C1") || book.level.orEmpty().contains("C2"))) {
+                books.add(book)
+            }
+        }
+
+        setState {
+            copy(
+                selectFilterIndex = index,
+                showBookList = books
+            )
         }
     }
 }

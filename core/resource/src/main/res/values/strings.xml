@@ -24,7 +24,7 @@
     <string name="data_loader_loading_title">Loading.</string>
     <string name="data_loader_description">We organize the english course for you.</string>
     <string name="books_title">BOOKS</string>
-    <string name="search">Search</string>
+    <string name="filter">Filter</string>
     <string name="books_search_fragment_title">Book Search</string>
     <string name="menu_fragment_title">MENU</string>
     <string name="about_us_menu_card_title">About Us</string>
@@ -94,4 +94,10 @@
     <string name="result_fourth_message">You\'re so close to the end! Now it\'s time to put the words together in the correct order.</string>
     <string name="result_finale_message">Excellent work! Start a new course to discover even more words.</string>
     <string name="result_default_message">Your word journey continues. See you in the next test!</string>
+
+    <string name="filter_title">Filter</string>
+    <string name="filter_book_all">All</string>
+    <string name="filter_book_beginner">Beginner (A1-A2)</string>
+    <string name="filter_book_intermediate">Intermediate (B1-B2)</string>
+    <string name="filter_book_advanced">Advanced (C1-C2)</string>
 </resources>

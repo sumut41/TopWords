@@ -33,10 +33,11 @@ import com.skyvo.mobile.core.uikit.theme.AppTypography
 import com.skyvo.mobile.core.uikit.theme.LocalAppColor
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.ui.draw.clip
 import com.skyvo.mobile.core.resource.R
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
 
 @AndroidEntryPoint
 class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
@@ -163,8 +164,9 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
 
     @Composable
     private fun EmptyLetterBoxes(word: String, filledWord: String) {
-        val spacing = 8.dp
+        val spacing = 4.dp
         val maxBoxSize = 45.dp
+        val minBoxSize = 24.dp
         val horizontalPadding = AppDimension.default.dp16
 
         BoxWithConstraints(
@@ -173,11 +175,15 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
                 .padding(horizontal = horizontalPadding)
         ) {
             val availableWidth = maxWidth - horizontalPadding * 2
-            val boxSize =
-                minOf(maxBoxSize, (availableWidth - (spacing * (word.length - 1))) / word.length)
+            val boxSize = minOf(
+                maxBoxSize,
+                maxOf(minBoxSize, (availableWidth - (spacing * (word.length - 1))) / word.length)
+            )
 
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .horizontalScroll(rememberScrollState()),
                 horizontalArrangement = Arrangement.Center,
                 verticalAlignment = Alignment.CenterVertically
             ) {
@@ -219,8 +225,9 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
 
     @Composable
     private fun ShuffledLetterBoxes(word: String, onLetterClick: (Char) -> Unit) {
-        val spacing = 8.dp
+        val spacing = 4.dp
         val maxBoxSize = 45.dp
+        val minBoxSize = 24.dp
         val horizontalPadding = AppDimension.default.dp16
         val state by viewModel.state.collectAsStateWithLifecycle()
         val availableLetters = state.availableLetters.filter { it.remainingCount > 0 }
@@ -233,47 +240,56 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
             val availableWidth = maxWidth - horizontalPadding * 2
             val boxSize = minOf(
                 maxBoxSize,
-                (availableWidth - (spacing * (availableLetters.size - 1))) / availableLetters.size
+                maxOf(minBoxSize, (availableWidth - (spacing * (availableLetters.size - 1))) / availableLetters.size)
             )
+            val maxBoxesPerRow = (availableWidth / (boxSize + spacing)).toInt()
 
-            Row(
+            Column(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.Center,
-                verticalAlignment = Alignment.CenterVertically
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                availableLetters.forEach { letterCount ->
-                    val interactionSource = remember { MutableInteractionSource() }
-                    val isPressed by interactionSource.collectIsPressedAsState()
-
-                    Box(
-                        modifier = Modifier
-                            .size(boxSize)
-                            .background(
-                                color = LocalAppColor.current.colorBackgroundSelected,
-                                shape = RoundedCornerShape(AppDimension.default.dp10)
-                            )
-                            .border(
-                                width = 1.dp,
-                                color = LocalAppColor.current.colorBorder,
-                                shape = RoundedCornerShape(AppDimension.default.dp10)
-                            )
-                            .clip(RoundedCornerShape(AppDimension.default.dp10))
-                            .clickable(
-                                interactionSource = interactionSource,
-                                indication = null
-                            ) {
-                                onLetterClick(letterCount.letter)
-                            },
-                        contentAlignment = Alignment.Center,
+                availableLetters.chunked(maxBoxesPerRow).forEach { rowLetters ->
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.Center,
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        AppText(
-                            text = letterCount.letter.toString().lowercase(),
-                            style = AppTypography.default.bodyLarge,
-                            color = LocalAppColor.current.colorTextMain
-                        )
+                        rowLetters.forEach { letterCount ->
+                            val interactionSource = remember { MutableInteractionSource() }
+                            Box(
+                                modifier = Modifier
+                                    .size(boxSize)
+                                    .background(
+                                        color = LocalAppColor.current.colorBackgroundSelected,
+                                        shape = RoundedCornerShape(AppDimension.default.dp10)
+                                    )
+                                    .border(
+                                        width = 1.dp,
+                                        color = LocalAppColor.current.colorBorder,
+                                        shape = RoundedCornerShape(AppDimension.default.dp10)
+                                    )
+                                    .clip(RoundedCornerShape(AppDimension.default.dp10))
+                                    .clickable(
+                                        interactionSource = interactionSource,
+                                        indication = null
+                                    ) {
+                                        onLetterClick(letterCount.letter)
+                                    },
+                                contentAlignment = Alignment.Center,
+                            ) {
+                                AppText(
+                                    text = letterCount.letter.toString().lowercase(),
+                                    style = AppTypography.default.bodyLarge,
+                                    color = LocalAppColor.current.colorTextMain
+                                )
+                            }
+                            if (letterCount != rowLetters.last()) {
+                                Spacer(modifier = Modifier.width(spacing))
+                            }
+                        }
                     }
-                    if (letterCount != availableLetters.last()) {
-                        Spacer(modifier = Modifier.width(spacing))
+                    if (rowLetters != availableLetters.chunked(maxBoxesPerRow).last()) {
+                        Spacer(modifier = Modifier.height(spacing))
                     }
                 }
             }

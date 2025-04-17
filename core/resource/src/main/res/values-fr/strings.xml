@@ -24,7 +24,7 @@
     <string name="data_loader_loading_title">le chargement</string>
     <string name="data_loader_description">Nous organisons le cours anglais pour vous.</string>
     <string name="books_title">LIVRES</string>
-    <string name="search">Rechercher</string>
+    <string name="filter">Rechercher</string>
     <string name="books_search_fragment_title">Recherche de livres</string>
     <string name="menu_fragment_title">MENU</string>
     <string name="about_us_menu_card_title">À propos</string>
@@ -94,4 +94,10 @@
     <string name="result_fourth_message">Tu es presque au bout! Il est temps d’assembler les mots dans le bon ordre.</string>
     <string name="result_finale_message">Excellent travail! Commence un nouveau cours pour découvrir encore plus de mots.</string>
     <string name="result_default_message">Ton aventure avec les mots continue. À très bientôt pour le prochain test!</string>
+
+    <string name="filter_title">Filtre</string>
+    <string name="filter_book_all">Tout</string>
+    <string name="filter_book_beginner">Débutant (A1-A2)</string>
+    <string name="filter_book_intermediate">Intermédiaire (B1-B2)</string>
+    <string name="filter_book_advanced">Avancé (C1-C2)</string>
 </resources>

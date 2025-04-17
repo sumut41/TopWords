@@ -24,7 +24,7 @@
     <string name="data_loader_loading_title">Yükleniyor.</string>
     <string name="data_loader_description">Sizin için ingilizce kursunu düzenliyoruz.</string>
     <string name="books_title">OKUMA METİNLERİ</string>
-    <string name="search">Arama</string>
+    <string name="filter">Filtre</string>
     <string name="books_search_fragment_title">Okuma Metni Ara</string>
     <string name="menu_fragment_title">MENU</string>
     <string name="about_us_menu_card_title">Hakkımızda</string>
@@ -94,4 +94,10 @@
     <string name="result_fourth_message">Finale çok az kaldı. Şimdi kelimeleri doğru sıralamayla birleştirme zamanı!</string>
     <string name="result_finale_message">Mükemmel iş çıkardın! Yeni bir kursla daha fazla kelime keşfet!</string>
     <string name="result_default_message">Kelime serüvenin devam ediyor. Bir sonraki testte görüşmek üzere!</string>
+
+    <string name="filter_title">Filtre</string>
+    <string name="filter_book_all">Tümü</string>
+    <string name="filter_book_beginner">Temel (A1-A2)</string>
+    <string name="filter_book_intermediate">Orta (B1-B2)</string>
+    <string name="filter_book_advanced">İleri (C1-C2)</string>
 </resources>

@@ -24,7 +24,7 @@
     <string name="data_loader_loading_title">Laden...</string>
     <string name="data_loader_description">Wir stellen den Englisch-Kurs für dich zusammen.</string>
     <string name="books_title">BÜCHER</string>
-    <string name="search">Suche</string>
+    <string name="filter">Suche</string>
     <string name="books_search_fragment_title">Büchersuche</string>
     <string name="menu_fragment_title">MENÜ</string>
     <string name="about_us_menu_card_title">Über uns</string>
@@ -94,4 +94,10 @@
     <string name="result_fourth_message">Das Ziel ist ganz nah! Jetzt gilt es, die Wörter in der richtigen Reihenfolge zu ordnen.</string>
     <string name="result_finale_message">Großartige Arbeit! Starte einen neuen Kurs und lerne noch mehr Wörter.</string>
     <string name="result_default_message">Dein Wort-Abenteuer geht weiter. Bis zum nächsten Test!</string>
+
+    <string name="filter_title">Filter</string>
+    <string name="filter_book_all">Alle</string>
+    <string name="filter_book_beginner">Anfänger (A1-A2)</string>
+    <string name="filter_book_intermediate">Mittelstufe (B1-B2)</string>
+    <string name="filter_book_advanced">Fortgeschritten (C1-C2)</string>
 </resources>

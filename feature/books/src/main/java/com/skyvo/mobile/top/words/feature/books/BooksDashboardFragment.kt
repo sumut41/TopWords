@@ -19,6 +19,9 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -33,6 +36,7 @@ import com.skyvo.mobile.core.base.fragment.BaseComposeFragment
 import com.skyvo.mobile.core.base.navigation.navigate
 import com.skyvo.mobile.core.uikit.compose.layout.AppSpacer
 import com.skyvo.mobile.core.uikit.R
+import com.skyvo.mobile.core.uikit.compose.bottomsheet.AppOptionBottomSheet
 import com.skyvo.mobile.core.uikit.compose.icon.AppIcon
 import com.skyvo.mobile.core.uikit.compose.layout.AppBookCard
 import com.skyvo.mobile.core.uikit.compose.scaffold.AppScaffold
@@ -71,6 +75,7 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
         state: BooksDashboardUIState,
     ) {
         val screenHeight = LocalConfiguration.current.screenHeightDp.dp
+        var showFilterBottomSheet by remember { mutableStateOf(false) }
 
         AppPrimaryTheme(
             navigationBarColor = if (isSystemInDarkTheme().not()) {
@@ -82,7 +87,8 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
             AppScaffold (
                 header = {
                     Column(
-                        modifier = Modifier.fillMaxWidth()
+                        modifier = Modifier
+                            .fillMaxWidth()
                             .padding(
                                 vertical = AppDimension.default.dp8
                             )
@@ -110,15 +116,15 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                                         shape = RoundedCornerShape(AppDimension.default.dp10)
                                     )
                                     .clickable {
-                                      // filter
+                                        showFilterBottomSheet = true
                                     },
                                 contentAlignment = Alignment.Center
                             ) {
                                 AppIcon(
                                     modifier = Modifier.size(AppDimension.default.dp20),
-                                    imageVector = ImageVector.vectorResource(R.drawable.ic_search),
+                                    imageVector = ImageVector.vectorResource(R.drawable.ic_filter),
                                     tint = LocalAppColor.current.colorIcon,
-                                    contentDescription = stringResource(com.skyvo.mobile.core.resource.R.string.search)
+                                    contentDescription = stringResource(com.skyvo.mobile.core.resource.R.string.filter)
                                 )
                             }
                         }
@@ -180,6 +186,28 @@ class BooksDashboardFragment : BaseComposeFragment<BooksDashboardViewModel>() {
                     }
                 }
             }
+
+            if (showFilterBottomSheet) {
+                AppOptionBottomSheet(
+                    title = stringResource(com.skyvo.mobile.core.resource.R.string.filter_title),
+                    options = getFilterList(),
+                    selectedIndex = state.selectFilterIndex,
+                    onDismiss = {
+                        showFilterBottomSheet = false
+                    }
+                ) {
+                    viewModel.updateFilterIndex(it)
+                }
+            }
         }
+    }
+
+    private fun getFilterList(): List<String> {
+        return listOf(
+            requireActivity().getString(com.skyvo.mobile.core.resource.R.string.filter_book_all),
+            requireActivity().getString(com.skyvo.mobile.core.resource.R.string.filter_book_beginner),
+            requireActivity().getString(com.skyvo.mobile.core.resource.R.string.filter_book_intermediate),
+            requireActivity().getString(com.skyvo.mobile.core.resource.R.string.filter_book_advanced)
+        )
     }
 }
