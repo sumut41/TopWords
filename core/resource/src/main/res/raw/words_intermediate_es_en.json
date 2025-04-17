@@ -40368,6 +40368,294 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Monument",
+      "translate": "Monumento",
+      "quiz": "The Eiffel Tower is a famous .... in Paris.",
+      "quizTranslate": "La Torre Eiffel es un famoso monumento en París.",
+      "translateList": [
+        {
+          "label": "Monument",
+          "isCorrect": true
+        },
+        {
+          "label": "Building",
+          "isCorrect": false
+        },
+        {
+          "label": "Museum",
+          "isCorrect": false
+        },
+        {
+          "label": "Statue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Motivate",
+      "translate": "Motivar",
+      "quiz": "The coach’s speech helped to .... the team before the big game.",
+      "quizTranslate": "El discurso del entrenador ayudó a motivar al equipo antes del gran partido.",
+      "translateList": [
+        {
+          "label": "Motivate",
+          "isCorrect": true
+        },
+        {
+          "label": "Demoralize",
+          "isCorrect": false
+        },
+        {
+          "label": "Inspire",
+          "isCorrect": false
+        },
+        {
+          "label": "Encourage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Motivation",
+      "translate": "Motivación",
+      "quiz": "His lack of .... made it difficult for him to complete the task.",
+      "quizTranslate": "Su falta de motivación hizo que fuera difícil completar la tarea.",
+      "translateList": [
+        {
+          "label": "Motivation",
+          "isCorrect": true
+        },
+        {
+          "label": "Dedication",
+          "isCorrect": false
+        },
+        {
+          "label": "Energy",
+          "isCorrect": false
+        },
+        {
+          "label": "Confidence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mosque",
+      "translate": " mezquita",
+      "quiz": "The largest .... in the city is located in the old town.",
+      "quizTranslate": "La mezquita más grande de la ciudad se encuentra en el casco antiguo.",
+      "translateList": [
+        {
+          "label": "Mosque",
+          "isCorrect": true
+        },
+        {
+          "label": "Church",
+          "isCorrect": false
+        },
+        {
+          "label": "Temple",
+          "isCorrect": false
+        },
+        {
+          "label": "Synagogue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Multiply",
+      "translate": "Multiplicar",
+      "quiz": "If you .... 6 by 4, you get 24.",
+      "quizTranslate": "Si multiplicas 6 por 4, obtienes 24.",
+      "translateList": [
+        {
+          "label": "Multiply",
+          "isCorrect": true
+        },
+        {
+          "label": "Divide",
+          "isCorrect": false
+        },
+        {
+          "label": "Add",
+          "isCorrect": false
+        },
+        {
+          "label": "Subtract",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Necessity",
+      "translate": "Necesidad",
+      "quiz": "Clean water is a basic .... for all human beings.",
+      "quizTranslate": "El agua limpia es una necesidad básica para todos los seres humanos.",
+      "translateList": [
+        {
+          "label": "Necessity",
+          "isCorrect": true
+        },
+        {
+          "label": "Luxury",
+          "isCorrect": false
+        },
+        {
+          "label": "Preference",
+          "isCorrect": false
+        },
+        {
+          "label": "Option",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Negotiation",
+      "translate": "Negociación",
+      "quiz": "The two companies reached an agreement after a long ....",
+      "quizTranslate": "Las dos compañías llegaron a un acuerdo después de una larga negociación.",
+      "translateList": [
+        {
+          "label": "Negotiation",
+          "isCorrect": true
+        },
+        {
+          "label": "Argument",
+          "isCorrect": false
+        },
+        {
+          "label": "Conflict",
+          "isCorrect": false
+        },
+        {
+          "label": "Deal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Marker",
+      "translate": "Marcador",
+      "quiz": "You can use a .... to mark the location on the map.",
+      "quizTranslate": "Puedes usar un marcador para señalar la ubicación en el mapa.",
+      "translateList": [
+        {
+          "label": "Marker",
+          "isCorrect": true
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        },
+        {
+          "label": "Pencil",
+          "isCorrect": false
+        },
+        {
+          "label": "Crayon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mechanic",
+      "translate": "Mecánico",
+      "quiz": "The car broke down, so I took it to the .... for repairs.",
+      "quizTranslate": "El coche se descompuso, así que lo llevé al mecánico para reparaciones.",
+      "translateList": [
+        {
+          "label": "Mechanic",
+          "isCorrect": true
+        },
+        {
+          "label": "Plumber",
+          "isCorrect": false
+        },
+        {
+          "label": "Electrician",
+          "isCorrect": false
+        },
+        {
+          "label": "Carpenter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Medal",
+      "translate": "Medalla",
+      "quiz": "She won a gold .... in the 100-meter race.",
+      "quizTranslate": "Ganó una medalla de oro en la carrera de 100 metros.",
+      "translateList": [
+        {
+          "label": "Medal",
+          "isCorrect": true
+        },
+        {
+          "label": "Award",
+          "isCorrect": false
+        },
+        {
+          "label": "Prize",
+          "isCorrect": false
+        },
+        {
+          "label": "Trophy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Medication",
+      "translate": "Medicamentos",
+      "quiz": "He takes .... to control his blood pressure.",
+      "quizTranslate": "Él toma medicamentos para controlar su presión arterial.",
+      "translateList": [
+        {
+          "label": "Medication",
+          "isCorrect": true
+        },
+        {
+          "label": "Vitamin",
+          "isCorrect": false
+        },
+        {
+          "label": "Supplement",
+          "isCorrect": false
+        },
+        {
+          "label": "Herb",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Miner",
+      "translate": "Minero",
+      "quiz": "The .... worked deep underground to extract valuable metals.",
+      "quizTranslate": "El minero trabajó profundamente bajo tierra para extraer metales valiosos.",
+      "translateList": [
+        {
+          "label": "Miner",
+          "isCorrect": true
+        },
+        {
+          "label": "Farmer",
+          "isCorrect": false
+        },
+        {
+          "label": "Engineer",
+          "isCorrect": false
+        },
+        {
+          "label": "Factory worker",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

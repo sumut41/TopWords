@@ -40416,6 +40416,294 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Monument",
+      "translate": "Anıt",
+      "quiz": "The Eiffel Tower is a famous .... in Paris.",
+      "quizTranslate": "Eyfel Kulesi, Paris'teki ünlü bir anıttır.",
+      "translateList": [
+        {
+          "label": "Monument",
+          "isCorrect": true
+        },
+        {
+          "label": "Building",
+          "isCorrect": false
+        },
+        {
+          "label": "Museum",
+          "isCorrect": false
+        },
+        {
+          "label": "Statue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Motivate",
+      "translate": "Motive etmek",
+      "quiz": "The coach’s speech helped to .... the team before the big game.",
+      "quizTranslate": "Koçun konuşması, büyük maçtan önce takımı motive etmeye yardımcı oldu.",
+      "translateList": [
+        {
+          "label": "Motivate",
+          "isCorrect": true
+        },
+        {
+          "label": "Demoralize",
+          "isCorrect": false
+        },
+        {
+          "label": "Inspire",
+          "isCorrect": false
+        },
+        {
+          "label": "Encourage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Motivation",
+      "translate": "Motivasyon",
+      "quiz": "His lack of .... made it difficult for him to complete the task.",
+      "quizTranslate": "Onun motivasyon eksikliği, görevi tamamlamasını zorlaştırdı.",
+      "translateList": [
+        {
+          "label": "Motivation",
+          "isCorrect": true
+        },
+        {
+          "label": "Dedication",
+          "isCorrect": false
+        },
+        {
+          "label": "Energy",
+          "isCorrect": false
+        },
+        {
+          "label": "Confidence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mosque",
+      "translate": "Cami",
+      "quiz": "The largest .... in the city is located in the old town.",
+      "quizTranslate": "Şehirdeki en büyük cami, eski şehirde yer almaktadır.",
+      "translateList": [
+        {
+          "label": "Mosque",
+          "isCorrect": true
+        },
+        {
+          "label": "Church",
+          "isCorrect": false
+        },
+        {
+          "label": "Temple",
+          "isCorrect": false
+        },
+        {
+          "label": "Synagogue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Multiply",
+      "translate": "Çarpmak, çoğaltmak",
+      "quiz": "If you .... 6 by 4, you get 24.",
+      "quizTranslate": "Eğer 6'yı 4 ile çarparsan, 24 elde edersin.",
+      "translateList": [
+        {
+          "label": "Multiply",
+          "isCorrect": true
+        },
+        {
+          "label": "Divide",
+          "isCorrect": false
+        },
+        {
+          "label": "Add",
+          "isCorrect": false
+        },
+        {
+          "label": "Subtract",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Necessity",
+      "translate": "Zaruret, ihtiyaç",
+      "quiz": "Clean water is a basic .... for all human beings.",
+      "quizTranslate": "Temiz su, tüm insanlar için temel bir ihtiyaçtır.",
+      "translateList": [
+        {
+          "label": "Necessity",
+          "isCorrect": true
+        },
+        {
+          "label": "Luxury",
+          "isCorrect": false
+        },
+        {
+          "label": "Preference",
+          "isCorrect": false
+        },
+        {
+          "label": "Option",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Negotiation",
+      "translate": "Pazarlık, müzakere",
+      "quiz": "The two companies reached an agreement after a long ....",
+      "quizTranslate": "İki şirket, uzun bir müzakereden sonra bir anlaşmaya vardılar.",
+      "translateList": [
+        {
+          "label": "Negotiation",
+          "isCorrect": true
+        },
+        {
+          "label": "Argument",
+          "isCorrect": false
+        },
+        {
+          "label": "Conflict",
+          "isCorrect": false
+        },
+        {
+          "label": "Deal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Marker",
+      "translate": "İşaretleyici, kalem",
+      "quiz": "You can use a .... to mark the location on the map.",
+      "quizTranslate": "Harita üzerindeki konumu işaretlemek için bir işaretleyici kullanabilirsiniz.",
+      "translateList": [
+        {
+          "label": "Marker",
+          "isCorrect": true
+        },
+        {
+          "label": "Pen",
+          "isCorrect": false
+        },
+        {
+          "label": "Pencil",
+          "isCorrect": false
+        },
+        {
+          "label": "Crayon",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Mechanic",
+      "translate": "Tamirci",
+      "quiz": "The car broke down, so I took it to the .... for repairs.",
+      "quizTranslate": "Araba bozuldu, bu yüzden tamir için tamircime götürdüm.",
+      "translateList": [
+        {
+          "label": "Mechanic",
+          "isCorrect": true
+        },
+        {
+          "label": "Plumber",
+          "isCorrect": false
+        },
+        {
+          "label": "Electrician",
+          "isCorrect": false
+        },
+        {
+          "label": "Carpenter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Medal",
+      "translate": "Madalya",
+      "quiz": "She won a gold .... in the 100-meter race.",
+      "quizTranslate": "100 metre yarışında altın madalya kazandı.",
+      "translateList": [
+        {
+          "label": "Medal",
+          "isCorrect": true
+        },
+        {
+          "label": "Award",
+          "isCorrect": false
+        },
+        {
+          "label": "Prize",
+          "isCorrect": false
+        },
+        {
+          "label": "Trophy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Medication",
+      "translate": "İlaç",
+      "quiz": "He takes .... to control his blood pressure.",
+      "quizTranslate": "Kan basıncını kontrol altına almak için ilaç alıyor.",
+      "translateList": [
+        {
+          "label": "Medication",
+          "isCorrect": true
+        },
+        {
+          "label": "Vitamin",
+          "isCorrect": false
+        },
+        {
+          "label": "Supplement",
+          "isCorrect": false
+        },
+        {
+          "label": "Herb",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Miner",
+      "translate": "Madenci",
+      "quiz": "The .... worked deep underground to extract valuable metals.",
+      "quizTranslate": "Madenci, değerli metaller çıkarmak için derin yer altı çalışmalar yaptı.",
+      "translateList": [
+        {
+          "label": "Miner",
+          "isCorrect": true
+        },
+        {
+          "label": "Farmer",
+          "isCorrect": false
+        },
+        {
+          "label": "Engineer",
+          "isCorrect": false
+        },
+        {
+          "label": "Factory worker",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
