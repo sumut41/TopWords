@@ -40751,6 +40751,294 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Invade",
+      "translate": "Invadere",
+      "quiz": "The army planned to .... the city.",
+      "quizTranslate": "L'esercito ha pianificato di invadere la città.",
+      "translateList": [
+        {
+          "label": "Invade",
+          "isCorrect": true
+        },
+        {
+          "label": "Defend",
+          "isCorrect": false
+        },
+        {
+          "label": "Visit",
+          "isCorrect": false
+        },
+        {
+          "label": "Negotiate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Invasion",
+      "translate": "Invasione",
+      "quiz": "The .... caused panic in the town.",
+      "quizTranslate": "L'invasione ha causato panico in città.",
+      "translateList": [
+        {
+          "label": "Invasion",
+          "isCorrect": true
+        },
+        {
+          "label": "Revolution",
+          "isCorrect": false
+        },
+        {
+          "label": "Peace",
+          "isCorrect": false
+        },
+        {
+          "label": "War",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Investor",
+      "translate": "Investitore",
+      "quiz": "The company needs an .... to fund its new project.",
+      "quizTranslate": "L'azienda ha bisogno di un investitore per finanziare il suo nuovo progetto.",
+      "translateList": [
+        {
+          "label": "Investor",
+          "isCorrect": true
+        },
+        {
+          "label": "Customer",
+          "isCorrect": false
+        },
+        {
+          "label": "Supplier",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Isolate",
+      "translate": "Isolare",
+      "quiz": "He was .... from the group to avoid the spread of disease.",
+      "quizTranslate": "È stato isolato dal gruppo per evitare la diffusione della malattia.",
+      "translateList": [
+        {
+          "label": "Isolate",
+          "isCorrect": true
+        },
+        {
+          "label": "Include",
+          "isCorrect": false
+        },
+        {
+          "label": "Join",
+          "isCorrect": false
+        },
+        {
+          "label": "Help",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jail",
+      "translate": "Prigione",
+      "quiz": "He was sent to .... for stealing.",
+      "quizTranslate": "È stato mandato in prigione per furto.",
+      "translateList": [
+        {
+          "label": "Jail",
+          "isCorrect": true
+        },
+        {
+          "label": "Hospital",
+          "isCorrect": false
+        },
+        {
+          "label": "Court",
+          "isCorrect": false
+        },
+        {
+          "label": "House",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jet",
+      "translate": "Jet",
+      "quiz": "The .... flew over the city.",
+      "quizTranslate": "Il jet volò sopra la città.",
+      "translateList": [
+        {
+          "label": "Jet",
+          "isCorrect": true
+        },
+        {
+          "label": "Car",
+          "isCorrect": false
+        },
+        {
+          "label": "Bicycle",
+          "isCorrect": false
+        },
+        {
+          "label": "Helicopter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jury",
+      "translate": "Giuria",
+      "quiz": "The .... decided the winner of the competition.",
+      "quizTranslate": "La giuria ha deciso il vincitore del concorso.",
+      "translateList": [
+        {
+          "label": "Jury",
+          "isCorrect": true
+        },
+        {
+          "label": "Audience",
+          "isCorrect": false
+        },
+        {
+          "label": "Judge",
+          "isCorrect": false
+        },
+        {
+          "label": "Contestant",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Input",
+      "translate": "Input",
+      "quiz": "He gave his .... during the meeting.",
+      "quizTranslate": "Ha dato il suo input durante la riunione.",
+      "translateList": [
+        {
+          "label": "Input",
+          "isCorrect": true
+        },
+        {
+          "label": "Feedback",
+          "isCorrect": false
+        },
+        {
+          "label": "Answer",
+          "isCorrect": false
+        },
+        {
+          "label": "Request",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inquiry",
+      "translate": "Inchiesta",
+      "quiz": "The police started an .... into the missing person case.",
+      "quizTranslate": "La polizia ha avviato un'inchiesta sul caso della persona scomparsa.",
+      "translateList": [
+        {
+          "label": "Inquiry",
+          "isCorrect": true
+        },
+        {
+          "label": "Question",
+          "isCorrect": false
+        },
+        {
+          "label": "Inspection",
+          "isCorrect": false
+        },
+        {
+          "label": "Discussion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Installation",
+      "translate": "Installazione",
+      "quiz": "The .... of the new system took two days.",
+      "quizTranslate": "L'installazione del nuovo sistema ha preso due giorni.",
+      "translateList": [
+        {
+          "label": "Installation",
+          "isCorrect": true
+        },
+        {
+          "label": "Disposal",
+          "isCorrect": false
+        },
+        {
+          "label": "Setup",
+          "isCorrect": false
+        },
+        {
+          "label": "Repair",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Interact",
+      "translate": "Interagire",
+      "quiz": "Students need to .... with the teacher during the class.",
+      "quizTranslate": "Gli studenti devono interagire con l'insegnante durante la lezione.",
+      "translateList": [
+        {
+          "label": "Interact",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Listen",
+          "isCorrect": false
+        },
+        {
+          "label": "Observe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Interaction",
+      "translate": "Interazione",
+      "quiz": "Good .... between staff and customers is important for business.",
+      "quizTranslate": "Una buona interazione tra il personale e i clienti è importante per gli affari.",
+      "translateList": [
+        {
+          "label": "Interaction",
+          "isCorrect": true
+        },
+        {
+          "label": "Conversation",
+          "isCorrect": false
+        },
+        {
+          "label": "Communication",
+          "isCorrect": false
+        },
+        {
+          "label": "Relationship",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }

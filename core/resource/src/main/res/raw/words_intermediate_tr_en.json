@@ -40704,6 +40704,294 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "word": "Invade",
+      "translate": "İstila etmek",
+      "quiz": "The army planned to .... the city.",
+      "quizTranslate": "Ordu, şehri işgal etmeyi planladı.",
+      "translateList": [
+        {
+          "label": "Invade",
+          "isCorrect": true
+        },
+        {
+          "label": "Defend",
+          "isCorrect": false
+        },
+        {
+          "label": "Visit",
+          "isCorrect": false
+        },
+        {
+          "label": "Negotiate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Invasion",
+      "translate": "İstila",
+      "quiz": "The .... caused panic in the town.",
+      "quizTranslate": "İstila, kasabada paniğe yol açtı.",
+      "translateList": [
+        {
+          "label": "Invasion",
+          "isCorrect": true
+        },
+        {
+          "label": "Revolution",
+          "isCorrect": false
+        },
+        {
+          "label": "Peace",
+          "isCorrect": false
+        },
+        {
+          "label": "War",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Investor",
+      "translate": "Yatırımcı",
+      "quiz": "The company needs an .... to fund its new project.",
+      "quizTranslate": "Şirket, yeni projesini finanse etmek için bir yatırımcıya ihtiyaç duyuyor.",
+      "translateList": [
+        {
+          "label": "Investor",
+          "isCorrect": true
+        },
+        {
+          "label": "Customer",
+          "isCorrect": false
+        },
+        {
+          "label": "Supplier",
+          "isCorrect": false
+        },
+        {
+          "label": "Manager",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Isolate",
+      "translate": "Ayırmak, izole etmek",
+      "quiz": "He was .... from the group to avoid the spread of disease.",
+      "quizTranslate": "Hastalık yayılmasın diye gruptan izole edildi.",
+      "translateList": [
+        {
+          "label": "Isolate",
+          "isCorrect": true
+        },
+        {
+          "label": "Include",
+          "isCorrect": false
+        },
+        {
+          "label": "Join",
+          "isCorrect": false
+        },
+        {
+          "label": "Help",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jail",
+      "translate": "Hapis",
+      "quiz": "He was sent to .... for stealing.",
+      "quizTranslate": "Çalmaktan hapis cezasına çarptırıldı.",
+      "translateList": [
+        {
+          "label": "Jail",
+          "isCorrect": true
+        },
+        {
+          "label": "Hospital",
+          "isCorrect": false
+        },
+        {
+          "label": "Court",
+          "isCorrect": false
+        },
+        {
+          "label": "House",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jet",
+      "translate": "Jet",
+      "quiz": "The .... flew over the city.",
+      "quizTranslate": "Jet, şehir üzerinde uçtu.",
+      "translateList": [
+        {
+          "label": "Jet",
+          "isCorrect": true
+        },
+        {
+          "label": "Car",
+          "isCorrect": false
+        },
+        {
+          "label": "Bicycle",
+          "isCorrect": false
+        },
+        {
+          "label": "Helicopter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Jury",
+      "translate": "Jüri",
+      "quiz": "The .... decided the winner of the competition.",
+      "quizTranslate": "Jüri, yarışmanın kazananını belirledi.",
+      "translateList": [
+        {
+          "label": "Jury",
+          "isCorrect": true
+        },
+        {
+          "label": "Audience",
+          "isCorrect": false
+        },
+        {
+          "label": "Judge",
+          "isCorrect": false
+        },
+        {
+          "label": "Contestant",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Input",
+      "translate": "Girdi",
+      "quiz": "He gave his .... during the meeting.",
+      "quizTranslate": "Toplantı sırasında görüşlerini sundu.",
+      "translateList": [
+        {
+          "label": "Input",
+          "isCorrect": true
+        },
+        {
+          "label": "Feedback",
+          "isCorrect": false
+        },
+        {
+          "label": "Answer",
+          "isCorrect": false
+        },
+        {
+          "label": "Request",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Inquiry",
+      "translate": "Soruşturma",
+      "quiz": "The police started an .... into the missing person case.",
+      "quizTranslate": "Polis, kaybolan kişi vakası üzerine soruşturma başlattı.",
+      "translateList": [
+        {
+          "label": "Inquiry",
+          "isCorrect": true
+        },
+        {
+          "label": "Question",
+          "isCorrect": false
+        },
+        {
+          "label": "Inspection",
+          "isCorrect": false
+        },
+        {
+          "label": "Discussion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Installation",
+      "translate": "Kurulum",
+      "quiz": "The .... of the new system took two days.",
+      "quizTranslate": "Yeni sistemin kurulumu iki gün sürdü.",
+      "translateList": [
+        {
+          "label": "Installation",
+          "isCorrect": true
+        },
+        {
+          "label": "Disposal",
+          "isCorrect": false
+        },
+        {
+          "label": "Setup",
+          "isCorrect": false
+        },
+        {
+          "label": "Repair",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Interact",
+      "translate": "Etkileşimde bulunmak",
+      "quiz": "Students need to .... with the teacher during the class.",
+      "quizTranslate": "Öğrenciler derste öğretmenle etkileşimde bulunmalıdır.",
+      "translateList": [
+        {
+          "label": "Interact",
+          "isCorrect": true
+        },
+        {
+          "label": "Ignore",
+          "isCorrect": false
+        },
+        {
+          "label": "Listen",
+          "isCorrect": false
+        },
+        {
+          "label": "Observe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "word": "Interaction",
+      "translate": "Etkileşim",
+      "quiz": "Good .... between staff and customers is important for business.",
+      "quizTranslate": "Personel ve müşteriler arasındaki iyi etkileşim, iş için önemlidir.",
+      "translateList": [
+        {
+          "label": "Interaction",
+          "isCorrect": true
+        },
+        {
+          "label": "Conversation",
+          "isCorrect": false
+        },
+        {
+          "label": "Communication",
+          "isCorrect": false
+        },
+        {
+          "label": "Relationship",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
