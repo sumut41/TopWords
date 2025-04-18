@@ -9,4 +9,5 @@ interface UserManager {
     var isCompletedSetup: Boolean
     fun checkAndUpdateWeeklyAttendance()
     fun getWeeklyAttendance(): Set<Int>
+    var refreshVersion: Long
 }

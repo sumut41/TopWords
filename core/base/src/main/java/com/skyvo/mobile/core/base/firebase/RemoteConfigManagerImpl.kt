@@ -41,4 +41,11 @@ class RemoteConfigManagerImpl : RemoteConfigManager {
         }
         return remoteConfig.getBoolean(key)
     }
+
+    override fun getLong(key: String): Long {
+        if (!::remoteConfig.isInitialized) {
+            remoteConfig = Firebase.remoteConfig
+        }
+        return remoteConfig.getLong(key)
+    }
 }

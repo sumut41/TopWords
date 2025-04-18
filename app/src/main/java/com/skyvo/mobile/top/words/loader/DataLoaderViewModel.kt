@@ -18,6 +18,7 @@ import com.skyvo.mobile.core.database.word.WordRepository
 import com.skyvo.mobile.core.shared.exception.ExceptionFBHelper.Companion.recordException
 import com.skyvo.mobile.core.shared.extension.toJson
 import com.skyvo.mobile.core.shared.extension.toModel
+import com.skyvo.mobile.top.words.constant.GlobalConstant
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -90,6 +91,8 @@ class DataLoaderViewModel @Inject constructor(
             intermediateBookList = remoteConfigManager.getString(
                 "books_intermediate_${nativeLanguageCode}_$learnLanguageCode"
             ).toModel<AppBookParentModel>()?.books
+
+            userManager.refreshVersion = remoteConfigManager.getLong(GlobalConstant.REFRESH_VERSION)
 
             onComplete.invoke(true)
         } catch (ex: Exception) {

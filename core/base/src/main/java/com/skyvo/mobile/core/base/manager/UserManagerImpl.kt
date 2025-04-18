@@ -86,6 +86,12 @@ class UserManagerImpl @Inject constructor(
             userPrefs.set(KEY_GOAL_MINUTE_CODE, value)
         }
 
+    override var refreshVersion: Long
+        get() = userPrefs.get(KEY_REFRESH_VERSION_CODE) ?: 1
+        set(value) {
+            userPrefs.set(KEY_REFRESH_VERSION_CODE, value)
+        }
+
     override var isCompletedSetup: Boolean
         get() = userPrefs.get(KEY_IS_COMPLETED_SETUP) ?: false
         set(value) {
@@ -151,6 +157,7 @@ class UserManagerImpl @Inject constructor(
         private const val KEY_DEFAULT_LANGUAGE_CODE = "key_default_language_code"
         private const val KEY_LEVEL_CODE = "key_choose_level_list"
         private const val KEY_GOAL_MINUTE_CODE = "key_goal_level_minute_code"
+        private const val KEY_REFRESH_VERSION_CODE = "key_client_remote_config_refresh_version"
         private const val KEY_IS_COMPLETED_SETUP = "key_is_completed_setup_key"
     }
 }

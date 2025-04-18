@@ -15,4 +15,8 @@ class RemoteConfigMockManager : RemoteConfigManager {
     override fun getBoolean(key: String): Boolean {
         return false
     }
+
+    override fun getLong(key: String): Long {
+        return 1
+    }
 }

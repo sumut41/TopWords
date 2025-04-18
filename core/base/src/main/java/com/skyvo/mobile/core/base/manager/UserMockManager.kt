@@ -20,6 +20,8 @@ class UserMockManager: UserManager {
 
     override var goalMinute: Int? = 10
 
+    override var refreshVersion: Long = 1
+
     override var isCompletedSetup: Boolean = false
 
     override fun checkAndUpdateWeeklyAttendance() {

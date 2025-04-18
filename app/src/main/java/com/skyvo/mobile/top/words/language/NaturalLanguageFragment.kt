@@ -111,6 +111,13 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
         val list: ArrayList<Language> = arrayListOf()
         list.add(
             Language(
+                code = "tr",
+                name = "Türkçe",
+                icon = R.drawable.ic_flag_tr
+            )
+        )
+        list.add(
+            Language(
                 code = "es",
                 name = "Española",
                 icon = R.drawable.ic_flag_es
@@ -135,13 +142,6 @@ class NaturalLanguageFragment : BaseComposeFragment<NaturalLanguageViewModel>() 
                 code = "it",
                 name = "Italiano",
                 icon = R.drawable.ic_flag_it
-            )
-        )
-        list.add(
-            Language(
-                code = "tr",
-                name = "Türkçe",
-                icon = R.drawable.ic_flag_tr
             )
         )
         vm.setLanguageList(list)
