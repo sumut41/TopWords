@@ -296,7 +296,7 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                     ) {
                         AppText(
                             modifier = Modifier.padding(
-                                start = AppDimension.default.dp24
+                                horizontal = AppDimension.default.dp24
                             ),
                             text = state.selectedWord?.key.orEmpty(),
                             style = AppTypography.default.bodyExtraLargeBold,
@@ -305,6 +305,7 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                         AppText(
                             modifier = Modifier.padding(
                                 start = AppDimension.default.dp24,
+                                end = AppDimension.default.dp24,
                                 top = AppDimension.default.dp8,
                                 bottom = AppDimension.default.dp16
                             ),
@@ -331,7 +332,7 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                     ) {
                         AppText(
                             modifier = Modifier.padding(
-                                start = AppDimension.default.dp24
+                                horizontal = AppDimension.default.dp24
                             ),
                             text = state.selectedSentence.first,
                             style = AppTypography.default.bodyExtraLargeBold,
@@ -340,6 +341,7 @@ class BookDetailFragment : BaseComposeFragment<BookDetailViewModel>() {
                         AppText(
                             modifier = Modifier.padding(
                                 start = AppDimension.default.dp24,
+                                end = AppDimension.default.dp24,
                                 top = AppDimension.default.dp8,
                                 bottom = AppDimension.default.dp16
                             ),
