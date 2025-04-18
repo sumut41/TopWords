@@ -72,7 +72,7 @@ fun AppClickableStory(
                             } else
                                 TextDecoration.Underline,
                             background = if (selectedWord == word.key) {
-                                textColor
+                                textColor.copy(alpha = 0.50f)
                             } else {
                                 Color.Transparent
                             }
