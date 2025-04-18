@@ -166,7 +166,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
     private fun EmptyLetterBoxes(word: String, filledWord: String) {
         val spacing = 4.dp
         val maxBoxSize = 45.dp
-        val minBoxSize = 24.dp
+        val minBoxSize = 32.dp
         val horizontalPadding = AppDimension.default.dp16
 
         BoxWithConstraints(
@@ -227,7 +227,7 @@ class PuzzleQuizFragment : BaseComposeFragment<PuzzleQuizViewModel>() {
     private fun ShuffledLetterBoxes(word: String, onLetterClick: (Char) -> Unit) {
         val spacing = 4.dp
         val maxBoxSize = 45.dp
-        val minBoxSize = 24.dp
+        val minBoxSize = 32.dp
         val horizontalPadding = AppDimension.default.dp16
         val state by viewModel.state.collectAsStateWithLifecycle()
         val availableLetters = state.availableLetters.filter { it.remainingCount > 0 }
